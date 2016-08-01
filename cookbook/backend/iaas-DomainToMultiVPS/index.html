@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="iaas,dmz|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？ - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-07-02">July 02, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/iaas">iaas</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="nginx-反向代理:14e79cee872ccae728a117a22b90a82a">Nginx 反向代理</h1>
+
+<ul>
+<li>可通过域名转发过滤</li>
+<li>可代理服务类型不限</li>
+<li>针对HTTP、HTTPS等特定服务提供更强支持</li>
+<li>nginx-rtmp-module插件可代理视频流媒体服务</li>
+</ul>
+
+<h1 id="传统方式:14e79cee872ccae728a117a22b90a82a">传统方式</h1>
+
+<h2 id="多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a">多网卡绑定固定IP</h2>
+
+<ul>
+<li>成本高
+
+<ul>
+<li>网卡成本</li>
+<li>组网维护成本</li>
+<li>固定IP成本</li>
+</ul></li>
+</ul>
+
+<h2 id="端口映射:14e79cee872ccae728a117a22b90a82a">端口映射</h2>
+
+<ul>
+<li>成本低</li>
+<li>配置较为繁琐</li>
+<li>端口数有限</li>
+</ul>
+
+<h2 id="dmz:14e79cee872ccae728a117a22b90a82a">DMZ</h2>
+
+<ul>
+<li>成本低</li>
+<li>配置便捷</li>
+<li>安全性较低</li>
+</ul>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

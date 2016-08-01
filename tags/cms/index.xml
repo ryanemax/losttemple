@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cms on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/cms/</link>
+    <description>Recent content in Cms on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Mon, 23 May 2016 20:22:22 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>H5页面如何接入google ads实现广告收入？</title>
+      <link>http://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
+      <link>http://cio.anasit.com/cookbook/cms/homesite/</link>
+      <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <description>
+
+&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
+
+&lt;h1 id=&#34;简介:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;项目背景:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;项目背景&lt;/h2&gt;
+
+&lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
+
+&lt;p&gt;本文，将深度探讨，并尝试一次低耦合的CMS系统建设方案。在每个需求环节，选取最佳的技术实现方案，各模块通过RESTful API进行整合及协同。&lt;/p&gt;
+
+&lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;技术总览:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;技术总览&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hugo&lt;/li&gt;
+&lt;li&gt;hugo-themes
+
+&lt;ul&gt;
+&lt;li&gt;galactica&lt;/li&gt;
+&lt;li&gt;演示：&lt;a href=&#34;http://astritbublaku.com/demos/galactica/&#34;&gt;http://astritbublaku.com/demos/galactica/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;li&gt;yaml&lt;/li&gt;
+&lt;li&gt;RESTful APIs&lt;/li&gt;
+&lt;li&gt;github pages&lt;/li&gt;
+&lt;li&gt;rss&lt;/li&gt;
+&lt;li&gt;google ads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;系统架构:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;系统架构&lt;/h1&gt;
+
+&lt;h2 id=&#34;静态页面生成模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;静态页面生成模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Themes 主题机制&lt;/li&gt;
+&lt;li&gt;Templates 模板机制&lt;/li&gt;
+&lt;li&gt;Taxonomies 分类机制&lt;/li&gt;
+&lt;li&gt;Contents 内容格式化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;信息采集聚合模块-aggregator:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RSS 采集&lt;/li&gt;
+&lt;li&gt;Twiter 采集&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;内容筛选解析格式化模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;用户审查发布模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;用户审查发布模块&lt;/h2&gt;
+
+&lt;h2 id=&#34;ugc用户自主写文模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
+&lt;li&gt;选择二：支持api获取文章内容的，在线云笔记&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-cms/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-cms/</guid>
+      <description>
+
+&lt;h1 id=&#34;ng2-seo优化简介:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
+
+&lt;p&gt;ng2应用实现seo优化的方式有多种
+- universial 后端渲染
+- php 后端模拟渲染&lt;/p&gt;
+
+&lt;h1 id=&#34;blackstar-cms-ng2:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
+
+&lt;p&gt;技术选型
+- angular2-seed
+- typescript
+- HTML via HTTP
+- HTML via the Blackstar CMS JavaScript Client
+- .NET (ASP.NET MVC)&lt;/p&gt;
+
+&lt;p&gt;特色功能
+- 基本没有&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blackstarcms.net/&#34;&gt;http://blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;示例 &lt;a href=&#34;http://demo.blackstarcms.net/&#34;&gt;http://demo.blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;star 1 on &lt;a href=&#34;https://github.com/Blackstar-CMS/samples&#34;&gt;https://github.com/Blackstar-CMS/samples&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;respond-5-2-ng1:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
+
+&lt;p&gt;技术选型
+- Bootstrap 3
+- Polymer 1.0
+- Angular 1.4
+- php&lt;/p&gt;
+
+&lt;p&gt;特色功能
+- SEO优化
+- Themes切换&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.respondcms.com&#34;&gt;http://www.respondcms.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;star 714 on &lt;a href=&#34;https://github.com/madoublet/respond&#34;&gt;https://github.com/madoublet/respond&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;8 themes on &lt;a href=&#34;http://www.respondcms.com/page/themes&#34;&gt;http://www.respondcms.com/page/themes&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CMS built with Laravel</title>
+      <link>http://cio.anasit.com/cookbook/cms/cmswithlaravel/</link>
+      <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/cmswithlaravel/</guid>
+      <description>
+
+&lt;h1 id=&#34;october-cms:0ca427d6515b13555446207bc36d4b68&#34;&gt;October CMS&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://octobercms.com/&#34;&gt;https://octobercms.com/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/octobercms/october&#34;&gt;https://github.com/octobercms/october&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;watch 323 star 3388 fork 753&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Best &amp;amp; Beatutiful&lt;/li&gt;
+&lt;li&gt;167 Plugins&lt;/li&gt;
+&lt;li&gt;32 Themes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;doptor:0ca427d6515b13555446207bc36d4b68&#34;&gt;Doptor&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Doptor/Doptor&#34;&gt;https://github.com/Doptor/Doptor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;watch 22 star 79 fork 52&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;企业信息发布，CMS&amp;amp;EMS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Theme少需要定制&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;refer-to-a-list-of-cmss-built-with-laravel:0ca427d6515b13555446207bc36d4b68&#34;&gt;Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo;&lt;/h1&gt;
+
+&lt;p&gt;from: &lt;a href=&#34;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&#34;&gt;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday Ryan Tablada organized a Google Hangout in which Matt Staffer, me (Maks Surguy), Jake Chapman, and Alex Dover were discussing CMSs built with Laravel and the future of such systems.&lt;/p&gt;
+
+&lt;p&gt;You can watch our discussion here and also read the conversation on Google+ (link on the bottom of this post):&lt;/p&gt;
+
+&lt;p&gt;Before the discussion, I had compiled a list of CMSs that already exist or are being built with Laravel and you can see that list below:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Laravel Bootstrap https://github.com/davzie/laravel-bootstrap
+TypiCMS https://github.com/sdebacker/TypiCMS
+Bootstrap starter site https://github.com/andrewelkins/Laravel-4-Bootstrap-Starter-Site
+Pongo CMS v1 (uses Laravel 3) http://pongocms.com – do not use as v2 is being developed
+Wardrobe CMS (blogging) https://github.com/wardrobecms/wardrobe
+CodeSleeve https://github.com/CodeSleeve/platform
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;In development at the moment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PongoCMS v2 http://pongocms.com
+October CMS http://octobercms.com/
+Larapress https://github.com/larapress-cms/larapress
+Coanda https://github.com/CoandaCMS/coanda-core
+PyroCMS v3 https://www.pyrocms.com/
+Platform (Release Candidate) https://cartalyst.com/manual/platform
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Watch our discussion on video&lt;/p&gt;
+
+&lt;p&gt;You can watch the discussion and read the comments here: &lt;a href=&#34;https://plus.google.com/events/caepul2187kfpr84gkluar2mirc&#34;&gt;https://plus.google.com/events/caepul2187kfpr84gkluar2mirc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What do you think about CMSs and particularly about the future of CMS? Let me know in the comments or on Twitter.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

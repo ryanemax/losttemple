@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>vim实用技巧实践 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-17">October 17, 2015</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/vim">vim</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">vim实用技巧实践</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="实用技巧:5b84f273874ec2b027963c3550d969d9">实用技巧</h1>
+
+<p>删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？</p>
+
+<p>清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下backspace？</p>
+
+<p>给一行末尾补分号，A; 不就好了，为什么还要鼠标移过去末尾点一下然后按下; ？</p>
+
+<p>然后给n行末尾补分号，Vjj*选中多行 :normal . 不就好了， 为什么要鼠标一个一个点了然后一个个补？</p>
+
+<p>复制a行插入到b行后， dd掉a行在b行那按下p不就好了。 为什么要鼠标选中a，ctrl+x ，然后到b的末尾按下回车，然后ctrl-v ？</p>
+
+<h1 id="vim-比较文件-多窗口操作:5b84f273874ec2b027963c3550d969d9">vim 比较文件/多窗口操作</h1>
+
+<pre><code class="language-bash">vim -d file1 file2 ...  #垂直打开多窗口,并且进行比较
+vimdiff file1 file2 ..  #等同于上一句
+</code></pre>
+
+<p>打开多个窗口的命令以下几个：</p>
+
+<pre><code class="language-bash">	#横向切割窗口
+:new+窗口名(保存后就是文件名)
+	:split+窗口名，也可以简写为:sp+窗口名
+	 #纵向切割窗口名
+	 :vsplit+窗口名，也可以简写为：vsp+窗口名
+
+	 vim -o file1 file2 ...  #水平打开多窗口，
+	 vim -O file1 file2 ...  #垂直打开多窗口,
+	 vim -d file1 file2 ...  #垂直打开多窗口,并且进行比较
+	 vimdiff file1 file2 ..  #等同于上一句
+</code></pre>
+
+<p>关闭多窗口
+可以用：q!，也可以使用：close，最后一个窗口不能使用close关闭。使用close只是暂时关闭窗口，其内容还在缓存中，只有使用q!、w!或x才能真能退出。</p>
+
+<pre><code class="language-bash"> #关闭窗口
+     q  或 close   #关闭当前窗口
+     only          #保留当前窗口，关闭其它所有窗口
+     qall(qa)          #退出所有窗口
+     wall          #保存所有窗口
+</code></pre>
+
+<p>窗口切换</p>
+
+<pre><code class="language-bash">ctrl+w+j/k #通过j/k可以上下切换，或者:ctrl+w加上下左右键，还可以通过快速双击ctrl+w依次切换窗口。
+</code></pre>
+
+<p>多标签
+直接在编辑的时候输入：</p>
+
+<pre><code class="language-bash">vim -p 要编辑的文件名
+#如vim -p * 就是编辑当前目录的所有文件
+#多个标签间进行切换时向右切换gt，向左切换用gT
+#在编辑的时候想增加一个标签就可以:tabnew filename
+:tabc       关闭当前的tab
+:tabo       关闭所有其他的tab
+:tabs       查看所有打开的tab
+:tabp      前一个
+:tabn      后一个
+</code></pre>
+
+<h1 id="vim代开hexl十六进制模式:5b84f273874ec2b027963c3550d969d9">vim代开HEXl十六进制模式</h1>
+
+<p>Same as hex, just pass -b flag to xxd:</p>
+
+<pre><code class="language-bash">:%!xxd -b
+</code></pre>
+
+<h1 id="vim中执行shell命令:5b84f273874ec2b027963c3550d969d9">vim中执行shell命令</h1>
+
+<p>1):!command
+不退出vim，并执行shell命令command，将命令输出显示在vim的命令区域，不会改变当前编辑的文件的内容
+例如
+:!ls -l</p>
+
+<p>特别的可以运行:!bash来启动一个bash shell并执行命令，不需要退出vim
+2):r !command
+将shell命令command的结果插入到当前行的下一行
+例如
+:r !date，读取系统时间并插入到当前行的下一行。
+3):起始行号,结束行号 !command
+将起始行号和结束行号指定的范围中的内容输入到shell命令command处理，并将处理结果替换起始行号和结束行号指定的范围中的内容
+例如
+:62,72 !sort，将62行到72行的内容进行排序
+可以只指定起始行，例如:62 !tr [a-z] [A-Z]，将62行的小写字母转为大写字母
+当前光标所在行，除可以指定行号外，也可以用.表示，例如:. !tr [a-z] [A-Z]，将当前行的小写转为大写
+4):起始行号,结束行号 w !command
+将起始行号和结束行号所指定的范围的内容作为命令command的输入。不会改变当前编辑的文件的内容
+例如
+:62,72 w !sort，将62行到72行的内容进行排序，但排序的结果并不会直接输出到当前编辑的文件中，而是显示在vim敲命令的区域
+特殊的可以下面这么用
+:62 w !bash，将会把第62行的内容作为bash命令来执行并显示结果，而且不会改变当前编辑的文件的内容
+同样的:. w !bash，将当前行的内容作为bash命令来执行
+例如52行内容为ls -l
+那么输入:52 w !bash就跟执行!ls -l是一样的效果，如果你用的shell是bash shell</p>
+
+<p>如果输入的是:52 !bash，那么会把第52行的内容也就是ls -l作为命令执行，同时命令的输出结果会替换第52行的内容，注意其中的区别。</p>
+
+<h1 id="多行编辑:5b84f273874ec2b027963c3550d969d9">多行编辑</h1>
+
+<h2 id="原生列模式-多行注释:5b84f273874ec2b027963c3550d969d9">原生列模式(多行注释)</h2>
+
+<p>多行注释按键操作：
+      注释：Ctrl-v 进入列编辑模式，向下或向上移动光标，把需要注释的行的开头标记起来，然后按大写的I，再插入注释符比如&rdquo;#&ldquo;，按Esc，就会全部注释了。
+      删除：Ctrl-v 进入列编辑模式，向下或向上移动光标，选中注释部分，按d，就会删除注释符号。</p>
+
+<p>多行注释使用替换命令：
+            :%s/^/\/\//g来在全部内容的行首添加//号注释
+             :2,50s/^/\/\//g在2~50行首添加//号注释
+            反过来替换既是删除操作。</p>
+
+<h2 id="多行标记插件:5b84f273874ec2b027963c3550d969d9">多行标记插件</h2>
+
+<h1 id="vim单文件操作:5b84f273874ec2b027963c3550d969d9">VIM单文件操作</h1>
+
+<h2 id="光标定位快捷键:5b84f273874ec2b027963c3550d969d9">光标定位快捷键</h2>
+
+<pre><code>到指定行  :行号，行号G
+ 到文件头 1G
+ 到文件尾 G
+ 左下上右 h,j,k,l
+ 下一个字 w，上一个字 b   
+ 到行首   ^
+ 到行尾   $
+ 行尾插入 A，添加空行 o
+</code></pre>
+
+<h2 id="在函数中定位光标:5b84f273874ec2b027963c3550d969d9">在函数中定位光标</h2>
+
+<p>[[  转到上一个位于第一列的“{”
+]]  转到下一个位于第一列的“{”
+{   转到上一个空行
+}   转到下一个空行</p>
+
+<h2 id="查找当前文件:5b84f273874ec2b027963c3550d969d9">查找当前文件</h2>
+
+<p>n,N       查找到key后，n跳到后一个位置，N跳到前一个位置</p>
+
+<ul>
+<li>, #     当前光标所在的词key作为关键字，精确匹配查找，相当于/&lt;key&gt;</li>
+</ul>
+
+<p>g*, g#    当前光标所在的词key作为关键字，忽略大小写查找，相当于/key
+/key      从当前光标位置开始向后查找key</p>
+
+<p>?key      从当前光标位置开始向前查找key
+/&lt;key&gt;，?&lt;key&gt;  精确匹配查找key</p>
+
+<h2 id="批量替换:5b84f273874ec2b027963c3550d969d9">批量替换</h2>
+
+<p>:%s/要被取代的字串/新的字串/g</p>
+
+<h2 id="复制粘贴删除:5b84f273874ec2b027963c3550d969d9">复制粘贴删除</h2>
+
+<pre><code>  复制行 yy    复制n行 nyy
+  粘贴行 p
+  删除行 dd    删除n行 ndd
+  删除字 dw    复制字  yw
+
+  可视块选择复制：
+         进入可视化模式 v，V，Ctrl-v
+         可视化模式下，方向键选择块
+         按y复制选择的块
+</code></pre>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2015  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

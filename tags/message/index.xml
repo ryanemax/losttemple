@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Message on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/message/</link>
+    <description>Recent content in Message on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Sun, 29 Nov 2015 15:05:51 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/message/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>常见开源消息系统/中间件技术评选</title>
+      <link>http://cio.anasit.com/cookbook/backend/messagesystem/</link>
+      <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/messagesystem/</guid>
+      <description>
+
+&lt;h1 id=&#34;常见开源消息系统-中间件技术评选:98a09982e72308c69ab2b124e86725d9&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
+
+&lt;h2 id=&#34;golang项目中mq系统的选择:98a09982e72308c69ab2b124e86725d9&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackshare.io/stackups/rabbitmq-vs-nsq&#34;&gt;http://stackshare.io/stackups/rabbitmq-vs-nsq&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rabbitmq-golang-client:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/streadway/amqp&#34;&gt;https://github.com/streadway/amqp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go&#34;&gt;https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准&lt;/p&gt;
+
+&lt;h3 id=&#34;gonsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;gonsq&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/nsqio/nsq&#34;&gt;https://github.com/nsqio/nsq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nsq.io/&#34;&gt;http://nsq.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;适用场景：弱事务，日志系统&lt;/p&gt;
+
+&lt;h3 id=&#34;kafka-flume:98a09982e72308c69ab2b124e86725d9&#34;&gt;kafka+flume&lt;/h3&gt;
+
+&lt;p&gt;适用场景：日志、大数据&lt;/p&gt;
+
+&lt;h2 id=&#34;消息系统的作用:98a09982e72308c69ab2b124e86725d9&#34;&gt;消息系统的作用&lt;/h2&gt;
+
+&lt;p&gt;异步处理、削减峰值、减少组件之间的耦合。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;是否持久化&lt;/li&gt;
+&lt;li&gt;吞吐能力&lt;/li&gt;
+&lt;li&gt;高可用&lt;/li&gt;
+&lt;li&gt;分布式扩展能力&lt;/li&gt;
+&lt;li&gt;兼容现有协议&lt;/li&gt;
+&lt;li&gt;易于维护&lt;/li&gt;
+&lt;li&gt;其他，如消息丢失和重复的处理&lt;/li&gt;
+&lt;li&gt;避免单点故障&lt;/li&gt;
+&lt;li&gt;负载均衡&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;常见消息系统协议:98a09982e72308c69ab2b124e86725d9&#34;&gt;常见消息系统协议&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;STOMP&lt;/li&gt;
+&lt;li&gt;AMQP&lt;/li&gt;
+&lt;li&gt;MEMCACHE协议&lt;/li&gt;
+&lt;li&gt;HTTP&lt;/li&gt;
+&lt;li&gt;自定格式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;较好的开源系统列表:98a09982e72308c69ab2b124e86725d9&#34;&gt;较好的开源系统列表&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RabbitMQ&lt;/li&gt;
+&lt;li&gt;NSQ&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;nsq-和-rabiitmq的对比:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
+
+&lt;h2 id=&#34;nsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nsq.io/overview/quick_start.html&#34;&gt;http://nsq.io/overview/quick_start.html&lt;/a&gt;
+&lt;img src=&#34;http://media.tumblr.com/edb403d38fc2bcc727b8655ea70eb3a7/tumblr_inline_mf8sfr2sp41qj3yp2.png&#34; alt=&#34;nsq&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;无中心设计、节点自动注册和发现。可以考虑作为内部通讯框架的基础。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bitly/nsq&#34;&gt;https://github.com/bitly/nsq&lt;/a&gt;
+* 追求简单部署
+* 追求高可用、避免单点故障、无中心设计
+* 确保消息送达
+* 生产者消费者自动发现、消费者连接所有生产者、向消费者推的模式
+* 提供 HTTP 接口&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/snakes/nsq-nyc-golang-meetup&#34;&gt;https://speakerdeck.com/snakes/nsq-nyc-golang-meetup&lt;/a&gt;
+&lt;a href=&#34;https://github.com/davegardnerisme/nsqphp&#34;&gt;https://github.com/davegardnerisme/nsqphp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.davegardner.me.uk/blog/tag/nsq/&#34;&gt;http://www.davegardner.me.uk/blog/tag/nsq/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;NSQ组合比较自由。&lt;/p&gt;
+
+&lt;p&gt;可以单独使用nsqd，Producer和Consumer自己直接连接nsqd。&lt;/p&gt;
+
+&lt;p&gt;也可以利用nsqlookupd来管理nsqd（根据心跳，挑选出可用的nsqd），Producer和Consumer跟nsqlookupd来交互。&lt;/p&gt;
+
+&lt;p&gt;======================================&lt;/p&gt;
+
+&lt;p&gt;RabbitMQ里面的Exchange类似nsqd，queen类似channel。&lt;/p&gt;
+
+&lt;h2 id=&#34;rabbitmq:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.blog.csdn.net/20140220173559828&#34; alt=&#34;RabbitMQ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2500 job/s 入队列 1300 job/s 出队列
+适合小消息
+分布式无单点设计
+底层为 Erlang 实现
+有评论: RabbitMQ could not enqueue/dequeue fast enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html&#34;&gt;https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;对于一个数据从Producer到Consumer的正确传递，还有三个概念需要明确：exchanges, queues and bindings。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    **Exchanges** are where producers publish their messages.
+
+    **Queuesare** where the messages end up and are received by consumers
+
+    **Bindings** are how the messages get routed from the exchange to particular queues.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;还有几个概念是上述图中没有标明的，那就是Connection（连接），Channel（通道，频道）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connection&lt;/strong&gt;： 就是一个TCP的连接。Producer和Consumer都是通过TCP连接到RabbitMQ Server的。以后我们可以看到，程序的起始处就是建立这个TCP连接。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Channels&lt;/strong&gt;： 虚拟连接。它建立在上述的TCP连接中。数据流动都是在Channel中进行的。也就是说，一般情况是程序起始建立TCP连接，第二步就是建立这个Channel。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

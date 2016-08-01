@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>如何用markdown生成带目录、页眉、页脚的pdf？  - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-31">March 31, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/study">study</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/markdown">markdown</a>
+
+        <a href="http://cio.anasit.com/tags/pdf">pdf</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">如何用markdown生成带目录、页眉、页脚的pdf？ </h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="如何用markdown生成带目录-页眉-页脚的pdf:aa732d2fa204cfa61b995e1838c3ec41">如何用markdown生成带目录、页眉、页脚的pdf？</h1>
+
+<p><a href="http://pandoc.org/demos.html">http://pandoc.org/demos.html</a></p>
+
+<h1 id="todo-list:aa732d2fa204cfa61b995e1838c3ec41">TODO List</h1>
+
+<ul>
+<li>[OK] 实现基础的md转pdf的shell脚本</li>
+<li>将md转pdf封装成云服务，为整个安纳斯联盟提供</li>
+</ul>
+
+<h1 id="相关的转化方式:aa732d2fa204cfa61b995e1838c3ec41">相关的转化方式</h1>
+
+<ul>
+<li>markdown =&gt; html =&gt; pdf
+
+<ul>
+<li>选择/推荐</li>
+</ul></li>
+<li>markdown =&gt; latex =&gt; pdf
+
+<ul>
+<li><a href="http://stackoverflow.com/questions/1360869/how-to-use-html-to-print-header-and-footer-on-every-printed-page">How to use HTML to print header and footer on every printed page?</a></li>
+</ul></li>
+</ul>
+
+<h1 id="pandoc-latex模板:aa732d2fa204cfa61b995e1838c3ec41">pandoc+Latex模板</h1>
+
+<h2 id="latex基础:aa732d2fa204cfa61b995e1838c3ec41">latex基础</h2>
+
+<ul>
+<li><a href="http://www.latexstudio.net">http://www.latexstudio.net</a></li>
+</ul>
+
+<h2 id="推荐字体:aa732d2fa204cfa61b995e1838c3ec41">推荐字体</h2>
+
+<pre><code class="language-sh">## 建议用于标题的字体
+-V mainfont=&quot;思源黑体 CN&quot;
+
+pacman -S adobe-source-han-sans-cn-fonts
+
+## 建议用与特殊段落的字体
+-V mainfont=&quot;AR PL New Kai&quot;
+
+pacman -S opendesktop-fonts
+</code></pre>
+
+<h2 id="常用脚本:aa732d2fa204cfa61b995e1838c3ec41">常用脚本</h2>
+
+<pre><code class="language-sh">## 简单版
+pandoc --latex-engine=xelatex README.md -o read.pdf -V mainfont=&quot;思源黑体 CN&quot; --highlight-style pygments
+## 带段落与头部
+pandoc -N --template=mytemplate.tex --variable mainfont=&quot;Palatino&quot; --variable sansfont=&quot;Century Gothic&quot; --variable monofont=&quot;Consolas&quot; --variable fontsize=12pt --variable version=1.15.2 README.md --latex-engine=xelatex --toc -o readexam.pdf --highlight-style pygments
+
+## 字体变量可省略
+pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=1.15.2 README.md --latex-engine=xelatex --toc -o readexam.pdf --highlight-style pygments -V mainfont=&quot;&quot;
+</code></pre>
+
+<h2 id="代码高亮:aa732d2fa204cfa61b995e1838c3ec41">代码高亮</h2>
+
+<p>推荐样式：
+- pygments</p>
+
+<pre><code class="language-sh">--highlight-style kate
+
+--highlight-style pygments
+
+--highlight-style kate
+
+--highlight-style monochrome
+
+--highlight-style espresso
+
+--highlight-style haddock
+
+--highlight-style tango
+
+--highlight-style zenburn
+</code></pre>
+
+<h2 id="常见错误:aa732d2fa204cfa61b995e1838c3ec41">常见错误</h2>
+
+<pre><code class="language-sh"># 报错：缺少latex文件
+! LaTeX Error: File etoolbox.sty not found.
+
+apt-get install texlive-latex-extra
+
+pacman -S texlive-latexextra
+
+# 报错：中文不显示错误
+pandoc --latex-engine=xelatex README.md -o read.pdf -V mainfont=&quot;SimSun&quot;
+
+## 报错 缺少字体
+fontspec error: &quot;font-not-found&quot;
+## 查看当前系统字体
+fc-list
+## 列出所有能被 xetex 使用的字体
+fc-list :outline -f &quot;%{family}\n&quot; | sort -u
+## 推荐字体
+&quot;文泉驿微米黑&quot;
+</code></pre>
+
+<h2 id="图片分页问题:aa732d2fa204cfa61b995e1838c3ec41">图片分页问题</h2>
+
+<p>圖片唯一的問題是，pandoc有時會將表格放在錯誤的位置。因為某些圖片過高，所以pandoc會把他們插入到一個新的空白頁，然後將後面的內容直接查到表格前面，這樣很容易產生錯位。有兩個解決辦法，一是，轉換到latex後，手動修改圖片位置，當然這個比較痛苦；二是在圖片後面加入一個latex的分頁比較\pagebreak，讓後面的內容自動寫到新的一頁上，儘管這樣比較廢紙。</p>
+
+<h3 id="手动调整:aa732d2fa204cfa61b995e1838c3ec41">手动调整</h3>
+
+<h3 id="latex-figureseries宏包让figure浮动环境支持自动换页:aa732d2fa204cfa61b995e1838c3ec41">LaTeX：figureSeries宏包让figure浮动环境支持自动换页</h3>
+
+<p><a href="http://bbs.pinggu.org/thread-4487763-1-1.html">http://bbs.pinggu.org/thread-4487763-1-1.html</a></p>
+
+<p>通常，我们在写论文插图的时候，都会使用到浮动环境figure，如果插图很多，比如十几个子图构成的图，往往非常麻烦，因为本身浮动环境是无法自动换页的，下面这一宏包可以让浮动环境也可以自动换页了，作者也给出了在IEEE模板里使用的实际样例，有兴趣的用户可以下载试用下。</p>
+
+<p>选自：<a href="https://github.com/thomasWeise/figureSeries">https://github.com/thomasWeise/figureSeries</a></p>
+
+<h1 id="atom编辑器latex常用插件:aa732d2fa204cfa61b995e1838c3ec41">atom编辑器latex常用插件</h1>
+
+<ul>
+<li>language-latex</li>
+</ul>
+
+<h1 id="html-css-尝试中:aa732d2fa204cfa61b995e1838c3ec41">html+css(尝试中)</h1>
+
+<pre><code class="language-sh">pandoc READEME.md -f markdown -t html &gt;&gt; temp.html
+
+echo &gt;&gt; &quot;&lt;/body&gt;&lt;/html&gt;&quot;
+</code></pre>
+
+<h1 id="md转pdf脚本实现:aa732d2fa204cfa61b995e1838c3ec41">md转pdf脚本实现</h1>
+
+<pre><code class="language-sh">#!/bin/sh
+message1=&quot;请输入正确格式，如：./genpdf.sh &lt;srcfile&gt; &lt;buildname&gt;&quot;
+message2=&quot;例如文件：./genpdf.sh README.md readme&quot;
+message3=&quot;例如目录：./genpdf.sh anasinc/department/ depart&quot;
+if [ $# -eq 0 ]       ##判断参数是否存在
+then
+	echo $message1
+	echo $message2
+	echo $message3
+	exit                     ##不存在退出
+fi
+if [ x$1 = x ]       ##判断参数1是否存在
+then
+	echo $message1
+	echo $message2
+	echo $message3
+	exit                     ##不存在退出
+fi
+if [ x$2 = x ]       ##判断参数2是否存在
+then
+	echo $message1
+	echo $message2
+	echo $message3
+	exit                     ##不存在退出
+fi
+srcfile=$1
+buildname=$2
+currentdir=$(pwd)
+
+if [ -d $1 ]
+then
+	# 如果源文件参数是目录，则获取目录下所有.md文档
+	cd $1
+	srcfile=$(ls | sed &quot;s:^:`pwd`/:&quot;)
+fi
+
+echo $srcfile
+
+cd $currentdir
+
+pandoc -N --template=.tpl/anas.tex --variable fontsize=12pt ${srcfile} --latex-engine=xelatex --toc -o build/${buildname}.pdf --highlight-style kate -V mainfont=&quot;思源黑体 CN&quot; -V sansfont=&quot;思源黑体 CN&quot; -V monofont=&quot;思源黑体 CN&quot;
+firefox build/${buildname}.pdf
+</code></pre>
+
+<h1 id="latex模板文件定制:aa732d2fa204cfa61b995e1838c3ec41">latex模板文件定制</h1>
+
+<h2 id="模板资源:aa732d2fa204cfa61b995e1838c3ec41">模板资源</h2>
+
+<p><a href="https://github.com/jgm/pandoc/wiki/User-contributed-templates">https://github.com/jgm/pandoc/wiki/User-contributed-templates</a></p>
+
+<h2 id="latex基础用法:aa732d2fa204cfa61b995e1838c3ec41">latex基础用法</h2>
+
+<p><a href="https://latex-project.org/guides/usrguide.pdf">https://latex-project.org/guides/usrguide.pdf</a></p>
+
+<h2 id="使用fancy定制页眉页脚:aa732d2fa204cfa61b995e1838c3ec41">使用fancy定制页眉页脚</h2>
+
+<p><a href="http://www.ctex.org/documents/packages/layout/fancyhdr.htm">http://www.ctex.org/documents/packages/layout/fancyhdr.htm</a></p>
+
+<p><a href="http://www.ctex.org/documents/packages/layout/fancyhdr.pdf">http://www.ctex.org/documents/packages/layout/fancyhdr.pdf</a></p>
+
+<p>利用 fancyhdr 宏包提供的命令，可以方便的作到：</p>
+
+<ul>
+<li>自定义页眉和页脚。</li>
+<li>为页眉和页脚加上装饰性的横线。</li>
+<li>页眉和页脚的宽度可以超过正文文本的宽度。</li>
+<li>多行的页眉和页脚。</li>
+<li>奇偶页使用不同格式的页眉和页脚。</li>
+<li>每章的首页使用不同格式的页眉和页脚。</li>
+<li>浮动对象页使用不同格式的页眉和页脚。</li>
+<li>控制页眉和页脚的字体，包括字形，字族，大小写等。</li>
+</ul>
+
+<h2 id="目录与正文在同一页:aa732d2fa204cfa61b995e1838c3ec41">目录与正文在同一页</h2>
+
+<p>在目录后$body$前，加入</p>
+
+<pre><code class="language-latex">\newpage
+</code></pre>
+
+<h2 id="正文第一页与页眉重叠:aa732d2fa204cfa61b995e1838c3ec41">正文第一页与页眉重叠</h2>
+
+<p>最简单的就是正文/$body$前加入</p>
+
+<pre><code class="language-latex">% fix the no.2 page covered by header
+\thispagestyle{empty}
+\newpage
+\itshape{\hspace{1em}}
+\\[0.4em]
+% end of fix the no.2 page covered by header
+</code></pre>
+
+<h2 id="中文无法自动换行问题:aa732d2fa204cfa61b995e1838c3ec41">中文无法自动换行问题</h2>
+
+<p>上面问题在与中文行没有被换行，参考了一下<a href="https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.latex">Tzeng Yuxio同学的模板</a>，中文的换行 通过\XeTeXlinebreaklocale &ldquo;zh&rdquo;实现。而在pandoc的缺省模板中是没有这个设置的。因此考虑修改缺省的latex模板。方法如下：</p>
+
+<p>在模板的这个部分下面加上这一行\XeTeXlinebreaklocale &ldquo;zh&rdquo;</p>
+
+<pre><code class="language-sh">$if(mathfont)$
+    \setmathfont(Digits,Latin,Greek){$mathfont$}
+$endif$
+</code></pre>
+
+<h2 id="实用案例-添加水印:aa732d2fa204cfa61b995e1838c3ec41">实用案例：添加水印</h2>
+
+<p><a href="http://www.ctan.org/pkg/draftwatermark">http://www.ctan.org/pkg/draftwatermark</a></p>
+
+<p><a href="ftp://ftp.u-aizu.ac.jp/pub/tex/CTAN/macros/latex/contrib/draftwatermark/draftwatermark.pdf">ftp://ftp.u-aizu.ac.jp/pub/tex/CTAN/macros/latex/contrib/draftwatermark/draftwatermark.pdf</a></p>
+
+<pre><code class="language-latex">\usepackage[firstpage]{draftwatermark} %此处可选项为firstpage表只有第一页有，若为空则表示所有页面都有水印
+
+\SetWatermarkText{此处为水印内容}%若要多行显示可以用
+
+\SetWatermarkColor{red}
+
+\SetWatermarkColor[rgb]{0,1,0}
+
+\SetWatermarkText{\shortstack{水印第一行\\水印第二行}}
+%此WatermarkText作用范围为所在页到下一个\SetWatermarkText设置的页
+
+\SetWatermarkScale{0.3}          %设定大小
+
+\SetWatermarkLightness{0.88}%defaultis0.8
+</code></pre>
+
+<h1 id="参考文章:aa732d2fa204cfa61b995e1838c3ec41">参考文章</h1>
+
+<p><a href="https://www.douban.com/note/330859852/">使用pandoc markdown寫作後記</a></p>
+
+<p><a href="http://yangsan.github.io/articles/latex/pandoc_markdown_pdf.html">用pandoc-markdown，像写word一样写pdf</a></p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

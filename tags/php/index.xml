@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/php/</link>
+    <description>Recent content in Php on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>dreamfactory常见问题汇总</title>
+      <link>http://cio.anasit.com/faq/dreamfactory/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/dreamfactory/</guid>
+      <description>
+
+&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
+Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
+Loading composer repositories with package information
+Installing dependencies from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for mongodb/mongodb 1.0.2 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+  Problem 2
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+    - jenssegers/mongodb v3.0.2 requires mongodb/mongodb ^1.0.0 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - Installation request for jenssegers/mongodb v3.0.2 -&amp;gt; satisfiable by jenssegers/mongodb[v3.0.2].
+
+  To enable extensions, verify that they are enabled in those .ini files:
+    - /etc/php5/cli/php.ini
+    - /etc/php5/cli/conf.d/05-opcache.ini
+    - /etc/php5/cli/conf.d/10-pdo.ini
+    - /etc/php5/cli/conf.d/20-apcu.ini
+    - /etc/php5/cli/conf.d/20-curl.ini
+    - /etc/php5/cli/conf.d/20-gd.ini
+    - /etc/php5/cli/conf.d/20-json.ini
+    - /etc/php5/cli/conf.d/20-mongo.ini
+    - /etc/php5/cli/conf.d/20-mysql.ini
+    - /etc/php5/cli/conf.d/20-mysqli.ini
+    - /etc/php5/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php5/cli/conf.d/20-readline.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示mongo插件&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php &amp;ndash;ini&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
+
+apt-get install libssl-dev
+
+apt-get install pkg-config
+
+pecl install mongodb
+
+vim /etc/php5/cli/php.ini
+
+# add this line
+# extension = mongodb.so
+
+composer install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;composer install
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

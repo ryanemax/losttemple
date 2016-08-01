@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baas on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/baas/</link>
+    <description>Recent content in Baas on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/baas/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>dreamfactory常见问题汇总</title>
+      <link>http://cio.anasit.com/faq/dreamfactory/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/dreamfactory/</guid>
+      <description>
+
+&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
+Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
+Loading composer repositories with package information
+Installing dependencies from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for mongodb/mongodb 1.0.2 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+  Problem 2
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+    - jenssegers/mongodb v3.0.2 requires mongodb/mongodb ^1.0.0 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - Installation request for jenssegers/mongodb v3.0.2 -&amp;gt; satisfiable by jenssegers/mongodb[v3.0.2].
+
+  To enable extensions, verify that they are enabled in those .ini files:
+    - /etc/php5/cli/php.ini
+    - /etc/php5/cli/conf.d/05-opcache.ini
+    - /etc/php5/cli/conf.d/10-pdo.ini
+    - /etc/php5/cli/conf.d/20-apcu.ini
+    - /etc/php5/cli/conf.d/20-curl.ini
+    - /etc/php5/cli/conf.d/20-gd.ini
+    - /etc/php5/cli/conf.d/20-json.ini
+    - /etc/php5/cli/conf.d/20-mongo.ini
+    - /etc/php5/cli/conf.d/20-mysql.ini
+    - /etc/php5/cli/conf.d/20-mysqli.ini
+    - /etc/php5/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php5/cli/conf.d/20-readline.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示mongo插件&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php &amp;ndash;ini&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
+
+apt-get install libssl-dev
+
+apt-get install pkg-config
+
+pecl install mongodb
+
+vim /etc/php5/cli/php.ini
+
+# add this line
+# extension = mongodb.so
+
+composer install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;composer install
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MBaaS产品调研及私有云解决方案草稿</title>
+      <link>http://cio.anasit.com/cookbook/backend/baas/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/baas/</guid>
+      <description>
+
+&lt;h1 id=&#34;热门baas简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;热门baas简介&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.techweb.com.cn/network/virtual/2016-01-05/2252623.shtml&#34;&gt;应用开发不可不知的五大BaaS后端云服务 &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;baas公有云:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;baas公有云&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase google收购的专业baas服务，完美整合angular2，在华无法使用&lt;/li&gt;
+&lt;li&gt;wilddog 国内，仿firebase，api通用&lt;/li&gt;
+&lt;li&gt;parse 主要提供移动端推送及统计服务，官方GO，开源版Nodejs&lt;/li&gt;
+&lt;li&gt;LeanCloud 国内，仿parse，api通用&lt;/li&gt;
+&lt;li&gt;bluemix IBM创办的paas平台，附带baas服务，2016年6月已入华&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;baas私有云:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;baas私有云&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;appery.io 最完美的HybirdApp云服务MBaaS，配套在线设计IDE，在线Cordova打包&lt;/li&gt;
+&lt;li&gt;dreamfactory 针对RESTful APIs的资源控制，基于Laravel+Swagger2&lt;/li&gt;
+&lt;li&gt;kinvey&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;市场分析:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;市场分析&lt;/h1&gt;
+
+&lt;h2 id=&#34;对传统开发模式带来的影响:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;对传统开发模式带来的影响&lt;/h2&gt;
+
+&lt;p&gt;前端影响 &lt;a href=&#34;https://www.zhihu.com/question/27087120&#34;&gt;https://www.zhihu.com/question/27087120&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;后端影响 &lt;a href=&#34;https://www.zhihu.com/question/29600252&#34;&gt;https://www.zhihu.com/question/29600252&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;开发人员的岗位结构发生转型，简化重复的抽象操作，关注业务本身逻辑&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;前端／客户端＋少许云端js代码&lt;/li&gt;
+&lt;li&gt;后台 负责数据的获取（爬虫）分析处理（商业智能）预测判断（机器学习）&lt;/li&gt;
+&lt;li&gt;后端的服务化，API化；  前端的多样化，静态化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;页面逐渐应用化。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从最早的B/S产品架构看，页面层属于MVC中的V，是由服务端输出的，服务端的输出结果是页面。&lt;/p&gt;
+
+&lt;p&gt;［M］－［C］－［V］ ｜ 浏览器&lt;/p&gt;
+
+&lt;p&gt;后来逐步AJAX化了之后，也增加了一些输出数据的接口。&lt;/p&gt;
+
+&lt;p&gt;［M］－［C］－［V / Data］ ｜ 浏览器&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;响应式程序，俗称后端的前台 API GET/POST响应&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;大部分会被baas替代，原因是其逻辑很容易被抽象，即便少许复杂的也可通过云端的js／nodejs搞定&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;非响应式程序，俗称后端的后台程序&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;例如自动化运维 机器学习 爬虫 复杂业务数据分析处理 大数据。
+  不会被替代，但会发展更加蓬勃，人才涌入及工作简化。&lt;/p&gt;
+
+&lt;h1 id=&#34;mbaas-是baas在mobile细分领域的应用:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;MBaaS 是BaaS在mobile细分领域的应用&lt;/h1&gt;
+
+&lt;h2 id=&#34;产品结构简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;产品结构简介&lt;/h2&gt;
+
+&lt;p&gt;参考 appery.io 整理出一下必备功能模块&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;App Builder
+
+&lt;ul&gt;
+&lt;li&gt;Cross-Platform Development&lt;/li&gt;
+&lt;li&gt;Custom UI Components&lt;/li&gt;
+&lt;li&gt;Write Custom JS or CSS&lt;/li&gt;
+&lt;li&gt;Model-Based Data Structure&lt;/li&gt;
+&lt;li&gt;Advanced Storage Layer&lt;/li&gt;
+&lt;li&gt;Source Code Editing&lt;/li&gt;
+&lt;li&gt;App Deployment&lt;/li&gt;
+&lt;li&gt;Certificate Management&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Backend Services
+
+&lt;ul&gt;
+&lt;li&gt;Database&lt;/li&gt;
+&lt;li&gt;Push Notifications&lt;/li&gt;
+&lt;li&gt;User Management&lt;/li&gt;
+&lt;li&gt;File Management&lt;/li&gt;
+&lt;li&gt;Visual Web Console&lt;/li&gt;
+&lt;li&gt;Instant REST APIs&lt;/li&gt;
+&lt;li&gt;Query Editor&lt;/li&gt;
+&lt;li&gt;Server Code&lt;/li&gt;
+&lt;li&gt;Jobs Scheduler&lt;/li&gt;
+&lt;li&gt;Web Hooks&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API Express&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;appbuilder:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;AppBuilder&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ionic creator
+
+&lt;ul&gt;
+&lt;li&gt;ionic官方开发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;appgyver
+
+&lt;ul&gt;
+&lt;li&gt;支持PhoneGap&lt;/li&gt;
+&lt;li&gt;与DreamFactory合作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;backend-services:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;Backend Services&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DreamFactory
+
+&lt;ul&gt;
+&lt;li&gt;提供RESTful全系列api构建&lt;/li&gt;
+&lt;li&gt;缺少push推送功能，缺少即时通信功能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Parse Server+Dashboard
+
+&lt;ul&gt;
+&lt;li&gt;实时推送&lt;/li&gt;
+&lt;li&gt;数据分析&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;backend-service-评比选型:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;Backend Service 评比选型&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;类目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Firebase&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;DreamFactory&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;私有部署&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;不支持&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;免费版开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;完全开源&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;导入导出&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;可整体导出为.dfpkg2文件&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Auth] 验证体系&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;用户User&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;用户User+角色Role&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;User+Role+Session&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Data/Schema] 数据操作 RESTful&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Storage] 文件存储&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有(多选)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[DB Ext] 数据库扩展性&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无法扩展&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;可选用mysql、pgsql等驱动，便于数据库级别接入其他系统&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mongodb&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[ng2sdk]&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;angularfire2&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://github.com/dreamfactorysoftware/angular2-sdk&#34;&gt;angular2-sdk&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;暂无&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Push] 消息推送&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Analytics] APP分析&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Crash Report] 错误反馈&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[RealTime Communication] 实时通信&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;websocket&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

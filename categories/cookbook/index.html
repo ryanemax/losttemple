@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Cookbook - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+<main role="main" class="article-list">
+  <h1 class="list-title">Cookbook</h1>
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/backend/iaas-DomainToMultiVPS/">如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-07-02">July 02, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    Nginx 反向代理 可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频流媒体服务 传统方式 多网卡绑定固定IP 成本高 网卡成本 组网维护成本 固定IP成本 端口映射 成本低 配置较为繁琐 端口数有限 DMZ 成本低 配置便捷 安全性较低 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/backend/paas-deploy/">用于公开项目演示的paas服务选型</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-06-08">June 08, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.github.io即可 项目主页 项目内 新建分支 gh-pages即可 https://github.ccom https://git.oschina.com 服务演示 MoPaaS 较新，基于Cloud Foundry封装后的公有云PaaS平台 费用  
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/api/apitrends/">API领域创业公司及其发展动态浅析</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-06-05">June 05, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    简介 API 生态图解 位置 项目/公司 MBaaS服务 实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix APIs仓库 apis.guru 构建工具链 mulesoft restlet apigee 底层规则 raml swagger 使用RAML与APIkit以实现API需求层次中所定义的目标 API Spec 规则制定 详见：RESTful API规范解决方案评选 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/pkm/card/">终于受不了铺天盖地的名片了，需要整顿一下</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-06-03">June 03, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    资料搜集 三款名片管理APP大比拼 推荐一款好用的电子名片app？ 7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em 实际体验 Zappoint 淘汰 邮箱登陆 拍照识别 中文较差 只有正面 同步通讯录 排列方式 时间排列 公司排列 姓名排列 CamCard 名片万能王 选用 邮箱/手机登陆 可绑定领英 可绑定微博 拍照识别 中文识别优 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/README/">个人知识管理解决方案</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-04-01">April 01, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    个人知识管理（规划中） 简介及技术点 距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知识的技巧。 文档编辑 markdown latex pandoc YAML 版本控制 git github bitbucket 静态博客 github pages hugo disqus disqus 列表页统计数量 count.js http://html5up.net/ 思维导图 xm  <a href="/README/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/fuckGFW/">Every one should learn how to Fuck The GFW</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-27">March 27, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    Windows程序socks代理（用于游戏） shadowsocks-gui SocksCap64 3.0 http://www.sockscap64.com/ Linux代理 apt-get install shadowsocks apt-get install privoxy sh export http_proxy=http://127.0.0.1:8118 export https_proxy=http://127.0.0 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/linux-tar/">Linux最佳文件压缩方式</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-27">March 27, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下 压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz   <a href="/cookbook/devops/linux-tar/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/atom/">Atom实践探索</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-25">March 25, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    官方手册：http://flight-manual.atom.io/ 搜集尝试阶段 开发者的15个实用的 Atom Packages http://www.cnblogs.com/Darren_code/p/atom.html Setting 取消保存时自动格式化Markdown 整合hugo后，头部往往需要写入toml/json的配置项，如果保存自动美化，会导致配置项格式错乱 Packages=&amp;gt;tidy-markdown 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/VRdev/">VR时代来临了，带上兵器吧</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-02-28">February 28, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    《VR时代来临了，带上兵器吧》 1.VR入门行业方向选择 1.行业付费应用，360全景预览 2.建筑及3D美工设计领域 2.客户端引擎选择 1.手机VR，是违背沉浸式体验的 前提：移动设备性能超过台式机性能之前 使用VR的反例： 1.你想在拥挤车厢里,或者嘈杂的马路上, 或者忙碌的办公室里, 用手机体验VR 2.回到家,你会将家庭影院级别的设备搁置在一边,然后把手机套在头上,来体验VR. VR不是个简单的潮流, 他确确实实是我们未 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/keyboard/">极致效率的键位变更</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-02-17">February 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    极致效率的键位变更 Coding常用键位变更 Ctrl =&amp;gt; Caps Lock Caps Lock =&amp;gt; Ctrl Linux下键位变更 Windows键盘全局替换 可以利用第三方工具，或者直接在注册表中修改键位映射关系 注册表位置：[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] 如果没有此键，就新建一个 新建一个二进制值的K  <a href="/cookbook/tool/keyboard/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/backend/messagesystem/">常见开源消息系统/中间件技术评选</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-11-29">November 29, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq RabbitMQ golang client https://github.com/streadway/amqp https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go 适用场景：高安全性、支付业务、稳  <a href="/cookbook/backend/messagesystem/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/dockerstart/">Docker入门实践 (Draft)</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-11-27">November 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    Installation # Windows cinst docker -y # Linux pacman -Sy docker apt-get install docker -y Initicial docker pull debian FAQ: An error occurred trying to connect: Post &amp;hellip;.. 问题描述： $ docker pull debian Using defaul  <a href="/cookbook/devops/dockerstart/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/">萤石云开发实践</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-11-08">November 08, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    《萤石云开发实践》 常用资料 SDK下载：https://open.ys7.com/sdk.html 常见问题 FAQ1:是否可以在web/手机页面播放萤石云视频？ (1)、针对用户分享到视频广场的视频，调用萤石接口说明文档3.16接口： ①获取到iframeUrl，可以在html 标签里，进行播放。 ②获取到m3u8地址，可以在h5页面 标签里，进行播放。 (2)、针对用户下面的设备视频，如果要在web页面进行播放，需要下载pc 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/archlinux/">Arch Linux软件选型整理</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-11-04">November 04, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    #发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切换USB2.0/USB3.0接口 1.fdisk #option   <a href="/cookbook/devops/archlinux/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/">IVMS7000服务端信息搜集</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    基础环境 系统 Windows Server 2008 R2 光盘一：系统驱动 光盘二：安装程序 数据库 数据库Mysql 5.7 库名 cms 用户 admin 密码 12345 软件平台 1.iVMS-7000 http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsed 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/win10-msys2/">Win10搭建Linux开发环境，msys2&#43;pacman大法</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    Win10搭建Linux开发环境，msys2&#43;pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&amp;rsquo;s Pacman FAQ:基于mintty，输入～字符出错。 Fixed:更换语言输入法键盘即可 从cygwin迁移到msys2的原因和步骤 http://segmentf  <a href="/cookbook/devops/win10-msys2/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/wgetsite/">wget整站模板抓取案例及wget参数详解</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite 一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com 方式二：shell脚本 #!/bin/sh ## shell脚本getsite.sh ## 整站抓取，绕过robot.txt   <a href="/cookbook/devops/wgetsite/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/win10/">最佳Windows10工作环境推荐</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    最佳Windows10工作环境推荐 一、基础环境 包管理OneGet&#43;Chocolatey Windows10了，来一个趁手的包管理器吧 快捷方式/虚拟桌面 充分利用Windows10多桌面功能提高效率 目录划分 C://User/Ryane #用户目录 ~/Documents/ #文档目录 ~/Documents/Note #笔记 ~/Documents/Library #书库(Calibre目录) 文件读取 ext2explo 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/vimbest/">vim实用技巧实践</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-17">October 17, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    实用技巧 删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？ 清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下backspace？ 给一行末尾补分号，A; 不就好了，为什么还要鼠标移过去末尾点一下然后按下; ？ 然后给n行末尾补分号，Vjj*选中多行 :normal . 不就好了， 为什么要鼠标一个一个点了然后一个个补？ 复制a行插入到b行后， dd掉a行在b行那按下p不就好了。 为什么要鼠标选中  <a href="/cookbook/tool/vimbest/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/vim-go/">vim-go最佳实践</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-07">October 07, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    0.使用方法 gd 进入函数原始定义文件查看 Ctrl &#43; N Ctrl &#43; P 1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量 export GOROOT=/usr/lib/go export GOPATH=/root/workspace/goProjects export GOBIN=$GOPATH/bin export GOTOOLS=$GOROOT/pkg/tool expo  <a href="/cookbook/tool/vim-go/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/vim-ultisnips/">ultisnips&#39;s md实用经验</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-09-18">September 18, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    添加文档类型识别 ~/.vim/ftdetect/mkd.md autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown 添加自定义代码段 markdown_ryn.snippets cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/agile/comapping/">协同工作中的思维导图/UML选择</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-09-03">September 03, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    1.UML creately.com 付费 实时协同 集成 跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz gliffy 付费 体验较好 集成 JIRA Confluence Google Apps 格式导出 PNG JPG SVG Gliffy 2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet MindMana  <a href="/cookbook/agile/comapping/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/agile/imsystem/">协同中的IM聊天室选择(jitsi/apperin/talkyio)</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-09-02">September 02, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    #jitsi.org 开源，可独立部署 An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator) https://jitsi.org/Main/Features ✔ 100% open source ✔ Encrypted by default ✔ HD audio with Opus ✔ No a  <a href="/cookbook/agile/imsystem/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/dms/">当团队线上办公需要dms文档管理系统</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-08-16">August 16, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Windows、Mac均可用 1.DMS系统选择 1.0 选择Alfresco 支持开源，并兼容LibreOffice系列文件 企业级ECM、BPM系统 Alfresco One #经典的企业级文档管理系统 Alfresco Activiti #可扩展自动化流程系统 Alfresco Mo  <a href="/cookbook/dms/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/usefulwebsite/">实用的geek工具类站点</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-08-14">August 14, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    比较选优 alternativeto.net makeuseof.com Agile敏捷协作 taiga.io 一站式敏捷协作平台，开源免费 “世界大战”尽在掌控：盘点全球网络攻击实时追踪系统 http://www.freebuf.com/news/special/56910.html SEO分析工具 http://semalt.com http://semalt.com/project/2801734 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/agile/taiga/">敏捷团队协作taiga.io，开源实用</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-08-14">August 14, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    TAIGA.IO使用记录 完全手册：http://taigaio.github.io/taiga-doc/dist/ 0.当敏捷团队碰到Agile系统 0.0 尝试 之前尝试过很多优秀的Agile工具： 1.odoo 一体化的公司开源神器 优点：全面的ERP，自带项目模块支持Kanban; 缺点：缺少APP以及移动端，用户体验不足 总结：现阶段团队需要更加专注敏捷开发工作，而且功能简洁易用的辅助系统，而全面的Odoo不适合现阶段，  <a href="/cookbook/agile/taiga/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/blogforgit/">基于Git的分布式自由博客&#43;搭建</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-08-13">August 13, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    0.准备工作 基础开通 https://pages.github.com/ Blog选型 参考:https://www.staticgen.com/ hugo 基于Golang，速度极快的静态页面生成博客，http://gohugo.io/ jekyll 基于Ruby，生成静态HTML博客 Hexo 基于NodeJS，生成静态HTML博客 由于较熟悉nodejs所以选择Hexo作为基础博客系统 hexo 实际测试 #arch li 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/sshkeepalive/">sshd链接保持长期存活 (Draft)</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-06-27">June 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后client响应，从而保持连接 ClientAliveCountMax 3 #server发出请求后，客户端没有响应得次数达到3，就自动断开连接，正常情况下，client不会不响应 2.修改client端的etc/ssh/ssh_config添加 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/putty/">putty常用配置</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-05-27">May 27, 2015</time></span>
+
+  </div>
+  <section class="summary">
+    Session设置 1.PuttyGen设置密钥，将openssh转为.ppk文件 2.Load后先编辑Appearance更改界面，再进入SSH-Auth加载ppk密钥，最后点击Save保存 备份 PuTTY 的设置 用 PuTTY 最不爽的就是，它把所有的设置都保存到注册表了，本来这不是什么问题。但是难免会重装一下机器，用下面的命令可以备份 PuTTY 的所有设置 #导出 regedit /e C:\putty.reg &amp;qu 
+  </section>
+</article>
+
+  
+</main>
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

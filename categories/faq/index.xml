@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faq on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/categories/faq/</link>
+    <description>Recent content in Faq on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>dreamfactory常见问题汇总</title>
+      <link>http://cio.anasit.com/faq/dreamfactory/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/dreamfactory/</guid>
+      <description>
+
+&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
+Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
+Loading composer repositories with package information
+Installing dependencies from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for mongodb/mongodb 1.0.2 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+  Problem 2
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+    - jenssegers/mongodb v3.0.2 requires mongodb/mongodb ^1.0.0 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - Installation request for jenssegers/mongodb v3.0.2 -&amp;gt; satisfiable by jenssegers/mongodb[v3.0.2].
+
+  To enable extensions, verify that they are enabled in those .ini files:
+    - /etc/php5/cli/php.ini
+    - /etc/php5/cli/conf.d/05-opcache.ini
+    - /etc/php5/cli/conf.d/10-pdo.ini
+    - /etc/php5/cli/conf.d/20-apcu.ini
+    - /etc/php5/cli/conf.d/20-curl.ini
+    - /etc/php5/cli/conf.d/20-gd.ini
+    - /etc/php5/cli/conf.d/20-json.ini
+    - /etc/php5/cli/conf.d/20-mongo.ini
+    - /etc/php5/cli/conf.d/20-mysql.ini
+    - /etc/php5/cli/conf.d/20-mysqli.ini
+    - /etc/php5/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php5/cli/conf.d/20-readline.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示mongo插件&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php &amp;ndash;ini&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
+
+apt-get install libssl-dev
+
+apt-get install pkg-config
+
+pecl install mongodb
+
+vim /etc/php5/cli/php.ini
+
+# add this line
+# extension = mongodb.so
+
+composer install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;composer install
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案</title>
+      <link>http://cio.anasit.com/faq/archfaq/</link>
+      <pubDate>Fri, 13 May 2016 21:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/archfaq/</guid>
+      <description>
+
+&lt;h1 id=&#34;systemd-journal进程占用100-cpu-硬盘磁盘无法读取:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;systemd-journal进程占用100%CPU，硬盘磁盘无法读取&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;原因&lt;/h2&gt;
+
+&lt;p&gt;journalctl 查看获得信息&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;解决办法:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;解决办法&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=211365&#34;&gt;https://bbs.archlinux.org/viewtopic.php?id=211365&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;##blacklisted sp5100_tco in /etc/modprobe.d/blacklist.conf.
+cd /etc/modprobe.d
+vim blacklist.conf
+## 写入如下内容
+blacklist sp5100_tco
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionic2常见问题汇总之界面布局篇</title>
+      <link>http://cio.anasit.com/faq/ionic2html/</link>
+      <pubDate>Sat, 07 May 2016 10:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/ionic2html/</guid>
+      <description>
+
+&lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白:7917a174f57faa21f8db3276d3367989&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析:7917a174f57faa21f8db3276d3367989&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;因为ionic2自带的font-icon库中，改图标没有默认的outline样式，导致了点击后，显示空白。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721&#34;&gt;http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:7917a174f57faa21f8db3276d3367989&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;h1 id=&#34;scss文件中定义的样式不生效-import已加入app-core-scss中:7917a174f57faa21f8db3276d3367989&#34;&gt;scss文件中定义的样式不生效，@import已加入app.core.scss中&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析-1:7917a174f57faa21f8db3276d3367989&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;命令行报错，导致后续scss样式无法被加载&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Error: Import directives may not be used within control directives or mixins. on line 34 of node_modules/ionic-angular/components.core.scss @import &amp;quot;fonts/ionicons&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;尝试一-无效:7917a174f57faa21f8db3276d3367989&#34;&gt;尝试一（无效）&lt;/h2&gt;
+
+&lt;p&gt;npm install gulp-sass&lt;/p&gt;
+
+&lt;p&gt;npm install node-sass&lt;/p&gt;
+
+&lt;h2 id=&#34;尝试二-成功:7917a174f57faa21f8db3276d3367989&#34;&gt;尝试二（成功）&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## vim node_modules/ionic-angular/components.core.scss
+//@if ($ionicons) {
+  @import &amp;quot;fonts/ionicons&amp;quot;;
+//}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionic2常见问题汇总之安装篇</title>
+      <link>http://cio.anasit.com/faq/ionic2install/</link>
+      <pubDate>Tue, 29 Mar 2016 10:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/ionic2install/</guid>
+      <description>
+
+&lt;h1 id=&#34;ionic2常见问题汇总之安装篇:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
+
+&lt;h1 id=&#34;如何安装ionic:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;如何安装ionic？&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 系统包管理器，安装npm
+apt-get install npm nodejs
+
+## 修正nodejs快捷方式
+ln -s /usr/bin/nodejs /usr/bin/node
+
+## 更换国内软件源
+npm -g install nrm
+
+nrm ls
+
+nrm use taobao
+
+npm install -g npm@3.8.0
+
+## Nodejs包管理器，安装ionic
+npm -g install cordova
+
+npm -g install ionic@beta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ionic-beta安装error无法运行怎么解决:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;ionic@beta安装Error无法运行怎么解决？&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm ERR! ionic@2.0.0-beta.23 postinstall: `node lib/tasks/postinstall`
+npm ERR! Exit status 8
+npm ERR!
+npm ERR! Failed at the ionic@2.0.0-beta.23 postinstall script.
+npm ERR! This is most likely a problem with the ionic package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node lib/tasks/postinstall
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls ionic
+npm ERR! There is likely additional logging output above.
+
+npm ERR! System Linux 3.16.0-4-amd64
+npm ERR! command &amp;quot;/usr/bin/nodejs&amp;quot; &amp;quot;/usr/bin/npm&amp;quot; &amp;quot;install&amp;quot; &amp;quot;-g&amp;quot; &amp;quot;ionic@beta&amp;quot;
+npm ERR! cwd /root/ionic2Project
+npm ERR! node -v v0.10.29
+npm ERR! npm -v 1.4.21
+npm ERR! code ELIFECYCLE
+npm ERR!
+npm ERR! Additional logging details can be found in:
+npm ERR!     /root/ionic2Project/npm-debug.log
+npm ERR! not ok code 0
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;windows-解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;windows 解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install -g npm@3.8.0
+
+npm cache clean
+
+npm install -g cordova
+
+npm install -g ionic@beta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;debian-解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;debian 解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install -g npm@3.8.0
+
+npm cache clean
+
+npm install -g cnpm --registry=http://registry.npm.taobao.org
+
+cnpm install -g cordova
+
+cnpm install -g ionic@beta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;安装提示root用户没有权限访问node-pre-gyp:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;安装提示root用户没有权限访问node-pre-gyp？&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo cnpm -g install ionic@2.0.0-beta.20 --unsafe-perm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;如何生成第一个ionic项目:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;如何生成第一个ionic项目？&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 生成ionic1项目
+ionic start project-name
+
+## （可尝试）生成ionic2项目
+ionic start project-name --v2
+
+## 运行测试项目
+cd project-name
+ionic serve -l
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;生成ionic-beta-23项目报错:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;生成ionic@beta.23项目报错&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Installing npm packages...
+
+Unable to run spawn commandError: spawn npm ENOENT (CLI v2.0.0-beta.23)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/36238862/enoent-error-when-doing-ionic-start&#34;&gt;http://stackoverflow.com/questions/36238862/enoent-error-when-doing-ionic-start&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;回滚至 beta 22版本即可&lt;/p&gt;
+
+&lt;p&gt;I have the exact same issue. Worked in beta 22.&lt;/p&gt;
+
+&lt;p&gt;Reverting to the earlier beta resolved the issue:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm -g install ionic@2.0.0-beta.22
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;生成ionic-beta项目报错:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;生成ionic@beta项目报错&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install package Error
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;进入项目执行npm包安装命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd project-name
+
+cnpm install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;无法在真机运行-ionic-run-android:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;无法在真机运行 ionic run android&lt;/h1&gt;
+
+&lt;p&gt;原因分析：&lt;/p&gt;
+
+&lt;p&gt;cordova@5.0.0版本过低，需要升级&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm -g install cordova
+ionic platform add android
+ionic run
+cordova run android
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LNMP内存或CPU过高优化问题</title>
+      <link>http://cio.anasit.com/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <description>
+
+&lt;h1 id=&#34;lnmp内存或cpu过高的优化问题:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;
+
+&lt;h1 id=&#34;场景一-正康服务器php服务无法访问-nginx报502-403错误:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;场景一：正康服务器php服务无法访问，Nginx报502/403错误&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;top指令查看系统各进程使用情况&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;zkkj168 ~ # top
+top - 16:09:32 up 63 days,  4:03,  1 user,  load average: 1.14, 1.24, 1.20
+Tasks:  98 total,   4 running,  94 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us, 17.1 sy,  0.0 ni, 43.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   4048148 total,  3880700 used,   167448 free,   246556 buffers
+KiB Swap:        0 total,        0 used,        0 free.  2440796 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 2781 www-data  20   0  346384  32324  14716 R  60.2  0.8   8:52.89 php5-fpm
+ 6072 www-data  20   0  341844  27156  14088 S  29.4  0.7   6:02.94 php5-fpm
+13455 mysql     20   0 1541752 200240   4748 S  13.5  4.9   3054:00 mysqld
+10920 root      20   0  206876   9620   4884 R   0.4  0.2 155:00.87 AliYunDun
+    1 root      20   0   33448   2688   1400 S   0.0  0.1   0:03.07 init
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.80 kthreadd
+    3 root      20   0       0      0      0 S   0.0  0.0   0:39.56 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
+    7 root      20   0       0      0      0 S   0.0  0.0  35:45.76 rcu_sched
+    8 root      20   0       0      0      0 S   0.0  0.0  30:12.54 rcuos/0
+    9 root      20   0       0      0      0 R   0.0  0.0  34:00.92 rcuos/1
+   10 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+   11 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/0
+   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/1
+   13 root      rt   0       0      0      0 S   0.0  0.0   0:16.86 migration/0
+   14 root      rt   0       0      0      0 S   0.0  0.0   0:20.18 watchdog/0
+   15 root      rt   0       0      0      0 S   0.0  0.0   0:16.76 watchdog/1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;php5-fpm CPU过高&lt;/li&gt;
+&lt;li&gt;mysql 内存过高&lt;/li&gt;
+&lt;li&gt;重启Nginx，错误仍然存在&lt;/li&gt;
+&lt;li&gt;service nginx restart&lt;/li&gt;
+&lt;li&gt;重启php5-fpm，服务器正常&lt;/li&gt;
+&lt;li&gt;service php5-fpm restart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;解决方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;经排查发现是php5-fpm进程CPU占用过高导致php服务无法访问。 同时mysqld服务内存占用过高，导致智能硬件服务端进程server无法正常运行。
+1. php-fpm进程数不够用&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;netstat -napo |grep &amp;quot;php5-fpm&amp;quot; | wc -l
+## 正康服务器出现502错误时，显示40/75/135个子进程
+## 重新启动后，进程数5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;查看一下当前fastcgi进程个数，如果个数接近conf里配置的上限，就需要调高进程数。&lt;/p&gt;
+
+&lt;p&gt;但也不能无休止调高，可以根据服务器内存情况，可以把php5-fpm子进程数调到100或以上，在4G内存的服务器上200就可以。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一次性能优化后效果及测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;负载过高的业务分离后，连续稳定运行72小时
+- 数据库链接数资源，从以前600，到现在一直保持在10以内
+- server服务端，100台设备同时在线，内存一直稳定在30M左右
+- php5-fpm，CPU占用率不再长期持续80%&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/03/zkrds.png&#34; alt=&#34;zkrds&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;zkkj168 Models # top
+
+top - 13:16:52 up 70 days,  1:10,  2 users,  load average: 0.03, 0.05, 0.12
+Tasks:  97 total,   2 running,  95 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  0.2 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   4048148 total,  3753880 used,   294268 free,   209400 buffers
+KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     
+14991 www-data  20   0  480404  30988   4548 S   0.0  0.8   9:02.27 server      
+18936 www-data  20   0  338844  24976  15320 S   0.7  0.6   0:04.27 php5-fpm    
+18891 www-data  20   0  338800  24752  15264 S   1.0  0.6   0:05.07 php5-fpm    
+18904 www-data  20   0  338304  23120  14008 S   1.3  0.6   0:05.01 php5-fpm    
+  393 syslog    20   0  256228  22776    896 S   0.0  0.6   0:12.84 rsyslogd    
+18581 root      20   0  333980  16600  11892 S   0.0  0.4   0:00.05 php5-fpm    
+30356 root      20   0   63400  11868   1568 S   0.0  0.3  13:37.17 supervisord
+29979 root      20   0  883932  10104   4116 S   0.3  0.2  22:46.09 AliHids     
+10920 root      20   0  206876   9076   4340 S   0.0  0.2 175:58.47 AliYunDun   
+17324 root      20   0   23396   4712   1880 S   0.0  0.1   0:00.66 bash        
+17281 root      20   0   23324   4508   1756 S   0.0  0.1   0:00.06 bash        
+17306 root      20   0  103772   4196   3224 S   0.0  0.1   0:00.28 sshd        
+  815 root      20   0   61368   3060   2384 S   0.0  0.1   0:05.82 sshd        
+ 2472 www-data  20   0   86668   2996   1096 S   0.0  0.1   0:16.94 nginx       
+ 2469 www-data  20   0   86800   2992   1100 S   0.0  0.1   0:17.75 nginx       
+ 2470 www-data  20   0   86668   2992   1076 S   0.0  0.1   0:18.96 nginx       
+ 2471 www-data  20   0   86668   2992   1104 S   0.0  0.1   0:16.76 nginx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;正康前端测试&lt;/strong&gt;
+- 清空缓存直接访问admin.zkkj168.com
+  - 进程数 1 正常
+  - fa.css 404
+  - 结论：此处不会影响系统资源，不会导致系统错误&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;登录进入后台&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;进程数 1 正常&lt;/li&gt;
+&lt;li&gt;fa.css 404&lt;/li&gt;
+&lt;li&gt;count 200 &lt;a href=&#34;http://api.zkkj168.com:81/sos/count&#34;&gt;http://api.zkkj168.com:81/sos/count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;结论：此处不会影响系统资源，不会导致系统错误&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;注销登录（开启1个错误轮寻页面）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;进程数 1-2&lt;/li&gt;
+&lt;li&gt;count 500 10s一次轮寻，并没有明显占用资源&lt;/li&gt;
+&lt;li&gt;结论：此处不会影响系统资源，不会导致系统错误&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;注销登录（同时开启20个错误轮寻页面）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;进程数 1-2&lt;/li&gt;
+&lt;li&gt;结论：此处不会影响系统资源，不会导致系统错误&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;进入各菜单，测试是否由于程序错误导致资源占用过高&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;进程数 1&lt;/li&gt;
+&lt;li&gt;仪表盘&lt;/li&gt;
+&lt;li&gt;总部后台系统所有栏目&lt;/li&gt;
+&lt;li&gt;客服后台系统所有栏目&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;社区/机构后台系统所有栏目&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;进程数 2&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;实时定位系统-实时定位-老人设备历史记录（数据最庞大的查询）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;结论：后台系统正常，不会导致系统错误&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;0-负载过高的业务分离:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;0.负载过高的业务分离&lt;/h3&gt;
+
+&lt;p&gt;独立使用RDS服务运行Mysql
+- 利于数据库备份、容灾处理
+- 缓解主服务器内存压力（减少约1.5G内存占用）&lt;/p&gt;
+
+&lt;p&gt;优化server进程中数据库连接池
+- 减少过多闲置链接（600降低到100以内）
+- 限制最大链接（设置为200）&lt;/p&gt;
+
+&lt;h3 id=&#34;1-临时方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;1.临时方案&lt;/h3&gt;
+
+&lt;p&gt;重启php5-fpm即可&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service restart php5-fpm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-永久方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;2.永久方案&lt;/h3&gt;
+
+&lt;p&gt;建议1：写监控程序，当进程php5-fpm占用CPU超过90%，执行重启php5-fpm&lt;/p&gt;
+
+&lt;p&gt;建议2：排查php.ini检查是具体哪个插件导致的CPU占用过高，从根本进行优化&lt;/p&gt;
+
+&lt;p&gt;建议3：实现LNMP基础服务双机备份及双活部署&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9会计模块常见问题</title>
+      <link>http://cio.anasit.com/faq/odoo/faq-accounting/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/odoo/faq-accounting/</guid>
+      <description>
+
+&lt;h1 id=&#34;货币选项中无cny:187b635426bccb02542e3ea74bd81df7&#34;&gt;货币选项中无CNY&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析:187b635426bccb02542e3ea74bd81df7&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;货币——CNY——未设置为有效&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:187b635426bccb02542e3ea74bd81df7&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&#34;&gt;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&lt;/a&gt;
+任务——会计——货币中将CNY设为有效&lt;/p&gt;
+
+&lt;h1 id=&#34;开启会计科目后-导致销售人员无法添加客户:187b635426bccb02542e3ea74bd81df7&#34;&gt;开启会计科目后，导致销售人员无法添加客户&lt;/h1&gt;
+
+&lt;h2 id=&#34;错误提示:187b635426bccb02542e3ea74bd81df7&#34;&gt;错误提示&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&#34;&gt;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/resolved-the-following-fields-are-invalid-account-receivable-account-payable-75878&#34;&gt;https://www.odoo.com/forum/help-1/question/resolved-the-following-fields-are-invalid-account-receivable-account-payable-75878&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;下列字段无效：
+    应收账款
+      应付账款
+
+The following fields are invalid:
+    Account Receivable
+    Account Payable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;原因分析-1:187b635426bccb02542e3ea74bd81df7&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;开启会计后，&lt;/p&gt;
+
+&lt;p&gt;客户——会计栏目——分类帐分录——需要设置&lt;/p&gt;
+
+&lt;p&gt;但销售人员无权限设置，导致了缺少字段&lt;/p&gt;
+
+&lt;p&gt;官方解释：Accounts Receivable &amp;amp; Payable&lt;/p&gt;
+
+&lt;p&gt;By default, Odoo uses a single account for all account receivable entries and one for all accounts payable entries. You can create separate accounts per customers/suppliers, but you don&amp;rsquo;t need to.&lt;/p&gt;
+
+&lt;p&gt;As transactions are associated to customers or suppliers, you get reports to perform analysis per customer/supplier such as the customer statement, revenues per customers, aged receivable/payables, &amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案-1:187b635426bccb02542e3ea74bd81df7&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;1.设置可选的应付应收账款&lt;/p&gt;
+
+&lt;p&gt;安装会计科目表l10n_cn&lt;/p&gt;
+
+&lt;p&gt;会计——科目表——新建科目&lt;/p&gt;
+
+&lt;p&gt;默认应收账款 dr Receivable&lt;/p&gt;
+
+&lt;p&gt;默认应付账款 dp Payable&lt;/p&gt;
+
+&lt;p&gt;2.设置为默认自动选择&lt;/p&gt;
+
+&lt;p&gt;设置——关于——Acivate the developer mode.&lt;/p&gt;
+
+&lt;p&gt;打开新增公司——会计页面——填写默认账款科目&lt;/p&gt;
+
+&lt;p&gt;右上调试栏目——Set Defaults&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Account Payable = dp 默认应付账款&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Account Receivable = dr 默认应收账款&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All Users&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9入门学习手册</title>
+      <link>http://cio.anasit.com/faq/odoo/learn/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/odoo/learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;使用手册:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;使用手册&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/documentation/user/9.0/&#34;&gt;https://www.odoo.com/documentation/user/9.0/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;资料站点:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;资料站点&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.oejia.net/&#34;&gt;http://www.oejia.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shine-it.net&#34;&gt;http://shine-it.net&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9多域名如何解析多数据库</title>
+      <link>http://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+      <description>
+
+&lt;h1 id=&#34;odoo9多域名解析多数据库规则:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
+
+&lt;h1 id=&#34;配置文件:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;配置文件&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## Debian
+/etc/odoo/openerp-server.conf
+
+dbfilter = ^%d$          
+# 即取 OE WEB访问时取地址栏上 域名的第末子域.   
+# 即  http://db001.openerp.com  访问时, 会自动设置为 dbfilter = db001
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;源码:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;源码&lt;/h1&gt;
+
+&lt;p&gt;部分情况配置文件无法生效，是由于：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## /openerp/tools/config.py 文件
+group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;quot;, default=&#39;.*&#39;,
+                 help=&amp;quot;Filter listed database&amp;quot;, metavar=&amp;quot;REGEXP&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这个 default=&amp;lsquo;.*&amp;rsquo; 将配置文件中的设置又盖掉了，将其改为：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;quot;, my_default=&#39;.*&#39;,
+                 help=&amp;quot;Filter listed database&amp;quot;, metavar=&amp;quot;REGEXP&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后配置文件即可生效&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9有哪些优秀第三方模块</title>
+      <link>http://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
+      <description>
+
+&lt;h1 id=&#34;payment支付-odoo-8-0:1d3aa595b3240b5c3555fb706a9a394a&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/odoo-cn/payment&#34;&gt;https://github.com/odoo-cn/payment&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;alipay 支付宝 [done]&lt;/li&gt;
+&lt;li&gt;tenpay 财付通 [done]&lt;/li&gt;
+&lt;li&gt;chinabank 银联&lt;/li&gt;
+&lt;li&gt;weixin 微信支付 [done]&lt;/li&gt;
+&lt;li&gt;allPay 台湾欧付宝 [done]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;声明&lt;/p&gt;
+
+&lt;p&gt;未经许可，不得用于商业用途！！&lt;/p&gt;
+
+&lt;h1 id=&#34;微信-odoo-8-0:1d3aa595b3240b5c3555fb706a9a394a&#34;&gt;微信 odoo 8.0&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/JoneXiong/oejia_wx&#34;&gt;https://github.com/JoneXiong/oejia_wx&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9系统设置栏目常见问题</title>
+      <link>http://cio.anasit.com/faq/odoo/faq-system/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/odoo/faq-system/</guid>
+      <description>
+
+&lt;h1 id=&#34;无法保存照片-无法发送邮件:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&#34;&gt;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&lt;/a&gt;
+无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在&lt;/p&gt;
+
+&lt;h2 id=&#34;原因分析:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;413 Request Entity Too Large
+nginx/1.6.2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;nginx 大文件配置问题&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;在上传时nginx返回了413错误，查看log文件，显示的错误信息是:”413 Request Entity Too Large”, 需要做以下设 置：&lt;/p&gt;
+
+&lt;p&gt;打开nginx主配置文件nginx.conf，找到http{}段，增加 client_max_body_size的相关设置, 这个值默认是1m，可以增加到3m以增加提高文件大小限制；&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 在http，server或者location段修改下面的配置：
+# set client body size to 8M #
+client_max_body_size 8M;
+# 其他可选项 #
+client_max_body_size    3m;
+client_body_buffer_size  128k;
+proxy_connect_timeout    600;
+proxy_read_timeout      600;
+proxy_send_timeout      6000;
+proxy_buffer_size        16k;
+proxy_buffers            4 64k;
+proxy_busy_buffers_size 64k;
+proxy_temp_file_write_size 64k;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;如果运行的是php，那么还要检查php.ini，这个大小client_max_body_size要和php.ini中的如下值的最大值一致或者稍大，这样就不会因为提交数据大小不一致出现的错误。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;post_max_size = 6M
+upload_max_filesize = 2M
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;python的pip有的包过旧:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;Python的pip有的包过旧&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析-1:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;pip包过老需要升级，以下包：
+- Pillow&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案-1:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;一行命令升级所有pip安装的Python包&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip freeze --local | grep -v &#39;^\-e&#39; | cut -d = -f 1  | xargs pip install -U
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;建议在执行前先执行：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install -U distribute
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2015年10月21日补充：
+由于使用了mysql-connector-python的包，在安装时要使用 &amp;ndash;allow-external mysql-connector-python 参数，所以在升级时，也应该加上该参数，命令行为：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install -U distribute &amp;amp;&amp;amp; pip freeze --local | grep -v &#39;^\-e&#39; | cut -d = -f 1  | xargs pip install -U --allow-external mysql-connector-python
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;解决方案-2:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;h1 id=&#34;odoo-警告-邮件投递失败:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;Odoo 警告 - 邮件投递失败&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Mail delivery failed via SMTP server &#39;smtp.mxhichina.com&#39;.
+SMTPSenderRefused: 440
+mail from account doesn&#39;t conform with authentication (Auth Account:info@anasit.com|Mail Account:postmaster-odoo@anasit.com)
+postmaster-odoo@anasit.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;为何出现postmaster-odoo@anasit.com邮箱地址？&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案-3:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;1 .增加邮箱账号“postmaster-odoo@anasit.com”&lt;/p&gt;
+
+&lt;p&gt;2.在addons\base\ir\ir_mail_server.py第381行，改“postmaster-odoo”为已存在的邮件账号，如“sales”、“info”&lt;/p&gt;
+
+&lt;p&gt;以上方法二选一即可.&lt;/p&gt;
+
+&lt;h1 id=&#34;设置默认值-十分实用:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;设置默认值——十分实用&lt;/h1&gt;
+
+&lt;p&gt;设置——关于——Acivate the developer mode.&lt;/p&gt;
+
+&lt;p&gt;打开字段所在页面&lt;/p&gt;
+
+&lt;p&gt;右上调试栏目——Set Defaults&lt;/p&gt;
+
+&lt;p&gt;选择默认值项目&lt;/p&gt;
+
+&lt;p&gt;选择默认值范围：All Users&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9销售模块常见问题</title>
+      <link>http://cio.anasit.com/faq/odoo/faq-sales/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/odoo/faq-sales/</guid>
+      <description>
+
+&lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;h2 id=&#34;解决方案:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;解决方案&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nginx-php-fastcgi-no-input-files</title>
+      <link>http://cio.anasit.com/faq/lnmp/nginx-php-nofiles/</link>
+      <pubDate>Wed, 23 Sep 2015 10:49:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/lnmp/nginx-php-nofiles/</guid>
+      <description>
+
+&lt;h1 id=&#34;solution:0482b688ba78b61422feba75e57865cf&#34;&gt;Solution&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/&#34;&gt;http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;问题原因:0482b688ba78b61422feba75e57865cf&#34;&gt;问题原因&lt;/h2&gt;
+
+&lt;p&gt;导致“No input file specified. ”这个问题的原因，是因为nginx的配置不正确，从而导致CGI获取参数错误。
+简单来说，是因为$document_root这个变量尚未定义。&lt;/p&gt;
+
+&lt;p&gt;Nginx的配置文件中，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;是一个写在location块(通常是匹配php)中的指令语句。
+而我们也知道，在nginx中，有三级的关系，http  &amp;gt;  server  &amp;gt;  location。
+如果要在location块中使用$document_root，需要在上层server块或http块中定义了root指令，这样才能通过继承关系，在location块中用$document_root拿到root的值。而定义在别的location块中的root指令的值，是一个局部变量，其值无法在匹配php的这个location块中被获取。&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方法:0482b688ba78b61422feba75e57865cf&#34;&gt;解决方法&lt;/h2&gt;
+
+&lt;p&gt;解决这个问题的办法，是把&amp;rdquo;/&amp;rdquo; location块中的root上提到server。
+或者，在php的location块中，重新定义root。&lt;/p&gt;
+
+&lt;h2 id=&#34;php-站配置参考:0482b688ba78b61422feba75e57865cf&#34;&gt;php 站配置参考&lt;/h2&gt;
+
+&lt;p&gt;fastcgi启动命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;spawn-fcgi -a 127.0.0.1 -p 9000 -C 10 -u www-data -f /usr/bin/php-cgi
+
+#ubuntu自动启动
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;nginx配置&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;server {
+
+        listen   80;
+
+        server_name  test.anasit.com;
+
+        root   /var/www/test;
+
+        access_log  /var/log/nginx/test.access.log;
+
+        location / {
+
+                index  index.php index.html index.htm;
+
+        }
+
+        error_page   500 502 503 504  /50x.html;
+
+        location = /50x.html {
+
+                root   /var/www/test;
+
+        }
+location ~ [^/]\.php(/|$) {
+    fastcgi_split_path_info ^(.+?\.php)(/.*)$;
+    if (!-f $document_root$fastcgi_script_name) {
+        return 404;
+    }
+
+    fastcgi_pass 127.0.0.1:9000;
+    fastcgi_index index.php;
+    include fastcgi_params;
+}
+
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Debian常见问题汇总</title>
+      <link>http://cio.anasit.com/faq/debianfaq/</link>
+      <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/debianfaq/</guid>
+      <description>
+
+&lt;h1 id=&#34;apt-get更新问题-failed-to-fetch-http:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;apt-get更新问题：Failed to Fetch : http://&lt;/h1&gt;
+
+&lt;p&gt;解决方案：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd /var/lib/apt/lists/partial
+rm *
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;sshd允许root登录:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;sshd允许Root登录&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /etc/ssh
+vim sshd_config
+PermitRootLogin yes
+service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;中国国内源更换:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;中国国内源更换&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://lug.ustc.edu.cn/repogen/&#34;&gt;https://lug.ustc.edu.cn/repogen/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# testing 源
+deb http://mirrors.ustc.edu.cn/debian testing main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian testing main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian testing-proposed-updates main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian testing-proposed-updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian testing-updates main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian testing-updates main contrib non-free
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>steam for archlinux FAQ</title>
+      <link>http://cio.anasit.com/faq/steam/</link>
+      <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/steam/</guid>
+      <description>&lt;p&gt;#FAQ:Run as root user
+##Soluution:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/bin/steam
+/Cannot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;#FAQ:libGL error: failed to load driver: r600&lt;/p&gt;
+
+&lt;p&gt;##Solution:
+&lt;a href=&#34;http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html&#34;&gt;http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>yo,npm,grunt,bower</title>
+      <link>http://cio.anasit.com/faq/yo,npm,grunt,bower/</link>
+      <pubDate>Mon, 17 Aug 2015 02:19:36 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/yo,npm,grunt,bower/</guid>
+      <description>&lt;p&gt;#Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo;
+&lt;a href=&#34;https://github.com/keystonejs/keystone/issues/1566&#34;&gt;https://github.com/keystonejs/keystone/issues/1566&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When I try to run: yo meanjs, I got the error:
+Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo;
+You don&amp;rsquo;t have access to this file.&lt;/p&gt;
+
+&lt;p&gt;It seems that &amp;lsquo;/root/.config/configstore/insight-yo.yml&amp;rsquo; does not exist at all&lt;/p&gt;
+
+&lt;p&gt;##Solution：&lt;/p&gt;
+
+&lt;p&gt;I find the solution here: &lt;a href=&#34;https://github.com/yeoman/yeoman.io/issues/282&#34;&gt;https://github.com/yeoman/yeoman.io/issues/282&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;run the command below fix my problem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p /root/.config/configstore
+chmod g+rwx /root /root/.config /root/.config/configstore
+chmod g+rwx ~/.npm -R
+chmod g+rwx &amp;lt;workspace&amp;gt; -R
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

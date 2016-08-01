@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Linux最佳文件压缩方式 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-27">March 27, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/linux">linux</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">Linux最佳文件压缩方式</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="linux最佳压缩方式:75faa320f80344dacc83083e472c77ff">Linux最佳压缩方式</h1>
+
+<h2 id="常用压缩方式:75faa320f80344dacc83083e472c77ff">常用压缩方式</h2>
+
+<pre><code class="language-bash">#压缩
+tar -czvf ***.tar.gz
+tar -cjvf ***.tar.bz2
+#解压缩
+tar -xzvf ***.tar.gz
+tar -xjvf ***.tar.bz2
+</code></pre>
+
+<h2 id="高压缩率方式:75faa320f80344dacc83083e472c77ff">高压缩率方式</h2>
+
+<p>gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下</p>
+
+<h3 id="压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz:75faa320f80344dacc83083e472c77ff">压缩率 tar.xz==tar.lzma&gt;&gt;.tar.bz2&gt;&gt;&gt;&gt;tar.gz</h3>
+
+<pre><code class="language-bash">#压缩
+#更简洁的方式
+tar -cJf aaa.tar.xz my_dir
+tar -c --xz   -f my_archive.tar.xz   /some_directory    # results in my_archive.tar.xz
+tar -c --lzma -f my_archive.tar.lzma /some_directory    # results in my_archive.tar.lzma
+
+#解压缩
+tar -xJf aaa.tar.xz
+tar -x --xz   -f my_archive.tar.xz      # results in /some_directory
+tar -x --lzma -f my_archive.tar.lzma    # results in /some_directory
+</code></pre>
+
+<p>其中&ndash;xz可以用-J代替</p>
+
+<pre><code class="language-bash">#或者使用tar的选项&quot;-a&quot;自动识别压缩文件后缀的方式：
+tar -caf aaa.tar.xz my_dir
+tar -xaf aaa.tar.xz
+</code></pre>
+
+<p>如果你嫌tar.xz 太长了，可以使用txz。</p>
+
+<p>由于受到Dos 8.3文件名格式的限制，tar常使用下列缩写：</p>
+
+<pre><code>.tgz等价于.tar.gz
+.tbz与tb2等价于.tar.bz2
+.taz等价于.tar.Z
+.tlz等价于.tar.lzma
+.txz等价于.tar.xz
+</code></pre>
+
+<p>继续补充：
+查看tar包中的文件：
+tar -aft 1.tar.xz</p>
+
+<p>解压缩tar中单独的文件或者目录：
+首先应用上面的命令查看tar包中的文件名和目录，然后使用-x解压缩命令
+$tar -aft 1.tar.xz
+1/
+1/a.bin
+1/b.bin
+1/c.bin
+$tar -axf 1.tar.xz 1/a.bin
+即可解压缩单独的文件a.bin而不用把这个压缩文件全部解压开来</p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

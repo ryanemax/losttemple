@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>LNMP内存或CPU过高优化问题 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-12">March 12, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/faq">faq</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/nginx">nginx</a>
+
+        <a href="http://cio.anasit.com/tags/php5-fpm">php5-fpm</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">LNMP内存或CPU过高优化问题</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="lnmp内存或cpu过高的优化问题:227f372aa3ddfa489382bf004b7e00c1">《LNMP内存或CPU过高的优化问题》</h1>
+
+<h1 id="场景一-正康服务器php服务无法访问-nginx报502-403错误:227f372aa3ddfa489382bf004b7e00c1">场景一：正康服务器php服务无法访问，Nginx报502/403错误</h1>
+
+<h2 id="原因分析:227f372aa3ddfa489382bf004b7e00c1">原因分析</h2>
+
+<p>top指令查看系统各进程使用情况</p>
+
+<pre><code class="language-bash">zkkj168 ~ # top
+top - 16:09:32 up 63 days,  4:03,  1 user,  load average: 1.14, 1.24, 1.20
+Tasks:  98 total,   4 running,  94 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us, 17.1 sy,  0.0 ni, 43.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   4048148 total,  3880700 used,   167448 free,   246556 buffers
+KiB Swap:        0 total,        0 used,        0 free.  2440796 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 2781 www-data  20   0  346384  32324  14716 R  60.2  0.8   8:52.89 php5-fpm
+ 6072 www-data  20   0  341844  27156  14088 S  29.4  0.7   6:02.94 php5-fpm
+13455 mysql     20   0 1541752 200240   4748 S  13.5  4.9   3054:00 mysqld
+10920 root      20   0  206876   9620   4884 R   0.4  0.2 155:00.87 AliYunDun
+    1 root      20   0   33448   2688   1400 S   0.0  0.1   0:03.07 init
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.80 kthreadd
+    3 root      20   0       0      0      0 S   0.0  0.0   0:39.56 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
+    7 root      20   0       0      0      0 S   0.0  0.0  35:45.76 rcu_sched
+    8 root      20   0       0      0      0 S   0.0  0.0  30:12.54 rcuos/0
+    9 root      20   0       0      0      0 R   0.0  0.0  34:00.92 rcuos/1
+   10 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
+   11 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/0
+   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/1
+   13 root      rt   0       0      0      0 S   0.0  0.0   0:16.86 migration/0
+   14 root      rt   0       0      0      0 S   0.0  0.0   0:20.18 watchdog/0
+   15 root      rt   0       0      0      0 S   0.0  0.0   0:16.76 watchdog/1
+</code></pre>
+
+<ul>
+<li>php5-fpm CPU过高</li>
+<li>mysql 内存过高</li>
+<li>重启Nginx，错误仍然存在</li>
+<li>service nginx restart</li>
+<li>重启php5-fpm，服务器正常</li>
+<li>service php5-fpm restart</li>
+</ul>
+
+<h2 id="解决方案:227f372aa3ddfa489382bf004b7e00c1">解决方案</h2>
+
+<p>经排查发现是php5-fpm进程CPU占用过高导致php服务无法访问。 同时mysqld服务内存占用过高，导致智能硬件服务端进程server无法正常运行。
+1. php-fpm进程数不够用</p>
+
+<pre><code>netstat -napo |grep &quot;php5-fpm&quot; | wc -l
+## 正康服务器出现502错误时，显示40/75/135个子进程
+## 重新启动后，进程数5
+</code></pre>
+
+<p>查看一下当前fastcgi进程个数，如果个数接近conf里配置的上限，就需要调高进程数。</p>
+
+<p>但也不能无休止调高，可以根据服务器内存情况，可以把php5-fpm子进程数调到100或以上，在4G内存的服务器上200就可以。</p>
+
+<p><strong>第一次性能优化后效果及测试</strong></p>
+
+<p>负载过高的业务分离后，连续稳定运行72小时
+- 数据库链接数资源，从以前600，到现在一直保持在10以内
+- server服务端，100台设备同时在线，内存一直稳定在30M左右
+- php5-fpm，CPU占用率不再长期持续80%</p>
+
+<p><img src="http://img.anasit.com/uploads/2016/03/zkrds.png" alt="zkrds" /></p>
+
+<pre><code>zkkj168 Models # top
+
+top - 13:16:52 up 70 days,  1:10,  2 users,  load average: 0.03, 0.05, 0.12
+Tasks:  97 total,   2 running,  95 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  0.2 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   4048148 total,  3753880 used,   294268 free,   209400 buffers
+KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     
+14991 www-data  20   0  480404  30988   4548 S   0.0  0.8   9:02.27 server      
+18936 www-data  20   0  338844  24976  15320 S   0.7  0.6   0:04.27 php5-fpm    
+18891 www-data  20   0  338800  24752  15264 S   1.0  0.6   0:05.07 php5-fpm    
+18904 www-data  20   0  338304  23120  14008 S   1.3  0.6   0:05.01 php5-fpm    
+  393 syslog    20   0  256228  22776    896 S   0.0  0.6   0:12.84 rsyslogd    
+18581 root      20   0  333980  16600  11892 S   0.0  0.4   0:00.05 php5-fpm    
+30356 root      20   0   63400  11868   1568 S   0.0  0.3  13:37.17 supervisord
+29979 root      20   0  883932  10104   4116 S   0.3  0.2  22:46.09 AliHids     
+10920 root      20   0  206876   9076   4340 S   0.0  0.2 175:58.47 AliYunDun   
+17324 root      20   0   23396   4712   1880 S   0.0  0.1   0:00.66 bash        
+17281 root      20   0   23324   4508   1756 S   0.0  0.1   0:00.06 bash        
+17306 root      20   0  103772   4196   3224 S   0.0  0.1   0:00.28 sshd        
+  815 root      20   0   61368   3060   2384 S   0.0  0.1   0:05.82 sshd        
+ 2472 www-data  20   0   86668   2996   1096 S   0.0  0.1   0:16.94 nginx       
+ 2469 www-data  20   0   86800   2992   1100 S   0.0  0.1   0:17.75 nginx       
+ 2470 www-data  20   0   86668   2992   1076 S   0.0  0.1   0:18.96 nginx       
+ 2471 www-data  20   0   86668   2992   1104 S   0.0  0.1   0:16.76 nginx
+</code></pre>
+
+<p><strong>正康前端测试</strong>
+- 清空缓存直接访问admin.zkkj168.com
+  - 进程数 1 正常
+  - fa.css 404
+  - 结论：此处不会影响系统资源，不会导致系统错误</p>
+
+<ul>
+<li><p>登录进入后台</p>
+
+<ul>
+<li>进程数 1 正常</li>
+<li>fa.css 404</li>
+<li>count 200 <a href="http://api.zkkj168.com:81/sos/count">http://api.zkkj168.com:81/sos/count</a></li>
+<li>结论：此处不会影响系统资源，不会导致系统错误</li>
+</ul></li>
+
+<li><p>注销登录（开启1个错误轮寻页面）</p>
+
+<ul>
+<li>进程数 1-2</li>
+<li>count 500 10s一次轮寻，并没有明显占用资源</li>
+<li>结论：此处不会影响系统资源，不会导致系统错误</li>
+</ul></li>
+
+<li><p>注销登录（同时开启20个错误轮寻页面）</p>
+
+<ul>
+<li>进程数 1-2</li>
+<li>结论：此处不会影响系统资源，不会导致系统错误</li>
+</ul></li>
+
+<li><p>进入各菜单，测试是否由于程序错误导致资源占用过高</p>
+
+<ul>
+<li>进程数 1</li>
+<li>仪表盘</li>
+<li>总部后台系统所有栏目</li>
+<li>客服后台系统所有栏目</li>
+
+<li><p>社区/机构后台系统所有栏目</p></li>
+
+<li><p>进程数 2</p></li>
+
+<li><p>实时定位系统-实时定位-老人设备历史记录（数据最庞大的查询）</p></li>
+
+<li><p>结论：后台系统正常，不会导致系统错误</p></li>
+</ul></li>
+</ul>
+
+<h3 id="0-负载过高的业务分离:227f372aa3ddfa489382bf004b7e00c1">0.负载过高的业务分离</h3>
+
+<p>独立使用RDS服务运行Mysql
+- 利于数据库备份、容灾处理
+- 缓解主服务器内存压力（减少约1.5G内存占用）</p>
+
+<p>优化server进程中数据库连接池
+- 减少过多闲置链接（600降低到100以内）
+- 限制最大链接（设置为200）</p>
+
+<h3 id="1-临时方案:227f372aa3ddfa489382bf004b7e00c1">1.临时方案</h3>
+
+<p>重启php5-fpm即可</p>
+
+<pre><code>service restart php5-fpm
+</code></pre>
+
+<h3 id="2-永久方案:227f372aa3ddfa489382bf004b7e00c1">2.永久方案</h3>
+
+<p>建议1：写监控程序，当进程php5-fpm占用CPU超过90%，执行重启php5-fpm</p>
+
+<p>建议2：排查php.ini检查是具体哪个插件导致的CPU占用过高，从根本进行优化</p>
+
+<p>建议3：实现LNMP基础服务双机备份及双活部署</p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

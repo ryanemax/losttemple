@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/api/</link>
+    <description>Recent content in Api on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Sun, 05 Jun 2016 03:53:23 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>API领域创业公司及其发展动态浅析</title>
+      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;位置&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;项目/公司&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MBaaS服务&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;APIs仓库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;apis.guru&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;构建工具链&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mulesoft restlet apigee&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;底层规则&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;raml swagger&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;raml google/mulesoft为背景&lt;/li&gt;
+&lt;li&gt;swagger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;restlet 基于Java的jax-rs的集大成者，raml、swagger通用&lt;/li&gt;
+&lt;li&gt;mulesoft 基于raml体系&lt;/li&gt;
+&lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;li&gt;dreamfactory&lt;/li&gt;
+&lt;li&gt;apicloud&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

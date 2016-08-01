@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cors on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/cors/</link>
+    <description>Recent content in Cors on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Sat, 05 Sep 2015 13:13:44 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/cors/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>跨域跨域跨域golang与angularjs的默契</title>
+      <link>http://cio.anasit.com/cookbook/api/goangularfaq/</link>
+      <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/goangularfaq/</guid>
+      <description>
+
+&lt;h1 id=&#34;go-json-rest-golang:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;go-json-rest (golang)&lt;/h1&gt;
+
+&lt;h2 id=&#34;启动cors中间件-指定origin跨域-origin这里填写对应域名即可:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;启动CORS中间件，指定origin跨域，origin这里填写对应域名即可&lt;/h2&gt;
+
+&lt;h2 id=&#34;直接跨所有域名-return-origin-req-header-get-origin-即可:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;直接跨所有域名，return origin == req.Header.Get(&amp;ldquo;Origin&amp;rdquo;)，即可&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;func main() {
+	//.......
+        api := rest.NewApi()
+        api.Use(rest.DefaultDevStack...)
+        //配置API跨域CORS
+        api.Use(&amp;amp;rest.CorsMiddleware{
+                RejectNonCorsRequests: false,
+                OriginValidator: func(origin string, request *rest.Request) bool {
+                        return origin == &amp;quot;http://localhost:8100&amp;quot;
+                },
+                AllowedMethods: []string{&amp;quot;GET&amp;quot;, &amp;quot;POST&amp;quot;, &amp;quot;PUT&amp;quot;},
+                AllowedHeaders: []string{
+                        &amp;quot;Accept&amp;quot;, &amp;quot;Content-Type&amp;quot;, &amp;quot;X-Custom-Header&amp;quot;, &amp;quot;Origin&amp;quot;},
+                AccessControlAllowCredentials: true,
+                AccessControlMaxAge:           3600,
+        })
+	//......
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;angularjs:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;angularjs&lt;/h1&gt;
+
+&lt;h2 id=&#34;加withcredentials-ture-加内容类型application-json:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;加withCredentials: ture，加内容类型application/json&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;    // Login
+    req = {
+        withCredentials: true,
+        method: &#39;POST&#39;,
+        url: &#39;http://127.0.0.1:8080/countries&#39;,
+        headers: {
+        &#39;Content-Type&#39;: &#39;application/json&#39;
+        //&#39;Content-Type&#39;: &#39;text/plain&#39;
+        },
+        data: { &amp;quot;username&amp;quot;: &amp;quot;test&amp;quot;, &amp;quot;password&amp;quot;: &amp;quot;123456&amp;quot; },
+    }
+    $http(req).
+        success(function(data, status, headers, config) {
+        console.log(&amp;quot;OK&amp;quot;);
+
+        }).
+        error(function(data, status, headers, config) {
+        console.log(&amp;quot;Shit&amp;quot;);
+
+        });
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

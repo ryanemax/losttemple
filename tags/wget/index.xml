@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wget on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/wget/</link>
+    <description>Recent content in Wget on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Tue, 27 Oct 2015 15:05:51 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/wget/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>wget整站模板抓取案例及wget参数详解</title>
+      <link>http://cio.anasit.com/cookbook/devops/wgetsite/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/devops/wgetsite/</guid>
+      <description>
+
+&lt;h1 id=&#34;wget整站模板抓取案例及wget参数详解:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;《wget整站模板抓取案例及wget参数详解》&lt;/h1&gt;
+
+&lt;h1 id=&#34;总结-项目github地址:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;总结、项目Github地址&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/anasinc/getsite&#34;&gt;https://github.com/anasinc/getsite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;一-实战整站抓取案例:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;一、实战整站抓取案例&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-站点抓取:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;1.站点抓取&lt;/h2&gt;
+
+&lt;h3 id=&#34;方式一-命令行:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;方式一：命令行&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget -r -p -np -k -e robots=off http://www.han-mei.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;方式二-shell脚本:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;方式二：shell脚本&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
+## shell脚本getsite.sh
+## 整站抓取，绕过robot.txt
+if [ $# -eq 0 ]       ##判断参数是否存在
+then
+        echo &amp;quot;请输入站点地址，如：./getsite.sh http://www.baidu.com&amp;quot;
+        exit                     ##不存在退出
+fi
+targetSite=$1
+wget -r -p -np -k -e robots=off ${targetSite}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-目录迁移:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;2.目录迁移&lt;/h2&gt;
+
+&lt;p&gt;将下载的www.xxx.com目录复制到/var/www/www.xxx.com目录&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mv www.xxx.com /var/www/www.xxx.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;3-nginx解析:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;3.nginx解析&lt;/h2&gt;
+
+&lt;p&gt;解析nginx的测试网站根目录到改目录即可&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/nginx/site-available/www.xxx.com
+cd /etc/nginx/site-enabled/
+ln -s ../site-available/www.xxx.com
+service nginx reload
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;4-后续工作:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;4.后续工作&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;替换重复的js/css文件用微擎header&lt;/li&gt;
+&lt;li&gt;删除无用的jpg等资源文件&lt;/li&gt;
+&lt;li&gt;精简再精简抽象修改成可用的微擎门户模板&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;二-整站递归抓取参数解释:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;二、整站递归抓取参数解释&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## 普通
+wget -r -p -np -k http://doc.code365.net/Manual/FreeBSD_Arch_HandBook/
+
+## 绕过roboot.txt
+wget -r -p -np -k -e robots=off http://www.han-mei.com
+
+-r  递归
+-p,  --page-requisites（页面必需元素）
+-np, --no-parent（不追溯至父级）
+-k  将下载的HTML页面中的链接转换为相对链接即本地链接
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;另外断点续传用-nc参数 日志 用-o参数&lt;/p&gt;
+
+&lt;p&gt;熟练掌握wget命令，可以帮助你方便的使用linux。&lt;/p&gt;
+
+&lt;p&gt;本方法无法下载被reboot.txt屏蔽的文件&lt;/p&gt;
+
+&lt;p&gt;&amp;rdquo;-e robots=off&amp;rdquo;  让wget耍流氓无视robots.txt协议&lt;/p&gt;
+
+&lt;p&gt;-U &amp;ldquo;Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6&amp;rdquo;  伪造agent信息&lt;/p&gt;
+
+&lt;h1 id=&#34;三-模拟user-agent:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;三、模拟USER-AGENT&lt;/h1&gt;
+
+&lt;p&gt;Mask User Agent and Display wget like Browser Using wget –user-agent&lt;/p&gt;
+
+&lt;p&gt;Some websites can disallow you to download its page by identifying that the user agent is not a browser. So you can mask the user agent by using –user-agent options and show wget like a browser as shown below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ wget --user-agent=&amp;quot;Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3&amp;quot; URL-TO-DOWNLOAD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;四-技巧:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;四、技巧&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ wget -r -np -nd http://example.com/packages/
+这条命令可以下载 http://example.com 网站上 packages 目录中的所有文件。其中，-np
+的作用是不遍历父目录，-nd 表示不在本机重新创建目录结构。
+
+$ wget -r -np -nd --accept=iso http://example.com/centos-5/i386/
+与上一条命令相似，但多加了一个 --accept=iso 选项，这指示 wget 仅下载 i386
+目录中所有扩展名为 iso 的文件。你也可以指定多个扩展名，只需用逗号分隔即可。
+
+$ wget -i filename.txt
+此命令常用于批量下载的情形，把所有需要下载文件的地址放到 filename.txt 中，
+然后 wget 就会自动为你下载所有文件了。
+
+$ wget -c http://example.com/really-big-file.iso
+这里所指定的 -c 选项的作用为断点续传。
+
+$ wget -m -k (-H) http://www.example.com/
+该命令可用来镜像一个网站，wget 将对链接进行转换。如果网站中的图像是放在另外的站点，
+那么可以使用 -H 选项
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

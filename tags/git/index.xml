@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/git/</link>
+    <description>Recent content in Git on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Thu, 13 Aug 2015 17:51:58 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>基于Git的分布式自由博客&#43;搭建</title>
+      <link>http://cio.anasit.com/cookbook/tool/blogforgit/</link>
+      <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/tool/blogforgit/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-准备工作:eadff3637fef2221b49957de041cf521&#34;&gt;0.准备工作&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;基础开通&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blog选型&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;参考:&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;https://www.staticgen.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt; 基于Golang，速度极快的静态页面生成博客，&lt;a href=&#34;http://gohugo.io/&#34;&gt;http://gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;jekyll 基于Ruby，生成静态HTML博客&lt;/p&gt;
+
+&lt;p&gt;Hexo 基于NodeJS，生成静态HTML博客&lt;/p&gt;
+
+&lt;p&gt;由于较熟悉nodejs所以选择Hexo作为基础博客系统&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hexo 实际测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#arch linux
+
+npm install hexo --no-optional
+
+#mac os x
+
+brew install brew
+
+ALL_PROXY=socks5://127.0.0.1:1080 brew install brew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;http://ibruce.info/2013/11/22/hexo-your-blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;缺点：版本控制混乱、插件社区不够活跃&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hugo 实际测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;http://gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;优点：generate速度快，主题多样，插件多样&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FAQ:白屏幕&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;theme需要设置并下载到/themes文件内&lt;/p&gt;
+
+&lt;p&gt;hugo server -t &lt;themename&gt; -w -D&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important:源码与public静态页面分离&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1.Make gh-pages the default branch
+
+2.master for content(.md/project)
+
+3.gh-pages for sites(.html)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ff-私密笔记:eadff3637fef2221b49957de041cf521&#34;&gt;FF.私密笔记&lt;/h1&gt;
+
+&lt;p&gt;Hexo是静态页面，无法限制权限&lt;/p&gt;
+
+&lt;p&gt;因此，私密笔记暂时实用BitBucket的Private项目来记录，不借助任何博客系统，直接markdown记录上传.md文件&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux编辑&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Git访问&lt;a href=&#34;https://ryanemax@bitbucket.org/ryanemax/note.git&#34;&gt;https://ryanemax@bitbucket.org/ryanemax/note.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim+Markdown插件&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android客户端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;集成Git访问&lt;a href=&#34;https://ryanemax@bitbucket.org/ryanemax/note.git&#34;&gt;https://ryanemax@bitbucket.org/ryanemax/note.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CodeAnyWhere GooglePlay下载&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

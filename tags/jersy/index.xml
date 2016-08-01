@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jersy on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/jersy/</link>
+    <description>Recent content in Jersy on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Wed, 26 Aug 2015 17:37:32 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/jersy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Restlet，当java遇见RESTfulAPIs</title>
+      <link>http://cio.anasit.com/cookbook/api/restlet-java/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/restlet-java/</guid>
+      <description>
+
+&lt;h1 id=&#34;那么java最潮流的restful-api开发框架及模式是什么:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;那么java最潮流的RESTful API开发框架及模式是什么&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;jersey&lt;/li&gt;
+&lt;li&gt;jax-rs&lt;/li&gt;
+&lt;li&gt;maven&lt;/li&gt;
+&lt;li&gt;jetty&lt;/li&gt;
+&lt;li&gt;swagger 2.x&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;最佳规范jax-rs:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;最佳规范jax-rs&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/felixjia/p/3608718.html&#34;&gt;zt 比较各JAX-RS实现：CXF,Jersey,RESTEasy,Restlet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/yjmyzz/p/javaee-jax-rs-tutorial.html&#34;&gt;java 利用JAX-RS快速开发RESTful 服务&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Restlet生成后端代码采用swagger-jersey-jaxrs组合&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;restlet套件-基于raml-swagger及jax-rs:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;Restlet套件(基于RAML、Swagger及jax-rs)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://restlet.com/projects/restlet-framework/&#34;&gt;https://restlet.com/projects/restlet-framework/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;构建后台项目基本步骤:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;构建后台项目基本步骤&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;API Studio开发API&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;导出服务端项目&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;启动项目&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # for swagger-jersy-jaxrs
+  ## 运行调试
+  mvn clean package jetty:deploy-war
+  ## 部署war包
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;查看并测试api&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  http://localhost:80/api/swagger.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;当前后端代码生成器的功能:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;当前后端代码生成器的功能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Path 请求路由生成&lt;/li&gt;
+&lt;li&gt;Type/Representations 数据结构生成&lt;/li&gt;
+&lt;li&gt;Factory/impl 工厂模式文件结构生成&lt;/li&gt;
+&lt;li&gt;未完成：统一Json响应接口，需自主开发&lt;/li&gt;
+&lt;li&gt;未完成：数据库迁移，需自主开发&lt;/li&gt;
+&lt;li&gt;未完成：数据层处理逻辑，需自主开发&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;为restlet-jax-rs版提供数据层集成:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;为restlet jax-rs版提供数据层集成&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;思路一：采用直接通过maven引入原始JPA包&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ibm.com/developerworks/cn/web/wa-datawebapp/&#34;&gt;使用 JAX-RS、JPA 和 Dojo 创建丰富的以数据为中心的 web 应用程序&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;思路二：在jersy框架中寻找解决方案&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jersey.java.net/&#34;&gt;官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.codingpedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/&#34;&gt;Tutorial – REST API design and implementation in Java with Jersey and Spring&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://waylau.com/jersey-mysql5-hibernate4/&#34;&gt;用Jersey构建RESTful服务5&amp;ndash;Jersey+MySQL5.6+Hibernate4.3&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

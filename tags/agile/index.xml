@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/tags/agile/</link>
+    <description>Recent content in Agile on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Thu, 03 Sep 2015 01:29:00 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>协同工作中的思维导图/UML选择</title>
+      <link>http://cio.anasit.com/cookbook/agile/comapping/</link>
+      <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/agile/comapping/</guid>
+      <description>
+
+&lt;h1 id=&#34;1-uml:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;1.UML&lt;/h1&gt;
+
+&lt;h1 id=&#34;creately-com:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;creately.com&lt;/h1&gt;
+
+&lt;p&gt;付费
+实时协同&lt;/p&gt;
+
+&lt;h2 id=&#34;集成:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;集成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;跨平台&lt;/li&gt;
+&lt;li&gt;独立部署&lt;/li&gt;
+&lt;li&gt;JIRA&lt;/li&gt;
+&lt;li&gt;Confluence&lt;/li&gt;
+&lt;li&gt;Google Apps&lt;/li&gt;
+&lt;li&gt;chrome&lt;/li&gt;
+&lt;li&gt;FogBugz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;gliffy:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;gliffy&lt;/h1&gt;
+
+&lt;p&gt;付费
+体验较好&lt;/p&gt;
+
+&lt;h2 id=&#34;集成-1:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;集成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JIRA&lt;/li&gt;
+&lt;li&gt;Confluence&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Google Apps&lt;/p&gt;
+
+&lt;h2 id=&#34;格式导出:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;格式导出&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PNG&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JPG&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SVG&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gliffy&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;2-思维导图:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;2.思维导图&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Xmind支持导入格式&lt;/em&gt;
+- FreeMind
+- Microsoft Word
+- Mindjet MindManager
+- Xmind 2008&lt;/p&gt;
+
+&lt;h1 id=&#34;wisemapping:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;WiseMapping&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开源免费&lt;/li&gt;
+&lt;li&gt;在线协同&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;Mysql/Postgres/HyperSql&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;幕后支持：Atlassain.net&lt;/p&gt;
+
+&lt;h2 id=&#34;使用体验:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;使用体验&lt;/h2&gt;
+
+&lt;p&gt;缺点&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;优点
+- Shift/双击插入多个顶级主题
+- 注释鼠标划过显示（可用于写表字段）
+- Link鼠标划过显示页面（PagePeeker插件）&lt;/p&gt;
+
+&lt;h2 id=&#34;导出格式支持:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;导出格式支持&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Freemind 0.9.0&lt;/li&gt;
+&lt;li&gt;Mindjet 8.x&lt;/li&gt;
+&lt;li&gt;WiseMapping&lt;/li&gt;
+&lt;li&gt;SVG&lt;/li&gt;
+&lt;li&gt;PDF&lt;/li&gt;
+&lt;li&gt;PNG/JPEG&lt;/li&gt;
+&lt;li&gt;Plan Text&lt;/li&gt;
+&lt;li&gt;Microsoft Excel&lt;/li&gt;
+&lt;li&gt;OpenOffice Writer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.wisemapping.com&#34;&gt;http://www.wisemapping.com&lt;/a&gt;
+&lt;a href=&#34;http://www.wisemapping.org&#34;&gt;http://www.wisemapping.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;mindmup:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;MindMup&lt;/h1&gt;
+
+&lt;h2 id=&#34;使用体验-1:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;使用体验&lt;/h2&gt;
+
+&lt;p&gt;缺点
+- 不支持插入顶级主题
+- 注释需要手动点开查看
+优点
+- 注释可插入图片&lt;/p&gt;
+
+&lt;h2 id=&#34;导出格式支持-1:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;导出格式支持&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MindMup .mup&lt;/li&gt;
+&lt;li&gt;FreeMind .mm&lt;/li&gt;
+&lt;li&gt;PNG&lt;/li&gt;
+&lt;li&gt;PDF&lt;/li&gt;
+&lt;li&gt;HTML outline&lt;/li&gt;
+&lt;li&gt;TEXT outline(Tab separated)&lt;/li&gt;
+&lt;li&gt;Measures&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;StoryBoard(PDF/PPT/WORD)&lt;/p&gt;
+
+&lt;h1 id=&#34;kity-minder:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;Kity Minder&lt;/h1&gt;
+
+&lt;p&gt;百度UEditor团队&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/fex-team/kityminder&#34;&gt;https://github.com/fex-team/kityminder&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://naotu.baidu.com&#34;&gt;http://naotu.baidu.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>协同中的IM聊天室选择(jitsi/apperin/talkyio)</title>
+      <link>http://cio.anasit.com/cookbook/agile/imsystem/</link>
+      <pubDate>Wed, 02 Sep 2015 17:31:17 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/agile/imsystem/</guid>
+      <description>
+
+&lt;p&gt;#jitsi.org
+开源，可独立部署&lt;/p&gt;
+
+&lt;p&gt;An audio/video SIP VoIP phone and instant messenger written in Java
+    (formerly SIP-Communicator)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jitsi.org/Main/Features&#34;&gt;https://jitsi.org/Main/Features&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;✔ 100% open source
+✔ Encrypted by default
+✔ HD audio with Opus
+✔ No account needed
+✔ Presentations and desktop sharing
+✔ Integrated chat
+✔ Invite by pretty URLs &lt;a href=&#34;https://MySite.com/OurConf&#34;&gt;https://MySite.com/OurConf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;appear-in:fe20636d959c65d17d991d1e0912e40a&#34;&gt;appear.in&lt;/h1&gt;
+
+&lt;p&gt;在线视频聊天室&lt;/p&gt;
+
+&lt;h2 id=&#34;start-talking-in-seconds:fe20636d959c65d17d991d1e0912e40a&#34;&gt;Start talking in seconds&lt;/h2&gt;
+
+&lt;p&gt;It has never been easier to start talking over video to your friends, family or coworkers.&lt;/p&gt;
+
+&lt;p&gt;With appear.in you can:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;send messages and links in text chat while seeing each other on video
+claim your own personal video room
+set a custom background image of the room
+lock the room for private conversations
+share your screen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;no-installation-required:fe20636d959c65d17d991d1e0912e40a&#34;&gt;No installation required&lt;/h2&gt;
+
+&lt;p&gt;You only need one of the supported browsers listed to the right.&lt;/p&gt;
+
+&lt;p&gt;appear.in is built with a new web standard called WebRTC.
+For you this means no plugins or installation. .
+Currently WebRTC is only supported in the browsers .
+listed on desktop and devices with newer version of Android.&lt;/p&gt;
+
+&lt;p&gt;#talky.io
+在线视频聊天室&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>当团队线上办公需要dms文档管理系统</title>
+      <link>http://cio.anasit.com/cookbook/dms/</link>
+      <pubDate>Sun, 16 Aug 2015 07:14:29 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/dms/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-ffice软件选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;0.ffice软件选择&lt;/h1&gt;
+
+&lt;h2 id=&#34;0-0-选择libreoffice:4fa8bfda18f19217513616c149f0906f&#34;&gt;0.0 选择LibreOffice&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;支持开源，以及Web亲和力，选择LibreOffice系列&lt;/li&gt;
+&lt;li&gt;跨平台，团队Linux、Windows、Mac均可用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;1-dms系统选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.DMS系统选择&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-0-选择alfresco:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.0 选择Alfresco&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;支持开源，并兼容LibreOffice系列文件&lt;/li&gt;
+&lt;li&gt;企业级ECM、BPM系统&lt;/li&gt;
+&lt;li&gt;Alfresco One #经典的企业级文档管理系统&lt;/li&gt;
+&lt;li&gt;Alfresco Activiti #可扩展自动化流程系统&lt;/li&gt;
+&lt;li&gt;Alfresco Mobile #iOS、Android移动端&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;部署环境/技术特性：
+* Tomcat
+* Java (JRE only)
+* PostgreSQL
+* Solr1/Solr4
+* SharePoint
+* Web Quick Start
+* Google Docs Integration
+* LibreOffice&lt;/p&gt;
+
+&lt;h2 id=&#34;1-1-安装版本选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.1 安装版本选择&lt;/h2&gt;
+
+&lt;h3 id=&#34;alfresco-one-vs-community-区别:4fa8bfda18f19217513616c149f0906f&#34;&gt;Alfresco One vs Community 区别&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014&#34;&gt;http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical differences&lt;/strong&gt;
+* One 数据库支持Oracle,MS SQL,DB2,Mysql,Postgre
+* One 服务端支持Tomcat Jboss
+* 认证接口 SAP,Salesforce,AWS S3,Outlook, Brava Viewer
+* One 支持集群部署
+* Cloud Sync&lt;/p&gt;
+
+&lt;h3 id=&#34;alfresco-one-5-0-1:4fa8bfda18f19217513616c149f0906f&#34;&gt;Alfresco One 5.0.1&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html&#34;&gt;http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;alfresco-community-edition-5-0:4fa8bfda18f19217513616c149f0906f&#34;&gt;Alfresco Community Edition 5.0&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Alfresco/community-edition&#34;&gt;https://github.com/Alfresco/community-edition&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Resources:
+* Master subversion repository: &lt;a href=&#34;http://svn.alfresco.com&#34;&gt;http://svn.alfresco.com&lt;/a&gt;
+* Issue tracker: &lt;a href=&#34;http://issues.alfresco.com&#34;&gt;http://issues.alfresco.com&lt;/a&gt;
+* Official documentation: &lt;a href=&#34;http://docs.alfresco.com&#34;&gt;http://docs.alfresco.com&lt;/a&gt;
+* Community wiki: &lt;a href=&#34;http://wiki.alfresco.com&#34;&gt;http://wiki.alfresco.com&lt;/a&gt;
+* Add-ons directory: &lt;a href=&#34;http://addons.alfresco.com&#34;&gt;http://addons.alfresco.com&lt;/a&gt;
+* Other developer resources: &lt;a href=&#34;https://www.alfresco.com&#34;&gt;https://www.alfresco.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-2-tomcat-下安装alfresco-community:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2 Tomcat 下安装Alfresco Community&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://docs.alfresco.com/community/tasks/alf-war-install.html&#34;&gt;http://docs.alfresco.com/community/tasks/alf-war-install.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;1-2-1-下载alfresco-community-5-0-d-zip:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2.1 下载alfresco-community-5.0.d.zip&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#https://wiki.alfresco.com/wiki/Community_file_list_5.0.d
+
+wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-community-5.0.d.zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;1-2-2-配置tomcat-7:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2.2 配置Tomcat 7&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#http://docs.alfresco.com/community/tasks/configfiles-change-path.html
+#Edit the &amp;lt;TOMCAT_HOME&amp;gt;/conf/server.xml file.
+#Locate the Connector sections, and then add the URIEncoding=&amp;quot;UTF-8&amp;quot; and maxHttpHeaderSize=&amp;quot;32768&amp;quot; properties.
+
+&amp;lt;Connector port=&amp;quot;8080&amp;quot; protocol=&amp;quot;HTTP/1.1&amp;quot; URIEncoding=&amp;quot;UTF-8&amp;quot; connectionTimeout=&amp;quot;20000&amp;quot; redirectPort=&amp;quot;8443&amp;quot; maxHttpHeaderSize=&amp;quot;32768&amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;1-2-3-部署war:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2.3.部署War&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://docs.alfresco.com/community/tasks/alf-war-install.html&#34;&gt;http://docs.alfresco.com/community/tasks/alf-war-install.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>敏捷团队协作taiga.io，开源实用</title>
+      <link>http://cio.anasit.com/cookbook/agile/taiga/</link>
+      <pubDate>Fri, 14 Aug 2015 10:07:26 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/agile/taiga/</guid>
+      <description>
+
+&lt;h1 id=&#34;taiga-io使用记录:144c1d19893c22838e9dbed07638badf&#34;&gt;TAIGA.IO使用记录&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;完全手册：&lt;a href=&#34;http://taigaio.github.io/taiga-doc/dist/&#34;&gt;http://taigaio.github.io/taiga-doc/dist/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;0-当敏捷团队碰到agile系统:144c1d19893c22838e9dbed07638badf&#34;&gt;0.当敏捷团队碰到Agile系统&lt;/h2&gt;
+
+&lt;h3 id=&#34;0-0-尝试:144c1d19893c22838e9dbed07638badf&#34;&gt;0.0 尝试&lt;/h3&gt;
+
+&lt;p&gt;之前尝试过很多优秀的Agile工具：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.odoo 一体化的公司开源神器&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;优点：全面的ERP，自带项目模块支持Kanban;&lt;/p&gt;
+
+&lt;p&gt;缺点：缺少APP以及移动端，用户体验不足&lt;/p&gt;
+
+&lt;p&gt;总结：现阶段团队需要更加专注敏捷开发工作，而且功能简洁易用的辅助系统，而全面的Odoo不适合现阶段，以后公司规模扩长，它会是一个集CMS、ERP、CRM、财务、库管一体的优秀系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.Zentao 支持国产&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;优点：国人开源的项目管理系统，中文文档丰富&lt;/p&gt;
+
+&lt;p&gt;缺点：插件收费，手机版收费，界面体验不足，集成功能只适合做Scrum&lt;/p&gt;
+
+&lt;h3 id=&#34;0-1-选择:144c1d19893c22838e9dbed07638badf&#34;&gt;0.1 选择&lt;/h3&gt;
+
+&lt;h4 id=&#34;0-1-1-敏捷开发及项目管理系统:144c1d19893c22838e9dbed07638badf&#34;&gt;0.1.1 敏捷开发及项目管理系统&lt;/h4&gt;
+
+&lt;p&gt;核心必备：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Kanban
+任务完成情况最直接的表示方式，把黑白纸条搬到线上&lt;/li&gt;
+&lt;li&gt;Issue
+用于产品测试及系统上线环节必备的排错维护&lt;/li&gt;
+&lt;li&gt;Wiki
+建立API文档、开发参考文档、计划书等团队经验分享&lt;/li&gt;
+&lt;li&gt;BackLog
+一定量的判断开发的工作效率、以便控制适当的开发周期&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;因此，选择了Taiga，它是集以上关键功能一体，简洁，美观，开源，免费的敏捷管理系统。&lt;/p&gt;
+
+&lt;h4 id=&#34;0-1-2-即时通讯视频:144c1d19893c22838e9dbed07638badf&#34;&gt;0.1.2 即时通讯视频&lt;/h4&gt;
+
+&lt;p&gt;Taiga自带与Talky、jitsi等多种视频通讯平台的集成&lt;/p&gt;
+
+&lt;p&gt;正在测试哪个更加便捷&lt;/p&gt;
+
+&lt;p&gt;核心必备：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;传输流畅&lt;/li&gt;
+&lt;li&gt;跨平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;1-功能拓展:144c1d19893c22838e9dbed07638badf&#34;&gt;1. 功能拓展&lt;/h2&gt;
+
+&lt;h3 id=&#34;类似gantt图的项目时间拓展:144c1d19893c22838e9dbed07638badf&#34;&gt;类似Gantt图的项目时间拓展&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/toggl/toggl-button&#34;&gt;https://github.com/toggl/toggl-button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/toggl-button-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn&#34;&gt;Toggl Button: Productivity &amp;amp; Time Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ff-prepare:144c1d19893c22838e9dbed07638badf&#34;&gt;FF.prepare&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/taigaio/&#34;&gt;https://github.com/taigaio/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;taiga-front-编译安装方式:144c1d19893c22838e9dbed07638badf&#34;&gt;taiga-front &lt;code&gt;编译安装方式&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Taiga项目的前端系统页面，AngularJs开发，支持扩展Modules、Themes&lt;/p&gt;
+
+&lt;p&gt;一般直接使用taiga-front-dist&lt;/p&gt;
+
+&lt;p&gt;ruby 2.1(only for sass)&lt;/p&gt;
+
+&lt;p&gt;nodejs 0.10(for npm,gulp,bower,coffescript)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ruby/sass&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ gem install sass scss-lint
+$ export PATH=&amp;quot;~/.gem/ruby/2.1.0/bin:$PATH&amp;quot;
+$ sass -v // should return Sass 3.3.8 (Maptastic Maple)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Node + Bower + Gulp&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ sudo npm install -g gulp
+$ sudo npm install -g bower
+$ npm install
+$ bower install
+$ gulp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;taiga-front-dist&lt;/strong&gt; &lt;code&gt;git安装方式&lt;/code&gt;
+git clone &lt;a href=&#34;https://github.com/taigaio/taiga-front-dist&#34;&gt;https://github.com/taigaio/taiga-front-dist&lt;/a&gt;
+cp -r taiga-front-dist/dist /var/www/taiga&lt;/p&gt;
+
+&lt;h3 id=&#34;taiga-back:144c1d19893c22838e9dbed07638badf&#34;&gt;taiga-back&lt;/h3&gt;
+
+&lt;p&gt;python 3.4+&lt;/p&gt;
+
+&lt;p&gt;postgresql &amp;gt;= 9.3&lt;/p&gt;
+
+&lt;p&gt;init auth data: admin/123123&lt;/p&gt;
+
+&lt;p&gt;详情参考：&lt;a href=&#34;http://taigaio.github.io/taiga-doc/dist/setup-production.html#_install_dependencies&#34;&gt;http://taigaio.github.io/taiga-doc/dist/setup-production.html#_install_dependencies&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
