@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="html5,game|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>HTML5游戏客户端开发引擎 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-01">May 01, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/cookbook/fontend">cookbook/fontend</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/html5">html5</a>
+
+        <a href="http://cio.anasit.com/tags/game">game</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">HTML5游戏客户端开发引擎</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="html5游戏客户端开发引擎调研:e807aaef47e7b181617ed1c0bc1a417a">HTML5游戏客户端开发引擎调研</h1>
+
+<h1 id="phaser-js:e807aaef47e7b181617ed1c0bc1a417a">Phaser.js</h1>
+
+<p><a href="http://www.phaser.io">http://www.phaser.io</a></p>
+
+<h1 id="egret-html5-es6最佳选择:e807aaef47e7b181617ed1c0bc1a417a">Egret（HTML5+ES6最佳选择）</h1>
+
+<p><a href="http://www.egret.com">http://www.egret.com</a></p>
+
+<p>Egret现在是小孩，眉目清秀</p>
+
+<h2 id="代表游戏:e807aaef47e7b181617ed1c0bc1a417a">代表游戏</h2>
+
+<ul>
+<li>神经猫</li>
+</ul>
+
+<h2 id="优点:e807aaef47e7b181617ed1c0bc1a417a">优点</h2>
+
+<ul>
+<li>生态链比较完善</li>
+<li>ES6/TypeScript/JavaScript</li>
+<li>GUI界面编辑器，Egret Wing</li>
+<li>跨平台，AIR</li>
+<li>跨平台安装包打包工具
+
+<ul>
+<li>Egret Android Support</li>
+<li>Egret iOS Support</li>
+</ul></li>
+<li>开发环境
+
+<ul>
+<li>Windows</li>
+<li>Mac</li>
+</ul></li>
+</ul>
+
+<h2 id="缺点:e807aaef47e7b181617ed1c0bc1a417a">缺点</h2>
+
+<ul>
+<li>刷新率卡顿问题严重影响游戏体验</li>
+<li>喜欢闭门造车，通用的轮子都是自己重写</li>
+<li>全面依赖于html5，但是已经与多款浏览器集成了runtime，可以opengl渲染代替canvas渲染</li>
+</ul>
+
+<h1 id="cocos2d-js-与cocos2d-x差距太大了-不建议使用:e807aaef47e7b181617ed1c0bc1a417a">cocos2d-js（与cocos2d-x差距太大了，不建议使用）</h1>
+
+<h2 id="优点-1:e807aaef47e7b181617ed1c0bc1a417a">优点</h2>
+
+<ul>
+<li>Babel ES6</li>
+<li>native improvement</li>
+<li>开发环境
+
+<ul>
+<li>Windows</li>
+<li>Mac</li>
+</ul></li>
+</ul>
+
+<h2 id="缺点-1:e807aaef47e7b181617ed1c0bc1a417a">缺点</h2>
+
+<ul>
+<li>团队内部问题，内部不和谐，产品规划方向差</li>
+<li>跨平台问题
+
+<ul>
+<li>HTML5/JSB表现不一致，只能放弃HTML5,专注JSB</li>
+</ul></li>
+<li>性能问题，性能远低于Egret</li>
+<li>大型游戏，强烈不建议Cocos2d-js
+
+<ul>
+<li>IDE有BUG，断点崩溃，代码提示差，内存太高</li>
+<li>架构太差</li>
+<li>CCUI设计非常糟</li>
+<li>引擎BUG问题多</li>
+<li>工作流问题，IDE不友好，导出配置大</li>
+<li>工作效率问题，ccui、list差</li>
+<li>引擎升级会有大量BUG，版本兼容性差</li>
+</ul></li>
+<li>2.x质量一般，3.x开始改善</li>
+<li>IDE，cocos studio十分难用，拖了引擎后腿</li>
+</ul>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

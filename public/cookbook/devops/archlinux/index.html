@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Arch Linux软件选型整理 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-11-04">November 04, 2015</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/linux">linux</a>
+
+        <a href="http://cio.anasit.com/tags/archlinux">archlinux</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">Arch Linux软件选型整理</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<p>#发行版本
+Arch Linux</p>
+
+<h1 id="0-系统安装:f206309cfada2fa2891560ce0981d178">0.系统安装</h1>
+
+<h2 id="0-dd:f206309cfada2fa2891560ce0981d178">0.dd</h2>
+
+<pre><code class="language-bash">dd if=/dev/zero of=/dev/sda bs=512 count=1
+parted -s /dev/sda mklabel msdos
+fdisk
+m
+o
+#清空GPT/MBR分区格式
+
+dd if=arch.iso of=/dev/sda
+#此处of为设备,而不是设备分区
+#无法引导需要尝试切换USB2.0/USB3.0接口
+</code></pre>
+
+<h2 id="1-fdisk:f206309cfada2fa2891560ce0981d178">1.fdisk</h2>
+
+<pre><code class="language-bash">#option fdisk
+#SATA3.0中/dev/sda的跳线一定要接在0第一个位置
+fdisk /dev/sda
+n
+p
+default
++40G
+
+n
+p
+default
++80G
+
+p
+w
+</code></pre>
+
+<pre><code class="language-bash">#option cfdisk
+cfdisk
+#选择dos(MBR)
+#设置bootable
+</code></pre>
+
+<pre><code class="language-bash">#option gdisk for UEFI/GPT
+efivar -l #测试ISO是否EFI
+gdisk /dev/sda
+#option cgdisk for UEFI/GPT
+</code></pre>
+
+<h2 id="2-mkfs-ext4:f206309cfada2fa2891560ce0981d178">2.mkfs.ext4</h2>
+
+<pre><code class="language-bash">mkfs.ext4 /dev/sda1
+mkfs.ext4 /dev/sda2
+</code></pre>
+
+<h2 id="3-mount:f206309cfada2fa2891560ce0981d178">3.mount</h2>
+
+<pre><code class="language-bash">mount /dev/sda1 /mnt
+</code></pre>
+
+<h2 id="4-install:f206309cfada2fa2891560ce0981d178">4.install</h2>
+
+<pre><code class="language-bash">vim /etc/pacman.d/mirrorlist
+pacstrap -i /mnt base net-tools
+genfstab -U -p /mnt &gt;&gt; /mnt/etc/fstab
+
+arch-chroot /mnt /bin/bash
+
+</code></pre>
+
+<h2 id="5-launcher:f206309cfada2fa2891560ce0981d178">5.Launcher</h2>
+
+<p>refer to <a href="http://blog.lucode.net/linux/archlinux-install-tutorial.html">http://blog.lucode.net/linux/archlinux-install-tutorial.html</a>
+###syslinux</p>
+
+<pre><code class="language-bash">syslinux-install_update -i -a -m
+vim /boot/syslinux/syslinux.cfg
+</code></pre>
+
+<h1 id="pacman-source-configure:f206309cfada2fa2891560ce0981d178">Pacman Source Configure</h1>
+
+<pre><code class="language-bash">vim /etc/pacman.conf
+#添加archlinuxcn源
+[archlinuxcn]
+#The Chinese Arch Linux communities packages.
+SigLevel = Optional TrustedOnly
+Server   = http://repo.archlinuxcn.org/$arch
+
+#添加multiarch源
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+</code></pre>
+
+<h1 id="window-manager:f206309cfada2fa2891560ce0981d178">window manager</h1>
+
+<p>pacman -S xorg
+pacman -S xorg-xinit
+pacman -S awesome</p>
+
+<p>pacman -S fcitx fcitx-configtool fcitx-qt5</p>
+
+<p>awesome主题
+<a href="http://awesome.naquadah.org/wiki/Beautiful_themes">http://awesome.naquadah.org/wiki/Beautiful_themes</a></p>
+
+<pre><code class="language-bash">#更换桌面
+cd /usr/share/awesome/themes/default
+cp -f ~/Desktop/hy1.png ./background.png
+</code></pre>
+
+<h1 id="多屏幕:f206309cfada2fa2891560ce0981d178">多屏幕</h1>
+
+<pre><code class="language-bash">#查看已接入显示器设备
+xrandr
+
+#awesome多屏幕设置
+xrandr --output eDP --mode 1366x768 --output VGA-0 --mode 1920x1080 --left-of eDP
+</code></pre>
+
+<p>Mod4 + o //send to another screen</p>
+
+<h1 id="wifi:f206309cfada2fa2891560ce0981d178">Wifi</h1>
+
+<p>wifi-menu</p>
+
+<pre><code class="language-bash">pacman -S dialog wpa_supplicant
+
+#连接Wifi指令
+ip link
+
+wpa_supplicant -D nl80211,wext -i wlp3s0 -c &lt;(wpa_passphrase &quot;KaiYuanTech&quot; &quot;940914940914&quot;)
+
+dhcpcd wlp3s0
+</code></pre>
+
+<h1 id="terminal:f206309cfada2fa2891560ce0981d178">Terminal</h1>
+
+<pre><code class="language-bash">pacman -S terminator
+
+#手动配置或者右键-Preferences
+~/.config/terminator/config
+</code></pre>
+
+<h1 id="sh命令行:f206309cfada2fa2891560ce0981d178">sh命令行</h1>
+
+<p>pacman -S zsh</p>
+
+<h1 id="font-beautify:f206309cfada2fa2891560ce0981d178">Font &amp; Beautify</h1>
+
+<p>pacman -S wqy-microhei  wqy-zenhei</p>
+
+<h1 id="input-method:f206309cfada2fa2891560ce0981d178">Input Method</h1>
+
+<p>pacman -S fcitx fcitx-qt5 fcitx-configtools</p>
+
+<pre><code class="language-bash">#添加到.xinitrc的awesome前面
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=&quot;@im=fcitx&quot;
+fcitx -d &amp;
+</code></pre>
+
+<h1 id="图书馆-笔记系统:f206309cfada2fa2891560ce0981d178">图书馆&amp;笔记系统</h1>
+
+<pre><code class="language-bash">pacman -S calibre
+pacman -S wiznote
+firefox http://www.leanote.com
+</code></pre>
+
+<h1 id="financial-accounting:f206309cfada2fa2891560ce0981d178">Financial &amp; Accounting</h1>
+
+<p>pacman -S gnucash</p>
+
+<h1 id="develop-tools:f206309cfada2fa2891560ce0981d178">Develop Tools</h1>
+
+<p>pacman -S android-studio</p>
+
+<h1 id="security-tools:f206309cfada2fa2891560ce0981d178">Security Tools</h1>
+
+<pre><code class="language-bash">#渗透测试
+pacman -S metasploit
+#网络封包
+pacman -S wireshark
+#漏洞扫描
+pacman -S nmap
+pacman -S openvas
+nessus优于openvas，openvas仅为开源免费替代方案
+https://wiki.archlinux.org/index.php/Nessus
+</code></pre>
+
+<h1 id="multi-media:f206309cfada2fa2891560ce0981d178">Multi Media</h1>
+
+<h2 id="flash-plugin:f206309cfada2fa2891560ce0981d178">Flash Plugin</h2>
+
+<p>pacman -S flashplugin</p>
+
+<h2 id="audio-driver:f206309cfada2fa2891560ce0981d178">Audio Driver</h2>
+
+<p>pacman -S alsa-utils</p>
+
+<pre><code class="language-bash">#配置card中MM为00，按m键
+alsamixer
+#查看声卡
+aplay -l
+#添加/etc/asound.conf文件，设置默认声卡
+defaults.ctl.card 1
+defaults.pcm.card 1
+defaults.timer.card 1
+#重载配置
+alsactl restore
+alsactl kill quit
+alsactl init 1
+#reboot
+</code></pre>
+
+<h1 id="数学建模:f206309cfada2fa2891560ce0981d178">数学建模</h1>
+
+<p>pacman -S sagemath
+<a href="http://www.sagemath.org">http://www.sagemath.org</a></p>
+
+<h1 id="disk-mnt-tool:f206309cfada2fa2891560ce0981d178">Disk Mnt Tool</h1>
+
+<pre><code class="language-bash">pacman -S ntfs-3g
+mount /dev/&lt;your-NTFS-partition&gt; /media/&lt;folder&gt;
+</code></pre>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2015  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

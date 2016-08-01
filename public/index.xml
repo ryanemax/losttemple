@@ -1,0 +1,2292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Thu, 21 Jul 2016 12:00:00 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
+      <link>http://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;会议简介:a66db78a91811a58a07edc55949cf900&#34;&gt;会议简介&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会议主题
+
+&lt;ul&gt;
+&lt;li&gt;因专属更自如——IBM Bluemix 云端体验之旅&lt;/li&gt;
+&lt;li&gt;IBM Bluemix Dedicated&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;主办单位
+
+&lt;ul&gt;
+&lt;li&gt;世纪互联集团有限公司&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主题一:a66db78a91811a58a07edc55949cf900&#34;&gt;主题一&lt;/h1&gt;
+
+&lt;h1 id=&#34;主题二:a66db78a91811a58a07edc55949cf900&#34;&gt;主题二&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</title>
+      <link>http://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
+      <description>
+
+&lt;h1 id=&#34;零-前言:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;零、前言&lt;/h1&gt;
+
+&lt;p&gt;本文针对二三线城市&lt;strong&gt;中小型企业信息化&lt;/strong&gt;现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。&lt;/p&gt;
+
+&lt;p&gt;主体分为四大章节
+- 企业信息化的市场前景
+- 消灭信息不对等！
+- 中小企业如何顺利进行信息化转型？
+- 安纳斯在江西区域发展策略&lt;/p&gt;
+
+&lt;p&gt;以及2个具体的实施案例
+- 案例1：江西某旅游集团信息化转型
+- 案例2：湖南某市九县三区民政养老信息化转型&lt;/p&gt;
+
+&lt;h1 id=&#34;一-企业信息化的市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
+
+&lt;h2 id=&#34;企业信息化技术的发展:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2000-2008
+
+&lt;ul&gt;
+&lt;li&gt;自建机房&lt;/li&gt;
+&lt;li&gt;IDC托管&lt;/li&gt;
+&lt;li&gt;门户网站、OA、ERP&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2009 各大公司陆续发布公有IaaS服务&lt;/li&gt;
+&lt;li&gt;2012 云计算时代的&lt;strong&gt;PaaS&lt;/strong&gt;元年
+
+&lt;ul&gt;
+&lt;li&gt;Hadoop、MapReduce被IBM、亚马逊、谷歌、和微软等财力雄厚的PaaS提供商封装成预制服务&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2015
+
+&lt;ul&gt;
+&lt;li&gt;全面融入IT领域的&lt;strong&gt;容器技术&lt;/strong&gt;元年&lt;/li&gt;
+&lt;li&gt;Windows Server 2016将为Docker类容器技术提供支持&lt;/li&gt;
+&lt;li&gt;OpenStack、CloudFoundry等Linux巨头，也在重新对其产品线中的某些核心组件进行调整&lt;/li&gt;
+&lt;li&gt;2015年中国企业级SaaS市场规模将达到199.3亿元，这是一个正经历着裂变式高速增长的市场&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2016 变革从此爆发
+
+&lt;ul&gt;
+&lt;li&gt;预计2016年中国企业级SaaS市场规模将超过300亿元人民币&lt;/li&gt;
+&lt;li&gt;混合云 IBM Bluemix 中国区将正式发布&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://d1fto35gcfffzn.cloudfront.net/images/products/pivotal-cloud-foundry/cloud-native-diagram-azure.png&#34; alt=&#34;CloudFondry&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;待整理-国内混合云市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
+
+&lt;h2 id=&#34;待整理-江西混合云市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
+
+&lt;h2 id=&#34;中小企业信息化的需求:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;互联网技术革新速度不断加速，二三线城市还未跟上步伐&lt;/li&gt;
+&lt;li&gt;企业信息系统，该选择私有云还是公有云？
+
+&lt;ul&gt;
+&lt;li&gt;如果公有云，该选择IBM、AWS还是国内服务商？&lt;/li&gt;
+&lt;li&gt;如果私有云，该选择私有云IDC托管还是自建机房？&lt;/li&gt;
+&lt;li&gt;企业云资源虚拟化，该选择OpenStack还是Docker？
+
+&lt;ul&gt;
+&lt;li&gt;OpenStack该选择自建服务器集群，还是统一托管至IDC？&lt;/li&gt;
+&lt;li&gt;Docker管理的PaaS级方案，该选择CloudFoundry、Kubernetes、Deis还是Flynn？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些头疼无比的选择，正反映了中小型企业信息化的现状：信息不对等，导致了中小型企业难接触飞速发展的企业信息化技术。&lt;/p&gt;
+
+&lt;h1 id=&#34;二-消灭信息不对等:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
+
+&lt;h2 id=&#34;消灭常见认知误区:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;消灭常见认知误区&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;十年前，建设一个门户就是企业信息化&lt;/li&gt;
+&lt;li&gt;现在，做一个公众号，发布一款APP就是企业信息化&lt;/li&gt;
+&lt;li&gt;只要有WEB，拼凑几个智能硬件，就是互联网+项目&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;消灭成本预估误区:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;消灭成本预估误区&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;公司策划的项目很好，只差一个程序员
+
+&lt;ul&gt;
+&lt;li&gt;对系统&lt;strong&gt;需求不明确&lt;/strong&gt;，导致资金预算与预期成果严重不符&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;请一个软件外包团队，几个月就能做完项目
+
+&lt;ul&gt;
+&lt;li&gt;对系统上线&lt;strong&gt;运维成本不了解&lt;/strong&gt;，导致项目难以持续迭代&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
+
+&lt;h3 id=&#34;关键工具:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;关键工具&lt;/h3&gt;
+
+&lt;h4 id=&#34;ibm-api-connect:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;IBM API Connect&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安全地打通现有的信息数据&lt;/li&gt;
+&lt;li&gt;可视化API构建集成&lt;/li&gt;
+&lt;li&gt;Swagger2.0规范标准&lt;/li&gt;
+&lt;li&gt;API使用统计分析&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/design.png&#34; alt=&#34;apiconnect0&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/source.png&#34; alt=&#34;apiconnect1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/analytics.png&#34; alt=&#34;apiconnect2&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;项目背景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;项目背景&lt;/h3&gt;
+
+&lt;p&gt;2015.4月，该旅游集团互联网+旅游产品与2015年1月开始已上线一个季度，由一家小型非技术型公司来外包完成产品开发。平台前期设计开发过于仓促，上线运营缺少维护支持以及全方位测试。导致了其正式上线运营后劲不足，影响到集团线下战略发展。&lt;/p&gt;
+
+&lt;h3 id=&#34;危机分析:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;危机分析&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/原运营情况.png&#34; alt=&#34;原运营情况&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;拥有200家子公司，但集团内部信息化系统杂乱
+
+&lt;ul&gt;
+&lt;li&gt;新员工入职需要先学习五种系统，日志汇报系统、财务审批系统、旅游产品系统、客户管理系统、微信商城系统&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;各子系统的交接环节，完全使用&lt;strong&gt;人工手动&lt;/strong&gt;统计与交接&lt;/li&gt;
+&lt;li&gt;线上产品经测试后漏洞较多，导致关键业务需要重构&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;提供支持:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;提供支持&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/平台2.0系统.png&#34; alt=&#34;优化后系统&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;重构微平台关键业务——旅游产品商城，对接财务报表系统&lt;/li&gt;
+&lt;li&gt;对接集团内部信息系统，部分打通API，部分子系统直接重构&lt;/li&gt;
+&lt;li&gt;优化线上产品自动化部署及自动化运维策略&lt;/li&gt;
+&lt;li&gt;设计平台全套RESTful APIs，提供信息化数据微服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;成果:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;成果&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;大幅度减少集团原有的人力资源浪费（信息化及自动化）&lt;/li&gt;
+&lt;li&gt;利于项目维护及后续扩展开发（基于RESTful重构后的线上产品数据接口）&lt;/li&gt;
+&lt;li&gt;为该集团提供技术岗位招聘需求，及产品迭代运维方案&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务方：小型作坊过多，中小型软件外包服务公司不规范
+
+&lt;ul&gt;
+&lt;li&gt;人才难以寻求，二三线城市互联网技术人才紧缺。&lt;/li&gt;
+&lt;li&gt;成本难以压缩，小型公司外包业务利润率，仅有30%。&lt;/li&gt;
+&lt;li&gt;领头人非技术出身，技术策略偏重重复生产，而非技术革新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;企业方：采购SaaS服务接口开放度不高，或企业内无人进行信息整合
+
+&lt;ul&gt;
+&lt;li&gt;SaaS服务兴起，但多为通用模板，定制化较少&lt;/li&gt;
+&lt;li&gt;缺少合适的技术人才，进行信息整合优化&lt;/li&gt;
+&lt;li&gt;中小企业（非互联网领域）信息技术投入多为负支出，所带来成果难以见效&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
+
+&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
+
+&lt;p&gt;有人评论说：&amp;rdquo;针对目前国内情况，DevOps还是很遥远。也许只有行业顶尖的公司，或者新成立的公司会有这样的尝试。大多数的企业还未开始进行敏捷的推进，传统的重重阻碍会使敏捷的推进进程遥遥无期。&amp;rdquo; DevOps真的离我们有那么远吗？DevOps应该从哪里开始呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/cloudfoundrycert.jpg&#34; alt=&#34;cfcert&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.wenwenyun.com/uploads/allimg/140924/12222031D-0.png&#34; alt=&#34;agile&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;持续部署和交付&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;利用专为缩减时间和降低管理运营成本而设计的平台，缩短软件交付周期。
+- DevOps&lt;/p&gt;
+
+&lt;p&gt;营造一个充满信赖、文化强大的结构性平台去服务企业连接需求和实施，事半功倍。&lt;/p&gt;
+
+&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;原型测试阶段
+
+&lt;ul&gt;
+&lt;li&gt;公有云——IBM Bluemix Public&lt;/li&gt;
+&lt;li&gt;适用于：小型规模应用，或测试期产品&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;公测迭代阶段
+
+&lt;ul&gt;
+&lt;li&gt;私有托管——IBM Bluemix Dedicated&lt;/li&gt;
+&lt;li&gt;适用于：用户规模较大，注重数据独立性与可靠性，需要硬件独立的私有环境&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;大规模发布阶段
+
+&lt;ul&gt;
+&lt;li&gt;私有部署——IBM Bluemix Local&lt;/li&gt;
+&lt;li&gt;适用于：公司有专业运维部门，对IaaS或PaaS层有一定的定制需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
+
+&lt;h3 id=&#34;关键工具-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;关键工具&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker+Parse
+
+&lt;ul&gt;
+&lt;li&gt;IBM Bluemix替代方案&lt;/li&gt;
+&lt;li&gt;Mobile Application Content Manager&lt;/li&gt;
+&lt;li&gt;Push Notifications&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API Connect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;项目背景-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;项目背景&lt;/h3&gt;
+
+&lt;h3 id=&#34;危机分析-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;危机分析&lt;/h3&gt;
+
+&lt;h3 id=&#34;提供支持-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;提供支持&lt;/h3&gt;
+
+&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
+
+&lt;h3 id=&#34;服务方与企业方:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;服务方与企业方&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;小作坊惨遭淘汰，或在压力中转型成为与云接轨的合格服务商&lt;/li&gt;
+&lt;li&gt;具有一定规模的传统软件服务商，将面临尴尬的局面，喜忧参半
+
+&lt;ul&gt;
+&lt;li&gt;威胁&lt;/li&gt;
+&lt;li&gt;较为“老龄化”的技术团队&lt;/li&gt;
+&lt;li&gt;难以迭代的技术债务&lt;/li&gt;
+&lt;li&gt;新技术创业公司的冲击&lt;/li&gt;
+&lt;li&gt;机遇&lt;/li&gt;
+&lt;li&gt;老客户的更新迭代需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;互联网技术岗位需求增加，技术交流氛围提升，人才普遍水平上升&lt;/li&gt;
+&lt;li&gt;信息化将成为传统公司必经之路
+
+&lt;ul&gt;
+&lt;li&gt;较早探索转型的企业，初期会面临诸多实验性成本投入&lt;/li&gt;
+&lt;li&gt;可成功信息化转型的企业，其企业发展必然会受到增幅&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;企业真正需要的是信息化的全方位服务，而不仅仅是软件开发外包&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;大型信息科技公司:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;大型信息科技公司&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;制定规则
+
+&lt;ul&gt;
+&lt;li&gt;成为推动与云接轨的&lt;strong&gt;软件服务标准流程及制度&lt;/strong&gt;产生与发展的&lt;strong&gt;关键力量&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;拥抱开发者
+
+&lt;ul&gt;
+&lt;li&gt;自身更加注重IaaS及PaaS服务的建设，将鼓励开发者自成生态圈，在其标准及服务上进行SaaS的开发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;整合数据（DT时代）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
+
+&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
+
+&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
+
+&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
+      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <description>
+
+&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可通过域名转发过滤&lt;/li&gt;
+&lt;li&gt;可代理服务类型不限&lt;/li&gt;
+&lt;li&gt;针对HTTP、HTTPS等特定服务提供更强支持&lt;/li&gt;
+&lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+
+&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本高
+
+&lt;ul&gt;
+&lt;li&gt;网卡成本&lt;/li&gt;
+&lt;li&gt;组网维护成本&lt;/li&gt;
+&lt;li&gt;固定IP成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置较为繁琐&lt;/li&gt;
+&lt;li&gt;端口数有限&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置便捷&lt;/li&gt;
+&lt;li&gt;安全性较低&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CIO分论坛：新技术及IT信息服务会议记录</title>
+      <link>http://cio.anasit.com/meeting/2016-6-17apcio-it/</link>
+      <pubDate>Fri, 17 Jun 2016 16:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/meeting/2016-6-17apcio-it/</guid>
+      <description>
+
+&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;孙海&lt;/li&gt;
+&lt;li&gt;北京世纪互联宽带数据中心有限公司 销售经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
+
+&lt;p&gt;2016.6.17国内首测&lt;/p&gt;
+
+&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
+
+&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Akamai 柴海炬&lt;/li&gt;
+&lt;li&gt;阿卡迈（北京）信息技术有限公司 华东区战略客户部总监&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;akamai公司简介:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai公司简介&lt;/h2&gt;
+
+&lt;p&gt;Akamai是CDN的发明者
+- 1998发明CDN技术架构并诞生于麻省理工学院，
+- 1999年NASDAQ上市。总部位于美国波士顿。&lt;/p&gt;
+
+&lt;p&gt;Akamai是全球最大的CDN服务商
+- 2015年占有全球CDN市场约66%的份额
+- 全球客户超过6,000家，分发互联网15-30%的流量
+- 全球5000名雇员&lt;/p&gt;
+
+&lt;h3 id=&#34;akamai平台在全球覆盖:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
+
+&lt;p&gt;遍布全球的因特网层叠网络
+- 20万台服务器
+- 覆盖136个国家
+- 覆盖1030个城市
+- 覆盖1300个ISP运营商网络&lt;/p&gt;
+
+&lt;p&gt;国家列表（部分）
+- 亚太地区
+- 大洋洲
+- 非洲
+- 中美洲
+- 中东
+- 西欧
+- 东欧
+- 南美&lt;/p&gt;
+
+&lt;h2 id=&#34;走出去-网络挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;如何快速走向市场&lt;/li&gt;
+&lt;li&gt;如何按需使用互联网加速服务，花费有效&lt;/li&gt;
+&lt;li&gt;如何快速纯动态，关键内部应用&lt;/li&gt;
+&lt;li&gt;如何保证核心应用一点即开，100%可用&lt;/li&gt;
+&lt;li&gt;如何在基础设施架构部署上投资最有效&lt;/li&gt;
+&lt;li&gt;如何保证全球各个角落尤其是边远国家的访问高效性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
+
+&lt;p&gt;全球各个地区不同国家的用户平均互联网连接速度（带宽）&lt;/p&gt;
+
+&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
+
+&lt;p&gt;某网站首页延时
+- USA 5s
+- Canada 6s
+- Spain 15s
+- China 25s&lt;/p&gt;
+
+&lt;h3 id=&#34;跨国企业应用面临的互联网问题:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
+
+&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Akamai边缘服务器最接近源服务器&lt;/li&gt;
+&lt;li&gt;边缘服务器靠近终端用户&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;akamai解决方案家族:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AQUA 网站解决方案
+
+&lt;ul&gt;
+&lt;li&gt;网站加速&lt;/li&gt;
+&lt;li&gt;移动设备加速&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;TERRA 企业解决方案
+
+&lt;ul&gt;
+&lt;li&gt;应用性能&lt;/li&gt;
+&lt;li&gt;云性能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;KONA 安全解决方案
+
+&lt;ul&gt;
+&lt;li&gt;网站安全&lt;/li&gt;
+&lt;li&gt;数据中心安全&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SOLA 媒体解决方案
+
+&lt;ul&gt;
+&lt;li&gt;视频广播&lt;/li&gt;
+&lt;li&gt;案例：全球世界杯、体育赛事、春晚、爱奇艺等&lt;/li&gt;
+&lt;li&gt;软件分发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;企业关键应用业务海外加速需求分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业务需求：利用技术和资源优势逐渐走向世界
+
+&lt;ul&gt;
+&lt;li&gt;走向世界，抢夺蓝海市场；&lt;/li&gt;
+&lt;li&gt;获取成熟市场的技术，产品和管理经验&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;IT系统需求：提升互联网的生产力
+
+&lt;ul&gt;
+&lt;li&gt;分支机构和合作伙伴的通讯，OA/Mail/SSL VPN&lt;/li&gt;
+&lt;li&gt;门户网站以及信息发布产品的推介需求&lt;/li&gt;
+&lt;li&gt;其他：例如CRM，ERP，财务报表，人力资源等&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;最终用户访问需求：实施，实地，高效访问&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;路由优化SureRoute
+
+&lt;ul&gt;
+&lt;li&gt;通过阿卡迈服务器来提供路由包，速度会快于“互联网”&lt;/li&gt;
+&lt;li&gt;可以在超过75%的连接内，找到比BGP更短的路径&lt;/li&gt;
+&lt;li&gt;当对等交汇点（Peering Point）拥塞或网络宕机时发挥最大效能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;持久稳定的连接
+
+&lt;ul&gt;
+&lt;li&gt;借助共享连接，避免为新建连接而进行的一次或多次Round Trip&lt;/li&gt;
+&lt;li&gt;建立拥有更大拥塞窗口的连接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;TCP优化
+
+&lt;ul&gt;
+&lt;li&gt;针对初始的和不间断拥塞窗口进行优化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;akamai的品质保障:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai的品质保障&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Akamai所有产品均可提供100%的系统可用性SLA&lt;/li&gt;
+&lt;li&gt;针对web应用加速产品，提供全球对比原网站访问时间缩短不低于20%以上&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;全球客户经典案例:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;全球客户经典案例&lt;/h2&gt;
+
+&lt;p&gt;全球前100个著名品牌，大家都信赖Akamai&lt;/p&gt;
+
+&lt;h3 id=&#34;企业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业&lt;/h3&gt;
+
+&lt;p&gt;全球排名前10位的银行中的7家
+- BMW
+- PHILIPS
+- MERCK
+- HORIBA&lt;/p&gt;
+
+&lt;h3 id=&#34;商业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;商业&lt;/h3&gt;
+
+&lt;p&gt;排名前100位零售商中的90家&lt;/p&gt;
+
+&lt;h3 id=&#34;高科技:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;高科技&lt;/h3&gt;
+
+&lt;p&gt;排名前12为安全软件公司中的10家&lt;/p&gt;
+
+&lt;h3 id=&#34;媒体及娱乐:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;媒体及娱乐&lt;/h3&gt;
+
+&lt;p&gt;排名前30位的所有媒体公司
+- BBC
+- Disney
+- Hulu
+- Sky
+- NBA
+- Fox
+- ESPN
+- ClearChannel
+- Yahho
+- francetelevisions&lt;/p&gt;
+
+&lt;h2 id=&#34;中国客户经典案例:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;中国客户经典案例&lt;/h2&gt;
+
+&lt;p&gt;跨国国企用户、跨国民企用户等&lt;/p&gt;
+
+&lt;h3 id=&#34;中国交通建设集团案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
+
+&lt;p&gt;目标
+- 保证海外员工的近30中核心应用的可用性，全球均可实时打开
+- 保证上述所有应用在全球访问的效果保障，尤其是欠发达国家的访问速度
+- 实现集团下属十多个二级公司的全业务访问和流量和费用拆分。&lt;/p&gt;
+
+&lt;p&gt;使用Akamai后对业务产生的影响
+- 门户全球打开速度3秒之内
+- 核心业务系统性能提升100%以上，全球可用性达100%
+- 海外工程现场的员工可通畅访问各个业务系统&lt;/p&gt;
+
+&lt;p&gt;中交集团海外分支机构使用CDN情况，近100个国家分发&lt;/p&gt;
+
+&lt;p&gt;中交各单位关键业务使用CDN情况，各部门门户、ERP、业务系统等等&lt;/p&gt;
+
+&lt;h3 id=&#34;联想-lenovo-案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
+
+&lt;p&gt;目标
+- 提高全球知名度和品牌价值
+- 提升售后支持网站效率以及客户感受
+- 提升与全球分支机构/代理商沟通速度&lt;/p&gt;
+
+&lt;p&gt;使用Akamai后对业务产生的影响
+- CRM等内部核心业务系统性能提升100%以上，全球可用性达100%
+- 海量驱动下载全部部署在Akamai存储上，节省IDC硬件和带宽
+- 提升电商网站性能达200%，大大提升客户在线销售转化率&lt;/p&gt;
+
+&lt;h3 id=&#34;成功案例分享-cctv-cntv:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
+
+&lt;p&gt;挑战
+- 全球可靠的视频流传送
+- 避免自建基础设施，尽可能节约成本&lt;/p&gt;
+
+&lt;p&gt;解决方案
+- Akamai动态站点加速
+- Akamai媒体分发服务（VOD/Live/PMD）&lt;/p&gt;
+
+&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
+
+&lt;p&gt;挑战
+- 全球可靠的视频点播服务
+- 避免海外自建基础设施，节约成本&lt;/p&gt;
+
+&lt;p&gt;解决方案
+- Akaimai媒体分发服务（PMD）
+- Akamai专业服务支持&lt;/p&gt;
+
+&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
+
+&lt;p&gt;目标
+- 全球门户高性能访问
+- 应对突发大流量访问
+- 提升转化率&lt;/p&gt;
+
+&lt;p&gt;使用Akamai后对业务产生的影响
+- 每年增加在线销售额3，500，000美金
+- 在线订票率提升到了70%
+- 高性能网站提升了品牌价值以及SEO排名
+- Keynote工具测试数据显示，IHG是酒店业界最快的站点
+- 应对峰值流量而不在需要增加IDC投入&lt;/p&gt;
+
+&lt;h3 id=&#34;为什么选择阿卡迈:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;专业服务及支持&lt;/li&gt;
+&lt;li&gt;Luna Control Center&lt;/li&gt;
+&lt;li&gt;阿卡迈解决方案&lt;/li&gt;
+&lt;li&gt;阿卡迈智能平台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;企业混合云思维及战略:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;袁以拓&lt;/li&gt;
+&lt;li&gt;IBM全球信息科技服务部大中华区&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cio是怎样分配时间和资源:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;支持创新
+
+&lt;ul&gt;
+&lt;li&gt;在企业内建立关系，帮助业务领导者从技术中实现创新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理成本
+
+&lt;ul&gt;
+&lt;li&gt;优化整个IT生态系统中云的使用，合理地进行应用和工作负载迁移&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;运营企业IT环境&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;如何实现:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;如何实现？&lt;/h2&gt;
+
+&lt;p&gt;新思维下的企业IT越来越成为以“企业IT即服务”的方式来运营和管理IT&lt;/p&gt;
+
+&lt;p&gt;IT基础架构因此更：混合、模块化、具弹性及扩展性&lt;/p&gt;
+
+&lt;p&gt;IT组织也越来越成为一个管理者，关注成本和服务交付本身，而不是传统的IT建设和运维&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务&lt;/li&gt;
+&lt;li&gt;财务&lt;/li&gt;
+&lt;li&gt;组织&lt;/li&gt;
+&lt;li&gt;技术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;混合云环境是IT基础架构的最佳实现，而企业IT即服务可以帮助企业充分利用混合云环境，创造最大的价值&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;专注创新&lt;/li&gt;
+&lt;li&gt;提高服务&lt;/li&gt;
+&lt;li&gt;优化成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;私有云、内部基础架构、公有云，混合云环境可以帮助企业在最适合的地点以最佳的成本运行每个工作负载&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更迅捷更灵活&lt;/li&gt;
+&lt;li&gt;更加以价值为导向&lt;/li&gt;
+&lt;li&gt;具备更高的安全防护和可恢复性&lt;/li&gt;
+&lt;li&gt;等等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当然，向IT as a Service 演进不是一蹴而就的，而是一个演进过程。&lt;/p&gt;
+
+&lt;p&gt;支持服务=&amp;gt;自动化=&amp;gt;云化=&amp;gt;IT as a Service&lt;/p&gt;
+
+&lt;p&gt;助您在混合云中可快速开展运营、提供IT及服务的五种主要方式&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;应用迁移与现代化
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要云平台的敏捷和功能优势&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;应用创新
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要最快的实现创新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;可视性和治理
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要控制不断扩展的IT流程&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;集成与优化
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要集成生态系统&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;IT即服务
+
+&lt;ul&gt;
+&lt;li&gt;如何帮助开发人员和业务领导者灵活配置业务，从而为客户实现最大价值&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;挑战&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;缺少管理混合云的工具&lt;/li&gt;
+&lt;li&gt;不同云平台需要管理的控制台过多&lt;/li&gt;
+&lt;li&gt;缺少管理多个云平台所需的资源&lt;/li&gt;
+&lt;li&gt;管理不同云平台的运营成本过高&lt;/li&gt;
+&lt;li&gt;满足业务需求的能力不足&lt;/li&gt;
+&lt;li&gt;缺乏灵活性和敏捷性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;企业需要以端到端的方式交付设计、构建并管理混合IT环境所需的功能
+- 单一管理平台
+  - 简化IT架构的管理、监控和报告
+  - 管理、监控、报告
+  - 内部部署（传统IT、私有云）、外部平台（公有云、私有云）
+  - 云：服务器、数据库、群件、中间件、存储、网络
+- 模块化灵活性
+  - 工程服务、架构设计、设计和部署、部署、API集成、咨询服务
+  - 云管理、监控、管理、报告
+  - 服务管理、事故、问题、变更、报告
+- 统筹安排
+  - 使用广泛的模块库，敏捷地部署、提供并管理IT环境
+- 高级自动化和认知学习&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;64%的意外事件可得到自动解决、90%解决时间缩短90%&lt;/li&gt;
+&lt;li&gt;自动部署&lt;/li&gt;
+&lt;li&gt;自动检测&lt;/li&gt;
+&lt;li&gt;自动解决&lt;/li&gt;
+&lt;li&gt;动态自动化&lt;/li&gt;
+&lt;li&gt;认知学习&lt;/li&gt;
+&lt;li&gt;一致的质量和服务保证&lt;/li&gt;
+&lt;li&gt;遍布全球的人才和技术支持
+
+&lt;ul&gt;
+&lt;li&gt;借助合作伙伴，您可以充分利用遍布全球的专业技能与知识&lt;/li&gt;
+&lt;li&gt;填补企业内部的人才空缺&lt;/li&gt;
+&lt;li&gt;扩展内部知识与能力&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
+
+&lt;p&gt;目的
+- 根据工作负载特性，设计并构建一个单一平台
+- 技术更新、应用技术标准化工作负载迁移
+- 混合IT管理&lt;/p&gt;
+
+&lt;p&gt;效果
+- 达到更灵活的IT资源分配
+- 从“资本支出+运营支出”的IT费用模式转变为“全运营支出”财务模式
+- 总体拥有成本（TCO）节约幅度将可达双位数
+- 确保敏捷性和灵活性，为业务增长提供支持
+- SLA承诺&lt;/p&gt;
+
+&lt;h2 id=&#34;案例分享-华东大型零售业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
+
+&lt;p&gt;统一管理服务
+- 平台架构
+- 自助服务
+- 服务目录/请求
+- 生命周期
+- 流程管理
+- 监控/报表
+- 容量/性能
+- 计量/计算
+- 安全/管控
+- 事件/变更
+- 系统集成
+- 策略管理&lt;/p&gt;
+
+&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;修改优化&lt;/li&gt;
+&lt;li&gt;交付使用&lt;/li&gt;
+&lt;li&gt;系统部署&lt;/li&gt;
+&lt;li&gt;采购&lt;/li&gt;
+&lt;li&gt;等等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;itoa-生产运维大数据分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;韩思会&lt;/li&gt;
+&lt;li&gt;交通银行数据中心 技术经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;银行业it运维面临的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
+
+&lt;p&gt;传统运维工具云云跟不上应用快速发展的要求。
+- 海量数据
+- 种类繁多
+- 处理被动&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据与云
+
+&lt;ul&gt;
+&lt;li&gt;密不可分&lt;/li&gt;
+&lt;li&gt;大数据挖掘需要云计算作为平台&lt;/li&gt;
+&lt;li&gt;基于云计算的Hadoop平台框架为大数据分布式并行处理提供了很好的解决方案&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;it运维现状分析与实际需求:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
+
+&lt;h3 id=&#34;现状分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;现状分析&lt;/h3&gt;
+
+&lt;p&gt;分支机构众多的大型企业（银行）或垂直层级较多的政府单位，为了更好的用户体验，运维工作十分艰巨&lt;/p&gt;
+
+&lt;h3 id=&#34;银行运维中心运维现状:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监控 采用设定标准阙值的方式&lt;/li&gt;
+&lt;li&gt;告警 各二级运维部门使用监控工具相对独立性&lt;/li&gt;
+&lt;li&gt;日志 海量各类日志数据&lt;/li&gt;
+&lt;li&gt;业务 应用层交易日志未有效分析利用。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;it运维大数据:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;IT运维大数据&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IT运维大数据，国外叫做IT Operations Analytics，简称ITOA&lt;/li&gt;
+&lt;li&gt;Forrester定义，从管理和监控技术所采集的海量原始数据，通过数学算法及其他技术。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;技术交流与同业调研:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;技术交流与同业调研&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分布式日志手机分析平台，中国工商银行&lt;/li&gt;
+&lt;li&gt;RS6000智能运维平台，招商信行&lt;/li&gt;
+&lt;li&gt;日志实时分析系统，广发银行&lt;/li&gt;
+&lt;li&gt;阿拉丁平台，中国民生银行&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;银行运维大数据应用方向:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监控历史数据趋势分析
+
+&lt;ul&gt;
+&lt;li&gt;针对历史监控数据机器学习、容量预测、性能瓶颈等方面分析&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;监控告警智能分析
+
+&lt;ul&gt;
+&lt;li&gt;动态阙值设定，为告警关联提供数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;日志智能检索分析
+
+&lt;ul&gt;
+&lt;li&gt;海量日志检索、生产问题辅助定位、日志异常告警、复杂安全规则审计&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;面向业务的日志分析
+
+&lt;ul&gt;
+&lt;li&gt;提高系统响应率、准确率等&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;需求梳理与可行性分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;明确运维大数据分析范围、功能及实施阶段&lt;/li&gt;
+&lt;li&gt;梳理可纳入其范围的运维服务场景&lt;/li&gt;
+&lt;li&gt;讨论大数据运维服务场景可行性和有效性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;整体规划:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;整体规划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;建立平台
+
+&lt;ul&gt;
+&lt;li&gt;内外调研学习交流&lt;/li&gt;
+&lt;li&gt;构建数据基础&lt;/li&gt;
+&lt;li&gt;环境搭建&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;试点应用
+
+&lt;ul&gt;
+&lt;li&gt;选择合适业务系统试点&lt;/li&gt;
+&lt;li&gt;探索尝试整合更多运维数据&lt;/li&gt;
+&lt;li&gt;持续深化数据分析能力&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;全面推广
+
+&lt;ul&gt;
+&lt;li&gt;推广运维大数据应用&lt;/li&gt;
+&lt;li&gt;构建数据中心运维画像&lt;/li&gt;
+&lt;li&gt;尝试与业务大数据整合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;预期研究成果:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;预期研究成果&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;预测故障&lt;/li&gt;
+&lt;li&gt;发现异常&lt;/li&gt;
+&lt;li&gt;查找问题&lt;/li&gt;
+&lt;li&gt;分析性能&lt;/li&gt;
+&lt;li&gt;优化策略&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>亚太CIO（上海）领袖峰会会议记录</title>
+      <link>http://cio.anasit.com/meeting/2016-6-17apcio/</link>
+      <pubDate>Fri, 17 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/meeting/2016-6-17apcio/</guid>
+      <description>
+
+&lt;h1 id=&#34;会议简介:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;会议简介&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会议主题
+
+&lt;ul&gt;
+&lt;li&gt;大数据时代&amp;ndash;数字化转型与创新高峰论坛&lt;/li&gt;
+&lt;li&gt;2016亚太CIO实践与分享&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;主办单位
+
+&lt;ul&gt;
+&lt;li&gt;上海市计算机用户协会&lt;/li&gt;
+&lt;li&gt;上海市通信学会&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;承办单位
+
+&lt;ul&gt;
+&lt;li&gt;浩韵国际会展&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;协办单位
+
+&lt;ul&gt;
+&lt;li&gt;首席数据官联盟&lt;/li&gt;
+&lt;li&gt;工业4.0俱乐部&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;技术支持
+
+&lt;ul&gt;
+&lt;li&gt;香港大学SPACE中国商学院&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;大型装备数字设计与智能制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;谭建荣&lt;/li&gt;
+&lt;li&gt;中国工程院院士&lt;/li&gt;
+&lt;li&gt;联系方式
+
+&lt;ul&gt;
+&lt;li&gt;tjr@card.zju.edu.cn&lt;/li&gt;
+&lt;li&gt;0571-xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;四大技术-会聚引领21世纪:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;生命科学技术&lt;/li&gt;
+&lt;li&gt;纳米技术&lt;/li&gt;
+&lt;li&gt;信息技术&lt;/li&gt;
+&lt;li&gt;认知科学技术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;四大技术估计过高，期望过大。&lt;/p&gt;
+
+&lt;p&gt;信息科技与大数据的发展超出人们的预期。&lt;/p&gt;
+
+&lt;h2 id=&#34;大型装备的重要性:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;大型装备的重要性&lt;/h2&gt;
+
+&lt;p&gt;大型复杂装备的设计与制造水平是衡量国家科技实力和综合国力的一个重要标志。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大型数控机床装备&lt;/li&gt;
+&lt;li&gt;大型空气分离装备&lt;/li&gt;
+&lt;li&gt;大型盾构挖掘装备&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;振兴制造业的三大战略计划:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;美国“先进制造业国家战略计划”&lt;/li&gt;
+&lt;li&gt;德国“工业4.0”三大主题&lt;/li&gt;
+&lt;li&gt;“中国制造2025”三大核心
+
+&lt;ul&gt;
+&lt;li&gt;数字化制造&lt;/li&gt;
+&lt;li&gt;网络化制造&lt;/li&gt;
+&lt;li&gt;智能化制造&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最终都导向智能制造&lt;/p&gt;
+
+&lt;h2 id=&#34;机电液系统的发展趋势与前沿:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
+
+&lt;p&gt;在新的工业革命到来之际，我们需要认真思考：机电液系统基础研究如何应对新的技术变革，需要解决那些基础科学问题？&lt;/p&gt;
+
+&lt;p&gt;机电液体系
+- 大数据场
+- 智能化生产
+- 移动网络
+  - 三维打印
+  - 智能机器人&lt;/p&gt;
+
+&lt;p&gt;机电液体系 =带来变化=&amp;gt;
+- 数字化
+- 智能化
+- 拟人化
+- 绿色化&lt;/p&gt;
+
+&lt;h2 id=&#34;智能-人工智能-制造的发展趋势:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据场&lt;/li&gt;
+&lt;li&gt;人工智能&lt;/li&gt;
+&lt;li&gt;移动网络&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;什么是智能制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是智能制造？&lt;/h2&gt;
+
+&lt;h3 id=&#34;什么是数字制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是数字制造？&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;数字制造：数字技术与制造技术的融合&lt;/li&gt;
+&lt;li&gt;数字制造：用数字技术解决制造的问题&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;什么是智能制造-1:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是智能制造？&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;智能制造：智能技术与制造技术的融合&lt;/li&gt;
+&lt;li&gt;智能制造：用智能技术解决制造的问题&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;太多企业、专家、领导没有理解透彻什么是智能制造，导致新瓶酿旧酒，以数字制造重新打包形成智能制造。&lt;/p&gt;
+
+&lt;p&gt;智能制造关键案例
+- 美国波司登大狗
+  - 远程控制
+  - 负重爬坡
+  - 行进速度
+  - 平衡能力
+- AlphaGo&lt;/p&gt;
+
+&lt;p&gt;阿尔法围棋，是一款围棋人工智能程序，由Google旗下团队开发。&lt;/p&gt;
+
+&lt;p&gt;2015年3月对战世界围棋冠军、职业九段选手李世石，并以4：1的总比分获胜。
+  - 深度学习
+  - 两个大脑
+    - 落子选择器 Move Picker
+    - 棋局评估器 Position Evaluator&lt;/p&gt;
+
+&lt;h3 id=&#34;人工智能的3个阶段:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
+
+&lt;h3 id=&#34;智能制造的三大核心:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能制造的三大核心&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;知识库/知识工程&lt;/li&gt;
+&lt;li&gt;动态传感&lt;/li&gt;
+&lt;li&gt;自主学习/自主决策&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;智能制造十大关键技术:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
+
+&lt;h1 id=&#34;国企信息化转型与创新:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;李小山&lt;/li&gt;
+&lt;li&gt;上海市国资委信息处处长&lt;/li&gt;
+&lt;li&gt;联系方式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;关于国有企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;关于国有企业&lt;/h2&gt;
+
+&lt;h3 id=&#34;什么是国有企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是国有企业&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;属于全民所有&lt;/li&gt;
+&lt;li&gt;是推进国家现代化、保障人民共同利益的重要力量&lt;/li&gt;
+&lt;li&gt;是我们党和国家事业发展的重要物资基础和政治基础&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;上海国有企业概况:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;上海国有企业概况&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DGP半壁江山&lt;/li&gt;
+&lt;li&gt;大多处于关乎国计民生的重要行业&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;市属国资:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;市属国资&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y2016Q1，yividuxq&lt;/li&gt;
+&lt;li&gt;营收同比增长5.5%&lt;/li&gt;
+&lt;li&gt;全国占比新高（全国资产1/7 全国收入2/7 创造利润1/3）&lt;/li&gt;
+&lt;li&gt;统一监管，产融结合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;政策:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;政策&lt;/h2&gt;
+
+&lt;h3 id=&#34;国家层面国有企业改革顶层设计:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1+N&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;上海市国资国企改革:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;上海市国资国企改革&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2013年底&lt;/li&gt;
+&lt;li&gt;1+N&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;组织:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;组织&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;信息中心（情报中心）&lt;/li&gt;
+&lt;li&gt;计算机室（机房）&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;信息技术部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;信息管理部（装备部）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;管理信息部（科技信息部）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;流程信息部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;创新与流程管理部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;创新中心&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;实践:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;实践&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“智慧”路灯&lt;/li&gt;
+&lt;li&gt;“智慧”交通&lt;/li&gt;
+&lt;li&gt;“智慧”供水&lt;/li&gt;
+&lt;li&gt;“智慧”教育&lt;/li&gt;
+&lt;li&gt;“智慧”燃气&lt;/li&gt;
+&lt;li&gt;“智慧”长途&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;未来-以及未来就绪的戴尔:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;吕良&lt;/li&gt;
+&lt;li&gt;戴尔（中国）有限公司&lt;/li&gt;
+&lt;li&gt;企业级解决方案高级经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;圣彼得广场 2005&lt;/li&gt;
+&lt;li&gt;圣彼得广场 2013&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
+
+&lt;h2 id=&#34;世界改变的步伐正在加快:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更多需求
+8秒 人的注意力持续时间比金鱼还少一秒&lt;/li&gt;
+&lt;li&gt;随时随地工作
+80-90% 的员工至少在业余时间进行远程工作&lt;/li&gt;
+&lt;li&gt;被数据包围
+90% 历史上的数据在过去两年中产生&lt;/li&gt;
+&lt;li&gt;无处不在的风险
+1，000，000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;颠覆性技术:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;颠覆性技术&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;移动互联&lt;/li&gt;
+&lt;li&gt;人工智能&lt;/li&gt;
+&lt;li&gt;物联网&lt;/li&gt;
+&lt;li&gt;云计算
+&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;今天现状:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;今天现状&lt;/h2&gt;
+
+&lt;p&gt;在未来10年中，现有的财务500强公司将会消失&lt;/p&gt;
+
+&lt;p&gt;财富500强的平均生命
+- 1920诞生 需要67年发展
+- 2016诞生 需要15年发展&lt;/p&gt;
+
+&lt;h2 id=&#34;今天的机会:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;今天的机会&lt;/h2&gt;
+
+&lt;p&gt;拥抱数字变革&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;108%营业额或者订单&lt;/li&gt;
+&lt;li&gt;56%从新产品和服务增加&lt;/li&gt;
+&lt;li&gt;56%客户满意度增长&lt;/li&gt;
+&lt;li&gt;83%员工活动量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;新的商业模式带来的巨大颠覆:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
+
+&lt;h2 id=&#34;危机-危险和机会:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;危机-危险和机会&lt;/h2&gt;
+
+&lt;h2 id=&#34;您处于传统it和新兴it的十字路口:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
+
+&lt;p&gt;未来
+- 公有云
+- 混合云
+- 私有云&lt;/p&gt;
+
+&lt;h2 id=&#34;使强大的技术更易获得:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;性能 上升&lt;/li&gt;
+&lt;li&gt;成本 下降&lt;/li&gt;
+&lt;li&gt;复杂度 下降&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;交付超长期的价值&lt;/p&gt;
+
+&lt;p&gt;使强大的技术更容易使用&lt;/p&gt;
+
+&lt;p&gt;推动效率提升&lt;/p&gt;
+
+&lt;h2 id=&#34;戴尔任意云:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;戴尔任意云&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;云计算基础设施&lt;/li&gt;
+&lt;li&gt;私有云解决方案&lt;/li&gt;
+&lt;li&gt;未来就绪企业云联盟&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;技术即业务-数字化企业变革:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;张松&lt;/li&gt;
+&lt;li&gt;ThoughtWorks中国区总经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;变革历程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;变革历程&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业务自动化 1980
+
+&lt;ul&gt;
+&lt;li&gt;BUSINESS AUTOMATION&lt;/li&gt;
+&lt;li&gt;生产力&lt;/li&gt;
+&lt;li&gt;效率&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;行业互联网化 1995
+
+&lt;ul&gt;
+&lt;li&gt;WEB ENABLED BUSINESS&lt;/li&gt;
+&lt;li&gt;生产力&lt;/li&gt;
+&lt;li&gt;通过延伸实现增长&lt;/li&gt;
+&lt;li&gt;互联网为一种销售渠道&lt;/li&gt;
+&lt;li&gt;网络驱动的客户粘性&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;技术即业务本身 2010-2016
+
+&lt;ul&gt;
+&lt;li&gt;TECHNOLOGY IS BUSINESS&lt;/li&gt;
+&lt;li&gt;以创新为引擎的增长&lt;/li&gt;
+&lt;li&gt;业务模型&lt;/li&gt;
+&lt;li&gt;产品/服务创新&lt;/li&gt;
+&lt;li&gt;数字化作为客户粘性的首要渠道&lt;/li&gt;
+&lt;li&gt;来自数据的洞察&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;为什么是现在发生:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;为什么是现在发生&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术进步&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;基础设施进步带来移动、云和信息技术繁荣发展。
+- 融合与重构&lt;/p&gt;
+
+&lt;p&gt;移动、云、数据、物联网、社交平台、新架构和语言正在连接起来，并开始带来更加剧烈的数字化革命。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;消费行为的改变&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正在发生&lt;/li&gt;
+&lt;li&gt;娱乐&lt;/li&gt;
+&lt;li&gt;零售&lt;/li&gt;
+&lt;li&gt;媒体&lt;/li&gt;
+&lt;li&gt;旅行&lt;/li&gt;
+&lt;li&gt;潜在的发生&lt;/li&gt;
+&lt;li&gt;汽车&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;垄断遭遇新对手的挑战&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;法规政策的变化&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;如今ceo的优先任务:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;创新驱动增长&lt;/li&gt;
+&lt;li&gt;人口结构发生变化&lt;/li&gt;
+&lt;li&gt;技术被提上议程&lt;/li&gt;
+&lt;li&gt;未来技术投资&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;H1 精益企业架构生态型文化&lt;/li&gt;
+&lt;li&gt;H2 科技核心组织平台业务&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;H3 科技驱动的差异化服务&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;高适应力，持续创新的高绩效组织&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;探索新商业模式&lt;/li&gt;
+&lt;li&gt;拓展已验证商业模式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;生态型文化&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;持续改善&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;动态投资组合管理&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;精益企业运营&lt;/li&gt;
+&lt;li&gt;精益企业IT架构&lt;/li&gt;
+&lt;li&gt;极致的目的和方向&lt;/li&gt;
+&lt;li&gt;去中心化组织结构&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;引领变革的企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;引领变革的企业&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;认识技术的战略角色&lt;/li&gt;
+&lt;li&gt;将技术提上重要议程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;企业级创新-三通道模式:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模式创新&lt;/li&gt;
+&lt;li&gt;体验创新&lt;/li&gt;
+&lt;li&gt;流程创新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
+
+&lt;p&gt;“极度安全，极度隐秘”&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;首批五家民营银行之一&lt;/li&gt;
+&lt;li&gt;银行保险箱从实物到虚拟的形态&lt;/li&gt;
+&lt;li&gt;第一款由银行推出的掌上保险箱产品&lt;/li&gt;
+&lt;li&gt;互联网手段获客和提升用户体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景分析&lt;/li&gt;
+&lt;li&gt;用户历程图&lt;/li&gt;
+&lt;li&gt;触点优化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
+
+&lt;p&gt;挑战
+- 商家上篇的库存要点
+- 及时、主动补货
+- 快捷，随时的订货流程&lt;/p&gt;
+
+&lt;h1 id=&#34;数据驱动创新:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;数据驱动创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;任京旸&lt;/li&gt;
+&lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;不同视角下的数字世界:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;连接泛在化
+
+&lt;ul&gt;
+&lt;li&gt;互联网+&lt;/li&gt;
+&lt;li&gt;移动互联网&lt;/li&gt;
+&lt;li&gt;物联网&lt;/li&gt;
+&lt;li&gt;车联网&lt;/li&gt;
+&lt;li&gt;船联网&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创新生态化
+
+&lt;ul&gt;
+&lt;li&gt;跨界融合创新&lt;/li&gt;
+&lt;li&gt;产业协同创新&lt;/li&gt;
+&lt;li&gt;技术集成创新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;应用智能化&lt;/li&gt;
+&lt;li&gt;数据产业化
+
+&lt;ul&gt;
+&lt;li&gt;工业大数据&lt;/li&gt;
+&lt;li&gt;政府大数据&lt;/li&gt;
+&lt;li&gt;科学大数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;计算多元化
+
+&lt;ul&gt;
+&lt;li&gt;云计算&lt;/li&gt;
+&lt;li&gt;高性能计算&lt;/li&gt;
+&lt;li&gt;流计算&lt;/li&gt;
+&lt;li&gt;量子计算&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光的发展历程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光的发展历程&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1993 高性能计算 曙光一号诞生&lt;/li&gt;
+&lt;li&gt;1997 服务器 曙光品牌服务器问世&lt;/li&gt;
+&lt;li&gt;2001 存储 曙光品牌存储发布&lt;/li&gt;
+&lt;li&gt;2009 云计算 首个城市云计算中心开通&lt;/li&gt;
+&lt;li&gt;2013 大数据 曙光大数据一体机发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光hpc与中国工业共成长:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
+
+&lt;p&gt;作为中国第一、亚洲最大、全球第三的高性能计算厂商，曙光高性能计算系统在中国工业领域有着广泛和深入的应用，在CAE模拟仿真方面拥有国内最多的成功案例！&lt;/p&gt;
+
+&lt;p&gt;机械、材料、电子、飞机&lt;/p&gt;
+
+&lt;p&gt;汽车、轮船、航空航天、电力&lt;/p&gt;
+
+&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;sugon短片分享&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;20+城市云中心&lt;/li&gt;
+&lt;li&gt;1000+政务及智慧应用&lt;/li&gt;
+&lt;li&gt;30+行业云建设&lt;/li&gt;
+&lt;li&gt;30+PB数据交换共享&lt;/li&gt;
+&lt;li&gt;2项云计算国标&lt;/li&gt;
+&lt;li&gt;100+大数据技术专利&lt;/li&gt;
+&lt;li&gt;4个生态联盟&lt;/li&gt;
+&lt;li&gt;20+创业企业&lt;/li&gt;
+&lt;li&gt;300+合作伙伴&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光数据中国加速计划:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
+
+&lt;p&gt;期望寻求更多的合作&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;目标
+
+&lt;ul&gt;
+&lt;li&gt;加速网络布局&lt;/li&gt;
+&lt;li&gt;加速数据汇聚&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;抓手
+
+&lt;ul&gt;
+&lt;li&gt;创新城市云连锁模式&lt;/li&gt;
+&lt;li&gt;部署4个行业大数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数字仿真&lt;/li&gt;
+&lt;li&gt;IT云化&lt;/li&gt;
+&lt;li&gt;数据融合&lt;/li&gt;
+&lt;li&gt;生态协同&lt;/li&gt;
+&lt;li&gt;应用拓展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;打通中科院创新链与创业链:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中科院先进计算技术创新与产业化联盟（曙光牵头）
+
+&lt;ul&gt;
+&lt;li&gt;智能制造项目协同创新&lt;/li&gt;
+&lt;li&gt;中科院技术资源转化对接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;嘉宾对话环节:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;嘉宾对话环节&lt;/h1&gt;
+
+&lt;h2 id=&#34;嘉宾介绍:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;嘉宾介绍&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主持人 李静
+
+&lt;ul&gt;
+&lt;li&gt;上海电气集团CIO&lt;/li&gt;
+&lt;li&gt;上海计算机用户协会理事长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;王健
+
+&lt;ul&gt;
+&lt;li&gt;上海通用汽车有限公司CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;吕良
+
+&lt;ul&gt;
+&lt;li&gt;戴尔（中国）有限公司企业级解决方案高级经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;高俊
+
+&lt;ul&gt;
+&lt;li&gt;迅达电梯亚太区CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;任京旸
+
+&lt;ul&gt;
+&lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;张启亮
+
+&lt;ul&gt;
+&lt;li&gt;徐工集团信息部部长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;张松
+
+&lt;ul&gt;
+&lt;li&gt;ThoughtWorks大中华区总经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;黄立
+
+&lt;ul&gt;
+&lt;li&gt;葛兰素史克中国区IT总监&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;讨论问题-不完整:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;信息时代对CIO的要求越来越高，期望寻求关于新技术，例如区块链如何融入企业或产品的解决方案&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CIO应该做的&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业信息战略&lt;/li&gt;
+&lt;li&gt;市场洞察能力&lt;/li&gt;
+&lt;li&gt;市场建交能力&lt;/li&gt;
+&lt;li&gt;及时的执行力&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;行业领先企业CIO关注点出现变化&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CIO角色定位开始转化成企业家，而不是部门主管&lt;/li&gt;
+&lt;li&gt;新业务出现都是以技术驱动&lt;/li&gt;
+&lt;li&gt;开展新公司的主营业务，如何进行信息化整合&lt;/li&gt;
+&lt;li&gt;CIO变革措施&lt;/li&gt;
+&lt;li&gt;IBM全球CIO，提倡理念组织变化，IT不该作为一个部门，应该作为业务基础，整合所有兼并相关公司的信息系统，简化、统一、贯通。&lt;/li&gt;
+&lt;li&gt;企业内部整合，辐射到跨企业跨领域边界信息资源整合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用于公开项目演示的paas服务选型</title>
+      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <description>
+
+&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+
+&lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;费用 完全免费&lt;/li&gt;
+&lt;li&gt;个人主页 新建项目xxx/xxx.github.io即可&lt;/li&gt;
+&lt;li&gt;项目主页 项目内 新建分支 gh-pages即可&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
+&lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+
+&lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;费用 初级应用免费&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;两个项目 以下免费&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;支持项目&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mysql&lt;/li&gt;
+&lt;li&gt;postgresql&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;li&gt;redis&lt;/li&gt;
+&lt;li&gt;memcached&lt;/li&gt;
+&lt;li&gt;nfs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用于angular2项目开发的vim环境配置及插件</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1:90187ca4a720b853310dffa460a52b57&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 差
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;es6 完全不支持ES6，安装es6插件无效&lt;/li&gt;
+&lt;li&gt;ng2 完全不支持angular2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 差
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 差&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;webstorm-2016-2-1:90187ca4a720b853310dffa460a52b57&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 较好
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 较好
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 较好
+
+&lt;ul&gt;
+&lt;li&gt;gulp 小工具&lt;/li&gt;
+&lt;li&gt;RESTful Client 小工具&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件:90187ca4a720b853310dffa460a52b57&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+
+&lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/isRuslan/vim-es6&#34;&gt;https://github.com/isRuslan/vim-es6&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>API领域创业公司及其发展动态浅析</title>
+      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;位置&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;项目/公司&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MBaaS服务&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;APIs仓库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;apis.guru&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;构建工具链&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mulesoft restlet apigee&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;底层规则&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;raml swagger&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;raml google/mulesoft为背景&lt;/li&gt;
+&lt;li&gt;swagger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;restlet 基于Java的jax-rs的集大成者，raml、swagger通用&lt;/li&gt;
+&lt;li&gt;mulesoft 基于raml体系&lt;/li&gt;
+&lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;li&gt;dreamfactory&lt;/li&gt;
+&lt;li&gt;apicloud&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
+      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
+      <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
+      <description>
+
+&lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.zhihu.com/question/22962390&#34;&gt;推荐一款好用的电子名片app？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;实际体验:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;实际体验&lt;/h1&gt;
+
+&lt;h2 id=&#34;zappoint-淘汰:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱登陆&lt;/li&gt;
+&lt;li&gt;拍照识别
+
+&lt;ul&gt;
+&lt;li&gt;中文较差&lt;/li&gt;
+&lt;li&gt;只有正面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同步通讯录&lt;/li&gt;
+&lt;li&gt;排列方式
+
+&lt;ul&gt;
+&lt;li&gt;时间排列&lt;/li&gt;
+&lt;li&gt;公司排列&lt;/li&gt;
+&lt;li&gt;姓名排列&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;camcard-名片万能王-选用:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱/手机登陆
+
+&lt;ul&gt;
+&lt;li&gt;可绑定领英&lt;/li&gt;
+&lt;li&gt;可绑定微博&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;拍照识别
+
+&lt;ul&gt;
+&lt;li&gt;中文识别优秀&lt;/li&gt;
+&lt;li&gt;支持正面与背面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同步通讯录&lt;/li&gt;
+&lt;li&gt;排列方式
+
+&lt;ul&gt;
+&lt;li&gt;时间排列&lt;/li&gt;
+&lt;li&gt;公司排列&lt;/li&gt;
+&lt;li&gt;姓名排列&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;国产更适合汉语使用习惯&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dreamfactory常见问题汇总</title>
+      <link>http://cio.anasit.com/faq/dreamfactory/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/faq/dreamfactory/</guid>
+      <description>
+
+&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
+Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
+Loading composer repositories with package information
+Installing dependencies from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for mongodb/mongodb 1.0.2 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+  Problem 2
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+    - jenssegers/mongodb v3.0.2 requires mongodb/mongodb ^1.0.0 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - Installation request for jenssegers/mongodb v3.0.2 -&amp;gt; satisfiable by jenssegers/mongodb[v3.0.2].
+
+  To enable extensions, verify that they are enabled in those .ini files:
+    - /etc/php5/cli/php.ini
+    - /etc/php5/cli/conf.d/05-opcache.ini
+    - /etc/php5/cli/conf.d/10-pdo.ini
+    - /etc/php5/cli/conf.d/20-apcu.ini
+    - /etc/php5/cli/conf.d/20-curl.ini
+    - /etc/php5/cli/conf.d/20-gd.ini
+    - /etc/php5/cli/conf.d/20-json.ini
+    - /etc/php5/cli/conf.d/20-mongo.ini
+    - /etc/php5/cli/conf.d/20-mysql.ini
+    - /etc/php5/cli/conf.d/20-mysqli.ini
+    - /etc/php5/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php5/cli/conf.d/20-readline.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示mongo插件&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php &amp;ndash;ini&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
+
+apt-get install libssl-dev
+
+apt-get install pkg-config
+
+pecl install mongodb
+
+vim /etc/php5/cli/php.ini
+
+# add this line
+# extension = mongodb.so
+
+composer install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;composer install
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>H5页面如何接入google ads实现广告收入？</title>
+      <link>http://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
+      <link>http://cio.anasit.com/cookbook/cms/homesite/</link>
+      <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <description>
+
+&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
+
+&lt;h1 id=&#34;简介:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;项目背景:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;项目背景&lt;/h2&gt;
+
+&lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
+
+&lt;p&gt;本文，将深度探讨，并尝试一次低耦合的CMS系统建设方案。在每个需求环节，选取最佳的技术实现方案，各模块通过RESTful API进行整合及协同。&lt;/p&gt;
+
+&lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;技术总览:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;技术总览&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hugo&lt;/li&gt;
+&lt;li&gt;hugo-themes
+
+&lt;ul&gt;
+&lt;li&gt;galactica&lt;/li&gt;
+&lt;li&gt;演示：&lt;a href=&#34;http://astritbublaku.com/demos/galactica/&#34;&gt;http://astritbublaku.com/demos/galactica/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;li&gt;yaml&lt;/li&gt;
+&lt;li&gt;RESTful APIs&lt;/li&gt;
+&lt;li&gt;github pages&lt;/li&gt;
+&lt;li&gt;rss&lt;/li&gt;
+&lt;li&gt;google ads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;系统架构:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;系统架构&lt;/h1&gt;
+
+&lt;h2 id=&#34;静态页面生成模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;静态页面生成模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Themes 主题机制&lt;/li&gt;
+&lt;li&gt;Templates 模板机制&lt;/li&gt;
+&lt;li&gt;Taxonomies 分类机制&lt;/li&gt;
+&lt;li&gt;Contents 内容格式化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;信息采集聚合模块-aggregator:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RSS 采集&lt;/li&gt;
+&lt;li&gt;Twiter 采集&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;内容筛选解析格式化模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;用户审查发布模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;用户审查发布模块&lt;/h2&gt;
+
+&lt;h2 id=&#34;ugc用户自主写文模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
+&lt;li&gt;选择二：支持api获取文章内容的，在线云笔记&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>适合开发者的第三方RSS采集服务选型</title>
+      <link>http://cio.anasit.com/cookbook/cms/rss/</link>
+      <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/rss/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;项目背景:eceb479b7b3b2077408a2878a29e1320&#34;&gt;项目背景&lt;/h2&gt;
+
+&lt;p&gt;greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。&lt;/p&gt;
+
+&lt;p&gt;作为个人用户，所有碰到的基础需求，都可以满足，未考虑付费服务。&lt;/p&gt;
+
+&lt;p&gt;但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考文章:eceb479b7b3b2077408a2878a29e1320&#34;&gt;参考文章&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sspai.com/27576&#34;&gt;观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader&lt;/a&gt;
+&lt;a href=&#34;http://www.zhihu.com/question/21278318&#34;&gt;RSS 阅读器 InoReader 的使用体验如何？&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;如何迁移自己的rss订阅:eceb479b7b3b2077408a2878a29e1320&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;登录feedly，点击用户，选择export OPML文件&lt;/li&gt;
+&lt;li&gt;将导出的OPML文件导入你想要使用的rss订阅服务&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;私有云-rss-聚合器:eceb479b7b3b2077408a2878a29e1320&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;filipedeschamps/rss-feed-emitter
+
+&lt;ul&gt;
+&lt;li&gt;nodejs+es6&lt;/li&gt;
+&lt;li&gt;star 621&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;dai-shi/rss-pipes
+
+&lt;ul&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;li&gt;star 70&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;freshrss.org
+
+&lt;ul&gt;
+&lt;li&gt;php+mysql&lt;/li&gt;
+&lt;li&gt;star 382&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;freshrss:eceb479b7b3b2077408a2878a29e1320&#34;&gt;freshrss&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;php-pdo&lt;/li&gt;
+&lt;li&gt;xml/curl&lt;/li&gt;
+&lt;li&gt;mysql&lt;/li&gt;
+&lt;li&gt;pelican（静态页面生成部分）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;公有云-rss-订阅服务:eceb479b7b3b2077408a2878a29e1320&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;feedly&lt;/li&gt;
+&lt;li&gt;inoreader&lt;/li&gt;
+&lt;li&gt;feedbin&lt;/li&gt;
+&lt;li&gt;feedwrangler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;inoreader:eceb479b7b3b2077408a2878a29e1320&#34;&gt;inoreader&lt;/h2&gt;
+
+&lt;h2 id=&#34;缺点:eceb479b7b3b2077408a2878a29e1320&#34;&gt;缺点&lt;/h2&gt;
+
+&lt;p&gt;Inoreader对于RSS源的抓取不如Feedly。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;订阅的科大BBS的RSS源，全部乱码出错，而在Feedly并未出现这种问题。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;简介-1:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.inoreader.com/&#34;&gt;http://www.inoreader.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;开发者平台 &lt;a href=&#34;http://www.inoreader.com/developers/&#34;&gt;http://www.inoreader.com/developers/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;资费参考 &lt;a href=&#34;http://www.inoreader.com/upgrade/feature/from_preferences&#34;&gt;http://www.inoreader.com/upgrade/feature/from_preferences&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free套餐：
+- Number of subscriptions   Unlimited
+- Search in subscriptions
+- RSS Feeds for favorites, channels, folders and tags&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML Clips for favorites, channels, folders and tags  Default&lt;/li&gt;
+&lt;li&gt;Unread counter cap (actual unread articles are not limited)   1000&lt;/li&gt;
+&lt;li&gt;Number of active searches     1&lt;/li&gt;
+&lt;li&gt;Number of rules   1&lt;/li&gt;
+&lt;li&gt;Number of filtered feeds  1&lt;/li&gt;
+&lt;li&gt;Number of Highlighters    5&lt;/li&gt;
+&lt;li&gt;Number of boosted feeds   10&lt;/li&gt;
+&lt;li&gt;Number of Google+ feeds   0&lt;/li&gt;
+&lt;li&gt;Number of Twitter feeds   1&lt;/li&gt;
+&lt;li&gt;Number of Facebook page feeds     1&lt;/li&gt;
+&lt;li&gt;Number of VKontakte feeds     1&lt;/li&gt;
+&lt;li&gt;Audio Player  Inline&lt;/li&gt;
+&lt;li&gt;Address book - Gmail integrated   Limited to 10 entries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;feedly:eceb479b7b3b2077408a2878a29e1320&#34;&gt;feedly&lt;/h1&gt;
+
+&lt;p&gt;feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api&lt;/p&gt;
+
+&lt;p&gt;开发者平台 &lt;a href=&#34;http://developer.feedly.com/&#34;&gt;http://developer.feedly.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;资费参考 &lt;a href=&#34;https://feedly.com/i/pro/showcase.zapier&#34;&gt;https://feedly.com/i/pro/showcase.zapier&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free套餐:
+- Up to 100 sources
+- Mobile and desktop
+- Organize source into easy-to-read collections
+- Share to Twitter, Pinterest and Facebook&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
+      <description>
+
+&lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
+
+&lt;h2 id=&#34;回顾angularjs-1:460bce4062430561faf966c08e14ab2b&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
+
+&lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
+
+&lt;p&gt;Angularjs 1 中可选的数据处理方法有以下三种：
+- $http 框架自带，处理原始HTTP请求
+- $resource 框架自带，对$http进行初步封装
+- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
+
+&lt;h2 id=&#34;调研angularjs-2:460bce4062430561faf966c08e14ab2b&#34;&gt;调研AngularJS 2&lt;/h2&gt;
+
+&lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;angular2/http&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用参考：&lt;a href=&#34;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&#34;&gt;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  import {Http} from &#39;angular2/http&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;marmelab/restful.js 第三方组件，纯ES6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 535 on &lt;a href=&#34;https://github.com/marmelab/restful.js&#34;&gt;https://github.com/marmelab/restful.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基于ES6开发，Think Restangular without Angular.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # 方式一：npm安装
+  npm install restful.js
+  # 方式二：webpack安装
+  import restful from &#39;restful.js&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paldom/angular2-rest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 94 on &lt;a href=&#34;https://github.com/Paldom/angular2-rest&#34;&gt;https://github.com/Paldom/angular2-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;darekf77/ng2-rest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;angular2-http开发详解:460bce4062430561faf966c08e14ab2b&#34;&gt;angular2/http开发详解&lt;/h1&gt;
+
+&lt;h2 id=&#34;参考教程:460bce4062430561faf966c08e14ab2b&#34;&gt;参考教程&lt;/h2&gt;
+
+&lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;官方手册:460bce4062430561faf966c08e14ab2b&#34;&gt;官方手册&lt;/h2&gt;
+
+&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;使用体验:460bce4062430561faf966c08e14ab2b&#34;&gt;使用体验&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
+&lt;li&gt;（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件&lt;/li&gt;
+&lt;li&gt;（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;那么以上三种情景，第三种情景使用频率较高：由于后端&lt;strong&gt;不是规范的REST&lt;/strong&gt;，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。&lt;/p&gt;
+
+&lt;p&gt;因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2与es6初学者到底从哪里开始学起</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
+
+&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
+详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
+
+&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
+英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
+详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

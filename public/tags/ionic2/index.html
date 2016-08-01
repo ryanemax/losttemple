@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Ionic2 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+<main role="main" class="article-list">
+  <h1 class="list-title">Ionic2</h1>
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-restful/">ionic2与ng2基于RESTful的HTTP数据处理技术选型</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带，处理原始HTTP请求 - $resource 框架自带，对$http进行初步封装 - $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。 调研AngularJS 2 结论：ng2目前处于RC阶段，相关库不成熟，选择最 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-es6-learn/">ng2与es6初学者到底从哪里开始学起</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：https://developer.mozilla.org/en-US/docs/Web/JavaScript Angular2 入门学习教程：http://www.hubwiz.com/course/567a414e660c92d638a68bf3/ 英文入门教程：http://learn 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-firebase/">ng2基于firebase的第三方库对接详解（草稿）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/ 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/awesome-ionic2/">来领略惊艳的ionic2安纳斯整理版awesome-ionic2</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    为什么要Ionic2，一个PPT告诉你 Building apps with Ionic 2 awesome-ionic2-anasit 截取时间：2016-05-17 来领略惊艳的ionic2安纳斯整理版awesome-ionic2 学习整理 ng2与es6初学者到底从哪里开始学起 ionic2控件及APIs归类整理及简要介绍v0.8 ionic2原生native控件归类整理及简要介绍（进行中） 开发实战 In Action A  <a href="/cookbook/frontend/awesome-ionic2/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-native/">ionic2原生native控件归类整理及简要介绍（进行中）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-14">May 14, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    截至2016-05-13看到了Action Sheet 组件 总览 NATIVE（原生组件）：官方文档，调用原生功能时候参考 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-spec/">ANASIT-ionic2开发规范汇总（进行中）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-13">May 13, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    命名规范 页面（Page） 参考：ionic命令行Generate体验总结 开发规范 通过命令行创建初始化页面 ## 通常使用命令创建新的页面初始文件（Page） ionic g page &amp;lt;PageName&amp;gt; 页面只写布局与用户操作，所有数据相关的通知Toast、数据处理相关的Modal，都统一在Provider中实现 命名规范 根据ionic generte命令，页面的命名方式为： 目录名称 /app/pages/  <a href="/cookbook/frontend/ionic2-spec/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-componentAPIs/">ionic2控件及APIs归类整理及简要介绍v0.8</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-12">May 12, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    截至2016-05-13已经阅读完，完成0.8.0整理 总览 COMPONENTS（样式组件）：官方文档，构建及设计原型时候参考 API（功能接口）：官方文档，实现数据处理/业务逻辑时参考 继承了angularjs2最吸引人的组件式开发规范的优势，ionic2框架为我们预置了非常多的实用的组件。官方将Components与API分成两部分介绍，其实它们是同一个组件的不同方面（样式、功能接口），所以，本文档根据组件的不同用途，分为一  <a href="/cookbook/frontend/ionic2-componentAPIs/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/faq/ionic2html/">ionic2常见问题汇总之界面布局篇</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-07">May 07, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    当icon图标没有outline模式时，点击后会变成空白 原因分析 因为ionic2自带的font-icon库中，改图标没有默认的outline样式，导致了点击后，显示空白。 http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_367657 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-googlemap-amap/">ionic2及ng2谷歌/高德地图控件分析实例</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-30">March 30, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    《ionic2及ng2谷歌/高德地图控件分析实例》 创建示例项目 项目地址：https://github.com/driftyco/ionic-conference-app git clone https://github.com/driftyco/ionic-conference-app cd ionic-conference-app npm install ionic serve map.js解析 问题 google.maps  <a href="/cookbook/frontend/ionic2-googlemap-amap/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/faq/ionic2install/">ionic2常见问题汇总之安装篇</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-03-29">March 29, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    《ionic2常见问题汇总之安装篇》 如何安装ionic？ ## 系统包管理器，安装npm apt-get install npm nodejs ## 修正nodejs快捷方式 ln -s /usr/bin/nodejs /usr/bin/node ## 更换国内软件源 npm -g install nrm nrm ls nrm use taobao npm install -g npm@3.8.0 ## Nodejs包管理器，安  <a href="/faq/ionic2install/">Read More...</a>
+  </section>
+</article>
+
+  
+</main>
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

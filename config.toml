@@ -1,0 +1,34 @@
+baseurl = "http://cio.anasit.com/"
+contentdir = "content"
+languageCode = "en-us"
+title = "刘雨飏@ANAS联盟"
+builddrafts = false
+
+# for theme base16
+theme = "base16-ryn"
+#pygmentsuseclasses = true
+MetaDataFormat = "toml"
+paginate = 9
+
+disqusShortname = "ryn" # optional
+
+copyright = "©2007-2016 Ryn's Blog"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  keywords = "刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane"
+  author = "刘雨飏, the Founder of ANAS"
+  codestyle = "monokai"
+  #codestyle = "gruvbox-dark"
+  description = "Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane" # optional
+  twitter = "ryanemax" # optional
+  github = "ryanemax" # optional
+  #facebook = "Your facebook Name" # optional
+  #gplus = "ryanemax" # optional
+  linkedin = "ryanemax" # optional
+  #headerCover = "images/headerCover.png" # optional
+  #footerCover = "images/footerCover.png" # optional
+  #googleAnalyticsUserID = "Your Analytics User Id" # optional

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>当团队线上办公需要dms文档管理系统 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-08-16">August 16, 2015</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="http://cio.anasit.com/tags/agile">agile</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">当团队线上办公需要dms文档管理系统</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="0-ffice软件选择:4fa8bfda18f19217513616c149f0906f">0.ffice软件选择</h1>
+
+<h2 id="0-0-选择libreoffice:4fa8bfda18f19217513616c149f0906f">0.0 选择LibreOffice</h2>
+
+<ul>
+<li>支持开源，以及Web亲和力，选择LibreOffice系列</li>
+<li>跨平台，团队Linux、Windows、Mac均可用</li>
+</ul>
+
+<h1 id="1-dms系统选择:4fa8bfda18f19217513616c149f0906f">1.DMS系统选择</h1>
+
+<h2 id="1-0-选择alfresco:4fa8bfda18f19217513616c149f0906f">1.0 选择Alfresco</h2>
+
+<ul>
+<li>支持开源，并兼容LibreOffice系列文件</li>
+<li>企业级ECM、BPM系统</li>
+<li>Alfresco One #经典的企业级文档管理系统</li>
+<li>Alfresco Activiti #可扩展自动化流程系统</li>
+<li>Alfresco Mobile #iOS、Android移动端</li>
+</ul>
+
+<p>部署环境/技术特性：
+* Tomcat
+* Java (JRE only)
+* PostgreSQL
+* Solr1/Solr4
+* SharePoint
+* Web Quick Start
+* Google Docs Integration
+* LibreOffice</p>
+
+<h2 id="1-1-安装版本选择:4fa8bfda18f19217513616c149f0906f">1.1 安装版本选择</h2>
+
+<h3 id="alfresco-one-vs-community-区别:4fa8bfda18f19217513616c149f0906f">Alfresco One vs Community 区别</h3>
+
+<p><a href="http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014">http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014</a></p>
+
+<p><strong>Technical differences</strong>
+* One 数据库支持Oracle,MS SQL,DB2,Mysql,Postgre
+* One 服务端支持Tomcat Jboss
+* 认证接口 SAP,Salesforce,AWS S3,Outlook, Brava Viewer
+* One 支持集群部署
+* Cloud Sync</p>
+
+<h3 id="alfresco-one-5-0-1:4fa8bfda18f19217513616c149f0906f">Alfresco One 5.0.1</h3>
+
+<p><a href="http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html">http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html</a></p>
+
+<h3 id="alfresco-community-edition-5-0:4fa8bfda18f19217513616c149f0906f">Alfresco Community Edition 5.0</h3>
+
+<p><a href="https://github.com/Alfresco/community-edition">https://github.com/Alfresco/community-edition</a></p>
+
+<p>Resources:
+* Master subversion repository: <a href="http://svn.alfresco.com">http://svn.alfresco.com</a>
+* Issue tracker: <a href="http://issues.alfresco.com">http://issues.alfresco.com</a>
+* Official documentation: <a href="http://docs.alfresco.com">http://docs.alfresco.com</a>
+* Community wiki: <a href="http://wiki.alfresco.com">http://wiki.alfresco.com</a>
+* Add-ons directory: <a href="http://addons.alfresco.com">http://addons.alfresco.com</a>
+* Other developer resources: <a href="https://www.alfresco.com">https://www.alfresco.com</a></p>
+
+<h2 id="1-2-tomcat-下安装alfresco-community:4fa8bfda18f19217513616c149f0906f">1.2 Tomcat 下安装Alfresco Community</h2>
+
+<p><a href="http://docs.alfresco.com/community/tasks/alf-war-install.html">http://docs.alfresco.com/community/tasks/alf-war-install.html</a></p>
+
+<h3 id="1-2-1-下载alfresco-community-5-0-d-zip:4fa8bfda18f19217513616c149f0906f">1.2.1 下载alfresco-community-5.0.d.zip</h3>
+
+<pre><code class="language-bash">#https://wiki.alfresco.com/wiki/Community_file_list_5.0.d
+
+wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-community-5.0.d.zip
+</code></pre>
+
+<h3 id="1-2-2-配置tomcat-7:4fa8bfda18f19217513616c149f0906f">1.2.2 配置Tomcat 7</h3>
+
+<pre><code class="language-bash">#http://docs.alfresco.com/community/tasks/configfiles-change-path.html
+#Edit the &lt;TOMCAT_HOME&gt;/conf/server.xml file.
+#Locate the Connector sections, and then add the URIEncoding=&quot;UTF-8&quot; and maxHttpHeaderSize=&quot;32768&quot; properties.
+
+&lt;Connector port=&quot;8080&quot; protocol=&quot;HTTP/1.1&quot; URIEncoding=&quot;UTF-8&quot; connectionTimeout=&quot;20000&quot; redirectPort=&quot;8443&quot; maxHttpHeaderSize=&quot;32768&quot;/&gt;
+</code></pre>
+
+<h3 id="1-2-3-部署war:4fa8bfda18f19217513616c149f0906f">1.2.3.部署War</h3>
+
+<p><a href="http://docs.alfresco.com/community/tasks/alf-war-install.html">http://docs.alfresco.com/community/tasks/alf-war-install.html</a></p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2015  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

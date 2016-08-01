@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cookbook on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/categories/cookbook/</link>
+    <description>Recent content in Cookbook on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Sat, 02 Jul 2016 12:00:30 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
+      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <description>
+
+&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可通过域名转发过滤&lt;/li&gt;
+&lt;li&gt;可代理服务类型不限&lt;/li&gt;
+&lt;li&gt;针对HTTP、HTTPS等特定服务提供更强支持&lt;/li&gt;
+&lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+
+&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本高
+
+&lt;ul&gt;
+&lt;li&gt;网卡成本&lt;/li&gt;
+&lt;li&gt;组网维护成本&lt;/li&gt;
+&lt;li&gt;固定IP成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置较为繁琐&lt;/li&gt;
+&lt;li&gt;端口数有限&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置便捷&lt;/li&gt;
+&lt;li&gt;安全性较低&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用于公开项目演示的paas服务选型</title>
+      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <description>
+
+&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+
+&lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;费用 完全免费&lt;/li&gt;
+&lt;li&gt;个人主页 新建项目xxx/xxx.github.io即可&lt;/li&gt;
+&lt;li&gt;项目主页 项目内 新建分支 gh-pages即可&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
+&lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+
+&lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;费用 初级应用免费&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;两个项目 以下免费&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;支持项目&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mysql&lt;/li&gt;
+&lt;li&gt;postgresql&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;li&gt;redis&lt;/li&gt;
+&lt;li&gt;memcached&lt;/li&gt;
+&lt;li&gt;nfs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>API领域创业公司及其发展动态浅析</title>
+      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;位置&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;项目/公司&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MBaaS服务&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;APIs仓库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;apis.guru&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;构建工具链&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mulesoft restlet apigee&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;底层规则&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;raml swagger&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;raml google/mulesoft为背景&lt;/li&gt;
+&lt;li&gt;swagger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;restlet 基于Java的jax-rs的集大成者，raml、swagger通用&lt;/li&gt;
+&lt;li&gt;mulesoft 基于raml体系&lt;/li&gt;
+&lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;li&gt;dreamfactory&lt;/li&gt;
+&lt;li&gt;apicloud&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
+      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
+      <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
+      <description>
+
+&lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.zhihu.com/question/22962390&#34;&gt;推荐一款好用的电子名片app？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;实际体验:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;实际体验&lt;/h1&gt;
+
+&lt;h2 id=&#34;zappoint-淘汰:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱登陆&lt;/li&gt;
+&lt;li&gt;拍照识别
+
+&lt;ul&gt;
+&lt;li&gt;中文较差&lt;/li&gt;
+&lt;li&gt;只有正面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同步通讯录&lt;/li&gt;
+&lt;li&gt;排列方式
+
+&lt;ul&gt;
+&lt;li&gt;时间排列&lt;/li&gt;
+&lt;li&gt;公司排列&lt;/li&gt;
+&lt;li&gt;姓名排列&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;camcard-名片万能王-选用:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱/手机登陆
+
+&lt;ul&gt;
+&lt;li&gt;可绑定领英&lt;/li&gt;
+&lt;li&gt;可绑定微博&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;拍照识别
+
+&lt;ul&gt;
+&lt;li&gt;中文识别优秀&lt;/li&gt;
+&lt;li&gt;支持正面与背面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同步通讯录&lt;/li&gt;
+&lt;li&gt;排列方式
+
+&lt;ul&gt;
+&lt;li&gt;时间排列&lt;/li&gt;
+&lt;li&gt;公司排列&lt;/li&gt;
+&lt;li&gt;姓名排列&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;国产更适合汉语使用习惯&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>个人知识管理解决方案</title>
+      <link>http://cio.anasit.com/README/</link>
+      <pubDate>Fri, 01 Apr 2016 00:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;个人知识管理-规划中:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;个人知识管理（规划中）&lt;/h1&gt;
+
+&lt;h2 id=&#34;简介及技术点:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;简介及技术点&lt;/h2&gt;
+
+&lt;p&gt;距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知识的技巧。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;文档编辑
+
+&lt;ul&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;li&gt;latex&lt;/li&gt;
+&lt;li&gt;pandoc&lt;/li&gt;
+&lt;li&gt;YAML&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;版本控制
+
+&lt;ul&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;静态博客
+
+&lt;ul&gt;
+&lt;li&gt;github pages&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io&#34;&gt;hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;disqus&lt;/li&gt;
+&lt;li&gt;disqus 列表页统计数量 &lt;a href=&#34;https://help.disqus.com/customer/portal/articles/565624&#34;&gt;count.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://html5up.net/&#34;&gt;http://html5up.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;思维导图 xmind&lt;/li&gt;
+&lt;li&gt;linux shell脚本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todolist:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;TODOLIST&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[ ] 从Leanote迁移知识经验，从为知笔记迁移知识经验，制定对大量知识的知识搜集、获取、归纳环节&lt;/li&gt;
+&lt;li&gt;[x] 实现从私有知识库（加密git）到公有知识库（公开git）的知识分享环节&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;常用脚本:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;常用脚本&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## markdown生成pdf脚本
+./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;
+## markdown生成ppt脚本
+./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;环境安装:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;环境安装&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 本方案适用于全平台
+## Linux系列/arch linux
+pacman -S texlive-core
+pacman -S texlive-latexextra
+pacman -S pandoc
+pacman -S git atom
+
+## Linux系列/Debian/Ubuntu
+apt-get install texlive-base
+apt-get install texlive-latex-base
+apt-get install texlive-latex-extra
+apt-get install pandoc
+apt-get install git atom
+
+## Windows 10/msys2
+pacman -S texlive-core
+pacman -S texlive-latexextra
+pacman -S pandoc
+pacman -S git atom
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;知识管理-各环节详细实施方案:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;知识管理-各环节详细实施方案&lt;/h1&gt;
+
+&lt;h2 id=&#34;浏览环节-greader-绑定feedly账号:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（浏览环节）gReader，绑定feedly账号&lt;/h2&gt;
+
+&lt;h2 id=&#34;收藏环节-greader加星:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（收藏环节）gReader加星&lt;/h2&gt;
+
+&lt;h2 id=&#34;归纳环节-笔记文本管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（归纳环节）笔记文本管理&lt;/h2&gt;
+
+&lt;p&gt;Git地址：&lt;a href=&#34;https://bitbucket.org/ryanemax/note&#34;&gt;https://bitbucket.org/ryanemax/note&lt;/a&gt;
+- /inbox&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;临时的未分类资料，以便及时书写心得、笔记等。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;/build&lt;/p&gt;
+
+&lt;p&gt;存放生成的经典的ppt以及pdf文档。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;/secret&lt;/p&gt;
+
+&lt;p&gt;记录自己个人的、公司的、客户的各种机密信息资料，用于备忘。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;/project&lt;/p&gt;
+
+&lt;p&gt;客户的信息资料如果超过一定数量级，将单独立项，写在project项目文件，保证信息的高整合度。&lt;/p&gt;
+
+&lt;p&gt;例如合作公司及其各项客户资料，网络环境，接口加密等等。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;/study&lt;/p&gt;
+
+&lt;p&gt;此目录用于研究论文写作，以论文形式，书写对各领域深入的探索，专业程度深，信息整合度高。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;/cookbook&lt;/p&gt;
+
+&lt;p&gt;记录个人对各项软件、系统的评测，及个人的最佳选择与配置方案&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;/cookbook/xxx&lt;/p&gt;
+
+&lt;p&gt;记录个人在细分领域产生的心得、体验，以及对新技术的探索与尝试&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;分享环节-个人博客管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（分享环节）个人博客管理&lt;/h2&gt;
+
+&lt;p&gt;技术点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;hugo //静态html生成工具&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;markdown&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;github pagaes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;存储资料及软件管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;存储资料及软件管理&lt;/h1&gt;
+
+&lt;h2 id=&#34;云盘存储:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;云盘存储&lt;/h2&gt;
+
+&lt;p&gt;百度云盘
+- meCareer（应用数据/bypy/Career）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;职业生涯/公司项目资料等等
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;mePackage&lt;/p&gt;
+
+&lt;p&gt;各操作系统，各环境常用软件及安装程序&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;meLibrary&lt;/p&gt;
+
+&lt;p&gt;存储Calibre所收藏的各类电子图书库&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;360云盘&lt;/p&gt;
+
+&lt;p&gt;QQ微云&lt;/p&gt;
+
+&lt;h2 id=&#34;软件管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;软件管理&lt;/h2&gt;
+
+&lt;p&gt;Windows：Oneget+chocolatey.org&lt;/p&gt;
+
+&lt;p&gt;Debian/Ubuntu：apt-get&lt;/p&gt;
+
+&lt;p&gt;Arch Linux/Msys2：pacman&lt;/p&gt;
+
+&lt;p&gt;CentOS：yum&lt;/p&gt;
+
+&lt;p&gt;OpenWrt：opkg&lt;/p&gt;
+
+&lt;h2 id=&#34;博客:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;博客&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GithubPages
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ryanemax.github.io&#34;&gt;http://ryanemax.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hugo&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;diy theme: base16-ryn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;## Installation
+http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118 go get -u github.com/spf13/hugo
+## Themes-bleak-ryn need hugo v1.6
+git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Every one should learn how to Fuck The GFW</title>
+      <link>http://cio.anasit.com/cookbook/fuckGFW/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/fuckGFW/</guid>
+      <description>
+
+&lt;h1 id=&#34;windows程序socks代理-用于游戏:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;shadowsocks-gui&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SocksCap64 3.0  &lt;a href=&#34;http://www.sockscap64.com/&#34;&gt;http://www.sockscap64.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;linux代理:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Linux代理&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;apt-get install shadowsocks&lt;/li&gt;
+&lt;li&gt;apt-get install privoxy
+&lt;code&gt;sh
+export http_proxy=http://127.0.0.1:8118
+export https_proxy=http://127.0.0.1:8118
+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux最佳文件压缩方式</title>
+      <link>http://cio.anasit.com/cookbook/devops/linux-tar/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/devops/linux-tar/</guid>
+      <description>
+
+&lt;h1 id=&#34;linux最佳压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
+
+&lt;h2 id=&#34;常用压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;常用压缩方式&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
+tar -czvf ***.tar.gz
+tar -cjvf ***.tar.bz2
+#解压缩
+tar -xzvf ***.tar.gz
+tar -xjvf ***.tar.bz2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;高压缩率方式:75faa320f80344dacc83083e472c77ff&#34;&gt;高压缩率方式&lt;/h2&gt;
+
+&lt;p&gt;gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下&lt;/p&gt;
+
+&lt;h3 id=&#34;压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz:75faa320f80344dacc83083e472c77ff&#34;&gt;压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
+#更简洁的方式
+tar -cJf aaa.tar.xz my_dir
+tar -c --xz   -f my_archive.tar.xz   /some_directory    # results in my_archive.tar.xz
+tar -c --lzma -f my_archive.tar.lzma /some_directory    # results in my_archive.tar.lzma
+
+#解压缩
+tar -xJf aaa.tar.xz
+tar -x --xz   -f my_archive.tar.xz      # results in /some_directory
+tar -x --lzma -f my_archive.tar.lzma    # results in /some_directory
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;其中&amp;ndash;xz可以用-J代替&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#或者使用tar的选项&amp;quot;-a&amp;quot;自动识别压缩文件后缀的方式：
+tar -caf aaa.tar.xz my_dir
+tar -xaf aaa.tar.xz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;如果你嫌tar.xz 太长了，可以使用txz。&lt;/p&gt;
+
+&lt;p&gt;由于受到Dos 8.3文件名格式的限制，tar常使用下列缩写：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.tgz等价于.tar.gz
+.tbz与tb2等价于.tar.bz2
+.taz等价于.tar.Z
+.tlz等价于.tar.lzma
+.txz等价于.tar.xz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;继续补充：
+查看tar包中的文件：
+tar -aft 1.tar.xz&lt;/p&gt;
+
+&lt;p&gt;解压缩tar中单独的文件或者目录：
+首先应用上面的命令查看tar包中的文件名和目录，然后使用-x解压缩命令
+$tar -aft 1.tar.xz
+1/
+1/a.bin
+1/b.bin
+1/c.bin
+$tar -axf 1.tar.xz 1/a.bin
+即可解压缩单独的文件a.bin而不用把这个压缩文件全部解压开来&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Atom实践探索</title>
+      <link>http://cio.anasit.com/cookbook/tool/atom/</link>
+      <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/tool/atom/</guid>
+      <description>
+
+&lt;p&gt;官方手册：&lt;a href=&#34;http://flight-manual.atom.io/&#34;&gt;http://flight-manual.atom.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;搜集尝试阶段:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;搜集尝试阶段&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.open-open.com/news/view/1c81d20#_label13&#34;&gt;开发者的15个实用的 Atom Packages&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/Darren_code/p/atom.html&#34;&gt;http://www.cnblogs.com/Darren_code/p/atom.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;setting:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Setting&lt;/h1&gt;
+
+&lt;h2 id=&#34;取消保存时自动格式化markdown:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;取消保存时自动格式化Markdown&lt;/h2&gt;
+
+&lt;p&gt;整合hugo后，头部往往需要写入toml/json的配置项，如果保存自动美化，会导致配置项格式错乱&lt;/p&gt;
+
+&lt;p&gt;Packages=&amp;gt;tidy-markdown&lt;/p&gt;
+
+&lt;p&gt;[x] Run On Save&lt;/p&gt;
+
+&lt;h2 id=&#34;开启代码美化:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;开启代码美化&lt;/h2&gt;
+
+&lt;p&gt;atom-beautify&lt;/p&gt;
+
+&lt;h1 id=&#34;3-实用快捷键:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;3.实用快捷键&lt;/h1&gt;
+
+&lt;h1 id=&#34;snippets:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Snippets&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://atom.io/packages/snippets&#34;&gt;https://atom.io/packages/snippets&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;snippets文件存储在目录：~/.atom/snippets.cson&lt;/p&gt;
+
+&lt;p&gt;snippets文件同时支持json与cson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;scope选择&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ctrl+Alt+Shift+P&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;插入时间变量(可惜！Atom代码段对数字以外的变量暂时不支持)&lt;/strong&gt;
+&lt;a href=&#34;https://github.com/atom/snippets/pull/173&#34;&gt; Add special variables #173 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discuss.atom.io/t/dynamic-snippet-text-in-snippets-cson/6920?source_topic_id=23326&#34;&gt;Dynamic snippet text in snippets.cson&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/25669615/atom-editor-snippet-for-inserting-a-timestamp&#34;&gt;http://stackoverflow.com/questions/25669615/atom-editor-snippet-for-inserting-a-timestamp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/atom/snippets/issues/41&#34;&gt;https://github.com/atom/snippets/issues/41&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ide插件:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;IDE插件&lt;/h1&gt;
+
+&lt;p&gt;vim-mode&lt;/p&gt;
+
+&lt;h1 id=&#34;语言插件:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;语言插件&lt;/h1&gt;
+
+&lt;p&gt;go-plus&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;go get -u github.com/nsf/gocode
+go get -u github.com/bradfitz/goimports
+
+go get -u github.com/golang/lint/golint
+
+govet
+godef
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;奇妙旅途:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;奇妙旅途&lt;/h1&gt;
+
+&lt;p&gt;activate-power-mode&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd .atom/packages
+git clone https://github.com/JoelBesada/activate-power-mode.git cd activate-power-mode
+npm install
+apm install
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VR时代来临了，带上兵器吧</title>
+      <link>http://cio.anasit.com/cookbook/VRdev/</link>
+      <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/VRdev/</guid>
+      <description>
+
+&lt;h1 id=&#34;vr时代来临了-带上兵器吧:9362a39e43924dc1b98451e8b087760e&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/1492977dbb40704485516d6f5baeef20_r.jpg&#34; alt=&#34;vr&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;1-vr入门行业方向选择:9362a39e43924dc1b98451e8b087760e&#34;&gt;1.VR入门行业方向选择&lt;/h1&gt;
+
+&lt;p&gt;1.行业付费应用，360全景预览&lt;/p&gt;
+
+&lt;p&gt;2.建筑及3D美工设计领域&lt;/p&gt;
+
+&lt;h1 id=&#34;2-客户端引擎选择:9362a39e43924dc1b98451e8b087760e&#34;&gt;2.客户端引擎选择&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-手机vr-是违背沉浸式体验的:9362a39e43924dc1b98451e8b087760e&#34;&gt;1.手机VR，是违背沉浸式体验的&lt;/h2&gt;
+
+&lt;p&gt;前提：移动设备性能超过台式机性能之前&lt;/p&gt;
+
+&lt;p&gt;使用VR的反例：&lt;/p&gt;
+
+&lt;p&gt;1.你想在拥挤车厢里,或者嘈杂的马路上, 或者忙碌的办公室里, 用手机体验VR&lt;/p&gt;
+
+&lt;p&gt;2.回到家,你会将家庭影院级别的设备搁置在一边,然后把手机套在头上,来体验VR.&lt;/p&gt;
+
+&lt;p&gt;VR不是个简单的潮流, 他确确实实是我们未来社会极其重要的,甚至是不可或缺的必要技术, 这样看, 正因为如此, 他不会是个&amp;rdquo;短平快&amp;rdquo;的选择, 否则你可能就离大马路越来越远了.&lt;/p&gt;
+
+&lt;p&gt;Unity是最不看好的，因为十分不看好用手机实现的vr市场。&lt;/p&gt;
+
+&lt;p&gt;结论：&lt;/p&gt;
+
+&lt;p&gt;谨慎选择Unity，如果做手机VR，首选Unity&lt;/p&gt;
+
+&lt;h2 id=&#34;2-unity-内置oculus的vr支持:9362a39e43924dc1b98451e8b087760e&#34;&gt;2.Unity 内置Oculus的VR支持&lt;/h2&gt;
+
+&lt;p&gt;优点：
+- 开发效率高
+- 内置Oculus支持
+- 国内早期VR主流
+- 跨平台特性&lt;/p&gt;
+
+&lt;p&gt;缺点：
+- 画质达不到极致
+- 面向手机市场&lt;/p&gt;
+
+&lt;p&gt;授权价格：&lt;/p&gt;
+
+&lt;h2 id=&#34;3-ue4:9362a39e43924dc1b98451e8b087760e&#34;&gt;3.UE4&lt;/h2&gt;
+
+&lt;p&gt;优点：
+- 画质极致
+- 全套源码级别授权&lt;/p&gt;
+
+&lt;p&gt;缺点：
+- 学习周期长
+- 成本偏高/团队难招&lt;/p&gt;
+
+&lt;p&gt;授权价格：
+Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果你的游戏开始赚钱了。这样的价格结构是那些有抱负有追求的游戏开发者的福音！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>极致效率的键位变更</title>
+      <link>http://cio.anasit.com/cookbook/tool/keyboard/</link>
+      <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/tool/keyboard/</guid>
+      <description>
+
+&lt;p&gt;极致效率的键位变更&lt;/p&gt;
+
+&lt;h1 id=&#34;coding常用键位变更:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Coding常用键位变更&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ctrl =&amp;gt; Caps Lock&lt;/li&gt;
+&lt;li&gt;Caps Lock =&amp;gt; Ctrl&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;linux下键位变更:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Linux下键位变更&lt;/h1&gt;
+
+&lt;h1 id=&#34;windows键盘全局替换:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
+
+&lt;p&gt;可以利用第三方工具，或者直接在注册表中修改键位映射关系&lt;/p&gt;
+
+&lt;p&gt;注册表位置：[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] 如果没有此键，就新建一个&lt;/p&gt;
+
+&lt;p&gt;新建一个二进制值的Key，名叫：Scancode Map&lt;/p&gt;
+
+&lt;p&gt;输入如下的值：&lt;/p&gt;
+
+&lt;p&gt;00,00,00,00&lt;/p&gt;
+
+&lt;p&gt;00,00,00,00&lt;/p&gt;
+
+&lt;p&gt;03,00,00,00&lt;/p&gt;
+
+&lt;p&gt;3A,00,1D,00&lt;/p&gt;
+
+&lt;p&gt;1D,00,3A,00&lt;/p&gt;
+
+&lt;p&gt;00,00,00,00&lt;/p&gt;
+
+&lt;p&gt;前两行和最后一行，都是固定的，全部为0。第三行，表示你修改了几个键，其实我们只是改了两个键，不过最后那一行也要算进去，所以是3。&lt;/p&gt;
+
+&lt;p&gt;重点是在第四行和第五行。3A00，代表Caps Lock， 1D00，代表Ctrl。这一行，意思即为，将Caps Lock映射为Ctrl&lt;/p&gt;
+
+&lt;p&gt;第五行，就不用说了，意思刚好相反。&lt;/p&gt;
+
+&lt;p&gt;修改完毕后，重新登录Windows即可生效！&lt;/p&gt;
+
+&lt;p&gt;下面附上各个键位值的参考：&lt;/p&gt;
+
+&lt;p&gt;Escape 01 00&lt;/p&gt;
+
+&lt;p&gt;Tab 0F 00&lt;/p&gt;
+
+&lt;p&gt;Caps Lock 3A 00&lt;/p&gt;
+
+&lt;p&gt;Left Alt 38 00&lt;/p&gt;
+
+&lt;p&gt;Left Ctrl 1D 00&lt;/p&gt;
+
+&lt;p&gt;Left Shift 2A 00&lt;/p&gt;
+
+&lt;p&gt;Left Windows 5B E0&lt;/p&gt;
+
+&lt;p&gt;Right Alt 38 E0&lt;/p&gt;
+
+&lt;p&gt;Right Ctr l1D E0&lt;/p&gt;
+
+&lt;p&gt;Right Shift 36 00&lt;/p&gt;
+
+&lt;p&gt;Right Windows 5C E0&lt;/p&gt;
+
+&lt;p&gt;Backspace 0E 00&lt;/p&gt;
+
+&lt;p&gt;Delete 53 E0&lt;/p&gt;
+
+&lt;p&gt;Enter 1C 00&lt;/p&gt;
+
+&lt;p&gt;Space 39 00&lt;/p&gt;
+
+&lt;p&gt;Insert 52 E0&lt;/p&gt;
+
+&lt;p&gt;HOME 47 E0&lt;/p&gt;
+
+&lt;p&gt;End 4F E0&lt;/p&gt;
+
+&lt;p&gt;Num Lock 45 00&lt;/p&gt;
+
+&lt;p&gt;Page Down 51 E0&lt;/p&gt;
+
+&lt;p&gt;Page Up 49 E0&lt;/p&gt;
+
+&lt;p&gt;Scroll Lock 46 00&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>常见开源消息系统/中间件技术评选</title>
+      <link>http://cio.anasit.com/cookbook/backend/messagesystem/</link>
+      <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/messagesystem/</guid>
+      <description>
+
+&lt;h1 id=&#34;常见开源消息系统-中间件技术评选:98a09982e72308c69ab2b124e86725d9&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
+
+&lt;h2 id=&#34;golang项目中mq系统的选择:98a09982e72308c69ab2b124e86725d9&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackshare.io/stackups/rabbitmq-vs-nsq&#34;&gt;http://stackshare.io/stackups/rabbitmq-vs-nsq&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rabbitmq-golang-client:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/streadway/amqp&#34;&gt;https://github.com/streadway/amqp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go&#34;&gt;https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准&lt;/p&gt;
+
+&lt;h3 id=&#34;gonsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;gonsq&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/nsqio/nsq&#34;&gt;https://github.com/nsqio/nsq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nsq.io/&#34;&gt;http://nsq.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;适用场景：弱事务，日志系统&lt;/p&gt;
+
+&lt;h3 id=&#34;kafka-flume:98a09982e72308c69ab2b124e86725d9&#34;&gt;kafka+flume&lt;/h3&gt;
+
+&lt;p&gt;适用场景：日志、大数据&lt;/p&gt;
+
+&lt;h2 id=&#34;消息系统的作用:98a09982e72308c69ab2b124e86725d9&#34;&gt;消息系统的作用&lt;/h2&gt;
+
+&lt;p&gt;异步处理、削减峰值、减少组件之间的耦合。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;是否持久化&lt;/li&gt;
+&lt;li&gt;吞吐能力&lt;/li&gt;
+&lt;li&gt;高可用&lt;/li&gt;
+&lt;li&gt;分布式扩展能力&lt;/li&gt;
+&lt;li&gt;兼容现有协议&lt;/li&gt;
+&lt;li&gt;易于维护&lt;/li&gt;
+&lt;li&gt;其他，如消息丢失和重复的处理&lt;/li&gt;
+&lt;li&gt;避免单点故障&lt;/li&gt;
+&lt;li&gt;负载均衡&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;常见消息系统协议:98a09982e72308c69ab2b124e86725d9&#34;&gt;常见消息系统协议&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;STOMP&lt;/li&gt;
+&lt;li&gt;AMQP&lt;/li&gt;
+&lt;li&gt;MEMCACHE协议&lt;/li&gt;
+&lt;li&gt;HTTP&lt;/li&gt;
+&lt;li&gt;自定格式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;较好的开源系统列表:98a09982e72308c69ab2b124e86725d9&#34;&gt;较好的开源系统列表&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RabbitMQ&lt;/li&gt;
+&lt;li&gt;NSQ&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;nsq-和-rabiitmq的对比:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
+
+&lt;h2 id=&#34;nsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nsq.io/overview/quick_start.html&#34;&gt;http://nsq.io/overview/quick_start.html&lt;/a&gt;
+&lt;img src=&#34;http://media.tumblr.com/edb403d38fc2bcc727b8655ea70eb3a7/tumblr_inline_mf8sfr2sp41qj3yp2.png&#34; alt=&#34;nsq&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;无中心设计、节点自动注册和发现。可以考虑作为内部通讯框架的基础。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bitly/nsq&#34;&gt;https://github.com/bitly/nsq&lt;/a&gt;
+* 追求简单部署
+* 追求高可用、避免单点故障、无中心设计
+* 确保消息送达
+* 生产者消费者自动发现、消费者连接所有生产者、向消费者推的模式
+* 提供 HTTP 接口&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/snakes/nsq-nyc-golang-meetup&#34;&gt;https://speakerdeck.com/snakes/nsq-nyc-golang-meetup&lt;/a&gt;
+&lt;a href=&#34;https://github.com/davegardnerisme/nsqphp&#34;&gt;https://github.com/davegardnerisme/nsqphp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.davegardner.me.uk/blog/tag/nsq/&#34;&gt;http://www.davegardner.me.uk/blog/tag/nsq/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;NSQ组合比较自由。&lt;/p&gt;
+
+&lt;p&gt;可以单独使用nsqd，Producer和Consumer自己直接连接nsqd。&lt;/p&gt;
+
+&lt;p&gt;也可以利用nsqlookupd来管理nsqd（根据心跳，挑选出可用的nsqd），Producer和Consumer跟nsqlookupd来交互。&lt;/p&gt;
+
+&lt;p&gt;======================================&lt;/p&gt;
+
+&lt;p&gt;RabbitMQ里面的Exchange类似nsqd，queen类似channel。&lt;/p&gt;
+
+&lt;h2 id=&#34;rabbitmq:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.blog.csdn.net/20140220173559828&#34; alt=&#34;RabbitMQ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2500 job/s 入队列 1300 job/s 出队列
+适合小消息
+分布式无单点设计
+底层为 Erlang 实现
+有评论: RabbitMQ could not enqueue/dequeue fast enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html&#34;&gt;https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;对于一个数据从Producer到Consumer的正确传递，还有三个概念需要明确：exchanges, queues and bindings。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    **Exchanges** are where producers publish their messages.
+
+    **Queuesare** where the messages end up and are received by consumers
+
+    **Bindings** are how the messages get routed from the exchange to particular queues.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;还有几个概念是上述图中没有标明的，那就是Connection（连接），Channel（通道，频道）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connection&lt;/strong&gt;： 就是一个TCP的连接。Producer和Consumer都是通过TCP连接到RabbitMQ Server的。以后我们可以看到，程序的起始处就是建立这个TCP连接。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Channels&lt;/strong&gt;： 虚拟连接。它建立在上述的TCP连接中。数据流动都是在Channel中进行的。也就是说，一般情况是程序起始建立TCP连接，第二步就是建立这个Channel。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker入门实践</title>
+      <link>http://cio.anasit.com/cookbook/devops/dockerstart/</link>
+      <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/devops/dockerstart/</guid>
+      <description>
+
+&lt;h1 id=&#34;installation:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;Installation&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;# Windows
+cinst docker -y
+# Linux
+pacman -Sy docker
+apt-get install docker -y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;initicial:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;Initicial&lt;/h1&gt;
+
+&lt;p&gt;docker pull debian&lt;/p&gt;
+
+&lt;h2 id=&#34;faq-an-error-occurred-trying-to-connect-post:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;FAQ: An error occurred trying to connect: Post &amp;hellip;..&lt;/h2&gt;
+
+&lt;p&gt;问题描述：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker pull debian
+Using default tag: latest
+An error occurred trying to connect: Post http://localhost:2375/v1.21/images/create?fromImage=debian%3Alatest: dial tcp 127.0.0.1:2375: ConnectEx tcp: No connection could be made because the target machine actively refused it.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;问题原因：系统无虚拟机服务启动
+解决方案：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 停止并删除boot2docker虚拟机
+boot2docker stop
+boot2docker destroy
+# 重新创建boot2docker虚拟机并启动
+boot2docker init
+boot2docker up
+docker version
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>萤石云开发实践</title>
+      <link>http://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
+      <description>
+
+&lt;h1 id=&#34;萤石云开发实践:314fd259cb5f197b4160aabedce691db&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
+
+&lt;h1 id=&#34;常用资料:314fd259cb5f197b4160aabedce691db&#34;&gt;常用资料&lt;/h1&gt;
+
+&lt;p&gt;SDK下载：&lt;a href=&#34;https://open.ys7.com/sdk.html&#34;&gt;https://open.ys7.com/sdk.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;常见问题:314fd259cb5f197b4160aabedce691db&#34;&gt;常见问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;faq1-是否可以在web-手机页面播放萤石云视频:314fd259cb5f197b4160aabedce691db&#34;&gt;FAQ1:是否可以在web/手机页面播放萤石云视频？&lt;/h2&gt;
+
+&lt;p&gt;(1)、针对用户分享到视频广场的视频，调用萤石接口说明文档3.16接口：&lt;/p&gt;
+
+&lt;p&gt;①获取到iframeUrl，可以在html &lt;iframe&gt; 标签里，进行播放。&lt;/p&gt;
+
+&lt;p&gt;②获取到m3u8地址，可以在h5页面 &lt;video&gt; 标签里，进行播放。&lt;/p&gt;
+
+&lt;p&gt;(2)、针对用户下面的设备视频，如果要在web页面进行播放，需要下载pcsdk，封装成控件，进行播放。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Arch Linux软件选型整理</title>
+      <link>http://cio.anasit.com/cookbook/devops/archlinux/</link>
+      <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/devops/archlinux/</guid>
+      <description>
+
+&lt;p&gt;#发行版本
+Arch Linux&lt;/p&gt;
+
+&lt;h1 id=&#34;0-系统安装:f206309cfada2fa2891560ce0981d178&#34;&gt;0.系统安装&lt;/h1&gt;
+
+&lt;h2 id=&#34;0-dd:f206309cfada2fa2891560ce0981d178&#34;&gt;0.dd&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dd if=/dev/zero of=/dev/sda bs=512 count=1
+parted -s /dev/sda mklabel msdos
+fdisk
+m
+o
+#清空GPT/MBR分区格式
+
+dd if=arch.iso of=/dev/sda
+#此处of为设备,而不是设备分区
+#无法引导需要尝试切换USB2.0/USB3.0接口
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;1-fdisk:f206309cfada2fa2891560ce0981d178&#34;&gt;1.fdisk&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option fdisk
+#SATA3.0中/dev/sda的跳线一定要接在0第一个位置
+fdisk /dev/sda
+n
+p
+default
++40G
+
+n
+p
+default
++80G
+
+p
+w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option cfdisk
+cfdisk
+#选择dos(MBR)
+#设置bootable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option gdisk for UEFI/GPT
+efivar -l #测试ISO是否EFI
+gdisk /dev/sda
+#option cgdisk for UEFI/GPT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-mkfs-ext4:f206309cfada2fa2891560ce0981d178&#34;&gt;2.mkfs.ext4&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkfs.ext4 /dev/sda1
+mkfs.ext4 /dev/sda2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;3-mount:f206309cfada2fa2891560ce0981d178&#34;&gt;3.mount&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mount /dev/sda1 /mnt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;4-install:f206309cfada2fa2891560ce0981d178&#34;&gt;4.install&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/pacman.d/mirrorlist
+pacstrap -i /mnt base net-tools
+genfstab -U -p /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
+
+arch-chroot /mnt /bin/bash
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;5-launcher:f206309cfada2fa2891560ce0981d178&#34;&gt;5.Launcher&lt;/h2&gt;
+
+&lt;p&gt;refer to &lt;a href=&#34;http://blog.lucode.net/linux/archlinux-install-tutorial.html&#34;&gt;http://blog.lucode.net/linux/archlinux-install-tutorial.html&lt;/a&gt;
+###syslinux&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;syslinux-install_update -i -a -m
+vim /boot/syslinux/syslinux.cfg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;pacman-source-configure:f206309cfada2fa2891560ce0981d178&#34;&gt;Pacman Source Configure&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/pacman.conf
+#添加archlinuxcn源
+[archlinuxcn]
+#The Chinese Arch Linux communities packages.
+SigLevel = Optional TrustedOnly
+Server   = http://repo.archlinuxcn.org/$arch
+
+#添加multiarch源
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;window-manager:f206309cfada2fa2891560ce0981d178&#34;&gt;window manager&lt;/h1&gt;
+
+&lt;p&gt;pacman -S xorg
+pacman -S xorg-xinit
+pacman -S awesome&lt;/p&gt;
+
+&lt;p&gt;pacman -S fcitx fcitx-configtool fcitx-qt5&lt;/p&gt;
+
+&lt;p&gt;awesome主题
+&lt;a href=&#34;http://awesome.naquadah.org/wiki/Beautiful_themes&#34;&gt;http://awesome.naquadah.org/wiki/Beautiful_themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#更换桌面
+cd /usr/share/awesome/themes/default
+cp -f ~/Desktop/hy1.png ./background.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;多屏幕:f206309cfada2fa2891560ce0981d178&#34;&gt;多屏幕&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#查看已接入显示器设备
+xrandr
+
+#awesome多屏幕设置
+xrandr --output eDP --mode 1366x768 --output VGA-0 --mode 1920x1080 --left-of eDP
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Mod4 + o //send to another screen&lt;/p&gt;
+
+&lt;h1 id=&#34;wifi:f206309cfada2fa2891560ce0981d178&#34;&gt;Wifi&lt;/h1&gt;
+
+&lt;p&gt;wifi-menu&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S dialog wpa_supplicant
+
+#连接Wifi指令
+ip link
+
+wpa_supplicant -D nl80211,wext -i wlp3s0 -c &amp;lt;(wpa_passphrase &amp;quot;KaiYuanTech&amp;quot; &amp;quot;940914940914&amp;quot;)
+
+dhcpcd wlp3s0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;terminal:f206309cfada2fa2891560ce0981d178&#34;&gt;Terminal&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S terminator
+
+#手动配置或者右键-Preferences
+~/.config/terminator/config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;sh命令行:f206309cfada2fa2891560ce0981d178&#34;&gt;sh命令行&lt;/h1&gt;
+
+&lt;p&gt;pacman -S zsh&lt;/p&gt;
+
+&lt;h1 id=&#34;font-beautify:f206309cfada2fa2891560ce0981d178&#34;&gt;Font &amp;amp; Beautify&lt;/h1&gt;
+
+&lt;p&gt;pacman -S wqy-microhei  wqy-zenhei&lt;/p&gt;
+
+&lt;h1 id=&#34;input-method:f206309cfada2fa2891560ce0981d178&#34;&gt;Input Method&lt;/h1&gt;
+
+&lt;p&gt;pacman -S fcitx fcitx-qt5 fcitx-configtools&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#添加到.xinitrc的awesome前面
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=&amp;quot;@im=fcitx&amp;quot;
+fcitx -d &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;图书馆-笔记系统:f206309cfada2fa2891560ce0981d178&#34;&gt;图书馆&amp;amp;笔记系统&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S calibre
+pacman -S wiznote
+firefox http://www.leanote.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;financial-accounting:f206309cfada2fa2891560ce0981d178&#34;&gt;Financial &amp;amp; Accounting&lt;/h1&gt;
+
+&lt;p&gt;pacman -S gnucash&lt;/p&gt;
+
+&lt;h1 id=&#34;develop-tools:f206309cfada2fa2891560ce0981d178&#34;&gt;Develop Tools&lt;/h1&gt;
+
+&lt;p&gt;pacman -S android-studio&lt;/p&gt;
+
+&lt;h1 id=&#34;security-tools:f206309cfada2fa2891560ce0981d178&#34;&gt;Security Tools&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#渗透测试
+pacman -S metasploit
+#网络封包
+pacman -S wireshark
+#漏洞扫描
+pacman -S nmap
+pacman -S openvas
+nessus优于openvas，openvas仅为开源免费替代方案
+https://wiki.archlinux.org/index.php/Nessus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;multi-media:f206309cfada2fa2891560ce0981d178&#34;&gt;Multi Media&lt;/h1&gt;
+
+&lt;h2 id=&#34;flash-plugin:f206309cfada2fa2891560ce0981d178&#34;&gt;Flash Plugin&lt;/h2&gt;
+
+&lt;p&gt;pacman -S flashplugin&lt;/p&gt;
+
+&lt;h2 id=&#34;audio-driver:f206309cfada2fa2891560ce0981d178&#34;&gt;Audio Driver&lt;/h2&gt;
+
+&lt;p&gt;pacman -S alsa-utils&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#配置card中MM为00，按m键
+alsamixer
+#查看声卡
+aplay -l
+#添加/etc/asound.conf文件，设置默认声卡
+defaults.ctl.card 1
+defaults.pcm.card 1
+defaults.timer.card 1
+#重载配置
+alsactl restore
+alsactl kill quit
+alsactl init 1
+#reboot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;数学建模:f206309cfada2fa2891560ce0981d178&#34;&gt;数学建模&lt;/h1&gt;
+
+&lt;p&gt;pacman -S sagemath
+&lt;a href=&#34;http://www.sagemath.org&#34;&gt;http://www.sagemath.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;disk-mnt-tool:f206309cfada2fa2891560ce0981d178&#34;&gt;Disk Mnt Tool&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S ntfs-3g
+mount /dev/&amp;lt;your-NTFS-partition&amp;gt; /media/&amp;lt;folder&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IVMS7000服务端信息搜集</title>
+      <link>http://cio.anasit.com/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
+      <description>
+
+&lt;h1 id=&#34;基础环境:ade500c3ce255d1acc760d103f6acf70&#34;&gt;基础环境&lt;/h1&gt;
+
+&lt;h2 id=&#34;系统:ade500c3ce255d1acc760d103f6acf70&#34;&gt;系统&lt;/h2&gt;
+
+&lt;p&gt;Windows Server 2008 R2
+光盘一：系统驱动
+光盘二：安装程序&lt;/p&gt;
+
+&lt;h2 id=&#34;数据库:ade500c3ce255d1acc760d103f6acf70&#34;&gt;数据库&lt;/h2&gt;
+
+&lt;p&gt;数据库Mysql 5.7
+库名 cms
+用户 admin
+密码 12345&lt;/p&gt;
+
+&lt;h2 id=&#34;软件平台:ade500c3ce255d1acc760d103f6acf70&#34;&gt;软件平台&lt;/h2&gt;
+
+&lt;p&gt;1.iVMS-7000
+&lt;a href=&#34;http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi&#34;&gt;http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi&lt;/a&gt;
+2.iVMS-8200 备份服务器管理后台
+3.iVMS-5000 集中监控管理系统
+&lt;img src=&#34;http://img62.afzhan.com/2/20140529/635369739667172142696.jpg&#34; alt=&#34;img&#34; /&gt;
+&lt;strong&gt;需要配置msyql密码，否则无法访问80端口，cms/WebApps/ROOT/WEB-INF/class/jdbc.properties&lt;/strong&gt;
+&lt;strong&gt;必须使用IE8/7&lt;/strong&gt;
+4.iVMS-8200 VTM流媒体管理服务器
+《iVMS8200 V2.3.6 VTM使用手册.zip》
+&lt;a href=&#34;http://wenku.baidu.com/link?url=T-2M4lrIho7NLgjI_-dDoLZ7rcxDOzFO3H9MtQ4_itOdVyzBnXofMwMhOzSuMdosC_LJTswmcP4pZJ4VG12XlmjNgRFKvWBohO8GvAS4apu&#34;&gt;http://wenku.baidu.com/link?url=T-2M4lrIho7NLgjI_-dDoLZ7rcxDOzFO3H9MtQ4_itOdVyzBnXofMwMhOzSuMdosC_LJTswmcP4pZJ4VG12XlmjNgRFKvWBohO8GvAS4apu&lt;/a&gt;
+5.视频接入网关VGA配置
+资源——服务器——VGA&lt;/p&gt;
+
+&lt;h1 id=&#34;基础服务:ade500c3ce255d1acc760d103f6acf70&#34;&gt;基础服务&lt;/h1&gt;
+
+&lt;p&gt;80 WEB/IVMS7000管理后台
+8080 WEB/IVMS8200备份服务器管理后台
+8088 WEB/图片服务器
+2121 FTP
+556 流媒体端口
+8008 WEB服务端口
+7510 网管端口
+6819 查询端口&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

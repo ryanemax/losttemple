@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cookbooks on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/cookbook/</link>
+    <description>Recent content in Cookbooks on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Sat, 02 Jul 2016 12:00:30 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
+      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <description>
+
+&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可通过域名转发过滤&lt;/li&gt;
+&lt;li&gt;可代理服务类型不限&lt;/li&gt;
+&lt;li&gt;针对HTTP、HTTPS等特定服务提供更强支持&lt;/li&gt;
+&lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+
+&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本高
+
+&lt;ul&gt;
+&lt;li&gt;网卡成本&lt;/li&gt;
+&lt;li&gt;组网维护成本&lt;/li&gt;
+&lt;li&gt;固定IP成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置较为繁琐&lt;/li&gt;
+&lt;li&gt;端口数有限&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置便捷&lt;/li&gt;
+&lt;li&gt;安全性较低&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用于公开项目演示的paas服务选型</title>
+      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <description>
+
+&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+
+&lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;费用 完全免费&lt;/li&gt;
+&lt;li&gt;个人主页 新建项目xxx/xxx.github.io即可&lt;/li&gt;
+&lt;li&gt;项目主页 项目内 新建分支 gh-pages即可&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
+&lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+
+&lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;费用 初级应用免费&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;两个项目 以下免费&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;支持项目&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mysql&lt;/li&gt;
+&lt;li&gt;postgresql&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;li&gt;redis&lt;/li&gt;
+&lt;li&gt;memcached&lt;/li&gt;
+&lt;li&gt;nfs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用于angular2项目开发的vim环境配置及插件</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1:90187ca4a720b853310dffa460a52b57&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 差
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;es6 完全不支持ES6，安装es6插件无效&lt;/li&gt;
+&lt;li&gt;ng2 完全不支持angular2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 差
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 差&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;webstorm-2016-2-1:90187ca4a720b853310dffa460a52b57&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 较好
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 较好
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 较好
+
+&lt;ul&gt;
+&lt;li&gt;gulp 小工具&lt;/li&gt;
+&lt;li&gt;RESTful Client 小工具&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件:90187ca4a720b853310dffa460a52b57&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+
+&lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/isRuslan/vim-es6&#34;&gt;https://github.com/isRuslan/vim-es6&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>API领域创业公司及其发展动态浅析</title>
+      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;位置&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;项目/公司&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MBaaS服务&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;APIs仓库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;apis.guru&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;构建工具链&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mulesoft restlet apigee&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;底层规则&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;raml swagger&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;raml google/mulesoft为背景&lt;/li&gt;
+&lt;li&gt;swagger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;restlet 基于Java的jax-rs的集大成者，raml、swagger通用&lt;/li&gt;
+&lt;li&gt;mulesoft 基于raml体系&lt;/li&gt;
+&lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;li&gt;dreamfactory&lt;/li&gt;
+&lt;li&gt;apicloud&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
+      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
+      <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
+      <description>
+
+&lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.zhihu.com/question/22962390&#34;&gt;推荐一款好用的电子名片app？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;实际体验:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;实际体验&lt;/h1&gt;
+
+&lt;h2 id=&#34;zappoint-淘汰:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱登陆&lt;/li&gt;
+&lt;li&gt;拍照识别
+
+&lt;ul&gt;
+&lt;li&gt;中文较差&lt;/li&gt;
+&lt;li&gt;只有正面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同步通讯录&lt;/li&gt;
+&lt;li&gt;排列方式
+
+&lt;ul&gt;
+&lt;li&gt;时间排列&lt;/li&gt;
+&lt;li&gt;公司排列&lt;/li&gt;
+&lt;li&gt;姓名排列&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;camcard-名片万能王-选用:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱/手机登陆
+
+&lt;ul&gt;
+&lt;li&gt;可绑定领英&lt;/li&gt;
+&lt;li&gt;可绑定微博&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;拍照识别
+
+&lt;ul&gt;
+&lt;li&gt;中文识别优秀&lt;/li&gt;
+&lt;li&gt;支持正面与背面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同步通讯录&lt;/li&gt;
+&lt;li&gt;排列方式
+
+&lt;ul&gt;
+&lt;li&gt;时间排列&lt;/li&gt;
+&lt;li&gt;公司排列&lt;/li&gt;
+&lt;li&gt;姓名排列&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;国产更适合汉语使用习惯&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>H5页面如何接入google ads实现广告收入？</title>
+      <link>http://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
+      <link>http://cio.anasit.com/cookbook/cms/homesite/</link>
+      <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <description>
+
+&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
+
+&lt;h1 id=&#34;简介:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;项目背景:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;项目背景&lt;/h2&gt;
+
+&lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
+
+&lt;p&gt;本文，将深度探讨，并尝试一次低耦合的CMS系统建设方案。在每个需求环节，选取最佳的技术实现方案，各模块通过RESTful API进行整合及协同。&lt;/p&gt;
+
+&lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;技术总览:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;技术总览&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hugo&lt;/li&gt;
+&lt;li&gt;hugo-themes
+
+&lt;ul&gt;
+&lt;li&gt;galactica&lt;/li&gt;
+&lt;li&gt;演示：&lt;a href=&#34;http://astritbublaku.com/demos/galactica/&#34;&gt;http://astritbublaku.com/demos/galactica/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;li&gt;yaml&lt;/li&gt;
+&lt;li&gt;RESTful APIs&lt;/li&gt;
+&lt;li&gt;github pages&lt;/li&gt;
+&lt;li&gt;rss&lt;/li&gt;
+&lt;li&gt;google ads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;系统架构:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;系统架构&lt;/h1&gt;
+
+&lt;h2 id=&#34;静态页面生成模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;静态页面生成模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Themes 主题机制&lt;/li&gt;
+&lt;li&gt;Templates 模板机制&lt;/li&gt;
+&lt;li&gt;Taxonomies 分类机制&lt;/li&gt;
+&lt;li&gt;Contents 内容格式化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;信息采集聚合模块-aggregator:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RSS 采集&lt;/li&gt;
+&lt;li&gt;Twiter 采集&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;内容筛选解析格式化模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;用户审查发布模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;用户审查发布模块&lt;/h2&gt;
+
+&lt;h2 id=&#34;ugc用户自主写文模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
+&lt;li&gt;选择二：支持api获取文章内容的，在线云笔记&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>适合开发者的第三方RSS采集服务选型</title>
+      <link>http://cio.anasit.com/cookbook/cms/rss/</link>
+      <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/cms/rss/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;项目背景:eceb479b7b3b2077408a2878a29e1320&#34;&gt;项目背景&lt;/h2&gt;
+
+&lt;p&gt;greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。&lt;/p&gt;
+
+&lt;p&gt;作为个人用户，所有碰到的基础需求，都可以满足，未考虑付费服务。&lt;/p&gt;
+
+&lt;p&gt;但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考文章:eceb479b7b3b2077408a2878a29e1320&#34;&gt;参考文章&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sspai.com/27576&#34;&gt;观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader&lt;/a&gt;
+&lt;a href=&#34;http://www.zhihu.com/question/21278318&#34;&gt;RSS 阅读器 InoReader 的使用体验如何？&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;如何迁移自己的rss订阅:eceb479b7b3b2077408a2878a29e1320&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;登录feedly，点击用户，选择export OPML文件&lt;/li&gt;
+&lt;li&gt;将导出的OPML文件导入你想要使用的rss订阅服务&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;私有云-rss-聚合器:eceb479b7b3b2077408a2878a29e1320&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;filipedeschamps/rss-feed-emitter
+
+&lt;ul&gt;
+&lt;li&gt;nodejs+es6&lt;/li&gt;
+&lt;li&gt;star 621&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;dai-shi/rss-pipes
+
+&lt;ul&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;li&gt;star 70&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;freshrss.org
+
+&lt;ul&gt;
+&lt;li&gt;php+mysql&lt;/li&gt;
+&lt;li&gt;star 382&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;freshrss:eceb479b7b3b2077408a2878a29e1320&#34;&gt;freshrss&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;php-pdo&lt;/li&gt;
+&lt;li&gt;xml/curl&lt;/li&gt;
+&lt;li&gt;mysql&lt;/li&gt;
+&lt;li&gt;pelican（静态页面生成部分）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;公有云-rss-订阅服务:eceb479b7b3b2077408a2878a29e1320&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;feedly&lt;/li&gt;
+&lt;li&gt;inoreader&lt;/li&gt;
+&lt;li&gt;feedbin&lt;/li&gt;
+&lt;li&gt;feedwrangler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;inoreader:eceb479b7b3b2077408a2878a29e1320&#34;&gt;inoreader&lt;/h2&gt;
+
+&lt;h2 id=&#34;缺点:eceb479b7b3b2077408a2878a29e1320&#34;&gt;缺点&lt;/h2&gt;
+
+&lt;p&gt;Inoreader对于RSS源的抓取不如Feedly。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;订阅的科大BBS的RSS源，全部乱码出错，而在Feedly并未出现这种问题。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;简介-1:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.inoreader.com/&#34;&gt;http://www.inoreader.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;开发者平台 &lt;a href=&#34;http://www.inoreader.com/developers/&#34;&gt;http://www.inoreader.com/developers/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;资费参考 &lt;a href=&#34;http://www.inoreader.com/upgrade/feature/from_preferences&#34;&gt;http://www.inoreader.com/upgrade/feature/from_preferences&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free套餐：
+- Number of subscriptions   Unlimited
+- Search in subscriptions
+- RSS Feeds for favorites, channels, folders and tags&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML Clips for favorites, channels, folders and tags  Default&lt;/li&gt;
+&lt;li&gt;Unread counter cap (actual unread articles are not limited)   1000&lt;/li&gt;
+&lt;li&gt;Number of active searches     1&lt;/li&gt;
+&lt;li&gt;Number of rules   1&lt;/li&gt;
+&lt;li&gt;Number of filtered feeds  1&lt;/li&gt;
+&lt;li&gt;Number of Highlighters    5&lt;/li&gt;
+&lt;li&gt;Number of boosted feeds   10&lt;/li&gt;
+&lt;li&gt;Number of Google+ feeds   0&lt;/li&gt;
+&lt;li&gt;Number of Twitter feeds   1&lt;/li&gt;
+&lt;li&gt;Number of Facebook page feeds     1&lt;/li&gt;
+&lt;li&gt;Number of VKontakte feeds     1&lt;/li&gt;
+&lt;li&gt;Audio Player  Inline&lt;/li&gt;
+&lt;li&gt;Address book - Gmail integrated   Limited to 10 entries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;feedly:eceb479b7b3b2077408a2878a29e1320&#34;&gt;feedly&lt;/h1&gt;
+
+&lt;p&gt;feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api&lt;/p&gt;
+
+&lt;p&gt;开发者平台 &lt;a href=&#34;http://developer.feedly.com/&#34;&gt;http://developer.feedly.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;资费参考 &lt;a href=&#34;https://feedly.com/i/pro/showcase.zapier&#34;&gt;https://feedly.com/i/pro/showcase.zapier&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free套餐:
+- Up to 100 sources
+- Mobile and desktop
+- Organize source into easy-to-read collections
+- Share to Twitter, Pinterest and Facebook&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
+      <description>
+
+&lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
+
+&lt;h2 id=&#34;回顾angularjs-1:460bce4062430561faf966c08e14ab2b&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
+
+&lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
+
+&lt;p&gt;Angularjs 1 中可选的数据处理方法有以下三种：
+- $http 框架自带，处理原始HTTP请求
+- $resource 框架自带，对$http进行初步封装
+- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
+
+&lt;h2 id=&#34;调研angularjs-2:460bce4062430561faf966c08e14ab2b&#34;&gt;调研AngularJS 2&lt;/h2&gt;
+
+&lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;angular2/http&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用参考：&lt;a href=&#34;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&#34;&gt;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  import {Http} from &#39;angular2/http&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;marmelab/restful.js 第三方组件，纯ES6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 535 on &lt;a href=&#34;https://github.com/marmelab/restful.js&#34;&gt;https://github.com/marmelab/restful.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基于ES6开发，Think Restangular without Angular.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # 方式一：npm安装
+  npm install restful.js
+  # 方式二：webpack安装
+  import restful from &#39;restful.js&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paldom/angular2-rest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 94 on &lt;a href=&#34;https://github.com/Paldom/angular2-rest&#34;&gt;https://github.com/Paldom/angular2-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;darekf77/ng2-rest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;angular2-http开发详解:460bce4062430561faf966c08e14ab2b&#34;&gt;angular2/http开发详解&lt;/h1&gt;
+
+&lt;h2 id=&#34;参考教程:460bce4062430561faf966c08e14ab2b&#34;&gt;参考教程&lt;/h2&gt;
+
+&lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;官方手册:460bce4062430561faf966c08e14ab2b&#34;&gt;官方手册&lt;/h2&gt;
+
+&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;使用体验:460bce4062430561faf966c08e14ab2b&#34;&gt;使用体验&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
+&lt;li&gt;（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件&lt;/li&gt;
+&lt;li&gt;（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;那么以上三种情景，第三种情景使用频率较高：由于后端&lt;strong&gt;不是规范的REST&lt;/strong&gt;，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。&lt;/p&gt;
+
+&lt;p&gt;因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2与es6初学者到底从哪里开始学起</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
+
+&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
+详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
+
+&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
+英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
+详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-cms/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-cms/</guid>
+      <description>
+
+&lt;h1 id=&#34;ng2-seo优化简介:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
+
+&lt;p&gt;ng2应用实现seo优化的方式有多种
+- universial 后端渲染
+- php 后端模拟渲染&lt;/p&gt;
+
+&lt;h1 id=&#34;blackstar-cms-ng2:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
+
+&lt;p&gt;技术选型
+- angular2-seed
+- typescript
+- HTML via HTTP
+- HTML via the Blackstar CMS JavaScript Client
+- .NET (ASP.NET MVC)&lt;/p&gt;
+
+&lt;p&gt;特色功能
+- 基本没有&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blackstarcms.net/&#34;&gt;http://blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;示例 &lt;a href=&#34;http://demo.blackstarcms.net/&#34;&gt;http://demo.blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;star 1 on &lt;a href=&#34;https://github.com/Blackstar-CMS/samples&#34;&gt;https://github.com/Blackstar-CMS/samples&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;respond-5-2-ng1:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
+
+&lt;p&gt;技术选型
+- Bootstrap 3
+- Polymer 1.0
+- Angular 1.4
+- php&lt;/p&gt;
+
+&lt;p&gt;特色功能
+- SEO优化
+- Themes切换&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.respondcms.com&#34;&gt;http://www.respondcms.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;star 714 on &lt;a href=&#34;https://github.com/madoublet/respond&#34;&gt;https://github.com/madoublet/respond&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;8 themes on &lt;a href=&#34;http://www.respondcms.com/page/themes&#34;&gt;http://www.respondcms.com/page/themes&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2基于firebase的第三方库对接详解（草稿）</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-firebase/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
+      <description>
+
+&lt;h1 id=&#34;firebase:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;Firebase&lt;/h1&gt;
+
+&lt;h1 id=&#34;angularfire2:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;AngularFire2&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://angularfire2.com/api/&#34;&gt;https://angularfire2.com/api/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;https://github.com/angular/angularfire2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;所有ng2应用示例:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;所有ng2应用示例&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://builtwithangular2.com/&#34;&gt;http://builtwithangular2.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>rxjs的简要入门，以及ng2与es6中的rxjs</title>
+      <link>http://cio.anasit.com/cookbook/api/rxjs/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/api/rxjs/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介:a425801fc36a36d85b869085e7a47424&#34;&gt;简介&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.moye.me/2016/05/31/learning_rxjs_part_one_preliminary/&#34;&gt;学习RxJS： 导入&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>来领略惊艳的ionic2安纳斯整理版awesome-ionic2</title>
+      <link>http://cio.anasit.com/cookbook/frontend/awesome-ionic2/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/awesome-ionic2/</guid>
+      <description>
+
+&lt;h1 id=&#34;为什么要ionic2-一个ppt告诉你:b71d2ad6df9b5592c4212acf78211202&#34;&gt;为什么要Ionic2，一个PPT告诉你&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://adamdbradley.github.io/building-with-ionic2/&#34;&gt;Building apps with Ionic 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;awesome-ionic2-anasit:b71d2ad6df9b5592c4212acf78211202&#34;&gt;awesome-ionic2-anasit&lt;/h1&gt;
+
+&lt;p&gt;截取时间：2016-05-17&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/awesome-ionic2/&#34;&gt;来领略惊艳的ionic2安纳斯整理版awesome-ionic2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;学习整理:b71d2ad6df9b5592c4212acf78211202&#34;&gt;学习整理&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/&#34;&gt;ng2与es6初学者到底从哪里开始学起&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-componentAPIs/&#34;&gt;ionic2控件及APIs归类整理及简要介绍v0.8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-native/&#34;&gt;ionic2原生native控件归类整理及简要介绍（进行中）&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;开发实战-in-action:b71d2ad6df9b5592c4212acf78211202&#34;&gt;开发实战 In Action&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-spec/&#34;&gt;ANASIT-ionic2开发规范汇总（进行中）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-googlemap-amap/&#34;&gt;ionic2及ng2谷歌/高德地图控件分析实例&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ng2-restful/&#34;&gt;ionic2与ng2基于RESTful的HTTP数据处理技术选型&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;常见问题-faq:b71d2ad6df9b5592c4212acf78211202&#34;&gt;常见问题 FAQ&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/faq/ionic2install/&#34;&gt;ionic2常见问题汇总之安装篇&lt;/a&gt;
+&lt;a href=&#34;http://ryanemax.github.io/faq/ionic2html/&#34;&gt;ionic2常见问题汇总之界面布局篇&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;awesome-ionic2:b71d2ad6df9b5592c4212acf78211202&#34;&gt;awesome-ionic2&lt;/h1&gt;
+
+&lt;p&gt;截取时间：2016-05-17&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/candelibas/awesome-ionic2&#34;&gt;https://github.com/candelibas/awesome-ionic2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ionic-2:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Ionic 2&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Ionic is the beautiful, open source front-end SDK for developing hybrid mobile apps with web technologies.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&#34;current-ionic-2-version:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Current Ionic 2 version:&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://badge.fury.io/js/ionic-framework&#34;&gt;&lt;img src=&#34;https://badge.fury.io/js/ionic-framework.svg&#34; alt=&#34;npm version&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;official-resources:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Official Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ionicframework.com/&#34;&gt;Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ionic.io/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ionicframework.com/docs/v2/&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ionicframework.com/docs/v2/getting-started/&#34;&gt;Getting Started Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/driftyco/ionic-native/&#34;&gt;Ionic Native&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://forum.ionicframework.com/&#34;&gt;Community Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://webchat.freenode.net/?randomnick=1&amp;amp;channels=%23ionic&amp;amp;uio=d4&#34;&gt;Ionic IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UChYheBnVeCfhCmqZfCUdJQw&#34;&gt;Ionic Youtube Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://showcase.ionicframework.com/&#34;&gt;Showcase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/driftyco/ionic/tree/2.0&#34;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ionic-2-fundamentals:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Ionic 2 Fundamentals&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/beginners-guide-to-getting-started-with-ionic-2/&#34;&gt;Beginners Guide to Getting Started with Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/&#34;&gt;Ionic 2 First Look Series: Your First Ionic 2 App Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/how-to-convert-an-ionic-1-application-to-ionic-2/&#34;&gt;How to Convert an Ionic 1 Application to Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/a-simple-guide-to-navigation-in-ionic-2/&#34;&gt;A Simple Guide to Navigation in Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ionic.io/10-minutes-with-ionic-2-adding-pages-and-navigation/&#34;&gt;10 Minutes with Ionic 2: Adding Pages and Navigation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-how-to-update-your-application-project-and-cli/&#34;&gt;How To Update Your Application Project and CLI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/how-to-create-a-data-model-in-ionic-2/&#34;&gt;How to Create a Data Model in Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mhartington.io/post/ionic2-external-libraries/&#34;&gt;Ionic 2 and External Libraries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;theming:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Theming&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/a-guide-to-styling-an-ionic-2-application/&#34;&gt;A Guide to Styling an Ionic 2 Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/03/use-font-awesome-icons-in-your-ionic-2-android-and-ios-app/&#34;&gt;Use Font Awesome Icons In Your Ionic 2 Android And iOS App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;components:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Components&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/ionic-2-how-to-create-a-sliding-delete-button-for-lists/&#34;&gt;How to Create a Sliding Delete Button for Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/creating-a-sliding-introduction-component-in-ionic-2/&#34;&gt;Creating a Sliding Introduction Component in Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/how-to-create-a-custom-loading-component-in-ionic-2/&#34;&gt;How to Create a Custom Loading Component in Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;authentication:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Authentication&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/03/add-touch-id-authentication-ionic-2-mobile-app/&#34;&gt;Add Touch ID Authentication To An Ionic 2 Mobile App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-succesfull-oauth-social-login-with-firebase/&#34;&gt;Successful OAuth Social Login with Firebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/01/using-an-oauth-2-0-service-within-an-ionic-2-mobile-app/&#34;&gt;Using An Oauth 2.0 Service Within An Ionic 2 Mobile App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ionic.io/ionic-2-and-auth0/&#34;&gt;Ionic 2 and Auth0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-handling-a-simple-user-authorization/&#34;&gt;Handling a Simple User Authorization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://auth0.com/authenticate/ionic2/wordpress&#34;&gt;Authenticate Ionic 2 with WordPress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;unit-testing:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Unit Testing&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://lathonez.github.io/2016/ionic-2-unit-testing/&#34;&gt;Ionic 2 Unit Testing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;cordova-plugins:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Cordova Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/using-cordova-plugins-in-ionic-2-with-ionic-native/&#34;&gt;Using Cordova Plugins in Ionic 2 with Ionic Native&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-how-to-use-cordova-plugins/&#34;&gt;How to Work With Cordova Plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ionic.io/10-minutes-with-ionic-2-using-the-camera-with-ionic-native/&#34;&gt;10 Minutes with Ionic 2: Using the Camera with Ionic Native&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/ionic-2-how-to-use-google-maps-geolocation-video-tutorial/&#34;&gt;How to Use Google Maps &amp;amp; Geolocation &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/01/determine-network-availability-in-an-ionic-2-mobile-app/&#34;&gt;Determine Network Availability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/02/monetize-google-admob-ionic-2-mobile-app/&#34;&gt;Monetize With Google Admob In An Ionic 2 Mobile App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/01/show-native-toast-notifications-in-an-ionic-2-mobile-app/&#34;&gt;Show Native Toast Notifications In An Ionic 2 Mobile App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-having-fun-with-cordova-geolocation-plugin/&#34;&gt;Having Fun With Cordova Geolocation Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2015/12/use-sqlite-in-ionic-2-instead-of-local-storage/&#34;&gt;Use SQLite In Ionic 2 Instead Of Local Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/01/launch-websites-with-ionic-2-using-the-inappbrowser/&#34;&gt;Launch Websites With Ionic 2 Using The InAppBrowser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/02/add-barcode-scanning-functionality-to-your-ionic-2-app/&#34;&gt;Add Barcode Scanning Functionality To Your Ionic 2 App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/03/use-google-analytics-in-an-ionic-2-android-and-ios-app/&#34;&gt;Use Google Analytics In An Ionic 2 Android And iOS App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/02/share-things-on-social-media-via-an-ionic-2-mobile-app/&#34;&gt;Share Things On Social Media Via An Ionic 2 Mobile App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gonehybrid.com/how-to-use-pouchdb-sqlite-for-local-storage-in-ionic-2/&#34;&gt;How To Use PouchDB + SQLite For Local Storage In Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/adding-background-geolocation-to-an-ionic-2-application/&#34;&gt;Adding Background Geolocation to an Ionic 2 Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;backend-as-a-service:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Backend as a Service&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ionic.io/10-minutes-with-ionic-2-calling-an-api/&#34;&gt;10 Minutes with Ionic 2: Calling an API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/using-http-to-fetch-remote-data-from-a-server-in-ionic-2/&#34;&gt;Using Http to Fetch Remote Data from a Server in Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-making-rest-http-requests-like-a-pro/&#34;&gt;Making REST HTTP Requests Like a Pro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nikola-breznjak.com/blog/ionic2/posting-data-from-ionic-2-app/&#34;&gt;Posting data from Ionic 2 app to a PHP server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/01/make-http-requests-in-an-ionic-2-android-and-ios-app/&#34;&gt;Make HTTP Requests In An Ionic 2 Android And iOS App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clearlyinnovative.com/integrating-firebase-with-angularfire2-into-angularjs-ionic2&#34;&gt;Integrating Firebase with AngularFire2 into AngularJS &amp;amp; Ionic2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;i18n-l10n:b71d2ad6df9b5592c4212acf78211202&#34;&gt;i18n &amp;amp; l10n&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-internationalize-and-localize-your-app-with-angular-2/&#34;&gt;Internationalize and Localize Your App With Angular 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;video-tutorials:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Video Tutorials&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/ionic-2-quickstart/&#34;&gt;Ionic 2 Quickstart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/build-a-todo-app-from-scratch-with-ionic-2-video-tutorial/&#34;&gt;Build a Todo App from Scratch with Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/ionic-2-how-to-use-google-maps-geolocation-video-tutorial/&#34;&gt;Ionic 2: How to Use Google Maps &amp;amp; Geolocation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;books:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Books&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.joshmorony.com/building-mobile-apps-with-ionic-2/&#34;&gt;Building Mobile Apps with Ionic 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;open-source-projects:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Open Source Projects&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;Ionic Conference App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ccoenraets/ionic2-realty&#34;&gt;IonicRealty&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;contribute:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Contribute&lt;/h4&gt;
+
+&lt;p&gt;Contributions welcome! Read the &lt;a href=&#34;CONTRIBUTING.md&#34;&gt;contribution guidelines&lt;/a&gt; first.&lt;/p&gt;
+
+&lt;h4 id=&#34;license:b71d2ad6df9b5592c4212acf78211202&#34;&gt;License&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/publicdomain/zero/1.0/&#34;&gt;&lt;img src=&#34;http://i.creativecommons.org/p/zero/1.0/88x31.png&#34; alt=&#34;CC0&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionic2原生native控件归类整理及简要介绍（进行中）</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ionic2-native/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ionic2-native/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;截至2016-05-13看到了&lt;a href=&#34;http://ionicframework.com/docs/v2/api/components/action-sheet/ActionSheet/&#34;&gt;Action Sheet 组件&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;总览:63a7e382306816ed05e062c728189c6f&#34;&gt;总览&lt;/h1&gt;
+
+&lt;p&gt;NATIVE（原生组件）：&lt;a href=&#34;http://ionicframework.com/docs/v2/native/&#34;&gt;官方文档&lt;/a&gt;，调用原生功能时候参考&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

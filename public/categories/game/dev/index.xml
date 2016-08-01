@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game/Dev on 刘雨飏@ANAS联盟</title>
+    <link>http://cio.anasit.com/categories/game/dev/</link>
+    <description>Recent content in Game/Dev on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Wed, 04 May 2016 00:05:51 +0800</lastBuildDate>
+    <atom:link href="http://cio.anasit.com/categories/game/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>手机游戏客户端开发引擎调研</title>
+      <link>http://cio.anasit.com/game/mobilegame/</link>
+      <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/game/mobilegame/</guid>
+      <description>
+
+&lt;h1 id=&#34;手机游戏客户端开发引擎调研:c38e925fd5983ae81899ead8c842173e&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
+
+&lt;h1 id=&#34;总览:c38e925fd5983ae81899ead8c842173e&#34;&gt;总览&lt;/h1&gt;
+
+&lt;p&gt;| 对比类目 | Cocos2d-x | unity 3d | 结论 |
+| :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- |
+| 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d |
+| 学习难度 | 对C++工程师较友好 | 完整便捷的开发套件 | unity 3d |
+| 社区支持 | 国内论坛活跃 | 需要到英文论坛交流 | &amp;ndash; |
+| 发展趋势 | 开源的2D手游开发框架 | 覆盖面广、GUI/网络需要学第三方控件 | &amp;ndash; |
+| 授权费用 | 开源MIT，免费 | 部分开源，费用低可忽略 | &amp;ndash; |
+| 开发成本 | 费前期开发成本，省后期debug和优化成本 | 省前期成本，费后期debug和优化成本 | 3D游戏研发投入是2D游戏的3~4倍 |&lt;/p&gt;
+
+&lt;p&gt;总结一下：
+1. 如果你编程基础一般，想快速做出一款游戏而不纠结于技术，选unity
+2. 开发app或者其他软件已经有一定经验，希望转到手游领域做一款商业化产品，同时个人或者团队的资金实力一般，选cocos2d
+3. 现在手机游戏市场前10位有7位都是cocos2d-x开发，开源、跨平台、MIT许可等等，当然适合2d游戏，3d游戏还是用unity；
+4. 想学习业界主流的游戏开发流程，不想局限于某个游戏平台或者2D还是3D，选unity&lt;/p&gt;
+
+&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎:c38e925fd5983ae81899ead8c842173e&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
+
+&lt;p&gt;cocos2d-x是个壮汉，但是肌肉极为不对称&lt;/p&gt;
+
+&lt;h2 id=&#34;优点:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品生态成熟，手机市场占有率大于u3d&lt;/li&gt;
+&lt;li&gt;AppStore中国畅销榜前五，都是cocos2s-x引擎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;缺点:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;所谓的跨平台仅仅是IOS/Android等移动端&lt;/li&gt;
+&lt;li&gt;所谓丰富的功能，其实大多不能用，非常多BUG&lt;/li&gt;
+&lt;li&gt;开发效率不如unity 3d&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;开发相关:c38e925fd5983ae81899ead8c842173e&#34;&gt;开发相关&lt;/h2&gt;
+
+&lt;p&gt;主流工具&lt;/p&gt;
+
+&lt;p&gt;Window平台下 C++语言用 Visual Studio ，官方有UI编辑器CocoStudio，苹果系统不太熟&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-其他独立的工具&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/p&gt;
+
+&lt;p&gt;位图字体工具Bitmap Font Tools
+BMFont (Windows)
+Fonteditor
+Glyph Designer
+Hiero
+LabelAtlasCreator&lt;/p&gt;
+
+&lt;p&gt;粒子编辑工具Particle Editing Tools
+ParticleCreator
+Particle Designer&lt;/p&gt;
+
+&lt;p&gt;物理编辑工具Physics Editing Tools
+Mekanimo
+PhysicsBench
+PhysicsEditor
+VertexHelper&lt;/p&gt;
+
+&lt;p&gt;场景编辑工具Scene Editing Tools
+CocosBuilder
+Cocoshop
+LevelHelper&lt;/p&gt;
+
+&lt;p&gt;纹理地图集工具Texture Atlas Tools
+DarkFunction Editor
+SpriteHelper
+TexturePacker
+Zwoptex&lt;/p&gt;
+
+&lt;p&gt;瓦片地图编辑工具Tilemap Editing Tools
+iTileMaps
+Tiled Map Editor&lt;/p&gt;
+
+&lt;p&gt;声音特效编辑工具Audio Effect Editing Tools
+cfxr&lt;/p&gt;
+
+&lt;p&gt;背景音乐编辑工具Background Music Editing Tools
+GarageBand (MAC 系统自带)&lt;/p&gt;
+
+&lt;p&gt;BOX2D多边形定义工具VertexHelper
+VertexHelper&lt;/p&gt;
+
+&lt;p&gt;GIF动画帧导出工具Ulead GIF Animator
+UleadGifAnimator&lt;/p&gt;
+
+&lt;p&gt;如果开发者熟悉javascript ，lua编程语言，推荐cocos2d-x editor；我在网上查资料无意间找到的，不得不承认高手在民间，我现在在使用，确实强大，可惜人气还是少了点，希望工具开发者更新更多例子和教程。下面是工具创造者写的简介，我就直接贴在下面了，尽量看原文吧，我很懒，不想一张一张贴图片，麻烦。&lt;/p&gt;
+
+&lt;p&gt;原文csdn地址：&lt;a href=&#34;http://blog.csdn.net/touchsnow/article/details/18446119&#34;&gt;cocos2d-x editor&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;分解-unity-3d:c38e925fd5983ae81899ead8c842173e&#34;&gt;分解：unity 3d&lt;/h1&gt;
+
+&lt;h2 id=&#34;优点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;真正实现跨平台，PC端的Mac/Windows/Linux，移动端的IOS/IPad/Android&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;性能:c38e925fd5983ae81899ead8c842173e&#34;&gt;性能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2D游戏，Unity同屏400个单位没问题&lt;/li&gt;
+&lt;li&gt;参考神仙道同屏object数量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;代表作品分析:c38e925fd5983ae81899ead8c842173e&#34;&gt;代表作品分析&lt;/h1&gt;
+
+&lt;h2 id=&#34;炉石传说-unity-3d:c38e925fd5983ae81899ead8c842173e&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用Unity3D开发2d化游戏已成趋势&lt;/li&gt;
+&lt;li&gt;炉石传说真正实现跨平台，Mac/Windows/IOS/IPad/Android&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>mapplestory&#39;s Tech Collection</title>
+      <link>http://cio.anasit.com/game/dev/mapplestory/</link>
+      <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/game/dev/mapplestory/</guid>
+      <description>
+
+&lt;h1 id=&#34;冒险岛模拟器技术调研及收藏:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;冒险岛模拟器技术调研及收藏&lt;/h1&gt;
+
+&lt;h1 id=&#34;0-resource-list:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;0.resource list&lt;/h1&gt;
+
+&lt;p&gt;All Release Messages:
+&lt;a href=&#34;https://forum.ragezone.com/f690/&#34;&gt;https://forum.ragezone.com/f690/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All PS Wiki:
+&lt;a href=&#34;http://privateserver.wikia.com/&#34;&gt;http://privateserver.wikia.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Server Tech Froum:
+&lt;a href=&#34;http://dev.chiasoft.net/&#34;&gt;http://dev.chiasoft.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;1-server:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.Server&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-0-odinms:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.0 OdinMS&lt;/h2&gt;
+
+&lt;p&gt;Dev by Java for v0.55
+- more stable&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sourceforge.net/projects/odinms/&#34;&gt;http://sourceforge.net/projects/odinms/&lt;/a&gt;
+&lt;a href=&#34;https://code.google.com/p/odindoclet/&#34;&gt;https://code.google.com/p/odindoclet/&lt;/a&gt;
+&lt;a href=&#34;https://code.google.com/p/dev-odinms/&#34;&gt;https://code.google.com/p/dev-odinms/&lt;/a&gt;
+&lt;a href=&#34;https://code.google.com/p/projectodin/&#34;&gt;https://code.google.com/p/projectodin/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-1-titanms:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.1 TitanMS&lt;/h2&gt;
+
+&lt;h2 id=&#34;1-2-vana-a-titanms-fork:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.2 Vana (A TitanMS Fork)&lt;/h2&gt;
+
+&lt;p&gt;dev by c++&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://privateserver.wikia.com/wiki/Vana&#34;&gt;http://privateserver.wikia.com/wiki/Vana&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/VanaDev/Vana&#34;&gt;https://github.com/VanaDev/Vana&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/retep998/Vana&#34;&gt;https://github.com/retep998/Vana&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/VanaDev/Vana/wiki&#34;&gt;https://github.com/VanaDev/Vana/wiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-3-tinymapleserver:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.3 TinyMapleServer&lt;/h2&gt;
+
+&lt;p&gt;Dev by golang&lt;/p&gt;
+
+&lt;p&gt;适用于不启动服务端，做快捷的客户端开发测试&lt;/p&gt;
+
+&lt;p&gt;a tiny maple server so you don&amp;rsquo;t need to boot up a sluggish server to test a maple client.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mediafire.com/download/6hsxxssbwqxp674/TinyMapleServer+2.zip&#34;&gt;http://www.mediafire.com/download/6hsxxssbwqxp674/TinyMapleServer+2.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-4-maplescala:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.4 MapleScala&lt;/h2&gt;
+
+&lt;p&gt;Dev by Scala&lt;/p&gt;
+
+&lt;p&gt;MapleScala is a MapleStory emulator written in Scala langauge.
+Packages in use&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Scalikejdbc&lt;/li&gt;
+&lt;li&gt;Akka IO&lt;/li&gt;
+&lt;li&gt;pbkdf2-scala&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Developers&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Yaminike&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;1-5-kagami:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.5 kagami&lt;/h2&gt;
+
+&lt;p&gt;Dev by Golang&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Francesco149/kagami&#34;&gt;https://github.com/Francesco149/kagami&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;2-client:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;2.Client&lt;/h1&gt;
+
+&lt;h2 id=&#34;imapple:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;iMapple&lt;/h2&gt;
+
+&lt;p&gt;The 3rd Maplestory Custom Client EVER MADE. Made by David and Seth ;)
+&lt;a href=&#34;https://code.google.com/p/imaple&#34;&gt;https://code.google.com/p/imaple&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;nolifestory:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;NoLifeStory&lt;/h2&gt;
+
+&lt;p&gt;dev by c++&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forum.ragezone.com/f690/nolifestory-935511/&#34;&gt;https://forum.ragezone.com/f690/nolifestory-935511/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;source: &lt;a href=&#34;https://github.com/NoLifeDev/NoLifeStory&#34;&gt;https://github.com/NoLifeDev/NoLifeStory&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;binary: &lt;a href=&#34;https://dl.dropboxusercontent.com/NoLifeStory.7z&#34;&gt;https://dl.dropboxusercontent.com/NoLifeStory.7z&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Leak:
+- not support 64bit only for x86
+- not support big file&lt;/p&gt;
+
+&lt;h1 id=&#34;3-etc:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.Etc.&lt;/h1&gt;
+
+&lt;h2 id=&#34;3-0-nxformat:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.0 NxFormat&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nxformat.github.io/&#34;&gt;http://nxformat.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;客户端资源包及相关工具&lt;/p&gt;
+
+&lt;h2 id=&#34;3-1-mapleshark-2-0-2-5:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.1 MapleShark 2.0.2.5&lt;/h2&gt;
+
+&lt;p&gt;MS客户端封包截取分析器&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/diamondo25/MapleShark&#34;&gt;https://github.com/diamondo25/MapleShark&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-2-cms-integrated:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.2 CMS integrated&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.google.com/p/leaf-cms/&#34;&gt;https://code.google.com/p/leaf-cms/&lt;/a&gt;
+Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going to have integrated support for TitanMS, OdinMS and Vana but currently it is going to be developed to be tested with OdinMS.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

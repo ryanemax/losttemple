@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+
+<main role="main" class="article">
+  {{ partial "article.html" . }}
+	{{ with .Site.DisqusShortname }}
+	{{ partial "disqus.html" . }}
+	{{ end }}
+</main>
+
+{{ partial "footer.html" . }}

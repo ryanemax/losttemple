@@ -1,0 +1,14 @@
+.*
+anasinc
+inbox
+secret
+project
+CHANGELOG.md
+rsync.sh
+update.sh
+update.ps1
+genpdf.sh
+genppt.sh
+build
+build/*
+

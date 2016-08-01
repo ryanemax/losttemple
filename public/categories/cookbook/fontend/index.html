@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Cookbook/Fontend - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
+<script src="http://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="http://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="http://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="http://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="http://cio.anasit.com//index.xml"><img src="http://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="http://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+<main role="main" class="article-list">
+  <h1 class="list-title">Cookbook/Fontend</h1>
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-vim/">用于angular2项目开发的vim环境配置及插件</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-06-07">June 07, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    可用于ng2开发的IDE评比 intellij idea ce 2016.1.1 语法编辑 差 html/css emmet支持，默认补全&amp;lt;&amp;gt; es6 完全不支持ES6，安装es6插件无效 ng2 完全不支持angular2 项目特性 差 Rafactor 无法识别任何关联文件、命名、变量 辅助工具 差 WebStorm 2016.2.1 语法编辑 较好 html/css emmet支持，默认补全&amp;lt;&amp;gt; 项目 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-restful/">ionic2与ng2基于RESTful的HTTP数据处理技术选型</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带，处理原始HTTP请求 - $resource 框架自带，对$http进行初步封装 - $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。 调研AngularJS 2 结论：ng2目前处于RC阶段，相关库不成熟，选择最 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-es6-learn/">ng2与es6初学者到底从哪里开始学起</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：https://developer.mozilla.org/en-US/docs/Web/JavaScript Angular2 入门学习教程：http://www.hubwiz.com/course/567a414e660c92d638a68bf3/ 英文入门教程：http://learn 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-cms/">ng2基于SEO优化的CMS内容管理系统（草稿）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    ng2-SEO优化简介 ng2应用实现seo优化的方式有多种 - universial 后端渲染 - php 后端模拟渲染 Blackstar CMS - ng2 技术选型 - angular2-seed - typescript - HTML via HTTP - HTML via the Blackstar CMS JavaScript Client - .NET (ASP.NET MVC) 特色功能 - 基本没有 http:  <a href="/cookbook/frontend/ng2-cms/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-firebase/">ng2基于firebase的第三方库对接详解（草稿）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/ 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/awesome-ionic2/">来领略惊艳的ionic2安纳斯整理版awesome-ionic2</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    为什么要Ionic2，一个PPT告诉你 Building apps with Ionic 2 awesome-ionic2-anasit 截取时间：2016-05-17 来领略惊艳的ionic2安纳斯整理版awesome-ionic2 学习整理 ng2与es6初学者到底从哪里开始学起 ionic2控件及APIs归类整理及简要介绍v0.8 ionic2原生native控件归类整理及简要介绍（进行中） 开发实战 In Action A  <a href="/cookbook/frontend/awesome-ionic2/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-native/">ionic2原生native控件归类整理及简要介绍（进行中）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-14">May 14, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    截至2016-05-13看到了Action Sheet 组件 总览 NATIVE（原生组件）：官方文档，调用原生功能时候参考 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-spec/">ANASIT-ionic2开发规范汇总（进行中）</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-13">May 13, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    命名规范 页面（Page） 参考：ionic命令行Generate体验总结 开发规范 通过命令行创建初始化页面 ## 通常使用命令创建新的页面初始文件（Page） ionic g page &amp;lt;PageName&amp;gt; 页面只写布局与用户操作，所有数据相关的通知Toast、数据处理相关的Modal，都统一在Provider中实现 命名规范 根据ionic generte命令，页面的命名方式为： 目录名称 /app/pages/  <a href="/cookbook/frontend/ionic2-spec/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-componentAPIs/">ionic2控件及APIs归类整理及简要介绍v0.8</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-12">May 12, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    截至2016-05-13已经阅读完，完成0.8.0整理 总览 COMPONENTS（样式组件）：官方文档，构建及设计原型时候参考 API（功能接口）：官方文档，实现数据处理/业务逻辑时参考 继承了angularjs2最吸引人的组件式开发规范的优势，ionic2框架为我们预置了非常多的实用的组件。官方将Components与API分成两部分介绍，其实它们是同一个组件的不同方面（样式、功能接口），所以，本文档根据组件的不同用途，分为一  <a href="/cookbook/frontend/ionic2-componentAPIs/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-admin/">Angular2后台管理前端框架选型(草稿)</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-11">May 11, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    Angular2后台管理前端框架选型 截至目前：2016-05-11，ng2发布了继Beta之后的RC候选版本，已经趋于成熟。公司决定配合ionic2，选择一套同样使用ng2构建的PC后台管理的前端模板。主要用于： WEB管理后台建设； PC桌面应用构建。 可选后台前端框架搜集 ionic2（选用） 针对移动端，需要自主开发PC版组件或定制CSS主题 当前最为完善 angular/material2（官方） https://mat  <a href="/cookbook/frontend/ng2-admin/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic2-generate/">ionic命令行Generate体验总结</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-07">May 07, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    ionic命令行Generate体验总结 工具简述 Description Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier. To create   <a href="/cookbook/frontend/ionic2-generate/">Read More...</a>
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ionic-creator/">ionicCreator实际体验与评测</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-03">May 03, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    ionicCreator实际体验与评测 免费版 目前只支持ionic 1.0 页面修改Routing URL，导出项目templates中page名未变化，依然是page1-n components 组件少，且不可定制 全程需要翻墙 不实用，不如参考css文档，直接使用html写所需的页面 使用creator构建的一个测试项目： https://creator.ionic.io/share/a5d70d07f53f ## 代理从c 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/game/dev/h5game/">HTML5游戏客户端开发引擎</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-01">May 01, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    HTML5游戏客户端开发引擎调研 Phaser.js http://www.phaser.io Egret（HTML5&#43;ES6最佳选择） http://www.egret.com Egret现在是小孩，眉目清秀 代表游戏 神经猫 优点 生态链比较完善 ES6/TypeScript/JavaScript GUI界面编辑器，Egret Wing 跨平台，AIR 跨平台安装包打包工具 Egret Android Support Egre 
+  </section>
+</article>
+
+  
+    
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/game/dev/mobilegame/">HTML5游戏客户端开发引擎</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-01">May 01, 2016</time></span>
+
+  </div>
+  <section class="summary">
+    HTML5游戏客户端开发引擎调研 cocos2d-js（与cocos-2dx差距太大了，不建议使用） 优点 Babel ES6 native improvement 开发环境 Windows Mac 缺点 团队内部问题，内部不和谐，产品规划方向差 跨平台问题 HTML5/JSB表现不一致，只能放弃HTML5,专注JSB 性能问题，性能远低于Egret 大型游戏，强烈不建议Cocos2d-js IDE有BUG，断点崩溃，代码提示差， 
+  </section>
+</article>
+
+  
+</main>
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+
