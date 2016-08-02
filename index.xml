@@ -7,8 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 21 Jul 2016 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ng2开发手机Wap及微信应用可行性分析</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ionic2框架:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;ionic2框架&lt;/h1&gt;
+
+&lt;h2 id=&#34;测试规范参考:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试规范参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
+&lt;li&gt;浏览器环境
+
+&lt;ul&gt;
+&lt;li&gt;iOS&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;li&gt;Android&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;最新版本测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;最新版本测试&lt;/h2&gt;
+
+&lt;h3 id=&#34;测试-ionic-beta35:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;测试-angular2-beta14:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+
+&lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
+但是当使用http调用ajax请求时,会报一个找不到open方法的错。
+可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
+
+&lt;h3 id=&#34;旧版测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;旧版测试&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;异常 微信浏览器&lt;/li&gt;
+&lt;li&gt;原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
@@ -34,9 +117,47 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;主题一:a66db78a91811a58a07edc55949cf900&#34;&gt;主题一&lt;/h1&gt;
+&lt;h1 id=&#34;bluemix中国研究院demo演示:a66db78a91811a58a07edc55949cf900&#34;&gt;Bluemix中国研究院Demo演示&lt;/h1&gt;
 
-&lt;h1 id=&#34;主题二:a66db78a91811a58a07edc55949cf900&#34;&gt;主题二&lt;/h1&gt;
+&lt;h2 id=&#34;定制化图片分类器服务:a66db78a91811a58a07edc55949cf900&#34;&gt;定制化图片分类器服务&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我的任务
+
+&lt;ul&gt;
+&lt;li&gt;新建任务-选择数据集-准确优先/精度优先&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;我的数据集
+
+&lt;ul&gt;
+&lt;li&gt;从示例数据集拷贝，用于尝试训练&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;我的训练模型&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;我的API&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;训练定制图片识别服务&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CloudFoundry新建一个Demo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;调用对应API构建应用&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;移动消息连接服务-快速连接微信与应用:a66db78a91811a58a07edc55949cf900&#34;&gt;移动消息连接服务：快速连接微信与应用&lt;/h2&gt;
+
+&lt;p&gt;连接Bluemix应用于微信&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;随着移动即时消息通讯工具普及，企业越来越重视利用其服务号建立交互式消息应用实现与客户的交互，提供客户服务，甚至完成销售过程。&lt;/li&gt;
+&lt;li&gt;Bluemix China上的移动消息连接服务提供了一种连接微信的能力&lt;/li&gt;
+&lt;li&gt;打开移动消息应用的认知能力大门，连接Bluemix图片识别，中文问答，中文语音识别、中文舆情分析等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;中网微信购票服务:a66db78a91811a58a07edc55949cf900&#34;&gt;中网微信购票服务&lt;/h3&gt;
+
+&lt;p&gt;5天，服务4800人购票，观众线上购票线下取票&lt;/p&gt;
+
+&lt;p&gt;中网微信公众订阅号=&amp;gt;移动消息连接服务=&amp;gt;客户服务助手=&amp;gt;CloudFoundry&lt;/p&gt;
 </description>
     </item>
     
@@ -336,6 +457,138 @@
 &lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
 
 &lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
+      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
+      <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
+      <description>
+
+&lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
+
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OpenStack
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://getcloudify.org/2015/12/26/openstack-docker-kubernetes-hybrid-cloud-nfv-orchestration-mano-etsi-cloudify.html&#34;&gt;6 OpenStack &amp;amp; Docker Predictions for 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2016-01/126953.htm&#34;&gt;2016年六大OpenStack &amp;amp; Docker发展趋势预测&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2013-08/88186.htm&#34;&gt;OpenStack云计算快速入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5596&#34;&gt;Pt. 3 – OpenStack与大厂硬件及新兴开源技术的结合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5600&#34;&gt;OpenStack+NFV 推动电信行业技术变革&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Mesos&lt;/li&gt;
+&lt;li&gt;Docker
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lupaworld.com/article-241959-1.html&#34;&gt;Docker已扎根新一代PaaS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloud.51cto.com/art/201411/458342.htm&#34;&gt;如果决定使用Docker，是否有必要同时使用OpenStack？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/533.html&#34;&gt;深入浅出Docker（一）：Docker核心技术预览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/534.html&#34;&gt;深入浅出Docker（二）：Docker命令行探秘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/535.html&#34;&gt;深入浅出Docker（三）：Docker开源之路&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/536.html&#34;&gt;深入浅出Docker（四）：Docker的集成测试部署之道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1026/1532.html&#34;&gt;深入浅出Docker（五）：基于Fig搭建开发环境&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0926/552.html&#34;&gt;Docker源码分析（一）：Docker架构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1011/619.html&#34;&gt;Docker源码分析(二)：Docker Client创建与命令执行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1108/2365.html&#34;&gt;Docker源码分析(三)：Docker Daemon启动&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1126/3406.html&#34;&gt;Docker源码分析(四)：Docker Daemon之NewDaemon实现&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1211/3623.html&#34;&gt;Docker源码分析（五）：Docker Server的创建&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/docker-source-code-analysis-part6&#34;&gt;Docker源码分析（六）：Docker Daemon网络&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;开源的私有云方案，OpenStack独大，与之竞争的产品不多。&lt;/p&gt;
+
+&lt;p&gt;Mesos可以在操作系统层面与OpenStack相互结合&lt;/p&gt;
+
+&lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
+
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;多租户和租户隔离 （multi-tenancy and tenancy isolation）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5290855.html&#34;&gt;混合云（Hybrid cloud）支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主流硬件支持、云快速交付 和 SLA 保证&lt;/li&gt;
+&lt;li&gt;大规模扩展性支持&lt;/li&gt;
+&lt;li&gt;私有云外围环境支持（包括支持CDN 、商业SDN控制器、防火墙和VPN/专线等）&lt;/li&gt;
+&lt;li&gt;良好的可使用性（用户和运维 Dashboard 等）&lt;/li&gt;
+&lt;li&gt;向上扩展性（PaaS 和 SaaS 等支撑）&lt;/li&gt;
+&lt;li&gt;企业数据中心IT环境支持（包括裸金属/Bare metal、F5 、GPU、跨云网络连通、租户计费、备份等支持）&lt;/li&gt;
+&lt;li&gt;行业解决方案&lt;/li&gt;
+&lt;li&gt;独立的服务，包括培训、运维等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;paas现状:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS现状&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CloudFoundry
+
+&lt;ul&gt;
+&lt;li&gt;Bluemix采用&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-09-28/2825811&#34;&gt;OpenShift负责人谈PaaS、Docker、Kubernetes及与CloudFoundry的竞争&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/yudar/p/4391535.html&#34;&gt;OpenStack与CloudFoundry简介&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oschina.net/translate/openstack-and-cloud-foundry&#34;&gt;OpenStack 和 Cloud Foundry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes（Google开源的Docker容器集群管理系统）
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dockone.io/article/639&#34;&gt;OpenStack, Kubernetes, Mesos 谁主沉浮？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/1970-01-01/2825241&#34;&gt;Google Kubernetes牵手OpenStack 混合云与容器化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Flynn（基于Docker的PaaS平台）
+
+&lt;ul&gt;
+&lt;li&gt;参考文章：&lt;a href=&#34;http://blog.csdn.net/zhangjun2915/article/details/41266133&#34;&gt;Flynn初探：基于Docker的PaaS平台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对比Kubernetes&lt;/li&gt;
+&lt;li&gt;在应用的抽象上，Flynn与Kubernetes有本质的区别：Flynn的应用管 理单元是App，只对应一个Docker镜像，但可以由这个镜像来启动多个进程，并且每个进程可以单独扩缩容；而Kubernetes的应用管理单元是 Pod，可对应多个不同的Docker镜像，并且Pod内的各个容器保证会运行在相同的机器上，整个Pod作为扩缩容的基本单位。&lt;/li&gt;
+&lt;li&gt;另外一个根本的区别是Kubernetes不提供镜像构建与版本管理的功能。因此，Kubernetes只能看成是面向容器而不是面向应用的系统。当然，我们可以在Kubernetes之上扩充这些功能。&lt;/li&gt;
+&lt;li&gt;对比Deis&lt;/li&gt;
+&lt;li&gt;第一，Deis、Flynn是都是采用Go语言开发；&lt;/li&gt;
+&lt;li&gt;第二，Deis完全依赖于CoreOS，而Flynn因为所有组件都可运行在容器里，没有OS的依赖；&lt;/li&gt;
+&lt;li&gt;第三，Deis在构建阶段，除了buildpack方式构建外，还支持Dockerfile与镜像直接上传两种方式，相对Flynn更为灵活。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;paas选型及适用范围:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;轻量级：Flynn、Deis二选一
+
+&lt;ul&gt;
+&lt;li&gt;团队熟悉GO则Flynn、熟悉Python则Deis&lt;/li&gt;
+&lt;li&gt;都属于轻量级Docker方案，适合服务器较少的情景&lt;/li&gt;
+&lt;li&gt;更加适合灵活的定制，同时也意味着生产环境需要考虑运维成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;重量级：CloudFoundry
+
+&lt;ul&gt;
+&lt;li&gt;配置较为复杂，初期学习成本相对高&lt;/li&gt;
+&lt;li&gt;较为成熟的重量级PaaS方案，生产环境运维成本低&lt;/li&gt;
+&lt;li&gt;适合服务器集群或更多服务器中使用&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;docker部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Docker部署&lt;/h1&gt;
+
+&lt;h1 id=&#34;openstack部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;OpenStack部署&lt;/h1&gt;
+
+&lt;h2 id=&#34;公司环境参数:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;公司环境参数&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
+&lt;li&gt;网络接入 电信百兆独享&lt;/li&gt;
+&lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
 </description>
     </item>
     
@@ -2178,113 +2431,6 @@ composer install
 - Mobile and desktop
 - Organize source into easy-to-read collections
 - Share to Twitter, Pinterest and Facebook&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
-      <description>
-
-&lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
-
-&lt;h2 id=&#34;回顾angularjs-1:460bce4062430561faf966c08e14ab2b&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
-
-&lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
-
-&lt;p&gt;Angularjs 1 中可选的数据处理方法有以下三种：
-- $http 框架自带，处理原始HTTP请求
-- $resource 框架自带，对$http进行初步封装
-- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
-
-&lt;h2 id=&#34;调研angularjs-2:460bce4062430561faf966c08e14ab2b&#34;&gt;调研AngularJS 2&lt;/h2&gt;
-
-&lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;angular2/http&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用参考：&lt;a href=&#34;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&#34;&gt;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  import {Http} from &#39;angular2/http&#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;marmelab/restful.js 第三方组件，纯ES6&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 535 on &lt;a href=&#34;https://github.com/marmelab/restful.js&#34;&gt;https://github.com/marmelab/restful.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于ES6开发，Think Restangular without Angular.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # 方式一：npm安装
-  npm install restful.js
-  # 方式二：webpack安装
-  import restful from &#39;restful.js&#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Paldom/angular2-rest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 94 on &lt;a href=&#34;https://github.com/Paldom/angular2-rest&#34;&gt;https://github.com/Paldom/angular2-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;darekf77/ng2-rest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;angular2-http开发详解:460bce4062430561faf966c08e14ab2b&#34;&gt;angular2/http开发详解&lt;/h1&gt;
-
-&lt;h2 id=&#34;参考教程:460bce4062430561faf966c08e14ab2b&#34;&gt;参考教程&lt;/h2&gt;
-
-&lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;官方手册:460bce4062430561faf966c08e14ab2b&#34;&gt;官方手册&lt;/h2&gt;
-
-&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;使用体验:460bce4062430561faf966c08e14ab2b&#34;&gt;使用体验&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
-&lt;li&gt;（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件&lt;/li&gt;
-&lt;li&gt;（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;那么以上三种情景，第三种情景使用频率较高：由于后端&lt;strong&gt;不是规范的REST&lt;/strong&gt;，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。&lt;/p&gt;
-
-&lt;p&gt;因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
-      <description>
-
-&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
-
-&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
-详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
-
-&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
-英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
-详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
 </description>
     </item>
     
