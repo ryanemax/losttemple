@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="ionic2,ng2,wechat|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
 <meta name="generator" content="Hugo 0.16-DEV" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://cio.anasit.com/css/style.css" type="text/css">
 <link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Code+Pro:400,700" type="text/css">
 <link rel="alternate" href="http://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
-<title>因专属更自如——IBM Bluemix 云端体验之旅会议记录 - 刘雨飏@ANAS联盟</title>
+<title>ng2开发手机Wap及微信应用可行性分析 - 刘雨飏@ANAS联盟</title>
 
 <link rel="stylesheet" href="http://cio.anasit.com//css/code/monokai.css">
 <script src="http://cio.anasit.com//js/highlight.pack.js"></script>
@@ -85,13 +85,13 @@ window.onload=function(){
   <div class="meta">
 
     <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-07-21">July 21, 2016</time></span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-07-30">July 30, 2016</time></span>
 
 
     <span class="key">in</span>
     <span class="val">
 
-        <a href="http://cio.anasit.com/categories/meeting">meeting</a>
+        <a href="http://cio.anasit.com/categories/cookbook/fontend">cookbook/fontend</a>
 
     </span>
 
@@ -100,74 +100,87 @@ window.onload=function(){
     <span class="key">tags:</span>
     <span class="val">
 
-        <a href="http://cio.anasit.com/tags/ibm">IBM</a>
-
-        <a href="http://cio.anasit.com/tags/bluemix">bluemix</a>
+        <a href="http://cio.anasit.com/tags/ionic2">ionic2</a>
 
     </span>
 
   </div>
-  <h1 class="headline" itemprop="headline">因专属更自如——IBM Bluemix 云端体验之旅会议记录</h1>
+  <h1 class="headline" itemprop="headline">ng2开发手机Wap及微信应用可行性分析</h1>
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="会议简介:a66db78a91811a58a07edc55949cf900">会议简介</h1>
+<h1 id="参考文章:d11cbbce68d7e3b7fa05a1636e9daff0">参考文章</h1>
 
 <ul>
-<li>会议主题
+<li><a href="https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321">Ionic2-app can’t run in wechat’s browser of android</a></li>
+<li><a href="https://www.zhihu.com/question/41020291">angular2应用在安卓版微信内无法正常运行?</a></li>
+</ul>
+
+<h1 id="ionic2框架:d11cbbce68d7e3b7fa05a1636e9daff0">ionic2框架</h1>
+
+<h2 id="测试规范参考:d11cbbce68d7e3b7fa05a1636e9daff0">测试规范参考</h2>
 
 <ul>
-<li>因专属更自如——IBM Bluemix 云端体验之旅</li>
-<li>IBM Bluemix Dedicated</li>
-</ul></li>
-<li>主办单位
+<li>示例程序：ionic-conference-app【待替换】</li>
+<li>浏览器环境
 
 <ul>
-<li>世纪互联集团有限公司</li>
+<li>iOS</li>
+<li>正常 默认浏览器</li>
+<li>正常 微信浏览器</li>
+<li>正常 QQ浏览器</li>
+<li>【待测】火狐</li>
+<li>【待测】谷歌</li>
+<li>Android</li>
+<li>正常 默认浏览器</li>
+<li>正常 微信浏览器</li>
+<li>正常 QQ浏览器</li>
+<li>【待测】火狐</li>
+<li>【待测】谷歌</li>
 </ul></li>
 </ul>
 
-<h1 id="bluemix中国研究院demo演示:a66db78a91811a58a07edc55949cf900">Bluemix中国研究院Demo演示</h1>
+<h2 id="最新版本测试:d11cbbce68d7e3b7fa05a1636e9daff0">最新版本测试</h2>
 
-<h2 id="定制化图片分类器服务:a66db78a91811a58a07edc55949cf900">定制化图片分类器服务</h2>
-
-<ul>
-<li>我的任务
+<h3 id="测试-ionic-beta35:d11cbbce68d7e3b7fa05a1636e9daff0">测试 ionic@beta35</h3>
 
 <ul>
-<li>新建任务-选择数据集-准确优先/精度优先</li>
+<li>iOS
+
+<ul>
+<li>正常 默认浏览器</li>
+<li>正常 微信浏览器</li>
+<li>正常 QQ浏览器</li>
+<li>【待测】火狐</li>
+<li>【待测】谷歌</li>
 </ul></li>
-<li>我的数据集
+<li>Android
 
 <ul>
-<li>从示例数据集拷贝，用于尝试训练</li>
+<li>正常 默认浏览器</li>
+<li>正常 微信浏览器</li>
+<li>正常 QQ浏览器</li>
+<li>【待测】火狐</li>
+<li>【待测】谷歌</li>
 </ul></li>
-<li>我的训练模型</li>
-
-<li><p>我的API</p></li>
-
-<li><p>训练定制图片识别服务</p></li>
-
-<li><p>CloudFoundry新建一个Demo</p></li>
-
-<li><p>调用对应API构建应用</p></li>
 </ul>
 
-<h2 id="移动消息连接服务-快速连接微信与应用:a66db78a91811a58a07edc55949cf900">移动消息连接服务：快速连接微信与应用</h2>
+<h3 id="测试-angular2-beta14:d11cbbce68d7e3b7fa05a1636e9daff0">测试 angular2@beta14</h3>
 
-<p>连接Bluemix应用于微信</p>
+<p>最新webpack-quick-starter,angular2版本beta14可以在微信打开。
+但是当使用http调用ajax请求时,会报一个找不到open方法的错。
+可以使用QQ浏览器上的微信调试插件看到报错日志</p>
+
+<h3 id="旧版测试:d11cbbce68d7e3b7fa05a1636e9daff0">旧版测试</h3>
 
 <ul>
-<li>随着移动即时消息通讯工具普及，企业越来越重视利用其服务号建立交互式消息应用实现与客户的交互，提供客户服务，甚至完成销售过程。</li>
-<li>Bluemix China上的移动消息连接服务提供了一种连接微信的能力</li>
-<li>打开移动消息应用的认知能力大门，连接Bluemix图片识别，中文问答，中文语音识别、中文舆情分析等</li>
+<li>Android
+
+<ul>
+<li>异常 微信浏览器</li>
+<li>原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill</li>
+</ul></li>
 </ul>
-
-<h3 id="中网微信购票服务:a66db78a91811a58a07edc55949cf900">中网微信购票服务</h3>
-
-<p>5天，服务4800人购票，观众线上购票线下取票</p>
-
-<p>中网微信公众订阅号=&gt;移动消息连接服务=&gt;客户服务助手=&gt;CloudFoundry</p>
 
   </section>
 </article>

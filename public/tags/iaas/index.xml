@@ -7,62 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 02 Jul 2016 12:00:30 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="http://cio.anasit.com/tags/iaas/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
-      <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
-      
-      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
-      <description>
-
-&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;可通过域名转发过滤&lt;/li&gt;
-&lt;li&gt;可代理服务类型不限&lt;/li&gt;
-&lt;li&gt;针对HTTP、HTTPS等特定服务提供更强支持&lt;/li&gt;
-&lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
-
-&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成本高
-
-&lt;ul&gt;
-&lt;li&gt;网卡成本&lt;/li&gt;
-&lt;li&gt;组网维护成本&lt;/li&gt;
-&lt;li&gt;固定IP成本&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成本低&lt;/li&gt;
-&lt;li&gt;配置较为繁琐&lt;/li&gt;
-&lt;li&gt;端口数有限&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成本低&lt;/li&gt;
-&lt;li&gt;配置便捷&lt;/li&gt;
-&lt;li&gt;安全性较低&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
       <link>http://cio.anasit.com/cookbook/backend/paas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
       <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
       <description>
@@ -188,6 +139,55 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
+      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <description>
+
+&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可通过域名转发过滤&lt;/li&gt;
+&lt;li&gt;可代理服务类型不限&lt;/li&gt;
+&lt;li&gt;针对HTTP、HTTPS等特定服务提供更强支持&lt;/li&gt;
+&lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+
+&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本高
+
+&lt;ul&gt;
+&lt;li&gt;网卡成本&lt;/li&gt;
+&lt;li&gt;组网维护成本&lt;/li&gt;
+&lt;li&gt;固定IP成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置较为繁琐&lt;/li&gt;
+&lt;li&gt;端口数有限&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成本低&lt;/li&gt;
+&lt;li&gt;配置便捷&lt;/li&gt;
+&lt;li&gt;安全性较低&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

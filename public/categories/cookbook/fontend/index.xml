@@ -7,8 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Tue, 07 Jun 2016 18:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://cio.anasit.com/categories/cookbook/fontend/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ng2开发手机Wap及微信应用可行性分析</title>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ionic2框架:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;ionic2框架&lt;/h1&gt;
+
+&lt;h2 id=&#34;测试规范参考:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试规范参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
+&lt;li&gt;浏览器环境
+
+&lt;ul&gt;
+&lt;li&gt;iOS&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;li&gt;Android&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;最新版本测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;最新版本测试&lt;/h2&gt;
+
+&lt;h3 id=&#34;测试-ionic-beta35:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;测试-angular2-beta14:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+
+&lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
+但是当使用http调用ajax请求时,会报一个找不到open方法的错。
+可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
+
+&lt;h3 id=&#34;旧版测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;旧版测试&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;异常 微信浏览器&lt;/li&gt;
+&lt;li&gt;原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
