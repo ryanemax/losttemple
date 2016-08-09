@@ -250,6 +250,28 @@ ionic run
 cordova run android
 </code></pre>
 
+<h1 id="gulp3中graceful-fs版本过低:9dc9ec46a1f340094eae6e031939f5fb">gulp3中graceful-fs版本过低</h1>
+
+<h2 id="错误信息:9dc9ec46a1f340094eae6e031939f5fb">错误信息</h2>
+
+<pre><code class="language-sh">(node:2396) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+[1]    2396 bus error (core dumped)  gulp
+</code></pre>
+
+<h2 id="解决方案:9dc9ec46a1f340094eae6e031939f5fb">解决方案</h2>
+
+<p><a href="https://forum.ionicframework.com/t/error-running-ionic-serve/50706">https://forum.ionicframework.com/t/error-running-ionic-serve/50706</a></p>
+
+<p><a href="https://github.com/gulpjs/gulp/issues/1571">https://github.com/gulpjs/gulp/issues/1571</a></p>
+
+<p>I believe you need to downgrade your node version as Node SASS is not currently up-to-date with Node v6</p>
+
+<p>需要将node降级到 v5版本</p>
+
+<pre><code class="language-sh">npm install -g n
+n 5.12.0
+</code></pre>
+
   </section>
 </article>
 

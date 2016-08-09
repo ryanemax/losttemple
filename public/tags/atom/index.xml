@@ -40,7 +40,9 @@
 
 &lt;p&gt;atom-beautify&lt;/p&gt;
 
-&lt;h1 id=&#34;3-实用快捷键:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;3.实用快捷键&lt;/h1&gt;
+&lt;h1 id=&#34;markdown编辑器深度配置:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Markdown编辑器深度配置&lt;/h1&gt;
+
+&lt;h1 id=&#34;实用快捷键:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;实用快捷键&lt;/h1&gt;
 
 &lt;h1 id=&#34;snippets:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Snippets&lt;/h1&gt;
 
@@ -69,7 +71,17 @@
 
 &lt;h1 id=&#34;语言插件:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;语言插件&lt;/h1&gt;
 
-&lt;p&gt;go-plus&lt;/p&gt;
+&lt;h2 id=&#34;ng2开发环境:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;ng2开发环境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;atom-typescript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;go语言环境:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Go语言环境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;go-plus&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;go get -u github.com/nsf/gocode
 go get -u github.com/bradfitz/goimports
