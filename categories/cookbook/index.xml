@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbook on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/categories/cookbook/</link>
+    <link>https://ryanemax.github.io/categories/cookbook/</link>
     <description>Recent content in Cookbook on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 02 Jul 2016 12:00:30 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
 &lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
@@ -109,10 +109,10 @@
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <link>https://ryanemax.github.io/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/apitrends/</guid>
       <description>
 
 &lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
@@ -187,10 +187,10 @@
     
     <item>
       <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
+      <link>https://ryanemax.github.io/cookbook/pkm/card/</link>
       <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
+      <guid>https://ryanemax.github.io/cookbook/pkm/card/</guid>
       <description>
 
 &lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
@@ -253,10 +253,10 @@
     
     <item>
       <title>个人知识管理解决方案</title>
-      <link>http://cio.anasit.com/README/</link>
+      <link>https://ryanemax.github.io/README/</link>
       <pubDate>Fri, 01 Apr 2016 00:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/README/</guid>
+      <guid>https://ryanemax.github.io/README/</guid>
       <description>
 
 &lt;h1 id=&#34;个人知识管理-规划中:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;个人知识管理（规划中）&lt;/h1&gt;
@@ -448,10 +448,10 @@ git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
     
     <item>
       <title>Every one should learn how to Fuck The GFW</title>
-      <link>http://cio.anasit.com/cookbook/fuckGFW/</link>
+      <link>https://ryanemax.github.io/cookbook/fuckGFW/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/fuckGFW/</guid>
+      <guid>https://ryanemax.github.io/cookbook/fuckGFW/</guid>
       <description>
 
 &lt;h1 id=&#34;windows程序socks代理-用于游戏:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
@@ -477,10 +477,10 @@ export https_proxy=http://127.0.0.1:8118
     
     <item>
       <title>Linux最佳文件压缩方式</title>
-      <link>http://cio.anasit.com/cookbook/devops/linux-tar/</link>
+      <link>https://ryanemax.github.io/cookbook/devops/linux-tar/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/devops/linux-tar/</guid>
+      <guid>https://ryanemax.github.io/cookbook/devops/linux-tar/</guid>
       <description>
 
 &lt;h1 id=&#34;linux最佳压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
@@ -549,10 +549,10 @@ $tar -axf 1.tar.xz 1/a.bin
     
     <item>
       <title>Atom实践探索</title>
-      <link>http://cio.anasit.com/cookbook/tool/atom/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/atom/</link>
       <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/atom/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/atom/</guid>
       <description>
 
 &lt;p&gt;官方手册：&lt;a href=&#34;http://flight-manual.atom.io/&#34;&gt;http://flight-manual.atom.io/&lt;/a&gt;&lt;/p&gt;
@@ -643,10 +643,10 @@ apm install
     
     <item>
       <title>VR时代来临了，带上兵器吧</title>
-      <link>http://cio.anasit.com/cookbook/VRdev/</link>
+      <link>https://ryanemax.github.io/cookbook/VRdev/</link>
       <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/VRdev/</guid>
+      <guid>https://ryanemax.github.io/cookbook/VRdev/</guid>
       <description>
 
 &lt;h1 id=&#34;vr时代来临了-带上兵器吧:9362a39e43924dc1b98451e8b087760e&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
@@ -710,10 +710,10 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
     
     <item>
       <title>极致效率的键位变更</title>
-      <link>http://cio.anasit.com/cookbook/tool/keyboard/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/keyboard/</link>
       <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/keyboard/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/keyboard/</guid>
       <description>
 
 &lt;p&gt;极致效率的键位变更&lt;/p&gt;
@@ -807,10 +807,10 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
     
     <item>
       <title>常见开源消息系统/中间件技术评选</title>
-      <link>http://cio.anasit.com/cookbook/backend/messagesystem/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/messagesystem/</link>
       <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/messagesystem/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/messagesystem/</guid>
       <description>
 
 &lt;h1 id=&#34;常见开源消息系统-中间件技术评选:98a09982e72308c69ab2b124e86725d9&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
@@ -935,10 +935,10 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
     
     <item>
       <title>Docker入门实践</title>
-      <link>http://cio.anasit.com/cookbook/devops/dockerstart/</link>
+      <link>https://ryanemax.github.io/cookbook/devops/dockerstart/</link>
       <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/devops/dockerstart/</guid>
+      <guid>https://ryanemax.github.io/cookbook/devops/dockerstart/</guid>
       <description>
 
 &lt;h1 id=&#34;installation:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;Installation&lt;/h1&gt;
@@ -979,10 +979,10 @@ docker version
     
     <item>
       <title>萤石云开发实践</title>
-      <link>http://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
+      <link>https://ryanemax.github.io/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
+      <guid>https://ryanemax.github.io/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
       <description>
 
 &lt;h1 id=&#34;萤石云开发实践:314fd259cb5f197b4160aabedce691db&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
@@ -1007,10 +1007,10 @@ docker version
     
     <item>
       <title>Arch Linux软件选型整理</title>
-      <link>http://cio.anasit.com/cookbook/devops/archlinux/</link>
+      <link>https://ryanemax.github.io/cookbook/devops/archlinux/</link>
       <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/devops/archlinux/</guid>
+      <guid>https://ryanemax.github.io/cookbook/devops/archlinux/</guid>
       <description>
 
 &lt;p&gt;#发行版本
@@ -1243,10 +1243,10 @@ mount /dev/&amp;lt;your-NTFS-partition&amp;gt; /media/&amp;lt;folder&amp;gt;
     
     <item>
       <title>IVMS7000服务端信息搜集</title>
-      <link>http://cio.anasit.com/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
+      <link>https://ryanemax.github.io/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
+      <guid>https://ryanemax.github.io/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
       <description>
 
 &lt;h1 id=&#34;基础环境:ade500c3ce255d1acc760d103f6acf70&#34;&gt;基础环境&lt;/h1&gt;

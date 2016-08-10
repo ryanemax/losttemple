@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/java/</link>
+    <link>https://ryanemax.github.io/tags/java/</link>
     <description>Recent content in Java on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Wed, 26 Aug 2015 17:37:32 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>http://cio.anasit.com/cookbook/api/restlet-java/</link>
+      <link>https://ryanemax.github.io/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/restlet-java/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/restlet-java/</guid>
       <description>
 
 &lt;h1 id=&#34;那么java最潮流的restful-api开发框架及模式是什么:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;那么java最潮流的RESTful API开发框架及模式是什么&lt;/h1&gt;

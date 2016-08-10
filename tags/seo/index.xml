@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seo on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/seo/</link>
+    <link>https://ryanemax.github.io/tags/seo/</link>
     <description>Recent content in Seo on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-cms/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-cms/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-cms/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-cms/</guid>
       <description>
 
 &lt;h1 id=&#34;ng2-seo优化简介:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;

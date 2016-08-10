@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbook/Api on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/categories/cookbook/api/</link>
+    <link>https://ryanemax.github.io/categories/cookbook/api/</link>
     <description>Recent content in Cookbook/Api on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/categories/cookbook/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/categories/cookbook/api/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>rxjs的简要入门，以及ng2与es6中的rxjs</title>
-      <link>http://cio.anasit.com/cookbook/api/rxjs/</link>
+      <link>https://ryanemax.github.io/cookbook/api/rxjs/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/rxjs/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/rxjs/</guid>
       <description>
 
 &lt;h1 id=&#34;简介:a425801fc36a36d85b869085e7a47424&#34;&gt;简介&lt;/h1&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>RAML-Parser各大语言解析器评选</title>
-      <link>http://cio.anasit.com/cookbook/api/raml-paser/</link>
+      <link>https://ryanemax.github.io/cookbook/api/raml-paser/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/raml-paser/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/raml-paser/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-parser各大语言解析器评选:46fe589a1a79efb19a85066a4034ca76&#34;&gt;《RAML-Parser各大语言解析器评选》&lt;/h1&gt;
@@ -142,10 +142,10 @@ a years ago &lt;a href=&#34;https://github.com/go-raml/raml&#34;&gt;https://gith
     
     <item>
       <title>RESTful API规范解决方案评选</title>
-      <link>http://cio.anasit.com/cookbook/api/restapi/</link>
+      <link>https://ryanemax.github.io/cookbook/api/restapi/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/restapi/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/restapi/</guid>
       <description>
 
 &lt;h1 id=&#34;1-描述语言选择:9bf61406fbc4b03ef34364efa5c90560&#34;&gt;1.描述语言选择&lt;/h1&gt;
@@ -181,10 +181,10 @@ This package combines swagger-php and swagger-ui into one Laravel-friendly packa
     
     <item>
       <title>raml 1.0 与 raml 0.8区别之处</title>
-      <link>http://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</link>
+      <link>https://ryanemax.github.io/cookbook/api/ramldiff0.8-1.0/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/ramldiff0.8-1.0/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-1-0-与-raml-0-8区别之处:5fb4768fc58e3d243ab0aa63a4fdb4c7&#34;&gt;《raml 1.0 与 raml 0.8区别之处》&lt;/h1&gt;
@@ -218,10 +218,10 @@ properties:
     
     <item>
       <title>跨域跨域跨域golang与angularjs的默契</title>
-      <link>http://cio.anasit.com/cookbook/api/goangularfaq/</link>
+      <link>https://ryanemax.github.io/cookbook/api/goangularfaq/</link>
       <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/goangularfaq/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/goangularfaq/</guid>
       <description>
 
 &lt;h1 id=&#34;go-json-rest-golang:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;go-json-rest (golang)&lt;/h1&gt;
@@ -280,10 +280,10 @@ properties:
     
     <item>
       <title>golang的restful框架选择</title>
-      <link>http://cio.anasit.com/cookbook/api/golangforrest/</link>
+      <link>https://ryanemax.github.io/cookbook/api/golangforrest/</link>
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/golangforrest/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/golangforrest/</guid>
       <description>
 
 &lt;h1 id=&#34;0-必备功能:05a706aba020475f230a03d2430a9d08&#34;&gt;0.必备功能&lt;/h1&gt;
@@ -436,10 +436,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>raml相关的generator</title>
-      <link>http://cio.anasit.com/cookbook/api/raml-generator/</link>
+      <link>https://ryanemax.github.io/cookbook/api/raml-generator/</link>
       <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/raml-generator/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/raml-generator/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-client-generator:72a992777a89041a6fd793d04540151e&#34;&gt;raml-client-generator&lt;/h1&gt;
@@ -492,10 +492,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>http://cio.anasit.com/cookbook/api/restlet-java/</link>
+      <link>https://ryanemax.github.io/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/restlet-java/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/restlet-java/</guid>
       <description>
 
 &lt;h1 id=&#34;那么java最潮流的restful-api开发框架及模式是什么:1968ef8fd1a1db8c3e3ad9ecb0c32f8d&#34;&gt;那么java最潮流的RESTful API开发框架及模式是什么&lt;/h1&gt;
@@ -576,10 +576,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
-      <link>http://cio.anasit.com/cookbook/api/mulesoft/</link>
+      <link>https://ryanemax.github.io/cookbook/api/mulesoft/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/mulesoft/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/mulesoft/</guid>
       <description>
 
 &lt;h1 id=&#34;0-mulesoft与raml:1675a11e2e535b17dbd0b91a34e5a512&#34;&gt;0. MuleSoft与RAML&lt;/h1&gt;
@@ -640,10 +640,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
-      <link>http://cio.anasit.com/cookbook/api/newforraml/</link>
+      <link>https://ryanemax.github.io/cookbook/api/newforraml/</link>
       <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/newforraml/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/newforraml/</guid>
       <description>
 
 &lt;h1 id=&#34;0-0-前言:dc5efb86e6bfd012b21e6ebab540afc3&#34;&gt;0.0 前言&lt;/h1&gt;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/agile/</link>
+    <link>https://ryanemax.github.io/tags/agile/</link>
     <description>Recent content in Agile on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Thu, 03 Sep 2015 01:29:00 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>协同工作中的思维导图/UML选择</title>
-      <link>http://cio.anasit.com/cookbook/agile/comapping/</link>
+      <link>https://ryanemax.github.io/cookbook/agile/comapping/</link>
       <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/agile/comapping/</guid>
+      <guid>https://ryanemax.github.io/cookbook/agile/comapping/</guid>
       <description>
 
 &lt;h1 id=&#34;1-uml:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;1.UML&lt;/h1&gt;
@@ -142,10 +142,10 @@
     
     <item>
       <title>协同中的IM聊天室选择(jitsi/apperin/talkyio)</title>
-      <link>http://cio.anasit.com/cookbook/agile/imsystem/</link>
+      <link>https://ryanemax.github.io/cookbook/agile/imsystem/</link>
       <pubDate>Wed, 02 Sep 2015 17:31:17 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/agile/imsystem/</guid>
+      <guid>https://ryanemax.github.io/cookbook/agile/imsystem/</guid>
       <description>
 
 &lt;p&gt;#jitsi.org
@@ -197,10 +197,10 @@ listed on desktop and devices with newer version of Android.&lt;/p&gt;
     
     <item>
       <title>当团队线上办公需要dms文档管理系统</title>
-      <link>http://cio.anasit.com/cookbook/dms/</link>
+      <link>https://ryanemax.github.io/cookbook/dms/</link>
       <pubDate>Sun, 16 Aug 2015 07:14:29 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/dms/</guid>
+      <guid>https://ryanemax.github.io/cookbook/dms/</guid>
       <description>
 
 &lt;h1 id=&#34;0-ffice软件选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;0.ffice软件选择&lt;/h1&gt;
@@ -291,10 +291,10 @@ wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-communi
     
     <item>
       <title>敏捷团队协作taiga.io，开源实用</title>
-      <link>http://cio.anasit.com/cookbook/agile/taiga/</link>
+      <link>https://ryanemax.github.io/cookbook/agile/taiga/</link>
       <pubDate>Fri, 14 Aug 2015 10:07:26 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/agile/taiga/</guid>
+      <guid>https://ryanemax.github.io/cookbook/agile/taiga/</guid>
       <description>
 
 &lt;h1 id=&#34;taiga-io使用记录:144c1d19893c22838e9dbed07638badf&#34;&gt;TAIGA.IO使用记录&lt;/h1&gt;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Win10 on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/win10/</link>
+    <link>https://ryanemax.github.io/tags/win10/</link>
     <description>Recent content in Win10 on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Tue, 27 Oct 2015 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/win10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/win10/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Win10搭建Linux开发环境，msys2&#43;pacman大法</title>
-      <link>http://cio.anasit.com/cookbook/devops/win10-msys2/</link>
+      <link>https://ryanemax.github.io/cookbook/devops/win10-msys2/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/devops/win10-msys2/</guid>
+      <guid>https://ryanemax.github.io/cookbook/devops/win10-msys2/</guid>
       <description>
 
 &lt;h1 id=&#34;win10搭建linux开发环境-msys2-pacman大法:3588511fbfdf8bab35b708ce75dd8d08&#34;&gt;Win10搭建Linux开发环境，msys2+pacman大法&lt;/h1&gt;
@@ -97,10 +97,10 @@ ln -s workspace
     
     <item>
       <title>最佳Windows10工作环境推荐</title>
-      <link>http://cio.anasit.com/cookbook/devops/win10/</link>
+      <link>https://ryanemax.github.io/cookbook/devops/win10/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/devops/win10/</guid>
+      <guid>https://ryanemax.github.io/cookbook/devops/win10/</guid>
       <description>
 
 &lt;h1 id=&#34;最佳windows10工作环境推荐:f3729080ee422dd60bcf5e3628676b99&#34;&gt;最佳Windows10工作环境推荐&lt;/h1&gt;
@@ -173,10 +173,10 @@ cinst privoxy&lt;/p&gt;
     
     <item>
       <title>putty常用配置</title>
-      <link>http://cio.anasit.com/cookbook/tool/putty/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/putty/</link>
       <pubDate>Wed, 27 May 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/putty/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/putty/</guid>
       <description>
 
 &lt;h1 id=&#34;session设置:95c37eb99b3fd3fd3beacd1d2d0d79a9&#34;&gt;Session设置&lt;/h1&gt;

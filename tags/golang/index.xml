@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/golang/</link>
+    <link>https://ryanemax.github.io/tags/golang/</link>
     <description>Recent content in Golang on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Thu, 08 Oct 2015 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>GoLang几种读文件方式的比较</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangReadFile/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangReadFile/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangReadFile/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangReadFile/</guid>
       <description>
 
 &lt;h1 id=&#34;golang几种读文件方式的比较:be210f7bcd089da2400daa8dd95e01d1&#34;&gt;GoLang几种读文件方式的比较&lt;/h1&gt;
@@ -136,10 +136,10 @@
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangsqlorm/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</guid>
       <description>
 
 &lt;h1 id=&#34;0-models写法技巧及migration标准:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
@@ -292,10 +292,10 @@ func Locsearch(info string) {
     
     <item>
       <title>Golang代码组织最佳方案</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangincase/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangincase/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangincase/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangincase/</guid>
       <description>
 
 &lt;h1 id=&#34;golang代码组织最佳方案:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;《Golang代码组织最佳方案》&lt;/h1&gt;
@@ -431,10 +431,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>基于Git的分布式自由博客&#43;搭建</title>
-      <link>http://cio.anasit.com/cookbook/tool/blogforgit/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/blogforgit/</link>
       <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/blogforgit/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/blogforgit/</guid>
       <description>
 
 &lt;h1 id=&#34;0-准备工作:eadff3637fef2221b49957de041cf521&#34;&gt;0.准备工作&lt;/h1&gt;

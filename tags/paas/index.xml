@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paas on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/paas/</link>
+    <link>https://ryanemax.github.io/tags/paas/</link>
     <description>Recent content in Paas on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/paas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
@@ -144,10 +144,10 @@
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
@@ -192,10 +192,10 @@
     
     <item>
       <title>parse服务学习指引</title>
-      <link>http://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/parse-learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/parse-learn/</guid>
       <description>
 
 &lt;h1 id=&#34;准备环境:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;准备环境&lt;/h1&gt;

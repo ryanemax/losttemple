@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ionic2 on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/ionic2/</link>
+    <link>https://ryanemax.github.io/tags/ionic2/</link>
     <description>Recent content in Ionic2 on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/ionic2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/ionic2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
 &lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
@@ -95,10 +95,10 @@
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</guid>
       <description>
 
 &lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
@@ -179,10 +179,10 @@
     
     <item>
       <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/</guid>
       <description>
 
 &lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
@@ -202,10 +202,10 @@
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-firebase/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</guid>
       <description>
 
 &lt;h1 id=&#34;firebase:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;Firebase&lt;/h1&gt;
@@ -224,10 +224,10 @@
     
     <item>
       <title>来领略惊艳的ionic2安纳斯整理版awesome-ionic2</title>
-      <link>http://cio.anasit.com/cookbook/frontend/awesome-ionic2/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/awesome-ionic2/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/awesome-ionic2/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/awesome-ionic2/</guid>
       <description>
 
 &lt;h1 id=&#34;为什么要ionic2-一个ppt告诉你:b71d2ad6df9b5592c4212acf78211202&#34;&gt;为什么要Ionic2，一个PPT告诉你&lt;/h1&gt;
@@ -407,10 +407,10 @@
     
     <item>
       <title>ionic2原生native控件归类整理及简要介绍（进行中）</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ionic2-native/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ionic2-native/</link>
       <pubDate>Sat, 14 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ionic2-native/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-native/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;截至2016-05-13看到了&lt;a href=&#34;http://ionicframework.com/docs/v2/api/components/action-sheet/ActionSheet/&#34;&gt;Action Sheet 组件&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -423,10 +423,10 @@
     
     <item>
       <title>ANASIT-ionic2开发规范汇总（进行中）</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ionic2-spec/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ionic2-spec/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ionic2-spec/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-spec/</guid>
       <description>
 
 &lt;h1 id=&#34;命名规范:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;命名规范&lt;/h1&gt;
@@ -515,10 +515,10 @@ this.events.publish(&#39;user:notify&#39;, eventData);
     
     <item>
       <title>ionic2控件及APIs归类整理及简要介绍v0.8</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ionic2-componentAPIs/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ionic2-componentAPIs/</link>
       <pubDate>Thu, 12 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ionic2-componentAPIs/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-componentAPIs/</guid>
       <description>
 
 &lt;p&gt;截至2016-05-13已经阅读完，完成0.8.0整理&lt;/p&gt;
@@ -708,10 +708,10 @@ class MyPage {
     
     <item>
       <title>ionic2常见问题汇总之界面布局篇</title>
-      <link>http://cio.anasit.com/faq/ionic2html/</link>
+      <link>https://ryanemax.github.io/faq/ionic2html/</link>
       <pubDate>Sat, 07 May 2016 10:43:03 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/faq/ionic2html/</guid>
+      <guid>https://ryanemax.github.io/faq/ionic2html/</guid>
       <description>
 
 &lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白:7917a174f57faa21f8db3276d3367989&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
@@ -752,10 +752,10 @@ class MyPage {
     
     <item>
       <title>ionic2及ng2谷歌/高德地图控件分析实例</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ionic2-googlemap-amap/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ionic2-googlemap-amap/</link>
       <pubDate>Wed, 30 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ionic2-googlemap-amap/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-googlemap-amap/</guid>
       <description>
 
 &lt;h1 id=&#34;ionic2及ng2谷歌-高德地图控件分析实例:f65739047e30db9a825e1a5bb607abf7&#34;&gt;《ionic2及ng2谷歌/高德地图控件分析实例》&lt;/h1&gt;
@@ -973,10 +973,10 @@ onPageLoaded() {
     
     <item>
       <title>ionic2常见问题汇总之安装篇</title>
-      <link>http://cio.anasit.com/faq/ionic2install/</link>
+      <link>https://ryanemax.github.io/faq/ionic2install/</link>
       <pubDate>Tue, 29 Mar 2016 10:43:03 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/faq/ionic2install/</guid>
+      <guid>https://ryanemax.github.io/faq/ionic2install/</guid>
       <description>
 
 &lt;h1 id=&#34;ionic2常见问题汇总之安装篇:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
