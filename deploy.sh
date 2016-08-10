@@ -23,4 +23,4 @@ if [ $# -eq 1 ]
 
 	  # Push source and build repos.
 	  git push origin master
-	  git subtree push --prefix=public https://github.com/ryanemax//ryanemax.github.io.git gh-pages
+	  git subtree push --prefix=public https://github.com/ryanemax/ryanemax.github.io.git gh-pages
