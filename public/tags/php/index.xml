@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/php/</link>
+    <link>https://ryanemax.github.io/tags/php/</link>
     <description>Recent content in Php on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>dreamfactory常见问题汇总</title>
-      <link>http://cio.anasit.com/faq/dreamfactory/</link>
+      <link>https://ryanemax.github.io/faq/dreamfactory/</link>
       <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/faq/dreamfactory/</guid>
+      <guid>https://ryanemax.github.io/faq/dreamfactory/</guid>
       <description>
 
 &lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;

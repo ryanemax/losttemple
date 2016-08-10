@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>It on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/it/</link>
+    <link>https://ryanemax.github.io/tags/it/</link>
     <description>Recent content in It on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sun, 18 Oct 2015 09:46:37 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/it/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FullStackOfNewGeneration/链接现实与信息系统的全栈开发技术</title>
-      <link>http://cio.anasit.com/study/it/FullStackOfNewGeneration/</link>
+      <link>https://ryanemax.github.io/study/it/FullStackOfNewGeneration/</link>
       <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/it/FullStackOfNewGeneration/</guid>
+      <guid>https://ryanemax.github.io/study/it/FullStackOfNewGeneration/</guid>
       <description>
 
 &lt;h1 id=&#34;0-short-intro:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;0.Short Intro.&lt;/h1&gt;
@@ -85,10 +85,10 @@ raml2html is good.&lt;/p&gt;
     
     <item>
       <title>战争从未改变</title>
-      <link>http://cio.anasit.com/study/it/warneverchange/</link>
+      <link>https://ryanemax.github.io/study/it/warneverchange/</link>
       <pubDate>Fri, 09 Jan 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/it/warneverchange/</guid>
+      <guid>https://ryanemax.github.io/study/it/warneverchange/</guid>
       <description>
 
 &lt;h1 id=&#34;序言-战争从未改变-war-war-never-changes:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;序言：战争从未改变 War，War Never changes&lt;/h1&gt;

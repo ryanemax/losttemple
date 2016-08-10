@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/</link>
+    <link>https://ryanemax.github.io/</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
 &lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
@@ -95,10 +95,10 @@
     
     <item>
       <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
-      <link>http://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
+      <link>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
+      <guid>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix/</guid>
       <description>
 
 &lt;h1 id=&#34;会议简介:a66db78a91811a58a07edc55949cf900&#34;&gt;会议简介&lt;/h1&gt;
@@ -163,10 +163,10 @@
     
     <item>
       <title>（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</title>
-      <link>http://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
+      <link>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix-anasit/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
+      <guid>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix-anasit/</guid>
       <description>
 
 &lt;h1 id=&#34;零-前言:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;零、前言&lt;/h1&gt;
@@ -462,10 +462,10 @@
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
@@ -594,10 +594,10 @@
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
 &lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
@@ -643,10 +643,10 @@
     
     <item>
       <title>CIO分论坛：新技术及IT信息服务会议记录</title>
-      <link>http://cio.anasit.com/meeting/2016-6-17apcio-it/</link>
+      <link>https://ryanemax.github.io/meeting/2016-6-17apcio-it/</link>
       <pubDate>Fri, 17 Jun 2016 16:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/meeting/2016-6-17apcio-it/</guid>
+      <guid>https://ryanemax.github.io/meeting/2016-6-17apcio-it/</guid>
       <description>
 
 &lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
@@ -1217,10 +1217,10 @@
     
     <item>
       <title>亚太CIO（上海）领袖峰会会议记录</title>
-      <link>http://cio.anasit.com/meeting/2016-6-17apcio/</link>
+      <link>https://ryanemax.github.io/meeting/2016-6-17apcio/</link>
       <pubDate>Fri, 17 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/meeting/2016-6-17apcio/</guid>
+      <guid>https://ryanemax.github.io/meeting/2016-6-17apcio/</guid>
       <description>
 
 &lt;h1 id=&#34;会议简介:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;会议简介&lt;/h1&gt;
@@ -1892,10 +1892,10 @@
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
@@ -1940,10 +1940,10 @@
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</guid>
       <description>
 
 &lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
@@ -1997,10 +1997,10 @@
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <link>https://ryanemax.github.io/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/apitrends/</guid>
       <description>
 
 &lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
@@ -2075,10 +2075,10 @@
     
     <item>
       <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
+      <link>https://ryanemax.github.io/cookbook/pkm/card/</link>
       <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
+      <guid>https://ryanemax.github.io/cookbook/pkm/card/</guid>
       <description>
 
 &lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
@@ -2141,10 +2141,10 @@
     
     <item>
       <title>dreamfactory常见问题汇总</title>
-      <link>http://cio.anasit.com/faq/dreamfactory/</link>
+      <link>https://ryanemax.github.io/faq/dreamfactory/</link>
       <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/faq/dreamfactory/</guid>
+      <guid>https://ryanemax.github.io/faq/dreamfactory/</guid>
       <description>
 
 &lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
@@ -2224,19 +2224,19 @@ composer install
     
     <item>
       <title>H5页面如何接入google ads实现广告收入？</title>
-      <link>http://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/google-ads/</link>
       <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/google-ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
-      <link>http://cio.anasit.com/cookbook/cms/homesite/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/homesite/</link>
       <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/homesite/</guid>
       <description>
 
 &lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
@@ -2306,10 +2306,10 @@ composer install
     
     <item>
       <title>适合开发者的第三方RSS采集服务选型</title>
-      <link>http://cio.anasit.com/cookbook/cms/rss/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/rss/</link>
       <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/rss/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/rss/</guid>
       <description>
 
 &lt;h1 id=&#34;简介:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h1&gt;

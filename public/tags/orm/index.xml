@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orm on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/orm/</link>
+    <link>https://ryanemax.github.io/tags/orm/</link>
     <description>Recent content in Orm on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Thu, 08 Oct 2015 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/orm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/orm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangsqlorm/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</guid>
       <description>
 
 &lt;h1 id=&#34;0-models写法技巧及migration标准:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;

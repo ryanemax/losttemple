@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbook/Backend on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/categories/cookbook/backend/</link>
+    <link>https://ryanemax.github.io/categories/cookbook/backend/</link>
     <description>Recent content in Cookbook/Backend on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/categories/cookbook/backend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/categories/cookbook/backend/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
@@ -144,10 +144,10 @@
     
     <item>
       <title>GoLang几种读文件方式的比较</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangReadFile/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangReadFile/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangReadFile/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangReadFile/</guid>
       <description>
 
 &lt;h1 id=&#34;golang几种读文件方式的比较:be210f7bcd089da2400daa8dd95e01d1&#34;&gt;GoLang几种读文件方式的比较&lt;/h1&gt;
@@ -268,10 +268,10 @@
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangsqlorm/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</guid>
       <description>
 
 &lt;h1 id=&#34;0-models写法技巧及migration标准:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
@@ -424,10 +424,10 @@ func Locsearch(info string) {
     
     <item>
       <title>Golang代码组织最佳方案</title>
-      <link>http://cio.anasit.com/cookbook/backend/golangincase/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/golangincase/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/golangincase/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/golangincase/</guid>
       <description>
 
 &lt;h1 id=&#34;golang代码组织最佳方案:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;《Golang代码组织最佳方案》&lt;/h1&gt;
@@ -563,10 +563,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>MBaaS产品调研及私有云解决方案草稿</title>
-      <link>http://cio.anasit.com/cookbook/backend/baas/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/baas/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/baas/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/baas/</guid>
       <description>
 
 &lt;h1 id=&#34;热门baas简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;热门baas简介&lt;/h1&gt;
@@ -798,10 +798,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>Bluemix中可替代BaaS的服务及介绍</title>
-      <link>http://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/bluemix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/bluemix/</guid>
       <description>
 
 &lt;h1 id=&#34;对比parse-com:a7861ad4a9f03fd7eedd0d24ba963e33&#34;&gt;对比Parse.com&lt;/h1&gt;
@@ -827,10 +827,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>parse服务学习指引</title>
-      <link>http://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/parse-learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/parse-learn/</guid>
       <description>
 
 &lt;h1 id=&#34;准备环境:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;准备环境&lt;/h1&gt;
@@ -875,10 +875,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>如何在Bluemix上搭建parse-server服务</title>
-      <link>http://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</link>
+      <link>https://ryanemax.github.io/cookbook/backend/parse-server-on-bluemix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
+      <guid>https://ryanemax.github.io/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>
 
 &lt;h1 id=&#34;参考资料:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;参考资料&lt;/h1&gt;

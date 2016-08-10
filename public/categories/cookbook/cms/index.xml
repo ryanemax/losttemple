@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbook/Cms on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/categories/cookbook/cms/</link>
+    <link>https://ryanemax.github.io/categories/cookbook/cms/</link>
     <description>Recent content in Cookbook/Cms on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Mon, 23 May 2016 20:22:22 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/categories/cookbook/cms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/categories/cookbook/cms/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>H5页面如何接入google ads实现广告收入？</title>
-      <link>http://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/google-ads/</link>
       <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/google-ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
-      <link>http://cio.anasit.com/cookbook/cms/homesite/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/homesite/</link>
       <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/homesite/</guid>
       <description>
 
 &lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
@@ -94,10 +94,10 @@
     
     <item>
       <title>适合开发者的第三方RSS采集服务选型</title>
-      <link>http://cio.anasit.com/cookbook/cms/rss/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/rss/</link>
       <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/rss/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/rss/</guid>
       <description>
 
 &lt;h1 id=&#34;简介:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h1&gt;
@@ -224,10 +224,10 @@
     
     <item>
       <title>CMS built with Laravel</title>
-      <link>http://cio.anasit.com/cookbook/cms/cmswithlaravel/</link>
+      <link>https://ryanemax.github.io/cookbook/cms/cmswithlaravel/</link>
       <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/cmswithlaravel/</guid>
+      <guid>https://ryanemax.github.io/cookbook/cms/cmswithlaravel/</guid>
       <description>
 
 &lt;h1 id=&#34;october-cms:0ca427d6515b13555446207bc36d4b68&#34;&gt;October CMS&lt;/h1&gt;

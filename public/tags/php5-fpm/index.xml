@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php5 Fpm on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/php5-fpm/</link>
+    <link>https://ryanemax.github.io/tags/php5-fpm/</link>
     <description>Recent content in Php5 Fpm on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 12 Mar 2016 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/php5-fpm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/php5-fpm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LNMP内存或CPU过高优化问题</title>
-      <link>http://cio.anasit.com/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <link>https://ryanemax.github.io/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
       <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://ryanemax.github.io/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
       <description>
 
 &lt;h1 id=&#34;lnmp内存或cpu过高的优化问题:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;

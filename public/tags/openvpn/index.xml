@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openvpn on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/openvpn/</link>
+    <link>https://ryanemax.github.io/tags/openvpn/</link>
     <description>Recent content in Openvpn on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Wed, 21 Oct 2015 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建</title>
-      <link>http://cio.anasit.com/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
+      <link>https://ryanemax.github.io/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://ryanemax.github.io/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
       <description>
 
 &lt;h1 id=&#34;openwrt-openvpn穿透及公司虚拟私有网关搭建:98ae243484943c9ec9cca79e144d7447&#34;&gt;《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》&lt;/h1&gt;

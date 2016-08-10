@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cors on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/cors/</link>
+    <link>https://ryanemax.github.io/tags/cors/</link>
     <description>Recent content in Cors on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Sat, 05 Sep 2015 13:13:44 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/cors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/cors/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>跨域跨域跨域golang与angularjs的默契</title>
-      <link>http://cio.anasit.com/cookbook/api/goangularfaq/</link>
+      <link>https://ryanemax.github.io/cookbook/api/goangularfaq/</link>
       <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/goangularfaq/</guid>
+      <guid>https://ryanemax.github.io/cookbook/api/goangularfaq/</guid>
       <description>
 
 &lt;h1 id=&#34;go-json-rest-golang:43ce7dc6c163dd5f61cc426d896448b3&#34;&gt;go-json-rest (golang)&lt;/h1&gt;

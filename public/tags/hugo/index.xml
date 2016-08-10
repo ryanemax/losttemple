@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/hugo/</link>
+    <link>https://ryanemax.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Thu, 13 Aug 2015 17:51:58 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>基于Git的分布式自由博客&#43;搭建</title>
-      <link>http://cio.anasit.com/cookbook/tool/blogforgit/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/blogforgit/</link>
       <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/blogforgit/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/blogforgit/</guid>
       <description>
 
 &lt;h1 id=&#34;0-准备工作:eadff3637fef2221b49957de041cf521&#34;&gt;0.准备工作&lt;/h1&gt;

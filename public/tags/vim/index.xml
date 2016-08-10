@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/tags/vim/</link>
+    <link>https://ryanemax.github.io/tags/vim/</link>
     <description>Recent content in Vim on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Tue, 07 Jun 2016 18:00:00 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanemax.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</guid>
       <description>
 
 &lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>vim实用技巧实践</title>
-      <link>http://cio.anasit.com/cookbook/tool/vimbest/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/vimbest/</link>
       <pubDate>Sat, 17 Oct 2015 04:41:31 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/vimbest/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/vimbest/</guid>
       <description>
 
 &lt;h1 id=&#34;实用技巧:5b84f273874ec2b027963c3550d969d9&#34;&gt;实用技巧&lt;/h1&gt;
@@ -244,10 +244,10 @@ vimdiff file1 file2 ..  #等同于上一句
     
     <item>
       <title>vim-go最佳实践</title>
-      <link>http://cio.anasit.com/cookbook/tool/vim-go/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/vim-go/</link>
       <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/vim-go/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/vim-go/</guid>
       <description>
 
 &lt;h1 id=&#34;0-使用方法:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;0.使用方法&lt;/h1&gt;
@@ -323,10 +323,10 @@ https://github.com/bradfitz/goimports
     
     <item>
       <title>ultisnips&#39;s md实用经验</title>
-      <link>http://cio.anasit.com/cookbook/tool/vim-ultisnips/</link>
+      <link>https://ryanemax.github.io/cookbook/tool/vim-ultisnips/</link>
       <pubDate>Fri, 18 Sep 2015 04:27:55 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/vim-ultisnips/</guid>
+      <guid>https://ryanemax.github.io/cookbook/tool/vim-ultisnips/</guid>
       <description>
 
 &lt;h1 id=&#34;添加文档类型识别-vim-ftdetect-mkd-md:5ded97648b03ab53bca6dd07e625c078&#34;&gt;添加文档类型识别 ~/.vim/ftdetect/mkd.md&lt;/h1&gt;
