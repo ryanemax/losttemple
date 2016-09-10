@@ -38,7 +38,9 @@
 
 &lt;h2 id=&#34;开启代码美化:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;开启代码美化&lt;/h2&gt;
 
-&lt;p&gt;atom-beautify&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;atom-beautify&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&#34;markdown编辑器深度配置:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Markdown编辑器深度配置&lt;/h1&gt;
 

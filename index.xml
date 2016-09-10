@@ -7,8 +7,86 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Aug 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BashOnWindows常见问题汇总</title>
+      <link>https://ryanemax.github.io/cookbook/tool/bashonwindows/</link>
+      <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/tool/bashonwindows/</guid>
+      <description>
+
+&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;System =&amp;gt; Services =&amp;gt; disable:
+&amp;quot;SSH server proxy&amp;quot;
+&amp;quot;SSH server broker&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
+
+&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;进入bash自动启动ssh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# vim .bash_aliaes
+cd /mnt/d/Users/Ryane
+service ssh start
+zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
+
+&lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;h1 id=&#34;npm-fs-watch问题-error:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/396&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/396&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2服务端渲染及SEO方案——universal</title>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</link>
+      <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</guid>
+      <description>
+
+&lt;h1 id=&#34;ng2-universal基础:99ba35dc358433404c10720574c18d78&#34;&gt;ng2-universal基础&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1q6g9UlmEZDXgrkY88AJZ6MUrUxcnwhBGS0EXbVlYicY/edit&#34;&gt;Design Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.angular-university.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/&#34;&gt;Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/universal-angular-2-server-side-rendering-seo-crawl-friendliness/&#34;&gt;Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Modules Universal&lt;/p&gt;
+
+&lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
+
+&lt;h1 id=&#34;ionic2整合universal:99ba35dc358433404c10720574c18d78&#34;&gt;ionic2整合universal&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;与Ionic2中dom.js冲突&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
@@ -2229,209 +2307,6 @@ composer install
       
       <guid>https://ryanemax.github.io/cookbook/cms/google-ads/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
-      <link>https://ryanemax.github.io/cookbook/cms/homesite/</link>
-      <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
-      
-      <guid>https://ryanemax.github.io/cookbook/cms/homesite/</guid>
-      <description>
-
-&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
-
-&lt;h1 id=&#34;简介:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;项目背景:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;项目背景&lt;/h2&gt;
-
-&lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
-
-&lt;p&gt;本文，将深度探讨，并尝试一次低耦合的CMS系统建设方案。在每个需求环节，选取最佳的技术实现方案，各模块通过RESTful API进行整合及协同。&lt;/p&gt;
-
-&lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;技术总览:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;技术总览&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;hugo&lt;/li&gt;
-&lt;li&gt;hugo-themes
-
-&lt;ul&gt;
-&lt;li&gt;galactica&lt;/li&gt;
-&lt;li&gt;演示：&lt;a href=&#34;http://astritbublaku.com/demos/galactica/&#34;&gt;http://astritbublaku.com/demos/galactica/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;markdown&lt;/li&gt;
-&lt;li&gt;yaml&lt;/li&gt;
-&lt;li&gt;RESTful APIs&lt;/li&gt;
-&lt;li&gt;github pages&lt;/li&gt;
-&lt;li&gt;rss&lt;/li&gt;
-&lt;li&gt;google ads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;系统架构:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;系统架构&lt;/h1&gt;
-
-&lt;h2 id=&#34;静态页面生成模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;静态页面生成模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Themes 主题机制&lt;/li&gt;
-&lt;li&gt;Templates 模板机制&lt;/li&gt;
-&lt;li&gt;Taxonomies 分类机制&lt;/li&gt;
-&lt;li&gt;Contents 内容格式化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;信息采集聚合模块-aggregator:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RSS 采集&lt;/li&gt;
-&lt;li&gt;Twiter 采集&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;内容筛选解析格式化模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;用户审查发布模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;用户审查发布模块&lt;/h2&gt;
-
-&lt;h2 id=&#34;ugc用户自主写文模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
-&lt;li&gt;选择二：支持api获取文章内容的，在线云笔记&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>适合开发者的第三方RSS采集服务选型</title>
-      <link>https://ryanemax.github.io/cookbook/cms/rss/</link>
-      <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
-      
-      <guid>https://ryanemax.github.io/cookbook/cms/rss/</guid>
-      <description>
-
-&lt;h1 id=&#34;简介:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;项目背景:eceb479b7b3b2077408a2878a29e1320&#34;&gt;项目背景&lt;/h2&gt;
-
-&lt;p&gt;greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。&lt;/p&gt;
-
-&lt;p&gt;作为个人用户，所有碰到的基础需求，都可以满足，未考虑付费服务。&lt;/p&gt;
-
-&lt;p&gt;但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。&lt;/p&gt;
-
-&lt;h2 id=&#34;参考文章:eceb479b7b3b2077408a2878a29e1320&#34;&gt;参考文章&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sspai.com/27576&#34;&gt;观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader&lt;/a&gt;
-&lt;a href=&#34;http://www.zhihu.com/question/21278318&#34;&gt;RSS 阅读器 InoReader 的使用体验如何？&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;如何迁移自己的rss订阅:eceb479b7b3b2077408a2878a29e1320&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;登录feedly，点击用户，选择export OPML文件&lt;/li&gt;
-&lt;li&gt;将导出的OPML文件导入你想要使用的rss订阅服务&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;私有云-rss-聚合器:eceb479b7b3b2077408a2878a29e1320&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;filipedeschamps/rss-feed-emitter
-
-&lt;ul&gt;
-&lt;li&gt;nodejs+es6&lt;/li&gt;
-&lt;li&gt;star 621&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;dai-shi/rss-pipes
-
-&lt;ul&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
-&lt;li&gt;star 70&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;freshrss.org
-
-&lt;ul&gt;
-&lt;li&gt;php+mysql&lt;/li&gt;
-&lt;li&gt;star 382&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;freshrss:eceb479b7b3b2077408a2878a29e1320&#34;&gt;freshrss&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;php-pdo&lt;/li&gt;
-&lt;li&gt;xml/curl&lt;/li&gt;
-&lt;li&gt;mysql&lt;/li&gt;
-&lt;li&gt;pelican（静态页面生成部分）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;公有云-rss-订阅服务:eceb479b7b3b2077408a2878a29e1320&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;feedly&lt;/li&gt;
-&lt;li&gt;inoreader&lt;/li&gt;
-&lt;li&gt;feedbin&lt;/li&gt;
-&lt;li&gt;feedwrangler&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;inoreader:eceb479b7b3b2077408a2878a29e1320&#34;&gt;inoreader&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点:eceb479b7b3b2077408a2878a29e1320&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;p&gt;Inoreader对于RSS源的抓取不如Feedly。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;订阅的科大BBS的RSS源，全部乱码出错，而在Feedly并未出现这种问题。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;简介-1:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.inoreader.com/&#34;&gt;http://www.inoreader.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;开发者平台 &lt;a href=&#34;http://www.inoreader.com/developers/&#34;&gt;http://www.inoreader.com/developers/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;资费参考 &lt;a href=&#34;http://www.inoreader.com/upgrade/feature/from_preferences&#34;&gt;http://www.inoreader.com/upgrade/feature/from_preferences&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free套餐：
-- Number of subscriptions   Unlimited
-- Search in subscriptions
-- RSS Feeds for favorites, channels, folders and tags&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML Clips for favorites, channels, folders and tags  Default&lt;/li&gt;
-&lt;li&gt;Unread counter cap (actual unread articles are not limited)   1000&lt;/li&gt;
-&lt;li&gt;Number of active searches     1&lt;/li&gt;
-&lt;li&gt;Number of rules   1&lt;/li&gt;
-&lt;li&gt;Number of filtered feeds  1&lt;/li&gt;
-&lt;li&gt;Number of Highlighters    5&lt;/li&gt;
-&lt;li&gt;Number of boosted feeds   10&lt;/li&gt;
-&lt;li&gt;Number of Google+ feeds   0&lt;/li&gt;
-&lt;li&gt;Number of Twitter feeds   1&lt;/li&gt;
-&lt;li&gt;Number of Facebook page feeds     1&lt;/li&gt;
-&lt;li&gt;Number of VKontakte feeds     1&lt;/li&gt;
-&lt;li&gt;Audio Player  Inline&lt;/li&gt;
-&lt;li&gt;Address book - Gmail integrated   Limited to 10 entries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;feedly:eceb479b7b3b2077408a2878a29e1320&#34;&gt;feedly&lt;/h1&gt;
-
-&lt;p&gt;feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api&lt;/p&gt;
-
-&lt;p&gt;开发者平台 &lt;a href=&#34;http://developer.feedly.com/&#34;&gt;http://developer.feedly.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;资费参考 &lt;a href=&#34;https://feedly.com/i/pro/showcase.zapier&#34;&gt;https://feedly.com/i/pro/showcase.zapier&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free套餐:
-- Up to 100 sources
-- Mobile and desktop
-- Organize source into easy-to-read collections
-- Share to Twitter, Pinterest and Facebook&lt;/p&gt;
-</description>
     </item>
     
   </channel>

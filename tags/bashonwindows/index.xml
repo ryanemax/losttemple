@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bashonwindows on 刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/bashonwindows/</link>
+    <description>Recent content in Bashonwindows on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Sat, 27 Aug 2016 15:05:51 +0800</lastBuildDate>
+    <atom:link href="https://ryanemax.github.io/tags/bashonwindows/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BashOnWindows常见问题汇总</title>
+      <link>https://ryanemax.github.io/cookbook/tool/bashonwindows/</link>
+      <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/tool/bashonwindows/</guid>
+      <description>
+
+&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;System =&amp;gt; Services =&amp;gt; disable:
+&amp;quot;SSH server proxy&amp;quot;
+&amp;quot;SSH server broker&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
+
+&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;进入bash自动启动ssh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# vim .bash_aliaes
+cd /mnt/d/Users/Ryane
+service ssh start
+zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
+
+&lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;h1 id=&#34;npm-fs-watch问题-error:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/396&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/396&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
