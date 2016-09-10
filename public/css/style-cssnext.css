@@ -36,7 +36,7 @@
 .base0e { color: var(--base0e); }
 .base0f { color: var(--base0f); }
 
-@import url(http://fonts.useso.com/css?family=Roboto+Mono:400,700);
+@import url(http://fonts.proxy.usctlug.org/css?family=Roboto+Mono:400,700);
 @custom-media --breakpoint-md (max-width: 52em);
 
 /* General Page Layout */

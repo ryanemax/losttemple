@@ -7,8 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Aug 2016 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/ionic2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ng2服务端渲染及SEO方案——universal</title>
+      <link>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</link>
+      <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</guid>
+      <description>
+
+&lt;h1 id=&#34;ng2-universal基础:99ba35dc358433404c10720574c18d78&#34;&gt;ng2-universal基础&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1q6g9UlmEZDXgrkY88AJZ6MUrUxcnwhBGS0EXbVlYicY/edit&#34;&gt;Design Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.angular-university.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/&#34;&gt;Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/universal-angular-2-server-side-rendering-seo-crawl-friendliness/&#34;&gt;Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Modules Universal&lt;/p&gt;
+
+&lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
+
+&lt;h1 id=&#34;ionic2整合universal:99ba35dc358433404c10720574c18d78&#34;&gt;ionic2整合universal&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;与Ionic2中dom.js冲突&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
