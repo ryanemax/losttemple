@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Studies on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/study/</link>
-    <description>Recent content in Studies on 刘雨飏@ANAS联盟</description>
+    <title>Study-rsses on 刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/study/index.xml</link>
+    <description>Recent content in Study-rsses on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
@@ -18,11 +18,11 @@
       <guid>https://ryanemax.github.io/study/markdown2ppt/</guid>
       <description>
 
-&lt;h1 id=&#34;markdown制作ppt最佳实践:70a06631edd194abeda3ccc505c67c40&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
+&lt;h1 id=&#34;markdown制作ppt最佳实践&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org/demos.html&#34;&gt;http://pandoc.org/demos.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;一-reveal-js-pandoc-推荐:70a06631edd194abeda3ccc505c67c40&#34;&gt;一、reveal.js + pandoc（推荐）&lt;/h1&gt;
+&lt;h1 id=&#34;一-reveal-js-pandoc-推荐&#34;&gt;一、reveal.js + pandoc（推荐）&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;HTML便于CSS样式修改&lt;/li&gt;
@@ -40,37 +40,37 @@ pandoc -s --mathml -i -t dzslides SLIDES -o example16a.html
 pandoc -s --webtex -i -t slidy SLIDES -o example16b.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;如何为html添加缺失的reveal-js:70a06631edd194abeda3ccc505c67c40&#34;&gt;如何为html添加缺失的reveal.js&lt;/h2&gt;
+&lt;h2 id=&#34;如何为html添加缺失的reveal-js&#34;&gt;如何为html添加缺失的reveal.js&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## https://github.com/anasinc/getsite
 ## 获取revealjs目录，复制到ppt同级目录中即可
 ./getsite.sh http://pandoc.org/demo/example16d.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;二-revel-js模板定制:70a06631edd194abeda3ccc505c67c40&#34;&gt;二、Revel.js模板定制&lt;/h1&gt;
+&lt;h1 id=&#34;二-revel-js模板定制&#34;&gt;二、Revel.js模板定制&lt;/h1&gt;
 
 &lt;p&gt;参考项目：&lt;a href=&#34;https://github.com/yanping/reveal.js-with-pandoc&#34;&gt;https://github.com/yanping/reveal.js-with-pandoc&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;三-pandoc-beamer-slide-show:70a06631edd194abeda3ccc505c67c40&#34;&gt;三、pandoc + Beamer slide show&lt;/h1&gt;
+&lt;h1 id=&#34;三-pandoc-beamer-slide-show&#34;&gt;三、pandoc + Beamer slide show&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pandoc -t beamer --latex-engine=xelatex README.md -o readppt.pdf -V mainfont=&amp;quot;文泉驿微米黑&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;其他方式:70a06631edd194abeda3ccc505c67c40&#34;&gt;其他方式&lt;/h1&gt;
+&lt;h1 id=&#34;其他方式&#34;&gt;其他方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;nodeppt:70a06631edd194abeda3ccc505c67c40&#34;&gt;nodeppt&lt;/h2&gt;
+&lt;h2 id=&#34;nodeppt&#34;&gt;nodeppt&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ksky521/nodeppt/&#34;&gt;https://github.com/ksky521/nodeppt/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ju.outofmemory.cn/entry/89175&#34;&gt;推荐nodeppt：使用markdown语法来写网页ppt&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;landslide:70a06631edd194abeda3ccc505c67c40&#34;&gt;landslide&lt;/h2&gt;
+&lt;h2 id=&#34;landslide&#34;&gt;landslide&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/adamzap/landslide&#34;&gt;https://github.com/adamzap/landslide&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Generate HTML5 slideshows from markdown, ReST, or textile&lt;/p&gt;
 
-&lt;h1 id=&#34;md转ppt的shell脚本实现:70a06631edd194abeda3ccc505c67c40&#34;&gt;md转ppt的shell脚本实现&lt;/h1&gt;
+&lt;h1 id=&#34;md转ppt的shell脚本实现&#34;&gt;md转ppt的shell脚本实现&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
 if [ $# -eq 0 ]       ##判断参数是否存在
@@ -107,15 +107,15 @@ pandoc -s --mathjax -i -t revealjs ${srcfile} -o build/ppt/${buildname}.html
       <guid>https://ryanemax.github.io/study/markdown2paper/</guid>
       <description>
 
-&lt;h1 id=&#34;前置学习引导:64874236f53410c76543a942f82f597b&#34;&gt;前置学习引导&lt;/h1&gt;
+&lt;h1 id=&#34;前置学习引导&#34;&gt;前置学习引导&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ryanemax.github.io/study/markdown2pdf/&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;常用模板数值:64874236f53410c76543a942f82f597b&#34;&gt;常用模板数值&lt;/h1&gt;
+&lt;h1 id=&#34;常用模板数值&#34;&gt;常用模板数值&lt;/h1&gt;
 
-&lt;h2 id=&#34;字体-字号:64874236f53410c76543a942f82f597b&#34;&gt;字体/字号&lt;/h2&gt;
+&lt;h2 id=&#34;字体-字号&#34;&gt;字体/字号&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 安装字体命令
 # 复制新字体到/usr/share/fonts/，执行命令即可
@@ -129,7 +129,7 @@ fc-cache vf
 \newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    %五号  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;标题段落:64874236f53410c76543a942f82f597b&#34;&gt;标题段落&lt;/h2&gt;
+&lt;h2 id=&#34;标题段落&#34;&gt;标题段落&lt;/h2&gt;
 
 &lt;p&gt;titlesec包&lt;/p&gt;
 
@@ -151,7 +151,7 @@ fc-cache vf
 \setlength{\parindent}{2em}%中文缩进两个汉字位
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;模板资源:64874236f53410c76543a942f82f597b&#34;&gt;模板资源&lt;/h1&gt;
+&lt;h1 id=&#34;模板资源&#34;&gt;模板资源&lt;/h1&gt;
 
 &lt;p&gt;清华大学 &lt;a href=&#34;https://github.com/xueruini/thuthesis&#34;&gt;https://github.com/xueruini/thuthesis&lt;/a&gt;&lt;/p&gt;
 
@@ -171,18 +171,18 @@ fc-cache vf
       <guid>https://ryanemax.github.io/study/markdown2pdf/</guid>
       <description>
 
-&lt;h1 id=&#34;如何用markdown生成带目录-页眉-页脚的pdf:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/h1&gt;
+&lt;h1 id=&#34;如何用markdown生成带目录-页眉-页脚的pdf&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org/demos.html&#34;&gt;http://pandoc.org/demos.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;todo-list:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;TODO List&lt;/h1&gt;
+&lt;h1 id=&#34;todo-list&#34;&gt;TODO List&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;[OK] 实现基础的md转pdf的shell脚本&lt;/li&gt;
 &lt;li&gt;将md转pdf封装成云服务，为整个安纳斯联盟提供&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;相关的转化方式:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;相关的转化方式&lt;/h1&gt;
+&lt;h1 id=&#34;相关的转化方式&#34;&gt;相关的转化方式&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown =&amp;gt; html =&amp;gt; pdf
@@ -197,15 +197,15 @@ fc-cache vf
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;pandoc-latex模板:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;pandoc+Latex模板&lt;/h1&gt;
+&lt;h1 id=&#34;pandoc-latex模板&#34;&gt;pandoc+Latex模板&lt;/h1&gt;
 
-&lt;h2 id=&#34;latex基础:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;latex基础&lt;/h2&gt;
+&lt;h2 id=&#34;latex基础&#34;&gt;latex基础&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.latexstudio.net&#34;&gt;http://www.latexstudio.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;推荐字体:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;推荐字体&lt;/h2&gt;
+&lt;h2 id=&#34;推荐字体&#34;&gt;推荐字体&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 建议用于标题的字体
 -V mainfont=&amp;quot;思源黑体 CN&amp;quot;
@@ -218,7 +218,7 @@ pacman -S adobe-source-han-sans-cn-fonts
 pacman -S opendesktop-fonts
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;常用脚本:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;常用脚本&lt;/h2&gt;
+&lt;h2 id=&#34;常用脚本&#34;&gt;常用脚本&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 简单版
 pandoc --latex-engine=xelatex README.md -o read.pdf -V mainfont=&amp;quot;思源黑体 CN&amp;quot; --highlight-style pygments
@@ -229,7 +229,7 @@ pandoc -N --template=mytemplate.tex --variable mainfont=&amp;quot;Palatino&amp;q
 pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=1.15.2 README.md --latex-engine=xelatex --toc -o readexam.pdf --highlight-style pygments -V mainfont=&amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;代码高亮:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;代码高亮&lt;/h2&gt;
+&lt;h2 id=&#34;代码高亮&#34;&gt;代码高亮&lt;/h2&gt;
 
 &lt;p&gt;推荐样式：
 - pygments&lt;/p&gt;
@@ -251,7 +251,7 @@ pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=
 --highlight-style zenburn
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;常见错误:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;常见错误&lt;/h2&gt;
+&lt;h2 id=&#34;常见错误&#34;&gt;常见错误&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 报错：缺少latex文件
 ! LaTeX Error: File etoolbox.sty not found.
@@ -273,13 +273,13 @@ fc-list :outline -f &amp;quot;%{family}\n&amp;quot; | sort -u
 &amp;quot;文泉驿微米黑&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;图片分页问题:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;图片分页问题&lt;/h2&gt;
+&lt;h2 id=&#34;图片分页问题&#34;&gt;图片分页问题&lt;/h2&gt;
 
 &lt;p&gt;圖片唯一的問題是，pandoc有時會將表格放在錯誤的位置。因為某些圖片過高，所以pandoc會把他們插入到一個新的空白頁，然後將後面的內容直接查到表格前面，這樣很容易產生錯位。有兩個解決辦法，一是，轉換到latex後，手動修改圖片位置，當然這個比較痛苦；二是在圖片後面加入一個latex的分頁比較\pagebreak，讓後面的內容自動寫到新的一頁上，儘管這樣比較廢紙。&lt;/p&gt;
 
-&lt;h3 id=&#34;手动调整:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;手动调整&lt;/h3&gt;
+&lt;h3 id=&#34;手动调整&#34;&gt;手动调整&lt;/h3&gt;
 
-&lt;h3 id=&#34;latex-figureseries宏包让figure浮动环境支持自动换页:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;LaTeX：figureSeries宏包让figure浮动环境支持自动换页&lt;/h3&gt;
+&lt;h3 id=&#34;latex-figureseries宏包让figure浮动环境支持自动换页&#34;&gt;LaTeX：figureSeries宏包让figure浮动环境支持自动换页&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://bbs.pinggu.org/thread-4487763-1-1.html&#34;&gt;http://bbs.pinggu.org/thread-4487763-1-1.html&lt;/a&gt;&lt;/p&gt;
 
@@ -287,20 +287,20 @@ fc-list :outline -f &amp;quot;%{family}\n&amp;quot; | sort -u
 
 &lt;p&gt;选自：&lt;a href=&#34;https://github.com/thomasWeise/figureSeries&#34;&gt;https://github.com/thomasWeise/figureSeries&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;atom编辑器latex常用插件:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;atom编辑器latex常用插件&lt;/h1&gt;
+&lt;h1 id=&#34;atom编辑器latex常用插件&#34;&gt;atom编辑器latex常用插件&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;language-latex&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;html-css-尝试中:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;html+css(尝试中)&lt;/h1&gt;
+&lt;h1 id=&#34;html-css-尝试中&#34;&gt;html+css(尝试中)&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pandoc READEME.md -f markdown -t html &amp;gt;&amp;gt; temp.html
 
 echo &amp;gt;&amp;gt; &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;md转pdf脚本实现:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;md转pdf脚本实现&lt;/h1&gt;
+&lt;h1 id=&#34;md转pdf脚本实现&#34;&gt;md转pdf脚本实现&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
 message1=&amp;quot;请输入正确格式，如：./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;&amp;quot;
@@ -346,17 +346,17 @@ pandoc -N --template=.tpl/anas.tex --variable fontsize=12pt ${srcfile} --latex-e
 firefox build/${buildname}.pdf
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;latex模板文件定制:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;latex模板文件定制&lt;/h1&gt;
+&lt;h1 id=&#34;latex模板文件定制&#34;&gt;latex模板文件定制&lt;/h1&gt;
 
-&lt;h2 id=&#34;模板资源:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;模板资源&lt;/h2&gt;
+&lt;h2 id=&#34;模板资源&#34;&gt;模板资源&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/jgm/pandoc/wiki/User-contributed-templates&#34;&gt;https://github.com/jgm/pandoc/wiki/User-contributed-templates&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;latex基础用法:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;latex基础用法&lt;/h2&gt;
+&lt;h2 id=&#34;latex基础用法&#34;&gt;latex基础用法&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://latex-project.org/guides/usrguide.pdf&#34;&gt;https://latex-project.org/guides/usrguide.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;使用fancy定制页眉页脚:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;使用fancy定制页眉页脚&lt;/h2&gt;
+&lt;h2 id=&#34;使用fancy定制页眉页脚&#34;&gt;使用fancy定制页眉页脚&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ctex.org/documents/packages/layout/fancyhdr.htm&#34;&gt;http://www.ctex.org/documents/packages/layout/fancyhdr.htm&lt;/a&gt;&lt;/p&gt;
 
@@ -375,14 +375,14 @@ firefox build/${buildname}.pdf
 &lt;li&gt;控制页眉和页脚的字体，包括字形，字族，大小写等。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;目录与正文在同一页:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;目录与正文在同一页&lt;/h2&gt;
+&lt;h2 id=&#34;目录与正文在同一页&#34;&gt;目录与正文在同一页&lt;/h2&gt;
 
 &lt;p&gt;在目录后$body$前，加入&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;\newpage
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;正文第一页与页眉重叠:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;正文第一页与页眉重叠&lt;/h2&gt;
+&lt;h2 id=&#34;正文第一页与页眉重叠&#34;&gt;正文第一页与页眉重叠&lt;/h2&gt;
 
 &lt;p&gt;最简单的就是正文/$body$前加入&lt;/p&gt;
 
@@ -394,7 +394,7 @@ firefox build/${buildname}.pdf
 % end of fix the no.2 page covered by header
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;中文无法自动换行问题:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;中文无法自动换行问题&lt;/h2&gt;
+&lt;h2 id=&#34;中文无法自动换行问题&#34;&gt;中文无法自动换行问题&lt;/h2&gt;
 
 &lt;p&gt;上面问题在与中文行没有被换行，参考了一下&lt;a href=&#34;https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.latex&#34;&gt;Tzeng Yuxio同学的模板&lt;/a&gt;，中文的换行 通过\XeTeXlinebreaklocale &amp;ldquo;zh&amp;rdquo;实现。而在pandoc的缺省模板中是没有这个设置的。因此考虑修改缺省的latex模板。方法如下：&lt;/p&gt;
 
@@ -405,7 +405,7 @@ firefox build/${buildname}.pdf
 $endif$
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;实用案例-添加水印:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;实用案例：添加水印&lt;/h2&gt;
+&lt;h2 id=&#34;实用案例-添加水印&#34;&gt;实用案例：添加水印&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ctan.org/pkg/draftwatermark&#34;&gt;http://www.ctan.org/pkg/draftwatermark&lt;/a&gt;&lt;/p&gt;
 
@@ -427,7 +427,7 @@ $endif$
 \SetWatermarkLightness{0.88}%defaultis0.8
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;参考文章:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;参考文章&lt;/h1&gt;
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.douban.com/note/330859852/&#34;&gt;使用pandoc markdown寫作後記&lt;/a&gt;&lt;/p&gt;
 
@@ -443,7 +443,7 @@ $endif$
       <guid>https://ryanemax.github.io/study/latex/</guid>
       <description>
 
-&lt;h1 id=&#34;atom-latex插件:f7e55fa120deedc2cff61a9fed6f8f5e&#34;&gt;Atom Latex插件&lt;/h1&gt;
+&lt;h1 id=&#34;atom-latex插件&#34;&gt;Atom Latex插件&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;latex&lt;/p&gt;&lt;/li&gt;
@@ -451,7 +451,7 @@ $endif$
 &lt;li&gt;&lt;p&gt;latex-friend&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;vim-latex插件:f7e55fa120deedc2cff61a9fed6f8f5e&#34;&gt;Vim Latex插件&lt;/h1&gt;
+&lt;h1 id=&#34;vim-latex插件&#34;&gt;Vim Latex插件&lt;/h1&gt;
 </description>
     </item>
     
@@ -463,7 +463,7 @@ $endif$
       <guid>https://ryanemax.github.io/study/tools/</guid>
       <description>
 
-&lt;h1 id=&#34;scigen论文生成器:392b1cfe5865fa09a3eb545085be9682&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
+&lt;h1 id=&#34;scigen论文生成器&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pdos.csail.mit.edu/scigen/&#34;&gt;http://pdos.csail.mit.edu/scigen/&lt;/a&gt;&lt;/p&gt;
 
@@ -481,7 +481,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
       <guid>https://ryanemax.github.io/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
       <description>
 
-&lt;h1 id=&#34;江西地税-企业个人所得税:7cbeef615ed4db064ff344db26bf5ec4&#34;&gt;江西地税（企业个人所得税）&lt;/h1&gt;
+&lt;h1 id=&#34;江西地税-企业个人所得税&#34;&gt;江西地税（企业个人所得税）&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;进入税友网 &lt;a href=&#34;http://www.4007112366.com/&#34;&gt;http://www.4007112366.com/&lt;/a&gt;&lt;/li&gt;
@@ -489,7 +489,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 地址：&lt;a href=&#34;http://jx.4007112366.com/?m=content&amp;amp;c=index&amp;amp;a=download&amp;amp;cat_id=26&amp;amp;menu_id=24&#34;&gt;http://jx.4007112366.com/?m=content&amp;amp;c=index&amp;amp;a=download&amp;amp;cat_id=26&amp;amp;menu_id=24&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&#34;江西国税:7cbeef615ed4db064ff344db26bf5ec4&#34;&gt;江西国税&lt;/h1&gt;
+&lt;h1 id=&#34;江西国税&#34;&gt;江西国税&lt;/h1&gt;
 </description>
     </item>
     
@@ -501,11 +501,11 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
       <guid>https://ryanemax.github.io/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
       <description>
 
-&lt;h1 id=&#34;去中心化贸易及货币的-反祖现象-探讨:6341990341145ff2a70e1bcd26565164&#34;&gt;去中心化贸易及货币的&amp;rsquo;反祖现象&amp;rsquo;探讨&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;去中心化贸易及货币的-反祖现象-探讨&#34;&gt;去中心化贸易及货币的&amp;rsquo;反祖现象&amp;rsquo;探讨&amp;rdquo;&lt;/h1&gt;
 
-&lt;h1 id=&#34;0-info:6341990341145ff2a70e1bcd26565164&#34;&gt;0.Info&lt;/h1&gt;
+&lt;h1 id=&#34;0-info&#34;&gt;0.Info&lt;/h1&gt;
 
-&lt;h2 id=&#34;key-words:6341990341145ff2a70e1bcd26565164&#34;&gt;Key Words&lt;/h2&gt;
+&lt;h2 id=&#34;key-words&#34;&gt;Key Words&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Decntralization Trading&lt;/li&gt;
@@ -513,7 +513,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 &lt;li&gt;OpenBazaar&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;前言:6341990341145ff2a70e1bcd26565164&#34;&gt;前言&lt;/h2&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 
 &lt;p&gt;构思这篇关于去中心化贸易论文的时候我满怀激动，因为我经历了OpenBazaar的成长，经历了BitCoin的成长，而今日2015.10.18，距离OpenBazaar正式发布已经近在咫尺。&lt;/p&gt;
 
@@ -529,7 +529,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
       <guid>https://ryanemax.github.io/study/occult/learnichang/</guid>
       <description>
 
-&lt;h2 id=&#34;学习方法:6c71000d5f164d146f6e41ee7267a521&#34;&gt;学习方法&lt;/h2&gt;
+&lt;h2 id=&#34;学习方法&#34;&gt;学习方法&lt;/h2&gt;
 
 &lt;p&gt;六经注我，我注六经。&lt;/p&gt;
 
@@ -539,7 +539,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 &lt;li&gt;判断归纳自己的注释&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;学习书目:6c71000d5f164d146f6e41ee7267a521&#34;&gt;学习书目&lt;/h2&gt;
+&lt;h2 id=&#34;学习书目&#34;&gt;学习书目&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;易经
@@ -574,23 +574,23 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
       <guid>https://ryanemax.github.io/study/it/FullStackOfNewGeneration/</guid>
       <description>
 
-&lt;h1 id=&#34;0-short-intro:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;0.Short Intro.&lt;/h1&gt;
+&lt;h1 id=&#34;0-short-intro&#34;&gt;0.Short Intro.&lt;/h1&gt;
 
 &lt;p&gt;our team using the similar stack with lean.&lt;/p&gt;
 
-&lt;h2 id=&#34;front-end:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Front-End:&lt;/h2&gt;
+&lt;h2 id=&#34;front-end&#34;&gt;Front-End:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Desktop: Electron&lt;/li&gt;
 &lt;li&gt;Mobile: Ionic + Cordova Plugin&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;design:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Design&lt;/h2&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
 
 &lt;p&gt;Material-Design for Angularjs&amp;rsquo;s Desktop apps.
 Ionic-Material for Angularjs&amp;rsquo;s Mobile apps.&lt;/p&gt;
 
-&lt;h2 id=&#34;back-end:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Back-End&lt;/h2&gt;
+&lt;h2 id=&#34;back-end&#34;&gt;Back-End&lt;/h2&gt;
 
 &lt;p&gt;Laravel for normal HTTP REST API.
 Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt;/p&gt;
@@ -598,7 +598,7 @@ Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt
 &lt;p&gt;RAML for generating SDK files both of front/back-end.
 Admiring that RAML1.0 is comming.&lt;/p&gt;
 
-&lt;h2 id=&#34;database:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Database&lt;/h2&gt;
+&lt;h2 id=&#34;database&#34;&gt;Database&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Postgresql(for gis) we like it very much.&lt;/li&gt;
@@ -608,7 +608,7 @@ Admiring that RAML1.0 is comming.&lt;/p&gt;
 &lt;p&gt;A developping project for old-age caring, in chinese is, 智康宝.
 &lt;a href=&#34;http://www.zkkj168.com/&#34;&gt;http://www.zkkj168.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;embeded-software:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Embeded Software&lt;/h2&gt;
+&lt;h2 id=&#34;embeded-software&#34;&gt;Embeded Software&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;stm32&lt;/li&gt;
@@ -616,15 +616,15 @@ Admiring that RAML1.0 is comming.&lt;/p&gt;
 &lt;li&gt;Arm M Series&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-the-hope-for-lean:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;1.The Hope for lean&lt;/h1&gt;
+&lt;h1 id=&#34;1-the-hope-for-lean&#34;&gt;1.The Hope for lean&lt;/h1&gt;
 
-&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
+&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
 
 &lt;p&gt;It&amp;rsquo;s good for faster UI building.
 Maybe this hope is for a serial of Develop Tools.
 Only for a framework, a best yeoman-generator is enough.&lt;/p&gt;
 
-&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
+&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
 
 &lt;p&gt;You know, the Angulajs&amp;rsquo;s Team is supporting RAML too.
 It&amp;rsquo;s good for the Restful API &amp;amp; Better consistency of json data.
@@ -633,7 +633,7 @@ raml2html is good.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install raml2html --save
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
+&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
 
 &lt;p&gt;we pursuing the next generation.&lt;/p&gt;
 </description>
@@ -653,18 +653,18 @@ raml2html is good.&lt;/p&gt;
 
 &lt;p&gt;[2] &lt;a href=&#34;http://www.douban.com/note/245109923&#34;&gt;Markdown+Pandoc：A light-weight solution for academia writing&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;0-写作置标语言选择:10ffc48504933aca0d803008677be65d&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
+&lt;h1 id=&#34;0-写作置标语言选择&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;0-1-已选择:10ffc48504933aca0d803008677be65d&#34;&gt;0.1 已选择&lt;/h2&gt;
+&lt;h2 id=&#34;0-1-已选择&#34;&gt;0.1 已选择&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown&lt;/li&gt;
 &lt;li&gt;sagemath&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-写作实用工具:10ffc48504933aca0d803008677be65d&#34;&gt;1.写作实用工具&lt;/h1&gt;
+&lt;h1 id=&#34;1-写作实用工具&#34;&gt;1.写作实用工具&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-1-格式转化利器-pacdoc:10ffc48504933aca0d803008677be65d&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
+&lt;h2 id=&#34;1-1-格式转化利器-pacdoc&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;&lt;/p&gt;
 
@@ -689,13 +689,13 @@ pandoc test1.md -s -o test1.pdf
       <guid>https://ryanemax.github.io/study/psychology/learn/</guid>
       <description>
 
-&lt;h1 id=&#34;心理学学习计划:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;《心理学学习计划》&lt;/h1&gt;
+&lt;h1 id=&#34;心理学学习计划&#34;&gt;《心理学学习计划》&lt;/h1&gt;
 
-&lt;h1 id=&#34;基础书籍学习:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;基础书籍学习&lt;/h1&gt;
+&lt;h1 id=&#34;基础书籍学习&#34;&gt;基础书籍学习&lt;/h1&gt;
 
-&lt;h1 id=&#34;易学与心理学:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;易学与心理学&lt;/h1&gt;
+&lt;h1 id=&#34;易学与心理学&#34;&gt;易学与心理学&lt;/h1&gt;
 
-&lt;h2 id=&#34;人物:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;人物&lt;/h2&gt;
+&lt;h2 id=&#34;人物&#34;&gt;人物&lt;/h2&gt;
 
 &lt;p&gt;真实姓名：姜祖桐
 百度百科： &lt;a href=&#34;http://baike.baidu.com/link?url=-iI6YTYHU256bKvWXQ56FPyDIA2L-Pb966fWQDD8vIaNouL50PayRtErtTkgyTo1ZrSA3-YVB6ORLsLjWK5Jn_&#34;&gt;http://baike.baidu.com/link?url=-iI6YTYHU256bKvWXQ56FPyDIA2L-Pb966fWQDD8vIaNouL50PayRtErtTkgyTo1ZrSA3-YVB6ORLsLjWK5Jn_&lt;/a&gt;
@@ -705,12 +705,12 @@ pandoc test1.md -s -o test1.pdf
 
 &lt;p&gt;姜祖桐，研究员、教授级高工。1943年出生于江苏南通，1968年毕业于山东大学物理系。长期从事企业管理工作，先后荣获辽宁省劳动模范称号和首届全国“五一”劳动勋章。曾任鞍山市电子陶瓷公司总经理、鞍山市副市长、辽宁省驻港窗翻公司总裁、辽宁能源投资集团公司副董事长等职。现兼任国际易学联合会顾问、东方国际易学研究院董事；大连理工大学教授中国物理学会电介质物理委员会委员等职。积长期的工作经验和业余的科学研究出版了《H管理理论》、《H自组织理论》、《周易与人格》等专著。新作《易学心理学》是《周易与人格》的续编，著者结合管理实践，用易学公理创建具有中国特色的心理学理论；对中国传统科学现代化作了开创性探索。&lt;/p&gt;
 
-&lt;h2 id=&#34;博客:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;博客&lt;/h2&gt;
+&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
 
 &lt;p&gt;《周易心理学》(1) 东方智慧的缩影——《易经》 童仆 &lt;a href=&#34;http://blog.sina.com.cn/s/blog_4bc7d2a7010008me.html&#34;&gt;http://blog.sina.com.cn/s/blog_4bc7d2a7010008me.html&lt;/a&gt;
 《周易心理学》(4) 易学人性学 童仆&lt;/p&gt;
 
-&lt;h2 id=&#34;代表书籍:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;代表书籍&lt;/h2&gt;
+&lt;h2 id=&#34;代表书籍&#34;&gt;代表书籍&lt;/h2&gt;
 
 &lt;p&gt;《易经》与现代心理学的神奇吻合，促使笔者完成了《H管理理论》、《H组组织理论》、《周易与人格》和《易学心理学》四部专著，开发了具有较高信度和效度的CTP复合三维人格测评系统，该系统目前正在实践中谨慎应用。&lt;/p&gt;
 
@@ -720,7 +720,7 @@ pandoc test1.md -s -o test1.pdf
 
 &lt;p&gt;H自组织理论：物质、反物质与真空（2001）==》 &lt;a href=&#34;http://search.sina.com.cn/?c=blog&amp;amp;q=%D2%D7%D1%A7%D3%EE%D6%E6%D1%A7&amp;amp;by=tag&#34;&gt;易学宇宙学（2016 待发售）&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;心理咨询师二级证书:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;心理咨询师二级证书&lt;/h1&gt;
+&lt;h1 id=&#34;心理咨询师二级证书&#34;&gt;心理咨询师二级证书&lt;/h1&gt;
 </description>
     </item>
     
@@ -732,17 +732,17 @@ pandoc test1.md -s -o test1.pdf
       <guid>https://ryanemax.github.io/study/psychology/value/</guid>
       <description>
 
-&lt;h1 id=&#34;巴甫诺夫-动力定型:91e5c0b5baf550c463fc4c504f7b39af&#34;&gt;巴甫诺夫——动力定型&lt;/h1&gt;
+&lt;h1 id=&#34;巴甫诺夫-动力定型&#34;&gt;巴甫诺夫——动力定型&lt;/h1&gt;
 
-&lt;h2 id=&#34;生理机制:91e5c0b5baf550c463fc4c504f7b39af&#34;&gt;生理机制&lt;/h2&gt;
+&lt;h2 id=&#34;生理机制&#34;&gt;生理机制&lt;/h2&gt;
 
 &lt;p&gt;在日常生活中，如果一个人比较稳定地从事某一活动，客观刺激的系统经常按照一定前后和强弱作用于有机体。由于大脑皮层有系统性活动的机能，能够把这些刺激有规律地协调成为一个条件反射链索系统。动力定型的特点是当它已经形成后，一旦有关刺激物作用于有机体，条件反射的链索系统就自动地出现。所以动力定型又称自动化了的条件反射系统。&lt;/p&gt;
 
-&lt;h2 id=&#34;意义:91e5c0b5baf550c463fc4c504f7b39af&#34;&gt;意义&lt;/h2&gt;
+&lt;h2 id=&#34;意义&#34;&gt;意义&lt;/h2&gt;
 
 &lt;p&gt;巴甫洛夫的动力定型的概念，为心理学研究习惯和熟练技巧的养成提供了生理学的说明。动力定型形成后可以大大节省我们的脑力和体力上的消耗，减轻我们的负担而提高功效。人们在生活中养成的习惯、技能以及生活方式等等，在生理机制上都是动力定型的建立。&lt;/p&gt;
 
-&lt;h2 id=&#34;应用:91e5c0b5baf550c463fc4c504f7b39af&#34;&gt;应用&lt;/h2&gt;
+&lt;h2 id=&#34;应用&#34;&gt;应用&lt;/h2&gt;
 
 &lt;p&gt;篮球的投篮，就像是炮弹的发射。首先发射架要保持相对的稳定，才可能打的准。也就是要求有稳定的动力定型。简单划分的话，就是下盘功夫和上肢的动力定型。脚功是整个动力定型的基础，具体训练方法就不说了。&lt;/p&gt;
 
@@ -760,7 +760,7 @@ pandoc test1.md -s -o test1.pdf
       <guid>https://ryanemax.github.io/study/it/warneverchange/</guid>
       <description>
 
-&lt;h1 id=&#34;序言-战争从未改变-war-war-never-changes:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;序言：战争从未改变 War，War Never changes&lt;/h1&gt;
+&lt;h1 id=&#34;序言-战争从未改变-war-war-never-changes&#34;&gt;序言：战争从未改变 War，War Never changes&lt;/h1&gt;
 
 &lt;p&gt;关键字：战争 信息时代&lt;/p&gt;
 
@@ -804,11 +804,11 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;这是1987年9月14日从北京向海外发出的中国第一封电子邮件，揭开了中国的信息时代拉开了序幕。&lt;/p&gt;
 
-&lt;h1 id=&#34;开篇-信息科技战争-里程碑及个人介绍-团队介绍:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;开篇：信息科技战争 （里程碑及个人介绍，团队介绍）&lt;/h1&gt;
+&lt;h1 id=&#34;开篇-信息科技战争-里程碑及个人介绍-团队介绍&#34;&gt;开篇：信息科技战争 （里程碑及个人介绍，团队介绍）&lt;/h1&gt;
 
 &lt;p&gt;life in ANAS IT is about to change.&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的开采机械-谷歌-搜索引擎:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的开采机械——谷歌（搜索引擎）&lt;/h2&gt;
+&lt;h2 id=&#34;信息的开采机械-谷歌-搜索引擎&#34;&gt;信息的开采机械——谷歌（搜索引擎）&lt;/h2&gt;
 
 &lt;p&gt;关键字：谷歌 信息搜集&lt;/p&gt;
 
@@ -834,7 +834,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;那么到底是什么阻碍了国民正常使用互联网，GFW（中国国家防火墙），越过长城走向世界。&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的灰色领域-黑客之间的较量:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的灰色领域——黑客之间的较量&lt;/h2&gt;
+&lt;h2 id=&#34;信息的灰色领域-黑客之间的较量&#34;&gt;信息的灰色领域——黑客之间的较量&lt;/h2&gt;
 
 &lt;p&gt;关键字：恶意攻击、人肉搜索、盗版资源&lt;/p&gt;
 
@@ -862,7 +862,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;与之齐名的云服务平台也只有阿里云了，阿里云则是招安了一批以道哥为首年轻的天才黑客，组建了阿里云安全团队。&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的欺骗-伪造:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的欺骗——伪造&lt;/h2&gt;
+&lt;h2 id=&#34;信息的欺骗-伪造&#34;&gt;信息的欺骗——伪造&lt;/h2&gt;
 
 &lt;p&gt;关键词：金融诈骗 钓鱼 破坏&lt;/p&gt;
 
@@ -872,7 +872,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;2011-2013 又是三年，净网计划，国家网警部队建设趋于完善。&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的洪流-拒绝服务攻击:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的洪流——拒绝服务攻击&lt;/h2&gt;
+&lt;h2 id=&#34;信息的洪流-拒绝服务攻击&#34;&gt;信息的洪流——拒绝服务攻击&lt;/h2&gt;
 
 &lt;p&gt;关键词：无法抵御 刑事责任&lt;/p&gt;
 
@@ -905,7 +905,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;2015.8.11 Alphabet成立，google市值积累到全球第二大科技公司，成立了真正意义上的&lt;/p&gt;
 
-&lt;h1 id=&#34;主场-anas理念-团队构成-服务理念:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;主场：ANAS理念 （团队构成，服务理念）&lt;/h1&gt;
+&lt;h1 id=&#34;主场-anas理念-团队构成-服务理念&#34;&gt;主场：ANAS理念 （团队构成，服务理念）&lt;/h1&gt;
 
 &lt;p&gt;2010 运营代理网络游戏，第一桶金，半年收入200k&lt;/p&gt;
 
@@ -930,13 +930,13 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;2015.4.22 这一天，ANAS团队开始萌芽，是技术力量与商业头脑的碰撞，是灵感与&lt;/p&gt;
 
-&lt;h2 id=&#34;1-全方位的技术建设:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;1.全方位的技术建设&lt;/h2&gt;
+&lt;h2 id=&#34;1-全方位的技术建设&#34;&gt;1.全方位的技术建设&lt;/h2&gt;
 
-&lt;h3 id=&#34;设计:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;设计&lt;/h3&gt;
+&lt;h3 id=&#34;设计&#34;&gt;设计&lt;/h3&gt;
 
 &lt;p&gt;用户需求解耦，系统架构设计，UI/UX设计&lt;/p&gt;
 
-&lt;h3 id=&#34;开发:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;开发&lt;/h3&gt;
+&lt;h3 id=&#34;开发&#34;&gt;开发&lt;/h3&gt;
 
 &lt;p&gt;抵制违背原则的，一套通用技术解决方案完成所有的开发需求。&lt;/p&gt;
 
@@ -955,11 +955,11 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;java/obj-c 开发移动设备底层系统功能&lt;/p&gt;
 
-&lt;h3 id=&#34;测试:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;测试&lt;/h3&gt;
+&lt;h3 id=&#34;测试&#34;&gt;测试&lt;/h3&gt;
 
 &lt;p&gt;功能测试，压力测试，用户体验测试&lt;/p&gt;
 
-&lt;h3 id=&#34;运维:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;运维&lt;/h3&gt;
+&lt;h3 id=&#34;运维&#34;&gt;运维&lt;/h3&gt;
 
 &lt;p&gt;阿里云6台服务器，IDC机房2台服务器，UCloud及腾讯云服务器&lt;/p&gt;
 
@@ -973,21 +973,21 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;多台服务器管理如一台，主平台服务器双活备份，保证数据安全及稳定性。&lt;/p&gt;
 
-&lt;h3 id=&#34;安全:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;安全&lt;/h3&gt;
+&lt;h3 id=&#34;安全&#34;&gt;安全&lt;/h3&gt;
 
-&lt;h2 id=&#34;2-做解决方案-而不是程序-也不是外包:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;2.做解决方案，而不是程序、也不是外包&lt;/h2&gt;
+&lt;h2 id=&#34;2-做解决方案-而不是程序-也不是外包&#34;&gt;2.做解决方案，而不是程序、也不是外包&lt;/h2&gt;
 
 &lt;p&gt;信息科技公司要做的不是开发程序、承接外包，而是用科技方式解决实际问题。&lt;/p&gt;
 
 &lt;p&gt;技术是强有力的实现手段与工具，是用来解决实际问题的武器。&lt;/p&gt;
 
-&lt;h3 id=&#34;什么是企业信息化-什么是解决方案:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;什么是企业信息化，什么是解决方案？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是企业信息化-什么是解决方案&#34;&gt;什么是企业信息化，什么是解决方案？&lt;/h3&gt;
 
 &lt;p&gt;什么是企业信息化？我就讲个故事吧。&lt;/p&gt;
 
 &lt;p&gt;为正康公司提供的整套智慧养老平台的解决方案，是安纳斯团队成功达成合作的第一个大型项目。&lt;/p&gt;
 
-&lt;h3 id=&#34;经验不足的外包团队-将平台级别的需求做成了一个门户网站:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;经验不足的外包团队，将平台级别的需求做成了一个门户网站&lt;/h3&gt;
+&lt;h3 id=&#34;经验不足的外包团队-将平台级别的需求做成了一个门户网站&#34;&gt;经验不足的外包团队，将平台级别的需求做成了一个门户网站&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;我们与正康的相识，也算是惊心动魄。
 在九月初也是一次会场，主角是：郭博士 中国孤独症机构服务协会会长兼秘书长
@@ -1011,7 +1011,7 @@ could be acquired.&lt;/p&gt;
 同时警示钟总这次回去一定得和这个团队谈谈，平台必须尽快完善。
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;技术只是工具-提供可以实现客户所需的最终目标的解决方案-才是信息可以应该做的:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;技术只是工具，提供可以实现客户所需的最终目标的解决方案，才是信息可以应该做的&lt;/h3&gt;
+&lt;h3 id=&#34;技术只是工具-提供可以实现客户所需的最终目标的解决方案-才是信息可以应该做的&#34;&gt;技术只是工具，提供可以实现客户所需的最终目标的解决方案，才是信息可以应该做的&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;半个月过去了，我在钟总的朋友带领之下到了邵阳市，准备以朋友身份帮助钟总与对方技术团队交涉，协助他们完成平台的完善。
 
@@ -1038,9 +1038,9 @@ could be acquired.&lt;/p&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;邀请客户参与的开发方式-不仅赢得信赖-还能实现客户真正所要的信息化需求:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;邀请客户参与的开发方式，不仅赢得信赖，还能实现客户真正所要的信息化需求&lt;/h3&gt;
+&lt;h3 id=&#34;邀请客户参与的开发方式-不仅赢得信赖-还能实现客户真正所要的信息化需求&#34;&gt;邀请客户参与的开发方式，不仅赢得信赖，还能实现客户真正所要的信息化需求&lt;/h3&gt;
 
-&lt;h1 id=&#34;总结-感谢:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;总结：感谢&lt;/h1&gt;
+&lt;h1 id=&#34;总结-感谢&#34;&gt;总结：感谢&lt;/h1&gt;
 
 &lt;p&gt;到了最后，对于团队发展到今天的规模，我是欣慰的。&lt;/p&gt;
 
@@ -1072,9 +1072,9 @@ could be acquired.&lt;/p&gt;
       <guid>https://ryanemax.github.io/study/biology/takein/</guid>
       <description>
 
-&lt;h1 id=&#34;探究生物药剂-精神力-幻想相关的知识体系:f87df7dafac9ec7ae8ac6b30dd386af9&#34;&gt;探究生物药剂/精神力/幻想相关的知识体系&lt;/h1&gt;
+&lt;h1 id=&#34;探究生物药剂-精神力-幻想相关的知识体系&#34;&gt;探究生物药剂/精神力/幻想相关的知识体系&lt;/h1&gt;
 
-&lt;h1 id=&#34;cph4:f87df7dafac9ec7ae8ac6b30dd386af9&#34;&gt;CPH4&lt;/h1&gt;
+&lt;h1 id=&#34;cph4&#34;&gt;CPH4&lt;/h1&gt;
 
 &lt;p&gt;电影 超体&lt;/p&gt;
 
@@ -1082,13 +1082,13 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;时间的证明性&lt;/p&gt;
 
-&lt;h1 id=&#34;dmt:f87df7dafac9ec7ae8ac6b30dd386af9&#34;&gt;DMT&lt;/h1&gt;
+&lt;h1 id=&#34;dmt&#34;&gt;DMT&lt;/h1&gt;
 
 &lt;p&gt;死藤水核心物质，有相关论文参考&lt;/p&gt;
 
 &lt;p&gt;宗教使用，效果类似致幻剂&lt;/p&gt;
 
-&lt;h1 id=&#34;lsp:f87df7dafac9ec7ae8ac6b30dd386af9&#34;&gt;LSP&lt;/h1&gt;
+&lt;h1 id=&#34;lsp&#34;&gt;LSP&lt;/h1&gt;
 
 &lt;p&gt;致幻剂，毒品&lt;/p&gt;
 </description>
@@ -1096,78 +1096,60 @@ could be acquired.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://ryanemax.github.io/study/occult/mindpower/</link>
+      <link>https://ryanemax.github.io/study/graduate/english/guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanemax.github.io/study/occult/mindpower/</guid>
+      <guid>https://ryanemax.github.io/study/graduate/english/guide/</guid>
       <description>
 
-&lt;h1 id=&#34;探究归纳精神力相关的知识体系:f20721765ee26c39ca5476edc5a11d37&#34;&gt;探究归纳精神力相关的知识体系&lt;/h1&gt;
-
-&lt;h1 id=&#34;目的:f20721765ee26c39ca5476edc5a11d37&#34;&gt;目的&lt;/h1&gt;
+&lt;h1 id=&#34;2017考研英语规划-70分&#34;&gt;2017考研英语规划——70分&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;解决10000小时理论实践过程中，注意力与意志力的培养问题&lt;/li&gt;
-&lt;li&gt;对自身与自然的不断感悟与探索，引导大家更加高效得控制身心，管理自身效能&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;讲师 肖秀荣&lt;/li&gt;
 
-&lt;h1 id=&#34;注意:f20721765ee26c39ca5476edc5a11d37&#34;&gt;注意！&lt;/h1&gt;
+&lt;li&gt;&lt;p&gt;黑名单 刘一男&lt;/p&gt;&lt;/li&gt;
 
-&lt;ul&gt;
-&lt;li&gt;愿力/意志力、精神力/意识区别
+&lt;li&gt;&lt;p&gt;课程试听&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;愿力，佛教语，誓愿的力量。泛指意愿之力。&lt;/li&gt;
-&lt;li&gt;愿力，willpower，解释为I Will, I Won&amp;rsquo;t, I Want.&lt;/li&gt;
-&lt;li&gt;意志力，人类的一种精神，大多来自于愿力，也可以靠纯精神力转换。&lt;/li&gt;
-&lt;li&gt;精神力，mindpower，对自然及概念思维感知的能力，简称“精力”。&lt;/li&gt;
-&lt;li&gt;精神力，又称意识，consciousness，即意念，为生物体脑组织所释放的一种不可见的力量。世界上很多科学都在以精神力为研究主题。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ke.qq.com/course/110651#term_id=100118483&#34;&gt;2017考研英语复习规划&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ke.qq.com/course/105966#term_id=100111874&#34;&gt;2017考研英语基础班—夏徛荣&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;修真，即感悟自然，修身养性&lt;/li&gt;
-&lt;li&gt;建立对精神力完整正确的知识体系前，切忌冥想！&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;易经-道家的相关体系:f20721765ee26c39ca5476edc5a11d37&#34;&gt;易经/道家的相关体系&lt;/h1&gt;
-
-&lt;p&gt;易经一直是神秘学中最客观的对道的描述与讲解，只叙述道，不控制思维。&lt;/p&gt;
+&lt;h1 id=&#34;考研英语复习安排&#34;&gt;考研英语复习安排&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;系统性 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;实用性 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;主观性 0/5&lt;/li&gt;
-&lt;li&gt;客观性 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;佛学-禅宗-瑜伽:f20721765ee26c39ca5476edc5a11d37&#34;&gt;佛学/禅宗/瑜伽&lt;/h1&gt;
-
-&lt;h1 id=&#34;精神力修炼法-第17次修订:f20721765ee26c39ca5476edc5a11d37&#34;&gt;《精神力修炼法 第17次修订》&lt;/h1&gt;
-
-&lt;p&gt;总体评价是一门较为低级的修炼法门，仅仅是加入了主观发散体验的描述，可读性较好，才受到了普通网民的喜爱与认可。&lt;/p&gt;
-
-&lt;p&gt;作者仅仅几年的浅薄认识，是无法成为值得拜读的著作的，所以不推荐将其作为入门书籍，当成小说涉猎即可。&lt;/p&gt;
+&lt;li&gt;热身阶段
 
 &lt;ul&gt;
-&lt;li&gt;系统性 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;实用度 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;主观性 &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;客观性 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;时间 3-6月&lt;/li&gt;
+&lt;li&gt;目标 了解考研政治的基本情况，看真题，熟悉政治语言&lt;/li&gt;
+&lt;li&gt;用书 《精讲精练》《讲真题》&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;强化阶段
+
+&lt;ul&gt;
+&lt;li&gt;时间 6-10月&lt;/li&gt;
+&lt;li&gt;目标 打好选择题基础&lt;/li&gt;
+&lt;li&gt;用书 《精讲精练》《讲真题》《1000题》&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;冲刺阶段
+
+&lt;ul&gt;
+&lt;li&gt;时间 11-12月初&lt;/li&gt;
+&lt;li&gt;目标 选择题查漏补缺，分析题重点复习，时政当代&lt;/li&gt;
+&lt;li&gt;用书 《知识点摘要》《形势与政策及当代》《考点预测（背诵版）》《冲刺8套卷》&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;临考阶段
+
+&lt;ul&gt;
+&lt;li&gt;时间 考前15-20天&lt;/li&gt;
+&lt;li&gt;目标 全面背诵分析题&lt;/li&gt;
+&lt;li&gt;用书 《终极预测4套卷》&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;源于一位ID为“死神的守护神”的中国网民，以自己多年对精神力的感受和经验总结成册。&lt;/p&gt;
-
-&lt;p&gt;主观的概念太多，缺少客观性，导致缺乏对精神力知识体系的建设。&lt;/p&gt;
-
-&lt;p&gt;作者意识到之前文档缺点之后，开始在第17次修订中，删除了主观的发散思维，注重客观叙述，让读者更加重视自身的感悟，而非一味去刻板寻找书中的文字描述。&lt;/p&gt;
-
-&lt;h1 id=&#34;自己的总结:f20721765ee26c39ca5476edc5a11d37&#34;&gt;自己的总结&lt;/h1&gt;
-
-&lt;p&gt;感悟自然的不同阶段或称修炼精神力
-- 修身
-- 修心
-- 修性
-- 悟情
-- 悟理
-- 悟道&lt;/p&gt;
 </description>
     </item>
     

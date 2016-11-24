@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,9 +108,9 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="一-基础环境选择及搭建:1decd4c033627886bb1bb9c7761b8119">一、基础环境选择及搭建</h1>
+<h1 id="一-基础环境选择及搭建">一、基础环境选择及搭建</h1>
 
-<h2 id="1-支持硬件设备列表:1decd4c033627886bb1bb9c7761b8119">1.支持硬件设备列表：</h2>
+<h2 id="1-支持硬件设备列表">1.支持硬件设备列表：</h2>
 
 <p><a href="http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type">http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type</a></p>
 
@@ -139,17 +139,17 @@ window.onload=function(){
 <p>番茄dualwan：
 <a href="http://detail.1688.com/offer/1277654521.html">http://detail.1688.com/offer/1277654521.html</a></p>
 
-<h2 id="2-系统安装:1decd4c033627886bb1bb9c7761b8119">2.系统安装</h2>
+<h2 id="2-系统安装">2.系统安装</h2>
 
 <p>设备选型：Newifi Mini Y1版本
 系统选型：小云xCloud V2.1.0.5900
 安装工具：路由助手 1.0.13</p>
 
-<h2 id="3-开启ssh权限:1decd4c033627886bb1bb9c7761b8119">3.开启SSH权限</h2>
+<h2 id="3-开启ssh权限">3.开启SSH权限</h2>
 
 <p>高级设置-系统-管理权，分别设置Lan/Wan两个ssh访问权限</p>
 
-<h2 id="4-登录配置opkg:1decd4c033627886bb1bb9c7761b8119">4.登录配置opkg</h2>
+<h2 id="4-登录配置opkg">4.登录配置opkg</h2>
 
 <p><strong>libc安装</strong></p>
 
@@ -187,7 +187,7 @@ src/gz barrier_breaker_telephony http://mirrors.ustc.edu.cn/openwrt/barrier_brea
 ## opkg.conf end
 </code></pre>
 
-<h2 id="5-opkg常用命令:1decd4c033627886bb1bb9c7761b8119">5.opkg常用命令</h2>
+<h2 id="5-opkg常用命令">5.opkg常用命令</h2>
 
 <pre><code class="language-bash">Package Manipulation:
         update                  Update list of available packages
@@ -229,9 +229,9 @@ opkg install openvpn-nossl
 opkg install /tmp/wget_openvpn.ipk
 </code></pre>
 
-<h1 id="二-进阶配置:1decd4c033627886bb1bb9c7761b8119">二、进阶配置</h1>
+<h1 id="二-进阶配置">二、进阶配置</h1>
 
-<h2 id="系统清理:1decd4c033627886bb1bb9c7761b8119">系统清理</h2>
+<h2 id="系统清理">系统清理</h2>
 
 <pre><code class="language-bash">## opkg  清理
 rm -r /tmp/opkg-*

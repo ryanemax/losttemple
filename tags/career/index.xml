@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/career/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://ryanemax.github.io/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>个人职业生涯规划说明</title>
+      <link>https://ryanemax.github.io/career/README/</link>
+      <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/career/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;简历档案&#34;&gt;简历档案&lt;/h1&gt;
+
+&lt;h2 id=&#34;档案书写平台&#34;&gt;档案书写平台&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;领英 简历书写
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/21308578&#34;&gt;如何有效利用 LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;脉脉 职场社交&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;简历生成&#34;&gt;简历生成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官方英文简历，导出PDF &lt;a href=&#34;https://www.linkedin.com/help/linkedin/answer/4281/printing-a-profile-and-recommendations?lang=en&#34;&gt;Printing a Profile and Recommendations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;领英API生成H5简历应用开发&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

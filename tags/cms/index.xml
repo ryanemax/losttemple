@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cms on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/cms/</link>
-    <description>Recent content in Cms on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/cms/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Mon, 23 May 2016 20:22:22 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/cms/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -27,11 +26,11 @@
       <guid>https://ryanemax.github.io/cookbook/cms/homesite/</guid>
       <description>
 
-&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
+&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
 
-&lt;h1 id=&#34;简介:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
-&lt;h2 id=&#34;项目背景:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;项目背景&lt;/h2&gt;
+&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
 
 &lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
 
@@ -39,7 +38,7 @@
 
 &lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;技术总览:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;技术总览&lt;/h2&gt;
+&lt;h2 id=&#34;技术总览&#34;&gt;技术总览&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;hugo&lt;/li&gt;
@@ -57,9 +56,9 @@
 &lt;li&gt;google ads&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;系统架构:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;系统架构&lt;/h1&gt;
+&lt;h1 id=&#34;系统架构&#34;&gt;系统架构&lt;/h1&gt;
 
-&lt;h2 id=&#34;静态页面生成模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;静态页面生成模块&lt;/h2&gt;
+&lt;h2 id=&#34;静态页面生成模块&#34;&gt;静态页面生成模块&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Themes 主题机制&lt;/li&gt;
@@ -68,22 +67,22 @@
 &lt;li&gt;Contents 内容格式化&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;信息采集聚合模块-aggregator:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
+&lt;h2 id=&#34;信息采集聚合模块-aggregator&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;RSS 采集&lt;/li&gt;
 &lt;li&gt;Twiter 采集&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;内容筛选解析格式化模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
+&lt;h2 id=&#34;内容筛选解析格式化模块&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;用户审查发布模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;用户审查发布模块&lt;/h2&gt;
+&lt;h2 id=&#34;用户审查发布模块&#34;&gt;用户审查发布模块&lt;/h2&gt;
 
-&lt;h2 id=&#34;ugc用户自主写文模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
+&lt;h2 id=&#34;ugc用户自主写文模块&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
@@ -100,13 +99,13 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-cms/</guid>
       <description>
 
-&lt;h1 id=&#34;ng2-seo优化简介:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
+&lt;h1 id=&#34;ng2-seo优化简介&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
 
 &lt;p&gt;ng2应用实现seo优化的方式有多种
 - universial 后端渲染
 - php 后端模拟渲染&lt;/p&gt;
 
-&lt;h1 id=&#34;blackstar-cms-ng2:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
+&lt;h1 id=&#34;blackstar-cms-ng2&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
 
 &lt;p&gt;技术选型
 - angular2-seed
@@ -124,7 +123,7 @@
 
 &lt;p&gt;star 1 on &lt;a href=&#34;https://github.com/Blackstar-CMS/samples&#34;&gt;https://github.com/Blackstar-CMS/samples&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;respond-5-2-ng1:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
+&lt;h1 id=&#34;respond-5-2-ng1&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
 
 &lt;p&gt;技术选型
 - Bootstrap 3
@@ -152,7 +151,7 @@
       <guid>https://ryanemax.github.io/cookbook/cms/cmswithlaravel/</guid>
       <description>
 
-&lt;h1 id=&#34;october-cms:0ca427d6515b13555446207bc36d4b68&#34;&gt;October CMS&lt;/h1&gt;
+&lt;h1 id=&#34;october-cms&#34;&gt;October CMS&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://octobercms.com/&#34;&gt;https://octobercms.com/&lt;/a&gt;
 &lt;a href=&#34;https://github.com/octobercms/october&#34;&gt;https://github.com/octobercms/october&lt;/a&gt;&lt;/p&gt;
@@ -165,7 +164,7 @@
 &lt;li&gt;32 Themes&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;doptor:0ca427d6515b13555446207bc36d4b68&#34;&gt;Doptor&lt;/h1&gt;
+&lt;h1 id=&#34;doptor&#34;&gt;Doptor&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Doptor/Doptor&#34;&gt;https://github.com/Doptor/Doptor&lt;/a&gt;&lt;/p&gt;
 
@@ -177,7 +176,7 @@
 &lt;li&gt;&lt;p&gt;Theme少需要定制&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;refer-to-a-list-of-cmss-built-with-laravel:0ca427d6515b13555446207bc36d4b68&#34;&gt;Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;refer-to-a-list-of-cmss-built-with-laravel&#34;&gt;Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo;&lt;/h1&gt;
 
 &lt;p&gt;from: &lt;a href=&#34;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&#34;&gt;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&lt;/a&gt;&lt;/p&gt;
 

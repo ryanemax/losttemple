@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Study/Ocult on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/study/ocult/</link>
-    <description>Recent content in Study/Ocult on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/study/ocult/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Mon, 19 Oct 2015 11:39:42 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/study/ocult/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/study/occult/learnichang/</guid>
       <description>
 
-&lt;h2 id=&#34;学习方法:6c71000d5f164d146f6e41ee7267a521&#34;&gt;学习方法&lt;/h2&gt;
+&lt;h2 id=&#34;学习方法&#34;&gt;学习方法&lt;/h2&gt;
 
 &lt;p&gt;六经注我，我注六经。&lt;/p&gt;
 
@@ -28,7 +27,7 @@
 &lt;li&gt;判断归纳自己的注释&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;学习书目:6c71000d5f164d146f6e41ee7267a521&#34;&gt;学习书目&lt;/h2&gt;
+&lt;h2 id=&#34;学习书目&#34;&gt;学习书目&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;易经

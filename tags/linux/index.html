@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -90,7 +90,9 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    systemd-journal进程占用100%CPU，硬盘磁盘无法读取 原因 journalctl 查看获得信息 ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790) 解决办法 https://bbs.archlinux.org/viewtopic.php?id=211365 ##blacklisted sp5100_tc 
+     systemd-journal进程占用100%CPU，硬盘磁盘无法读取 原因 journalctl 查看获得信息
+ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790)  解决办法 https://bbs.archlinux.org/viewtopic.php?id=211365
+##blacklisted sp5100_ 
   </section>
 </article>
 
@@ -105,7 +107,8 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下 压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz   <a href="/cookbook/devops/linux-tar/">Read More...</a>
+    Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2  高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下
+压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz  <a href="/cookbook/devops/linux-tar/">Read More...</a>
   </section>
 </article>
 
@@ -120,7 +123,8 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    #发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切换USB2.0/USB3.0接口 1.fdisk #option   <a href="/cookbook/devops/archlinux/">Read More...</a>
+    #发行版本 Arch Linux
+0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切换USB2.0/USB3.0接口  1.fdisk #option  <a href="/cookbook/devops/archlinux/">Read More...</a>
   </section>
 </article>
 
@@ -135,7 +139,9 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    apt-get更新问题：Failed to Fetch : http:// 解决方案： cd /var/lib/apt/lists/partial rm * sshd允许Root登录 cd /etc/ssh vim sshd_config PermitRootLogin yes service ssh restart 中国国内源更换 https://lug.ustc.edu.cn/repogen/ # testing 源 deb  
+     apt-get更新问题：Failed to Fetch : http:// 解决方案：
+cd /var/lib/apt/lists/partial rm *  sshd允许Root登录 cd /etc/ssh vim sshd_config PermitRootLogin yes service ssh restart  中国国内源更换 https://lug.ustc.edu.cn/repogen/
+# testing 源 d 
   </section>
 </article>
 
@@ -150,7 +156,9 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    #FAQ:Run as root user ##Soluution: vim /etc/bin/steam /Cannot #FAQ:libGL error: failed to load driver: r600 ##Solution: http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html 
+    #FAQ:Run as root user ##Soluution:
+vim /etc/bin/steam /Cannot  #FAQ:libGL error: failed to load driver: r600
+##Solution: http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html 
   </section>
 </article>
 
@@ -165,7 +173,9 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后client响应，从而保持连接 ClientAliveCountMax 3 #server发出请求后，客户端没有响应得次数达到3，就自动断开连接，正常情况下，client不会不响应 2.修改client端的etc/ssh/ssh_config添加 
+    1.修改server端的etc/ssh/sshd_config
+复制代码 代码如下:
+ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后client响应，从而保持连接 ClientAliveCountMax 3 #server发出请求后，客户端没有响应得次数达到3，就自动断开连接，正常情况下，client不会不响应  2.修改client端的etc/ssh/ssh_config添 
   </section>
 </article>
 

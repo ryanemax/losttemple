@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wget on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/wget/</link>
-    <description>Recent content in Wget on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/wget/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Tue, 27 Oct 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/wget/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,22 +17,22 @@
       <guid>https://ryanemax.github.io/cookbook/devops/wgetsite/</guid>
       <description>
 
-&lt;h1 id=&#34;wget整站模板抓取案例及wget参数详解:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;《wget整站模板抓取案例及wget参数详解》&lt;/h1&gt;
+&lt;h1 id=&#34;wget整站模板抓取案例及wget参数详解&#34;&gt;《wget整站模板抓取案例及wget参数详解》&lt;/h1&gt;
 
-&lt;h1 id=&#34;总结-项目github地址:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;总结、项目Github地址&lt;/h1&gt;
+&lt;h1 id=&#34;总结-项目github地址&#34;&gt;总结、项目Github地址&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/anasinc/getsite&#34;&gt;https://github.com/anasinc/getsite&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;一-实战整站抓取案例:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;一、实战整站抓取案例&lt;/h1&gt;
+&lt;h1 id=&#34;一-实战整站抓取案例&#34;&gt;一、实战整站抓取案例&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-站点抓取:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;1.站点抓取&lt;/h2&gt;
+&lt;h2 id=&#34;1-站点抓取&#34;&gt;1.站点抓取&lt;/h2&gt;
 
-&lt;h3 id=&#34;方式一-命令行:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;方式一：命令行&lt;/h3&gt;
+&lt;h3 id=&#34;方式一-命令行&#34;&gt;方式一：命令行&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget -r -p -np -k -e robots=off http://www.han-mei.com
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;方式二-shell脚本:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;方式二：shell脚本&lt;/h3&gt;
+&lt;h3 id=&#34;方式二-shell脚本&#34;&gt;方式二：shell脚本&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
 ## shell脚本getsite.sh
@@ -48,14 +47,14 @@ wget -r -p -np -k -e robots=off ${targetSite}
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;2-目录迁移:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;2.目录迁移&lt;/h2&gt;
+&lt;h2 id=&#34;2-目录迁移&#34;&gt;2.目录迁移&lt;/h2&gt;
 
 &lt;p&gt;将下载的www.xxx.com目录复制到/var/www/www.xxx.com目录&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mv www.xxx.com /var/www/www.xxx.com
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;3-nginx解析:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;3.nginx解析&lt;/h2&gt;
+&lt;h2 id=&#34;3-nginx解析&#34;&gt;3.nginx解析&lt;/h2&gt;
 
 &lt;p&gt;解析nginx的测试网站根目录到改目录即可&lt;/p&gt;
 
@@ -65,7 +64,7 @@ ln -s ../site-available/www.xxx.com
 service nginx reload
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;4-后续工作:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;4.后续工作&lt;/h2&gt;
+&lt;h2 id=&#34;4-后续工作&#34;&gt;4.后续工作&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;替换重复的js/css文件用微擎header&lt;/li&gt;
@@ -73,7 +72,7 @@ service nginx reload
 &lt;li&gt;精简再精简抽象修改成可用的微擎门户模板&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;二-整站递归抓取参数解释:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;二、整站递归抓取参数解释&lt;/h1&gt;
+&lt;h1 id=&#34;二-整站递归抓取参数解释&#34;&gt;二、整站递归抓取参数解释&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## 普通
 wget -r -p -np -k http://doc.code365.net/Manual/FreeBSD_Arch_HandBook/
@@ -97,7 +96,7 @@ wget -r -p -np -k -e robots=off http://www.han-mei.com
 
 &lt;p&gt;-U &amp;ldquo;Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6&amp;rdquo;  伪造agent信息&lt;/p&gt;
 
-&lt;h1 id=&#34;三-模拟user-agent:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;三、模拟USER-AGENT&lt;/h1&gt;
+&lt;h1 id=&#34;三-模拟user-agent&#34;&gt;三、模拟USER-AGENT&lt;/h1&gt;
 
 &lt;p&gt;Mask User Agent and Display wget like Browser Using wget –user-agent&lt;/p&gt;
 
@@ -106,7 +105,7 @@ wget -r -p -np -k -e robots=off http://www.han-mei.com
 &lt;pre&gt;&lt;code&gt;$ wget --user-agent=&amp;quot;Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3&amp;quot; URL-TO-DOWNLOAD
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;四-技巧:d7206ffdc9e0414b47ce185a2ef14be7&#34;&gt;四、技巧&lt;/h1&gt;
+&lt;h1 id=&#34;四-技巧&#34;&gt;四、技巧&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ wget -r -np -nd http://example.com/packages/
 这条命令可以下载 http://example.com 网站上 packages 目录中的所有文件。其中，-np

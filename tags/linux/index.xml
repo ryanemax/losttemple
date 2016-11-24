@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/linux/</link>
-    <description>Recent content in Linux on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/linux/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Fri, 13 May 2016 21:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,16 +17,16 @@
       <guid>https://ryanemax.github.io/faq/archfaq/</guid>
       <description>
 
-&lt;h1 id=&#34;systemd-journal进程占用100-cpu-硬盘磁盘无法读取:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;systemd-journal进程占用100%CPU，硬盘磁盘无法读取&lt;/h1&gt;
+&lt;h1 id=&#34;systemd-journal进程占用100-cpu-硬盘磁盘无法读取&#34;&gt;systemd-journal进程占用100%CPU，硬盘磁盘无法读取&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;原因&lt;/h2&gt;
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
 
 &lt;p&gt;journalctl 查看获得信息&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;解决办法:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;解决办法&lt;/h2&gt;
+&lt;h2 id=&#34;解决办法&#34;&gt;解决办法&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=211365&#34;&gt;https://bbs.archlinux.org/viewtopic.php?id=211365&lt;/a&gt;&lt;/p&gt;
 
@@ -48,9 +47,9 @@ blacklist sp5100_tco
       <guid>https://ryanemax.github.io/cookbook/devops/linux-tar/</guid>
       <description>
 
-&lt;h1 id=&#34;linux最佳压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
+&lt;h1 id=&#34;linux最佳压缩方式&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;常用压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;常用压缩方式&lt;/h2&gt;
+&lt;h2 id=&#34;常用压缩方式&#34;&gt;常用压缩方式&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
 tar -czvf ***.tar.gz
@@ -60,11 +59,11 @@ tar -xzvf ***.tar.gz
 tar -xjvf ***.tar.bz2
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;高压缩率方式:75faa320f80344dacc83083e472c77ff&#34;&gt;高压缩率方式&lt;/h2&gt;
+&lt;h2 id=&#34;高压缩率方式&#34;&gt;高压缩率方式&lt;/h2&gt;
 
 &lt;p&gt;gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下&lt;/p&gt;
 
-&lt;h3 id=&#34;压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz:75faa320f80344dacc83083e472c77ff&#34;&gt;压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz&lt;/h3&gt;
+&lt;h3 id=&#34;压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz&#34;&gt;压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
 #更简洁的方式
@@ -123,9 +122,9 @@ $tar -axf 1.tar.xz 1/a.bin
 &lt;p&gt;#发行版本
 Arch Linux&lt;/p&gt;
 
-&lt;h1 id=&#34;0-系统安装:f206309cfada2fa2891560ce0981d178&#34;&gt;0.系统安装&lt;/h1&gt;
+&lt;h1 id=&#34;0-系统安装&#34;&gt;0.系统安装&lt;/h1&gt;
 
-&lt;h2 id=&#34;0-dd:f206309cfada2fa2891560ce0981d178&#34;&gt;0.dd&lt;/h2&gt;
+&lt;h2 id=&#34;0-dd&#34;&gt;0.dd&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dd if=/dev/zero of=/dev/sda bs=512 count=1
 parted -s /dev/sda mklabel msdos
@@ -139,7 +138,7 @@ dd if=arch.iso of=/dev/sda
 #无法引导需要尝试切换USB2.0/USB3.0接口
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;1-fdisk:f206309cfada2fa2891560ce0981d178&#34;&gt;1.fdisk&lt;/h2&gt;
+&lt;h2 id=&#34;1-fdisk&#34;&gt;1.fdisk&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option fdisk
 #SATA3.0中/dev/sda的跳线一定要接在0第一个位置
@@ -170,18 +169,18 @@ gdisk /dev/sda
 #option cgdisk for UEFI/GPT
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;2-mkfs-ext4:f206309cfada2fa2891560ce0981d178&#34;&gt;2.mkfs.ext4&lt;/h2&gt;
+&lt;h2 id=&#34;2-mkfs-ext4&#34;&gt;2.mkfs.ext4&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkfs.ext4 /dev/sda1
 mkfs.ext4 /dev/sda2
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;3-mount:f206309cfada2fa2891560ce0981d178&#34;&gt;3.mount&lt;/h2&gt;
+&lt;h2 id=&#34;3-mount&#34;&gt;3.mount&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mount /dev/sda1 /mnt
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;4-install:f206309cfada2fa2891560ce0981d178&#34;&gt;4.install&lt;/h2&gt;
+&lt;h2 id=&#34;4-install&#34;&gt;4.install&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/pacman.d/mirrorlist
 pacstrap -i /mnt base net-tools
@@ -191,7 +190,7 @@ arch-chroot /mnt /bin/bash
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;5-launcher:f206309cfada2fa2891560ce0981d178&#34;&gt;5.Launcher&lt;/h2&gt;
+&lt;h2 id=&#34;5-launcher&#34;&gt;5.Launcher&lt;/h2&gt;
 
 &lt;p&gt;refer to &lt;a href=&#34;http://blog.lucode.net/linux/archlinux-install-tutorial.html&#34;&gt;http://blog.lucode.net/linux/archlinux-install-tutorial.html&lt;/a&gt;
 ###syslinux&lt;/p&gt;
@@ -200,7 +199,7 @@ arch-chroot /mnt /bin/bash
 vim /boot/syslinux/syslinux.cfg
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;pacman-source-configure:f206309cfada2fa2891560ce0981d178&#34;&gt;Pacman Source Configure&lt;/h1&gt;
+&lt;h1 id=&#34;pacman-source-configure&#34;&gt;Pacman Source Configure&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/pacman.conf
 #添加archlinuxcn源
@@ -214,7 +213,7 @@ Server   = http://repo.archlinuxcn.org/$arch
 Include = /etc/pacman.d/mirrorlist
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;window-manager:f206309cfada2fa2891560ce0981d178&#34;&gt;window manager&lt;/h1&gt;
+&lt;h1 id=&#34;window-manager&#34;&gt;window manager&lt;/h1&gt;
 
 &lt;p&gt;pacman -S xorg
 pacman -S xorg-xinit
@@ -230,7 +229,7 @@ cd /usr/share/awesome/themes/default
 cp -f ~/Desktop/hy1.png ./background.png
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;多屏幕:f206309cfada2fa2891560ce0981d178&#34;&gt;多屏幕&lt;/h1&gt;
+&lt;h1 id=&#34;多屏幕&#34;&gt;多屏幕&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#查看已接入显示器设备
 xrandr
@@ -241,7 +240,7 @@ xrandr --output eDP --mode 1366x768 --output VGA-0 --mode 1920x1080 --left-of eD
 
 &lt;p&gt;Mod4 + o //send to another screen&lt;/p&gt;
 
-&lt;h1 id=&#34;wifi:f206309cfada2fa2891560ce0981d178&#34;&gt;Wifi&lt;/h1&gt;
+&lt;h1 id=&#34;wifi&#34;&gt;Wifi&lt;/h1&gt;
 
 &lt;p&gt;wifi-menu&lt;/p&gt;
 
@@ -255,7 +254,7 @@ wpa_supplicant -D nl80211,wext -i wlp3s0 -c &amp;lt;(wpa_passphrase &amp;quot;Ka
 dhcpcd wlp3s0
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;terminal:f206309cfada2fa2891560ce0981d178&#34;&gt;Terminal&lt;/h1&gt;
+&lt;h1 id=&#34;terminal&#34;&gt;Terminal&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S terminator
 
@@ -263,15 +262,15 @@ dhcpcd wlp3s0
 ~/.config/terminator/config
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;sh命令行:f206309cfada2fa2891560ce0981d178&#34;&gt;sh命令行&lt;/h1&gt;
+&lt;h1 id=&#34;sh命令行&#34;&gt;sh命令行&lt;/h1&gt;
 
 &lt;p&gt;pacman -S zsh&lt;/p&gt;
 
-&lt;h1 id=&#34;font-beautify:f206309cfada2fa2891560ce0981d178&#34;&gt;Font &amp;amp; Beautify&lt;/h1&gt;
+&lt;h1 id=&#34;font-beautify&#34;&gt;Font &amp;amp; Beautify&lt;/h1&gt;
 
 &lt;p&gt;pacman -S wqy-microhei  wqy-zenhei&lt;/p&gt;
 
-&lt;h1 id=&#34;input-method:f206309cfada2fa2891560ce0981d178&#34;&gt;Input Method&lt;/h1&gt;
+&lt;h1 id=&#34;input-method&#34;&gt;Input Method&lt;/h1&gt;
 
 &lt;p&gt;pacman -S fcitx fcitx-qt5 fcitx-configtools&lt;/p&gt;
 
@@ -282,22 +281,22 @@ export XMODIFIERS=&amp;quot;@im=fcitx&amp;quot;
 fcitx -d &amp;amp;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;图书馆-笔记系统:f206309cfada2fa2891560ce0981d178&#34;&gt;图书馆&amp;amp;笔记系统&lt;/h1&gt;
+&lt;h1 id=&#34;图书馆-笔记系统&#34;&gt;图书馆&amp;amp;笔记系统&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S calibre
 pacman -S wiznote
 firefox http://www.leanote.com
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;financial-accounting:f206309cfada2fa2891560ce0981d178&#34;&gt;Financial &amp;amp; Accounting&lt;/h1&gt;
+&lt;h1 id=&#34;financial-accounting&#34;&gt;Financial &amp;amp; Accounting&lt;/h1&gt;
 
 &lt;p&gt;pacman -S gnucash&lt;/p&gt;
 
-&lt;h1 id=&#34;develop-tools:f206309cfada2fa2891560ce0981d178&#34;&gt;Develop Tools&lt;/h1&gt;
+&lt;h1 id=&#34;develop-tools&#34;&gt;Develop Tools&lt;/h1&gt;
 
 &lt;p&gt;pacman -S android-studio&lt;/p&gt;
 
-&lt;h1 id=&#34;security-tools:f206309cfada2fa2891560ce0981d178&#34;&gt;Security Tools&lt;/h1&gt;
+&lt;h1 id=&#34;security-tools&#34;&gt;Security Tools&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#渗透测试
 pacman -S metasploit
@@ -310,13 +309,13 @@ nessus优于openvas，openvas仅为开源免费替代方案
 https://wiki.archlinux.org/index.php/Nessus
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;multi-media:f206309cfada2fa2891560ce0981d178&#34;&gt;Multi Media&lt;/h1&gt;
+&lt;h1 id=&#34;multi-media&#34;&gt;Multi Media&lt;/h1&gt;
 
-&lt;h2 id=&#34;flash-plugin:f206309cfada2fa2891560ce0981d178&#34;&gt;Flash Plugin&lt;/h2&gt;
+&lt;h2 id=&#34;flash-plugin&#34;&gt;Flash Plugin&lt;/h2&gt;
 
 &lt;p&gt;pacman -S flashplugin&lt;/p&gt;
 
-&lt;h2 id=&#34;audio-driver:f206309cfada2fa2891560ce0981d178&#34;&gt;Audio Driver&lt;/h2&gt;
+&lt;h2 id=&#34;audio-driver&#34;&gt;Audio Driver&lt;/h2&gt;
 
 &lt;p&gt;pacman -S alsa-utils&lt;/p&gt;
 
@@ -335,12 +334,12 @@ alsactl init 1
 #reboot
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;数学建模:f206309cfada2fa2891560ce0981d178&#34;&gt;数学建模&lt;/h1&gt;
+&lt;h1 id=&#34;数学建模&#34;&gt;数学建模&lt;/h1&gt;
 
 &lt;p&gt;pacman -S sagemath
 &lt;a href=&#34;http://www.sagemath.org&#34;&gt;http://www.sagemath.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;disk-mnt-tool:f206309cfada2fa2891560ce0981d178&#34;&gt;Disk Mnt Tool&lt;/h1&gt;
+&lt;h1 id=&#34;disk-mnt-tool&#34;&gt;Disk Mnt Tool&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S ntfs-3g
 mount /dev/&amp;lt;your-NTFS-partition&amp;gt; /media/&amp;lt;folder&amp;gt;
@@ -356,7 +355,7 @@ mount /dev/&amp;lt;your-NTFS-partition&amp;gt; /media/&amp;lt;folder&amp;gt;
       <guid>https://ryanemax.github.io/faq/debianfaq/</guid>
       <description>
 
-&lt;h1 id=&#34;apt-get更新问题-failed-to-fetch-http:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;apt-get更新问题：Failed to Fetch : http://&lt;/h1&gt;
+&lt;h1 id=&#34;apt-get更新问题-failed-to-fetch-http&#34;&gt;apt-get更新问题：Failed to Fetch : http://&lt;/h1&gt;
 
 &lt;p&gt;解决方案：&lt;/p&gt;
 
@@ -364,7 +363,7 @@ mount /dev/&amp;lt;your-NTFS-partition&amp;gt; /media/&amp;lt;folder&amp;gt;
 rm *
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;sshd允许root登录:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;sshd允许Root登录&lt;/h1&gt;
+&lt;h1 id=&#34;sshd允许root登录&#34;&gt;sshd允许Root登录&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;cd /etc/ssh
 vim sshd_config
@@ -372,7 +371,7 @@ PermitRootLogin yes
 service ssh restart
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;中国国内源更换:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;中国国内源更换&lt;/h1&gt;
+&lt;h1 id=&#34;中国国内源更换&#34;&gt;中国国内源更换&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://lug.ustc.edu.cn/repogen/&#34;&gt;https://lug.ustc.edu.cn/repogen/&lt;/a&gt;&lt;/p&gt;
 

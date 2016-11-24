@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Baas on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/baas/</link>
-    <description>Recent content in Baas on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/baas/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/baas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/faq/dreamfactory/</guid>
       <description>
 
-&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+&lt;h1 id=&#34;composer-install-依赖问题&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
 
-&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
 Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
@@ -52,7 +51,7 @@ Your requirements could not be resolved to an installable set of packages.
   You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
+&lt;h2 id=&#34;问题分析&#34;&gt;问题分析&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
@@ -66,7 +65,7 @@ Your requirements could not be resolved to an installable set of packages.
 
 &lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
 
@@ -84,7 +83,7 @@ vim /etc/php5/cli/php.ini
 composer install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+&lt;h1 id=&#34;composer-install-缺少idehelper问题&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
 
@@ -101,11 +100,11 @@ composer install
       <guid>https://ryanemax.github.io/cookbook/backend/baas/</guid>
       <description>
 
-&lt;h1 id=&#34;热门baas简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;热门baas简介&lt;/h1&gt;
+&lt;h1 id=&#34;热门baas简介&#34;&gt;热门baas简介&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.techweb.com.cn/network/virtual/2016-01-05/2252623.shtml&#34;&gt;应用开发不可不知的五大BaaS后端云服务 &lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;baas公有云:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;baas公有云&lt;/h2&gt;
+&lt;h2 id=&#34;baas公有云&#34;&gt;baas公有云&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;firebase google收购的专业baas服务，完美整合angular2，在华无法使用&lt;/li&gt;
@@ -115,7 +114,7 @@ composer install
 &lt;li&gt;bluemix IBM创办的paas平台，附带baas服务，2016年6月已入华&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;baas私有云:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;baas私有云&lt;/h2&gt;
+&lt;h2 id=&#34;baas私有云&#34;&gt;baas私有云&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;appery.io 最完美的HybirdApp云服务MBaaS，配套在线设计IDE，在线Cordova打包&lt;/li&gt;
@@ -123,9 +122,9 @@ composer install
 &lt;li&gt;kinvey&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;市场分析:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;市场分析&lt;/h1&gt;
+&lt;h1 id=&#34;市场分析&#34;&gt;市场分析&lt;/h1&gt;
 
-&lt;h2 id=&#34;对传统开发模式带来的影响:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;对传统开发模式带来的影响&lt;/h2&gt;
+&lt;h2 id=&#34;对传统开发模式带来的影响&#34;&gt;对传统开发模式带来的影响&lt;/h2&gt;
 
 &lt;p&gt;前端影响 &lt;a href=&#34;https://www.zhihu.com/question/27087120&#34;&gt;https://www.zhihu.com/question/27087120&lt;/a&gt;&lt;/p&gt;
 
@@ -164,9 +163,9 @@ composer install
 &lt;p&gt;例如自动化运维 机器学习 爬虫 复杂业务数据分析处理 大数据。
   不会被替代，但会发展更加蓬勃，人才涌入及工作简化。&lt;/p&gt;
 
-&lt;h1 id=&#34;mbaas-是baas在mobile细分领域的应用:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;MBaaS 是BaaS在mobile细分领域的应用&lt;/h1&gt;
+&lt;h1 id=&#34;mbaas-是baas在mobile细分领域的应用&#34;&gt;MBaaS 是BaaS在mobile细分领域的应用&lt;/h1&gt;
 
-&lt;h2 id=&#34;产品结构简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;产品结构简介&lt;/h2&gt;
+&lt;h2 id=&#34;产品结构简介&#34;&gt;产品结构简介&lt;/h2&gt;
 
 &lt;p&gt;参考 appery.io 整理出一下必备功能模块&lt;/p&gt;
 
@@ -200,7 +199,7 @@ composer install
 &lt;li&gt;API Express&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;appbuilder:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;AppBuilder&lt;/h2&gt;
+&lt;h2 id=&#34;appbuilder&#34;&gt;AppBuilder&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ionic creator
@@ -216,7 +215,7 @@ composer install
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;backend-services:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;Backend Services&lt;/h2&gt;
+&lt;h2 id=&#34;backend-services&#34;&gt;Backend Services&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;DreamFactory
@@ -234,7 +233,7 @@ composer install
 &lt;li&gt;firebase&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;backend-service-评比选型:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;Backend Service 评比选型&lt;/h1&gt;
+&lt;h1 id=&#34;backend-service-评比选型&#34;&gt;Backend Service 评比选型&lt;/h1&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -336,9 +335,9 @@ composer install
       <guid>https://ryanemax.github.io/cookbook/backend/bluemix/</guid>
       <description>
 
-&lt;h1 id=&#34;对比parse-com:a7861ad4a9f03fd7eedd0d24ba963e33&#34;&gt;对比Parse.com&lt;/h1&gt;
+&lt;h1 id=&#34;对比parse-com&#34;&gt;对比Parse.com&lt;/h1&gt;
 
-&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager:a7861ad4a9f03fd7eedd0d24ba963e33&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
 &lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;&lt;/p&gt;
@@ -365,7 +364,7 @@ composer install
       <guid>https://ryanemax.github.io/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>
 
-&lt;h1 id=&#34;参考资料:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;参考资料&lt;/h1&gt;
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
@@ -373,13 +372,13 @@ composer install
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;自动配置步骤:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;自动配置步骤&lt;/h1&gt;
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
 cf push Your-App-Name-On-Bluemix
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;手动配置步骤:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;手动配置步骤&lt;/h1&gt;
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;

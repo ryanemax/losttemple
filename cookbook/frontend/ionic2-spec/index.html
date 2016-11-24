@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="ionic2,component,API|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,13 +108,13 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="命名规范:d708dcf0e139ef66cb9df46ce4fa7f5c">命名规范</h1>
+<h1 id="命名规范">命名规范</h1>
 
-<h2 id="页面-page:d708dcf0e139ef66cb9df46ce4fa7f5c">页面（Page）</h2>
+<h2 id="页面-page">页面（Page）</h2>
 
 <p>参考：<a href="http://ryanemax.github.io/cookbook/frontend/ionic2-generate/">ionic命令行Generate体验总结</a></p>
 
-<h3 id="开发规范:d708dcf0e139ef66cb9df46ce4fa7f5c">开发规范</h3>
+<h3 id="开发规范">开发规范</h3>
 
 <ol>
 <li><p>通过命令行创建初始化页面</p>
@@ -126,7 +126,7 @@ ionic g page &lt;PageName&gt;
 <li><p>页面只写布局与用户操作，所有数据相关的通知Toast、数据处理相关的Modal，都统一在Provider中实现</p></li>
 </ol>
 
-<h3 id="命名规范-1:d708dcf0e139ef66cb9df46ce4fa7f5c">命名规范</h3>
+<h3 id="命名规范-1">命名规范</h3>
 
 <p>根据ionic generte命令，页面的命名方式为：</p>
 
@@ -150,19 +150,19 @@ ionic g page &lt;PageName&gt;
 <li>商城相关 Shop/ShopItem/ShopCate/ShopOrder</li>
 </ul>
 
-<h1 id="组件使用规范:d708dcf0e139ef66cb9df46ce4fa7f5c">组件使用规范</h1>
+<h1 id="组件使用规范">组件使用规范</h1>
 
-<h2 id="数据处理时的页面导航:d708dcf0e139ef66cb9df46ce4fa7f5c">数据处理时的页面导航？</h2>
+<h2 id="数据处理时的页面导航">数据处理时的页面导航？</h2>
 
-<h3 id="数据处理时-应统一采用事件触发机制调控页面导航:d708dcf0e139ef66cb9df46ce4fa7f5c">数据处理时，应统一采用事件触发机制调控页面导航</h3>
+<h3 id="数据处理时-应统一采用事件触发机制调控页面导航">数据处理时，应统一采用事件触发机制调控页面导航</h3>
 
 <p>情景一：应用使用中用户token口令失效，从app.js中触发调用Events事件user:logout，页面push至登录页。</p>
 
-<h3 id="数据处理应统一使用promise-增强应用异步特性:d708dcf0e139ef66cb9df46ce4fa7f5c">数据处理应统一使用Promise，增强应用异步特性</h3>
+<h3 id="数据处理应统一使用promise-增强应用异步特性">数据处理应统一使用Promise，增强应用异步特性</h3>
 
-<h1 id="全局事件:d708dcf0e139ef66cb9df46ce4fa7f5c">全局事件</h1>
+<h1 id="全局事件">全局事件</h1>
 
-<h2 id="用户类事件:d708dcf0e139ef66cb9df46ce4fa7f5c">用户类事件</h2>
+<h2 id="用户类事件">用户类事件</h2>
 
 <ul>
 <li>user:login</li>
@@ -170,7 +170,7 @@ ionic g page &lt;PageName&gt;
 <li>user:signup</li>
 </ul>
 
-<h2 id="通知类事件:d708dcf0e139ef66cb9df46ce4fa7f5c">通知类事件</h2>
+<h2 id="通知类事件">通知类事件</h2>
 
 <p>优点：
 - 减少冗余Toast、Modal控件代码

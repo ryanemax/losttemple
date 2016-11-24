@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Iaas on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/iaas/</link>
-    <description>Recent content in Iaas on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/iaas/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/iaas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
-&lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
+&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
 
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenStack
@@ -58,7 +57,7 @@
 
 &lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
 
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
@@ -76,7 +75,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;paas现状:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS现状&lt;/h2&gt;
+&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CloudFoundry
@@ -107,7 +106,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;paas选型及适用范围:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;轻量级：Flynn、Deis二选一
@@ -126,11 +125,11 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;docker部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Docker部署&lt;/h1&gt;
+&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
 
-&lt;h1 id=&#34;openstack部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;OpenStack部署&lt;/h1&gt;
+&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
 
-&lt;h2 id=&#34;公司环境参数:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;公司环境参数&lt;/h2&gt;
+&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
@@ -138,7 +137,7 @@
 &lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
 </description>
     </item>
     
@@ -150,7 +149,7 @@
       <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
-&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+&lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;可通过域名转发过滤&lt;/li&gt;
@@ -159,9 +158,9 @@
 &lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+&lt;h1 id=&#34;传统方式&#34;&gt;传统方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+&lt;h2 id=&#34;多网卡绑定固定ip&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本高
@@ -173,7 +172,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+&lt;h2 id=&#34;端口映射&#34;&gt;端口映射&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -181,7 +180,7 @@
 &lt;li&gt;端口数有限&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+&lt;h2 id=&#34;dmz&#34;&gt;DMZ&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;

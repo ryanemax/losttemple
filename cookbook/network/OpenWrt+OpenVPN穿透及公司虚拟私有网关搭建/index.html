@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -110,11 +110,11 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="openwrt-openvpn穿透及公司虚拟私有网关搭建:98ae243484943c9ec9cca79e144d7447">《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》</h1>
+<h1 id="openwrt-openvpn穿透及公司虚拟私有网关搭建">《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》</h1>
 
-<h1 id="总结:98ae243484943c9ec9cca79e144d7447">总结</h1>
+<h1 id="总结">总结</h1>
 
-<h2 id="更多实用的案例参考:98ae243484943c9ec9cca79e144d7447">更多实用的案例参考</h2>
+<h2 id="更多实用的案例参考">更多实用的案例参考</h2>
 
 <p><a href="http://www.linuxfly.org/post/86/">http://www.linuxfly.org/post/86/</a>
 - 客户端权限组及定制配置
@@ -133,18 +133,18 @@ window.onload=function(){
 <p><a href="http://blog.jqian.net/post/openwrt-openvpn.html">http://blog.jqian.net/post/openwrt-openvpn.html</a>
 - OpenWRT 做客户端</p>
 
-<h2 id="faq1-无法登陆提示tls错误:98ae243484943c9ec9cca79e144d7447">FAQ1.无法登陆提示TLS错误</h2>
+<h2 id="faq1-无法登陆提示tls错误">FAQ1.无法登陆提示TLS错误</h2>
 
 <p>客户端、服务端认证cert文件时间不对称，重新生成即可</p>
 
-<h2 id="faq2-只能访问vpn-server-不能访问server外的设备:98ae243484943c9ec9cca79e144d7447">FAQ2.只能访问VPN Server，不能访问Server外的设备</h2>
+<h2 id="faq2-只能访问vpn-server-不能访问server外的设备">FAQ2.只能访问VPN Server，不能访问Server外的设备</h2>
 
 <p>通过nat解决
 虽然有的资料说通过正确设置路由表并打开ip_forward就可以了，但在我的server上，虽然的确是有net:10.7.0.0/24,gw:10.8.1.2这个路由的（默认就有的），却仍然不能正常工作（除非是我的理解有误，需要的是另外一条路由设置），所以最后还是通过nat解决的（毕竟vpn的ip不属于本地子网，单纯的ip转发应该是没有用的）。</p>
 
-<h2 id="faq3-可以vpn到server-但server和client互相ping不通:98ae243484943c9ec9cca79e144d7447">FAQ3.可以VPN到Server，但Server和Client互相ping不通。</h2>
+<h2 id="faq3-可以vpn到server-但server和client互相ping不通">FAQ3.可以VPN到Server，但Server和Client互相ping不通。</h2>
 
-<h3 id="openwrt特殊情况:98ae243484943c9ec9cca79e144d7447">OpenWRT特殊情况</h3>
+<h3 id="openwrt特殊情况">OpenWRT特殊情况</h3>
 
 <pre><code class="language-openwrt">## FAQ1:端口转发无效
 # 1.添加网络-防火墙-通信规则-打开对应路由端口
@@ -200,7 +200,7 @@ route add -net 10.7.0.0/24 gw 192.168.99.1 #linux
 route add 10.7.0.0 mask 255.255.0.0 192.168.99.1 #win
 </code></pre>
 
-<h3 id="详细方案:98ae243484943c9ec9cca79e144d7447">详细方案</h3>
+<h3 id="详细方案">详细方案</h3>
 
 <p><a href="http://blog.csdn.net/zubin006/article/details/4544684">http://blog.csdn.net/zubin006/article/details/4544684</a>
 <strong>问题排查</strong>
@@ -251,19 +251,19 @@ route add 10.0.0.0 mask 255.0.0.0 10.7.0.9
 
 <p>（补充：后来再读了一下manpage，发现有这个directive： &ndash;route-method m Which method m to use for adding routes on Windows? adaptive (default) &ndash; Try IP helper API first. If that fails, fall back to the route.exe shell command. ipapi &ndash; Use IP helper API. exe &ndash; Call the route.exe shell command. 也就是说，可以不用route-up那句，改成route-method exe，效果是一样的，而且更具通用性） 　　总的来说，对于Openvpn，排除防火墙的因素，问题往往很有可能出在路由上，其次就是nat。配置Openvpn必须要对这两个东西保持清醒才行。</p>
 
-<h2 id="faq4-ssh免密码-密钥登录:98ae243484943c9ec9cca79e144d7447">FAQ4.SSH免密码，密钥登录</h2>
+<h2 id="faq4-ssh免密码-密钥登录">FAQ4.SSH免密码，密钥登录</h2>
 
 <pre><code class="language-bash">/etc/dropbear/authorized_keys
 </code></pre>
 
-<h1 id="一-openvpn介绍:98ae243484943c9ec9cca79e144d7447">一、OpenVPN介绍</h1>
+<h1 id="一-openvpn介绍">一、OpenVPN介绍</h1>
 
-<h2 id="openvpn:98ae243484943c9ec9cca79e144d7447">OpenVPN</h2>
+<h2 id="openvpn">OpenVPN</h2>
 
 <p>VPN即虚拟子网，用于跨越互联网构建虚拟的局域网，普遍用于公司网络管理、跨域设备管理等场景。
 Windows自带的pptp更加简易，而跨平台的openvpn更加通用、安全。</p>
 
-<h2 id="openwrt-luci:98ae243484943c9ec9cca79e144d7447">openwrt/luci</h2>
+<h2 id="openwrt-luci">openwrt/luci</h2>
 
 <p>openwrt用于智能路由器的嵌入式操作系统，用opkg进行包管理，精简功能完善，带有管理的web端。
 luci则深度优化了web管理端，实现了Linux软件的web管理工作。
@@ -278,7 +278,7 @@ luci则深度优化了web管理端，实现了Linux软件的web管理工作。
 PandoraBox 是基于OpenWrt 14.09二次开发的路由器系统.</li>
 </ul>
 
-<h2 id="openwrt下的openvpn:98ae243484943c9ec9cca79e144d7447">Openwrt下的OpenVPN</h2>
+<h2 id="openwrt下的openvpn">Openwrt下的OpenVPN</h2>
 
 <p><strong>openvpn server</strong>
 参考：<a href="http://www.zhihu.com/question/21751217">http://www.zhihu.com/question/21751217</a>
@@ -299,13 +299,13 @@ openwrt 下有2个openvpn server：一个是openvpn-openssl，另一个是openvp
 opkg install openvpn openvpn-easy-rsa
 </code></pre>
 
-<h1 id="二-openvpn-server-client配置实践:98ae243484943c9ec9cca79e144d7447">二、OpenVPN Server+Client配置实践</h1>
+<h1 id="二-openvpn-server-client配置实践">二、OpenVPN Server+Client配置实践</h1>
 
 <p>参考：
 <a href="http://www.williamlong.info/archives/3814.html">http://www.williamlong.info/archives/3814.html</a>
 <a href="http://www.cnblogs.com/sunzhouyi/archive/2010/08/11/1797088.html">http://www.cnblogs.com/sunzhouyi/archive/2010/08/11/1797088.html</a></p>
 
-<h2 id="0-环境版本:98ae243484943c9ec9cca79e144d7447">0.环境版本</h2>
+<h2 id="0-环境版本">0.环境版本</h2>
 
 <p>服务端
 - Ubuntu 14.10
@@ -322,7 +322,7 @@ opkg install openvpn openvpn-easy-rsa
 - 系统：Windows 10
 - Openvpn 2.3.6</p>
 
-<h2 id="1-认证机构配置:98ae243484943c9ec9cca79e144d7447">1.认证机构配置</h2>
+<h2 id="1-认证机构配置">1.认证机构配置</h2>
 
 <pre><code class="language-vpn"># vars
 set HOME=E:\OpenVPN\easy-rsa
@@ -350,7 +350,7 @@ Common Name : clinetzk/clineths/clientzx/clientnc
 Password : 空
 </code></pre>
 
-<h2 id="服务端配置-server-ovpn-server-conf:98ae243484943c9ec9cca79e144d7447">服务端配置 server.ovpn/server.conf</h2>
+<h2 id="服务端配置-server-ovpn-server-conf">服务端配置 server.ovpn/server.conf</h2>
 
 <p>server.conf(zkkj)</p>
 
@@ -402,7 +402,7 @@ keepalive 10 120
 <p>启动服务端
 openvpn &ndash;config server.conf</p>
 
-<h2 id="dns配置:98ae243484943c9ec9cca79e144d7447">DNS配置</h2>
+<h2 id="dns配置">DNS配置</h2>
 
 <p>为OpenVPN客户端搭建DNS</p>
 
@@ -436,7 +436,7 @@ openvpn &ndash;config server.conf</p>
 <pre><code>root@delta:/etc/openvpn# service dnsmasq restart
 </code></pre>
 
-<h2 id="开启linux路由功能:98ae243484943c9ec9cca79e144d7447">开启Linux路由功能</h2>
+<h2 id="开启linux路由功能">开启Linux路由功能</h2>
 
 <p>我们希望在一些机器或虚拟机上运行的OpneVPN有路由的功能，这意味着要开启IP转发。</p>
 
@@ -470,7 +470,7 @@ iptables -I INPUT   -i br-lan -j ACCEPT
 iptables -I FORWARD -i br-lan -j ACCEPT
 </code></pre>
 
-<h2 id="openwrt客户端配置:98ae243484943c9ec9cca79e144d7447">OpenWrt客户端配置</h2>
+<h2 id="openwrt客户端配置">OpenWrt客户端配置</h2>
 
 <pre><code class="language-bash">复制openvpn-zkkj.conf到/etc/openvpn/my-vpn.conf
 复制ca.crt client.cert client.key到/etc/openvpn
@@ -522,7 +522,7 @@ iptables -I FORWARD -o tun0 -j ACCEPT
 iptables -t nat -A POSTROUTING -s 192.168.99.0/24 -j MASQUERADE
 </code></pre>
 
-<h2 id="openwrt端口映射:98ae243484943c9ec9cca79e144d7447">OpenWRT端口映射</h2>
+<h2 id="openwrt端口映射">OpenWRT端口映射</h2>
 
 <p>1.服务UPNP开启
 2.网络——防火墙</p>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vim on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/vim/</link>
-    <description>Recent content in Vim on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/vim/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Tue, 07 Jun 2016 18:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</guid>
       <description>
 
-&lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
 
-&lt;h2 id=&#34;intellij-idea-ce-2016-1-1:90187ca4a720b853310dffa460a52b57&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 差
@@ -38,7 +37,7 @@
 &lt;li&gt;辅助工具 差&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;webstorm-2016-2-1:90187ca4a720b853310dffa460a52b57&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 较好
@@ -59,7 +58,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件:90187ca4a720b853310dffa460a52b57&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
 
 &lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
 
@@ -75,7 +74,7 @@
       <guid>https://ryanemax.github.io/cookbook/tool/vimbest/</guid>
       <description>
 
-&lt;h1 id=&#34;实用技巧:5b84f273874ec2b027963c3550d969d9&#34;&gt;实用技巧&lt;/h1&gt;
+&lt;h1 id=&#34;实用技巧&#34;&gt;实用技巧&lt;/h1&gt;
 
 &lt;p&gt;删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？&lt;/p&gt;
 
@@ -87,7 +86,7 @@
 
 &lt;p&gt;复制a行插入到b行后， dd掉a行在b行那按下p不就好了。 为什么要鼠标选中a，ctrl+x ，然后到b的末尾按下回车，然后ctrl-v ？&lt;/p&gt;
 
-&lt;h1 id=&#34;vim-比较文件-多窗口操作:5b84f273874ec2b027963c3550d969d9&#34;&gt;vim 比较文件/多窗口操作&lt;/h1&gt;
+&lt;h1 id=&#34;vim-比较文件-多窗口操作&#34;&gt;vim 比较文件/多窗口操作&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim -d file1 file2 ...  #垂直打开多窗口,并且进行比较
 vimdiff file1 file2 ..  #等同于上一句
@@ -136,14 +135,14 @@ vimdiff file1 file2 ..  #等同于上一句
 :tabn      后一个
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;vim代开hexl十六进制模式:5b84f273874ec2b027963c3550d969d9&#34;&gt;vim代开HEXl十六进制模式&lt;/h1&gt;
+&lt;h1 id=&#34;vim代开hexl十六进制模式&#34;&gt;vim代开HEXl十六进制模式&lt;/h1&gt;
 
 &lt;p&gt;Same as hex, just pass -b flag to xxd:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;:%!xxd -b
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;vim中执行shell命令:5b84f273874ec2b027963c3550d969d9&#34;&gt;vim中执行shell命令&lt;/h1&gt;
+&lt;h1 id=&#34;vim中执行shell命令&#34;&gt;vim中执行shell命令&lt;/h1&gt;
 
 &lt;p&gt;1):!command
 不退出vim，并执行shell命令command，将命令输出显示在vim的命令区域，不会改变当前编辑的文件的内容
@@ -173,9 +172,9 @@ vimdiff file1 file2 ..  #等同于上一句
 
 &lt;p&gt;如果输入的是:52 !bash，那么会把第52行的内容也就是ls -l作为命令执行，同时命令的输出结果会替换第52行的内容，注意其中的区别。&lt;/p&gt;
 
-&lt;h1 id=&#34;多行编辑:5b84f273874ec2b027963c3550d969d9&#34;&gt;多行编辑&lt;/h1&gt;
+&lt;h1 id=&#34;多行编辑&#34;&gt;多行编辑&lt;/h1&gt;
 
-&lt;h2 id=&#34;原生列模式-多行注释:5b84f273874ec2b027963c3550d969d9&#34;&gt;原生列模式(多行注释)&lt;/h2&gt;
+&lt;h2 id=&#34;原生列模式-多行注释&#34;&gt;原生列模式(多行注释)&lt;/h2&gt;
 
 &lt;p&gt;多行注释按键操作：
       注释：Ctrl-v 进入列编辑模式，向下或向上移动光标，把需要注释的行的开头标记起来，然后按大写的I，再插入注释符比如&amp;rdquo;#&amp;ldquo;，按Esc，就会全部注释了。
@@ -186,11 +185,11 @@ vimdiff file1 file2 ..  #等同于上一句
              :2,50s/^/\/\//g在2~50行首添加//号注释
             反过来替换既是删除操作。&lt;/p&gt;
 
-&lt;h2 id=&#34;多行标记插件:5b84f273874ec2b027963c3550d969d9&#34;&gt;多行标记插件&lt;/h2&gt;
+&lt;h2 id=&#34;多行标记插件&#34;&gt;多行标记插件&lt;/h2&gt;
 
-&lt;h1 id=&#34;vim单文件操作:5b84f273874ec2b027963c3550d969d9&#34;&gt;VIM单文件操作&lt;/h1&gt;
+&lt;h1 id=&#34;vim单文件操作&#34;&gt;VIM单文件操作&lt;/h1&gt;
 
-&lt;h2 id=&#34;光标定位快捷键:5b84f273874ec2b027963c3550d969d9&#34;&gt;光标定位快捷键&lt;/h2&gt;
+&lt;h2 id=&#34;光标定位快捷键&#34;&gt;光标定位快捷键&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;到指定行  :行号，行号G
  到文件头 1G
@@ -202,14 +201,14 @@ vimdiff file1 file2 ..  #等同于上一句
  行尾插入 A，添加空行 o
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;在函数中定位光标:5b84f273874ec2b027963c3550d969d9&#34;&gt;在函数中定位光标&lt;/h2&gt;
+&lt;h2 id=&#34;在函数中定位光标&#34;&gt;在函数中定位光标&lt;/h2&gt;
 
 &lt;p&gt;[[  转到上一个位于第一列的“{”
 ]]  转到下一个位于第一列的“{”
 {   转到上一个空行
 }   转到下一个空行&lt;/p&gt;
 
-&lt;h2 id=&#34;查找当前文件:5b84f273874ec2b027963c3550d969d9&#34;&gt;查找当前文件&lt;/h2&gt;
+&lt;h2 id=&#34;查找当前文件&#34;&gt;查找当前文件&lt;/h2&gt;
 
 &lt;p&gt;n,N       查找到key后，n跳到后一个位置，N跳到前一个位置&lt;/p&gt;
 
@@ -223,11 +222,11 @@ vimdiff file1 file2 ..  #等同于上一句
 &lt;p&gt;?key      从当前光标位置开始向前查找key
 /&amp;lt;key&amp;gt;，?&amp;lt;key&amp;gt;  精确匹配查找key&lt;/p&gt;
 
-&lt;h2 id=&#34;批量替换:5b84f273874ec2b027963c3550d969d9&#34;&gt;批量替换&lt;/h2&gt;
+&lt;h2 id=&#34;批量替换&#34;&gt;批量替换&lt;/h2&gt;
 
 &lt;p&gt;:%s/要被取代的字串/新的字串/g&lt;/p&gt;
 
-&lt;h2 id=&#34;复制粘贴删除:5b84f273874ec2b027963c3550d969d9&#34;&gt;复制粘贴删除&lt;/h2&gt;
+&lt;h2 id=&#34;复制粘贴删除&#34;&gt;复制粘贴删除&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;  复制行 yy    复制n行 nyy
   粘贴行 p
@@ -250,15 +249,15 @@ vimdiff file1 file2 ..  #等同于上一句
       <guid>https://ryanemax.github.io/cookbook/tool/vim-go/</guid>
       <description>
 
-&lt;h1 id=&#34;0-使用方法:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;0.使用方法&lt;/h1&gt;
+&lt;h1 id=&#34;0-使用方法&#34;&gt;0.使用方法&lt;/h1&gt;
 
 &lt;p&gt;gd  进入函数原始定义文件查看
 Ctrl + N
 Ctrl + P&lt;/p&gt;
 
-&lt;h1 id=&#34;1-常见faq:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;1.常见FAQ&lt;/h1&gt;
+&lt;h1 id=&#34;1-常见faq&#34;&gt;1.常见FAQ&lt;/h1&gt;
 
-&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
+&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
 
 &lt;p&gt;1.环境变量没有设置完整
 设置正确环境变量&lt;/p&gt;
@@ -292,20 +291,20 @@ https://github.com/bradfitz/goimports
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;2-基础环境配置:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;2.基础环境配置&lt;/h1&gt;
+&lt;h1 id=&#34;2-基础环境配置&#34;&gt;2.基础环境配置&lt;/h1&gt;
 
-&lt;h2 id=&#34;vim-编辑器:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;vim //编辑器&lt;/h2&gt;
+&lt;h2 id=&#34;vim-编辑器&#34;&gt;vim //编辑器&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Vim&#34;&gt;https://wiki.archlinux.org/index.php/Vim&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;vundle-vim包管理器:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
+&lt;h2 id=&#34;vundle-vim包管理器&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/gmarik/Vundle.vim&#34;&gt;https://github.com/gmarik/Vundle.vim&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;gocode-语法:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;gocode //语法&lt;/h2&gt;
+&lt;h2 id=&#34;gocode-语法&#34;&gt;gocode //语法&lt;/h2&gt;
 
 &lt;p&gt;Add the following line to your .vimrc:&lt;/p&gt;
 
@@ -329,12 +328,12 @@ https://github.com/bradfitz/goimports
       <guid>https://ryanemax.github.io/cookbook/tool/vim-ultisnips/</guid>
       <description>
 
-&lt;h1 id=&#34;添加文档类型识别-vim-ftdetect-mkd-md:5ded97648b03ab53bca6dd07e625c078&#34;&gt;添加文档类型识别 ~/.vim/ftdetect/mkd.md&lt;/h1&gt;
+&lt;h1 id=&#34;添加文档类型识别-vim-ftdetect-mkd-md&#34;&gt;添加文档类型识别 ~/.vim/ftdetect/mkd.md&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-vim&#34;&gt;autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=markdown
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;添加自定义代码段-markdown-ryn-snippets:5ded97648b03ab53bca6dd07e625c078&#34;&gt;添加自定义代码段 markdown_ryn.snippets&lt;/h1&gt;
+&lt;h1 id=&#34;添加自定义代码段-markdown-ryn-snippets&#34;&gt;添加自定义代码段 markdown_ryn.snippets&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets
 &lt;/code&gt;&lt;/pre&gt;

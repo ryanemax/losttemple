@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="ionic2,icon|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -110,32 +110,32 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="当icon图标没有outline模式时-点击后会变成空白:7917a174f57faa21f8db3276d3367989">当icon图标没有outline模式时，点击后会变成空白</h1>
+<h1 id="当icon图标没有outline模式时-点击后会变成空白">当icon图标没有outline模式时，点击后会变成空白</h1>
 
-<h2 id="原因分析:7917a174f57faa21f8db3276d3367989">原因分析</h2>
+<h2 id="原因分析">原因分析</h2>
 
 <p>因为ionic2自带的font-icon库中，改图标没有默认的outline样式，导致了点击后，显示空白。</p>
 
 <p><a href="http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721">http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721</a></p>
 
-<h2 id="解决方案:7917a174f57faa21f8db3276d3367989">解决方案</h2>
+<h2 id="解决方案">解决方案</h2>
 
-<h1 id="scss文件中定义的样式不生效-import已加入app-core-scss中:7917a174f57faa21f8db3276d3367989">scss文件中定义的样式不生效，@import已加入app.core.scss中</h1>
+<h1 id="scss文件中定义的样式不生效-import已加入app-core-scss中">scss文件中定义的样式不生效，@import已加入app.core.scss中</h1>
 
-<h2 id="原因分析-1:7917a174f57faa21f8db3276d3367989">原因分析</h2>
+<h2 id="原因分析-1">原因分析</h2>
 
 <p>命令行报错，导致后续scss样式无法被加载</p>
 
 <pre><code>Error: Import directives may not be used within control directives or mixins. on line 34 of node_modules/ionic-angular/components.core.scss @import &quot;fonts/ionicons&quot;;
 </code></pre>
 
-<h2 id="尝试一-无效:7917a174f57faa21f8db3276d3367989">尝试一（无效）</h2>
+<h2 id="尝试一-无效">尝试一（无效）</h2>
 
 <p>npm install gulp-sass</p>
 
 <p>npm install node-sass</p>
 
-<h2 id="尝试二-成功:7917a174f57faa21f8db3276d3367989">尝试二（成功）</h2>
+<h2 id="尝试二-成功">尝试二（成功）</h2>
 
 <pre><code class="language-sh">## vim node_modules/ionic-angular/components.core.scss
 //@if ($ionicons) {

@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -110,18 +110,18 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="如何用markdown生成带目录-页眉-页脚的pdf:aa732d2fa204cfa61b995e1838c3ec41">如何用markdown生成带目录、页眉、页脚的pdf？</h1>
+<h1 id="如何用markdown生成带目录-页眉-页脚的pdf">如何用markdown生成带目录、页眉、页脚的pdf？</h1>
 
 <p><a href="http://pandoc.org/demos.html">http://pandoc.org/demos.html</a></p>
 
-<h1 id="todo-list:aa732d2fa204cfa61b995e1838c3ec41">TODO List</h1>
+<h1 id="todo-list">TODO List</h1>
 
 <ul>
 <li>[OK] 实现基础的md转pdf的shell脚本</li>
 <li>将md转pdf封装成云服务，为整个安纳斯联盟提供</li>
 </ul>
 
-<h1 id="相关的转化方式:aa732d2fa204cfa61b995e1838c3ec41">相关的转化方式</h1>
+<h1 id="相关的转化方式">相关的转化方式</h1>
 
 <ul>
 <li>markdown =&gt; html =&gt; pdf
@@ -136,15 +136,15 @@ window.onload=function(){
 </ul></li>
 </ul>
 
-<h1 id="pandoc-latex模板:aa732d2fa204cfa61b995e1838c3ec41">pandoc+Latex模板</h1>
+<h1 id="pandoc-latex模板">pandoc+Latex模板</h1>
 
-<h2 id="latex基础:aa732d2fa204cfa61b995e1838c3ec41">latex基础</h2>
+<h2 id="latex基础">latex基础</h2>
 
 <ul>
 <li><a href="http://www.latexstudio.net">http://www.latexstudio.net</a></li>
 </ul>
 
-<h2 id="推荐字体:aa732d2fa204cfa61b995e1838c3ec41">推荐字体</h2>
+<h2 id="推荐字体">推荐字体</h2>
 
 <pre><code class="language-sh">## 建议用于标题的字体
 -V mainfont=&quot;思源黑体 CN&quot;
@@ -157,7 +157,7 @@ pacman -S adobe-source-han-sans-cn-fonts
 pacman -S opendesktop-fonts
 </code></pre>
 
-<h2 id="常用脚本:aa732d2fa204cfa61b995e1838c3ec41">常用脚本</h2>
+<h2 id="常用脚本">常用脚本</h2>
 
 <pre><code class="language-sh">## 简单版
 pandoc --latex-engine=xelatex README.md -o read.pdf -V mainfont=&quot;思源黑体 CN&quot; --highlight-style pygments
@@ -168,7 +168,7 @@ pandoc -N --template=mytemplate.tex --variable mainfont=&quot;Palatino&quot; --v
 pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=1.15.2 README.md --latex-engine=xelatex --toc -o readexam.pdf --highlight-style pygments -V mainfont=&quot;&quot;
 </code></pre>
 
-<h2 id="代码高亮:aa732d2fa204cfa61b995e1838c3ec41">代码高亮</h2>
+<h2 id="代码高亮">代码高亮</h2>
 
 <p>推荐样式：
 - pygments</p>
@@ -190,7 +190,7 @@ pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=
 --highlight-style zenburn
 </code></pre>
 
-<h2 id="常见错误:aa732d2fa204cfa61b995e1838c3ec41">常见错误</h2>
+<h2 id="常见错误">常见错误</h2>
 
 <pre><code class="language-sh"># 报错：缺少latex文件
 ! LaTeX Error: File etoolbox.sty not found.
@@ -212,13 +212,13 @@ fc-list :outline -f &quot;%{family}\n&quot; | sort -u
 &quot;文泉驿微米黑&quot;
 </code></pre>
 
-<h2 id="图片分页问题:aa732d2fa204cfa61b995e1838c3ec41">图片分页问题</h2>
+<h2 id="图片分页问题">图片分页问题</h2>
 
 <p>圖片唯一的問題是，pandoc有時會將表格放在錯誤的位置。因為某些圖片過高，所以pandoc會把他們插入到一個新的空白頁，然後將後面的內容直接查到表格前面，這樣很容易產生錯位。有兩個解決辦法，一是，轉換到latex後，手動修改圖片位置，當然這個比較痛苦；二是在圖片後面加入一個latex的分頁比較\pagebreak，讓後面的內容自動寫到新的一頁上，儘管這樣比較廢紙。</p>
 
-<h3 id="手动调整:aa732d2fa204cfa61b995e1838c3ec41">手动调整</h3>
+<h3 id="手动调整">手动调整</h3>
 
-<h3 id="latex-figureseries宏包让figure浮动环境支持自动换页:aa732d2fa204cfa61b995e1838c3ec41">LaTeX：figureSeries宏包让figure浮动环境支持自动换页</h3>
+<h3 id="latex-figureseries宏包让figure浮动环境支持自动换页">LaTeX：figureSeries宏包让figure浮动环境支持自动换页</h3>
 
 <p><a href="http://bbs.pinggu.org/thread-4487763-1-1.html">http://bbs.pinggu.org/thread-4487763-1-1.html</a></p>
 
@@ -226,20 +226,20 @@ fc-list :outline -f &quot;%{family}\n&quot; | sort -u
 
 <p>选自：<a href="https://github.com/thomasWeise/figureSeries">https://github.com/thomasWeise/figureSeries</a></p>
 
-<h1 id="atom编辑器latex常用插件:aa732d2fa204cfa61b995e1838c3ec41">atom编辑器latex常用插件</h1>
+<h1 id="atom编辑器latex常用插件">atom编辑器latex常用插件</h1>
 
 <ul>
 <li>language-latex</li>
 </ul>
 
-<h1 id="html-css-尝试中:aa732d2fa204cfa61b995e1838c3ec41">html+css(尝试中)</h1>
+<h1 id="html-css-尝试中">html+css(尝试中)</h1>
 
 <pre><code class="language-sh">pandoc READEME.md -f markdown -t html &gt;&gt; temp.html
 
 echo &gt;&gt; &quot;&lt;/body&gt;&lt;/html&gt;&quot;
 </code></pre>
 
-<h1 id="md转pdf脚本实现:aa732d2fa204cfa61b995e1838c3ec41">md转pdf脚本实现</h1>
+<h1 id="md转pdf脚本实现">md转pdf脚本实现</h1>
 
 <pre><code class="language-sh">#!/bin/sh
 message1=&quot;请输入正确格式，如：./genpdf.sh &lt;srcfile&gt; &lt;buildname&gt;&quot;
@@ -285,17 +285,17 @@ pandoc -N --template=.tpl/anas.tex --variable fontsize=12pt ${srcfile} --latex-e
 firefox build/${buildname}.pdf
 </code></pre>
 
-<h1 id="latex模板文件定制:aa732d2fa204cfa61b995e1838c3ec41">latex模板文件定制</h1>
+<h1 id="latex模板文件定制">latex模板文件定制</h1>
 
-<h2 id="模板资源:aa732d2fa204cfa61b995e1838c3ec41">模板资源</h2>
+<h2 id="模板资源">模板资源</h2>
 
 <p><a href="https://github.com/jgm/pandoc/wiki/User-contributed-templates">https://github.com/jgm/pandoc/wiki/User-contributed-templates</a></p>
 
-<h2 id="latex基础用法:aa732d2fa204cfa61b995e1838c3ec41">latex基础用法</h2>
+<h2 id="latex基础用法">latex基础用法</h2>
 
 <p><a href="https://latex-project.org/guides/usrguide.pdf">https://latex-project.org/guides/usrguide.pdf</a></p>
 
-<h2 id="使用fancy定制页眉页脚:aa732d2fa204cfa61b995e1838c3ec41">使用fancy定制页眉页脚</h2>
+<h2 id="使用fancy定制页眉页脚">使用fancy定制页眉页脚</h2>
 
 <p><a href="http://www.ctex.org/documents/packages/layout/fancyhdr.htm">http://www.ctex.org/documents/packages/layout/fancyhdr.htm</a></p>
 
@@ -314,14 +314,14 @@ firefox build/${buildname}.pdf
 <li>控制页眉和页脚的字体，包括字形，字族，大小写等。</li>
 </ul>
 
-<h2 id="目录与正文在同一页:aa732d2fa204cfa61b995e1838c3ec41">目录与正文在同一页</h2>
+<h2 id="目录与正文在同一页">目录与正文在同一页</h2>
 
 <p>在目录后$body$前，加入</p>
 
 <pre><code class="language-latex">\newpage
 </code></pre>
 
-<h2 id="正文第一页与页眉重叠:aa732d2fa204cfa61b995e1838c3ec41">正文第一页与页眉重叠</h2>
+<h2 id="正文第一页与页眉重叠">正文第一页与页眉重叠</h2>
 
 <p>最简单的就是正文/$body$前加入</p>
 
@@ -333,7 +333,7 @@ firefox build/${buildname}.pdf
 % end of fix the no.2 page covered by header
 </code></pre>
 
-<h2 id="中文无法自动换行问题:aa732d2fa204cfa61b995e1838c3ec41">中文无法自动换行问题</h2>
+<h2 id="中文无法自动换行问题">中文无法自动换行问题</h2>
 
 <p>上面问题在与中文行没有被换行，参考了一下<a href="https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.latex">Tzeng Yuxio同学的模板</a>，中文的换行 通过\XeTeXlinebreaklocale &ldquo;zh&rdquo;实现。而在pandoc的缺省模板中是没有这个设置的。因此考虑修改缺省的latex模板。方法如下：</p>
 
@@ -344,7 +344,7 @@ firefox build/${buildname}.pdf
 $endif$
 </code></pre>
 
-<h2 id="实用案例-添加水印:aa732d2fa204cfa61b995e1838c3ec41">实用案例：添加水印</h2>
+<h2 id="实用案例-添加水印">实用案例：添加水印</h2>
 
 <p><a href="http://www.ctan.org/pkg/draftwatermark">http://www.ctan.org/pkg/draftwatermark</a></p>
 
@@ -366,7 +366,7 @@ $endif$
 \SetWatermarkLightness{0.88}%defaultis0.8
 </code></pre>
 
-<h1 id="参考文章:aa732d2fa204cfa61b995e1838c3ec41">参考文章</h1>
+<h1 id="参考文章">参考文章</h1>
 
 <p><a href="https://www.douban.com/note/330859852/">使用pandoc markdown寫作後記</a></p>
 

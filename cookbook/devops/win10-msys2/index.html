@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,9 +108,9 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="win10搭建linux开发环境-msys2-pacman大法:3588511fbfdf8bab35b708ce75dd8d08">Win10搭建Linux开发环境，msys2+pacman大法</h1>
+<h1 id="win10搭建linux开发环境-msys2-pacman大法">Win10搭建Linux开发环境，msys2+pacman大法</h1>
 
-<h1 id="一-基础简介:3588511fbfdf8bab35b708ce75dd8d08">一、基础简介</h1>
+<h1 id="一-基础简介">一、基础简介</h1>
 
 <p><a href="http://msys2.github.io/">http://msys2.github.io/</a>
 A Cygwin-derived software distro for Windows using Arch Linux&rsquo;s Pacman</p>
@@ -124,7 +124,7 @@ Fixed:更换语言输入法键盘即可</p>
 <p>关于Cygwin——包管理、替换默认终端、同MSYS的比较
 <a href="http://segmentfault.com/a/1190000000616827">http://segmentfault.com/a/1190000000616827</a></p>
 
-<h2 id="同类对比:3588511fbfdf8bab35b708ce75dd8d08">同类对比</h2>
+<h2 id="同类对比">同类对比</h2>
 
 <ul>
 <li><p>cygwin
@@ -137,11 +137,11 @@ Cygwin 与 MinGW/MSYS/MSYS2，如何选择？
 <li><p>MSYS2（需配置、使用中）</p></li>
 </ul>
 
-<h1 id="二-部署配置:3588511fbfdf8bab35b708ce75dd8d08">二、部署配置</h1>
+<h1 id="二-部署配置">二、部署配置</h1>
 
 <p><em>建议安装在D盘，规避管理员运行权限问题</em></p>
 
-<h2 id="1-镜像源配置:3588511fbfdf8bab35b708ce75dd8d08">1.镜像源配置</h2>
+<h2 id="1-镜像源配置">1.镜像源配置</h2>
 
 <p><a href="https://lug.ustc.edu.cn/wiki/mirrors/help/msys2">https://lug.ustc.edu.cn/wiki/mirrors/help/msys2</a></p>
 
@@ -161,25 +161,25 @@ Cygwin 与 MinGW/MSYS/MSYS2，如何选择？
 
 <p>然后执行 pacman -Sy 刷新软件包数据即可。</p>
 
-<h2 id="2-磁盘同步配置-错误错误-ln只是复制文件-无法从ntfs建立连接:3588511fbfdf8bab35b708ce75dd8d08">2.磁盘同步配置(错误错误，ln只是复制文件，无法从NTFS建立连接)</h2>
+<h2 id="2-磁盘同步配置-错误错误-ln只是复制文件-无法从ntfs建立连接">2.磁盘同步配置(错误错误，ln只是复制文件，无法从NTFS建立连接)</h2>
 
 <pre><code class="language-bash">cd /c/User/Ryane
 ln -s Documents
 ln -s workspace
 </code></pre>
 
-<h1 id="三-个性化环境-dotfiles与arch通用:3588511fbfdf8bab35b708ce75dd8d08">三、个性化环境（dotfiles与arch通用）</h1>
+<h1 id="三-个性化环境-dotfiles与arch通用">三、个性化环境（dotfiles与arch通用）</h1>
 
 <p><a href="https://github.com/ryanemax/dotfiles">https://github.com/ryanemax/dotfiles</a></p>
 
-<h1 id="四-疑难问题:3588511fbfdf8bab35b708ce75dd8d08">四、疑难问题</h1>
+<h1 id="四-疑难问题">四、疑难问题</h1>
 
-<h2 id="faq1-ycm安装-vim自动补全神器的youcompleteme插件编译出问题了:3588511fbfdf8bab35b708ce75dd8d08">FAQ1.YCM安装，vim自动补全神器的YouCompleteMe插件编译出问题了。</h2>
+<h2 id="faq1-ycm安装-vim自动补全神器的youcompleteme插件编译出问题了">FAQ1.YCM安装，vim自动补全神器的YouCompleteMe插件编译出问题了。</h2>
 
 <p>问题描述：通过“三”，可以配置几乎所有的vim插件，只有需要编译的YCM难以安装
 解决方案：<a href="http://onetracy.com/2015/08/16/build_ycm_in_windows/">http://onetracy.com/2015/08/16/build_ycm_in_windows/</a></p>
 
-<h2 id="faq2-msys2使用-与windows还存在部分兼容问题-比如ln无法创建软连接-只是复制ntfs文件:3588511fbfdf8bab35b708ce75dd8d08">FAQ2.Msys2使用，与Windows还存在部分兼容问题，比如ln无法创建软连接，只是复制NTFS文件</h2>
+<h2 id="faq2-msys2使用-与windows还存在部分兼容问题-比如ln无法创建软连接-只是复制ntfs文件">FAQ2.Msys2使用，与Windows还存在部分兼容问题，比如ln无法创建软连接，只是复制NTFS文件</h2>
 
 <p>解决方案：（待解决）</p>
 

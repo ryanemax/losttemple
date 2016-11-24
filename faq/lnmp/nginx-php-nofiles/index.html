@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,11 +108,11 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="solution:0482b688ba78b61422feba75e57865cf">Solution</h1>
+<h1 id="solution">Solution</h1>
 
 <p><a href="http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/">http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/</a></p>
 
-<h2 id="问题原因:0482b688ba78b61422feba75e57865cf">问题原因</h2>
+<h2 id="问题原因">问题原因</h2>
 
 <p>导致“No input file specified. ”这个问题的原因，是因为nginx的配置不正确，从而导致CGI获取参数错误。
 简单来说，是因为$document_root这个变量尚未定义。</p>
@@ -126,12 +126,12 @@ window.onload=function(){
 而我们也知道，在nginx中，有三级的关系，http  &gt;  server  &gt;  location。
 如果要在location块中使用$document_root，需要在上层server块或http块中定义了root指令，这样才能通过继承关系，在location块中用$document_root拿到root的值。而定义在别的location块中的root指令的值，是一个局部变量，其值无法在匹配php的这个location块中被获取。</p>
 
-<h2 id="解决方法:0482b688ba78b61422feba75e57865cf">解决方法</h2>
+<h2 id="解决方法">解决方法</h2>
 
 <p>解决这个问题的办法，是把&rdquo;/&rdquo; location块中的root上提到server。
 或者，在php的location块中，重新定义root。</p>
 
-<h2 id="php-站配置参考:0482b688ba78b61422feba75e57865cf">php 站配置参考</h2>
+<h2 id="php-站配置参考">php 站配置参考</h2>
 
 <p>fastcgi启动命令</p>
 

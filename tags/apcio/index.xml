@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apcio on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/apcio/</link>
-    <description>Recent content in Apcio on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/apcio/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Fri, 17 Jun 2016 16:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/apcio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,27 +17,27 @@
       <guid>https://ryanemax.github.io/meeting/2016-6-17apcio-it/</guid>
       <description>
 
-&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
+&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;孙海&lt;/li&gt;
 &lt;li&gt;北京世纪互联宽带数据中心有限公司 销售经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
+&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
 
 &lt;p&gt;2016.6.17国内首测&lt;/p&gt;
 
-&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
+&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
 
-&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
+&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Akamai 柴海炬&lt;/li&gt;
 &lt;li&gt;阿卡迈（北京）信息技术有限公司 华东区战略客户部总监&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;akamai公司简介:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai公司简介&lt;/h2&gt;
+&lt;h2 id=&#34;akamai公司简介&#34;&gt;Akamai公司简介&lt;/h2&gt;
 
 &lt;p&gt;Akamai是CDN的发明者
 - 1998发明CDN技术架构并诞生于麻省理工学院，
@@ -49,7 +48,7 @@
 - 全球客户超过6,000家，分发互联网15-30%的流量
 - 全球5000名雇员&lt;/p&gt;
 
-&lt;h3 id=&#34;akamai平台在全球覆盖:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
+&lt;h3 id=&#34;akamai平台在全球覆盖&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
 
 &lt;p&gt;遍布全球的因特网层叠网络
 - 20万台服务器
@@ -67,7 +66,7 @@
 - 东欧
 - 南美&lt;/p&gt;
 
-&lt;h2 id=&#34;走出去-网络挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
+&lt;h2 id=&#34;走出去-网络挑战&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;如何快速走向市场&lt;/li&gt;
@@ -78,11 +77,11 @@
 &lt;li&gt;如何保证全球各个角落尤其是边远国家的访问高效性&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
+&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
 
 &lt;p&gt;全球各个地区不同国家的用户平均互联网连接速度（带宽）&lt;/p&gt;
 
-&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
+&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
 
 &lt;p&gt;某网站首页延时
 - USA 5s
@@ -90,16 +89,16 @@
 - Spain 15s
 - China 25s&lt;/p&gt;
 
-&lt;h3 id=&#34;跨国企业应用面临的互联网问题:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
+&lt;h3 id=&#34;跨国企业应用面临的互联网问题&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
 
-&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
+&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Akamai边缘服务器最接近源服务器&lt;/li&gt;
 &lt;li&gt;边缘服务器靠近终端用户&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;akamai解决方案家族:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
+&lt;h3 id=&#34;akamai解决方案家族&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;AQUA 网站解决方案
@@ -129,7 +128,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;企业关键应用业务海外加速需求分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
+&lt;h3 id=&#34;企业关键应用业务海外加速需求分析&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;业务需求：利用技术和资源优势逐渐走向世界
@@ -148,7 +147,7 @@
 &lt;li&gt;最终用户访问需求：实施，实地，高效访问&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
+&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;路由优化SureRoute
@@ -171,18 +170,18 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;akamai的品质保障:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai的品质保障&lt;/h3&gt;
+&lt;h3 id=&#34;akamai的品质保障&#34;&gt;Akamai的品质保障&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Akamai所有产品均可提供100%的系统可用性SLA&lt;/li&gt;
 &lt;li&gt;针对web应用加速产品，提供全球对比原网站访问时间缩短不低于20%以上&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;全球客户经典案例:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;全球客户经典案例&lt;/h2&gt;
+&lt;h2 id=&#34;全球客户经典案例&#34;&gt;全球客户经典案例&lt;/h2&gt;
 
 &lt;p&gt;全球前100个著名品牌，大家都信赖Akamai&lt;/p&gt;
 
-&lt;h3 id=&#34;企业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业&lt;/h3&gt;
+&lt;h3 id=&#34;企业&#34;&gt;企业&lt;/h3&gt;
 
 &lt;p&gt;全球排名前10位的银行中的7家
 - BMW
@@ -190,15 +189,15 @@
 - MERCK
 - HORIBA&lt;/p&gt;
 
-&lt;h3 id=&#34;商业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;商业&lt;/h3&gt;
+&lt;h3 id=&#34;商业&#34;&gt;商业&lt;/h3&gt;
 
 &lt;p&gt;排名前100位零售商中的90家&lt;/p&gt;
 
-&lt;h3 id=&#34;高科技:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;高科技&lt;/h3&gt;
+&lt;h3 id=&#34;高科技&#34;&gt;高科技&lt;/h3&gt;
 
 &lt;p&gt;排名前12为安全软件公司中的10家&lt;/p&gt;
 
-&lt;h3 id=&#34;媒体及娱乐:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;媒体及娱乐&lt;/h3&gt;
+&lt;h3 id=&#34;媒体及娱乐&#34;&gt;媒体及娱乐&lt;/h3&gt;
 
 &lt;p&gt;排名前30位的所有媒体公司
 - BBC
@@ -212,11 +211,11 @@
 - Yahho
 - francetelevisions&lt;/p&gt;
 
-&lt;h2 id=&#34;中国客户经典案例:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;中国客户经典案例&lt;/h2&gt;
+&lt;h2 id=&#34;中国客户经典案例&#34;&gt;中国客户经典案例&lt;/h2&gt;
 
 &lt;p&gt;跨国国企用户、跨国民企用户等&lt;/p&gt;
 
-&lt;h3 id=&#34;中国交通建设集团案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
+&lt;h3 id=&#34;中国交通建设集团案例分享&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
 
 &lt;p&gt;目标
 - 保证海外员工的近30中核心应用的可用性，全球均可实时打开
@@ -232,7 +231,7 @@
 
 &lt;p&gt;中交各单位关键业务使用CDN情况，各部门门户、ERP、业务系统等等&lt;/p&gt;
 
-&lt;h3 id=&#34;联想-lenovo-案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
+&lt;h3 id=&#34;联想-lenovo-案例分享&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
 
 &lt;p&gt;目标
 - 提高全球知名度和品牌价值
@@ -244,7 +243,7 @@
 - 海量驱动下载全部部署在Akamai存储上，节省IDC硬件和带宽
 - 提升电商网站性能达200%，大大提升客户在线销售转化率&lt;/p&gt;
 
-&lt;h3 id=&#34;成功案例分享-cctv-cntv:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
+&lt;h3 id=&#34;成功案例分享-cctv-cntv&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
 
 &lt;p&gt;挑战
 - 全球可靠的视频流传送
@@ -254,7 +253,7 @@
 - Akamai动态站点加速
 - Akamai媒体分发服务（VOD/Live/PMD）&lt;/p&gt;
 
-&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
+&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
 
 &lt;p&gt;挑战
 - 全球可靠的视频点播服务
@@ -264,7 +263,7 @@
 - Akaimai媒体分发服务（PMD）
 - Akamai专业服务支持&lt;/p&gt;
 
-&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
+&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
 
 &lt;p&gt;目标
 - 全球门户高性能访问
@@ -278,7 +277,7 @@
 - Keynote工具测试数据显示，IHG是酒店业界最快的站点
 - 应对峰值流量而不在需要增加IDC投入&lt;/p&gt;
 
-&lt;h3 id=&#34;为什么选择阿卡迈:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
+&lt;h3 id=&#34;为什么选择阿卡迈&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;专业服务及支持&lt;/li&gt;
@@ -287,14 +286,14 @@
 &lt;li&gt;阿卡迈智能平台&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;企业混合云思维及战略:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
+&lt;h1 id=&#34;企业混合云思维及战略&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;袁以拓&lt;/li&gt;
 &lt;li&gt;IBM全球信息科技服务部大中华区&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;cio是怎样分配时间和资源:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
+&lt;h2 id=&#34;cio是怎样分配时间和资源&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;支持创新
@@ -310,7 +309,7 @@
 &lt;li&gt;运营企业IT环境&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;如何实现:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;如何实现？&lt;/h2&gt;
+&lt;h2 id=&#34;如何实现&#34;&gt;如何实现？&lt;/h2&gt;
 
 &lt;p&gt;新思维下的企业IT越来越成为以“企业IT即服务”的方式来运营和管理IT&lt;/p&gt;
 
@@ -376,7 +375,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;挑战&lt;/h3&gt;
+&lt;h3 id=&#34;挑战&#34;&gt;挑战&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;缺少管理混合云的工具&lt;/li&gt;
@@ -418,7 +417,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
+&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
 
 &lt;p&gt;目的
 - 根据工作负载特性，设计并构建一个单一平台
@@ -432,7 +431,7 @@
 - 确保敏捷性和灵活性，为业务增长提供支持
 - SLA承诺&lt;/p&gt;
 
-&lt;h2 id=&#34;案例分享-华东大型零售业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
+&lt;h2 id=&#34;案例分享-华东大型零售业&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
 
 &lt;p&gt;统一管理服务
 - 平台架构
@@ -448,7 +447,7 @@
 - 系统集成
 - 策略管理&lt;/p&gt;
 
-&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
+&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;修改优化&lt;/li&gt;
@@ -458,14 +457,14 @@
 &lt;li&gt;等等&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;itoa-生产运维大数据分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
+&lt;h1 id=&#34;itoa-生产运维大数据分析&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;韩思会&lt;/li&gt;
 &lt;li&gt;交通银行数据中心 技术经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;银行业it运维面临的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
+&lt;h2 id=&#34;银行业it运维面临的挑战&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
 
 &lt;p&gt;传统运维工具云云跟不上应用快速发展的要求。
 - 海量数据
@@ -482,13 +481,13 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;it运维现状分析与实际需求:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
+&lt;h2 id=&#34;it运维现状分析与实际需求&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
 
-&lt;h3 id=&#34;现状分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;现状分析&lt;/h3&gt;
+&lt;h3 id=&#34;现状分析&#34;&gt;现状分析&lt;/h3&gt;
 
 &lt;p&gt;分支机构众多的大型企业（银行）或垂直层级较多的政府单位，为了更好的用户体验，运维工作十分艰巨&lt;/p&gt;
 
-&lt;h3 id=&#34;银行运维中心运维现状:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
+&lt;h3 id=&#34;银行运维中心运维现状&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;监控 采用设定标准阙值的方式&lt;/li&gt;
@@ -497,14 +496,14 @@
 &lt;li&gt;业务 应用层交易日志未有效分析利用。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;it运维大数据:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;IT运维大数据&lt;/h3&gt;
+&lt;h3 id=&#34;it运维大数据&#34;&gt;IT运维大数据&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;IT运维大数据，国外叫做IT Operations Analytics，简称ITOA&lt;/li&gt;
 &lt;li&gt;Forrester定义，从管理和监控技术所采集的海量原始数据，通过数学算法及其他技术。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;技术交流与同业调研:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;技术交流与同业调研&lt;/h3&gt;
+&lt;h3 id=&#34;技术交流与同业调研&#34;&gt;技术交流与同业调研&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;分布式日志手机分析平台，中国工商银行&lt;/li&gt;
@@ -513,7 +512,7 @@
 &lt;li&gt;阿拉丁平台，中国民生银行&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;银行运维大数据应用方向:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
+&lt;h3 id=&#34;银行运维大数据应用方向&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;监控历史数据趋势分析
@@ -538,7 +537,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;需求梳理与可行性分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
+&lt;h3 id=&#34;需求梳理与可行性分析&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;明确运维大数据分析范围、功能及实施阶段&lt;/li&gt;
@@ -546,7 +545,7 @@
 &lt;li&gt;讨论大数据运维服务场景可行性和有效性&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;整体规划:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;整体规划&lt;/h3&gt;
+&lt;h3 id=&#34;整体规划&#34;&gt;整体规划&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;建立平台
@@ -572,7 +571,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;预期研究成果:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;预期研究成果&lt;/h3&gt;
+&lt;h3 id=&#34;预期研究成果&#34;&gt;预期研究成果&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;预测故障&lt;/li&gt;
@@ -592,7 +591,7 @@
       <guid>https://ryanemax.github.io/meeting/2016-6-17apcio/</guid>
       <description>
 
-&lt;h1 id=&#34;会议简介:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;会议简介&lt;/h1&gt;
+&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;会议主题
@@ -625,7 +624,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;大型装备数字设计与智能制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
+&lt;h1 id=&#34;大型装备数字设计与智能制造&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;谭建荣&lt;/li&gt;
@@ -638,7 +637,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;四大技术-会聚引领21世纪:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
+&lt;h2 id=&#34;四大技术-会聚引领21世纪&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生命科学技术&lt;/li&gt;
@@ -651,7 +650,7 @@
 
 &lt;p&gt;信息科技与大数据的发展超出人们的预期。&lt;/p&gt;
 
-&lt;h2 id=&#34;大型装备的重要性:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;大型装备的重要性&lt;/h2&gt;
+&lt;h2 id=&#34;大型装备的重要性&#34;&gt;大型装备的重要性&lt;/h2&gt;
 
 &lt;p&gt;大型复杂装备的设计与制造水平是衡量国家科技实力和综合国力的一个重要标志。&lt;/p&gt;
 
@@ -661,7 +660,7 @@
 &lt;li&gt;大型盾构挖掘装备&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;振兴制造业的三大战略计划:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
+&lt;h2 id=&#34;振兴制造业的三大战略计划&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;美国“先进制造业国家战略计划”&lt;/li&gt;
@@ -677,7 +676,7 @@
 
 &lt;p&gt;最终都导向智能制造&lt;/p&gt;
 
-&lt;h2 id=&#34;机电液系统的发展趋势与前沿:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
+&lt;h2 id=&#34;机电液系统的发展趋势与前沿&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
 
 &lt;p&gt;在新的工业革命到来之际，我们需要认真思考：机电液系统基础研究如何应对新的技术变革，需要解决那些基础科学问题？&lt;/p&gt;
 
@@ -694,7 +693,7 @@
 - 拟人化
 - 绿色化&lt;/p&gt;
 
-&lt;h2 id=&#34;智能-人工智能-制造的发展趋势:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
+&lt;h2 id=&#34;智能-人工智能-制造的发展趋势&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;大数据场&lt;/li&gt;
@@ -702,16 +701,16 @@
 &lt;li&gt;移动网络&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;什么是智能制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是智能制造？&lt;/h2&gt;
+&lt;h2 id=&#34;什么是智能制造&#34;&gt;什么是智能制造？&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是数字制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是数字制造？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是数字制造&#34;&gt;什么是数字制造？&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;数字制造：数字技术与制造技术的融合&lt;/li&gt;
 &lt;li&gt;数字制造：用数字技术解决制造的问题&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;什么是智能制造-1:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是智能制造？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是智能制造-1&#34;&gt;什么是智能制造？&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;智能制造：智能技术与制造技术的融合&lt;/li&gt;
@@ -736,9 +735,9 @@
     - 落子选择器 Move Picker
     - 棋局评估器 Position Evaluator&lt;/p&gt;
 
-&lt;h3 id=&#34;人工智能的3个阶段:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
+&lt;h3 id=&#34;人工智能的3个阶段&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
 
-&lt;h3 id=&#34;智能制造的三大核心:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能制造的三大核心&lt;/h3&gt;
+&lt;h3 id=&#34;智能制造的三大核心&#34;&gt;智能制造的三大核心&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;知识库/知识工程&lt;/li&gt;
@@ -746,9 +745,9 @@
 &lt;li&gt;自主学习/自主决策&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;智能制造十大关键技术:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
+&lt;h3 id=&#34;智能制造十大关键技术&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
 
-&lt;h1 id=&#34;国企信息化转型与创新:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
+&lt;h1 id=&#34;国企信息化转型与创新&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;李小山&lt;/li&gt;
@@ -756,9 +755,9 @@
 &lt;li&gt;联系方式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;关于国有企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;关于国有企业&lt;/h2&gt;
+&lt;h2 id=&#34;关于国有企业&#34;&gt;关于国有企业&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是国有企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是国有企业&lt;/h3&gt;
+&lt;h3 id=&#34;什么是国有企业&#34;&gt;什么是国有企业&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;属于全民所有&lt;/li&gt;
@@ -766,14 +765,14 @@
 &lt;li&gt;是我们党和国家事业发展的重要物资基础和政治基础&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;上海国有企业概况:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;上海国有企业概况&lt;/h3&gt;
+&lt;h3 id=&#34;上海国有企业概况&#34;&gt;上海国有企业概况&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;DGP半壁江山&lt;/li&gt;
 &lt;li&gt;大多处于关乎国计民生的重要行业&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;市属国资:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;市属国资&lt;/h3&gt;
+&lt;h3 id=&#34;市属国资&#34;&gt;市属国资&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Y2016Q1，yividuxq&lt;/li&gt;
@@ -782,22 +781,22 @@
 &lt;li&gt;统一监管，产融结合&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;政策:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;政策&lt;/h2&gt;
+&lt;h2 id=&#34;政策&#34;&gt;政策&lt;/h2&gt;
 
-&lt;h3 id=&#34;国家层面国有企业改革顶层设计:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
+&lt;h3 id=&#34;国家层面国有企业改革顶层设计&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;1+N&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;上海市国资国企改革:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;上海市国资国企改革&lt;/h3&gt;
+&lt;h3 id=&#34;上海市国资国企改革&#34;&gt;上海市国资国企改革&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2013年底&lt;/li&gt;
 &lt;li&gt;1+N&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;组织:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;组织&lt;/h2&gt;
+&lt;h2 id=&#34;组织&#34;&gt;组织&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;信息中心（情报中心）&lt;/li&gt;
@@ -816,7 +815,7 @@
 &lt;li&gt;&lt;p&gt;创新中心&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;实践:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;实践&lt;/h2&gt;
+&lt;h2 id=&#34;实践&#34;&gt;实践&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;“智慧”路灯&lt;/li&gt;
@@ -827,7 +826,7 @@
 &lt;li&gt;“智慧”长途&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;未来-以及未来就绪的戴尔:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
+&lt;h1 id=&#34;未来-以及未来就绪的戴尔&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;吕良&lt;/li&gt;
@@ -835,16 +834,16 @@
 &lt;li&gt;企业级解决方案高级经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
+&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;圣彼得广场 2005&lt;/li&gt;
 &lt;li&gt;圣彼得广场 2013&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
+&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
 
-&lt;h2 id=&#34;世界改变的步伐正在加快:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
+&lt;h2 id=&#34;世界改变的步伐正在加快&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;更多需求
@@ -857,7 +856,7 @@
 1，000，000&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;颠覆性技术:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;颠覆性技术&lt;/h2&gt;
+&lt;h2 id=&#34;颠覆性技术&#34;&gt;颠覆性技术&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;移动互联&lt;/li&gt;
@@ -867,7 +866,7 @@
 &amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;今天现状:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;今天现状&lt;/h2&gt;
+&lt;h2 id=&#34;今天现状&#34;&gt;今天现状&lt;/h2&gt;
 
 &lt;p&gt;在未来10年中，现有的财务500强公司将会消失&lt;/p&gt;
 
@@ -875,7 +874,7 @@
 - 1920诞生 需要67年发展
 - 2016诞生 需要15年发展&lt;/p&gt;
 
-&lt;h2 id=&#34;今天的机会:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;今天的机会&lt;/h2&gt;
+&lt;h2 id=&#34;今天的机会&#34;&gt;今天的机会&lt;/h2&gt;
 
 &lt;p&gt;拥抱数字变革&lt;/p&gt;
 
@@ -886,18 +885,18 @@
 &lt;li&gt;83%员工活动量&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;新的商业模式带来的巨大颠覆:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
+&lt;h2 id=&#34;新的商业模式带来的巨大颠覆&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
 
-&lt;h2 id=&#34;危机-危险和机会:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;危机-危险和机会&lt;/h2&gt;
+&lt;h2 id=&#34;危机-危险和机会&#34;&gt;危机-危险和机会&lt;/h2&gt;
 
-&lt;h2 id=&#34;您处于传统it和新兴it的十字路口:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
+&lt;h2 id=&#34;您处于传统it和新兴it的十字路口&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
 
 &lt;p&gt;未来
 - 公有云
 - 混合云
 - 私有云&lt;/p&gt;
 
-&lt;h2 id=&#34;使强大的技术更易获得:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
+&lt;h2 id=&#34;使强大的技术更易获得&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;性能 上升&lt;/li&gt;
@@ -911,7 +910,7 @@
 
 &lt;p&gt;推动效率提升&lt;/p&gt;
 
-&lt;h2 id=&#34;戴尔任意云:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;戴尔任意云&lt;/h2&gt;
+&lt;h2 id=&#34;戴尔任意云&#34;&gt;戴尔任意云&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;云计算基础设施&lt;/li&gt;
@@ -919,14 +918,14 @@
 &lt;li&gt;未来就绪企业云联盟&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;技术即业务-数字化企业变革:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
+&lt;h1 id=&#34;技术即业务-数字化企业变革&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;张松&lt;/li&gt;
 &lt;li&gt;ThoughtWorks中国区总经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;变革历程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;变革历程&lt;/h2&gt;
+&lt;h2 id=&#34;变革历程&#34;&gt;变革历程&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;业务自动化 1980
@@ -957,7 +956,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;为什么是现在发生:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;为什么是现在发生&lt;/h2&gt;
+&lt;h2 id=&#34;为什么是现在发生&#34;&gt;为什么是现在发生&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;技术进步&lt;/li&gt;
@@ -986,7 +985,7 @@
 &lt;li&gt;&lt;p&gt;法规政策的变化&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;如今ceo的优先任务:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
+&lt;h2 id=&#34;如今ceo的优先任务&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;创新驱动增长&lt;/li&gt;
@@ -995,7 +994,7 @@
 &lt;li&gt;未来技术投资&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
+&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;H1 精益企业架构生态型文化&lt;/li&gt;
@@ -1024,14 +1023,14 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;引领变革的企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;引领变革的企业&lt;/h2&gt;
+&lt;h2 id=&#34;引领变革的企业&#34;&gt;引领变革的企业&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;认识技术的战略角色&lt;/li&gt;
 &lt;li&gt;将技术提上重要议程&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;企业级创新-三通道模式:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
+&lt;h2 id=&#34;企业级创新-三通道模式&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;模式创新&lt;/li&gt;
@@ -1039,7 +1038,7 @@
 &lt;li&gt;流程创新&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
+&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
 
 &lt;p&gt;“极度安全，极度隐秘”&lt;/p&gt;
 
@@ -1050,7 +1049,7 @@
 &lt;li&gt;互联网手段获客和提升用户体验&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
+&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;场景分析&lt;/li&gt;
@@ -1058,21 +1057,21 @@
 &lt;li&gt;触点优化&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
+&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
 
 &lt;p&gt;挑战
 - 商家上篇的库存要点
 - 及时、主动补货
 - 快捷，随时的订货流程&lt;/p&gt;
 
-&lt;h1 id=&#34;数据驱动创新:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;数据驱动创新&lt;/h1&gt;
+&lt;h1 id=&#34;数据驱动创新&#34;&gt;数据驱动创新&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;任京旸&lt;/li&gt;
 &lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;不同视角下的数字世界:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
+&lt;h2 id=&#34;不同视角下的数字世界&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;连接泛在化
@@ -1109,7 +1108,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光的发展历程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光的发展历程&lt;/h2&gt;
+&lt;h2 id=&#34;曙光的发展历程&#34;&gt;曙光的发展历程&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;1993 高性能计算 曙光一号诞生&lt;/li&gt;
@@ -1119,7 +1118,7 @@
 &lt;li&gt;2013 大数据 曙光大数据一体机发布&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光hpc与中国工业共成长:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
+&lt;h2 id=&#34;曙光hpc与中国工业共成长&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
 
 &lt;p&gt;作为中国第一、亚洲最大、全球第三的高性能计算厂商，曙光高性能计算系统在中国工业领域有着广泛和深入的应用，在CAE模拟仿真方面拥有国内最多的成功案例！&lt;/p&gt;
 
@@ -1127,7 +1126,7 @@
 
 &lt;p&gt;汽车、轮船、航空航天、电力&lt;/p&gt;
 
-&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
+&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;sugon短片分享&lt;/em&gt;&lt;/p&gt;
 
@@ -1143,7 +1142,7 @@
 &lt;li&gt;300+合作伙伴&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光数据中国加速计划:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
+&lt;h2 id=&#34;曙光数据中国加速计划&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
 
 &lt;p&gt;期望寻求更多的合作&lt;/p&gt;
 
@@ -1162,7 +1161,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
+&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;数字仿真&lt;/li&gt;
@@ -1172,7 +1171,7 @@
 &lt;li&gt;应用拓展&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;打通中科院创新链与创业链:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
+&lt;h2 id=&#34;打通中科院创新链与创业链&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;中科院先进计算技术创新与产业化联盟（曙光牵头）
@@ -1183,9 +1182,9 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;嘉宾对话环节:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;嘉宾对话环节&lt;/h1&gt;
+&lt;h1 id=&#34;嘉宾对话环节&#34;&gt;嘉宾对话环节&lt;/h1&gt;
 
-&lt;h2 id=&#34;嘉宾介绍:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;嘉宾介绍&lt;/h2&gt;
+&lt;h2 id=&#34;嘉宾介绍&#34;&gt;嘉宾介绍&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;主持人 李静
@@ -1231,7 +1230,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;讨论问题-不完整:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
+&lt;h2 id=&#34;讨论问题-不完整&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;信息时代对CIO的要求越来越高，期望寻求关于新技术，例如区块链如何融入企业或产品的解决方案&lt;/p&gt;&lt;/li&gt;

@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/</link>
+    <link>https://ryanemax.github.io/tags/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 27 Mar 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/study/tools/</guid>
       <description>
 
-&lt;h1 id=&#34;scigen论文生成器:392b1cfe5865fa09a3eb545085be9682&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
+&lt;h1 id=&#34;scigen论文生成器&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pdos.csail.mit.edu/scigen/&#34;&gt;http://pdos.csail.mit.edu/scigen/&lt;/a&gt;&lt;/p&gt;
 
@@ -38,16 +37,16 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 
 &lt;p&gt;极致效率的键位变更&lt;/p&gt;
 
-&lt;h1 id=&#34;coding常用键位变更:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Coding常用键位变更&lt;/h1&gt;
+&lt;h1 id=&#34;coding常用键位变更&#34;&gt;Coding常用键位变更&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ctrl =&amp;gt; Caps Lock&lt;/li&gt;
 &lt;li&gt;Caps Lock =&amp;gt; Ctrl&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;linux下键位变更:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Linux下键位变更&lt;/h1&gt;
+&lt;h1 id=&#34;linux下键位变更&#34;&gt;Linux下键位变更&lt;/h1&gt;
 
-&lt;h1 id=&#34;windows键盘全局替换:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
+&lt;h1 id=&#34;windows键盘全局替换&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
 
 &lt;p&gt;可以利用第三方工具，或者直接在注册表中修改键位映射关系&lt;/p&gt;
 
@@ -133,15 +132,15 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
       <guid>https://ryanemax.github.io/cookbook/database/Datagrip/</guid>
       <description>
 
-&lt;h1 id=&#34;初次了解datagrip:05d030163658352a64a07cc0639d32d2&#34;&gt;《初次了解DataGrip》&lt;/h1&gt;
+&lt;h1 id=&#34;初次了解datagrip&#34;&gt;《初次了解DataGrip》&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text&#34;&gt;http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;特性整理:05d030163658352a64a07cc0639d32d2&#34;&gt;特性整理&lt;/h1&gt;
+&lt;h1 id=&#34;特性整理&#34;&gt;特性整理&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.jetbrains.com/datagrip/features/&#34;&gt;http://www.jetbrains.com/datagrip/features/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;数据库基础操作:05d030163658352a64a07cc0639d32d2&#34;&gt;数据库基础操作&lt;/h2&gt;
+&lt;h2 id=&#34;数据库基础操作&#34;&gt;数据库基础操作&lt;/h2&gt;
 
 &lt;p&gt;支持数据库引擎：MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Sybase, DB2, SQLite, HyperSQL, Apache Derby and H2.&lt;/p&gt;
 
@@ -157,7 +156,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 &lt;li&gt;分析查询比较结果&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;代码编写实用特性:05d030163658352a64a07cc0639d32d2&#34;&gt;代码编写实用特性&lt;/h2&gt;
+&lt;h2 id=&#34;代码编写实用特性&#34;&gt;代码编写实用特性&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;SQL编写时提供代码补全&lt;/li&gt;
@@ -170,7 +169,7 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 &lt;li&gt;自定义的界面风格&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;其他多样的特性:05d030163658352a64a07cc0639d32d2&#34;&gt;其他多样的特性&lt;/h2&gt;
+&lt;h2 id=&#34;其他多样的特性&#34;&gt;其他多样的特性&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CSV编辑器&lt;/li&gt;
@@ -187,20 +186,20 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
       <guid>https://ryanemax.github.io/cookbook/tool/usefulwebsite/</guid>
       <description>
 
-&lt;h1 id=&#34;比较选优:aba1810f4c4695f439e28b36b0f49d87&#34;&gt;比较选优&lt;/h1&gt;
+&lt;h1 id=&#34;比较选优&#34;&gt;比较选优&lt;/h1&gt;
 
 &lt;p&gt;alternativeto.net
 makeuseof.com&lt;/p&gt;
 
-&lt;h1 id=&#34;agile敏捷协作:aba1810f4c4695f439e28b36b0f49d87&#34;&gt;Agile敏捷协作&lt;/h1&gt;
+&lt;h1 id=&#34;agile敏捷协作&#34;&gt;Agile敏捷协作&lt;/h1&gt;
 
 &lt;p&gt;taiga.io 一站式敏捷协作平台，开源免费&lt;/p&gt;
 
-&lt;h1 id=&#34;世界大战-尽在掌控-盘点全球网络攻击实时追踪系统:aba1810f4c4695f439e28b36b0f49d87&#34;&gt;“世界大战”尽在掌控：盘点全球网络攻击实时追踪系统&lt;/h1&gt;
+&lt;h1 id=&#34;世界大战-尽在掌控-盘点全球网络攻击实时追踪系统&#34;&gt;“世界大战”尽在掌控：盘点全球网络攻击实时追踪系统&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.freebuf.com/news/special/56910.html&#34;&gt;http://www.freebuf.com/news/special/56910.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;seo分析工具:aba1810f4c4695f439e28b36b0f49d87&#34;&gt;SEO分析工具&lt;/h1&gt;
+&lt;h1 id=&#34;seo分析工具&#34;&gt;SEO分析工具&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://semalt.com&#34;&gt;http://semalt.com&lt;/a&gt;
 &lt;a href=&#34;http://semalt.com/project/2801734&#34;&gt;http://semalt.com/project/2801734&lt;/a&gt;&lt;/p&gt;

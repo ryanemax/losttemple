@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="pkm,个人知识管理,最佳方案|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,9 +108,9 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="个人知识管理-规划中:04c6e90faac2675aa89e2176d2eec7d8">个人知识管理（规划中）</h1>
+<h1 id="个人知识管理-规划中">个人知识管理（规划中）</h1>
 
-<h2 id="简介及技术点:04c6e90faac2675aa89e2176d2eec7d8">简介及技术点</h2>
+<h2 id="简介及技术点">简介及技术点</h2>
 
 <p>距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知识的技巧。</p>
 
@@ -143,14 +143,14 @@ window.onload=function(){
 <li>linux shell脚本</li>
 </ul>
 
-<h2 id="todolist:04c6e90faac2675aa89e2176d2eec7d8">TODOLIST</h2>
+<h2 id="todolist">TODOLIST</h2>
 
-<ul>
-<li>[ ] 从Leanote迁移知识经验，从为知笔记迁移知识经验，制定对大量知识的知识搜集、获取、归纳环节</li>
-<li>[x] 实现从私有知识库（加密git）到公有知识库（公开git）的知识分享环节</li>
+<ul class="task-list">
+<li><input type="checkbox" disabled class="task-list-item"> 从Leanote迁移知识经验，从为知笔记迁移知识经验，制定对大量知识的知识搜集、获取、归纳环节</li>
+<li><input type="checkbox" checked disabled class="task-list-item"> 实现从私有知识库（加密git）到公有知识库（公开git）的知识分享环节</li>
 </ul>
 
-<h2 id="常用脚本:04c6e90faac2675aa89e2176d2eec7d8">常用脚本</h2>
+<h2 id="常用脚本">常用脚本</h2>
 
 <pre><code class="language-sh">## markdown生成pdf脚本
 ./genpdf.sh &lt;srcfile&gt; &lt;buildname&gt;
@@ -158,7 +158,7 @@ window.onload=function(){
 ./genpdf.sh &lt;srcfile&gt; &lt;buildname&gt;
 </code></pre>
 
-<h2 id="环境安装:04c6e90faac2675aa89e2176d2eec7d8">环境安装</h2>
+<h2 id="环境安装">环境安装</h2>
 
 <pre><code class="language-sh">## 本方案适用于全平台
 ## Linux系列/arch linux
@@ -181,13 +181,13 @@ pacman -S pandoc
 pacman -S git atom
 </code></pre>
 
-<h1 id="知识管理-各环节详细实施方案:04c6e90faac2675aa89e2176d2eec7d8">知识管理-各环节详细实施方案</h1>
+<h1 id="知识管理-各环节详细实施方案">知识管理-各环节详细实施方案</h1>
 
-<h2 id="浏览环节-greader-绑定feedly账号:04c6e90faac2675aa89e2176d2eec7d8">（浏览环节）gReader，绑定feedly账号</h2>
+<h2 id="浏览环节-greader-绑定feedly账号">（浏览环节）gReader，绑定feedly账号</h2>
 
-<h2 id="收藏环节-greader加星:04c6e90faac2675aa89e2176d2eec7d8">（收藏环节）gReader加星</h2>
+<h2 id="收藏环节-greader加星">（收藏环节）gReader加星</h2>
 
-<h2 id="归纳环节-笔记文本管理:04c6e90faac2675aa89e2176d2eec7d8">（归纳环节）笔记文本管理</h2>
+<h2 id="归纳环节-笔记文本管理">（归纳环节）笔记文本管理</h2>
 
 <p>Git地址：<a href="https://bitbucket.org/ryanemax/note">https://bitbucket.org/ryanemax/note</a>
 - /inbox</p>
@@ -223,7 +223,7 @@ pacman -S git atom
 <p>记录个人在细分领域产生的心得、体验，以及对新技术的探索与尝试</p></li>
 </ul>
 
-<h2 id="分享环节-个人博客管理:04c6e90faac2675aa89e2176d2eec7d8">（分享环节）个人博客管理</h2>
+<h2 id="分享环节-个人博客管理">（分享环节）个人博客管理</h2>
 
 <p>技术点：</p>
 
@@ -235,9 +235,9 @@ pacman -S git atom
 <li><p>github pagaes</p></li>
 </ul>
 
-<h1 id="存储资料及软件管理:04c6e90faac2675aa89e2176d2eec7d8">存储资料及软件管理</h1>
+<h1 id="存储资料及软件管理">存储资料及软件管理</h1>
 
-<h2 id="云盘存储:04c6e90faac2675aa89e2176d2eec7d8">云盘存储</h2>
+<h2 id="云盘存储">云盘存储</h2>
 
 <p>百度云盘
 - meCareer（应用数据/bypy/Career）</p>
@@ -259,7 +259,7 @@ pacman -S git atom
 
 <p>QQ微云</p>
 
-<h2 id="软件管理:04c6e90faac2675aa89e2176d2eec7d8">软件管理</h2>
+<h2 id="软件管理">软件管理</h2>
 
 <p>Windows：Oneget+chocolatey.org</p>
 
@@ -271,7 +271,7 @@ pacman -S git atom
 
 <p>OpenWrt：opkg</p>
 
-<h2 id="博客:04c6e90faac2675aa89e2176d2eec7d8">博客</h2>
+<h2 id="博客">博客</h2>
 
 <ul>
 <li>GithubPages
@@ -292,6 +292,33 @@ http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118 go get -u git
 git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
 </code></pre></li>
 </ul>
+
+<h3 id="github-pages百度收录策略">Github Pages百度收录策略</h3>
+
+<p>利用Github Pages创建博客的国内作者一定有这样的麻烦： Github对Baidu Spider的用户代理都会返回403状态码，因而百度无法收录博客内容。 为解决此问题，小编在2016年01月21日在Gitcafe Pages（今Coding.net）创建镜像， 并设置域名解析百度线路来的Harttle.com到该镜像。 如今百度已经可以正常收录Harttle.com的文章了，撰文在此希望能帮到别人。</p>
+
+<ul>
+<li>一个域名：百度收录、Google收录、用户访问的域名是相同的。</li>
+<li>免费使用：不需要购买VPS或者CDN服务。</li>
+<li>实时同步：不存在CDN的不同步的问题，同时也不存在CDN线路选择不确定的问题。</li>
+<li>不需备案：使用Coding.net的域名做CNAME，不需自己备案。</li>
+</ul>
+
+<ol>
+<li><p>注册coding ryn ryanemax@gmail.com</p></li>
+
+<li><p>仓库同步</p></li>
+</ol>
+
+<p>既然如今Gitcafe的Git仓库服务已经转移到了Coding.net， 下文中以Coding.net中的配置为例。
+  首先需要在Coding.net创建仓库并开启Pages服务。首先创建一个<strong>coding-pages</strong>分支， 然后把它push到Coding.net上的仓库。</p>
+
+<pre><code class="language-sh">  git checkout -b coding-pages
+  git remote add coding.net git@git.coding.net:harttle/harttle.git
+  git push coding.net coding-pages
+</code></pre>
+
+<p>在Coding.net上看到自己的仓库代码后，在Pages设置页面中开启Pages服务。 此时，可以访问<a href="http://ryn.coding.me来测试了（可能会有一分钟左右的延迟，之间会404）。">http://ryn.coding.me来测试了（可能会有一分钟左右的延迟，之间会404）。</a></p>
 
   </section>
 </article>

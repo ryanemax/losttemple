@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/go/</link>
-    <description>Recent content in Go on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/go/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Wed, 07 Oct 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,15 +17,15 @@
       <guid>https://ryanemax.github.io/cookbook/tool/vim-go/</guid>
       <description>
 
-&lt;h1 id=&#34;0-使用方法:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;0.使用方法&lt;/h1&gt;
+&lt;h1 id=&#34;0-使用方法&#34;&gt;0.使用方法&lt;/h1&gt;
 
 &lt;p&gt;gd  进入函数原始定义文件查看
 Ctrl + N
 Ctrl + P&lt;/p&gt;
 
-&lt;h1 id=&#34;1-常见faq:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;1.常见FAQ&lt;/h1&gt;
+&lt;h1 id=&#34;1-常见faq&#34;&gt;1.常见FAQ&lt;/h1&gt;
 
-&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
+&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
 
 &lt;p&gt;1.环境变量没有设置完整
 设置正确环境变量&lt;/p&gt;
@@ -60,20 +59,20 @@ https://github.com/bradfitz/goimports
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;2-基础环境配置:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;2.基础环境配置&lt;/h1&gt;
+&lt;h1 id=&#34;2-基础环境配置&#34;&gt;2.基础环境配置&lt;/h1&gt;
 
-&lt;h2 id=&#34;vim-编辑器:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;vim //编辑器&lt;/h2&gt;
+&lt;h2 id=&#34;vim-编辑器&#34;&gt;vim //编辑器&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Vim&#34;&gt;https://wiki.archlinux.org/index.php/Vim&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;vundle-vim包管理器:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
+&lt;h2 id=&#34;vundle-vim包管理器&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/gmarik/Vundle.vim&#34;&gt;https://github.com/gmarik/Vundle.vim&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;gocode-语法:d6ac5b2eecfc12afd25350cc0802f0f4&#34;&gt;gocode //语法&lt;/h2&gt;
+&lt;h2 id=&#34;gocode-语法&#34;&gt;gocode //语法&lt;/h2&gt;
 
 &lt;p&gt;Add the following line to your .vimrc:&lt;/p&gt;
 

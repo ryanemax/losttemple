@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hikvision on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/hikvision/</link>
-    <description>Recent content in Hikvision on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/hikvision/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 08 Nov 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/hikvision/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,15 +17,15 @@
       <guid>https://ryanemax.github.io/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
       <description>
 
-&lt;h1 id=&#34;萤石云开发实践:314fd259cb5f197b4160aabedce691db&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
+&lt;h1 id=&#34;萤石云开发实践&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
 
-&lt;h1 id=&#34;常用资料:314fd259cb5f197b4160aabedce691db&#34;&gt;常用资料&lt;/h1&gt;
+&lt;h1 id=&#34;常用资料&#34;&gt;常用资料&lt;/h1&gt;
 
 &lt;p&gt;SDK下载：&lt;a href=&#34;https://open.ys7.com/sdk.html&#34;&gt;https://open.ys7.com/sdk.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;常见问题:314fd259cb5f197b4160aabedce691db&#34;&gt;常见问题&lt;/h1&gt;
+&lt;h1 id=&#34;常见问题&#34;&gt;常见问题&lt;/h1&gt;
 
-&lt;h2 id=&#34;faq1-是否可以在web-手机页面播放萤石云视频:314fd259cb5f197b4160aabedce691db&#34;&gt;FAQ1:是否可以在web/手机页面播放萤石云视频？&lt;/h2&gt;
+&lt;h2 id=&#34;faq1-是否可以在web-手机页面播放萤石云视频&#34;&gt;FAQ1:是否可以在web/手机页面播放萤石云视频？&lt;/h2&gt;
 
 &lt;p&gt;(1)、针对用户分享到视频广场的视频，调用萤石接口说明文档3.16接口：&lt;/p&gt;
 
@@ -46,22 +45,22 @@
       <guid>https://ryanemax.github.io/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
       <description>
 
-&lt;h1 id=&#34;基础环境:ade500c3ce255d1acc760d103f6acf70&#34;&gt;基础环境&lt;/h1&gt;
+&lt;h1 id=&#34;基础环境&#34;&gt;基础环境&lt;/h1&gt;
 
-&lt;h2 id=&#34;系统:ade500c3ce255d1acc760d103f6acf70&#34;&gt;系统&lt;/h2&gt;
+&lt;h2 id=&#34;系统&#34;&gt;系统&lt;/h2&gt;
 
 &lt;p&gt;Windows Server 2008 R2
 光盘一：系统驱动
 光盘二：安装程序&lt;/p&gt;
 
-&lt;h2 id=&#34;数据库:ade500c3ce255d1acc760d103f6acf70&#34;&gt;数据库&lt;/h2&gt;
+&lt;h2 id=&#34;数据库&#34;&gt;数据库&lt;/h2&gt;
 
 &lt;p&gt;数据库Mysql 5.7
 库名 cms
 用户 admin
 密码 12345&lt;/p&gt;
 
-&lt;h2 id=&#34;软件平台:ade500c3ce255d1acc760d103f6acf70&#34;&gt;软件平台&lt;/h2&gt;
+&lt;h2 id=&#34;软件平台&#34;&gt;软件平台&lt;/h2&gt;
 
 &lt;p&gt;1.iVMS-7000
 &lt;a href=&#34;http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi&#34;&gt;http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi&lt;/a&gt;
@@ -76,7 +75,7 @@
 5.视频接入网关VGA配置
 资源——服务器——VGA&lt;/p&gt;
 
-&lt;h1 id=&#34;基础服务:ade500c3ce255d1acc760d103f6acf70&#34;&gt;基础服务&lt;/h1&gt;
+&lt;h1 id=&#34;基础服务&#34;&gt;基础服务&lt;/h1&gt;
 
 &lt;p&gt;80 WEB/IVMS7000管理后台
 8080 WEB/IVMS8200备份服务器管理后台

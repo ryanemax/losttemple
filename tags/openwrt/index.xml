@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Openwrt on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/openwrt/</link>
-    <description>Recent content in Openwrt on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/openwrt/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Wed, 21 Oct 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,11 +17,11 @@
       <guid>https://ryanemax.github.io/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
       <description>
 
-&lt;h1 id=&#34;openwrt-openvpn穿透及公司虚拟私有网关搭建:98ae243484943c9ec9cca79e144d7447&#34;&gt;《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》&lt;/h1&gt;
+&lt;h1 id=&#34;openwrt-openvpn穿透及公司虚拟私有网关搭建&#34;&gt;《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》&lt;/h1&gt;
 
-&lt;h1 id=&#34;总结:98ae243484943c9ec9cca79e144d7447&#34;&gt;总结&lt;/h1&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
 
-&lt;h2 id=&#34;更多实用的案例参考:98ae243484943c9ec9cca79e144d7447&#34;&gt;更多实用的案例参考&lt;/h2&gt;
+&lt;h2 id=&#34;更多实用的案例参考&#34;&gt;更多实用的案例参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.linuxfly.org/post/86/&#34;&gt;http://www.linuxfly.org/post/86/&lt;/a&gt;
 - 客户端权限组及定制配置
@@ -41,18 +40,18 @@
 &lt;p&gt;&lt;a href=&#34;http://blog.jqian.net/post/openwrt-openvpn.html&#34;&gt;http://blog.jqian.net/post/openwrt-openvpn.html&lt;/a&gt;
 - OpenWRT 做客户端&lt;/p&gt;
 
-&lt;h2 id=&#34;faq1-无法登陆提示tls错误:98ae243484943c9ec9cca79e144d7447&#34;&gt;FAQ1.无法登陆提示TLS错误&lt;/h2&gt;
+&lt;h2 id=&#34;faq1-无法登陆提示tls错误&#34;&gt;FAQ1.无法登陆提示TLS错误&lt;/h2&gt;
 
 &lt;p&gt;客户端、服务端认证cert文件时间不对称，重新生成即可&lt;/p&gt;
 
-&lt;h2 id=&#34;faq2-只能访问vpn-server-不能访问server外的设备:98ae243484943c9ec9cca79e144d7447&#34;&gt;FAQ2.只能访问VPN Server，不能访问Server外的设备&lt;/h2&gt;
+&lt;h2 id=&#34;faq2-只能访问vpn-server-不能访问server外的设备&#34;&gt;FAQ2.只能访问VPN Server，不能访问Server外的设备&lt;/h2&gt;
 
 &lt;p&gt;通过nat解决
 虽然有的资料说通过正确设置路由表并打开ip_forward就可以了，但在我的server上，虽然的确是有net:10.7.0.0/24,gw:10.8.1.2这个路由的（默认就有的），却仍然不能正常工作（除非是我的理解有误，需要的是另外一条路由设置），所以最后还是通过nat解决的（毕竟vpn的ip不属于本地子网，单纯的ip转发应该是没有用的）。&lt;/p&gt;
 
-&lt;h2 id=&#34;faq3-可以vpn到server-但server和client互相ping不通:98ae243484943c9ec9cca79e144d7447&#34;&gt;FAQ3.可以VPN到Server，但Server和Client互相ping不通。&lt;/h2&gt;
+&lt;h2 id=&#34;faq3-可以vpn到server-但server和client互相ping不通&#34;&gt;FAQ3.可以VPN到Server，但Server和Client互相ping不通。&lt;/h2&gt;
 
-&lt;h3 id=&#34;openwrt特殊情况:98ae243484943c9ec9cca79e144d7447&#34;&gt;OpenWRT特殊情况&lt;/h3&gt;
+&lt;h3 id=&#34;openwrt特殊情况&#34;&gt;OpenWRT特殊情况&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-openwrt&#34;&gt;## FAQ1:端口转发无效
 # 1.添加网络-防火墙-通信规则-打开对应路由端口
@@ -108,7 +107,7 @@ route add -net 10.7.0.0/24 gw 192.168.99.1 #linux
 route add 10.7.0.0 mask 255.255.0.0 192.168.99.1 #win
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;详细方案:98ae243484943c9ec9cca79e144d7447&#34;&gt;详细方案&lt;/h3&gt;
+&lt;h3 id=&#34;详细方案&#34;&gt;详细方案&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/zubin006/article/details/4544684&#34;&gt;http://blog.csdn.net/zubin006/article/details/4544684&lt;/a&gt;
 &lt;strong&gt;问题排查&lt;/strong&gt;
@@ -159,19 +158,19 @@ route add 10.0.0.0 mask 255.0.0.0 10.7.0.9
 
 &lt;p&gt;（补充：后来再读了一下manpage，发现有这个directive： &amp;ndash;route-method m Which method m to use for adding routes on Windows? adaptive (default) &amp;ndash; Try IP helper API first. If that fails, fall back to the route.exe shell command. ipapi &amp;ndash; Use IP helper API. exe &amp;ndash; Call the route.exe shell command. 也就是说，可以不用route-up那句，改成route-method exe，效果是一样的，而且更具通用性） 　　总的来说，对于Openvpn，排除防火墙的因素，问题往往很有可能出在路由上，其次就是nat。配置Openvpn必须要对这两个东西保持清醒才行。&lt;/p&gt;
 
-&lt;h2 id=&#34;faq4-ssh免密码-密钥登录:98ae243484943c9ec9cca79e144d7447&#34;&gt;FAQ4.SSH免密码，密钥登录&lt;/h2&gt;
+&lt;h2 id=&#34;faq4-ssh免密码-密钥登录&#34;&gt;FAQ4.SSH免密码，密钥登录&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;/etc/dropbear/authorized_keys
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;一-openvpn介绍:98ae243484943c9ec9cca79e144d7447&#34;&gt;一、OpenVPN介绍&lt;/h1&gt;
+&lt;h1 id=&#34;一-openvpn介绍&#34;&gt;一、OpenVPN介绍&lt;/h1&gt;
 
-&lt;h2 id=&#34;openvpn:98ae243484943c9ec9cca79e144d7447&#34;&gt;OpenVPN&lt;/h2&gt;
+&lt;h2 id=&#34;openvpn&#34;&gt;OpenVPN&lt;/h2&gt;
 
 &lt;p&gt;VPN即虚拟子网，用于跨越互联网构建虚拟的局域网，普遍用于公司网络管理、跨域设备管理等场景。
 Windows自带的pptp更加简易，而跨平台的openvpn更加通用、安全。&lt;/p&gt;
 
-&lt;h2 id=&#34;openwrt-luci:98ae243484943c9ec9cca79e144d7447&#34;&gt;openwrt/luci&lt;/h2&gt;
+&lt;h2 id=&#34;openwrt-luci&#34;&gt;openwrt/luci&lt;/h2&gt;
 
 &lt;p&gt;openwrt用于智能路由器的嵌入式操作系统，用opkg进行包管理，精简功能完善，带有管理的web端。
 luci则深度优化了web管理端，实现了Linux软件的web管理工作。
@@ -186,7 +185,7 @@ luci则深度优化了web管理端，实现了Linux软件的web管理工作。
 PandoraBox 是基于OpenWrt 14.09二次开发的路由器系统.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;openwrt下的openvpn:98ae243484943c9ec9cca79e144d7447&#34;&gt;Openwrt下的OpenVPN&lt;/h2&gt;
+&lt;h2 id=&#34;openwrt下的openvpn&#34;&gt;Openwrt下的OpenVPN&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;openvpn server&lt;/strong&gt;
 参考：&lt;a href=&#34;http://www.zhihu.com/question/21751217&#34;&gt;http://www.zhihu.com/question/21751217&lt;/a&gt;
@@ -207,13 +206,13 @@ openwrt 下有2个openvpn server：一个是openvpn-openssl，另一个是openvp
 opkg install openvpn openvpn-easy-rsa
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;二-openvpn-server-client配置实践:98ae243484943c9ec9cca79e144d7447&#34;&gt;二、OpenVPN Server+Client配置实践&lt;/h1&gt;
+&lt;h1 id=&#34;二-openvpn-server-client配置实践&#34;&gt;二、OpenVPN Server+Client配置实践&lt;/h1&gt;
 
 &lt;p&gt;参考：
 &lt;a href=&#34;http://www.williamlong.info/archives/3814.html&#34;&gt;http://www.williamlong.info/archives/3814.html&lt;/a&gt;
 &lt;a href=&#34;http://www.cnblogs.com/sunzhouyi/archive/2010/08/11/1797088.html&#34;&gt;http://www.cnblogs.com/sunzhouyi/archive/2010/08/11/1797088.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;0-环境版本:98ae243484943c9ec9cca79e144d7447&#34;&gt;0.环境版本&lt;/h2&gt;
+&lt;h2 id=&#34;0-环境版本&#34;&gt;0.环境版本&lt;/h2&gt;
 
 &lt;p&gt;服务端
 - Ubuntu 14.10
@@ -230,7 +229,7 @@ opkg install openvpn openvpn-easy-rsa
 - 系统：Windows 10
 - Openvpn 2.3.6&lt;/p&gt;
 
-&lt;h2 id=&#34;1-认证机构配置:98ae243484943c9ec9cca79e144d7447&#34;&gt;1.认证机构配置&lt;/h2&gt;
+&lt;h2 id=&#34;1-认证机构配置&#34;&gt;1.认证机构配置&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-vpn&#34;&gt;# vars
 set HOME=E:\OpenVPN\easy-rsa
@@ -258,7 +257,7 @@ Common Name : clinetzk/clineths/clientzx/clientnc
 Password : 空
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;服务端配置-server-ovpn-server-conf:98ae243484943c9ec9cca79e144d7447&#34;&gt;服务端配置 server.ovpn/server.conf&lt;/h2&gt;
+&lt;h2 id=&#34;服务端配置-server-ovpn-server-conf&#34;&gt;服务端配置 server.ovpn/server.conf&lt;/h2&gt;
 
 &lt;p&gt;server.conf(zkkj)&lt;/p&gt;
 
@@ -310,7 +309,7 @@ keepalive 10 120
 &lt;p&gt;启动服务端
 openvpn &amp;ndash;config server.conf&lt;/p&gt;
 
-&lt;h2 id=&#34;dns配置:98ae243484943c9ec9cca79e144d7447&#34;&gt;DNS配置&lt;/h2&gt;
+&lt;h2 id=&#34;dns配置&#34;&gt;DNS配置&lt;/h2&gt;
 
 &lt;p&gt;为OpenVPN客户端搭建DNS&lt;/p&gt;
 
@@ -344,7 +343,7 @@ openvpn &amp;ndash;config server.conf&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;root@delta:/etc/openvpn# service dnsmasq restart
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;开启linux路由功能:98ae243484943c9ec9cca79e144d7447&#34;&gt;开启Linux路由功能&lt;/h2&gt;
+&lt;h2 id=&#34;开启linux路由功能&#34;&gt;开启Linux路由功能&lt;/h2&gt;
 
 &lt;p&gt;我们希望在一些机器或虚拟机上运行的OpneVPN有路由的功能，这意味着要开启IP转发。&lt;/p&gt;
 
@@ -378,7 +377,7 @@ iptables -I INPUT   -i br-lan -j ACCEPT
 iptables -I FORWARD -i br-lan -j ACCEPT
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;openwrt客户端配置:98ae243484943c9ec9cca79e144d7447&#34;&gt;OpenWrt客户端配置&lt;/h2&gt;
+&lt;h2 id=&#34;openwrt客户端配置&#34;&gt;OpenWrt客户端配置&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;复制openvpn-zkkj.conf到/etc/openvpn/my-vpn.conf
 复制ca.crt client.cert client.key到/etc/openvpn
@@ -430,7 +429,7 @@ iptables -I FORWARD -o tun0 -j ACCEPT
 iptables -t nat -A POSTROUTING -s 192.168.99.0/24 -j MASQUERADE
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;openwrt端口映射:98ae243484943c9ec9cca79e144d7447&#34;&gt;OpenWRT端口映射&lt;/h2&gt;
+&lt;h2 id=&#34;openwrt端口映射&#34;&gt;OpenWRT端口映射&lt;/h2&gt;
 
 &lt;p&gt;1.服务UPNP开启
 2.网络——防火墙&lt;/p&gt;
@@ -564,9 +563,9 @@ IP 192.168.99.53, port 8000 位于 lan
       <guid>https://ryanemax.github.io/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</guid>
       <description>
 
-&lt;h1 id=&#34;一-基础环境选择及搭建:1decd4c033627886bb1bb9c7761b8119&#34;&gt;一、基础环境选择及搭建&lt;/h1&gt;
+&lt;h1 id=&#34;一-基础环境选择及搭建&#34;&gt;一、基础环境选择及搭建&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-支持硬件设备列表:1decd4c033627886bb1bb9c7761b8119&#34;&gt;1.支持硬件设备列表：&lt;/h2&gt;
+&lt;h2 id=&#34;1-支持硬件设备列表&#34;&gt;1.支持硬件设备列表：&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type&#34;&gt;http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type&lt;/a&gt;&lt;/p&gt;
 
@@ -595,17 +594,17 @@ IP 192.168.99.53, port 8000 位于 lan
 &lt;p&gt;番茄dualwan：
 &lt;a href=&#34;http://detail.1688.com/offer/1277654521.html&#34;&gt;http://detail.1688.com/offer/1277654521.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;2-系统安装:1decd4c033627886bb1bb9c7761b8119&#34;&gt;2.系统安装&lt;/h2&gt;
+&lt;h2 id=&#34;2-系统安装&#34;&gt;2.系统安装&lt;/h2&gt;
 
 &lt;p&gt;设备选型：Newifi Mini Y1版本
 系统选型：小云xCloud V2.1.0.5900
 安装工具：路由助手 1.0.13&lt;/p&gt;
 
-&lt;h2 id=&#34;3-开启ssh权限:1decd4c033627886bb1bb9c7761b8119&#34;&gt;3.开启SSH权限&lt;/h2&gt;
+&lt;h2 id=&#34;3-开启ssh权限&#34;&gt;3.开启SSH权限&lt;/h2&gt;
 
 &lt;p&gt;高级设置-系统-管理权，分别设置Lan/Wan两个ssh访问权限&lt;/p&gt;
 
-&lt;h2 id=&#34;4-登录配置opkg:1decd4c033627886bb1bb9c7761b8119&#34;&gt;4.登录配置opkg&lt;/h2&gt;
+&lt;h2 id=&#34;4-登录配置opkg&#34;&gt;4.登录配置opkg&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;libc安装&lt;/strong&gt;&lt;/p&gt;
 
@@ -643,7 +642,7 @@ src/gz barrier_breaker_telephony http://mirrors.ustc.edu.cn/openwrt/barrier_brea
 ## opkg.conf end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;5-opkg常用命令:1decd4c033627886bb1bb9c7761b8119&#34;&gt;5.opkg常用命令&lt;/h2&gt;
+&lt;h2 id=&#34;5-opkg常用命令&#34;&gt;5.opkg常用命令&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Package Manipulation:
         update                  Update list of available packages
@@ -685,9 +684,9 @@ opkg install openvpn-nossl
 opkg install /tmp/wget_openvpn.ipk
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;二-进阶配置:1decd4c033627886bb1bb9c7761b8119&#34;&gt;二、进阶配置&lt;/h1&gt;
+&lt;h1 id=&#34;二-进阶配置&#34;&gt;二、进阶配置&lt;/h1&gt;
 
-&lt;h2 id=&#34;系统清理:1decd4c033627886bb1bb9c7761b8119&#34;&gt;系统清理&lt;/h2&gt;
+&lt;h2 id=&#34;系统清理&#34;&gt;系统清理&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## opkg  清理
 rm -r /tmp/opkg-*

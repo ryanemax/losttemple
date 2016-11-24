@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -90,7 +90,10 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    GoLang几种读文件方式的比较 GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和ioutil 库。 那他们的效率如何呢？用一个简单的程序来评测一下： Go代码: package main import( &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; &amp;quot;flag&amp;quot; &amp;quot;io&amp;quot; &amp;quot;io/ioutil&amp;quot;   <a href="/cookbook/backend/golangReadFile/">Read More...</a>
+    GoLang几种读文件方式的比较 GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和ioutil 库。
+那他们的效率如何呢？用一个简单的程序来评测一下：
+Go代码:
+package main import( &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; &amp;quot;flag&amp;quot; &amp;quot;io&amp;quot; &amp;quot;io/ioutil&amp;quot;   <a href="/cookbook/backend/golangReadFile/">Read More...</a>
   </section>
 </article>
 
@@ -105,7 +108,9 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写 实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location 官方实例 type User struct { ID int Birthday time.Time Age int Name string `sql:&amp;q  <a href="/cookbook/backend/golangsqlorm/">Read More...</a>
+    0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写
+实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location
+官方实例 type User struct { ID int Birthday time.Time Age int Name string `sql:&amp;q  <a href="/cookbook/backend/golangsqlorm/">Read More...</a>
   </section>
 </article>
 
@@ -120,7 +125,9 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    《Golang代码组织最佳方案》 案例一：不建议的偷懒结构 $gopath/src/github.com/ryanemax/device/pkg_phone/phone.go $gopath/src/github.com/ryanemax/device/main.go import &amp;quot;./pkg_phone&amp;quot; 案例二：Docker中也不建议的偷懒结构 gonet2示例：github.com/gonet2/gam  <a href="/cookbook/backend/golangincase/">Read More...</a>
+    《Golang代码组织最佳方案》 案例一：不建议的偷懒结构 $gopath/src/github.com/ryanemax/device/pkg_phone/phone.go
+$gopath/src/github.com/ryanemax/device/main.go
+import &amp;quot;./pkg_phone&amp;quot;  案例二：Docker中也不建议的偷懒结构 gonet2示例：github.com/gonet2/ga  <a href="/cookbook/backend/golangincase/">Read More...</a>
   </section>
 </article>
 
@@ -135,7 +142,16 @@ window.onload=function(){
 
   </div>
   <section class="summary">
-    0.准备工作 基础开通 https://pages.github.com/ Blog选型 参考:https://www.staticgen.com/ hugo 基于Golang，速度极快的静态页面生成博客，http://gohugo.io/ jekyll 基于Ruby，生成静态HTML博客 Hexo 基于NodeJS，生成静态HTML博客 由于较熟悉nodejs所以选择Hexo作为基础博客系统 hexo 实际测试 #arch li 
+    0.准备工作 基础开通
+https://pages.github.com/
+Blog选型
+参考:https://www.staticgen.com/
+hugo 基于Golang，速度极快的静态页面生成博客，http://gohugo.io/
+jekyll 基于Ruby，生成静态HTML博客
+Hexo 基于NodeJS，生成静态HTML博客
+由于较熟悉nodejs所以选择Hexo作为基础博客系统
+hexo 实际测试
+#arch li 
   </section>
 </article>
 

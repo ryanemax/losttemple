@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Generate on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/generate/</link>
-    <description>Recent content in Generate on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/generate/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 07 May 2016 13:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/generate/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-generate/</guid>
       <description>
 
-&lt;h1 id=&#34;ionic命令行generate体验总结:d353d7a4dc5d188b654539144676ccdb&#34;&gt;ionic命令行Generate体验总结&lt;/h1&gt;
+&lt;h1 id=&#34;ionic命令行generate体验总结&#34;&gt;ionic命令行Generate体验总结&lt;/h1&gt;
 
-&lt;h1 id=&#34;工具简述-description:d353d7a4dc5d188b654539144676ccdb&#34;&gt;工具简述 Description&lt;/h1&gt;
+&lt;h1 id=&#34;工具简述-description&#34;&gt;工具简述 Description&lt;/h1&gt;
 
 &lt;p&gt;Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier.&lt;/p&gt;
 
@@ -45,7 +44,7 @@ ionic g page MyAboutPage
 
 &lt;p&gt;This will create a standard class with a simple http get request using Angular’s http class.&lt;/p&gt;
 
-&lt;h1 id=&#34;命名规范-a-quick-note-on-naming-conventions:d353d7a4dc5d188b654539144676ccdb&#34;&gt;命名规范 A quick note on naming conventions&lt;/h1&gt;
+&lt;h1 id=&#34;命名规范-a-quick-note-on-naming-conventions&#34;&gt;命名规范 A quick note on naming conventions&lt;/h1&gt;
 
 &lt;p&gt;Ionic 2 uses kebob-casing for file names (&lt;strong&gt;my-about-page.html&lt;/strong&gt;) and css classes (&lt;strong&gt;.my-about-page&lt;/strong&gt;), and uses PascalCasing for JavaScript classes in ES6/TypeScript (&lt;strong&gt;MyAboutPage&lt;/strong&gt;). Using this convention, developers can pick up any Ionic 2 project and quickly become productive, similar to Rails.&lt;/p&gt;
 

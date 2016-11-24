@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/agile/</link>
-    <description>Recent content in Agile on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/agile/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 03 Sep 2015 01:29:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,14 +17,14 @@
       <guid>https://ryanemax.github.io/cookbook/agile/comapping/</guid>
       <description>
 
-&lt;h1 id=&#34;1-uml:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;1.UML&lt;/h1&gt;
+&lt;h1 id=&#34;1-uml&#34;&gt;1.UML&lt;/h1&gt;
 
-&lt;h1 id=&#34;creately-com:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;creately.com&lt;/h1&gt;
+&lt;h1 id=&#34;creately-com&#34;&gt;creately.com&lt;/h1&gt;
 
 &lt;p&gt;付费
 实时协同&lt;/p&gt;
 
-&lt;h2 id=&#34;集成:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;集成&lt;/h2&gt;
+&lt;h2 id=&#34;集成&#34;&gt;集成&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;跨平台&lt;/li&gt;
@@ -37,12 +36,12 @@
 &lt;li&gt;FogBugz&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;gliffy:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;gliffy&lt;/h1&gt;
+&lt;h1 id=&#34;gliffy&#34;&gt;gliffy&lt;/h1&gt;
 
 &lt;p&gt;付费
 体验较好&lt;/p&gt;
 
-&lt;h2 id=&#34;集成-1:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;集成&lt;/h2&gt;
+&lt;h2 id=&#34;集成-1&#34;&gt;集成&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;JIRA&lt;/li&gt;
@@ -50,7 +49,7 @@
 
 &lt;li&gt;&lt;p&gt;Google Apps&lt;/p&gt;
 
-&lt;h2 id=&#34;格式导出:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;格式导出&lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;格式导出&#34;&gt;格式导出&lt;/h2&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;PNG&lt;/p&gt;&lt;/li&gt;
 
@@ -61,7 +60,7 @@
 &lt;li&gt;&lt;p&gt;Gliffy&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;2-思维导图:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;2.思维导图&lt;/h1&gt;
+&lt;h1 id=&#34;2-思维导图&#34;&gt;2.思维导图&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;Xmind支持导入格式&lt;/em&gt;
 - FreeMind
@@ -69,7 +68,7 @@
 - Mindjet MindManager
 - Xmind 2008&lt;/p&gt;
 
-&lt;h1 id=&#34;wisemapping:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;WiseMapping&lt;/h1&gt;
+&lt;h1 id=&#34;wisemapping&#34;&gt;WiseMapping&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;开源免费&lt;/li&gt;
@@ -79,7 +78,7 @@
 
 &lt;li&gt;&lt;p&gt;幕后支持：Atlassain.net&lt;/p&gt;
 
-&lt;h2 id=&#34;使用体验:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;使用体验&lt;/h2&gt;
+&lt;h2 id=&#34;使用体验&#34;&gt;使用体验&lt;/h2&gt;
 
 &lt;p&gt;缺点&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -89,7 +88,7 @@
 - 注释鼠标划过显示（可用于写表字段）
 - Link鼠标划过显示页面（PagePeeker插件）&lt;/p&gt;
 
-&lt;h2 id=&#34;导出格式支持:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;导出格式支持&lt;/h2&gt;
+&lt;h2 id=&#34;导出格式支持&#34;&gt;导出格式支持&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Freemind 0.9.0&lt;/li&gt;
@@ -106,9 +105,9 @@
 &lt;p&gt;&lt;a href=&#34;http://www.wisemapping.com&#34;&gt;http://www.wisemapping.com&lt;/a&gt;
 &lt;a href=&#34;http://www.wisemapping.org&#34;&gt;http://www.wisemapping.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;mindmup:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;MindMup&lt;/h1&gt;
+&lt;h1 id=&#34;mindmup&#34;&gt;MindMup&lt;/h1&gt;
 
-&lt;h2 id=&#34;使用体验-1:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;使用体验&lt;/h2&gt;
+&lt;h2 id=&#34;使用体验-1&#34;&gt;使用体验&lt;/h2&gt;
 
 &lt;p&gt;缺点
 - 不支持插入顶级主题
@@ -116,7 +115,7 @@
 优点
 - 注释可插入图片&lt;/p&gt;
 
-&lt;h2 id=&#34;导出格式支持-1:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;导出格式支持&lt;/h2&gt;
+&lt;h2 id=&#34;导出格式支持-1&#34;&gt;导出格式支持&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;MindMup .mup&lt;/li&gt;
@@ -129,7 +128,7 @@
 
 &lt;li&gt;&lt;p&gt;StoryBoard(PDF/PPT/WORD)&lt;/p&gt;
 
-&lt;h1 id=&#34;kity-minder:1d2fbc4a1ed4cd0b994173ceeac59285&#34;&gt;Kity Minder&lt;/h1&gt;
+&lt;h1 id=&#34;kity-minder&#34;&gt;Kity Minder&lt;/h1&gt;
 
 &lt;p&gt;百度UEditor团队&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -164,11 +163,11 @@
 ✔ Integrated chat
 ✔ Invite by pretty URLs &lt;a href=&#34;https://MySite.com/OurConf&#34;&gt;https://MySite.com/OurConf&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;appear-in:fe20636d959c65d17d991d1e0912e40a&#34;&gt;appear.in&lt;/h1&gt;
+&lt;h1 id=&#34;appear-in&#34;&gt;appear.in&lt;/h1&gt;
 
 &lt;p&gt;在线视频聊天室&lt;/p&gt;
 
-&lt;h2 id=&#34;start-talking-in-seconds:fe20636d959c65d17d991d1e0912e40a&#34;&gt;Start talking in seconds&lt;/h2&gt;
+&lt;h2 id=&#34;start-talking-in-seconds&#34;&gt;Start talking in seconds&lt;/h2&gt;
 
 &lt;p&gt;It has never been easier to start talking over video to your friends, family or coworkers.&lt;/p&gt;
 
@@ -181,7 +180,7 @@ lock the room for private conversations
 share your screen
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;no-installation-required:fe20636d959c65d17d991d1e0912e40a&#34;&gt;No installation required&lt;/h2&gt;
+&lt;h2 id=&#34;no-installation-required&#34;&gt;No installation required&lt;/h2&gt;
 
 &lt;p&gt;You only need one of the supported browsers listed to the right.&lt;/p&gt;
 
@@ -203,18 +202,18 @@ listed on desktop and devices with newer version of Android.&lt;/p&gt;
       <guid>https://ryanemax.github.io/cookbook/dms/</guid>
       <description>
 
-&lt;h1 id=&#34;0-ffice软件选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;0.ffice软件选择&lt;/h1&gt;
+&lt;h1 id=&#34;0-ffice软件选择&#34;&gt;0.ffice软件选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;0-0-选择libreoffice:4fa8bfda18f19217513616c149f0906f&#34;&gt;0.0 选择LibreOffice&lt;/h2&gt;
+&lt;h2 id=&#34;0-0-选择libreoffice&#34;&gt;0.0 选择LibreOffice&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;支持开源，以及Web亲和力，选择LibreOffice系列&lt;/li&gt;
 &lt;li&gt;跨平台，团队Linux、Windows、Mac均可用&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-dms系统选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.DMS系统选择&lt;/h1&gt;
+&lt;h1 id=&#34;1-dms系统选择&#34;&gt;1.DMS系统选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-0-选择alfresco:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.0 选择Alfresco&lt;/h2&gt;
+&lt;h2 id=&#34;1-0-选择alfresco&#34;&gt;1.0 选择Alfresco&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;支持开源，并兼容LibreOffice系列文件&lt;/li&gt;
@@ -234,9 +233,9 @@ listed on desktop and devices with newer version of Android.&lt;/p&gt;
 * Google Docs Integration
 * LibreOffice&lt;/p&gt;
 
-&lt;h2 id=&#34;1-1-安装版本选择:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.1 安装版本选择&lt;/h2&gt;
+&lt;h2 id=&#34;1-1-安装版本选择&#34;&gt;1.1 安装版本选择&lt;/h2&gt;
 
-&lt;h3 id=&#34;alfresco-one-vs-community-区别:4fa8bfda18f19217513616c149f0906f&#34;&gt;Alfresco One vs Community 区别&lt;/h3&gt;
+&lt;h3 id=&#34;alfresco-one-vs-community-区别&#34;&gt;Alfresco One vs Community 区别&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014&#34;&gt;http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014&lt;/a&gt;&lt;/p&gt;
 
@@ -247,11 +246,11 @@ listed on desktop and devices with newer version of Android.&lt;/p&gt;
 * One 支持集群部署
 * Cloud Sync&lt;/p&gt;
 
-&lt;h3 id=&#34;alfresco-one-5-0-1:4fa8bfda18f19217513616c149f0906f&#34;&gt;Alfresco One 5.0.1&lt;/h3&gt;
+&lt;h3 id=&#34;alfresco-one-5-0-1&#34;&gt;Alfresco One 5.0.1&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html&#34;&gt;http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;alfresco-community-edition-5-0:4fa8bfda18f19217513616c149f0906f&#34;&gt;Alfresco Community Edition 5.0&lt;/h3&gt;
+&lt;h3 id=&#34;alfresco-community-edition-5-0&#34;&gt;Alfresco Community Edition 5.0&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Alfresco/community-edition&#34;&gt;https://github.com/Alfresco/community-edition&lt;/a&gt;&lt;/p&gt;
 
@@ -263,18 +262,18 @@ listed on desktop and devices with newer version of Android.&lt;/p&gt;
 * Add-ons directory: &lt;a href=&#34;http://addons.alfresco.com&#34;&gt;http://addons.alfresco.com&lt;/a&gt;
 * Other developer resources: &lt;a href=&#34;https://www.alfresco.com&#34;&gt;https://www.alfresco.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;1-2-tomcat-下安装alfresco-community:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2 Tomcat 下安装Alfresco Community&lt;/h2&gt;
+&lt;h2 id=&#34;1-2-tomcat-下安装alfresco-community&#34;&gt;1.2 Tomcat 下安装Alfresco Community&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://docs.alfresco.com/community/tasks/alf-war-install.html&#34;&gt;http://docs.alfresco.com/community/tasks/alf-war-install.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;1-2-1-下载alfresco-community-5-0-d-zip:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2.1 下载alfresco-community-5.0.d.zip&lt;/h3&gt;
+&lt;h3 id=&#34;1-2-1-下载alfresco-community-5-0-d-zip&#34;&gt;1.2.1 下载alfresco-community-5.0.d.zip&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#https://wiki.alfresco.com/wiki/Community_file_list_5.0.d
 
 wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-community-5.0.d.zip
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;1-2-2-配置tomcat-7:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2.2 配置Tomcat 7&lt;/h3&gt;
+&lt;h3 id=&#34;1-2-2-配置tomcat-7&#34;&gt;1.2.2 配置Tomcat 7&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#http://docs.alfresco.com/community/tasks/configfiles-change-path.html
 #Edit the &amp;lt;TOMCAT_HOME&amp;gt;/conf/server.xml file.
@@ -283,7 +282,7 @@ wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-communi
 &amp;lt;Connector port=&amp;quot;8080&amp;quot; protocol=&amp;quot;HTTP/1.1&amp;quot; URIEncoding=&amp;quot;UTF-8&amp;quot; connectionTimeout=&amp;quot;20000&amp;quot; redirectPort=&amp;quot;8443&amp;quot; maxHttpHeaderSize=&amp;quot;32768&amp;quot;/&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;1-2-3-部署war:4fa8bfda18f19217513616c149f0906f&#34;&gt;1.2.3.部署War&lt;/h3&gt;
+&lt;h3 id=&#34;1-2-3-部署war&#34;&gt;1.2.3.部署War&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://docs.alfresco.com/community/tasks/alf-war-install.html&#34;&gt;http://docs.alfresco.com/community/tasks/alf-war-install.html&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -297,13 +296,13 @@ wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-communi
       <guid>https://ryanemax.github.io/cookbook/agile/taiga/</guid>
       <description>
 
-&lt;h1 id=&#34;taiga-io使用记录:144c1d19893c22838e9dbed07638badf&#34;&gt;TAIGA.IO使用记录&lt;/h1&gt;
+&lt;h1 id=&#34;taiga-io使用记录&#34;&gt;TAIGA.IO使用记录&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;完全手册：&lt;a href=&#34;http://taigaio.github.io/taiga-doc/dist/&#34;&gt;http://taigaio.github.io/taiga-doc/dist/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;0-当敏捷团队碰到agile系统:144c1d19893c22838e9dbed07638badf&#34;&gt;0.当敏捷团队碰到Agile系统&lt;/h2&gt;
+&lt;h2 id=&#34;0-当敏捷团队碰到agile系统&#34;&gt;0.当敏捷团队碰到Agile系统&lt;/h2&gt;
 
-&lt;h3 id=&#34;0-0-尝试:144c1d19893c22838e9dbed07638badf&#34;&gt;0.0 尝试&lt;/h3&gt;
+&lt;h3 id=&#34;0-0-尝试&#34;&gt;0.0 尝试&lt;/h3&gt;
 
 &lt;p&gt;之前尝试过很多优秀的Agile工具：&lt;/p&gt;
 
@@ -321,9 +320,9 @@ wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-communi
 
 &lt;p&gt;缺点：插件收费，手机版收费，界面体验不足，集成功能只适合做Scrum&lt;/p&gt;
 
-&lt;h3 id=&#34;0-1-选择:144c1d19893c22838e9dbed07638badf&#34;&gt;0.1 选择&lt;/h3&gt;
+&lt;h3 id=&#34;0-1-选择&#34;&gt;0.1 选择&lt;/h3&gt;
 
-&lt;h4 id=&#34;0-1-1-敏捷开发及项目管理系统:144c1d19893c22838e9dbed07638badf&#34;&gt;0.1.1 敏捷开发及项目管理系统&lt;/h4&gt;
+&lt;h4 id=&#34;0-1-1-敏捷开发及项目管理系统&#34;&gt;0.1.1 敏捷开发及项目管理系统&lt;/h4&gt;
 
 &lt;p&gt;核心必备：&lt;/p&gt;
 
@@ -342,7 +341,7 @@ wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-communi
 
 &lt;p&gt;因此，选择了Taiga，它是集以上关键功能一体，简洁，美观，开源，免费的敏捷管理系统。&lt;/p&gt;
 
-&lt;h4 id=&#34;0-1-2-即时通讯视频:144c1d19893c22838e9dbed07638badf&#34;&gt;0.1.2 即时通讯视频&lt;/h4&gt;
+&lt;h4 id=&#34;0-1-2-即时通讯视频&#34;&gt;0.1.2 即时通讯视频&lt;/h4&gt;
 
 &lt;p&gt;Taiga自带与Talky、jitsi等多种视频通讯平台的集成&lt;/p&gt;
 
@@ -357,20 +356,20 @@ wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-communi
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;1-功能拓展:144c1d19893c22838e9dbed07638badf&#34;&gt;1. 功能拓展&lt;/h2&gt;
+&lt;h2 id=&#34;1-功能拓展&#34;&gt;1. 功能拓展&lt;/h2&gt;
 
-&lt;h3 id=&#34;类似gantt图的项目时间拓展:144c1d19893c22838e9dbed07638badf&#34;&gt;类似Gantt图的项目时间拓展&lt;/h3&gt;
+&lt;h3 id=&#34;类似gantt图的项目时间拓展&#34;&gt;类似Gantt图的项目时间拓展&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/toggl/toggl-button&#34;&gt;https://github.com/toggl/toggl-button&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/toggl-button-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn&#34;&gt;Toggl Button: Productivity &amp;amp; Time Tracker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;ff-prepare:144c1d19893c22838e9dbed07638badf&#34;&gt;FF.prepare&lt;/h2&gt;
+&lt;h2 id=&#34;ff-prepare&#34;&gt;FF.prepare&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/taigaio/&#34;&gt;https://github.com/taigaio/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;taiga-front-编译安装方式:144c1d19893c22838e9dbed07638badf&#34;&gt;taiga-front &lt;code&gt;编译安装方式&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;taiga-front-编译安装方式&#34;&gt;taiga-front &lt;code&gt;编译安装方式&lt;/code&gt;&lt;/h3&gt;
 
 &lt;p&gt;Taiga项目的前端系统页面，AngularJs开发，支持扩展Modules、Themes&lt;/p&gt;
 
@@ -400,7 +399,7 @@ $ gulp
 git clone &lt;a href=&#34;https://github.com/taigaio/taiga-front-dist&#34;&gt;https://github.com/taigaio/taiga-front-dist&lt;/a&gt;
 cp -r taiga-front-dist/dist /var/www/taiga&lt;/p&gt;
 
-&lt;h3 id=&#34;taiga-back:144c1d19893c22838e9dbed07638badf&#34;&gt;taiga-back&lt;/h3&gt;
+&lt;h3 id=&#34;taiga-back&#34;&gt;taiga-back&lt;/h3&gt;
 
 &lt;p&gt;python 3.4+&lt;/p&gt;
 
