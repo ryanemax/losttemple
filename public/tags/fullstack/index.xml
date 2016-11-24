@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fullstack on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/fullstack/</link>
-    <description>Recent content in Fullstack on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/fullstack/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 18 Oct 2015 09:46:37 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/fullstack/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,23 +17,23 @@
       <guid>https://ryanemax.github.io/study/it/FullStackOfNewGeneration/</guid>
       <description>
 
-&lt;h1 id=&#34;0-short-intro:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;0.Short Intro.&lt;/h1&gt;
+&lt;h1 id=&#34;0-short-intro&#34;&gt;0.Short Intro.&lt;/h1&gt;
 
 &lt;p&gt;our team using the similar stack with lean.&lt;/p&gt;
 
-&lt;h2 id=&#34;front-end:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Front-End:&lt;/h2&gt;
+&lt;h2 id=&#34;front-end&#34;&gt;Front-End:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Desktop: Electron&lt;/li&gt;
 &lt;li&gt;Mobile: Ionic + Cordova Plugin&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;design:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Design&lt;/h2&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
 
 &lt;p&gt;Material-Design for Angularjs&amp;rsquo;s Desktop apps.
 Ionic-Material for Angularjs&amp;rsquo;s Mobile apps.&lt;/p&gt;
 
-&lt;h2 id=&#34;back-end:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Back-End&lt;/h2&gt;
+&lt;h2 id=&#34;back-end&#34;&gt;Back-End&lt;/h2&gt;
 
 &lt;p&gt;Laravel for normal HTTP REST API.
 Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt;/p&gt;
@@ -42,7 +41,7 @@ Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt
 &lt;p&gt;RAML for generating SDK files both of front/back-end.
 Admiring that RAML1.0 is comming.&lt;/p&gt;
 
-&lt;h2 id=&#34;database:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Database&lt;/h2&gt;
+&lt;h2 id=&#34;database&#34;&gt;Database&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Postgresql(for gis) we like it very much.&lt;/li&gt;
@@ -52,7 +51,7 @@ Admiring that RAML1.0 is comming.&lt;/p&gt;
 &lt;p&gt;A developping project for old-age caring, in chinese is, 智康宝.
 &lt;a href=&#34;http://www.zkkj168.com/&#34;&gt;http://www.zkkj168.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;embeded-software:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Embeded Software&lt;/h2&gt;
+&lt;h2 id=&#34;embeded-software&#34;&gt;Embeded Software&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;stm32&lt;/li&gt;
@@ -60,15 +59,15 @@ Admiring that RAML1.0 is comming.&lt;/p&gt;
 &lt;li&gt;Arm M Series&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-the-hope-for-lean:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;1.The Hope for lean&lt;/h1&gt;
+&lt;h1 id=&#34;1-the-hope-for-lean&#34;&gt;1.The Hope for lean&lt;/h1&gt;
 
-&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
+&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
 
 &lt;p&gt;It&amp;rsquo;s good for faster UI building.
 Maybe this hope is for a serial of Develop Tools.
 Only for a framework, a best yeoman-generator is enough.&lt;/p&gt;
 
-&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
+&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
 
 &lt;p&gt;You know, the Angulajs&amp;rsquo;s Team is supporting RAML too.
 It&amp;rsquo;s good for the Restful API &amp;amp; Better consistency of json data.
@@ -77,7 +76,7 @@ raml2html is good.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install raml2html --save
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
+&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
 
 &lt;p&gt;we pursuing the next generation.&lt;/p&gt;
 </description>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Games on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/game/</link>
-    <description>Recent content in Games on 刘雨飏@ANAS联盟</description>
+    <title>Game-rsses on 刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/game/index.xml</link>
+    <description>Recent content in Game-rsses on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
@@ -18,9 +18,9 @@
       <guid>https://ryanemax.github.io/game/mobilegame/</guid>
       <description>
 
-&lt;h1 id=&#34;手机游戏客户端开发引擎调研:c38e925fd5983ae81899ead8c842173e&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;总览:c38e925fd5983ae81899ead8c842173e&#34;&gt;总览&lt;/h1&gt;
+&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
 
 &lt;p&gt;| 对比类目 | Cocos2d-x | unity 3d | 结论 |
 | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- |
@@ -37,18 +37,18 @@
 3. 现在手机游戏市场前10位有7位都是cocos2d-x开发，开源、跨平台、MIT许可等等，当然适合2d游戏，3d游戏还是用unity；
 4. 想学习业界主流的游戏开发流程，不想局限于某个游戏平台或者2D还是3D，选unity&lt;/p&gt;
 
-&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎:c38e925fd5983ae81899ead8c842173e&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
+&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
 
 &lt;p&gt;cocos2d-x是个壮汉，但是肌肉极为不对称&lt;/p&gt;
 
-&lt;h2 id=&#34;优点:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;产品生态成熟，手机市场占有率大于u3d&lt;/li&gt;
 &lt;li&gt;AppStore中国畅销榜前五，都是cocos2s-x引擎&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;所谓的跨平台仅仅是IOS/Android等移动端&lt;/li&gt;
@@ -56,7 +56,7 @@
 &lt;li&gt;开发效率不如unity 3d&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;开发相关:c38e925fd5983ae81899ead8c842173e&#34;&gt;开发相关&lt;/h2&gt;
+&lt;h2 id=&#34;开发相关&#34;&gt;开发相关&lt;/h2&gt;
 
 &lt;p&gt;主流工具&lt;/p&gt;
 
@@ -112,24 +112,24 @@ UleadGifAnimator&lt;/p&gt;
 
 &lt;p&gt;原文csdn地址：&lt;a href=&#34;http://blog.csdn.net/touchsnow/article/details/18446119&#34;&gt;cocos2d-x editor&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;分解-unity-3d:c38e925fd5983ae81899ead8c842173e&#34;&gt;分解：unity 3d&lt;/h1&gt;
+&lt;h1 id=&#34;分解-unity-3d&#34;&gt;分解：unity 3d&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;真正实现跨平台，PC端的Mac/Windows/Linux，移动端的IOS/IPad/Android&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;性能:c38e925fd5983ae81899ead8c842173e&#34;&gt;性能&lt;/h2&gt;
+&lt;h2 id=&#34;性能&#34;&gt;性能&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2D游戏，Unity同屏400个单位没问题&lt;/li&gt;
 &lt;li&gt;参考神仙道同屏object数量&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;代表作品分析:c38e925fd5983ae81899ead8c842173e&#34;&gt;代表作品分析&lt;/h1&gt;
+&lt;h1 id=&#34;代表作品分析&#34;&gt;代表作品分析&lt;/h1&gt;
 
-&lt;h2 id=&#34;炉石传说-unity-3d:c38e925fd5983ae81899ead8c842173e&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
+&lt;h2 id=&#34;炉石传说-unity-3d&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;使用Unity3D开发2d化游戏已成趋势&lt;/li&gt;
@@ -146,25 +146,25 @@ UleadGifAnimator&lt;/p&gt;
       <guid>https://ryanemax.github.io/game/dev/h5game/</guid>
       <description>
 
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;phaser-js:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;Phaser.js&lt;/h1&gt;
+&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;egret-html5-es6最佳选择:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
+&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
 
-&lt;h2 id=&#34;代表游戏:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;代表游戏&lt;/h2&gt;
+&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;神经猫&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;优点:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生态链比较完善&lt;/li&gt;
@@ -185,7 +185,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;刷新率卡顿问题严重影响游戏体验&lt;/li&gt;
@@ -193,9 +193,9 @@ UleadGifAnimator&lt;/p&gt;
 &lt;li&gt;全面依赖于html5，但是已经与多款浏览器集成了runtime，可以opengl渲染代替canvas渲染&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cocos2d-js-与cocos2d-x差距太大了-不建议使用:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;cocos2d-js（与cocos2d-x差距太大了，不建议使用）&lt;/h1&gt;
+&lt;h1 id=&#34;cocos2d-js-与cocos2d-x差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos2d-x差距太大了，不建议使用）&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点-1:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Babel ES6&lt;/li&gt;
@@ -208,7 +208,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点-1:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
@@ -243,11 +243,11 @@ UleadGifAnimator&lt;/p&gt;
       <guid>https://ryanemax.github.io/game/dev/mobilegame/</guid>
       <description>
 
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研:c38e925fd5983ae81899ead8c842173e&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用:c38e925fd5983ae81899ead8c842173e&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
+&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Babel ES6&lt;/li&gt;
@@ -260,7 +260,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
@@ -285,23 +285,23 @@ UleadGifAnimator&lt;/p&gt;
 &lt;li&gt;IDE，cocos studio十分难用，拖了引擎后腿&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;phaser-js:c38e925fd5983ae81899ead8c842173e&#34;&gt;Phaser.js&lt;/h1&gt;
+&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;egret-html5-es6最佳选择:c38e925fd5983ae81899ead8c842173e&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
+&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
 
-&lt;h2 id=&#34;代表游戏:c38e925fd5983ae81899ead8c842173e&#34;&gt;代表游戏&lt;/h2&gt;
+&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;神经猫&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;优点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生态链比较完善&lt;/li&gt;
@@ -322,7 +322,7 @@ UleadGifAnimator&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;Mac&lt;/p&gt;
 
-&lt;h2 id=&#34;缺点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;刷新率卡顿问题严重影响游戏体验&lt;/p&gt;&lt;/li&gt;
@@ -342,9 +342,9 @@ UleadGifAnimator&lt;/p&gt;
       <guid>https://ryanemax.github.io/game/play/evecorp/</guid>
       <description>
 
-&lt;h1 id=&#34;第一个军团-pandemic-horde-inc:c329476f0e3fe7ca3547bc2988821c90&#34;&gt;第一个军团 Pandemic Horde Inc.&lt;/h1&gt;
+&lt;h1 id=&#34;第一个军团-pandemic-horde-inc&#34;&gt;第一个军团 Pandemic Horde Inc.&lt;/h1&gt;
 
-&lt;h2 id=&#34;timeline:c329476f0e3fe7ca3547bc2988821c90&#34;&gt;TimeLine&lt;/h2&gt;
+&lt;h2 id=&#34;timeline&#34;&gt;TimeLine&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2016/2/11 join the corp &amp;ldquo;Pandemic Horde Inc.&amp;rdquo;&lt;/li&gt;
@@ -363,15 +363,15 @@ UleadGifAnimator&lt;/p&gt;
       <guid>https://ryanemax.github.io/game/play/eveofplan/</guid>
       <description>
 
-&lt;h1 id=&#34;eve-europe-server-planning:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Eve Europe Server Planning&lt;/h1&gt;
+&lt;h1 id=&#34;eve-europe-server-planning&#34;&gt;Eve Europe Server Planning&lt;/h1&gt;
 
-&lt;h1 id=&#34;get-ready:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Get Ready&lt;/h1&gt;
+&lt;h1 id=&#34;get-ready&#34;&gt;Get Ready&lt;/h1&gt;
 
-&lt;h2 id=&#34;keybord-mapping:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Keybord Mapping&lt;/h2&gt;
+&lt;h2 id=&#34;keybord-mapping&#34;&gt;Keybord Mapping&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://v.youku.com/v_show/id_XODQ2MTM5MzIw.html&#34;&gt;视频: EVE：新特效星图+键盘操控时代（Rhea 1.0）&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;trading-web-site-api:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Trading Web Site/API&lt;/h2&gt;
+&lt;h2 id=&#34;trading-web-site-api&#34;&gt;Trading Web Site/API&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;EVE-Central&lt;/li&gt;
@@ -394,7 +394,7 @@ UleadGifAnimator&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://eve-marketdata.com/&#34;&gt;http://eve-marketdata.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;reality-target:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Reality Target&lt;/h2&gt;
+&lt;h2 id=&#34;reality-target&#34;&gt;Reality Target&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;English Speaking/Reading Skill&lt;/li&gt;
@@ -402,7 +402,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;li&gt;Global Fuck GFW&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;account-info:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Account Info&lt;/h1&gt;
+&lt;h1 id=&#34;account-info&#34;&gt;Account Info&lt;/h1&gt;
 
 &lt;p&gt;ryanemax@gmail.com
 ryanemax
@@ -410,7 +410,7 @@ IU***evol&lt;/p&gt;
 
 &lt;p&gt;主要在线时间：23:00-3:00&lt;/p&gt;
 
-&lt;h2 id=&#34;邀请人资料:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;邀请人资料&lt;/h2&gt;
+&lt;h2 id=&#34;邀请人资料&#34;&gt;邀请人资料&lt;/h2&gt;
 
 &lt;p&gt;QQ：1068901
 百度贴吧：发霉的提拉米苏
@@ -420,16 +420,16 @@ IU***evol&lt;/p&gt;
 - 2006年国服角色：花脸木偶 G族战斗号，2011年已出售
 - 2011年角色改名为：菲拉格索斯（服役于小馒头军团）&lt;/p&gt;
 
-&lt;h1 id=&#34;first-character:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;First Character&lt;/h1&gt;
+&lt;h1 id=&#34;first-character&#34;&gt;First Character&lt;/h1&gt;
 
-&lt;h2 id=&#34;info:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Info&lt;/h2&gt;
+&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Name: Rita Ryn&lt;/li&gt;
 &lt;li&gt;Sex: Female&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;property:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Property&lt;/h2&gt;
+&lt;h2 id=&#34;property&#34;&gt;Property&lt;/h2&gt;
 
 &lt;p&gt;结论：不要极限洗点，对于单号的新人，推荐的起步属性点为&lt;/p&gt;
 
@@ -441,15 +441,15 @@ IU***evol&lt;/p&gt;
 &lt;li&gt;记忆 (Mem) : 17&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;races:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Races&lt;/h2&gt;
+&lt;h2 id=&#34;races&#34;&gt;Races&lt;/h2&gt;
 
 &lt;p&gt;Gallente/Gallente&lt;/p&gt;
 
-&lt;h3 id=&#34;faction-pve:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Faction/PVE&lt;/h3&gt;
+&lt;h3 id=&#34;faction-pve&#34;&gt;Faction/PVE&lt;/h3&gt;
 
-&lt;h3 id=&#34;姐妹会:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;姐妹会&lt;/h3&gt;
+&lt;h3 id=&#34;姐妹会&#34;&gt;姐妹会&lt;/h3&gt;
 
-&lt;h4 id=&#34;简介:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;简介&lt;/h4&gt;
+&lt;h4 id=&#34;简介&#34;&gt;简介&lt;/h4&gt;
 
 &lt;p&gt;帝国辖域以外的空间是土匪和海盗们的乐土，也是位于浩瀚星空的另一端的，那些投身于救助事业者的家园。EVE姐妹会就是其中最著名的组织，而且她不仅仅提供援助救济。协会建立在信仰和科学的基础上，这对奇异的组合吸引着帝国各处的人们参与其中。&lt;/p&gt;
 
@@ -457,22 +457,22 @@ IU***evol&lt;/p&gt;
 
 &lt;p&gt;她称彻底探知EVE之门的奥秘是“真神的旨意”，为了世间万物，她们会把工作进行到底。但迄今为止姐妹会的研究工作并没有太大进展，而上百万与姐妹会有共同愿望的人们正热切地期待着日后他们的研究会有新突破。&lt;/p&gt;
 
-&lt;h4 id=&#34;刷声望的技巧:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;刷声望的技巧&lt;/h4&gt;
+&lt;h4 id=&#34;刷声望的技巧&#34;&gt;刷声望的技巧&lt;/h4&gt;
 
 &lt;p&gt;艾拉肯 有一个空间站里面有姐妹会的2个1级任务代理人，没错的
 ，就刷这个最快了，2级3级任务根本不考虑。直接刷1级任务到够4级任务的声望。&lt;/p&gt;
 
 &lt;p&gt;姐妹会和G/M关系很大 会加这两个势力的声望。故事线是加的，加四族声望，但一般任务可能会接到降低某四族声望的任务，拒绝就行了&lt;/p&gt;
 
-&lt;h3 id=&#34;pvp:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;PVP&lt;/h3&gt;
+&lt;h3 id=&#34;pvp&#34;&gt;PVP&lt;/h3&gt;
 
-&lt;h4 id=&#34;小队战-t1-t2:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;小队战/T1/T2&lt;/h4&gt;
+&lt;h4 id=&#34;小队战-t1-t2&#34;&gt;小队战/T1/T2&lt;/h4&gt;
 
 &lt;p&gt;护卫舰配置 Tristan&lt;/p&gt;
 
 &lt;p&gt;驱逐舰配置 Aglos&lt;/p&gt;
 
-&lt;h4 id=&#34;参考资料:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;参考资料&lt;/h4&gt;
+&lt;h4 id=&#34;参考资料&#34;&gt;参考资料&lt;/h4&gt;
 
 &lt;p&gt;甲抗，转向速度中等，先天速度中等，武器是混合炮（动热伤害），部分船擅长无人机，混合炮的近炮种疾速炮超近的射程和超暴力的伤害，充分体验了盖伦特不是你死就是我亡的气质。磁轨炮和无人机的伤害都在近年得到加强，潜力很大。&lt;/p&gt;
 
@@ -502,7 +502,7 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
 &lt;p&gt;大航母
 Ｇ族，甲抗：无人机攻击力加成，最强的对旗舰DPS，现在会战这个船常占所有旗舰的一半以上…可见其威力…&lt;/p&gt;
 
-&lt;h2 id=&#34;pve-任务-刷怪:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;PVE/任务/刷怪&lt;/h2&gt;
+&lt;h2 id=&#34;pve-任务-刷怪&#34;&gt;PVE/任务/刷怪&lt;/h2&gt;
 
 &lt;p&gt;盖伦特
 甲抗，甲抗优势同A族。
@@ -516,7 +516,7 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
 
 &lt;p&gt;缺点：射程近，无人机速度奇慢，怪会攻击无人机等缺陷。&lt;/p&gt;
 
-&lt;h1 id=&#34;ship-skill-queue:d89a2b07bf62fdfa733f67469f67d0ff&#34;&gt;Ship &amp;amp; Skill Queue&lt;/h1&gt;
+&lt;h1 id=&#34;ship-skill-queue&#34;&gt;Ship &amp;amp; Skill Queue&lt;/h1&gt;
 
 &lt;p&gt;主要：无人机+磁轨炮
 小队战PVP战舰：tristan algos&lt;/p&gt;
@@ -535,9 +535,9 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
       <guid>https://ryanemax.github.io/game/dev/mapplestory/</guid>
       <description>
 
-&lt;h1 id=&#34;冒险岛模拟器技术调研及收藏:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;冒险岛模拟器技术调研及收藏&lt;/h1&gt;
+&lt;h1 id=&#34;冒险岛模拟器技术调研及收藏&#34;&gt;冒险岛模拟器技术调研及收藏&lt;/h1&gt;
 
-&lt;h1 id=&#34;0-resource-list:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;0.resource list&lt;/h1&gt;
+&lt;h1 id=&#34;0-resource-list&#34;&gt;0.resource list&lt;/h1&gt;
 
 &lt;p&gt;All Release Messages:
 &lt;a href=&#34;https://forum.ragezone.com/f690/&#34;&gt;https://forum.ragezone.com/f690/&lt;/a&gt;&lt;/p&gt;
@@ -548,9 +548,9 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
 &lt;p&gt;Server Tech Froum:
 &lt;a href=&#34;http://dev.chiasoft.net/&#34;&gt;http://dev.chiasoft.net/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;1-server:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.Server&lt;/h1&gt;
+&lt;h1 id=&#34;1-server&#34;&gt;1.Server&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-0-odinms:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.0 OdinMS&lt;/h2&gt;
+&lt;h2 id=&#34;1-0-odinms&#34;&gt;1.0 OdinMS&lt;/h2&gt;
 
 &lt;p&gt;Dev by Java for v0.55
 - more stable&lt;/p&gt;
@@ -560,9 +560,9 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
 &lt;a href=&#34;https://code.google.com/p/dev-odinms/&#34;&gt;https://code.google.com/p/dev-odinms/&lt;/a&gt;
 &lt;a href=&#34;https://code.google.com/p/projectodin/&#34;&gt;https://code.google.com/p/projectodin/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;1-1-titanms:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.1 TitanMS&lt;/h2&gt;
+&lt;h2 id=&#34;1-1-titanms&#34;&gt;1.1 TitanMS&lt;/h2&gt;
 
-&lt;h2 id=&#34;1-2-vana-a-titanms-fork:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.2 Vana (A TitanMS Fork)&lt;/h2&gt;
+&lt;h2 id=&#34;1-2-vana-a-titanms-fork&#34;&gt;1.2 Vana (A TitanMS Fork)&lt;/h2&gt;
 
 &lt;p&gt;dev by c++&lt;/p&gt;
 
@@ -574,7 +574,7 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/VanaDev/Vana/wiki&#34;&gt;https://github.com/VanaDev/Vana/wiki&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;1-3-tinymapleserver:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.3 TinyMapleServer&lt;/h2&gt;
+&lt;h2 id=&#34;1-3-tinymapleserver&#34;&gt;1.3 TinyMapleServer&lt;/h2&gt;
 
 &lt;p&gt;Dev by golang&lt;/p&gt;
 
@@ -584,7 +584,7 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
 
 &lt;p&gt;&lt;a href=&#34;http://www.mediafire.com/download/6hsxxssbwqxp674/TinyMapleServer+2.zip&#34;&gt;http://www.mediafire.com/download/6hsxxssbwqxp674/TinyMapleServer+2.zip&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;1-4-maplescala:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.4 MapleScala&lt;/h2&gt;
+&lt;h2 id=&#34;1-4-maplescala&#34;&gt;1.4 MapleScala&lt;/h2&gt;
 
 &lt;p&gt;Dev by Scala&lt;/p&gt;
 
@@ -604,20 +604,20 @@ Packages in use&lt;/p&gt;
 &lt;li&gt;Yaminike&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;1-5-kagami:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;1.5 kagami&lt;/h2&gt;
+&lt;h2 id=&#34;1-5-kagami&#34;&gt;1.5 kagami&lt;/h2&gt;
 
 &lt;p&gt;Dev by Golang&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Francesco149/kagami&#34;&gt;https://github.com/Francesco149/kagami&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;2-client:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;2.Client&lt;/h1&gt;
+&lt;h1 id=&#34;2-client&#34;&gt;2.Client&lt;/h1&gt;
 
-&lt;h2 id=&#34;imapple:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;iMapple&lt;/h2&gt;
+&lt;h2 id=&#34;imapple&#34;&gt;iMapple&lt;/h2&gt;
 
 &lt;p&gt;The 3rd Maplestory Custom Client EVER MADE. Made by David and Seth ;)
 &lt;a href=&#34;https://code.google.com/p/imaple&#34;&gt;https://code.google.com/p/imaple&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;nolifestory:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;NoLifeStory&lt;/h2&gt;
+&lt;h2 id=&#34;nolifestory&#34;&gt;NoLifeStory&lt;/h2&gt;
 
 &lt;p&gt;dev by c++&lt;/p&gt;
 
@@ -631,38 +631,24 @@ Packages in use&lt;/p&gt;
 - not support 64bit only for x86
 - not support big file&lt;/p&gt;
 
-&lt;h1 id=&#34;3-etc:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.Etc.&lt;/h1&gt;
+&lt;h1 id=&#34;3-etc&#34;&gt;3.Etc.&lt;/h1&gt;
 
-&lt;h2 id=&#34;3-0-nxformat:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.0 NxFormat&lt;/h2&gt;
+&lt;h2 id=&#34;3-0-nxformat&#34;&gt;3.0 NxFormat&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://nxformat.github.io/&#34;&gt;http://nxformat.github.io/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;客户端资源包及相关工具&lt;/p&gt;
 
-&lt;h2 id=&#34;3-1-mapleshark-2-0-2-5:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.1 MapleShark 2.0.2.5&lt;/h2&gt;
+&lt;h2 id=&#34;3-1-mapleshark-2-0-2-5&#34;&gt;3.1 MapleShark 2.0.2.5&lt;/h2&gt;
 
 &lt;p&gt;MS客户端封包截取分析器&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/diamondo25/MapleShark&#34;&gt;https://github.com/diamondo25/MapleShark&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;3-2-cms-integrated:69864fdf249e1df4e16a4ef540f3da21&#34;&gt;3.2 CMS integrated&lt;/h2&gt;
+&lt;h2 id=&#34;3-2-cms-integrated&#34;&gt;3.2 CMS integrated&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://code.google.com/p/leaf-cms/&#34;&gt;https://code.google.com/p/leaf-cms/&lt;/a&gt;
 Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going to have integrated support for TitanMS, OdinMS and Vana but currently it is going to be developed to be tested with OdinMS.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ryanemax.github.io/game/play/battlenet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ryanemax.github.io/game/play/battlenet/</guid>
-      <description>
-
-&lt;h1 id=&#34;二区好友:fc7088b89cb42688ed6697854fdbb9c6&#34;&gt;二区好友&lt;/h1&gt;
-
-&lt;p&gt;西北丶苍狼-冰风岗&lt;/p&gt;
 </description>
     </item>
     
@@ -674,7 +660,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <guid>https://ryanemax.github.io/game/play/nexusmanager/</guid>
       <description>
 
-&lt;h1 id=&#34;mod站点:0cd50cb8f0d35178d64288d00069c52c&#34;&gt;Mod站点&lt;/h1&gt;
+&lt;h1 id=&#34;mod站点&#34;&gt;Mod站点&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nexusmods.com/skyrim/mods/1334/&#34;&gt;Mod Organizer 包管理器&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -684,7 +670,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com&#34;&gt;资源站点&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;账号注册:0cd50cb8f0d35178d64288d00069c52c&#34;&gt;账号注册&lt;/h1&gt;
+&lt;h1 id=&#34;账号注册&#34;&gt;账号注册&lt;/h1&gt;
 
 &lt;p&gt;ryanemax&lt;/p&gt;
 
@@ -692,7 +678,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
 
 &lt;p&gt;IU*&lt;/p&gt;
 
-&lt;h1 id=&#34;上古卷轴5:0cd50cb8f0d35178d64288d00069c52c&#34;&gt;上古卷轴5&lt;/h1&gt;
+&lt;h1 id=&#34;上古卷轴5&#34;&gt;上古卷轴5&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://skse.silverlock.org/&#34;&gt;SKSE 1.7.3 OR NEWER&lt;/a&gt;&lt;/li&gt;
@@ -712,7 +698,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com/topic/23944-sos-schlongs-of-skyrim/&#34;&gt;SOS - Schlongs of Skyrim&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;辐射4:0cd50cb8f0d35178d64288d00069c52c&#34;&gt;辐射4&lt;/h1&gt;
+&lt;h1 id=&#34;辐射4&#34;&gt;辐射4&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.nexusmods.com/fallout4/mods/15/?&#34;&gt;Caliente&amp;rsquo;s Beautiful Bodies Enhancer -CBBE-&lt;/a&gt;&lt;/li&gt;
@@ -729,7 +715,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <guid>https://ryanemax.github.io/game/play/xkfyz/</guid>
       <description>
 
-&lt;h1 id=&#34;侠客风云传:32273854e71c8090116b9aa69aa07e7c&#34;&gt;侠客风云传&lt;/h1&gt;
+&lt;h1 id=&#34;侠客风云传&#34;&gt;侠客风云传&lt;/h1&gt;
 
 &lt;p&gt;ENRD-RNP7-E9C6-E9BY-XPCN&lt;/p&gt;
 </description>
@@ -743,7 +729,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <guid>https://ryanemax.github.io/game/projectnova/history/</guid>
       <description>
 
-&lt;h1 id=&#34;背景概述:ede98e4633e239f933cbfd1f4e1b766c&#34;&gt;背景概述&lt;/h1&gt;
+&lt;h1 id=&#34;背景概述&#34;&gt;背景概述&lt;/h1&gt;
 
 &lt;p&gt;21世纪，神秘能量降临地球，散布在我们身边的每个角落。没人知道它们来自哪里，没人懂得如何使用它们，它的存在只被少数人知道。大自然某些现象对这些能量具有吸引力，而能量逐渐集中的区域，会产生出让人倾慕的力量，仿佛只要拥有了它们，我们就可以发现万物的本源。&lt;/p&gt;
 
@@ -769,7 +755,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <guid>https://ryanemax.github.io/game/projectnova/itemclass/</guid>
       <description>
 
-&lt;h1 id=&#34;道具体系:6dd4eae6400ef62363a7ea836b0b36d3&#34;&gt;道具体系&lt;/h1&gt;
+&lt;h1 id=&#34;道具体系&#34;&gt;道具体系&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;类别&lt;/p&gt;
@@ -840,7 +826,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <guid>https://ryanemax.github.io/game/projectnova/jobclass/</guid>
       <description>
 
-&lt;h1 id=&#34;知识体系:82fca384c8f5056070dc346813524dca&#34;&gt;知识体系&lt;/h1&gt;
+&lt;h1 id=&#34;知识体系&#34;&gt;知识体系&lt;/h1&gt;
 
 &lt;p&gt;游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系：&lt;/p&gt;
 
@@ -866,7 +852,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <guid>https://ryanemax.github.io/game/projectnova/powerexp/</guid>
       <description>
 
-&lt;h1 id=&#34;能量体系:768ababe7f80250454112bb8dfcca783&#34;&gt;能量体系&lt;/h1&gt;
+&lt;h1 id=&#34;能量体系&#34;&gt;能量体系&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;能量微粒&lt;/li&gt;

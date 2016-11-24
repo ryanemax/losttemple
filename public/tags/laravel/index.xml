@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laravel on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/laravel/</link>
-    <description>Recent content in Laravel on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/laravel/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 01 Oct 2015 02:13:22 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/cookbook/cms/cmswithlaravel/</guid>
       <description>
 
-&lt;h1 id=&#34;october-cms:0ca427d6515b13555446207bc36d4b68&#34;&gt;October CMS&lt;/h1&gt;
+&lt;h1 id=&#34;october-cms&#34;&gt;October CMS&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://octobercms.com/&#34;&gt;https://octobercms.com/&lt;/a&gt;
 &lt;a href=&#34;https://github.com/octobercms/october&#34;&gt;https://github.com/octobercms/october&lt;/a&gt;&lt;/p&gt;
@@ -31,7 +30,7 @@
 &lt;li&gt;32 Themes&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;doptor:0ca427d6515b13555446207bc36d4b68&#34;&gt;Doptor&lt;/h1&gt;
+&lt;h1 id=&#34;doptor&#34;&gt;Doptor&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Doptor/Doptor&#34;&gt;https://github.com/Doptor/Doptor&lt;/a&gt;&lt;/p&gt;
 
@@ -43,7 +42,7 @@
 &lt;li&gt;&lt;p&gt;Theme少需要定制&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;refer-to-a-list-of-cmss-built-with-laravel:0ca427d6515b13555446207bc36d4b68&#34;&gt;Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;refer-to-a-list-of-cmss-built-with-laravel&#34;&gt;Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo;&lt;/h1&gt;
 
 &lt;p&gt;from: &lt;a href=&#34;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&#34;&gt;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&lt;/a&gt;&lt;/p&gt;
 

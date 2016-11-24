@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/hugo/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 13 Aug 2015 17:51:58 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/cookbook/tool/blogforgit/</guid>
       <description>
 
-&lt;h1 id=&#34;0-准备工作:eadff3637fef2221b49957de041cf521&#34;&gt;0.准备工作&lt;/h1&gt;
+&lt;h1 id=&#34;0-准备工作&#34;&gt;0.准备工作&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;基础开通&lt;/strong&gt;&lt;/p&gt;
 
@@ -74,7 +73,7 @@ ALL_PROXY=socks5://127.0.0.1:1080 brew install brew
 3.gh-pages for sites(.html)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ff-私密笔记:eadff3637fef2221b49957de041cf521&#34;&gt;FF.私密笔记&lt;/h1&gt;
+&lt;h1 id=&#34;ff-私密笔记&#34;&gt;FF.私密笔记&lt;/h1&gt;
 
 &lt;p&gt;Hexo是静态页面，无法限制权限&lt;/p&gt;
 

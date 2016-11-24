@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Orm on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/orm/</link>
-    <description>Recent content in Orm on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/orm/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 08 Oct 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/orm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,21 +17,21 @@
       <guid>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</guid>
       <description>
 
-&lt;h1 id=&#34;0-models写法技巧及migration标准:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
+&lt;h1 id=&#34;0-models写法技巧及migration标准&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
 
-&lt;h2 id=&#34;法则:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;法则&lt;/h2&gt;
+&lt;h2 id=&#34;法则&#34;&gt;法则&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;基本满足大驼峰命名法则&lt;/strong&gt;
 首字母大写
 &amp;ldquo;_&amp;rdquo; 忽略后大写&lt;/p&gt;
 
-&lt;h2 id=&#34;实例:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;实例&lt;/h2&gt;
+&lt;h2 id=&#34;实例&#34;&gt;实例&lt;/h2&gt;
 
 &lt;p&gt;device_id 对应 DeviceID
 create_time 对应 CreateTime
 location 对应 Location&lt;/p&gt;
 
-&lt;h2 id=&#34;官方实例:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;官方实例&lt;/h2&gt;
+&lt;h2 id=&#34;官方实例&#34;&gt;官方实例&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;type User struct {
     ID           int
@@ -74,9 +73,9 @@ type Language struct {
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;1-gorm实践:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;1.GORM实践&lt;/h1&gt;
+&lt;h1 id=&#34;1-gorm实践&#34;&gt;1.GORM实践&lt;/h1&gt;
 
-&lt;h2 id=&#34;数据库:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;数据库&lt;/h2&gt;
+&lt;h2 id=&#34;数据库&#34;&gt;数据库&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;MariaDB [zwjj]&amp;gt; desc zw_device;
 +-------------+---------------------+------+-----+---------+----------------+
@@ -98,7 +97,7 @@ type Language struct {
 +-------------+---------------------
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;import:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;import&lt;/h2&gt;
+&lt;h2 id=&#34;import&#34;&gt;import&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;import(
         &amp;quot;fmt&amp;quot;
@@ -109,7 +108,7 @@ type Language struct {
 )
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;define-structs-models-in-gorm:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;define Structs(Models) in gorm&lt;/h2&gt;
+&lt;h2 id=&#34;define-structs-models-in-gorm&#34;&gt;define Structs(Models) in gorm&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;type Device struct {
         DeviceID    int
@@ -130,7 +129,7 @@ func (d Device) TableName() string {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;get-handle-row-in-gorm:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;get/handle row in gorm&lt;/h2&gt;
+&lt;h2 id=&#34;get-handle-row-in-gorm&#34;&gt;get/handle row in gorm&lt;/h2&gt;
 
 &lt;p&gt;Locsearch实现了查找device_id = 4设备的详细信息&lt;/p&gt;
 

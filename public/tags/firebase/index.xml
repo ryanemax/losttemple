@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Firebase on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/firebase/</link>
-    <description>Recent content in Firebase on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/firebase/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,15 +17,15 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</guid>
       <description>
 
-&lt;h1 id=&#34;firebase:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;Firebase&lt;/h1&gt;
+&lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
 
-&lt;h1 id=&#34;angularfire2:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;AngularFire2&lt;/h1&gt;
+&lt;h1 id=&#34;angularfire2&#34;&gt;AngularFire2&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://angularfire2.com/api/&#34;&gt;https://angularfire2.com/api/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;https://github.com/angular/angularfire2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;所有ng2应用示例:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;所有ng2应用示例&lt;/h2&gt;
+&lt;h2 id=&#34;所有ng2应用示例&#34;&gt;所有ng2应用示例&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://builtwithangular2.com/&#34;&gt;http://builtwithangular2.com/&lt;/a&gt;&lt;/p&gt;
 </description>

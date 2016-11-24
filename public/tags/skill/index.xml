@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Skill on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/skill/</link>
-    <description>Recent content in Skill on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/skill/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 18 Oct 2015 05:03:54 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/skill/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -24,18 +23,18 @@
 
 &lt;p&gt;[2] &lt;a href=&#34;http://www.douban.com/note/245109923&#34;&gt;Markdown+Pandoc：A light-weight solution for academia writing&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;0-写作置标语言选择:10ffc48504933aca0d803008677be65d&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
+&lt;h1 id=&#34;0-写作置标语言选择&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;0-1-已选择:10ffc48504933aca0d803008677be65d&#34;&gt;0.1 已选择&lt;/h2&gt;
+&lt;h2 id=&#34;0-1-已选择&#34;&gt;0.1 已选择&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown&lt;/li&gt;
 &lt;li&gt;sagemath&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-写作实用工具:10ffc48504933aca0d803008677be65d&#34;&gt;1.写作实用工具&lt;/h1&gt;
+&lt;h1 id=&#34;1-写作实用工具&#34;&gt;1.写作实用工具&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-1-格式转化利器-pacdoc:10ffc48504933aca0d803008677be65d&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
+&lt;h2 id=&#34;1-1-格式转化利器-pacdoc&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;&lt;/p&gt;
 

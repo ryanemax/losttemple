@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Es6 on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/es6/</link>
-    <description>Recent content in Es6 on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/es6/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,18 +17,18 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/</guid>
       <description>
 
-&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
+&lt;h1 id=&#34;es6&#34;&gt;ES6&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
+&lt;h1 id=&#34;angular2&#34;&gt;Angular2&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
 英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2&#34;&gt;ionic2&lt;/h1&gt;
 </description>
     </item>
     

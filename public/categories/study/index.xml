@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Study on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/study/</link>
-    <description>Recent content in Study on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/study/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 31 Mar 2016 20:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/study/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,11 +17,11 @@
       <guid>https://ryanemax.github.io/study/markdown2ppt/</guid>
       <description>
 
-&lt;h1 id=&#34;markdown制作ppt最佳实践:70a06631edd194abeda3ccc505c67c40&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
+&lt;h1 id=&#34;markdown制作ppt最佳实践&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org/demos.html&#34;&gt;http://pandoc.org/demos.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;一-reveal-js-pandoc-推荐:70a06631edd194abeda3ccc505c67c40&#34;&gt;一、reveal.js + pandoc（推荐）&lt;/h1&gt;
+&lt;h1 id=&#34;一-reveal-js-pandoc-推荐&#34;&gt;一、reveal.js + pandoc（推荐）&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;HTML便于CSS样式修改&lt;/li&gt;
@@ -40,37 +39,37 @@ pandoc -s --mathml -i -t dzslides SLIDES -o example16a.html
 pandoc -s --webtex -i -t slidy SLIDES -o example16b.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;如何为html添加缺失的reveal-js:70a06631edd194abeda3ccc505c67c40&#34;&gt;如何为html添加缺失的reveal.js&lt;/h2&gt;
+&lt;h2 id=&#34;如何为html添加缺失的reveal-js&#34;&gt;如何为html添加缺失的reveal.js&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## https://github.com/anasinc/getsite
 ## 获取revealjs目录，复制到ppt同级目录中即可
 ./getsite.sh http://pandoc.org/demo/example16d.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;二-revel-js模板定制:70a06631edd194abeda3ccc505c67c40&#34;&gt;二、Revel.js模板定制&lt;/h1&gt;
+&lt;h1 id=&#34;二-revel-js模板定制&#34;&gt;二、Revel.js模板定制&lt;/h1&gt;
 
 &lt;p&gt;参考项目：&lt;a href=&#34;https://github.com/yanping/reveal.js-with-pandoc&#34;&gt;https://github.com/yanping/reveal.js-with-pandoc&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;三-pandoc-beamer-slide-show:70a06631edd194abeda3ccc505c67c40&#34;&gt;三、pandoc + Beamer slide show&lt;/h1&gt;
+&lt;h1 id=&#34;三-pandoc-beamer-slide-show&#34;&gt;三、pandoc + Beamer slide show&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pandoc -t beamer --latex-engine=xelatex README.md -o readppt.pdf -V mainfont=&amp;quot;文泉驿微米黑&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;其他方式:70a06631edd194abeda3ccc505c67c40&#34;&gt;其他方式&lt;/h1&gt;
+&lt;h1 id=&#34;其他方式&#34;&gt;其他方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;nodeppt:70a06631edd194abeda3ccc505c67c40&#34;&gt;nodeppt&lt;/h2&gt;
+&lt;h2 id=&#34;nodeppt&#34;&gt;nodeppt&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ksky521/nodeppt/&#34;&gt;https://github.com/ksky521/nodeppt/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ju.outofmemory.cn/entry/89175&#34;&gt;推荐nodeppt：使用markdown语法来写网页ppt&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;landslide:70a06631edd194abeda3ccc505c67c40&#34;&gt;landslide&lt;/h2&gt;
+&lt;h2 id=&#34;landslide&#34;&gt;landslide&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/adamzap/landslide&#34;&gt;https://github.com/adamzap/landslide&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Generate HTML5 slideshows from markdown, ReST, or textile&lt;/p&gt;
 
-&lt;h1 id=&#34;md转ppt的shell脚本实现:70a06631edd194abeda3ccc505c67c40&#34;&gt;md转ppt的shell脚本实现&lt;/h1&gt;
+&lt;h1 id=&#34;md转ppt的shell脚本实现&#34;&gt;md转ppt的shell脚本实现&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
 if [ $# -eq 0 ]       ##判断参数是否存在
@@ -107,15 +106,15 @@ pandoc -s --mathjax -i -t revealjs ${srcfile} -o build/ppt/${buildname}.html
       <guid>https://ryanemax.github.io/study/markdown2paper/</guid>
       <description>
 
-&lt;h1 id=&#34;前置学习引导:64874236f53410c76543a942f82f597b&#34;&gt;前置学习引导&lt;/h1&gt;
+&lt;h1 id=&#34;前置学习引导&#34;&gt;前置学习引导&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ryanemax.github.io/study/markdown2pdf/&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;常用模板数值:64874236f53410c76543a942f82f597b&#34;&gt;常用模板数值&lt;/h1&gt;
+&lt;h1 id=&#34;常用模板数值&#34;&gt;常用模板数值&lt;/h1&gt;
 
-&lt;h2 id=&#34;字体-字号:64874236f53410c76543a942f82f597b&#34;&gt;字体/字号&lt;/h2&gt;
+&lt;h2 id=&#34;字体-字号&#34;&gt;字体/字号&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 安装字体命令
 # 复制新字体到/usr/share/fonts/，执行命令即可
@@ -129,7 +128,7 @@ fc-cache vf
 \newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    %五号  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;标题段落:64874236f53410c76543a942f82f597b&#34;&gt;标题段落&lt;/h2&gt;
+&lt;h2 id=&#34;标题段落&#34;&gt;标题段落&lt;/h2&gt;
 
 &lt;p&gt;titlesec包&lt;/p&gt;
 
@@ -151,7 +150,7 @@ fc-cache vf
 \setlength{\parindent}{2em}%中文缩进两个汉字位
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;模板资源:64874236f53410c76543a942f82f597b&#34;&gt;模板资源&lt;/h1&gt;
+&lt;h1 id=&#34;模板资源&#34;&gt;模板资源&lt;/h1&gt;
 
 &lt;p&gt;清华大学 &lt;a href=&#34;https://github.com/xueruini/thuthesis&#34;&gt;https://github.com/xueruini/thuthesis&lt;/a&gt;&lt;/p&gt;
 
@@ -171,18 +170,18 @@ fc-cache vf
       <guid>https://ryanemax.github.io/study/markdown2pdf/</guid>
       <description>
 
-&lt;h1 id=&#34;如何用markdown生成带目录-页眉-页脚的pdf:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/h1&gt;
+&lt;h1 id=&#34;如何用markdown生成带目录-页眉-页脚的pdf&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org/demos.html&#34;&gt;http://pandoc.org/demos.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;todo-list:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;TODO List&lt;/h1&gt;
+&lt;h1 id=&#34;todo-list&#34;&gt;TODO List&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;[OK] 实现基础的md转pdf的shell脚本&lt;/li&gt;
 &lt;li&gt;将md转pdf封装成云服务，为整个安纳斯联盟提供&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;相关的转化方式:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;相关的转化方式&lt;/h1&gt;
+&lt;h1 id=&#34;相关的转化方式&#34;&gt;相关的转化方式&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown =&amp;gt; html =&amp;gt; pdf
@@ -197,15 +196,15 @@ fc-cache vf
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;pandoc-latex模板:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;pandoc+Latex模板&lt;/h1&gt;
+&lt;h1 id=&#34;pandoc-latex模板&#34;&gt;pandoc+Latex模板&lt;/h1&gt;
 
-&lt;h2 id=&#34;latex基础:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;latex基础&lt;/h2&gt;
+&lt;h2 id=&#34;latex基础&#34;&gt;latex基础&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.latexstudio.net&#34;&gt;http://www.latexstudio.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;推荐字体:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;推荐字体&lt;/h2&gt;
+&lt;h2 id=&#34;推荐字体&#34;&gt;推荐字体&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 建议用于标题的字体
 -V mainfont=&amp;quot;思源黑体 CN&amp;quot;
@@ -218,7 +217,7 @@ pacman -S adobe-source-han-sans-cn-fonts
 pacman -S opendesktop-fonts
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;常用脚本:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;常用脚本&lt;/h2&gt;
+&lt;h2 id=&#34;常用脚本&#34;&gt;常用脚本&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 简单版
 pandoc --latex-engine=xelatex README.md -o read.pdf -V mainfont=&amp;quot;思源黑体 CN&amp;quot; --highlight-style pygments
@@ -229,7 +228,7 @@ pandoc -N --template=mytemplate.tex --variable mainfont=&amp;quot;Palatino&amp;q
 pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=1.15.2 README.md --latex-engine=xelatex --toc -o readexam.pdf --highlight-style pygments -V mainfont=&amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;代码高亮:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;代码高亮&lt;/h2&gt;
+&lt;h2 id=&#34;代码高亮&#34;&gt;代码高亮&lt;/h2&gt;
 
 &lt;p&gt;推荐样式：
 - pygments&lt;/p&gt;
@@ -251,7 +250,7 @@ pandoc -N --template=mytemplate.tex --variable fontsize=12pt --variable version=
 --highlight-style zenburn
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;常见错误:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;常见错误&lt;/h2&gt;
+&lt;h2 id=&#34;常见错误&#34;&gt;常见错误&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 报错：缺少latex文件
 ! LaTeX Error: File etoolbox.sty not found.
@@ -273,13 +272,13 @@ fc-list :outline -f &amp;quot;%{family}\n&amp;quot; | sort -u
 &amp;quot;文泉驿微米黑&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;图片分页问题:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;图片分页问题&lt;/h2&gt;
+&lt;h2 id=&#34;图片分页问题&#34;&gt;图片分页问题&lt;/h2&gt;
 
 &lt;p&gt;圖片唯一的問題是，pandoc有時會將表格放在錯誤的位置。因為某些圖片過高，所以pandoc會把他們插入到一個新的空白頁，然後將後面的內容直接查到表格前面，這樣很容易產生錯位。有兩個解決辦法，一是，轉換到latex後，手動修改圖片位置，當然這個比較痛苦；二是在圖片後面加入一個latex的分頁比較\pagebreak，讓後面的內容自動寫到新的一頁上，儘管這樣比較廢紙。&lt;/p&gt;
 
-&lt;h3 id=&#34;手动调整:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;手动调整&lt;/h3&gt;
+&lt;h3 id=&#34;手动调整&#34;&gt;手动调整&lt;/h3&gt;
 
-&lt;h3 id=&#34;latex-figureseries宏包让figure浮动环境支持自动换页:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;LaTeX：figureSeries宏包让figure浮动环境支持自动换页&lt;/h3&gt;
+&lt;h3 id=&#34;latex-figureseries宏包让figure浮动环境支持自动换页&#34;&gt;LaTeX：figureSeries宏包让figure浮动环境支持自动换页&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://bbs.pinggu.org/thread-4487763-1-1.html&#34;&gt;http://bbs.pinggu.org/thread-4487763-1-1.html&lt;/a&gt;&lt;/p&gt;
 
@@ -287,20 +286,20 @@ fc-list :outline -f &amp;quot;%{family}\n&amp;quot; | sort -u
 
 &lt;p&gt;选自：&lt;a href=&#34;https://github.com/thomasWeise/figureSeries&#34;&gt;https://github.com/thomasWeise/figureSeries&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;atom编辑器latex常用插件:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;atom编辑器latex常用插件&lt;/h1&gt;
+&lt;h1 id=&#34;atom编辑器latex常用插件&#34;&gt;atom编辑器latex常用插件&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;language-latex&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;html-css-尝试中:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;html+css(尝试中)&lt;/h1&gt;
+&lt;h1 id=&#34;html-css-尝试中&#34;&gt;html+css(尝试中)&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pandoc READEME.md -f markdown -t html &amp;gt;&amp;gt; temp.html
 
 echo &amp;gt;&amp;gt; &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;md转pdf脚本实现:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;md转pdf脚本实现&lt;/h1&gt;
+&lt;h1 id=&#34;md转pdf脚本实现&#34;&gt;md转pdf脚本实现&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
 message1=&amp;quot;请输入正确格式，如：./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;&amp;quot;
@@ -346,17 +345,17 @@ pandoc -N --template=.tpl/anas.tex --variable fontsize=12pt ${srcfile} --latex-e
 firefox build/${buildname}.pdf
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;latex模板文件定制:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;latex模板文件定制&lt;/h1&gt;
+&lt;h1 id=&#34;latex模板文件定制&#34;&gt;latex模板文件定制&lt;/h1&gt;
 
-&lt;h2 id=&#34;模板资源:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;模板资源&lt;/h2&gt;
+&lt;h2 id=&#34;模板资源&#34;&gt;模板资源&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/jgm/pandoc/wiki/User-contributed-templates&#34;&gt;https://github.com/jgm/pandoc/wiki/User-contributed-templates&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;latex基础用法:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;latex基础用法&lt;/h2&gt;
+&lt;h2 id=&#34;latex基础用法&#34;&gt;latex基础用法&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://latex-project.org/guides/usrguide.pdf&#34;&gt;https://latex-project.org/guides/usrguide.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;使用fancy定制页眉页脚:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;使用fancy定制页眉页脚&lt;/h2&gt;
+&lt;h2 id=&#34;使用fancy定制页眉页脚&#34;&gt;使用fancy定制页眉页脚&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ctex.org/documents/packages/layout/fancyhdr.htm&#34;&gt;http://www.ctex.org/documents/packages/layout/fancyhdr.htm&lt;/a&gt;&lt;/p&gt;
 
@@ -375,14 +374,14 @@ firefox build/${buildname}.pdf
 &lt;li&gt;控制页眉和页脚的字体，包括字形，字族，大小写等。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;目录与正文在同一页:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;目录与正文在同一页&lt;/h2&gt;
+&lt;h2 id=&#34;目录与正文在同一页&#34;&gt;目录与正文在同一页&lt;/h2&gt;
 
 &lt;p&gt;在目录后$body$前，加入&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;\newpage
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;正文第一页与页眉重叠:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;正文第一页与页眉重叠&lt;/h2&gt;
+&lt;h2 id=&#34;正文第一页与页眉重叠&#34;&gt;正文第一页与页眉重叠&lt;/h2&gt;
 
 &lt;p&gt;最简单的就是正文/$body$前加入&lt;/p&gt;
 
@@ -394,7 +393,7 @@ firefox build/${buildname}.pdf
 % end of fix the no.2 page covered by header
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;中文无法自动换行问题:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;中文无法自动换行问题&lt;/h2&gt;
+&lt;h2 id=&#34;中文无法自动换行问题&#34;&gt;中文无法自动换行问题&lt;/h2&gt;
 
 &lt;p&gt;上面问题在与中文行没有被换行，参考了一下&lt;a href=&#34;https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.latex&#34;&gt;Tzeng Yuxio同学的模板&lt;/a&gt;，中文的换行 通过\XeTeXlinebreaklocale &amp;ldquo;zh&amp;rdquo;实现。而在pandoc的缺省模板中是没有这个设置的。因此考虑修改缺省的latex模板。方法如下：&lt;/p&gt;
 
@@ -405,7 +404,7 @@ firefox build/${buildname}.pdf
 $endif$
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;实用案例-添加水印:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;实用案例：添加水印&lt;/h2&gt;
+&lt;h2 id=&#34;实用案例-添加水印&#34;&gt;实用案例：添加水印&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ctan.org/pkg/draftwatermark&#34;&gt;http://www.ctan.org/pkg/draftwatermark&lt;/a&gt;&lt;/p&gt;
 
@@ -427,7 +426,7 @@ $endif$
 \SetWatermarkLightness{0.88}%defaultis0.8
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;参考文章:aa732d2fa204cfa61b995e1838c3ec41&#34;&gt;参考文章&lt;/h1&gt;
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.douban.com/note/330859852/&#34;&gt;使用pandoc markdown寫作後記&lt;/a&gt;&lt;/p&gt;
 
@@ -443,7 +442,7 @@ $endif$
       <guid>https://ryanemax.github.io/study/latex/</guid>
       <description>
 
-&lt;h1 id=&#34;atom-latex插件:f7e55fa120deedc2cff61a9fed6f8f5e&#34;&gt;Atom Latex插件&lt;/h1&gt;
+&lt;h1 id=&#34;atom-latex插件&#34;&gt;Atom Latex插件&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;latex&lt;/p&gt;&lt;/li&gt;
@@ -451,7 +450,7 @@ $endif$
 &lt;li&gt;&lt;p&gt;latex-friend&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;vim-latex插件:f7e55fa120deedc2cff61a9fed6f8f5e&#34;&gt;Vim Latex插件&lt;/h1&gt;
+&lt;h1 id=&#34;vim-latex插件&#34;&gt;Vim Latex插件&lt;/h1&gt;
 </description>
     </item>
     
@@ -463,7 +462,7 @@ $endif$
       <guid>https://ryanemax.github.io/study/tools/</guid>
       <description>
 
-&lt;h1 id=&#34;scigen论文生成器:392b1cfe5865fa09a3eb545085be9682&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
+&lt;h1 id=&#34;scigen论文生成器&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pdos.csail.mit.edu/scigen/&#34;&gt;http://pdos.csail.mit.edu/scigen/&lt;/a&gt;&lt;/p&gt;
 
@@ -487,18 +486,18 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
 
 &lt;p&gt;[2] &lt;a href=&#34;http://www.douban.com/note/245109923&#34;&gt;Markdown+Pandoc：A light-weight solution for academia writing&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;0-写作置标语言选择:10ffc48504933aca0d803008677be65d&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
+&lt;h1 id=&#34;0-写作置标语言选择&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;0-1-已选择:10ffc48504933aca0d803008677be65d&#34;&gt;0.1 已选择&lt;/h2&gt;
+&lt;h2 id=&#34;0-1-已选择&#34;&gt;0.1 已选择&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown&lt;/li&gt;
 &lt;li&gt;sagemath&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-写作实用工具:10ffc48504933aca0d803008677be65d&#34;&gt;1.写作实用工具&lt;/h1&gt;
+&lt;h1 id=&#34;1-写作实用工具&#34;&gt;1.写作实用工具&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-1-格式转化利器-pacdoc:10ffc48504933aca0d803008677be65d&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
+&lt;h2 id=&#34;1-1-格式转化利器-pacdoc&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;&lt;/p&gt;
 

@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,22 +108,22 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="wget整站模板抓取案例及wget参数详解:d7206ffdc9e0414b47ce185a2ef14be7">《wget整站模板抓取案例及wget参数详解》</h1>
+<h1 id="wget整站模板抓取案例及wget参数详解">《wget整站模板抓取案例及wget参数详解》</h1>
 
-<h1 id="总结-项目github地址:d7206ffdc9e0414b47ce185a2ef14be7">总结、项目Github地址</h1>
+<h1 id="总结-项目github地址">总结、项目Github地址</h1>
 
 <p><a href="https://github.com/anasinc/getsite">https://github.com/anasinc/getsite</a></p>
 
-<h1 id="一-实战整站抓取案例:d7206ffdc9e0414b47ce185a2ef14be7">一、实战整站抓取案例</h1>
+<h1 id="一-实战整站抓取案例">一、实战整站抓取案例</h1>
 
-<h2 id="1-站点抓取:d7206ffdc9e0414b47ce185a2ef14be7">1.站点抓取</h2>
+<h2 id="1-站点抓取">1.站点抓取</h2>
 
-<h3 id="方式一-命令行:d7206ffdc9e0414b47ce185a2ef14be7">方式一：命令行</h3>
+<h3 id="方式一-命令行">方式一：命令行</h3>
 
 <pre><code class="language-bash">wget -r -p -np -k -e robots=off http://www.han-mei.com
 </code></pre>
 
-<h3 id="方式二-shell脚本:d7206ffdc9e0414b47ce185a2ef14be7">方式二：shell脚本</h3>
+<h3 id="方式二-shell脚本">方式二：shell脚本</h3>
 
 <pre><code class="language-bash">#!/bin/sh
 ## shell脚本getsite.sh
@@ -138,14 +138,14 @@ wget -r -p -np -k -e robots=off ${targetSite}
 
 </code></pre>
 
-<h2 id="2-目录迁移:d7206ffdc9e0414b47ce185a2ef14be7">2.目录迁移</h2>
+<h2 id="2-目录迁移">2.目录迁移</h2>
 
 <p>将下载的www.xxx.com目录复制到/var/www/www.xxx.com目录</p>
 
 <pre><code class="language-bash">mv www.xxx.com /var/www/www.xxx.com
 </code></pre>
 
-<h2 id="3-nginx解析:d7206ffdc9e0414b47ce185a2ef14be7">3.nginx解析</h2>
+<h2 id="3-nginx解析">3.nginx解析</h2>
 
 <p>解析nginx的测试网站根目录到改目录即可</p>
 
@@ -155,7 +155,7 @@ ln -s ../site-available/www.xxx.com
 service nginx reload
 </code></pre>
 
-<h2 id="4-后续工作:d7206ffdc9e0414b47ce185a2ef14be7">4.后续工作</h2>
+<h2 id="4-后续工作">4.后续工作</h2>
 
 <ul>
 <li>替换重复的js/css文件用微擎header</li>
@@ -163,7 +163,7 @@ service nginx reload
 <li>精简再精简抽象修改成可用的微擎门户模板</li>
 </ul>
 
-<h1 id="二-整站递归抓取参数解释:d7206ffdc9e0414b47ce185a2ef14be7">二、整站递归抓取参数解释</h1>
+<h1 id="二-整站递归抓取参数解释">二、整站递归抓取参数解释</h1>
 
 <pre><code class="language-bash">## 普通
 wget -r -p -np -k http://doc.code365.net/Manual/FreeBSD_Arch_HandBook/
@@ -187,7 +187,7 @@ wget -r -p -np -k -e robots=off http://www.han-mei.com
 
 <p>-U &ldquo;Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6&rdquo;  伪造agent信息</p>
 
-<h1 id="三-模拟user-agent:d7206ffdc9e0414b47ce185a2ef14be7">三、模拟USER-AGENT</h1>
+<h1 id="三-模拟user-agent">三、模拟USER-AGENT</h1>
 
 <p>Mask User Agent and Display wget like Browser Using wget –user-agent</p>
 
@@ -196,7 +196,7 @@ wget -r -p -np -k -e robots=off http://www.han-mei.com
 <pre><code>$ wget --user-agent=&quot;Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3&quot; URL-TO-DOWNLOAD
 </code></pre>
 
-<h1 id="四-技巧:d7206ffdc9e0414b47ce185a2ef14be7">四、技巧</h1>
+<h1 id="四-技巧">四、技巧</h1>
 
 <pre><code class="language-bash">$ wget -r -np -nd http://example.com/packages/
 这条命令可以下载 http://example.com 网站上 packages 目录中的所有文件。其中，-np

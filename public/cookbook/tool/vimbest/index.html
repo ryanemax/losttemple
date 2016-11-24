@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,7 +108,7 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="实用技巧:5b84f273874ec2b027963c3550d969d9">实用技巧</h1>
+<h1 id="实用技巧">实用技巧</h1>
 
 <p>删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？</p>
 
@@ -120,7 +120,7 @@ window.onload=function(){
 
 <p>复制a行插入到b行后， dd掉a行在b行那按下p不就好了。 为什么要鼠标选中a，ctrl+x ，然后到b的末尾按下回车，然后ctrl-v ？</p>
 
-<h1 id="vim-比较文件-多窗口操作:5b84f273874ec2b027963c3550d969d9">vim 比较文件/多窗口操作</h1>
+<h1 id="vim-比较文件-多窗口操作">vim 比较文件/多窗口操作</h1>
 
 <pre><code class="language-bash">vim -d file1 file2 ...  #垂直打开多窗口,并且进行比较
 vimdiff file1 file2 ..  #等同于上一句
@@ -169,14 +169,14 @@ vimdiff file1 file2 ..  #等同于上一句
 :tabn      后一个
 </code></pre>
 
-<h1 id="vim代开hexl十六进制模式:5b84f273874ec2b027963c3550d969d9">vim代开HEXl十六进制模式</h1>
+<h1 id="vim代开hexl十六进制模式">vim代开HEXl十六进制模式</h1>
 
 <p>Same as hex, just pass -b flag to xxd:</p>
 
 <pre><code class="language-bash">:%!xxd -b
 </code></pre>
 
-<h1 id="vim中执行shell命令:5b84f273874ec2b027963c3550d969d9">vim中执行shell命令</h1>
+<h1 id="vim中执行shell命令">vim中执行shell命令</h1>
 
 <p>1):!command
 不退出vim，并执行shell命令command，将命令输出显示在vim的命令区域，不会改变当前编辑的文件的内容
@@ -206,9 +206,9 @@ vimdiff file1 file2 ..  #等同于上一句
 
 <p>如果输入的是:52 !bash，那么会把第52行的内容也就是ls -l作为命令执行，同时命令的输出结果会替换第52行的内容，注意其中的区别。</p>
 
-<h1 id="多行编辑:5b84f273874ec2b027963c3550d969d9">多行编辑</h1>
+<h1 id="多行编辑">多行编辑</h1>
 
-<h2 id="原生列模式-多行注释:5b84f273874ec2b027963c3550d969d9">原生列模式(多行注释)</h2>
+<h2 id="原生列模式-多行注释">原生列模式(多行注释)</h2>
 
 <p>多行注释按键操作：
       注释：Ctrl-v 进入列编辑模式，向下或向上移动光标，把需要注释的行的开头标记起来，然后按大写的I，再插入注释符比如&rdquo;#&ldquo;，按Esc，就会全部注释了。
@@ -219,11 +219,11 @@ vimdiff file1 file2 ..  #等同于上一句
              :2,50s/^/\/\//g在2~50行首添加//号注释
             反过来替换既是删除操作。</p>
 
-<h2 id="多行标记插件:5b84f273874ec2b027963c3550d969d9">多行标记插件</h2>
+<h2 id="多行标记插件">多行标记插件</h2>
 
-<h1 id="vim单文件操作:5b84f273874ec2b027963c3550d969d9">VIM单文件操作</h1>
+<h1 id="vim单文件操作">VIM单文件操作</h1>
 
-<h2 id="光标定位快捷键:5b84f273874ec2b027963c3550d969d9">光标定位快捷键</h2>
+<h2 id="光标定位快捷键">光标定位快捷键</h2>
 
 <pre><code>到指定行  :行号，行号G
  到文件头 1G
@@ -235,14 +235,14 @@ vimdiff file1 file2 ..  #等同于上一句
  行尾插入 A，添加空行 o
 </code></pre>
 
-<h2 id="在函数中定位光标:5b84f273874ec2b027963c3550d969d9">在函数中定位光标</h2>
+<h2 id="在函数中定位光标">在函数中定位光标</h2>
 
 <p>[[  转到上一个位于第一列的“{”
 ]]  转到下一个位于第一列的“{”
 {   转到上一个空行
 }   转到下一个空行</p>
 
-<h2 id="查找当前文件:5b84f273874ec2b027963c3550d969d9">查找当前文件</h2>
+<h2 id="查找当前文件">查找当前文件</h2>
 
 <p>n,N       查找到key后，n跳到后一个位置，N跳到前一个位置</p>
 
@@ -256,11 +256,11 @@ vimdiff file1 file2 ..  #等同于上一句
 <p>?key      从当前光标位置开始向前查找key
 /&lt;key&gt;，?&lt;key&gt;  精确匹配查找key</p>
 
-<h2 id="批量替换:5b84f273874ec2b027963c3550d969d9">批量替换</h2>
+<h2 id="批量替换">批量替换</h2>
 
 <p>:%s/要被取代的字串/新的字串/g</p>
 
-<h2 id="复制粘贴删除:5b84f273874ec2b027963c3550d969d9">复制粘贴删除</h2>
+<h2 id="复制粘贴删除">复制粘贴删除</h2>
 
 <pre><code>  复制行 yy    复制n行 nyy
   粘贴行 p

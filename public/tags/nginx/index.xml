@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nginx on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/nginx/</link>
-    <description>Recent content in Nginx on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/nginx/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 12 Mar 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LNMP内存或CPU过高优化问题</title>
-      <link>https://ryanemax.github.io/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <link>https://ryanemax.github.io/faq/lnmp/502/</link>
       <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://ryanemax.github.io/faq/lnmp/502/</guid>
       <description>
 
-&lt;h1 id=&#34;lnmp内存或cpu过高的优化问题:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;
+&lt;h1 id=&#34;lnmp内存或cpu过高的优化问题&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;
 
-&lt;h1 id=&#34;场景一-正康服务器php服务无法访问-nginx报502-403错误:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;场景一：正康服务器php服务无法访问，Nginx报502/403错误&lt;/h1&gt;
+&lt;h1 id=&#34;场景一-正康服务器php服务无法访问-nginx报502-403错误&#34;&gt;场景一：正康服务器php服务无法访问，Nginx报502/403错误&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;top指令查看系统各进程使用情况&lt;/p&gt;
 
@@ -62,7 +61,7 @@ KiB Swap:        0 total,        0 used,        0 free.  2440796 cached Mem
 &lt;li&gt;service php5-fpm restart&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;解决方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;经排查发现是php5-fpm进程CPU占用过高导致php服务无法访问。 同时mysqld服务内存占用过高，导致智能硬件服务端进程server无法正常运行。
 1. php-fpm进程数不够用&lt;/p&gt;
@@ -162,7 +161,7 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;0-负载过高的业务分离:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;0.负载过高的业务分离&lt;/h3&gt;
+&lt;h3 id=&#34;0-负载过高的业务分离&#34;&gt;0.负载过高的业务分离&lt;/h3&gt;
 
 &lt;p&gt;独立使用RDS服务运行Mysql
 - 利于数据库备份、容灾处理
@@ -172,14 +171,14 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
 - 减少过多闲置链接（600降低到100以内）
 - 限制最大链接（设置为200）&lt;/p&gt;
 
-&lt;h3 id=&#34;1-临时方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;1.临时方案&lt;/h3&gt;
+&lt;h3 id=&#34;1-临时方案&#34;&gt;1.临时方案&lt;/h3&gt;
 
 &lt;p&gt;重启php5-fpm即可&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;service restart php5-fpm
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;2-永久方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;2.永久方案&lt;/h3&gt;
+&lt;h3 id=&#34;2-永久方案&#34;&gt;2.永久方案&lt;/h3&gt;
 
 &lt;p&gt;建议1：写监控程序，当进程php5-fpm占用CPU超过90%，执行重启php5-fpm&lt;/p&gt;
 
@@ -197,11 +196,11 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
       <guid>https://ryanemax.github.io/faq/lnmp/nginx-php-nofiles/</guid>
       <description>
 
-&lt;h1 id=&#34;solution:0482b688ba78b61422feba75e57865cf&#34;&gt;Solution&lt;/h1&gt;
+&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/&#34;&gt;http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;问题原因:0482b688ba78b61422feba75e57865cf&#34;&gt;问题原因&lt;/h2&gt;
+&lt;h2 id=&#34;问题原因&#34;&gt;问题原因&lt;/h2&gt;
 
 &lt;p&gt;导致“No input file specified. ”这个问题的原因，是因为nginx的配置不正确，从而导致CGI获取参数错误。
 简单来说，是因为$document_root这个变量尚未定义。&lt;/p&gt;
@@ -215,12 +214,12 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
 而我们也知道，在nginx中，有三级的关系，http  &amp;gt;  server  &amp;gt;  location。
 如果要在location块中使用$document_root，需要在上层server块或http块中定义了root指令，这样才能通过继承关系，在location块中用$document_root拿到root的值。而定义在别的location块中的root指令的值，是一个局部变量，其值无法在匹配php的这个location块中被获取。&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方法:0482b688ba78b61422feba75e57865cf&#34;&gt;解决方法&lt;/h2&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;解决方法&lt;/h2&gt;
 
 &lt;p&gt;解决这个问题的办法，是把&amp;rdquo;/&amp;rdquo; location块中的root上提到server。
 或者，在php的location块中，重新定义root。&lt;/p&gt;
 
-&lt;h2 id=&#34;php-站配置参考:0482b688ba78b61422feba75e57865cf&#34;&gt;php 站配置参考&lt;/h2&gt;
+&lt;h2 id=&#34;php-站配置参考&#34;&gt;php 站配置参考&lt;/h2&gt;
 
 &lt;p&gt;fastcgi启动命令&lt;/p&gt;
 

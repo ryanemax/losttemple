@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ionic2 on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/ionic2/</link>
-    <description>Recent content in Ionic2 on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/ionic2/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 25 Aug 2016 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/ionic2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</guid>
       <description>
 
-&lt;h1 id=&#34;ng2-universal基础:99ba35dc358433404c10720574c18d78&#34;&gt;ng2-universal基础&lt;/h1&gt;
+&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
@@ -31,7 +30,7 @@
 
 &lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2整合universal:99ba35dc358433404c10720574c18d78&#34;&gt;ionic2整合universal&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
 
@@ -49,16 +48,16 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
-&lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;ionic2框架:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;ionic2框架&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2框架&#34;&gt;ionic2框架&lt;/h1&gt;
 
-&lt;h2 id=&#34;测试规范参考:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试规范参考&lt;/h2&gt;
+&lt;h2 id=&#34;测试规范参考&#34;&gt;测试规范参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
@@ -80,9 +79,9 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;最新版本测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;最新版本测试&lt;/h2&gt;
+&lt;h2 id=&#34;最新版本测试&#34;&gt;最新版本测试&lt;/h2&gt;
 
-&lt;h3 id=&#34;测试-ionic-beta35:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+&lt;h3 id=&#34;测试-ionic-beta35&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;iOS
@@ -105,13 +104,13 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;测试-angular2-beta14:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+&lt;h3 id=&#34;测试-angular2-beta14&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
 
 &lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
 但是当使用http调用ajax请求时,会报一个找不到open方法的错。
 可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
 
-&lt;h3 id=&#34;旧版测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;旧版测试&lt;/h3&gt;
+&lt;h3 id=&#34;旧版测试&#34;&gt;旧版测试&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Android
@@ -132,9 +131,9 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</guid>
       <description>
 
-&lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
+&lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
 
-&lt;h2 id=&#34;回顾angularjs-1:460bce4062430561faf966c08e14ab2b&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
+&lt;h2 id=&#34;回顾angularjs-1&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
 
 &lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
 
@@ -143,7 +142,7 @@
 - $resource 框架自带，对$http进行初步封装
 - $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
 
-&lt;h2 id=&#34;调研angularjs-2:460bce4062430561faf966c08e14ab2b&#34;&gt;调研AngularJS 2&lt;/h2&gt;
+&lt;h2 id=&#34;调研angularjs-2&#34;&gt;调研AngularJS 2&lt;/h2&gt;
 
 &lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
 
@@ -184,17 +183,17 @@
 
 &lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2-http开发详解:460bce4062430561faf966c08e14ab2b&#34;&gt;angular2/http开发详解&lt;/h1&gt;
+&lt;h1 id=&#34;angular2-http开发详解&#34;&gt;angular2/http开发详解&lt;/h1&gt;
 
-&lt;h2 id=&#34;参考教程:460bce4062430561faf966c08e14ab2b&#34;&gt;参考教程&lt;/h2&gt;
+&lt;h2 id=&#34;参考教程&#34;&gt;参考教程&lt;/h2&gt;
 
 &lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;官方手册:460bce4062430561faf966c08e14ab2b&#34;&gt;官方手册&lt;/h2&gt;
+&lt;h2 id=&#34;官方手册&#34;&gt;官方手册&lt;/h2&gt;
 
 &lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;使用体验:460bce4062430561faf966c08e14ab2b&#34;&gt;使用体验&lt;/h3&gt;
+&lt;h3 id=&#34;使用体验&#34;&gt;使用体验&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
@@ -216,18 +215,18 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/</guid>
       <description>
 
-&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
+&lt;h1 id=&#34;es6&#34;&gt;ES6&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
+&lt;h1 id=&#34;angular2&#34;&gt;Angular2&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
 英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2&#34;&gt;ionic2&lt;/h1&gt;
 </description>
     </item>
     
@@ -239,15 +238,15 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</guid>
       <description>
 
-&lt;h1 id=&#34;firebase:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;Firebase&lt;/h1&gt;
+&lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
 
-&lt;h1 id=&#34;angularfire2:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;AngularFire2&lt;/h1&gt;
+&lt;h1 id=&#34;angularfire2&#34;&gt;AngularFire2&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://angularfire2.com/api/&#34;&gt;https://angularfire2.com/api/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;https://github.com/angular/angularfire2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;所有ng2应用示例:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;所有ng2应用示例&lt;/h2&gt;
+&lt;h2 id=&#34;所有ng2应用示例&#34;&gt;所有ng2应用示例&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://builtwithangular2.com/&#34;&gt;http://builtwithangular2.com/&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -261,17 +260,17 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/awesome-ionic2/</guid>
       <description>
 
-&lt;h1 id=&#34;为什么要ionic2-一个ppt告诉你:b71d2ad6df9b5592c4212acf78211202&#34;&gt;为什么要Ionic2，一个PPT告诉你&lt;/h1&gt;
+&lt;h1 id=&#34;为什么要ionic2-一个ppt告诉你&#34;&gt;为什么要Ionic2，一个PPT告诉你&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://adamdbradley.github.io/building-with-ionic2/&#34;&gt;Building apps with Ionic 2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;awesome-ionic2-anasit:b71d2ad6df9b5592c4212acf78211202&#34;&gt;awesome-ionic2-anasit&lt;/h1&gt;
+&lt;h1 id=&#34;awesome-ionic2-anasit&#34;&gt;awesome-ionic2-anasit&lt;/h1&gt;
 
 &lt;p&gt;截取时间：2016-05-17&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/awesome-ionic2/&#34;&gt;来领略惊艳的ionic2安纳斯整理版awesome-ionic2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;学习整理:b71d2ad6df9b5592c4212acf78211202&#34;&gt;学习整理&lt;/h2&gt;
+&lt;h2 id=&#34;学习整理&#34;&gt;学习整理&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/&#34;&gt;ng2与es6初学者到底从哪里开始学起&lt;/a&gt;&lt;/p&gt;
 
@@ -279,7 +278,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-native/&#34;&gt;ionic2原生native控件归类整理及简要介绍（进行中）&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;开发实战-in-action:b71d2ad6df9b5592c4212acf78211202&#34;&gt;开发实战 In Action&lt;/h2&gt;
+&lt;h2 id=&#34;开发实战-in-action&#34;&gt;开发实战 In Action&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-spec/&#34;&gt;ANASIT-ionic2开发规范汇总（进行中）&lt;/a&gt;&lt;/p&gt;
 
@@ -287,28 +286,28 @@
 
 &lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ng2-restful/&#34;&gt;ionic2与ng2基于RESTful的HTTP数据处理技术选型&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;常见问题-faq:b71d2ad6df9b5592c4212acf78211202&#34;&gt;常见问题 FAQ&lt;/h2&gt;
+&lt;h2 id=&#34;常见问题-faq&#34;&gt;常见问题 FAQ&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ryanemax.github.io/faq/ionic2install/&#34;&gt;ionic2常见问题汇总之安装篇&lt;/a&gt;
 &lt;a href=&#34;http://ryanemax.github.io/faq/ionic2html/&#34;&gt;ionic2常见问题汇总之界面布局篇&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;awesome-ionic2:b71d2ad6df9b5592c4212acf78211202&#34;&gt;awesome-ionic2&lt;/h1&gt;
+&lt;h1 id=&#34;awesome-ionic2&#34;&gt;awesome-ionic2&lt;/h1&gt;
 
 &lt;p&gt;截取时间：2016-05-17&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/candelibas/awesome-ionic2&#34;&gt;https://github.com/candelibas/awesome-ionic2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;ionic-2:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Ionic 2&lt;/h3&gt;
+&lt;h3 id=&#34;ionic-2&#34;&gt;Ionic 2&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Ionic is the beautiful, open source front-end SDK for developing hybrid mobile apps with web technologies.&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h5 id=&#34;current-ionic-2-version:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Current Ionic 2 version:&lt;/h5&gt;
+&lt;h5 id=&#34;current-ionic-2-version&#34;&gt;Current Ionic 2 version:&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://badge.fury.io/js/ionic-framework&#34;&gt;&lt;img src=&#34;https://badge.fury.io/js/ionic-framework.svg&#34; alt=&#34;npm version&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;official-resources:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Official Resources&lt;/h4&gt;
+&lt;h4 id=&#34;official-resources&#34;&gt;Official Resources&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ionicframework.com/&#34;&gt;Site&lt;/a&gt;&lt;/li&gt;
@@ -323,7 +322,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/driftyco/ionic/tree/2.0&#34;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;ionic-2-fundamentals:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Ionic 2 Fundamentals&lt;/h4&gt;
+&lt;h4 id=&#34;ionic-2-fundamentals&#34;&gt;Ionic 2 Fundamentals&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/beginners-guide-to-getting-started-with-ionic-2/&#34;&gt;Beginners Guide to Getting Started with Ionic 2&lt;/a&gt;&lt;/li&gt;
@@ -336,14 +335,14 @@
 &lt;li&gt;&lt;a href=&#34;http://mhartington.io/post/ionic2-external-libraries/&#34;&gt;Ionic 2 and External Libraries&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;theming:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Theming&lt;/h4&gt;
+&lt;h4 id=&#34;theming&#34;&gt;Theming&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/a-guide-to-styling-an-ionic-2-application/&#34;&gt;A Guide to Styling an Ionic 2 Application&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/03/use-font-awesome-icons-in-your-ionic-2-android-and-ios-app/&#34;&gt;Use Font Awesome Icons In Your Ionic 2 Android And iOS App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;components:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Components&lt;/h4&gt;
+&lt;h4 id=&#34;components&#34;&gt;Components&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/ionic-2-how-to-create-a-sliding-delete-button-for-lists/&#34;&gt;How to Create a Sliding Delete Button for Lists&lt;/a&gt;&lt;/li&gt;
@@ -351,7 +350,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/how-to-create-a-custom-loading-component-in-ionic-2/&#34;&gt;How to Create a Custom Loading Component in Ionic 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;authentication:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Authentication&lt;/h4&gt;
+&lt;h4 id=&#34;authentication&#34;&gt;Authentication&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2016/03/add-touch-id-authentication-ionic-2-mobile-app/&#34;&gt;Add Touch ID Authentication To An Ionic 2 Mobile App&lt;/a&gt;&lt;/li&gt;
@@ -362,13 +361,13 @@
 &lt;li&gt;&lt;a href=&#34;https://auth0.com/authenticate/ionic2/wordpress&#34;&gt;Authenticate Ionic 2 with WordPress&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;unit-testing:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Unit Testing&lt;/h4&gt;
+&lt;h4 id=&#34;unit-testing&#34;&gt;Unit Testing&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://lathonez.github.io/2016/ionic-2-unit-testing/&#34;&gt;Ionic 2 Unit Testing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;cordova-plugins:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Cordova Plugins&lt;/h4&gt;
+&lt;h4 id=&#34;cordova-plugins&#34;&gt;Cordova Plugins&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/using-cordova-plugins-in-ionic-2-with-ionic-native/&#34;&gt;Using Cordova Plugins in Ionic 2 with Ionic Native&lt;/a&gt;&lt;/li&gt;
@@ -388,7 +387,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/adding-background-geolocation-to-an-ionic-2-application/&#34;&gt;Adding Background Geolocation to an Ionic 2 Application&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;backend-as-a-service:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Backend as a Service&lt;/h4&gt;
+&lt;h4 id=&#34;backend-as-a-service&#34;&gt;Backend as a Service&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.ionic.io/10-minutes-with-ionic-2-calling-an-api/&#34;&gt;10 Minutes with Ionic 2: Calling an API&lt;/a&gt;&lt;/li&gt;
@@ -399,13 +398,13 @@
 &lt;li&gt;&lt;a href=&#34;http://www.clearlyinnovative.com/integrating-firebase-with-angularfire2-into-angularjs-ionic2&#34;&gt;Integrating Firebase with AngularFire2 into AngularJS &amp;amp; Ionic2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;i18n-l10n:b71d2ad6df9b5592c4212acf78211202&#34;&gt;i18n &amp;amp; l10n&lt;/h4&gt;
+&lt;h4 id=&#34;i18n-l10n&#34;&gt;i18n &amp;amp; l10n&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.gajotres.net/ionic-2-internationalize-and-localize-your-app-with-angular-2/&#34;&gt;Internationalize and Localize Your App With Angular 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;video-tutorials:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Video Tutorials&lt;/h4&gt;
+&lt;h4 id=&#34;video-tutorials&#34;&gt;Video Tutorials&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.udemy.com/ionic-2-quickstart/&#34;&gt;Ionic 2 Quickstart&lt;/a&gt;&lt;/li&gt;
@@ -413,24 +412,24 @@
 &lt;li&gt;&lt;a href=&#34;http://www.joshmorony.com/ionic-2-how-to-use-google-maps-geolocation-video-tutorial/&#34;&gt;Ionic 2: How to Use Google Maps &amp;amp; Geolocation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;books:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Books&lt;/h4&gt;
+&lt;h4 id=&#34;books&#34;&gt;Books&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.joshmorony.com/building-mobile-apps-with-ionic-2/&#34;&gt;Building Mobile Apps with Ionic 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;open-source-projects:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Open Source Projects&lt;/h4&gt;
+&lt;h4 id=&#34;open-source-projects&#34;&gt;Open Source Projects&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;Ionic Conference App&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ccoenraets/ionic2-realty&#34;&gt;IonicRealty&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;contribute:b71d2ad6df9b5592c4212acf78211202&#34;&gt;Contribute&lt;/h4&gt;
+&lt;h4 id=&#34;contribute&#34;&gt;Contribute&lt;/h4&gt;
 
 &lt;p&gt;Contributions welcome! Read the &lt;a href=&#34;CONTRIBUTING.md&#34;&gt;contribution guidelines&lt;/a&gt; first.&lt;/p&gt;
 
-&lt;h4 id=&#34;license:b71d2ad6df9b5592c4212acf78211202&#34;&gt;License&lt;/h4&gt;
+&lt;h4 id=&#34;license&#34;&gt;License&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://creativecommons.org/publicdomain/zero/1.0/&#34;&gt;&lt;img src=&#34;http://i.creativecommons.org/p/zero/1.0/88x31.png&#34; alt=&#34;CC0&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -446,7 +445,7 @@
 
 &lt;p&gt;&lt;em&gt;截至2016-05-13看到了&lt;a href=&#34;http://ionicframework.com/docs/v2/api/components/action-sheet/ActionSheet/&#34;&gt;Action Sheet 组件&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;总览:63a7e382306816ed05e062c728189c6f&#34;&gt;总览&lt;/h1&gt;
+&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
 
 &lt;p&gt;NATIVE（原生组件）：&lt;a href=&#34;http://ionicframework.com/docs/v2/native/&#34;&gt;官方文档&lt;/a&gt;，调用原生功能时候参考&lt;/p&gt;
 </description>
@@ -460,13 +459,13 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-spec/</guid>
       <description>
 
-&lt;h1 id=&#34;命名规范:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;命名规范&lt;/h1&gt;
+&lt;h1 id=&#34;命名规范&#34;&gt;命名规范&lt;/h1&gt;
 
-&lt;h2 id=&#34;页面-page:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;页面（Page）&lt;/h2&gt;
+&lt;h2 id=&#34;页面-page&#34;&gt;页面（Page）&lt;/h2&gt;
 
 &lt;p&gt;参考：&lt;a href=&#34;http://ryanemax.github.io/cookbook/frontend/ionic2-generate/&#34;&gt;ionic命令行Generate体验总结&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;开发规范:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;开发规范&lt;/h3&gt;
+&lt;h3 id=&#34;开发规范&#34;&gt;开发规范&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;通过命令行创建初始化页面&lt;/p&gt;
@@ -478,7 +477,7 @@ ionic g page &amp;lt;PageName&amp;gt;
 &lt;li&gt;&lt;p&gt;页面只写布局与用户操作，所有数据相关的通知Toast、数据处理相关的Modal，都统一在Provider中实现&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;命名规范-1:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;命名规范&lt;/h3&gt;
+&lt;h3 id=&#34;命名规范-1&#34;&gt;命名规范&lt;/h3&gt;
 
 &lt;p&gt;根据ionic generte命令，页面的命名方式为：&lt;/p&gt;
 
@@ -502,19 +501,19 @@ ionic g page &amp;lt;PageName&amp;gt;
 &lt;li&gt;商城相关 Shop/ShopItem/ShopCate/ShopOrder&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;组件使用规范:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;组件使用规范&lt;/h1&gt;
+&lt;h1 id=&#34;组件使用规范&#34;&gt;组件使用规范&lt;/h1&gt;
 
-&lt;h2 id=&#34;数据处理时的页面导航:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;数据处理时的页面导航？&lt;/h2&gt;
+&lt;h2 id=&#34;数据处理时的页面导航&#34;&gt;数据处理时的页面导航？&lt;/h2&gt;
 
-&lt;h3 id=&#34;数据处理时-应统一采用事件触发机制调控页面导航:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;数据处理时，应统一采用事件触发机制调控页面导航&lt;/h3&gt;
+&lt;h3 id=&#34;数据处理时-应统一采用事件触发机制调控页面导航&#34;&gt;数据处理时，应统一采用事件触发机制调控页面导航&lt;/h3&gt;
 
 &lt;p&gt;情景一：应用使用中用户token口令失效，从app.js中触发调用Events事件user:logout，页面push至登录页。&lt;/p&gt;
 
-&lt;h3 id=&#34;数据处理应统一使用promise-增强应用异步特性:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;数据处理应统一使用Promise，增强应用异步特性&lt;/h3&gt;
+&lt;h3 id=&#34;数据处理应统一使用promise-增强应用异步特性&#34;&gt;数据处理应统一使用Promise，增强应用异步特性&lt;/h3&gt;
 
-&lt;h1 id=&#34;全局事件:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;全局事件&lt;/h1&gt;
+&lt;h1 id=&#34;全局事件&#34;&gt;全局事件&lt;/h1&gt;
 
-&lt;h2 id=&#34;用户类事件:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;用户类事件&lt;/h2&gt;
+&lt;h2 id=&#34;用户类事件&#34;&gt;用户类事件&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;user:login&lt;/li&gt;
@@ -522,7 +521,7 @@ ionic g page &amp;lt;PageName&amp;gt;
 &lt;li&gt;user:signup&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;通知类事件:d708dcf0e139ef66cb9df46ce4fa7f5c&#34;&gt;通知类事件&lt;/h2&gt;
+&lt;h2 id=&#34;通知类事件&#34;&gt;通知类事件&lt;/h2&gt;
 
 &lt;p&gt;优点：
 - 减少冗余Toast、Modal控件代码
@@ -554,7 +553,7 @@ this.events.publish(&#39;user:notify&#39;, eventData);
 
 &lt;p&gt;截至2016-05-13已经阅读完，完成0.8.0整理&lt;/p&gt;
 
-&lt;h1 id=&#34;总览:08dab56054d98e9121640d2375a07126&#34;&gt;总览&lt;/h1&gt;
+&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
 
 &lt;p&gt;COMPONENTS（样式组件）：&lt;a href=&#34;http://ionicframework.com/docs/v2/components/&#34;&gt;官方文档&lt;/a&gt;，构建及设计原型时候参考&lt;/p&gt;
 
@@ -570,21 +569,21 @@ this.events.publish(&#39;user:notify&#39;, eventData);
 &lt;li&gt;配置类组件&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;导航类组件:08dab56054d98e9121640d2375a07126&#34;&gt;导航类组件&lt;/h1&gt;
+&lt;h1 id=&#34;导航类组件&#34;&gt;导航类组件&lt;/h1&gt;
 
-&lt;h2 id=&#34;tab:08dab56054d98e9121640d2375a07126&#34;&gt;Tab&lt;/h2&gt;
+&lt;h2 id=&#34;tab&#34;&gt;Tab&lt;/h2&gt;
 
-&lt;h2 id=&#34;segment-二级分页:08dab56054d98e9121640d2375a07126&#34;&gt;Segment 二级分页&lt;/h2&gt;
+&lt;h2 id=&#34;segment-二级分页&#34;&gt;Segment 二级分页&lt;/h2&gt;
 
 &lt;p&gt;相当于二级Tab&lt;/p&gt;
 
-&lt;h3 id=&#34;segmentbutton:08dab56054d98e9121640d2375a07126&#34;&gt;SegmentButton&lt;/h3&gt;
+&lt;h3 id=&#34;segmentbutton&#34;&gt;SegmentButton&lt;/h3&gt;
 
 &lt;p&gt;二级分页的按钮组件&lt;/p&gt;
 
-&lt;h2 id=&#34;menu:08dab56054d98e9121640d2375a07126&#34;&gt;Menu&lt;/h2&gt;
+&lt;h2 id=&#34;menu&#34;&gt;Menu&lt;/h2&gt;
 
-&lt;h2 id=&#34;nav:08dab56054d98e9121640d2375a07126&#34;&gt;Nav&lt;/h2&gt;
+&lt;h2 id=&#34;nav&#34;&gt;Nav&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;swipeBackEnabled 滑动返回&lt;/li&gt;
@@ -593,7 +592,7 @@ this.events.publish(&#39;user:notify&#39;, eventData);
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  &amp;lt;ion-nav swipeBackEnabled=&amp;quot;false&amp;quot; [root]=&amp;quot;rootPage&amp;quot;&amp;gt;&amp;lt;/ion-nav&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;navpop:08dab56054d98e9121640d2375a07126&#34;&gt;NavPop&lt;/h3&gt;
+&lt;h3 id=&#34;navpop&#34;&gt;NavPop&lt;/h3&gt;
 
 &lt;p&gt;带有nav-pop属性的元素，点击后直接关闭当前页面，包括：Page、Modal、Alert等。&lt;/p&gt;
 
@@ -604,7 +603,7 @@ this.events.publish(&#39;user:notify&#39;, eventData);
 &amp;lt;/ion-content&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;navpush:08dab56054d98e9121640d2375a07126&#34;&gt;NavPush&lt;/h3&gt;
+&lt;h3 id=&#34;navpush&#34;&gt;NavPush&lt;/h3&gt;
 
 &lt;p&gt;带有nav-push属性的元素，点击后弹出所绑定的页面。&lt;/p&gt;
 
@@ -625,56 +624,56 @@ class MyPage {
 &amp;lt;button [navPush]=&amp;quot;[pushPage, params]&amp;quot;&amp;gt;&amp;lt;/button&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;navcontroller:08dab56054d98e9121640d2375a07126&#34;&gt;NavController&lt;/h2&gt;
+&lt;h2 id=&#34;navcontroller&#34;&gt;NavController&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Page creation 页面创建&lt;/li&gt;
 &lt;li&gt;Lifecycle events 生命周期事件&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;viewcontroller:08dab56054d98e9121640d2375a07126&#34;&gt;ViewController&lt;/h2&gt;
+&lt;h2 id=&#34;viewcontroller&#34;&gt;ViewController&lt;/h2&gt;
 
 &lt;p&gt;用于控制当前所在页面，方式.dismiss(data)即pop掉当前页面，同时data数据传入上级页面。&lt;/p&gt;
 
-&lt;h1 id=&#34;布局类组件:08dab56054d98e9121640d2375a07126&#34;&gt;布局类组件&lt;/h1&gt;
+&lt;h1 id=&#34;布局类组件&#34;&gt;布局类组件&lt;/h1&gt;
 
-&lt;h2 id=&#34;navbar-界面中的导航条:08dab56054d98e9121640d2375a07126&#34;&gt;Navbar 界面中的导航条&lt;/h2&gt;
+&lt;h2 id=&#34;navbar-界面中的导航条&#34;&gt;Navbar 界面中的导航条&lt;/h2&gt;
 
-&lt;h3 id=&#34;title-导航条位置的标题:08dab56054d98e9121640d2375a07126&#34;&gt;Title 导航条位置的标题&lt;/h3&gt;
+&lt;h3 id=&#34;title-导航条位置的标题&#34;&gt;Title 导航条位置的标题&lt;/h3&gt;
 
-&lt;h2 id=&#34;searchbar-局面中的搜索条:08dab56054d98e9121640d2375a07126&#34;&gt;Searchbar 局面中的搜索条&lt;/h2&gt;
+&lt;h2 id=&#34;searchbar-局面中的搜索条&#34;&gt;Searchbar 局面中的搜索条&lt;/h2&gt;
 
-&lt;h2 id=&#34;slides-幻灯图:08dab56054d98e9121640d2375a07126&#34;&gt;Slides 幻灯图&lt;/h2&gt;
+&lt;h2 id=&#34;slides-幻灯图&#34;&gt;Slides 幻灯图&lt;/h2&gt;
 
-&lt;h1 id=&#34;功能类组件:08dab56054d98e9121640d2375a07126&#34;&gt;功能类组件&lt;/h1&gt;
+&lt;h1 id=&#34;功能类组件&#34;&gt;功能类组件&lt;/h1&gt;
 
-&lt;h2 id=&#34;alert-消息警示框:08dab56054d98e9121640d2375a07126&#34;&gt;Alert 消息警示框&lt;/h2&gt;
+&lt;h2 id=&#34;alert-消息警示框&#34;&gt;Alert 消息警示框&lt;/h2&gt;
 
 &lt;p&gt;用于用户操作中触发的重要事件，需要操作或确认的通知，与Toast配合使用。&lt;/p&gt;
 
-&lt;h2 id=&#34;toast-消息提示框:08dab56054d98e9121640d2375a07126&#34;&gt;Toast 消息提示框&lt;/h2&gt;
+&lt;h2 id=&#34;toast-消息提示框&#34;&gt;Toast 消息提示框&lt;/h2&gt;
 
 &lt;p&gt;用于用户操作中触发的非主要事件，无需操作的通知，与Alert配合使用。&lt;/p&gt;
 
 &lt;p&gt;注意需要与ionic-native中的toast实现方式区分开。&lt;/p&gt;
 
-&lt;h1 id=&#34;数据类组件:08dab56054d98e9121640d2375a07126&#34;&gt;数据类组件&lt;/h1&gt;
+&lt;h1 id=&#34;数据类组件&#34;&gt;数据类组件&lt;/h1&gt;
 
-&lt;h2 id=&#34;navparams-导航过程中数据传输:08dab56054d98e9121640d2375a07126&#34;&gt;NavParams 导航过程中数据传输&lt;/h2&gt;
+&lt;h2 id=&#34;navparams-导航过程中数据传输&#34;&gt;NavParams 导航过程中数据传输&lt;/h2&gt;
 
-&lt;h2 id=&#34;loading-数据加载:08dab56054d98e9121640d2375a07126&#34;&gt;Loading 数据加载&lt;/h2&gt;
+&lt;h2 id=&#34;loading-数据加载&#34;&gt;Loading 数据加载&lt;/h2&gt;
 
-&lt;h2 id=&#34;infinitescroll-无限滚动-瀑布流:08dab56054d98e9121640d2375a07126&#34;&gt;InfiniteScroll 无限滚动（瀑布流）&lt;/h2&gt;
+&lt;h2 id=&#34;infinitescroll-无限滚动-瀑布流&#34;&gt;InfiniteScroll 无限滚动（瀑布流）&lt;/h2&gt;
 
-&lt;h2 id=&#34;refresher-数据下拉刷新:08dab56054d98e9121640d2375a07126&#34;&gt;Refresher 数据下拉刷新&lt;/h2&gt;
+&lt;h2 id=&#34;refresher-数据下拉刷新&#34;&gt;Refresher 数据下拉刷新&lt;/h2&gt;
 
-&lt;h2 id=&#34;spinner-数据加载时图片样式:08dab56054d98e9121640d2375a07126&#34;&gt;Spinner 数据加载时图片样式&lt;/h2&gt;
+&lt;h2 id=&#34;spinner-数据加载时图片样式&#34;&gt;Spinner 数据加载时图片样式&lt;/h2&gt;
 
-&lt;h2 id=&#34;localstorage-h5本地存储-临时:08dab56054d98e9121640d2375a07126&#34;&gt;LocalStorage H5本地存储（临时）&lt;/h2&gt;
+&lt;h2 id=&#34;localstorage-h5本地存储-临时&#34;&gt;LocalStorage H5本地存储（临时）&lt;/h2&gt;
 
 &lt;p&gt;用于存放登录信息、浏览缓存等非重要性数据&lt;/p&gt;
 
-&lt;h2 id=&#34;sqlstorage-sql文件存储-永久:08dab56054d98e9121640d2375a07126&#34;&gt;SqlStorage Sql文件存储（永久）&lt;/h2&gt;
+&lt;h2 id=&#34;sqlstorage-sql文件存储-永久&#34;&gt;SqlStorage Sql文件存储（永久）&lt;/h2&gt;
 
 &lt;p&gt;用于存放用户编辑资料、离线阅读资料等长期使用数据&lt;/p&gt;
 
@@ -686,15 +685,15 @@ class MyPage {
 &lt;li&gt;&lt;p&gt;快速清理 clear()&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;配置类组件:08dab56054d98e9121640d2375a07126&#34;&gt;配置类组件&lt;/h1&gt;
+&lt;h1 id=&#34;配置类组件&#34;&gt;配置类组件&lt;/h1&gt;
 
-&lt;h2 id=&#34;config:08dab56054d98e9121640d2375a07126&#34;&gt;Config&lt;/h2&gt;
+&lt;h2 id=&#34;config&#34;&gt;Config&lt;/h2&gt;
 
-&lt;h2 id=&#34;app:08dab56054d98e9121640d2375a07126&#34;&gt;App&lt;/h2&gt;
+&lt;h2 id=&#34;app&#34;&gt;App&lt;/h2&gt;
 
-&lt;h2 id=&#34;ionicapp:08dab56054d98e9121640d2375a07126&#34;&gt;IonicApp&lt;/h2&gt;
+&lt;h2 id=&#34;ionicapp&#34;&gt;IonicApp&lt;/h2&gt;
 
-&lt;h2 id=&#34;hidewhen:08dab56054d98e9121640d2375a07126&#34;&gt;HideWhen&lt;/h2&gt;
+&lt;h2 id=&#34;hidewhen&#34;&gt;HideWhen&lt;/h2&gt;
 
 &lt;p&gt;标签加入hidewhen=&amp;ldquo;ios,android&amp;rdquo;属性后，在属性包含的平台不显示此标签。&lt;/p&gt;
 
@@ -711,11 +710,11 @@ class MyPage {
 &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;showwhen:08dab56054d98e9121640d2375a07126&#34;&gt;ShowWhen&lt;/h2&gt;
+&lt;h2 id=&#34;showwhen&#34;&gt;ShowWhen&lt;/h2&gt;
 
 &lt;p&gt;类似HideWhen。&lt;/p&gt;
 
-&lt;h2 id=&#34;platform:08dab56054d98e9121640d2375a07126&#34;&gt;Platform&lt;/h2&gt;
+&lt;h2 id=&#34;platform&#34;&gt;Platform&lt;/h2&gt;
 
 &lt;p&gt;用于检测设备平台及版本语言信息，检测后可根据不同平台设置不同业务逻辑/界面，与HideWhen、ShowWhen属性用法类似但更底层。&lt;/p&gt;
 
@@ -745,32 +744,32 @@ class MyPage {
       <guid>https://ryanemax.github.io/faq/ionic2html/</guid>
       <description>
 
-&lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白:7917a174f57faa21f8db3276d3367989&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
+&lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:7917a174f57faa21f8db3276d3367989&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;因为ionic2自带的font-icon库中，改图标没有默认的outline样式，导致了点击后，显示空白。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721&#34;&gt;http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:7917a174f57faa21f8db3276d3367989&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
-&lt;h1 id=&#34;scss文件中定义的样式不生效-import已加入app-core-scss中:7917a174f57faa21f8db3276d3367989&#34;&gt;scss文件中定义的样式不生效，@import已加入app.core.scss中&lt;/h1&gt;
+&lt;h1 id=&#34;scss文件中定义的样式不生效-import已加入app-core-scss中&#34;&gt;scss文件中定义的样式不生效，@import已加入app.core.scss中&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析-1:7917a174f57faa21f8db3276d3367989&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;命令行报错，导致后续scss样式无法被加载&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Error: Import directives may not be used within control directives or mixins. on line 34 of node_modules/ionic-angular/components.core.scss @import &amp;quot;fonts/ionicons&amp;quot;;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;尝试一-无效:7917a174f57faa21f8db3276d3367989&#34;&gt;尝试一（无效）&lt;/h2&gt;
+&lt;h2 id=&#34;尝试一-无效&#34;&gt;尝试一（无效）&lt;/h2&gt;
 
 &lt;p&gt;npm install gulp-sass&lt;/p&gt;
 
 &lt;p&gt;npm install node-sass&lt;/p&gt;
 
-&lt;h2 id=&#34;尝试二-成功:7917a174f57faa21f8db3276d3367989&#34;&gt;尝试二（成功）&lt;/h2&gt;
+&lt;h2 id=&#34;尝试二-成功&#34;&gt;尝试二（成功）&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## vim node_modules/ionic-angular/components.core.scss
 //@if ($ionicons) {
@@ -789,9 +788,9 @@ class MyPage {
       <guid>https://ryanemax.github.io/cookbook/frontend/ionic2-googlemap-amap/</guid>
       <description>
 
-&lt;h1 id=&#34;ionic2及ng2谷歌-高德地图控件分析实例:f65739047e30db9a825e1a5bb607abf7&#34;&gt;《ionic2及ng2谷歌/高德地图控件分析实例》&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2及ng2谷歌-高德地图控件分析实例&#34;&gt;《ionic2及ng2谷歌/高德地图控件分析实例》&lt;/h1&gt;
 
-&lt;h1 id=&#34;创建示例项目:f65739047e30db9a825e1a5bb607abf7&#34;&gt;创建示例项目&lt;/h1&gt;
+&lt;h1 id=&#34;创建示例项目&#34;&gt;创建示例项目&lt;/h1&gt;
 
 &lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
 
@@ -801,16 +800,16 @@ npm install
 ionic serve
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;map-js解析:f65739047e30db9a825e1a5bb607abf7&#34;&gt;map.js解析&lt;/h1&gt;
+&lt;h1 id=&#34;map-js解析&#34;&gt;map.js解析&lt;/h1&gt;
 
-&lt;h2 id=&#34;问题:f65739047e30db9a825e1a5bb607abf7&#34;&gt;问题&lt;/h2&gt;
+&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;google.maps.Map包来自哪里，如何实现的？&lt;/li&gt;
 &lt;li&gt;如何将map.js迁移至高德地图，以便国内用户使用？&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;代码展示:f65739047e30db9a825e1a5bb607abf7&#34;&gt;代码展示&lt;/h2&gt;
+&lt;h2 id=&#34;代码展示&#34;&gt;代码展示&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 文件 project/app/pages/map/map.js
 onPageLoaded() {
@@ -846,9 +845,9 @@ onPageLoaded() {
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;探索:f65739047e30db9a825e1a5bb607abf7&#34;&gt;探索&lt;/h2&gt;
+&lt;h2 id=&#34;探索&#34;&gt;探索&lt;/h2&gt;
 
-&lt;h3 id=&#34;寻找google地图插件:f65739047e30db9a825e1a5bb607abf7&#34;&gt;寻找google地图插件&lt;/h3&gt;
+&lt;h3 id=&#34;寻找google地图插件&#34;&gt;寻找google地图插件&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;查找整个项目，但发现不存在任何googlet地图包引入相关的代码&lt;/li&gt;
@@ -890,15 +889,16 @@ onPageLoaded() {
 
 &lt;p&gt;注释后报错，确认google地图插件来自于index页面script的引入&lt;/p&gt;
 
-&lt;h2 id=&#34;实践-更换地图控件为高德地图:f65739047e30db9a825e1a5bb607abf7&#34;&gt;实践——更换地图控件为高德地图&lt;/h2&gt;
+&lt;h2 id=&#34;实践-更换地图控件为高德地图&#34;&gt;实践——更换地图控件为高德地图&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;参考地址：&lt;a href=&#34;http://lbs.amap.com/api/javascript-api/guide/quickstart/&#34;&gt;http://lbs.amap.com/api/javascript-api/guide/quickstart/&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;key申请：注册成为高德开发者，申请appkey&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;在index.html添加高德api引入代码&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;key申请：注册成为高德开发者，申请appkey&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在index.html添加高德api引入代码&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://webapi.amap.com/maps?v=1.3&amp;amp;key=您申请的key值&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -964,7 +964,7 @@ onPageLoaded() {
 &lt;li&gt;继续修复marker和info控件&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;实践成果-附上完美整合高德地图后map-js的onpageloaded-函数:f65739047e30db9a825e1a5bb607abf7&#34;&gt;实践成果——附上完美整合高德地图后map.js的OnPageLoaded()函数&lt;/h2&gt;
+&lt;h2 id=&#34;实践成果-附上完美整合高德地图后map-js的onpageloaded-函数&#34;&gt;实践成果——附上完美整合高德地图后map.js的OnPageLoaded()函数&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;onPageLoaded() {
   this.confData.getMap().then(mapData =&amp;gt; {
@@ -1010,9 +1010,9 @@ onPageLoaded() {
       <guid>https://ryanemax.github.io/faq/ionic2install/</guid>
       <description>
 
-&lt;h1 id=&#34;ionic2常见问题汇总之安装篇:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2常见问题汇总之安装篇&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
 
-&lt;h1 id=&#34;如何安装ionic:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;如何安装ionic？&lt;/h1&gt;
+&lt;h1 id=&#34;如何安装ionic&#34;&gt;如何安装ionic？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 系统包管理器，安装npm
 apt-get install npm nodejs
@@ -1035,7 +1035,7 @@ npm -g install cordova
 npm -g install ionic@beta
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ionic-beta安装error无法运行怎么解决:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;ionic@beta安装Error无法运行怎么解决？&lt;/h1&gt;
+&lt;h1 id=&#34;ionic-beta安装error无法运行怎么解决&#34;&gt;ionic@beta安装Error无法运行怎么解决？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm ERR! ionic@2.0.0-beta.23 postinstall: `node lib/tasks/postinstall`
 npm ERR! Exit status 8
@@ -1062,7 +1062,7 @@ npm ERR! not ok code 0
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;windows-解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;windows 解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;windows-解决方案&#34;&gt;windows 解决方案&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install -g npm@3.8.0
 
@@ -1073,7 +1073,7 @@ npm install -g cordova
 npm install -g ionic@beta
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;debian-解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;debian 解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;debian-解决方案&#34;&gt;debian 解决方案&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install -g npm@3.8.0
 
@@ -1086,7 +1086,7 @@ cnpm install -g cordova
 cnpm install -g ionic@beta
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;安装提示root用户没有权限访问node-pre-gyp:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;安装提示root用户没有权限访问node-pre-gyp？&lt;/h1&gt;
+&lt;h1 id=&#34;安装提示root用户没有权限访问node-pre-gyp&#34;&gt;安装提示root用户没有权限访问node-pre-gyp？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1094,7 +1094,7 @@ cnpm install -g ionic@beta
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo cnpm -g install ionic@2.0.0-beta.20 --unsafe-perm
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;如何生成第一个ionic项目:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;如何生成第一个ionic项目？&lt;/h1&gt;
+&lt;h1 id=&#34;如何生成第一个ionic项目&#34;&gt;如何生成第一个ionic项目？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 生成ionic1项目
 ionic start project-name
@@ -1107,7 +1107,7 @@ cd project-name
 ionic serve -l
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;生成ionic-beta-23项目报错:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;生成ionic@beta.23项目报错&lt;/h1&gt;
+&lt;h1 id=&#34;生成ionic-beta-23项目报错&#34;&gt;生成ionic@beta.23项目报错&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Installing npm packages...
 
@@ -1125,7 +1125,7 @@ Unable to run spawn commandError: spawn npm ENOENT (CLI v2.0.0-beta.23)
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm -g install ionic@2.0.0-beta.22
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;生成ionic-beta项目报错:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;生成ionic@beta项目报错&lt;/h1&gt;
+&lt;h1 id=&#34;生成ionic-beta项目报错&#34;&gt;生成ionic@beta项目报错&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install package Error
 &lt;/code&gt;&lt;/pre&gt;
@@ -1137,7 +1137,7 @@ Unable to run spawn commandError: spawn npm ENOENT (CLI v2.0.0-beta.23)
 cnpm install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;无法在真机运行-ionic-run-android:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;无法在真机运行 ionic run android&lt;/h1&gt;
+&lt;h1 id=&#34;无法在真机运行-ionic-run-android&#34;&gt;无法在真机运行 ionic run android&lt;/h1&gt;
 
 &lt;p&gt;原因分析：&lt;/p&gt;
 
@@ -1149,15 +1149,15 @@ ionic run
 cordova run android
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;gulp3中graceful-fs版本过低:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;gulp3中graceful-fs版本过低&lt;/h1&gt;
+&lt;h1 id=&#34;gulp3中graceful-fs版本过低&#34;&gt;gulp3中graceful-fs版本过低&lt;/h1&gt;
 
-&lt;h2 id=&#34;错误信息:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;错误信息&lt;/h2&gt;
+&lt;h2 id=&#34;错误信息&#34;&gt;错误信息&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;(node:2396) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
 [1]    2396 bus error (core dumped)  gulp
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/error-running-ionic-serve/50706&#34;&gt;https://forum.ionicframework.com/t/error-running-ionic-serve/50706&lt;/a&gt;&lt;/p&gt;
 

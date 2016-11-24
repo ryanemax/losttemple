@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,12 +108,12 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="无法保存照片-无法发送邮件:3752c4b73199d8e4ea484c2eb241f45e">无法保存照片/无法发送邮件</h1>
+<h1 id="无法保存照片-无法发送邮件">无法保存照片/无法发送邮件</h1>
 
 <p><a href="https://www.odoo.com/forum/help-1/question/cant-upload-images-905">https://www.odoo.com/forum/help-1/question/cant-upload-images-905</a>
 无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在</p>
 
-<h2 id="原因分析:3752c4b73199d8e4ea484c2eb241f45e">原因分析</h2>
+<h2 id="原因分析">原因分析</h2>
 
 <pre><code>413 Request Entity Too Large
 nginx/1.6.2
@@ -121,7 +121,7 @@ nginx/1.6.2
 
 <p>nginx 大文件配置问题</p>
 
-<h2 id="解决方案:3752c4b73199d8e4ea484c2eb241f45e">解决方案</h2>
+<h2 id="解决方案">解决方案</h2>
 
 <p>在上传时nginx返回了413错误，查看log文件，显示的错误信息是:”413 Request Entity Too Large”, 需要做以下设 置：</p>
 
@@ -148,14 +148,14 @@ proxy_temp_file_write_size 64k;
 upload_max_filesize = 2M
 </code></pre>
 
-<h1 id="python的pip有的包过旧:3752c4b73199d8e4ea484c2eb241f45e">Python的pip有的包过旧</h1>
+<h1 id="python的pip有的包过旧">Python的pip有的包过旧</h1>
 
-<h2 id="原因分析-1:3752c4b73199d8e4ea484c2eb241f45e">原因分析</h2>
+<h2 id="原因分析-1">原因分析</h2>
 
 <p>pip包过老需要升级，以下包：
 - Pillow</p>
 
-<h2 id="解决方案-1:3752c4b73199d8e4ea484c2eb241f45e">解决方案</h2>
+<h2 id="解决方案-1">解决方案</h2>
 
 <p>一行命令升级所有pip安装的Python包</p>
 
@@ -173,9 +173,9 @@ upload_max_filesize = 2M
 <pre><code>pip install -U distribute &amp;&amp; pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U --allow-external mysql-connector-python
 </code></pre>
 
-<h2 id="解决方案-2:3752c4b73199d8e4ea484c2eb241f45e">解决方案</h2>
+<h2 id="解决方案-2">解决方案</h2>
 
-<h1 id="odoo-警告-邮件投递失败:3752c4b73199d8e4ea484c2eb241f45e">Odoo 警告 - 邮件投递失败</h1>
+<h1 id="odoo-警告-邮件投递失败">Odoo 警告 - 邮件投递失败</h1>
 
 <pre><code class="language-python">Mail delivery failed via SMTP server 'smtp.mxhichina.com'.
 SMTPSenderRefused: 440
@@ -185,7 +185,7 @@ postmaster-odoo@anasit.com
 
 <p>为何出现postmaster-odoo@anasit.com邮箱地址？</p>
 
-<h2 id="解决方案-3:3752c4b73199d8e4ea484c2eb241f45e">解决方案</h2>
+<h2 id="解决方案-3">解决方案</h2>
 
 <p>1 .增加邮箱账号“postmaster-odoo@anasit.com”</p>
 
@@ -193,7 +193,7 @@ postmaster-odoo@anasit.com
 
 <p>以上方法二选一即可.</p>
 
-<h1 id="设置默认值-十分实用:3752c4b73199d8e4ea484c2eb241f45e">设置默认值——十分实用</h1>
+<h1 id="设置默认值-十分实用">设置默认值——十分实用</h1>
 
 <p>设置——关于——Acivate the developer mode.</p>
 

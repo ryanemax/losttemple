@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/game/</link>
-    <description>Recent content in Game on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/game/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Wed, 04 May 2016 00:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/game/mobilegame/</guid>
       <description>
 
-&lt;h1 id=&#34;手机游戏客户端开发引擎调研:c38e925fd5983ae81899ead8c842173e&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;总览:c38e925fd5983ae81899ead8c842173e&#34;&gt;总览&lt;/h1&gt;
+&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
 
 &lt;p&gt;| 对比类目 | Cocos2d-x | unity 3d | 结论 |
 | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- |
@@ -37,18 +36,18 @@
 3. 现在手机游戏市场前10位有7位都是cocos2d-x开发，开源、跨平台、MIT许可等等，当然适合2d游戏，3d游戏还是用unity；
 4. 想学习业界主流的游戏开发流程，不想局限于某个游戏平台或者2D还是3D，选unity&lt;/p&gt;
 
-&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎:c38e925fd5983ae81899ead8c842173e&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
+&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
 
 &lt;p&gt;cocos2d-x是个壮汉，但是肌肉极为不对称&lt;/p&gt;
 
-&lt;h2 id=&#34;优点:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;产品生态成熟，手机市场占有率大于u3d&lt;/li&gt;
 &lt;li&gt;AppStore中国畅销榜前五，都是cocos2s-x引擎&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;所谓的跨平台仅仅是IOS/Android等移动端&lt;/li&gt;
@@ -56,7 +55,7 @@
 &lt;li&gt;开发效率不如unity 3d&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;开发相关:c38e925fd5983ae81899ead8c842173e&#34;&gt;开发相关&lt;/h2&gt;
+&lt;h2 id=&#34;开发相关&#34;&gt;开发相关&lt;/h2&gt;
 
 &lt;p&gt;主流工具&lt;/p&gt;
 
@@ -112,24 +111,24 @@ UleadGifAnimator&lt;/p&gt;
 
 &lt;p&gt;原文csdn地址：&lt;a href=&#34;http://blog.csdn.net/touchsnow/article/details/18446119&#34;&gt;cocos2d-x editor&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;分解-unity-3d:c38e925fd5983ae81899ead8c842173e&#34;&gt;分解：unity 3d&lt;/h1&gt;
+&lt;h1 id=&#34;分解-unity-3d&#34;&gt;分解：unity 3d&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;真正实现跨平台，PC端的Mac/Windows/Linux，移动端的IOS/IPad/Android&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;性能:c38e925fd5983ae81899ead8c842173e&#34;&gt;性能&lt;/h2&gt;
+&lt;h2 id=&#34;性能&#34;&gt;性能&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2D游戏，Unity同屏400个单位没问题&lt;/li&gt;
 &lt;li&gt;参考神仙道同屏object数量&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;代表作品分析:c38e925fd5983ae81899ead8c842173e&#34;&gt;代表作品分析&lt;/h1&gt;
+&lt;h1 id=&#34;代表作品分析&#34;&gt;代表作品分析&lt;/h1&gt;
 
-&lt;h2 id=&#34;炉石传说-unity-3d:c38e925fd5983ae81899ead8c842173e&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
+&lt;h2 id=&#34;炉石传说-unity-3d&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;使用Unity3D开发2d化游戏已成趋势&lt;/li&gt;
@@ -146,25 +145,25 @@ UleadGifAnimator&lt;/p&gt;
       <guid>https://ryanemax.github.io/game/dev/h5game/</guid>
       <description>
 
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;phaser-js:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;Phaser.js&lt;/h1&gt;
+&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;egret-html5-es6最佳选择:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
+&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
 
-&lt;h2 id=&#34;代表游戏:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;代表游戏&lt;/h2&gt;
+&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;神经猫&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;优点:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生态链比较完善&lt;/li&gt;
@@ -185,7 +184,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;刷新率卡顿问题严重影响游戏体验&lt;/li&gt;
@@ -193,9 +192,9 @@ UleadGifAnimator&lt;/p&gt;
 &lt;li&gt;全面依赖于html5，但是已经与多款浏览器集成了runtime，可以opengl渲染代替canvas渲染&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cocos2d-js-与cocos2d-x差距太大了-不建议使用:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;cocos2d-js（与cocos2d-x差距太大了，不建议使用）&lt;/h1&gt;
+&lt;h1 id=&#34;cocos2d-js-与cocos2d-x差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos2d-x差距太大了，不建议使用）&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点-1:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Babel ES6&lt;/li&gt;
@@ -208,7 +207,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点-1:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
@@ -243,11 +242,11 @@ UleadGifAnimator&lt;/p&gt;
       <guid>https://ryanemax.github.io/game/dev/mobilegame/</guid>
       <description>
 
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研:c38e925fd5983ae81899ead8c842173e&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用:c38e925fd5983ae81899ead8c842173e&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
+&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Babel ES6&lt;/li&gt;
@@ -260,7 +259,7 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
@@ -285,23 +284,23 @@ UleadGifAnimator&lt;/p&gt;
 &lt;li&gt;IDE，cocos studio十分难用，拖了引擎后腿&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;phaser-js:c38e925fd5983ae81899ead8c842173e&#34;&gt;Phaser.js&lt;/h1&gt;
+&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;egret-html5-es6最佳选择:c38e925fd5983ae81899ead8c842173e&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
+&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
 
-&lt;h2 id=&#34;代表游戏:c38e925fd5983ae81899ead8c842173e&#34;&gt;代表游戏&lt;/h2&gt;
+&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;神经猫&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;优点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生态链比较完善&lt;/li&gt;
@@ -322,7 +321,7 @@ UleadGifAnimator&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;Mac&lt;/p&gt;
 
-&lt;h2 id=&#34;缺点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;刷新率卡顿问题严重影响游戏体验&lt;/p&gt;&lt;/li&gt;

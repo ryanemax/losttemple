@@ -2,13 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/</link>
+    <link>https://ryanemax.github.io/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 27 Aug 2016 15:05:51 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Nov 2016 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>个人职业生涯规划说明</title>
+      <link>https://ryanemax.github.io/career/README/</link>
+      <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/career/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;简历档案&#34;&gt;简历档案&lt;/h1&gt;
+
+&lt;h2 id=&#34;档案书写平台&#34;&gt;档案书写平台&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;领英 简历书写
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/21308578&#34;&gt;如何有效利用 LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;脉脉 职场社交&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;简历生成&#34;&gt;简历生成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官方英文简历，导出PDF &lt;a href=&#34;https://www.linkedin.com/help/linkedin/answer/4281/printing-a-profile-and-recommendations?lang=en&#34;&gt;Printing a Profile and Recommendations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;领英API生成H5简历应用开发&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AR时代来临了，带上兵器吧</title>
+      <link>https://ryanemax.github.io/cookbook/vrar/arplayer/</link>
+      <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/vrar/arplayer/</guid>
+      <description>
+
+&lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://www.zhihu.com/question/28779933&#34;&gt;https://www.zhihu.com/question/28779933&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景
+
+&lt;ul&gt;
+&lt;li&gt;H5 意味着在手机而非 PC 上实现&lt;/li&gt;
+&lt;li&gt;AR 意味着需要获取实时的视频流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/323922423e94c7831ffd37b8a10efe70_b.png&#34; alt=&#34;WebRTC&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;条件
+
+&lt;ul&gt;
+&lt;li&gt;Android 5以上&lt;/li&gt;
+&lt;li&gt;原生Chrome浏览器&lt;/li&gt;
+&lt;li&gt;2016.9.20 update&lt;/li&gt;
+&lt;li&gt;手机QQ 微信&lt;/li&gt;
+&lt;li&gt;接入 QQ 浏览器 X5 内核的 Webview&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;假如上面的条件已经满足，接下来有几个库可以实现：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jeromeetienne/threex.webar&#34;&gt;https://github.com/jeromeetienne/threex.webar&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 107&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awe-media/awe.js&#34;&gt;https://github.com/awe-media/awe.js&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 486&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
@@ -18,7 +104,7 @@
       <guid>https://ryanemax.github.io/cookbook/tool/bashonwindows/</guid>
       <description>
 
-&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
+&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
 
@@ -27,13 +113,13 @@
 &amp;quot;SSH server broker&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
+&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
 
-&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
+&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
 
@@ -45,11 +131,11 @@ service ssh start
 zsh
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
+&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
 
 &lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
 
-&lt;h1 id=&#34;npm-fs-watch问题-error:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
+&lt;h1 id=&#34;npm-fs-watch问题-error&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
 
@@ -65,7 +151,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</guid>
       <description>
 
-&lt;h1 id=&#34;ng2-universal基础:99ba35dc358433404c10720574c18d78&#34;&gt;ng2-universal基础&lt;/h1&gt;
+&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
@@ -78,7 +164,7 @@ zsh
 
 &lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2整合universal:99ba35dc358433404c10720574c18d78&#34;&gt;ionic2整合universal&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
 
@@ -96,16 +182,16 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
-&lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;ionic2框架:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;ionic2框架&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2框架&#34;&gt;ionic2框架&lt;/h1&gt;
 
-&lt;h2 id=&#34;测试规范参考:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试规范参考&lt;/h2&gt;
+&lt;h2 id=&#34;测试规范参考&#34;&gt;测试规范参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
@@ -127,9 +213,9 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;最新版本测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;最新版本测试&lt;/h2&gt;
+&lt;h2 id=&#34;最新版本测试&#34;&gt;最新版本测试&lt;/h2&gt;
 
-&lt;h3 id=&#34;测试-ionic-beta35:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+&lt;h3 id=&#34;测试-ionic-beta35&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;iOS
@@ -152,13 +238,13 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;测试-angular2-beta14:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+&lt;h3 id=&#34;测试-angular2-beta14&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
 
 &lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
 但是当使用http调用ajax请求时,会报一个找不到open方法的错。
 可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
 
-&lt;h3 id=&#34;旧版测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;旧版测试&lt;/h3&gt;
+&lt;h3 id=&#34;旧版测试&#34;&gt;旧版测试&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Android
@@ -179,7 +265,7 @@ zsh
       <guid>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix/</guid>
       <description>
 
-&lt;h1 id=&#34;会议简介:a66db78a91811a58a07edc55949cf900&#34;&gt;会议简介&lt;/h1&gt;
+&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;会议主题
@@ -195,9 +281,9 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;bluemix中国研究院demo演示:a66db78a91811a58a07edc55949cf900&#34;&gt;Bluemix中国研究院Demo演示&lt;/h1&gt;
+&lt;h1 id=&#34;bluemix中国研究院demo演示&#34;&gt;Bluemix中国研究院Demo演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;定制化图片分类器服务:a66db78a91811a58a07edc55949cf900&#34;&gt;定制化图片分类器服务&lt;/h2&gt;
+&lt;h2 id=&#34;定制化图片分类器服务&#34;&gt;定制化图片分类器服务&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;我的任务
@@ -211,17 +297,16 @@ zsh
 &lt;li&gt;从示例数据集拷贝，用于尝试训练&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;我的训练模型&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;我的API&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;训练定制图片识别服务&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CloudFoundry新建一个Demo&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;调用对应API构建应用&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;我的API&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;移动消息连接服务-快速连接微信与应用:a66db78a91811a58a07edc55949cf900&#34;&gt;移动消息连接服务：快速连接微信与应用&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;训练定制图片识别服务&lt;/li&gt;
+&lt;li&gt;CloudFoundry新建一个Demo&lt;/li&gt;
+&lt;li&gt;调用对应API构建应用&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;移动消息连接服务-快速连接微信与应用&#34;&gt;移动消息连接服务：快速连接微信与应用&lt;/h2&gt;
 
 &lt;p&gt;连接Bluemix应用于微信&lt;/p&gt;
 
@@ -231,7 +316,7 @@ zsh
 &lt;li&gt;打开移动消息应用的认知能力大门，连接Bluemix图片识别，中文问答，中文语音识别、中文舆情分析等&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;中网微信购票服务:a66db78a91811a58a07edc55949cf900&#34;&gt;中网微信购票服务&lt;/h3&gt;
+&lt;h3 id=&#34;中网微信购票服务&#34;&gt;中网微信购票服务&lt;/h3&gt;
 
 &lt;p&gt;5天，服务4800人购票，观众线上购票线下取票&lt;/p&gt;
 
@@ -247,7 +332,7 @@ zsh
       <guid>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix-anasit/</guid>
       <description>
 
-&lt;h1 id=&#34;零-前言:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;零、前言&lt;/h1&gt;
+&lt;h1 id=&#34;零-前言&#34;&gt;零、前言&lt;/h1&gt;
 
 &lt;p&gt;本文针对二三线城市&lt;strong&gt;中小型企业信息化&lt;/strong&gt;现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。&lt;/p&gt;
 
@@ -261,9 +346,9 @@ zsh
 - 案例1：江西某旅游集团信息化转型
 - 案例2：湖南某市九县三区民政养老信息化转型&lt;/p&gt;
 
-&lt;h1 id=&#34;一-企业信息化的市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
+&lt;h1 id=&#34;一-企业信息化的市场前景&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
 
-&lt;h2 id=&#34;企业信息化技术的发展:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
+&lt;h2 id=&#34;企业信息化技术的发展&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2000-2008
@@ -297,11 +382,11 @@ zsh
 
 &lt;p&gt;&lt;img src=&#34;https://d1fto35gcfffzn.cloudfront.net/images/products/pivotal-cloud-foundry/cloud-native-diagram-azure.png&#34; alt=&#34;CloudFondry&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;待整理-国内混合云市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
+&lt;h2 id=&#34;待整理-国内混合云市场前景&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
 
-&lt;h2 id=&#34;待整理-江西混合云市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
+&lt;h2 id=&#34;待整理-江西混合云市场前景&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
 
-&lt;h2 id=&#34;中小企业信息化的需求:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
+&lt;h2 id=&#34;中小企业信息化的需求&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;互联网技术革新速度不断加速，二三线城市还未跟上步伐&lt;/li&gt;
@@ -321,9 +406,9 @@ zsh
 
 &lt;p&gt;这些头疼无比的选择，正反映了中小型企业信息化的现状：信息不对等，导致了中小型企业难接触飞速发展的企业信息化技术。&lt;/p&gt;
 
-&lt;h1 id=&#34;二-消灭信息不对等:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
+&lt;h1 id=&#34;二-消灭信息不对等&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
 
-&lt;h2 id=&#34;消灭常见认知误区:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;消灭常见认知误区&lt;/h2&gt;
+&lt;h2 id=&#34;消灭常见认知误区&#34;&gt;消灭常见认知误区&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;十年前，建设一个门户就是企业信息化&lt;/li&gt;
@@ -331,7 +416,7 @@ zsh
 &lt;li&gt;只要有WEB，拼凑几个智能硬件，就是互联网+项目&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;消灭成本预估误区:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;消灭成本预估误区&lt;/h2&gt;
+&lt;h2 id=&#34;消灭成本预估误区&#34;&gt;消灭成本预估误区&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;公司策划的项目很好，只差一个程序员
@@ -346,11 +431,11 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
+&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
 
-&lt;h3 id=&#34;关键工具:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;关键工具&lt;/h3&gt;
+&lt;h3 id=&#34;关键工具&#34;&gt;关键工具&lt;/h3&gt;
 
-&lt;h4 id=&#34;ibm-api-connect:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;IBM API Connect&lt;/h4&gt;
+&lt;h4 id=&#34;ibm-api-connect&#34;&gt;IBM API Connect&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;安全地打通现有的信息数据&lt;/li&gt;
@@ -365,11 +450,11 @@ zsh
 
 &lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/analytics.png&#34; alt=&#34;apiconnect2&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;项目背景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;项目背景&lt;/h3&gt;
+&lt;h3 id=&#34;项目背景&#34;&gt;项目背景&lt;/h3&gt;
 
 &lt;p&gt;2015.4月，该旅游集团互联网+旅游产品与2015年1月开始已上线一个季度，由一家小型非技术型公司来外包完成产品开发。平台前期设计开发过于仓促，上线运营缺少维护支持以及全方位测试。导致了其正式上线运营后劲不足，影响到集团线下战略发展。&lt;/p&gt;
 
-&lt;h3 id=&#34;危机分析:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;危机分析&lt;/h3&gt;
+&lt;h3 id=&#34;危机分析&#34;&gt;危机分析&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/原运营情况.png&#34; alt=&#34;原运营情况&#34; /&gt;&lt;/p&gt;
 
@@ -383,7 +468,7 @@ zsh
 &lt;li&gt;线上产品经测试后漏洞较多，导致关键业务需要重构&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;提供支持:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;提供支持&lt;/h3&gt;
+&lt;h3 id=&#34;提供支持&#34;&gt;提供支持&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/平台2.0系统.png&#34; alt=&#34;优化后系统&#34; /&gt;&lt;/p&gt;
 
@@ -394,7 +479,7 @@ zsh
 &lt;li&gt;设计平台全套RESTful APIs，提供信息化数据微服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;成果:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;成果&lt;/h3&gt;
+&lt;h3 id=&#34;成果&#34;&gt;成果&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;大幅度减少集团原有的人力资源浪费（信息化及自动化）&lt;/li&gt;
@@ -402,7 +487,7 @@ zsh
 &lt;li&gt;为该集团提供技术岗位招聘需求，及产品迭代运维方案&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
+&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务方：小型作坊过多，中小型软件外包服务公司不规范
@@ -421,11 +506,11 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
+&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
+&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
 
-&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
+&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
 
 &lt;p&gt;有人评论说：&amp;rdquo;针对目前国内情况，DevOps还是很遥远。也许只有行业顶尖的公司，或者新成立的公司会有这样的尝试。大多数的企业还未开始进行敏捷的推进，传统的重重阻碍会使敏捷的推进进程遥遥无期。&amp;rdquo; DevOps真的离我们有那么远吗？DevOps应该从哪里开始呢？&lt;/p&gt;
 
@@ -442,7 +527,7 @@ zsh
 
 &lt;p&gt;营造一个充满信赖、文化强大的结构性平台去服务企业连接需求和实施，事半功倍。&lt;/p&gt;
 
-&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
+&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;原型测试阶段
@@ -465,9 +550,9 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
+&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
 
-&lt;h3 id=&#34;关键工具-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;关键工具&lt;/h3&gt;
+&lt;h3 id=&#34;关键工具-1&#34;&gt;关键工具&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Docker+Parse
@@ -480,15 +565,15 @@ zsh
 &lt;li&gt;API Connect&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;项目背景-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;项目背景&lt;/h3&gt;
+&lt;h3 id=&#34;项目背景-1&#34;&gt;项目背景&lt;/h3&gt;
 
-&lt;h3 id=&#34;危机分析-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;危机分析&lt;/h3&gt;
+&lt;h3 id=&#34;危机分析-1&#34;&gt;危机分析&lt;/h3&gt;
 
-&lt;h3 id=&#34;提供支持-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;提供支持&lt;/h3&gt;
+&lt;h3 id=&#34;提供支持-1&#34;&gt;提供支持&lt;/h3&gt;
 
-&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
+&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
 
-&lt;h3 id=&#34;服务方与企业方:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;服务方与企业方&lt;/h3&gt;
+&lt;h3 id=&#34;服务方与企业方&#34;&gt;服务方与企业方&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;小作坊惨遭淘汰，或在压力中转型成为与云接轨的合格服务商&lt;/li&gt;
@@ -512,7 +597,7 @@ zsh
 &lt;li&gt;企业真正需要的是信息化的全方位服务，而不仅仅是软件开发外包&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;大型信息科技公司:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;大型信息科技公司&lt;/h3&gt;
+&lt;h3 id=&#34;大型信息科技公司&#34;&gt;大型信息科技公司&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;制定规则
@@ -528,13 +613,13 @@ zsh
 &lt;li&gt;整合数据（DT时代）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
+&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
 
-&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
+&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
 
-&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
+&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
 
-&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
+&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
 </description>
     </item>
     
@@ -546,9 +631,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
-&lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
+&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
 
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenStack
@@ -586,7 +671,7 @@ zsh
 
 &lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
 
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
@@ -604,7 +689,7 @@ zsh
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;paas现状:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS现状&lt;/h2&gt;
+&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CloudFoundry
@@ -635,7 +720,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;paas选型及适用范围:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;轻量级：Flynn、Deis二选一
@@ -654,11 +739,11 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;docker部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Docker部署&lt;/h1&gt;
+&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
 
-&lt;h1 id=&#34;openstack部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;OpenStack部署&lt;/h1&gt;
+&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
 
-&lt;h2 id=&#34;公司环境参数:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;公司环境参数&lt;/h2&gt;
+&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
@@ -666,7 +751,7 @@ zsh
 &lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
 </description>
     </item>
     
@@ -678,7 +763,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
-&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+&lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;可通过域名转发过滤&lt;/li&gt;
@@ -687,9 +772,9 @@ zsh
 &lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+&lt;h1 id=&#34;传统方式&#34;&gt;传统方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+&lt;h2 id=&#34;多网卡绑定固定ip&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本高
@@ -701,7 +786,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+&lt;h2 id=&#34;端口映射&#34;&gt;端口映射&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -709,7 +794,7 @@ zsh
 &lt;li&gt;端口数有限&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+&lt;h2 id=&#34;dmz&#34;&gt;DMZ&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -727,27 +812,27 @@ zsh
       <guid>https://ryanemax.github.io/meeting/2016-6-17apcio-it/</guid>
       <description>
 
-&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
+&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;孙海&lt;/li&gt;
 &lt;li&gt;北京世纪互联宽带数据中心有限公司 销售经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
+&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
 
 &lt;p&gt;2016.6.17国内首测&lt;/p&gt;
 
-&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
+&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
 
-&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
+&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Akamai 柴海炬&lt;/li&gt;
 &lt;li&gt;阿卡迈（北京）信息技术有限公司 华东区战略客户部总监&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;akamai公司简介:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai公司简介&lt;/h2&gt;
+&lt;h2 id=&#34;akamai公司简介&#34;&gt;Akamai公司简介&lt;/h2&gt;
 
 &lt;p&gt;Akamai是CDN的发明者
 - 1998发明CDN技术架构并诞生于麻省理工学院，
@@ -758,7 +843,7 @@ zsh
 - 全球客户超过6,000家，分发互联网15-30%的流量
 - 全球5000名雇员&lt;/p&gt;
 
-&lt;h3 id=&#34;akamai平台在全球覆盖:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
+&lt;h3 id=&#34;akamai平台在全球覆盖&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
 
 &lt;p&gt;遍布全球的因特网层叠网络
 - 20万台服务器
@@ -776,7 +861,7 @@ zsh
 - 东欧
 - 南美&lt;/p&gt;
 
-&lt;h2 id=&#34;走出去-网络挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
+&lt;h2 id=&#34;走出去-网络挑战&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;如何快速走向市场&lt;/li&gt;
@@ -787,11 +872,11 @@ zsh
 &lt;li&gt;如何保证全球各个角落尤其是边远国家的访问高效性&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
+&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
 
 &lt;p&gt;全球各个地区不同国家的用户平均互联网连接速度（带宽）&lt;/p&gt;
 
-&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
+&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
 
 &lt;p&gt;某网站首页延时
 - USA 5s
@@ -799,16 +884,16 @@ zsh
 - Spain 15s
 - China 25s&lt;/p&gt;
 
-&lt;h3 id=&#34;跨国企业应用面临的互联网问题:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
+&lt;h3 id=&#34;跨国企业应用面临的互联网问题&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
 
-&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
+&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Akamai边缘服务器最接近源服务器&lt;/li&gt;
 &lt;li&gt;边缘服务器靠近终端用户&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;akamai解决方案家族:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
+&lt;h3 id=&#34;akamai解决方案家族&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;AQUA 网站解决方案
@@ -838,7 +923,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;企业关键应用业务海外加速需求分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
+&lt;h3 id=&#34;企业关键应用业务海外加速需求分析&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;业务需求：利用技术和资源优势逐渐走向世界
@@ -857,7 +942,7 @@ zsh
 &lt;li&gt;最终用户访问需求：实施，实地，高效访问&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
+&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;路由优化SureRoute
@@ -880,18 +965,18 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;akamai的品质保障:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;Akamai的品质保障&lt;/h3&gt;
+&lt;h3 id=&#34;akamai的品质保障&#34;&gt;Akamai的品质保障&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Akamai所有产品均可提供100%的系统可用性SLA&lt;/li&gt;
 &lt;li&gt;针对web应用加速产品，提供全球对比原网站访问时间缩短不低于20%以上&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;全球客户经典案例:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;全球客户经典案例&lt;/h2&gt;
+&lt;h2 id=&#34;全球客户经典案例&#34;&gt;全球客户经典案例&lt;/h2&gt;
 
 &lt;p&gt;全球前100个著名品牌，大家都信赖Akamai&lt;/p&gt;
 
-&lt;h3 id=&#34;企业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业&lt;/h3&gt;
+&lt;h3 id=&#34;企业&#34;&gt;企业&lt;/h3&gt;
 
 &lt;p&gt;全球排名前10位的银行中的7家
 - BMW
@@ -899,15 +984,15 @@ zsh
 - MERCK
 - HORIBA&lt;/p&gt;
 
-&lt;h3 id=&#34;商业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;商业&lt;/h3&gt;
+&lt;h3 id=&#34;商业&#34;&gt;商业&lt;/h3&gt;
 
 &lt;p&gt;排名前100位零售商中的90家&lt;/p&gt;
 
-&lt;h3 id=&#34;高科技:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;高科技&lt;/h3&gt;
+&lt;h3 id=&#34;高科技&#34;&gt;高科技&lt;/h3&gt;
 
 &lt;p&gt;排名前12为安全软件公司中的10家&lt;/p&gt;
 
-&lt;h3 id=&#34;媒体及娱乐:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;媒体及娱乐&lt;/h3&gt;
+&lt;h3 id=&#34;媒体及娱乐&#34;&gt;媒体及娱乐&lt;/h3&gt;
 
 &lt;p&gt;排名前30位的所有媒体公司
 - BBC
@@ -921,11 +1006,11 @@ zsh
 - Yahho
 - francetelevisions&lt;/p&gt;
 
-&lt;h2 id=&#34;中国客户经典案例:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;中国客户经典案例&lt;/h2&gt;
+&lt;h2 id=&#34;中国客户经典案例&#34;&gt;中国客户经典案例&lt;/h2&gt;
 
 &lt;p&gt;跨国国企用户、跨国民企用户等&lt;/p&gt;
 
-&lt;h3 id=&#34;中国交通建设集团案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
+&lt;h3 id=&#34;中国交通建设集团案例分享&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
 
 &lt;p&gt;目标
 - 保证海外员工的近30中核心应用的可用性，全球均可实时打开
@@ -941,7 +1026,7 @@ zsh
 
 &lt;p&gt;中交各单位关键业务使用CDN情况，各部门门户、ERP、业务系统等等&lt;/p&gt;
 
-&lt;h3 id=&#34;联想-lenovo-案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
+&lt;h3 id=&#34;联想-lenovo-案例分享&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
 
 &lt;p&gt;目标
 - 提高全球知名度和品牌价值
@@ -953,7 +1038,7 @@ zsh
 - 海量驱动下载全部部署在Akamai存储上，节省IDC硬件和带宽
 - 提升电商网站性能达200%，大大提升客户在线销售转化率&lt;/p&gt;
 
-&lt;h3 id=&#34;成功案例分享-cctv-cntv:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
+&lt;h3 id=&#34;成功案例分享-cctv-cntv&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
 
 &lt;p&gt;挑战
 - 全球可靠的视频流传送
@@ -963,7 +1048,7 @@ zsh
 - Akamai动态站点加速
 - Akamai媒体分发服务（VOD/Live/PMD）&lt;/p&gt;
 
-&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
+&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
 
 &lt;p&gt;挑战
 - 全球可靠的视频点播服务
@@ -973,7 +1058,7 @@ zsh
 - Akaimai媒体分发服务（PMD）
 - Akamai专业服务支持&lt;/p&gt;
 
-&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
+&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
 
 &lt;p&gt;目标
 - 全球门户高性能访问
@@ -987,7 +1072,7 @@ zsh
 - Keynote工具测试数据显示，IHG是酒店业界最快的站点
 - 应对峰值流量而不在需要增加IDC投入&lt;/p&gt;
 
-&lt;h3 id=&#34;为什么选择阿卡迈:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
+&lt;h3 id=&#34;为什么选择阿卡迈&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;专业服务及支持&lt;/li&gt;
@@ -996,14 +1081,14 @@ zsh
 &lt;li&gt;阿卡迈智能平台&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;企业混合云思维及战略:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
+&lt;h1 id=&#34;企业混合云思维及战略&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;袁以拓&lt;/li&gt;
 &lt;li&gt;IBM全球信息科技服务部大中华区&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;cio是怎样分配时间和资源:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
+&lt;h2 id=&#34;cio是怎样分配时间和资源&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;支持创新
@@ -1019,7 +1104,7 @@ zsh
 &lt;li&gt;运营企业IT环境&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;如何实现:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;如何实现？&lt;/h2&gt;
+&lt;h2 id=&#34;如何实现&#34;&gt;如何实现？&lt;/h2&gt;
 
 &lt;p&gt;新思维下的企业IT越来越成为以“企业IT即服务”的方式来运营和管理IT&lt;/p&gt;
 
@@ -1085,7 +1170,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;挑战&lt;/h3&gt;
+&lt;h3 id=&#34;挑战&#34;&gt;挑战&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;缺少管理混合云的工具&lt;/li&gt;
@@ -1127,7 +1212,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
+&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
 
 &lt;p&gt;目的
 - 根据工作负载特性，设计并构建一个单一平台
@@ -1141,7 +1226,7 @@ zsh
 - 确保敏捷性和灵活性，为业务增长提供支持
 - SLA承诺&lt;/p&gt;
 
-&lt;h2 id=&#34;案例分享-华东大型零售业:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
+&lt;h2 id=&#34;案例分享-华东大型零售业&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
 
 &lt;p&gt;统一管理服务
 - 平台架构
@@ -1157,7 +1242,7 @@ zsh
 - 系统集成
 - 策略管理&lt;/p&gt;
 
-&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
+&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;修改优化&lt;/li&gt;
@@ -1167,14 +1252,14 @@ zsh
 &lt;li&gt;等等&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;itoa-生产运维大数据分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
+&lt;h1 id=&#34;itoa-生产运维大数据分析&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;韩思会&lt;/li&gt;
 &lt;li&gt;交通银行数据中心 技术经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;银行业it运维面临的挑战:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
+&lt;h2 id=&#34;银行业it运维面临的挑战&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
 
 &lt;p&gt;传统运维工具云云跟不上应用快速发展的要求。
 - 海量数据
@@ -1191,13 +1276,13 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;it运维现状分析与实际需求:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
+&lt;h2 id=&#34;it运维现状分析与实际需求&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
 
-&lt;h3 id=&#34;现状分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;现状分析&lt;/h3&gt;
+&lt;h3 id=&#34;现状分析&#34;&gt;现状分析&lt;/h3&gt;
 
 &lt;p&gt;分支机构众多的大型企业（银行）或垂直层级较多的政府单位，为了更好的用户体验，运维工作十分艰巨&lt;/p&gt;
 
-&lt;h3 id=&#34;银行运维中心运维现状:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
+&lt;h3 id=&#34;银行运维中心运维现状&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;监控 采用设定标准阙值的方式&lt;/li&gt;
@@ -1206,14 +1291,14 @@ zsh
 &lt;li&gt;业务 应用层交易日志未有效分析利用。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;it运维大数据:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;IT运维大数据&lt;/h3&gt;
+&lt;h3 id=&#34;it运维大数据&#34;&gt;IT运维大数据&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;IT运维大数据，国外叫做IT Operations Analytics，简称ITOA&lt;/li&gt;
 &lt;li&gt;Forrester定义，从管理和监控技术所采集的海量原始数据，通过数学算法及其他技术。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;技术交流与同业调研:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;技术交流与同业调研&lt;/h3&gt;
+&lt;h3 id=&#34;技术交流与同业调研&#34;&gt;技术交流与同业调研&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;分布式日志手机分析平台，中国工商银行&lt;/li&gt;
@@ -1222,7 +1307,7 @@ zsh
 &lt;li&gt;阿拉丁平台，中国民生银行&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;银行运维大数据应用方向:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
+&lt;h3 id=&#34;银行运维大数据应用方向&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;监控历史数据趋势分析
@@ -1247,7 +1332,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;需求梳理与可行性分析:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
+&lt;h3 id=&#34;需求梳理与可行性分析&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;明确运维大数据分析范围、功能及实施阶段&lt;/li&gt;
@@ -1255,7 +1340,7 @@ zsh
 &lt;li&gt;讨论大数据运维服务场景可行性和有效性&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;整体规划:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;整体规划&lt;/h3&gt;
+&lt;h3 id=&#34;整体规划&#34;&gt;整体规划&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;建立平台
@@ -1281,7 +1366,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;预期研究成果:e3b89cb30e0ef44ebd76f40c7af737c0&#34;&gt;预期研究成果&lt;/h3&gt;
+&lt;h3 id=&#34;预期研究成果&#34;&gt;预期研究成果&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;预测故障&lt;/li&gt;
@@ -1301,7 +1386,7 @@ zsh
       <guid>https://ryanemax.github.io/meeting/2016-6-17apcio/</guid>
       <description>
 
-&lt;h1 id=&#34;会议简介:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;会议简介&lt;/h1&gt;
+&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;会议主题
@@ -1334,7 +1419,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;大型装备数字设计与智能制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
+&lt;h1 id=&#34;大型装备数字设计与智能制造&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;谭建荣&lt;/li&gt;
@@ -1347,7 +1432,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;四大技术-会聚引领21世纪:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
+&lt;h2 id=&#34;四大技术-会聚引领21世纪&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生命科学技术&lt;/li&gt;
@@ -1360,7 +1445,7 @@ zsh
 
 &lt;p&gt;信息科技与大数据的发展超出人们的预期。&lt;/p&gt;
 
-&lt;h2 id=&#34;大型装备的重要性:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;大型装备的重要性&lt;/h2&gt;
+&lt;h2 id=&#34;大型装备的重要性&#34;&gt;大型装备的重要性&lt;/h2&gt;
 
 &lt;p&gt;大型复杂装备的设计与制造水平是衡量国家科技实力和综合国力的一个重要标志。&lt;/p&gt;
 
@@ -1370,7 +1455,7 @@ zsh
 &lt;li&gt;大型盾构挖掘装备&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;振兴制造业的三大战略计划:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
+&lt;h2 id=&#34;振兴制造业的三大战略计划&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;美国“先进制造业国家战略计划”&lt;/li&gt;
@@ -1386,7 +1471,7 @@ zsh
 
 &lt;p&gt;最终都导向智能制造&lt;/p&gt;
 
-&lt;h2 id=&#34;机电液系统的发展趋势与前沿:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
+&lt;h2 id=&#34;机电液系统的发展趋势与前沿&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
 
 &lt;p&gt;在新的工业革命到来之际，我们需要认真思考：机电液系统基础研究如何应对新的技术变革，需要解决那些基础科学问题？&lt;/p&gt;
 
@@ -1403,7 +1488,7 @@ zsh
 - 拟人化
 - 绿色化&lt;/p&gt;
 
-&lt;h2 id=&#34;智能-人工智能-制造的发展趋势:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
+&lt;h2 id=&#34;智能-人工智能-制造的发展趋势&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;大数据场&lt;/li&gt;
@@ -1411,16 +1496,16 @@ zsh
 &lt;li&gt;移动网络&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;什么是智能制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是智能制造？&lt;/h2&gt;
+&lt;h2 id=&#34;什么是智能制造&#34;&gt;什么是智能制造？&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是数字制造:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是数字制造？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是数字制造&#34;&gt;什么是数字制造？&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;数字制造：数字技术与制造技术的融合&lt;/li&gt;
 &lt;li&gt;数字制造：用数字技术解决制造的问题&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;什么是智能制造-1:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是智能制造？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是智能制造-1&#34;&gt;什么是智能制造？&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;智能制造：智能技术与制造技术的融合&lt;/li&gt;
@@ -1445,9 +1530,9 @@ zsh
     - 落子选择器 Move Picker
     - 棋局评估器 Position Evaluator&lt;/p&gt;
 
-&lt;h3 id=&#34;人工智能的3个阶段:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
+&lt;h3 id=&#34;人工智能的3个阶段&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
 
-&lt;h3 id=&#34;智能制造的三大核心:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能制造的三大核心&lt;/h3&gt;
+&lt;h3 id=&#34;智能制造的三大核心&#34;&gt;智能制造的三大核心&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;知识库/知识工程&lt;/li&gt;
@@ -1455,9 +1540,9 @@ zsh
 &lt;li&gt;自主学习/自主决策&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;智能制造十大关键技术:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
+&lt;h3 id=&#34;智能制造十大关键技术&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
 
-&lt;h1 id=&#34;国企信息化转型与创新:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
+&lt;h1 id=&#34;国企信息化转型与创新&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;李小山&lt;/li&gt;
@@ -1465,9 +1550,9 @@ zsh
 &lt;li&gt;联系方式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;关于国有企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;关于国有企业&lt;/h2&gt;
+&lt;h2 id=&#34;关于国有企业&#34;&gt;关于国有企业&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是国有企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;什么是国有企业&lt;/h3&gt;
+&lt;h3 id=&#34;什么是国有企业&#34;&gt;什么是国有企业&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;属于全民所有&lt;/li&gt;
@@ -1475,14 +1560,14 @@ zsh
 &lt;li&gt;是我们党和国家事业发展的重要物资基础和政治基础&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;上海国有企业概况:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;上海国有企业概况&lt;/h3&gt;
+&lt;h3 id=&#34;上海国有企业概况&#34;&gt;上海国有企业概况&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;DGP半壁江山&lt;/li&gt;
 &lt;li&gt;大多处于关乎国计民生的重要行业&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;市属国资:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;市属国资&lt;/h3&gt;
+&lt;h3 id=&#34;市属国资&#34;&gt;市属国资&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Y2016Q1，yividuxq&lt;/li&gt;
@@ -1491,22 +1576,22 @@ zsh
 &lt;li&gt;统一监管，产融结合&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;政策:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;政策&lt;/h2&gt;
+&lt;h2 id=&#34;政策&#34;&gt;政策&lt;/h2&gt;
 
-&lt;h3 id=&#34;国家层面国有企业改革顶层设计:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
+&lt;h3 id=&#34;国家层面国有企业改革顶层设计&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;1+N&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;上海市国资国企改革:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;上海市国资国企改革&lt;/h3&gt;
+&lt;h3 id=&#34;上海市国资国企改革&#34;&gt;上海市国资国企改革&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2013年底&lt;/li&gt;
 &lt;li&gt;1+N&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;组织:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;组织&lt;/h2&gt;
+&lt;h2 id=&#34;组织&#34;&gt;组织&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;信息中心（情报中心）&lt;/li&gt;
@@ -1525,7 +1610,7 @@ zsh
 &lt;li&gt;&lt;p&gt;创新中心&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;实践:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;实践&lt;/h2&gt;
+&lt;h2 id=&#34;实践&#34;&gt;实践&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;“智慧”路灯&lt;/li&gt;
@@ -1536,7 +1621,7 @@ zsh
 &lt;li&gt;“智慧”长途&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;未来-以及未来就绪的戴尔:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
+&lt;h1 id=&#34;未来-以及未来就绪的戴尔&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;吕良&lt;/li&gt;
@@ -1544,16 +1629,16 @@ zsh
 &lt;li&gt;企业级解决方案高级经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
+&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;圣彼得广场 2005&lt;/li&gt;
 &lt;li&gt;圣彼得广场 2013&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
+&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
 
-&lt;h2 id=&#34;世界改变的步伐正在加快:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
+&lt;h2 id=&#34;世界改变的步伐正在加快&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;更多需求
@@ -1566,7 +1651,7 @@ zsh
 1，000，000&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;颠覆性技术:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;颠覆性技术&lt;/h2&gt;
+&lt;h2 id=&#34;颠覆性技术&#34;&gt;颠覆性技术&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;移动互联&lt;/li&gt;
@@ -1576,7 +1661,7 @@ zsh
 &amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;今天现状:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;今天现状&lt;/h2&gt;
+&lt;h2 id=&#34;今天现状&#34;&gt;今天现状&lt;/h2&gt;
 
 &lt;p&gt;在未来10年中，现有的财务500强公司将会消失&lt;/p&gt;
 
@@ -1584,7 +1669,7 @@ zsh
 - 1920诞生 需要67年发展
 - 2016诞生 需要15年发展&lt;/p&gt;
 
-&lt;h2 id=&#34;今天的机会:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;今天的机会&lt;/h2&gt;
+&lt;h2 id=&#34;今天的机会&#34;&gt;今天的机会&lt;/h2&gt;
 
 &lt;p&gt;拥抱数字变革&lt;/p&gt;
 
@@ -1595,18 +1680,18 @@ zsh
 &lt;li&gt;83%员工活动量&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;新的商业模式带来的巨大颠覆:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
+&lt;h2 id=&#34;新的商业模式带来的巨大颠覆&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
 
-&lt;h2 id=&#34;危机-危险和机会:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;危机-危险和机会&lt;/h2&gt;
+&lt;h2 id=&#34;危机-危险和机会&#34;&gt;危机-危险和机会&lt;/h2&gt;
 
-&lt;h2 id=&#34;您处于传统it和新兴it的十字路口:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
+&lt;h2 id=&#34;您处于传统it和新兴it的十字路口&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
 
 &lt;p&gt;未来
 - 公有云
 - 混合云
 - 私有云&lt;/p&gt;
 
-&lt;h2 id=&#34;使强大的技术更易获得:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
+&lt;h2 id=&#34;使强大的技术更易获得&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;性能 上升&lt;/li&gt;
@@ -1620,7 +1705,7 @@ zsh
 
 &lt;p&gt;推动效率提升&lt;/p&gt;
 
-&lt;h2 id=&#34;戴尔任意云:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;戴尔任意云&lt;/h2&gt;
+&lt;h2 id=&#34;戴尔任意云&#34;&gt;戴尔任意云&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;云计算基础设施&lt;/li&gt;
@@ -1628,14 +1713,14 @@ zsh
 &lt;li&gt;未来就绪企业云联盟&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;技术即业务-数字化企业变革:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
+&lt;h1 id=&#34;技术即业务-数字化企业变革&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;张松&lt;/li&gt;
 &lt;li&gt;ThoughtWorks中国区总经理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;变革历程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;变革历程&lt;/h2&gt;
+&lt;h2 id=&#34;变革历程&#34;&gt;变革历程&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;业务自动化 1980
@@ -1666,7 +1751,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;为什么是现在发生:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;为什么是现在发生&lt;/h2&gt;
+&lt;h2 id=&#34;为什么是现在发生&#34;&gt;为什么是现在发生&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;技术进步&lt;/li&gt;
@@ -1695,7 +1780,7 @@ zsh
 &lt;li&gt;&lt;p&gt;法规政策的变化&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;如今ceo的优先任务:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
+&lt;h2 id=&#34;如今ceo的优先任务&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;创新驱动增长&lt;/li&gt;
@@ -1704,7 +1789,7 @@ zsh
 &lt;li&gt;未来技术投资&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
+&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;H1 精益企业架构生态型文化&lt;/li&gt;
@@ -1733,14 +1818,14 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;引领变革的企业:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;引领变革的企业&lt;/h2&gt;
+&lt;h2 id=&#34;引领变革的企业&#34;&gt;引领变革的企业&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;认识技术的战略角色&lt;/li&gt;
 &lt;li&gt;将技术提上重要议程&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;企业级创新-三通道模式:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
+&lt;h2 id=&#34;企业级创新-三通道模式&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;模式创新&lt;/li&gt;
@@ -1748,7 +1833,7 @@ zsh
 &lt;li&gt;流程创新&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
+&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
 
 &lt;p&gt;“极度安全，极度隐秘”&lt;/p&gt;
 
@@ -1759,7 +1844,7 @@ zsh
 &lt;li&gt;互联网手段获客和提升用户体验&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
+&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;场景分析&lt;/li&gt;
@@ -1767,21 +1852,21 @@ zsh
 &lt;li&gt;触点优化&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
+&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
 
 &lt;p&gt;挑战
 - 商家上篇的库存要点
 - 及时、主动补货
 - 快捷，随时的订货流程&lt;/p&gt;
 
-&lt;h1 id=&#34;数据驱动创新:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;数据驱动创新&lt;/h1&gt;
+&lt;h1 id=&#34;数据驱动创新&#34;&gt;数据驱动创新&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;任京旸&lt;/li&gt;
 &lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;不同视角下的数字世界:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
+&lt;h2 id=&#34;不同视角下的数字世界&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;连接泛在化
@@ -1818,7 +1903,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光的发展历程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光的发展历程&lt;/h2&gt;
+&lt;h2 id=&#34;曙光的发展历程&#34;&gt;曙光的发展历程&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;1993 高性能计算 曙光一号诞生&lt;/li&gt;
@@ -1828,7 +1913,7 @@ zsh
 &lt;li&gt;2013 大数据 曙光大数据一体机发布&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光hpc与中国工业共成长:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
+&lt;h2 id=&#34;曙光hpc与中国工业共成长&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
 
 &lt;p&gt;作为中国第一、亚洲最大、全球第三的高性能计算厂商，曙光高性能计算系统在中国工业领域有着广泛和深入的应用，在CAE模拟仿真方面拥有国内最多的成功案例！&lt;/p&gt;
 
@@ -1836,7 +1921,7 @@ zsh
 
 &lt;p&gt;汽车、轮船、航空航天、电力&lt;/p&gt;
 
-&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
+&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;sugon短片分享&lt;/em&gt;&lt;/p&gt;
 
@@ -1852,7 +1937,7 @@ zsh
 &lt;li&gt;300+合作伙伴&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光数据中国加速计划:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
+&lt;h2 id=&#34;曙光数据中国加速计划&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
 
 &lt;p&gt;期望寻求更多的合作&lt;/p&gt;
 
@@ -1871,7 +1956,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
+&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;数字仿真&lt;/li&gt;
@@ -1881,7 +1966,7 @@ zsh
 &lt;li&gt;应用拓展&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;打通中科院创新链与创业链:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
+&lt;h2 id=&#34;打通中科院创新链与创业链&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;中科院先进计算技术创新与产业化联盟（曙光牵头）
@@ -1892,9 +1977,9 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;嘉宾对话环节:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;嘉宾对话环节&lt;/h1&gt;
+&lt;h1 id=&#34;嘉宾对话环节&#34;&gt;嘉宾对话环节&lt;/h1&gt;
 
-&lt;h2 id=&#34;嘉宾介绍:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;嘉宾介绍&lt;/h2&gt;
+&lt;h2 id=&#34;嘉宾介绍&#34;&gt;嘉宾介绍&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;主持人 李静
@@ -1940,7 +2025,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;讨论问题-不完整:6f34b4b94e535a11b07cc343a0fb45a9&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
+&lt;h2 id=&#34;讨论问题-不完整&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;信息时代对CIO的要求越来越高，期望寻求关于新技术，例如区块链如何融入企业或产品的解决方案&lt;/p&gt;&lt;/li&gt;
@@ -1976,9 +2061,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
-&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+&lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+&lt;h2 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h2&gt;
 
 &lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
 
@@ -1991,9 +2076,9 @@ zsh
 &lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
 &lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+&lt;h1 id=&#34;服务演示&#34;&gt;服务演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+&lt;h2 id=&#34;mopaas&#34;&gt;MoPaaS&lt;/h2&gt;
 
 &lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
 
@@ -2024,9 +2109,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</guid>
       <description>
 
-&lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
 
-&lt;h2 id=&#34;intellij-idea-ce-2016-1-1:90187ca4a720b853310dffa460a52b57&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 差
@@ -2044,7 +2129,7 @@ zsh
 &lt;li&gt;辅助工具 差&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;webstorm-2016-2-1:90187ca4a720b853310dffa460a52b57&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 较好
@@ -2065,7 +2150,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件:90187ca4a720b853310dffa460a52b57&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
 
 &lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
 
@@ -2081,9 +2166,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/api/apitrends/</guid>
       <description>
 
-&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
-&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+&lt;h2 id=&#34;api-生态图解&#34;&gt;API 生态图解&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -2120,7 +2205,7 @@ zsh
 &lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+&lt;h2 id=&#34;api-spec-规则制定&#34;&gt;API Spec 规则制定&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
 
@@ -2129,7 +2214,7 @@ zsh
 &lt;li&gt;swagger&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+&lt;h2 id=&#34;api构建工具链&#34;&gt;API构建工具链&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
 
@@ -2139,7 +2224,7 @@ zsh
 &lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+&lt;h2 id=&#34;api-mbaas服务&#34;&gt;API-MBaaS服务&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
 
@@ -2159,7 +2244,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/pkm/card/</guid>
       <description>
 
-&lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
+&lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
 
@@ -2167,9 +2252,9 @@ zsh
 
 &lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;实际体验:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;实际体验&lt;/h1&gt;
+&lt;h1 id=&#34;实际体验&#34;&gt;实际体验&lt;/h1&gt;
 
-&lt;h2 id=&#34;zappoint-淘汰:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
+&lt;h2 id=&#34;zappoint-淘汰&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;邮箱登陆&lt;/li&gt;
@@ -2189,7 +2274,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;camcard-名片万能王-选用:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
+&lt;h2 id=&#34;camcard-名片万能王-选用&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;邮箱/手机登陆
@@ -2215,98 +2300,6 @@ zsh
 &lt;li&gt;国产更适合汉语使用习惯&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>dreamfactory常见问题汇总</title>
-      <link>https://ryanemax.github.io/faq/dreamfactory/</link>
-      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
-      
-      <guid>https://ryanemax.github.io/faq/dreamfactory/</guid>
-      <description>
-
-&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
-
-&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
-Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
-Loading composer repositories with package information
-Installing dependencies from lock file
-Your requirements could not be resolved to an installable set of packages.
-
-  Problem 1
-    - Installation request for mongodb/mongodb 1.0.2 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
-    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
-  Problem 2
-    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
-    - jenssegers/mongodb v3.0.2 requires mongodb/mongodb ^1.0.0 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
-    - Installation request for jenssegers/mongodb v3.0.2 -&amp;gt; satisfiable by jenssegers/mongodb[v3.0.2].
-
-  To enable extensions, verify that they are enabled in those .ini files:
-    - /etc/php5/cli/php.ini
-    - /etc/php5/cli/conf.d/05-opcache.ini
-    - /etc/php5/cli/conf.d/10-pdo.ini
-    - /etc/php5/cli/conf.d/20-apcu.ini
-    - /etc/php5/cli/conf.d/20-curl.ini
-    - /etc/php5/cli/conf.d/20-gd.ini
-    - /etc/php5/cli/conf.d/20-json.ini
-    - /etc/php5/cli/conf.d/20-mongo.ini
-    - /etc/php5/cli/conf.d/20-mysql.ini
-    - /etc/php5/cli/conf.d/20-mysqli.ini
-    - /etc/php5/cli/conf.d/20-pdo_mysql.ini
-    - /etc/php5/cli/conf.d/20-readline.ini
-  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;正常显示mongo插件&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;php &amp;ndash;ini&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
-
-&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
-
-apt-get install libssl-dev
-
-apt-get install pkg-config
-
-pecl install mongodb
-
-vim /etc/php5/cli/php.ini
-
-# add this line
-# extension = mongodb.so
-
-composer install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;composer install
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>H5页面如何接入google ads实现广告收入？</title>
-      <link>https://ryanemax.github.io/cookbook/cms/google-ads/</link>
-      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
-      
-      <guid>https://ryanemax.github.io/cookbook/cms/google-ads/</guid>
-      <description></description>
     </item>
     
   </channel>

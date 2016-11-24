@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -108,12 +108,12 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="session设置:95c37eb99b3fd3fd3beacd1d2d0d79a9">Session设置</h1>
+<h1 id="session设置">Session设置</h1>
 
 <p>1.PuttyGen设置密钥，将openssh转为.ppk文件
 2.Load后先编辑Appearance更改界面，再进入SSH-Auth加载ppk密钥，最后点击Save保存</p>
 
-<h1 id="备份-putty-的设置:95c37eb99b3fd3fd3beacd1d2d0d79a9">备份 PuTTY 的设置</h1>
+<h1 id="备份-putty-的设置">备份 PuTTY 的设置</h1>
 
 <p>用 PuTTY 最不爽的就是，它把所有的设置都保存到注册表了，本来这不是什么问题。但是难免会重装一下机器，用下面的命令可以备份 PuTTY 的所有设置</p>
 
@@ -123,14 +123,14 @@ regedit /e C:\putty.reg &quot;HKEY_CURRENT_USER\Software\SimonTatham\PuTTY&quot;
 regedit /s C:\putty.reg
 </code></pre>
 
-<h1 id="删除-putty-的设置:95c37eb99b3fd3fd3beacd1d2d0d79a9">删除 PuTTY 的设置</h1>
+<h1 id="删除-putty-的设置">删除 PuTTY 的设置</h1>
 
 <p>如果只是在其他机器上临时用了一个 PuTTY，用完以后想删除 PuTTY 的配置，就在控制台里输入如下的命令：</p>
 
 <pre><code>putty.exe -cleanup
 </code></pre>
 
-<h1 id="用-puttygen-来生成密钥-以后可以不用密码登录服务器了:95c37eb99b3fd3fd3beacd1d2d0d79a9">用 PuTTYgen 来生成密钥，以后可以不用密码登录服务器了</h1>
+<h1 id="用-puttygen-来生成密钥-以后可以不用密码登录服务器了">用 PuTTYgen 来生成密钥，以后可以不用密码登录服务器了</h1>
 
 <p>PuTTYgen 是密钥生成器，用来生成一对公钥和私钥供 PuTTY、PSCP、Plink、Pagent 来使用。
 直接运行 PuTTYgen 可以看到如下的界面。</p>

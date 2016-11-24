@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Html5 on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/html5/</link>
-    <description>Recent content in Html5 on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/html5/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 01 May 2016 00:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/html5/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,25 +17,25 @@
       <guid>https://ryanemax.github.io/game/dev/h5game/</guid>
       <description>
 
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;phaser-js:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;Phaser.js&lt;/h1&gt;
+&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;egret-html5-es6最佳选择:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
+&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
 
-&lt;h2 id=&#34;代表游戏:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;代表游戏&lt;/h2&gt;
+&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;神经猫&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;优点:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生态链比较完善&lt;/li&gt;
@@ -57,7 +56,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;刷新率卡顿问题严重影响游戏体验&lt;/li&gt;
@@ -65,9 +64,9 @@
 &lt;li&gt;全面依赖于html5，但是已经与多款浏览器集成了runtime，可以opengl渲染代替canvas渲染&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cocos2d-js-与cocos2d-x差距太大了-不建议使用:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;cocos2d-js（与cocos2d-x差距太大了，不建议使用）&lt;/h1&gt;
+&lt;h1 id=&#34;cocos2d-js-与cocos2d-x差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos2d-x差距太大了，不建议使用）&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点-1:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Babel ES6&lt;/li&gt;
@@ -80,7 +79,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点-1:e807aaef47e7b181617ed1c0bc1a417a&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
@@ -115,11 +114,11 @@
       <guid>https://ryanemax.github.io/game/dev/mobilegame/</guid>
       <description>
 
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研:c38e925fd5983ae81899ead8c842173e&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
 
-&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用:c38e925fd5983ae81899ead8c842173e&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
+&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
 
-&lt;h2 id=&#34;优点:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Babel ES6&lt;/li&gt;
@@ -132,7 +131,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
@@ -157,23 +156,23 @@
 &lt;li&gt;IDE，cocos studio十分难用，拖了引擎后腿&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;phaser-js:c38e925fd5983ae81899ead8c842173e&#34;&gt;Phaser.js&lt;/h1&gt;
+&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;egret-html5-es6最佳选择:c38e925fd5983ae81899ead8c842173e&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
+&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
 
-&lt;h2 id=&#34;代表游戏:c38e925fd5983ae81899ead8c842173e&#34;&gt;代表游戏&lt;/h2&gt;
+&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;神经猫&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;优点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;优点&lt;/h2&gt;
+&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生态链比较完善&lt;/li&gt;
@@ -194,7 +193,7 @@
 
 &lt;li&gt;&lt;p&gt;Mac&lt;/p&gt;
 
-&lt;h2 id=&#34;缺点-1:c38e925fd5983ae81899ead8c842173e&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;刷新率卡顿问题严重影响游戏体验&lt;/p&gt;&lt;/li&gt;

@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -113,9 +113,9 @@ window.onload=function(){
 <p>#发行版本
 Arch Linux</p>
 
-<h1 id="0-系统安装:f206309cfada2fa2891560ce0981d178">0.系统安装</h1>
+<h1 id="0-系统安装">0.系统安装</h1>
 
-<h2 id="0-dd:f206309cfada2fa2891560ce0981d178">0.dd</h2>
+<h2 id="0-dd">0.dd</h2>
 
 <pre><code class="language-bash">dd if=/dev/zero of=/dev/sda bs=512 count=1
 parted -s /dev/sda mklabel msdos
@@ -129,7 +129,7 @@ dd if=arch.iso of=/dev/sda
 #无法引导需要尝试切换USB2.0/USB3.0接口
 </code></pre>
 
-<h2 id="1-fdisk:f206309cfada2fa2891560ce0981d178">1.fdisk</h2>
+<h2 id="1-fdisk">1.fdisk</h2>
 
 <pre><code class="language-bash">#option fdisk
 #SATA3.0中/dev/sda的跳线一定要接在0第一个位置
@@ -160,18 +160,18 @@ gdisk /dev/sda
 #option cgdisk for UEFI/GPT
 </code></pre>
 
-<h2 id="2-mkfs-ext4:f206309cfada2fa2891560ce0981d178">2.mkfs.ext4</h2>
+<h2 id="2-mkfs-ext4">2.mkfs.ext4</h2>
 
 <pre><code class="language-bash">mkfs.ext4 /dev/sda1
 mkfs.ext4 /dev/sda2
 </code></pre>
 
-<h2 id="3-mount:f206309cfada2fa2891560ce0981d178">3.mount</h2>
+<h2 id="3-mount">3.mount</h2>
 
 <pre><code class="language-bash">mount /dev/sda1 /mnt
 </code></pre>
 
-<h2 id="4-install:f206309cfada2fa2891560ce0981d178">4.install</h2>
+<h2 id="4-install">4.install</h2>
 
 <pre><code class="language-bash">vim /etc/pacman.d/mirrorlist
 pacstrap -i /mnt base net-tools
@@ -181,7 +181,7 @@ arch-chroot /mnt /bin/bash
 
 </code></pre>
 
-<h2 id="5-launcher:f206309cfada2fa2891560ce0981d178">5.Launcher</h2>
+<h2 id="5-launcher">5.Launcher</h2>
 
 <p>refer to <a href="http://blog.lucode.net/linux/archlinux-install-tutorial.html">http://blog.lucode.net/linux/archlinux-install-tutorial.html</a>
 ###syslinux</p>
@@ -190,7 +190,7 @@ arch-chroot /mnt /bin/bash
 vim /boot/syslinux/syslinux.cfg
 </code></pre>
 
-<h1 id="pacman-source-configure:f206309cfada2fa2891560ce0981d178">Pacman Source Configure</h1>
+<h1 id="pacman-source-configure">Pacman Source Configure</h1>
 
 <pre><code class="language-bash">vim /etc/pacman.conf
 #添加archlinuxcn源
@@ -204,7 +204,7 @@ Server   = http://repo.archlinuxcn.org/$arch
 Include = /etc/pacman.d/mirrorlist
 </code></pre>
 
-<h1 id="window-manager:f206309cfada2fa2891560ce0981d178">window manager</h1>
+<h1 id="window-manager">window manager</h1>
 
 <p>pacman -S xorg
 pacman -S xorg-xinit
@@ -220,7 +220,7 @@ cd /usr/share/awesome/themes/default
 cp -f ~/Desktop/hy1.png ./background.png
 </code></pre>
 
-<h1 id="多屏幕:f206309cfada2fa2891560ce0981d178">多屏幕</h1>
+<h1 id="多屏幕">多屏幕</h1>
 
 <pre><code class="language-bash">#查看已接入显示器设备
 xrandr
@@ -231,7 +231,7 @@ xrandr --output eDP --mode 1366x768 --output VGA-0 --mode 1920x1080 --left-of eD
 
 <p>Mod4 + o //send to another screen</p>
 
-<h1 id="wifi:f206309cfada2fa2891560ce0981d178">Wifi</h1>
+<h1 id="wifi">Wifi</h1>
 
 <p>wifi-menu</p>
 
@@ -245,7 +245,7 @@ wpa_supplicant -D nl80211,wext -i wlp3s0 -c &lt;(wpa_passphrase &quot;KaiYuanTec
 dhcpcd wlp3s0
 </code></pre>
 
-<h1 id="terminal:f206309cfada2fa2891560ce0981d178">Terminal</h1>
+<h1 id="terminal">Terminal</h1>
 
 <pre><code class="language-bash">pacman -S terminator
 
@@ -253,15 +253,15 @@ dhcpcd wlp3s0
 ~/.config/terminator/config
 </code></pre>
 
-<h1 id="sh命令行:f206309cfada2fa2891560ce0981d178">sh命令行</h1>
+<h1 id="sh命令行">sh命令行</h1>
 
 <p>pacman -S zsh</p>
 
-<h1 id="font-beautify:f206309cfada2fa2891560ce0981d178">Font &amp; Beautify</h1>
+<h1 id="font-beautify">Font &amp; Beautify</h1>
 
 <p>pacman -S wqy-microhei  wqy-zenhei</p>
 
-<h1 id="input-method:f206309cfada2fa2891560ce0981d178">Input Method</h1>
+<h1 id="input-method">Input Method</h1>
 
 <p>pacman -S fcitx fcitx-qt5 fcitx-configtools</p>
 
@@ -272,22 +272,22 @@ export XMODIFIERS=&quot;@im=fcitx&quot;
 fcitx -d &amp;
 </code></pre>
 
-<h1 id="图书馆-笔记系统:f206309cfada2fa2891560ce0981d178">图书馆&amp;笔记系统</h1>
+<h1 id="图书馆-笔记系统">图书馆&amp;笔记系统</h1>
 
 <pre><code class="language-bash">pacman -S calibre
 pacman -S wiznote
 firefox http://www.leanote.com
 </code></pre>
 
-<h1 id="financial-accounting:f206309cfada2fa2891560ce0981d178">Financial &amp; Accounting</h1>
+<h1 id="financial-accounting">Financial &amp; Accounting</h1>
 
 <p>pacman -S gnucash</p>
 
-<h1 id="develop-tools:f206309cfada2fa2891560ce0981d178">Develop Tools</h1>
+<h1 id="develop-tools">Develop Tools</h1>
 
 <p>pacman -S android-studio</p>
 
-<h1 id="security-tools:f206309cfada2fa2891560ce0981d178">Security Tools</h1>
+<h1 id="security-tools">Security Tools</h1>
 
 <pre><code class="language-bash">#渗透测试
 pacman -S metasploit
@@ -300,13 +300,13 @@ nessus优于openvas，openvas仅为开源免费替代方案
 https://wiki.archlinux.org/index.php/Nessus
 </code></pre>
 
-<h1 id="multi-media:f206309cfada2fa2891560ce0981d178">Multi Media</h1>
+<h1 id="multi-media">Multi Media</h1>
 
-<h2 id="flash-plugin:f206309cfada2fa2891560ce0981d178">Flash Plugin</h2>
+<h2 id="flash-plugin">Flash Plugin</h2>
 
 <p>pacman -S flashplugin</p>
 
-<h2 id="audio-driver:f206309cfada2fa2891560ce0981d178">Audio Driver</h2>
+<h2 id="audio-driver">Audio Driver</h2>
 
 <p>pacman -S alsa-utils</p>
 
@@ -325,12 +325,12 @@ alsactl init 1
 #reboot
 </code></pre>
 
-<h1 id="数学建模:f206309cfada2fa2891560ce0981d178">数学建模</h1>
+<h1 id="数学建模">数学建模</h1>
 
 <p>pacman -S sagemath
 <a href="http://www.sagemath.org">http://www.sagemath.org</a></p>
 
-<h1 id="disk-mnt-tool:f206309cfada2fa2891560ce0981d178">Disk Mnt Tool</h1>
+<h1 id="disk-mnt-tool">Disk Mnt Tool</h1>
 
 <pre><code class="language-bash">pacman -S ntfs-3g
 mount /dev/&lt;your-NTFS-partition&gt; /media/&lt;folder&gt;

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cookbook/Backend on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/cookbook/backend/</link>
-    <description>Recent content in Cookbook/Backend on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/cookbook/backend/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/cookbook/backend/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
-&lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
+&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
 
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenStack
@@ -58,7 +57,7 @@
 
 &lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
 
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
@@ -76,7 +75,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;paas现状:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS现状&lt;/h2&gt;
+&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CloudFoundry
@@ -107,7 +106,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;paas选型及适用范围:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;轻量级：Flynn、Deis二选一
@@ -126,11 +125,11 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;docker部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Docker部署&lt;/h1&gt;
+&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
 
-&lt;h1 id=&#34;openstack部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;OpenStack部署&lt;/h1&gt;
+&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
 
-&lt;h2 id=&#34;公司环境参数:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;公司环境参数&lt;/h2&gt;
+&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
@@ -138,7 +137,7 @@
 &lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
 </description>
     </item>
     
@@ -150,7 +149,7 @@
       <guid>https://ryanemax.github.io/cookbook/backend/golangReadFile/</guid>
       <description>
 
-&lt;h1 id=&#34;golang几种读文件方式的比较:be210f7bcd089da2400daa8dd95e01d1&#34;&gt;GoLang几种读文件方式的比较&lt;/h1&gt;
+&lt;h1 id=&#34;golang几种读文件方式的比较&#34;&gt;GoLang几种读文件方式的比较&lt;/h1&gt;
 
 &lt;p&gt;GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和ioutil 库。&lt;/p&gt;
 
@@ -274,21 +273,21 @@
       <guid>https://ryanemax.github.io/cookbook/backend/golangsqlorm/</guid>
       <description>
 
-&lt;h1 id=&#34;0-models写法技巧及migration标准:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
+&lt;h1 id=&#34;0-models写法技巧及migration标准&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
 
-&lt;h2 id=&#34;法则:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;法则&lt;/h2&gt;
+&lt;h2 id=&#34;法则&#34;&gt;法则&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;基本满足大驼峰命名法则&lt;/strong&gt;
 首字母大写
 &amp;ldquo;_&amp;rdquo; 忽略后大写&lt;/p&gt;
 
-&lt;h2 id=&#34;实例:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;实例&lt;/h2&gt;
+&lt;h2 id=&#34;实例&#34;&gt;实例&lt;/h2&gt;
 
 &lt;p&gt;device_id 对应 DeviceID
 create_time 对应 CreateTime
 location 对应 Location&lt;/p&gt;
 
-&lt;h2 id=&#34;官方实例:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;官方实例&lt;/h2&gt;
+&lt;h2 id=&#34;官方实例&#34;&gt;官方实例&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;type User struct {
     ID           int
@@ -330,9 +329,9 @@ type Language struct {
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;1-gorm实践:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;1.GORM实践&lt;/h1&gt;
+&lt;h1 id=&#34;1-gorm实践&#34;&gt;1.GORM实践&lt;/h1&gt;
 
-&lt;h2 id=&#34;数据库:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;数据库&lt;/h2&gt;
+&lt;h2 id=&#34;数据库&#34;&gt;数据库&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;MariaDB [zwjj]&amp;gt; desc zw_device;
 +-------------+---------------------+------+-----+---------+----------------+
@@ -354,7 +353,7 @@ type Language struct {
 +-------------+---------------------
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;import:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;import&lt;/h2&gt;
+&lt;h2 id=&#34;import&#34;&gt;import&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;import(
         &amp;quot;fmt&amp;quot;
@@ -365,7 +364,7 @@ type Language struct {
 )
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;define-structs-models-in-gorm:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;define Structs(Models) in gorm&lt;/h2&gt;
+&lt;h2 id=&#34;define-structs-models-in-gorm&#34;&gt;define Structs(Models) in gorm&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;type Device struct {
         DeviceID    int
@@ -386,7 +385,7 @@ func (d Device) TableName() string {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;get-handle-row-in-gorm:2ab5870f91c2ce37f07c26e87656e181&#34;&gt;get/handle row in gorm&lt;/h2&gt;
+&lt;h2 id=&#34;get-handle-row-in-gorm&#34;&gt;get/handle row in gorm&lt;/h2&gt;
 
 &lt;p&gt;Locsearch实现了查找device_id = 4设备的详细信息&lt;/p&gt;
 
@@ -430,9 +429,9 @@ func Locsearch(info string) {
       <guid>https://ryanemax.github.io/cookbook/backend/golangincase/</guid>
       <description>
 
-&lt;h1 id=&#34;golang代码组织最佳方案:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;《Golang代码组织最佳方案》&lt;/h1&gt;
+&lt;h1 id=&#34;golang代码组织最佳方案&#34;&gt;《Golang代码组织最佳方案》&lt;/h1&gt;
 
-&lt;h2 id=&#34;案例一-不建议的偷懒结构:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;案例一：不建议的偷懒结构&lt;/h2&gt;
+&lt;h2 id=&#34;案例一-不建议的偷懒结构&#34;&gt;案例一：不建议的偷懒结构&lt;/h2&gt;
 
 &lt;p&gt;$gopath/src/github.com/ryanemax/device/pkg_phone/phone.go&lt;/p&gt;
 
@@ -441,7 +440,7 @@ func Locsearch(info string) {
 &lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import &amp;quot;./pkg_phone&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;案例二-docker中也不建议的偷懒结构:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;案例二：Docker中也不建议的偷懒结构&lt;/h2&gt;
+&lt;h2 id=&#34;案例二-docker中也不建议的偷懒结构&#34;&gt;案例二：Docker中也不建议的偷懒结构&lt;/h2&gt;
 
 &lt;p&gt;gonet2示例：github.com/gonet2/game&lt;/p&gt;
 
@@ -457,7 +456,7 @@ src/game/service.go # game主程
 
 &lt;p&gt;虽然docker中环境纯净，但多个$GOPATH中如果都存在src/registry名称的库，则会产生冲突。&lt;/p&gt;
 
-&lt;h2 id=&#34;最佳结构方式:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;最佳结构方式&lt;/h2&gt;
+&lt;h2 id=&#34;最佳结构方式&#34;&gt;最佳结构方式&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;# 案例一中
   import &amp;quot;github.com/ryanemax/device/pkg_phone&amp;quot;
@@ -468,33 +467,33 @@ src/game/service.go # game主程
   )
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;golang实用的第三方库:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;《Golang实用的第三方库》&lt;/h1&gt;
+&lt;h1 id=&#34;golang实用的第三方库&#34;&gt;《Golang实用的第三方库》&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/avelino/awesome-go&#34;&gt;https://github.com/avelino/awesome-go&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;命令行应用开发库:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;命令行应用开发库&lt;/h2&gt;
+&lt;h2 id=&#34;命令行应用开发库&#34;&gt;命令行应用开发库&lt;/h2&gt;
 
-&lt;h3 id=&#34;cobra-案例-hugo:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;Cobra,案例：Hugo&lt;/h3&gt;
+&lt;h3 id=&#34;cobra-案例-hugo&#34;&gt;Cobra,案例：Hugo&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;文本界面应用开发库:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;文本界面应用开发库&lt;/h2&gt;
+&lt;h2 id=&#34;文本界面应用开发库&#34;&gt;文本界面应用开发库&lt;/h2&gt;
 
-&lt;h3 id=&#34;color-简单的命令行颜色输出:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;color 简单的命令行颜色输出&lt;/h3&gt;
+&lt;h3 id=&#34;color-简单的命令行颜色输出&#34;&gt;color 简单的命令行颜色输出&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/fatih/color&#34;&gt;https://github.com/fatih/color&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/3cef9169d42dd94bd7299782d691396027d688a4/687474703a2f2f692e696d6775722e636f6d2f63314a49306c412e706e67&#34; alt=&#34;color&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;termui-完整的命令行应用界面-基于https-github-com-nsf-termbox-go:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;Termui 完整的命令行应用界面(基于&lt;a href=&#34;https://github.com/nsf/termbox-go&#34;&gt;https://github.com/nsf/termbox-go&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;termui-完整的命令行应用界面-基于https-github-com-nsf-termbox-go&#34;&gt;Termui 完整的命令行应用界面(基于&lt;a href=&#34;https://github.com/nsf/termbox-go&#34;&gt;https://github.com/nsf/termbox-go&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/gizak/termui&#34;&gt;https://github.com/gizak/termui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gizak/termui/master/_example/dashboard.gif&#34; alt=&#34;termui&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;实用的原生库:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;实用的原生库&lt;/h1&gt;
+&lt;h1 id=&#34;实用的原生库&#34;&gt;实用的原生库&lt;/h1&gt;
 
-&lt;h2 id=&#34;encoding-hex:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;encoding/hex&lt;/h2&gt;
+&lt;h2 id=&#34;encoding-hex&#34;&gt;encoding/hex&lt;/h2&gt;
 
 &lt;p&gt;常用于解析网络通信协议中的BCD码流&lt;/p&gt;
 
@@ -504,7 +503,7 @@ fmt.Println(data_imei)
 ## 输出结果为12345678
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;strconv:5a6eb3fc45e97f86a8b1fbab0c312535&#34;&gt;strconv&lt;/h2&gt;
+&lt;h2 id=&#34;strconv&#34;&gt;strconv&lt;/h2&gt;
 
 &lt;p&gt;常用与各数制与字符之间的转换&lt;/p&gt;
 
@@ -569,11 +568,11 @@ func ParseTime(gpstime []byte) time.Time {
       <guid>https://ryanemax.github.io/cookbook/backend/baas/</guid>
       <description>
 
-&lt;h1 id=&#34;热门baas简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;热门baas简介&lt;/h1&gt;
+&lt;h1 id=&#34;热门baas简介&#34;&gt;热门baas简介&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.techweb.com.cn/network/virtual/2016-01-05/2252623.shtml&#34;&gt;应用开发不可不知的五大BaaS后端云服务 &lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;baas公有云:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;baas公有云&lt;/h2&gt;
+&lt;h2 id=&#34;baas公有云&#34;&gt;baas公有云&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;firebase google收购的专业baas服务，完美整合angular2，在华无法使用&lt;/li&gt;
@@ -583,7 +582,7 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;li&gt;bluemix IBM创办的paas平台，附带baas服务，2016年6月已入华&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;baas私有云:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;baas私有云&lt;/h2&gt;
+&lt;h2 id=&#34;baas私有云&#34;&gt;baas私有云&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;appery.io 最完美的HybirdApp云服务MBaaS，配套在线设计IDE，在线Cordova打包&lt;/li&gt;
@@ -591,9 +590,9 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;li&gt;kinvey&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;市场分析:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;市场分析&lt;/h1&gt;
+&lt;h1 id=&#34;市场分析&#34;&gt;市场分析&lt;/h1&gt;
 
-&lt;h2 id=&#34;对传统开发模式带来的影响:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;对传统开发模式带来的影响&lt;/h2&gt;
+&lt;h2 id=&#34;对传统开发模式带来的影响&#34;&gt;对传统开发模式带来的影响&lt;/h2&gt;
 
 &lt;p&gt;前端影响 &lt;a href=&#34;https://www.zhihu.com/question/27087120&#34;&gt;https://www.zhihu.com/question/27087120&lt;/a&gt;&lt;/p&gt;
 
@@ -632,9 +631,9 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;p&gt;例如自动化运维 机器学习 爬虫 复杂业务数据分析处理 大数据。
   不会被替代，但会发展更加蓬勃，人才涌入及工作简化。&lt;/p&gt;
 
-&lt;h1 id=&#34;mbaas-是baas在mobile细分领域的应用:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;MBaaS 是BaaS在mobile细分领域的应用&lt;/h1&gt;
+&lt;h1 id=&#34;mbaas-是baas在mobile细分领域的应用&#34;&gt;MBaaS 是BaaS在mobile细分领域的应用&lt;/h1&gt;
 
-&lt;h2 id=&#34;产品结构简介:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;产品结构简介&lt;/h2&gt;
+&lt;h2 id=&#34;产品结构简介&#34;&gt;产品结构简介&lt;/h2&gt;
 
 &lt;p&gt;参考 appery.io 整理出一下必备功能模块&lt;/p&gt;
 
@@ -668,7 +667,7 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;li&gt;API Express&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;appbuilder:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;AppBuilder&lt;/h2&gt;
+&lt;h2 id=&#34;appbuilder&#34;&gt;AppBuilder&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ionic creator
@@ -684,7 +683,7 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;backend-services:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;Backend Services&lt;/h2&gt;
+&lt;h2 id=&#34;backend-services&#34;&gt;Backend Services&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;DreamFactory
@@ -702,7 +701,7 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;li&gt;firebase&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;backend-service-评比选型:f23172eb85f1063ed56abfa5fd4c95ce&#34;&gt;Backend Service 评比选型&lt;/h1&gt;
+&lt;h1 id=&#34;backend-service-评比选型&#34;&gt;Backend Service 评比选型&lt;/h1&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -804,9 +803,9 @@ func ParseTime(gpstime []byte) time.Time {
       <guid>https://ryanemax.github.io/cookbook/backend/bluemix/</guid>
       <description>
 
-&lt;h1 id=&#34;对比parse-com:a7861ad4a9f03fd7eedd0d24ba963e33&#34;&gt;对比Parse.com&lt;/h1&gt;
+&lt;h1 id=&#34;对比parse-com&#34;&gt;对比Parse.com&lt;/h1&gt;
 
-&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager:a7861ad4a9f03fd7eedd0d24ba963e33&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
 &lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;&lt;/p&gt;
@@ -833,7 +832,7 @@ func ParseTime(gpstime []byte) time.Time {
       <guid>https://ryanemax.github.io/cookbook/backend/parse-learn/</guid>
       <description>
 
-&lt;h1 id=&#34;准备环境:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;准备环境&lt;/h1&gt;
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;系统环境
@@ -855,7 +854,7 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;学习参考:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;学习参考&lt;/h1&gt;
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
@@ -869,7 +868,7 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;server:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;Server&lt;/h1&gt;
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
 </description>
     </item>
     
@@ -881,7 +880,7 @@ func ParseTime(gpstime []byte) time.Time {
       <guid>https://ryanemax.github.io/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>
 
-&lt;h1 id=&#34;参考资料:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;参考资料&lt;/h1&gt;
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
@@ -889,13 +888,13 @@ func ParseTime(gpstime []byte) time.Time {
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;自动配置步骤:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;自动配置步骤&lt;/h1&gt;
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
 cf push Your-App-Name-On-Bluemix
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;手动配置步骤:0ae39d3b9d7e50b8ddad03790f0a0f19&#34;&gt;手动配置步骤&lt;/h1&gt;
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;

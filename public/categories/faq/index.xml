@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Faq on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/faq/</link>
-    <description>Recent content in Faq on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/faq/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/faq/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/faq/dreamfactory/</guid>
       <description>
 
-&lt;h1 id=&#34;composer-install-依赖问题:562a719106416c781f63959eb4392a3b&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+&lt;h1 id=&#34;composer-install-依赖问题&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
 
-&lt;h2 id=&#34;报错缺少ext-mongodb依赖:562a719106416c781f63959eb4392a3b&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
 Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
@@ -52,7 +51,7 @@ Your requirements could not be resolved to an installable set of packages.
   You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;问题分析:562a719106416c781f63959eb4392a3b&#34;&gt;问题分析&lt;/h2&gt;
+&lt;h2 id=&#34;问题分析&#34;&gt;问题分析&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
@@ -66,7 +65,7 @@ Your requirements could not be resolved to an installable set of packages.
 
 &lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:562a719106416c781f63959eb4392a3b&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
 
@@ -84,7 +83,7 @@ vim /etc/php5/cli/php.ini
 composer install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;composer-install-缺少idehelper问题:562a719106416c781f63959eb4392a3b&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+&lt;h1 id=&#34;composer-install-缺少idehelper问题&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
 
@@ -101,16 +100,16 @@ composer install
       <guid>https://ryanemax.github.io/faq/archfaq/</guid>
       <description>
 
-&lt;h1 id=&#34;systemd-journal进程占用100-cpu-硬盘磁盘无法读取:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;systemd-journal进程占用100%CPU，硬盘磁盘无法读取&lt;/h1&gt;
+&lt;h1 id=&#34;systemd-journal进程占用100-cpu-硬盘磁盘无法读取&#34;&gt;systemd-journal进程占用100%CPU，硬盘磁盘无法读取&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;原因&lt;/h2&gt;
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
 
 &lt;p&gt;journalctl 查看获得信息&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;解决办法:8459e7dd689eccbbb24a91a1d2204a18&#34;&gt;解决办法&lt;/h2&gt;
+&lt;h2 id=&#34;解决办法&#34;&gt;解决办法&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=211365&#34;&gt;https://bbs.archlinux.org/viewtopic.php?id=211365&lt;/a&gt;&lt;/p&gt;
 
@@ -131,32 +130,32 @@ blacklist sp5100_tco
       <guid>https://ryanemax.github.io/faq/ionic2html/</guid>
       <description>
 
-&lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白:7917a174f57faa21f8db3276d3367989&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
+&lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:7917a174f57faa21f8db3276d3367989&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;因为ionic2自带的font-icon库中，改图标没有默认的outline样式，导致了点击后，显示空白。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721&#34;&gt;http://stackoverflow.com/questions/36757738/ionic-angular-components-core-scss-error/36765721?noredirect=1#comment61154821_36765721&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:7917a174f57faa21f8db3276d3367989&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
-&lt;h1 id=&#34;scss文件中定义的样式不生效-import已加入app-core-scss中:7917a174f57faa21f8db3276d3367989&#34;&gt;scss文件中定义的样式不生效，@import已加入app.core.scss中&lt;/h1&gt;
+&lt;h1 id=&#34;scss文件中定义的样式不生效-import已加入app-core-scss中&#34;&gt;scss文件中定义的样式不生效，@import已加入app.core.scss中&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析-1:7917a174f57faa21f8db3276d3367989&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;命令行报错，导致后续scss样式无法被加载&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Error: Import directives may not be used within control directives or mixins. on line 34 of node_modules/ionic-angular/components.core.scss @import &amp;quot;fonts/ionicons&amp;quot;;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;尝试一-无效:7917a174f57faa21f8db3276d3367989&#34;&gt;尝试一（无效）&lt;/h2&gt;
+&lt;h2 id=&#34;尝试一-无效&#34;&gt;尝试一（无效）&lt;/h2&gt;
 
 &lt;p&gt;npm install gulp-sass&lt;/p&gt;
 
 &lt;p&gt;npm install node-sass&lt;/p&gt;
 
-&lt;h2 id=&#34;尝试二-成功:7917a174f57faa21f8db3276d3367989&#34;&gt;尝试二（成功）&lt;/h2&gt;
+&lt;h2 id=&#34;尝试二-成功&#34;&gt;尝试二（成功）&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## vim node_modules/ionic-angular/components.core.scss
 //@if ($ionicons) {
@@ -175,9 +174,9 @@ blacklist sp5100_tco
       <guid>https://ryanemax.github.io/faq/ionic2install/</guid>
       <description>
 
-&lt;h1 id=&#34;ionic2常见问题汇总之安装篇:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2常见问题汇总之安装篇&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
 
-&lt;h1 id=&#34;如何安装ionic:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;如何安装ionic？&lt;/h1&gt;
+&lt;h1 id=&#34;如何安装ionic&#34;&gt;如何安装ionic？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 系统包管理器，安装npm
 apt-get install npm nodejs
@@ -200,7 +199,7 @@ npm -g install cordova
 npm -g install ionic@beta
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ionic-beta安装error无法运行怎么解决:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;ionic@beta安装Error无法运行怎么解决？&lt;/h1&gt;
+&lt;h1 id=&#34;ionic-beta安装error无法运行怎么解决&#34;&gt;ionic@beta安装Error无法运行怎么解决？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm ERR! ionic@2.0.0-beta.23 postinstall: `node lib/tasks/postinstall`
 npm ERR! Exit status 8
@@ -227,7 +226,7 @@ npm ERR! not ok code 0
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;windows-解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;windows 解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;windows-解决方案&#34;&gt;windows 解决方案&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install -g npm@3.8.0
 
@@ -238,7 +237,7 @@ npm install -g cordova
 npm install -g ionic@beta
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;debian-解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;debian 解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;debian-解决方案&#34;&gt;debian 解决方案&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install -g npm@3.8.0
 
@@ -251,7 +250,7 @@ cnpm install -g cordova
 cnpm install -g ionic@beta
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;安装提示root用户没有权限访问node-pre-gyp:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;安装提示root用户没有权限访问node-pre-gyp？&lt;/h1&gt;
+&lt;h1 id=&#34;安装提示root用户没有权限访问node-pre-gyp&#34;&gt;安装提示root用户没有权限访问node-pre-gyp？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -259,7 +258,7 @@ cnpm install -g ionic@beta
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo cnpm -g install ionic@2.0.0-beta.20 --unsafe-perm
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;如何生成第一个ionic项目:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;如何生成第一个ionic项目？&lt;/h1&gt;
+&lt;h1 id=&#34;如何生成第一个ionic项目&#34;&gt;如何生成第一个ionic项目？&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 生成ionic1项目
 ionic start project-name
@@ -272,7 +271,7 @@ cd project-name
 ionic serve -l
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;生成ionic-beta-23项目报错:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;生成ionic@beta.23项目报错&lt;/h1&gt;
+&lt;h1 id=&#34;生成ionic-beta-23项目报错&#34;&gt;生成ionic@beta.23项目报错&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Installing npm packages...
 
@@ -290,7 +289,7 @@ Unable to run spawn commandError: spawn npm ENOENT (CLI v2.0.0-beta.23)
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm -g install ionic@2.0.0-beta.22
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;生成ionic-beta项目报错:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;生成ionic@beta项目报错&lt;/h1&gt;
+&lt;h1 id=&#34;生成ionic-beta项目报错&#34;&gt;生成ionic@beta项目报错&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;npm install package Error
 &lt;/code&gt;&lt;/pre&gt;
@@ -302,7 +301,7 @@ Unable to run spawn commandError: spawn npm ENOENT (CLI v2.0.0-beta.23)
 cnpm install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;无法在真机运行-ionic-run-android:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;无法在真机运行 ionic run android&lt;/h1&gt;
+&lt;h1 id=&#34;无法在真机运行-ionic-run-android&#34;&gt;无法在真机运行 ionic run android&lt;/h1&gt;
 
 &lt;p&gt;原因分析：&lt;/p&gt;
 
@@ -314,15 +313,15 @@ ionic run
 cordova run android
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;gulp3中graceful-fs版本过低:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;gulp3中graceful-fs版本过低&lt;/h1&gt;
+&lt;h1 id=&#34;gulp3中graceful-fs版本过低&#34;&gt;gulp3中graceful-fs版本过低&lt;/h1&gt;
 
-&lt;h2 id=&#34;错误信息:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;错误信息&lt;/h2&gt;
+&lt;h2 id=&#34;错误信息&#34;&gt;错误信息&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;(node:2396) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
 [1]    2396 bus error (core dumped)  gulp
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;解决方案:9dc9ec46a1f340094eae6e031939f5fb&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/error-running-ionic-serve/50706&#34;&gt;https://forum.ionicframework.com/t/error-running-ionic-serve/50706&lt;/a&gt;&lt;/p&gt;
 
@@ -340,17 +339,17 @@ n 5.12.0
     
     <item>
       <title>LNMP内存或CPU过高优化问题</title>
-      <link>https://ryanemax.github.io/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <link>https://ryanemax.github.io/faq/lnmp/502/</link>
       <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://ryanemax.github.io/faq/lnmp/502/</guid>
       <description>
 
-&lt;h1 id=&#34;lnmp内存或cpu过高的优化问题:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;
+&lt;h1 id=&#34;lnmp内存或cpu过高的优化问题&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;
 
-&lt;h1 id=&#34;场景一-正康服务器php服务无法访问-nginx报502-403错误:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;场景一：正康服务器php服务无法访问，Nginx报502/403错误&lt;/h1&gt;
+&lt;h1 id=&#34;场景一-正康服务器php服务无法访问-nginx报502-403错误&#34;&gt;场景一：正康服务器php服务无法访问，Nginx报502/403错误&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;top指令查看系统各进程使用情况&lt;/p&gt;
 
@@ -390,7 +389,7 @@ KiB Swap:        0 total,        0 used,        0 free.  2440796 cached Mem
 &lt;li&gt;service php5-fpm restart&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;解决方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;经排查发现是php5-fpm进程CPU占用过高导致php服务无法访问。 同时mysqld服务内存占用过高，导致智能硬件服务端进程server无法正常运行。
 1. php-fpm进程数不够用&lt;/p&gt;
@@ -490,7 +489,7 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;0-负载过高的业务分离:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;0.负载过高的业务分离&lt;/h3&gt;
+&lt;h3 id=&#34;0-负载过高的业务分离&#34;&gt;0.负载过高的业务分离&lt;/h3&gt;
 
 &lt;p&gt;独立使用RDS服务运行Mysql
 - 利于数据库备份、容灾处理
@@ -500,14 +499,14 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
 - 减少过多闲置链接（600降低到100以内）
 - 限制最大链接（设置为200）&lt;/p&gt;
 
-&lt;h3 id=&#34;1-临时方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;1.临时方案&lt;/h3&gt;
+&lt;h3 id=&#34;1-临时方案&#34;&gt;1.临时方案&lt;/h3&gt;
 
 &lt;p&gt;重启php5-fpm即可&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;service restart php5-fpm
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;2-永久方案:227f372aa3ddfa489382bf004b7e00c1&#34;&gt;2.永久方案&lt;/h3&gt;
+&lt;h3 id=&#34;2-永久方案&#34;&gt;2.永久方案&lt;/h3&gt;
 
 &lt;p&gt;建议1：写监控程序，当进程php5-fpm占用CPU超过90%，执行重启php5-fpm&lt;/p&gt;
 
@@ -525,20 +524,20 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
       <guid>https://ryanemax.github.io/faq/odoo/faq-accounting/</guid>
       <description>
 
-&lt;h1 id=&#34;货币选项中无cny:187b635426bccb02542e3ea74bd81df7&#34;&gt;货币选项中无CNY&lt;/h1&gt;
+&lt;h1 id=&#34;货币选项中无cny&#34;&gt;货币选项中无CNY&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:187b635426bccb02542e3ea74bd81df7&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;货币——CNY——未设置为有效&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:187b635426bccb02542e3ea74bd81df7&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&#34;&gt;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&lt;/a&gt;
 任务——会计——货币中将CNY设为有效&lt;/p&gt;
 
-&lt;h1 id=&#34;开启会计科目后-导致销售人员无法添加客户:187b635426bccb02542e3ea74bd81df7&#34;&gt;开启会计科目后，导致销售人员无法添加客户&lt;/h1&gt;
+&lt;h1 id=&#34;开启会计科目后-导致销售人员无法添加客户&#34;&gt;开启会计科目后，导致销售人员无法添加客户&lt;/h1&gt;
 
-&lt;h2 id=&#34;错误提示:187b635426bccb02542e3ea74bd81df7&#34;&gt;错误提示&lt;/h2&gt;
+&lt;h2 id=&#34;错误提示&#34;&gt;错误提示&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&#34;&gt;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&lt;/a&gt;&lt;/p&gt;
 
@@ -553,7 +552,7 @@ The following fields are invalid:
     Account Payable
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;原因分析-1:187b635426bccb02542e3ea74bd81df7&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;开启会计后，&lt;/p&gt;
 
@@ -567,7 +566,7 @@ The following fields are invalid:
 
 &lt;p&gt;As transactions are associated to customers or suppliers, you get reports to perform analysis per customer/supplier such as the customer statement, revenues per customers, aged receivable/payables, &amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案-1:187b635426bccb02542e3ea74bd81df7&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-1&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;1.设置可选的应付应收账款&lt;/p&gt;
 
@@ -605,11 +604,11 @@ The following fields are invalid:
       <guid>https://ryanemax.github.io/faq/odoo/learn/</guid>
       <description>
 
-&lt;h1 id=&#34;使用手册:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;使用手册&lt;/h1&gt;
+&lt;h1 id=&#34;使用手册&#34;&gt;使用手册&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.odoo.com/documentation/user/9.0/&#34;&gt;https://www.odoo.com/documentation/user/9.0/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;资料站点:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;资料站点&lt;/h1&gt;
+&lt;h1 id=&#34;资料站点&#34;&gt;资料站点&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.oejia.net/&#34;&gt;http://www.oejia.net/&lt;/a&gt;&lt;/p&gt;
 
@@ -625,9 +624,9 @@ The following fields are invalid:
       <guid>https://ryanemax.github.io/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
       <description>
 
-&lt;h1 id=&#34;odoo9多域名解析多数据库规则:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
+&lt;h1 id=&#34;odoo9多域名解析多数据库规则&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
 
-&lt;h1 id=&#34;配置文件:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;配置文件&lt;/h1&gt;
+&lt;h1 id=&#34;配置文件&#34;&gt;配置文件&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## Debian
 /etc/odoo/openerp-server.conf
@@ -637,7 +636,7 @@ dbfilter = ^%d$
 # 即  http://db001.openerp.com  访问时, 会自动设置为 dbfilter = db001
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;源码:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;源码&lt;/h1&gt;
+&lt;h1 id=&#34;源码&#34;&gt;源码&lt;/h1&gt;
 
 &lt;p&gt;部分情况配置文件无法生效，是由于：&lt;/p&gt;
 
@@ -664,7 +663,7 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
       <guid>https://ryanemax.github.io/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
       <description>
 
-&lt;h1 id=&#34;payment支付-odoo-8-0:1d3aa595b3240b5c3555fb706a9a394a&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
+&lt;h1 id=&#34;payment支付-odoo-8-0&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/odoo-cn/payment&#34;&gt;https://github.com/odoo-cn/payment&lt;/a&gt;&lt;/p&gt;
 
@@ -680,7 +679,7 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
 
 &lt;p&gt;未经许可，不得用于商业用途！！&lt;/p&gt;
 
-&lt;h1 id=&#34;微信-odoo-8-0:1d3aa595b3240b5c3555fb706a9a394a&#34;&gt;微信 odoo 8.0&lt;/h1&gt;
+&lt;h1 id=&#34;微信-odoo-8-0&#34;&gt;微信 odoo 8.0&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/JoneXiong/oejia_wx&#34;&gt;https://github.com/JoneXiong/oejia_wx&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -694,12 +693,12 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
       <guid>https://ryanemax.github.io/faq/odoo/faq-system/</guid>
       <description>
 
-&lt;h1 id=&#34;无法保存照片-无法发送邮件:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
+&lt;h1 id=&#34;无法保存照片-无法发送邮件&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&#34;&gt;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&lt;/a&gt;
 无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在&lt;/p&gt;
 
-&lt;h2 id=&#34;原因分析:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;413 Request Entity Too Large
 nginx/1.6.2
@@ -707,7 +706,7 @@ nginx/1.6.2
 
 &lt;p&gt;nginx 大文件配置问题&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;在上传时nginx返回了413错误，查看log文件，显示的错误信息是:”413 Request Entity Too Large”, 需要做以下设 置：&lt;/p&gt;
 
@@ -734,14 +733,14 @@ proxy_temp_file_write_size 64k;
 upload_max_filesize = 2M
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;python的pip有的包过旧:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;Python的pip有的包过旧&lt;/h1&gt;
+&lt;h1 id=&#34;python的pip有的包过旧&#34;&gt;Python的pip有的包过旧&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析-1:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;pip包过老需要升级，以下包：
 - Pillow&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案-1:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-1&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;一行命令升级所有pip安装的Python包&lt;/p&gt;
 
@@ -759,9 +758,9 @@ upload_max_filesize = 2M
 &lt;pre&gt;&lt;code&gt;pip install -U distribute &amp;amp;&amp;amp; pip freeze --local | grep -v &#39;^\-e&#39; | cut -d = -f 1  | xargs pip install -U --allow-external mysql-connector-python
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;解决方案-2:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-2&#34;&gt;解决方案&lt;/h2&gt;
 
-&lt;h1 id=&#34;odoo-警告-邮件投递失败:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;Odoo 警告 - 邮件投递失败&lt;/h1&gt;
+&lt;h1 id=&#34;odoo-警告-邮件投递失败&#34;&gt;Odoo 警告 - 邮件投递失败&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Mail delivery failed via SMTP server &#39;smtp.mxhichina.com&#39;.
 SMTPSenderRefused: 440
@@ -771,7 +770,7 @@ postmaster-odoo@anasit.com
 
 &lt;p&gt;为何出现postmaster-odoo@anasit.com邮箱地址？&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案-3:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-3&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;1 .增加邮箱账号“postmaster-odoo@anasit.com”&lt;/p&gt;
 
@@ -779,7 +778,7 @@ postmaster-odoo@anasit.com
 
 &lt;p&gt;以上方法二选一即可.&lt;/p&gt;
 
-&lt;h1 id=&#34;设置默认值-十分实用:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;设置默认值——十分实用&lt;/h1&gt;
+&lt;h1 id=&#34;设置默认值-十分实用&#34;&gt;设置默认值——十分实用&lt;/h1&gt;
 
 &lt;p&gt;设置——关于——Acivate the developer mode.&lt;/p&gt;
 
@@ -801,11 +800,11 @@ postmaster-odoo@anasit.com
       <guid>https://ryanemax.github.io/faq/odoo/faq-sales/</guid>
       <description>
 
-&lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
+&lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
-&lt;h2 id=&#34;解决方案:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 </description>
     </item>
     
@@ -817,11 +816,11 @@ postmaster-odoo@anasit.com
       <guid>https://ryanemax.github.io/faq/lnmp/nginx-php-nofiles/</guid>
       <description>
 
-&lt;h1 id=&#34;solution:0482b688ba78b61422feba75e57865cf&#34;&gt;Solution&lt;/h1&gt;
+&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/&#34;&gt;http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;问题原因:0482b688ba78b61422feba75e57865cf&#34;&gt;问题原因&lt;/h2&gt;
+&lt;h2 id=&#34;问题原因&#34;&gt;问题原因&lt;/h2&gt;
 
 &lt;p&gt;导致“No input file specified. ”这个问题的原因，是因为nginx的配置不正确，从而导致CGI获取参数错误。
 简单来说，是因为$document_root这个变量尚未定义。&lt;/p&gt;
@@ -835,12 +834,12 @@ postmaster-odoo@anasit.com
 而我们也知道，在nginx中，有三级的关系，http  &amp;gt;  server  &amp;gt;  location。
 如果要在location块中使用$document_root，需要在上层server块或http块中定义了root指令，这样才能通过继承关系，在location块中用$document_root拿到root的值。而定义在别的location块中的root指令的值，是一个局部变量，其值无法在匹配php的这个location块中被获取。&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方法:0482b688ba78b61422feba75e57865cf&#34;&gt;解决方法&lt;/h2&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;解决方法&lt;/h2&gt;
 
 &lt;p&gt;解决这个问题的办法，是把&amp;rdquo;/&amp;rdquo; location块中的root上提到server。
 或者，在php的location块中，重新定义root。&lt;/p&gt;
 
-&lt;h2 id=&#34;php-站配置参考:0482b688ba78b61422feba75e57865cf&#34;&gt;php 站配置参考&lt;/h2&gt;
+&lt;h2 id=&#34;php-站配置参考&#34;&gt;php 站配置参考&lt;/h2&gt;
 
 &lt;p&gt;fastcgi启动命令&lt;/p&gt;
 
@@ -900,7 +899,7 @@ location ~ [^/]\.php(/|$) {
       <guid>https://ryanemax.github.io/faq/debianfaq/</guid>
       <description>
 
-&lt;h1 id=&#34;apt-get更新问题-failed-to-fetch-http:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;apt-get更新问题：Failed to Fetch : http://&lt;/h1&gt;
+&lt;h1 id=&#34;apt-get更新问题-failed-to-fetch-http&#34;&gt;apt-get更新问题：Failed to Fetch : http://&lt;/h1&gt;
 
 &lt;p&gt;解决方案：&lt;/p&gt;
 
@@ -908,7 +907,7 @@ location ~ [^/]\.php(/|$) {
 rm *
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;sshd允许root登录:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;sshd允许Root登录&lt;/h1&gt;
+&lt;h1 id=&#34;sshd允许root登录&#34;&gt;sshd允许Root登录&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;cd /etc/ssh
 vim sshd_config
@@ -916,7 +915,7 @@ PermitRootLogin yes
 service ssh restart
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;中国国内源更换:bf2398dde42a7e56a755ee56ef9a71ae&#34;&gt;中国国内源更换&lt;/h1&gt;
+&lt;h1 id=&#34;中国国内源更换&#34;&gt;中国国内源更换&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://lug.ustc.edu.cn/repogen/&#34;&gt;https://lug.ustc.edu.cn/repogen/&lt;/a&gt;&lt;/p&gt;
 

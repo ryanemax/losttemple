@@ -1,14 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cookbooks on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/cookbook/</link>
-    <description>Recent content in Cookbooks on 刘雨飏@ANAS联盟</description>
+    <title>Cookbook-rsses on 刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/cookbook/index.xml</link>
+    <description>Recent content in Cookbook-rsses on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 27 Aug 2016 15:05:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Oct 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AR时代来临了，带上兵器吧</title>
+      <link>https://ryanemax.github.io/cookbook/vrar/arplayer/</link>
+      <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/vrar/arplayer/</guid>
+      <description>
+
+&lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://www.zhihu.com/question/28779933&#34;&gt;https://www.zhihu.com/question/28779933&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景
+
+&lt;ul&gt;
+&lt;li&gt;H5 意味着在手机而非 PC 上实现&lt;/li&gt;
+&lt;li&gt;AR 意味着需要获取实时的视频流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/323922423e94c7831ffd37b8a10efe70_b.png&#34; alt=&#34;WebRTC&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;条件
+
+&lt;ul&gt;
+&lt;li&gt;Android 5以上&lt;/li&gt;
+&lt;li&gt;原生Chrome浏览器&lt;/li&gt;
+&lt;li&gt;2016.9.20 update&lt;/li&gt;
+&lt;li&gt;手机QQ 微信&lt;/li&gt;
+&lt;li&gt;接入 QQ 浏览器 X5 内核的 Webview&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;假如上面的条件已经满足，接下来有几个库可以实现：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jeromeetienne/threex.webar&#34;&gt;https://github.com/jeromeetienne/threex.webar&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 107&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awe-media/awe.js&#34;&gt;https://github.com/awe-media/awe.js&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 486&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
@@ -18,7 +74,7 @@
       <guid>https://ryanemax.github.io/cookbook/tool/bashonwindows/</guid>
       <description>
 
-&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
+&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
 
@@ -27,13 +83,13 @@
 &amp;quot;SSH server broker&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
+&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
 
-&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
+&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
 
@@ -45,11 +101,11 @@ service ssh start
 zsh
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
+&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
 
 &lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
 
-&lt;h1 id=&#34;npm-fs-watch问题-error:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
+&lt;h1 id=&#34;npm-fs-watch问题-error&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
 
@@ -65,7 +121,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</guid>
       <description>
 
-&lt;h1 id=&#34;ng2-universal基础:99ba35dc358433404c10720574c18d78&#34;&gt;ng2-universal基础&lt;/h1&gt;
+&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
@@ -78,7 +134,7 @@ zsh
 
 &lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2整合universal:99ba35dc358433404c10720574c18d78&#34;&gt;ionic2整合universal&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
 
@@ -96,16 +152,16 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
-&lt;h1 id=&#34;参考文章:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;参考文章&lt;/h1&gt;
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;ionic2框架:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;ionic2框架&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2框架&#34;&gt;ionic2框架&lt;/h1&gt;
 
-&lt;h2 id=&#34;测试规范参考:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试规范参考&lt;/h2&gt;
+&lt;h2 id=&#34;测试规范参考&#34;&gt;测试规范参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
@@ -127,9 +183,9 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;最新版本测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;最新版本测试&lt;/h2&gt;
+&lt;h2 id=&#34;最新版本测试&#34;&gt;最新版本测试&lt;/h2&gt;
 
-&lt;h3 id=&#34;测试-ionic-beta35:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+&lt;h3 id=&#34;测试-ionic-beta35&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;iOS
@@ -152,13 +208,13 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;测试-angular2-beta14:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+&lt;h3 id=&#34;测试-angular2-beta14&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
 
 &lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
 但是当使用http调用ajax请求时,会报一个找不到open方法的错。
 可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
 
-&lt;h3 id=&#34;旧版测试:d11cbbce68d7e3b7fa05a1636e9daff0&#34;&gt;旧版测试&lt;/h3&gt;
+&lt;h3 id=&#34;旧版测试&#34;&gt;旧版测试&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Android
@@ -179,9 +235,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
-&lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
+&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
 
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenStack
@@ -219,7 +275,7 @@ zsh
 
 &lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
 
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
@@ -237,7 +293,7 @@ zsh
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;paas现状:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS现状&lt;/h2&gt;
+&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CloudFoundry
@@ -268,7 +324,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;paas选型及适用范围:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;轻量级：Flynn、Deis二选一
@@ -287,11 +343,11 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;docker部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Docker部署&lt;/h1&gt;
+&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
 
-&lt;h1 id=&#34;openstack部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;OpenStack部署&lt;/h1&gt;
+&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
 
-&lt;h2 id=&#34;公司环境参数:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;公司环境参数&lt;/h2&gt;
+&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
@@ -299,7 +355,7 @@ zsh
 &lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
 </description>
     </item>
     
@@ -311,7 +367,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
-&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+&lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;可通过域名转发过滤&lt;/li&gt;
@@ -320,9 +376,9 @@ zsh
 &lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+&lt;h1 id=&#34;传统方式&#34;&gt;传统方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+&lt;h2 id=&#34;多网卡绑定固定ip&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本高
@@ -334,7 +390,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+&lt;h2 id=&#34;端口映射&#34;&gt;端口映射&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -342,7 +398,7 @@ zsh
 &lt;li&gt;端口数有限&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+&lt;h2 id=&#34;dmz&#34;&gt;DMZ&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -360,9 +416,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
-&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+&lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+&lt;h2 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h2&gt;
 
 &lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
 
@@ -375,9 +431,9 @@ zsh
 &lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
 &lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+&lt;h1 id=&#34;服务演示&#34;&gt;服务演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+&lt;h2 id=&#34;mopaas&#34;&gt;MoPaaS&lt;/h2&gt;
 
 &lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
 
@@ -408,9 +464,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</guid>
       <description>
 
-&lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
 
-&lt;h2 id=&#34;intellij-idea-ce-2016-1-1:90187ca4a720b853310dffa460a52b57&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 差
@@ -428,7 +484,7 @@ zsh
 &lt;li&gt;辅助工具 差&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;webstorm-2016-2-1:90187ca4a720b853310dffa460a52b57&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 较好
@@ -449,7 +505,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件:90187ca4a720b853310dffa460a52b57&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
 
 &lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
 
@@ -465,9 +521,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/api/apitrends/</guid>
       <description>
 
-&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
-&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+&lt;h2 id=&#34;api-生态图解&#34;&gt;API 生态图解&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -504,7 +560,7 @@ zsh
 &lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+&lt;h2 id=&#34;api-spec-规则制定&#34;&gt;API Spec 规则制定&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
 
@@ -513,7 +569,7 @@ zsh
 &lt;li&gt;swagger&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+&lt;h2 id=&#34;api构建工具链&#34;&gt;API构建工具链&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
 
@@ -523,7 +579,7 @@ zsh
 &lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+&lt;h2 id=&#34;api-mbaas服务&#34;&gt;API-MBaaS服务&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
 
@@ -543,7 +599,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/pkm/card/</guid>
       <description>
 
-&lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
+&lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
 
@@ -551,9 +607,9 @@ zsh
 
 &lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;实际体验:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;实际体验&lt;/h1&gt;
+&lt;h1 id=&#34;实际体验&#34;&gt;实际体验&lt;/h1&gt;
 
-&lt;h2 id=&#34;zappoint-淘汰:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
+&lt;h2 id=&#34;zappoint-淘汰&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;邮箱登陆&lt;/li&gt;
@@ -573,7 +629,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;camcard-名片万能王-选用:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
+&lt;h2 id=&#34;camcard-名片万能王-选用&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;邮箱/手机登陆
@@ -618,11 +674,11 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/cms/homesite/</guid>
       <description>
 
-&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
+&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
 
-&lt;h1 id=&#34;简介:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
-&lt;h2 id=&#34;项目背景:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;项目背景&lt;/h2&gt;
+&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
 
 &lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
 
@@ -630,7 +686,7 @@ zsh
 
 &lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;技术总览:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;技术总览&lt;/h2&gt;
+&lt;h2 id=&#34;技术总览&#34;&gt;技术总览&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;hugo&lt;/li&gt;
@@ -648,9 +704,9 @@ zsh
 &lt;li&gt;google ads&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;系统架构:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;系统架构&lt;/h1&gt;
+&lt;h1 id=&#34;系统架构&#34;&gt;系统架构&lt;/h1&gt;
 
-&lt;h2 id=&#34;静态页面生成模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;静态页面生成模块&lt;/h2&gt;
+&lt;h2 id=&#34;静态页面生成模块&#34;&gt;静态页面生成模块&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Themes 主题机制&lt;/li&gt;
@@ -659,22 +715,22 @@ zsh
 &lt;li&gt;Contents 内容格式化&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;信息采集聚合模块-aggregator:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
+&lt;h2 id=&#34;信息采集聚合模块-aggregator&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;RSS 采集&lt;/li&gt;
 &lt;li&gt;Twiter 采集&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;内容筛选解析格式化模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
+&lt;h2 id=&#34;内容筛选解析格式化模块&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;用户审查发布模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;用户审查发布模块&lt;/h2&gt;
+&lt;h2 id=&#34;用户审查发布模块&#34;&gt;用户审查发布模块&lt;/h2&gt;
 
-&lt;h2 id=&#34;ugc用户自主写文模块:75639b7b25ddfd3576fecbcd29437a20&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
+&lt;h2 id=&#34;ugc用户自主写文模块&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
@@ -691,9 +747,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/cms/rss/</guid>
       <description>
 
-&lt;h1 id=&#34;简介:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
-&lt;h2 id=&#34;项目背景:eceb479b7b3b2077408a2878a29e1320&#34;&gt;项目背景&lt;/h2&gt;
+&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
 
 &lt;p&gt;greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。&lt;/p&gt;
 
@@ -701,19 +757,19 @@ zsh
 
 &lt;p&gt;但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考文章:eceb479b7b3b2077408a2878a29e1320&#34;&gt;参考文章&lt;/h2&gt;
+&lt;h2 id=&#34;参考文章&#34;&gt;参考文章&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://sspai.com/27576&#34;&gt;观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader&lt;/a&gt;
 &lt;a href=&#34;http://www.zhihu.com/question/21278318&#34;&gt;RSS 阅读器 InoReader 的使用体验如何？&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;如何迁移自己的rss订阅:eceb479b7b3b2077408a2878a29e1320&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
+&lt;h2 id=&#34;如何迁移自己的rss订阅&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;登录feedly，点击用户，选择export OPML文件&lt;/li&gt;
 &lt;li&gt;将导出的OPML文件导入你想要使用的rss订阅服务&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&#34;私有云-rss-聚合器:eceb479b7b3b2077408a2878a29e1320&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
+&lt;h1 id=&#34;私有云-rss-聚合器&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;filipedeschamps/rss-feed-emitter
@@ -736,7 +792,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;freshrss:eceb479b7b3b2077408a2878a29e1320&#34;&gt;freshrss&lt;/h2&gt;
+&lt;h2 id=&#34;freshrss&#34;&gt;freshrss&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;php-pdo&lt;/li&gt;
@@ -745,7 +801,7 @@ zsh
 &lt;li&gt;pelican（静态页面生成部分）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;公有云-rss-订阅服务:eceb479b7b3b2077408a2878a29e1320&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
+&lt;h1 id=&#34;公有云-rss-订阅服务&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;feedly&lt;/li&gt;
@@ -754,9 +810,9 @@ zsh
 &lt;li&gt;feedwrangler&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;inoreader:eceb479b7b3b2077408a2878a29e1320&#34;&gt;inoreader&lt;/h2&gt;
+&lt;h2 id=&#34;inoreader&#34;&gt;inoreader&lt;/h2&gt;
 
-&lt;h2 id=&#34;缺点:eceb479b7b3b2077408a2878a29e1320&#34;&gt;缺点&lt;/h2&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 
 &lt;p&gt;Inoreader对于RSS源的抓取不如Feedly。&lt;/p&gt;
 
@@ -766,7 +822,7 @@ zsh
 &lt;li&gt;&lt;p&gt;总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;简介-1:eceb479b7b3b2077408a2878a29e1320&#34;&gt;简介&lt;/h2&gt;
+&lt;h2 id=&#34;简介-1&#34;&gt;简介&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.inoreader.com/&#34;&gt;http://www.inoreader.com/&lt;/a&gt;&lt;/p&gt;
 
@@ -797,7 +853,7 @@ zsh
 &lt;li&gt;Address book - Gmail integrated   Limited to 10 entries&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;feedly:eceb479b7b3b2077408a2878a29e1320&#34;&gt;feedly&lt;/h1&gt;
+&lt;h1 id=&#34;feedly&#34;&gt;feedly&lt;/h1&gt;
 
 &lt;p&gt;feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api&lt;/p&gt;
 
@@ -821,9 +877,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</guid>
       <description>
 
-&lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
+&lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
 
-&lt;h2 id=&#34;回顾angularjs-1:460bce4062430561faf966c08e14ab2b&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
+&lt;h2 id=&#34;回顾angularjs-1&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
 
 &lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
 
@@ -832,7 +888,7 @@ zsh
 - $resource 框架自带，对$http进行初步封装
 - $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
 
-&lt;h2 id=&#34;调研angularjs-2:460bce4062430561faf966c08e14ab2b&#34;&gt;调研AngularJS 2&lt;/h2&gt;
+&lt;h2 id=&#34;调研angularjs-2&#34;&gt;调研AngularJS 2&lt;/h2&gt;
 
 &lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
 
@@ -873,17 +929,17 @@ zsh
 
 &lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2-http开发详解:460bce4062430561faf966c08e14ab2b&#34;&gt;angular2/http开发详解&lt;/h1&gt;
+&lt;h1 id=&#34;angular2-http开发详解&#34;&gt;angular2/http开发详解&lt;/h1&gt;
 
-&lt;h2 id=&#34;参考教程:460bce4062430561faf966c08e14ab2b&#34;&gt;参考教程&lt;/h2&gt;
+&lt;h2 id=&#34;参考教程&#34;&gt;参考教程&lt;/h2&gt;
 
 &lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;官方手册:460bce4062430561faf966c08e14ab2b&#34;&gt;官方手册&lt;/h2&gt;
+&lt;h2 id=&#34;官方手册&#34;&gt;官方手册&lt;/h2&gt;
 
 &lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;使用体验:460bce4062430561faf966c08e14ab2b&#34;&gt;使用体验&lt;/h3&gt;
+&lt;h3 id=&#34;使用体验&#34;&gt;使用体验&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
@@ -905,70 +961,18 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/</guid>
       <description>
 
-&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
+&lt;h1 id=&#34;es6&#34;&gt;ES6&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
+&lt;h1 id=&#34;angular2&#34;&gt;Angular2&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
 英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
-      <link>https://ryanemax.github.io/cookbook/frontend/ng2-cms/</link>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-cms/</guid>
-      <description>
-
-&lt;h1 id=&#34;ng2-seo优化简介:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
-
-&lt;p&gt;ng2应用实现seo优化的方式有多种
-- universial 后端渲染
-- php 后端模拟渲染&lt;/p&gt;
-
-&lt;h1 id=&#34;blackstar-cms-ng2:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
-
-&lt;p&gt;技术选型
-- angular2-seed
-- typescript
-- HTML via HTTP
-- HTML via the Blackstar CMS JavaScript Client
-- .NET (ASP.NET MVC)&lt;/p&gt;
-
-&lt;p&gt;特色功能
-- 基本没有&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blackstarcms.net/&#34;&gt;http://blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;示例 &lt;a href=&#34;http://demo.blackstarcms.net/&#34;&gt;http://demo.blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;star 1 on &lt;a href=&#34;https://github.com/Blackstar-CMS/samples&#34;&gt;https://github.com/Blackstar-CMS/samples&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;respond-5-2-ng1:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
-
-&lt;p&gt;技术选型
-- Bootstrap 3
-- Polymer 1.0
-- Angular 1.4
-- php&lt;/p&gt;
-
-&lt;p&gt;特色功能
-- SEO优化
-- Themes切换&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.respondcms.com&#34;&gt;http://www.respondcms.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;star 714 on &lt;a href=&#34;https://github.com/madoublet/respond&#34;&gt;https://github.com/madoublet/respond&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;8 themes on &lt;a href=&#34;http://www.respondcms.com/page/themes&#34;&gt;http://www.respondcms.com/page/themes&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;ionic2&#34;&gt;ionic2&lt;/h1&gt;
 </description>
     </item>
     

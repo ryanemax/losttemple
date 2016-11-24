@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Study/It on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/study/it/</link>
-    <description>Recent content in Study/It on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/study/it/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 18 Oct 2015 09:46:37 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/study/it/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,23 +17,23 @@
       <guid>https://ryanemax.github.io/study/it/FullStackOfNewGeneration/</guid>
       <description>
 
-&lt;h1 id=&#34;0-short-intro:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;0.Short Intro.&lt;/h1&gt;
+&lt;h1 id=&#34;0-short-intro&#34;&gt;0.Short Intro.&lt;/h1&gt;
 
 &lt;p&gt;our team using the similar stack with lean.&lt;/p&gt;
 
-&lt;h2 id=&#34;front-end:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Front-End:&lt;/h2&gt;
+&lt;h2 id=&#34;front-end&#34;&gt;Front-End:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Desktop: Electron&lt;/li&gt;
 &lt;li&gt;Mobile: Ionic + Cordova Plugin&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;design:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Design&lt;/h2&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
 
 &lt;p&gt;Material-Design for Angularjs&amp;rsquo;s Desktop apps.
 Ionic-Material for Angularjs&amp;rsquo;s Mobile apps.&lt;/p&gt;
 
-&lt;h2 id=&#34;back-end:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Back-End&lt;/h2&gt;
+&lt;h2 id=&#34;back-end&#34;&gt;Back-End&lt;/h2&gt;
 
 &lt;p&gt;Laravel for normal HTTP REST API.
 Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt;/p&gt;
@@ -42,7 +41,7 @@ Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt
 &lt;p&gt;RAML for generating SDK files both of front/back-end.
 Admiring that RAML1.0 is comming.&lt;/p&gt;
 
-&lt;h2 id=&#34;database:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Database&lt;/h2&gt;
+&lt;h2 id=&#34;database&#34;&gt;Database&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Postgresql(for gis) we like it very much.&lt;/li&gt;
@@ -52,7 +51,7 @@ Admiring that RAML1.0 is comming.&lt;/p&gt;
 &lt;p&gt;A developping project for old-age caring, in chinese is, 智康宝.
 &lt;a href=&#34;http://www.zkkj168.com/&#34;&gt;http://www.zkkj168.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;embeded-software:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Embeded Software&lt;/h2&gt;
+&lt;h2 id=&#34;embeded-software&#34;&gt;Embeded Software&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;stm32&lt;/li&gt;
@@ -60,15 +59,15 @@ Admiring that RAML1.0 is comming.&lt;/p&gt;
 &lt;li&gt;Arm M Series&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;1-the-hope-for-lean:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;1.The Hope for lean&lt;/h1&gt;
+&lt;h1 id=&#34;1-the-hope-for-lean&#34;&gt;1.The Hope for lean&lt;/h1&gt;
 
-&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
+&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
 
 &lt;p&gt;It&amp;rsquo;s good for faster UI building.
 Maybe this hope is for a serial of Develop Tools.
 Only for a framework, a best yeoman-generator is enough.&lt;/p&gt;
 
-&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
+&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
 
 &lt;p&gt;You know, the Angulajs&amp;rsquo;s Team is supporting RAML too.
 It&amp;rsquo;s good for the Restful API &amp;amp; Better consistency of json data.
@@ -77,7 +76,7 @@ raml2html is good.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install raml2html --save
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2:dfa507b4f55678dc1c003406fcaf4f25&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
+&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
 
 &lt;p&gt;we pursuing the next generation.&lt;/p&gt;
 </description>
@@ -91,7 +90,7 @@ raml2html is good.&lt;/p&gt;
       <guid>https://ryanemax.github.io/study/it/warneverchange/</guid>
       <description>
 
-&lt;h1 id=&#34;序言-战争从未改变-war-war-never-changes:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;序言：战争从未改变 War，War Never changes&lt;/h1&gt;
+&lt;h1 id=&#34;序言-战争从未改变-war-war-never-changes&#34;&gt;序言：战争从未改变 War，War Never changes&lt;/h1&gt;
 
 &lt;p&gt;关键字：战争 信息时代&lt;/p&gt;
 
@@ -135,11 +134,11 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;这是1987年9月14日从北京向海外发出的中国第一封电子邮件，揭开了中国的信息时代拉开了序幕。&lt;/p&gt;
 
-&lt;h1 id=&#34;开篇-信息科技战争-里程碑及个人介绍-团队介绍:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;开篇：信息科技战争 （里程碑及个人介绍，团队介绍）&lt;/h1&gt;
+&lt;h1 id=&#34;开篇-信息科技战争-里程碑及个人介绍-团队介绍&#34;&gt;开篇：信息科技战争 （里程碑及个人介绍，团队介绍）&lt;/h1&gt;
 
 &lt;p&gt;life in ANAS IT is about to change.&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的开采机械-谷歌-搜索引擎:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的开采机械——谷歌（搜索引擎）&lt;/h2&gt;
+&lt;h2 id=&#34;信息的开采机械-谷歌-搜索引擎&#34;&gt;信息的开采机械——谷歌（搜索引擎）&lt;/h2&gt;
 
 &lt;p&gt;关键字：谷歌 信息搜集&lt;/p&gt;
 
@@ -165,7 +164,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;那么到底是什么阻碍了国民正常使用互联网，GFW（中国国家防火墙），越过长城走向世界。&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的灰色领域-黑客之间的较量:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的灰色领域——黑客之间的较量&lt;/h2&gt;
+&lt;h2 id=&#34;信息的灰色领域-黑客之间的较量&#34;&gt;信息的灰色领域——黑客之间的较量&lt;/h2&gt;
 
 &lt;p&gt;关键字：恶意攻击、人肉搜索、盗版资源&lt;/p&gt;
 
@@ -193,7 +192,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;与之齐名的云服务平台也只有阿里云了，阿里云则是招安了一批以道哥为首年轻的天才黑客，组建了阿里云安全团队。&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的欺骗-伪造:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的欺骗——伪造&lt;/h2&gt;
+&lt;h2 id=&#34;信息的欺骗-伪造&#34;&gt;信息的欺骗——伪造&lt;/h2&gt;
 
 &lt;p&gt;关键词：金融诈骗 钓鱼 破坏&lt;/p&gt;
 
@@ -203,7 +202,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;2011-2013 又是三年，净网计划，国家网警部队建设趋于完善。&lt;/p&gt;
 
-&lt;h2 id=&#34;信息的洪流-拒绝服务攻击:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;信息的洪流——拒绝服务攻击&lt;/h2&gt;
+&lt;h2 id=&#34;信息的洪流-拒绝服务攻击&#34;&gt;信息的洪流——拒绝服务攻击&lt;/h2&gt;
 
 &lt;p&gt;关键词：无法抵御 刑事责任&lt;/p&gt;
 
@@ -236,7 +235,7 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;2015.8.11 Alphabet成立，google市值积累到全球第二大科技公司，成立了真正意义上的&lt;/p&gt;
 
-&lt;h1 id=&#34;主场-anas理念-团队构成-服务理念:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;主场：ANAS理念 （团队构成，服务理念）&lt;/h1&gt;
+&lt;h1 id=&#34;主场-anas理念-团队构成-服务理念&#34;&gt;主场：ANAS理念 （团队构成，服务理念）&lt;/h1&gt;
 
 &lt;p&gt;2010 运营代理网络游戏，第一桶金，半年收入200k&lt;/p&gt;
 
@@ -261,13 +260,13 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;2015.4.22 这一天，ANAS团队开始萌芽，是技术力量与商业头脑的碰撞，是灵感与&lt;/p&gt;
 
-&lt;h2 id=&#34;1-全方位的技术建设:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;1.全方位的技术建设&lt;/h2&gt;
+&lt;h2 id=&#34;1-全方位的技术建设&#34;&gt;1.全方位的技术建设&lt;/h2&gt;
 
-&lt;h3 id=&#34;设计:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;设计&lt;/h3&gt;
+&lt;h3 id=&#34;设计&#34;&gt;设计&lt;/h3&gt;
 
 &lt;p&gt;用户需求解耦，系统架构设计，UI/UX设计&lt;/p&gt;
 
-&lt;h3 id=&#34;开发:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;开发&lt;/h3&gt;
+&lt;h3 id=&#34;开发&#34;&gt;开发&lt;/h3&gt;
 
 &lt;p&gt;抵制违背原则的，一套通用技术解决方案完成所有的开发需求。&lt;/p&gt;
 
@@ -286,11 +285,11 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;java/obj-c 开发移动设备底层系统功能&lt;/p&gt;
 
-&lt;h3 id=&#34;测试:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;测试&lt;/h3&gt;
+&lt;h3 id=&#34;测试&#34;&gt;测试&lt;/h3&gt;
 
 &lt;p&gt;功能测试，压力测试，用户体验测试&lt;/p&gt;
 
-&lt;h3 id=&#34;运维:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;运维&lt;/h3&gt;
+&lt;h3 id=&#34;运维&#34;&gt;运维&lt;/h3&gt;
 
 &lt;p&gt;阿里云6台服务器，IDC机房2台服务器，UCloud及腾讯云服务器&lt;/p&gt;
 
@@ -304,21 +303,21 @@ could be acquired.&lt;/p&gt;
 
 &lt;p&gt;多台服务器管理如一台，主平台服务器双活备份，保证数据安全及稳定性。&lt;/p&gt;
 
-&lt;h3 id=&#34;安全:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;安全&lt;/h3&gt;
+&lt;h3 id=&#34;安全&#34;&gt;安全&lt;/h3&gt;
 
-&lt;h2 id=&#34;2-做解决方案-而不是程序-也不是外包:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;2.做解决方案，而不是程序、也不是外包&lt;/h2&gt;
+&lt;h2 id=&#34;2-做解决方案-而不是程序-也不是外包&#34;&gt;2.做解决方案，而不是程序、也不是外包&lt;/h2&gt;
 
 &lt;p&gt;信息科技公司要做的不是开发程序、承接外包，而是用科技方式解决实际问题。&lt;/p&gt;
 
 &lt;p&gt;技术是强有力的实现手段与工具，是用来解决实际问题的武器。&lt;/p&gt;
 
-&lt;h3 id=&#34;什么是企业信息化-什么是解决方案:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;什么是企业信息化，什么是解决方案？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是企业信息化-什么是解决方案&#34;&gt;什么是企业信息化，什么是解决方案？&lt;/h3&gt;
 
 &lt;p&gt;什么是企业信息化？我就讲个故事吧。&lt;/p&gt;
 
 &lt;p&gt;为正康公司提供的整套智慧养老平台的解决方案，是安纳斯团队成功达成合作的第一个大型项目。&lt;/p&gt;
 
-&lt;h3 id=&#34;经验不足的外包团队-将平台级别的需求做成了一个门户网站:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;经验不足的外包团队，将平台级别的需求做成了一个门户网站&lt;/h3&gt;
+&lt;h3 id=&#34;经验不足的外包团队-将平台级别的需求做成了一个门户网站&#34;&gt;经验不足的外包团队，将平台级别的需求做成了一个门户网站&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;我们与正康的相识，也算是惊心动魄。
 在九月初也是一次会场，主角是：郭博士 中国孤独症机构服务协会会长兼秘书长
@@ -342,7 +341,7 @@ could be acquired.&lt;/p&gt;
 同时警示钟总这次回去一定得和这个团队谈谈，平台必须尽快完善。
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;技术只是工具-提供可以实现客户所需的最终目标的解决方案-才是信息可以应该做的:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;技术只是工具，提供可以实现客户所需的最终目标的解决方案，才是信息可以应该做的&lt;/h3&gt;
+&lt;h3 id=&#34;技术只是工具-提供可以实现客户所需的最终目标的解决方案-才是信息可以应该做的&#34;&gt;技术只是工具，提供可以实现客户所需的最终目标的解决方案，才是信息可以应该做的&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;半个月过去了，我在钟总的朋友带领之下到了邵阳市，准备以朋友身份帮助钟总与对方技术团队交涉，协助他们完成平台的完善。
 
@@ -369,9 +368,9 @@ could be acquired.&lt;/p&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;邀请客户参与的开发方式-不仅赢得信赖-还能实现客户真正所要的信息化需求:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;邀请客户参与的开发方式，不仅赢得信赖，还能实现客户真正所要的信息化需求&lt;/h3&gt;
+&lt;h3 id=&#34;邀请客户参与的开发方式-不仅赢得信赖-还能实现客户真正所要的信息化需求&#34;&gt;邀请客户参与的开发方式，不仅赢得信赖，还能实现客户真正所要的信息化需求&lt;/h3&gt;
 
-&lt;h1 id=&#34;总结-感谢:e76b6345573ce64a928e5c2a2490dc4b&#34;&gt;总结：感谢&lt;/h1&gt;
+&lt;h1 id=&#34;总结-感谢&#34;&gt;总结：感谢&lt;/h1&gt;
 
 &lt;p&gt;到了最后，对于团队发展到今天的规模，我是欣慰的。&lt;/p&gt;
 

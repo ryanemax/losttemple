@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -110,21 +110,21 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="0-models写法技巧及migration标准:2ab5870f91c2ce37f07c26e87656e181">0.Models写法技巧及Migration标准</h1>
+<h1 id="0-models写法技巧及migration标准">0.Models写法技巧及Migration标准</h1>
 
-<h2 id="法则:2ab5870f91c2ce37f07c26e87656e181">法则</h2>
+<h2 id="法则">法则</h2>
 
 <p><strong>基本满足大驼峰命名法则</strong>
 首字母大写
 &ldquo;_&rdquo; 忽略后大写</p>
 
-<h2 id="实例:2ab5870f91c2ce37f07c26e87656e181">实例</h2>
+<h2 id="实例">实例</h2>
 
 <p>device_id 对应 DeviceID
 create_time 对应 CreateTime
 location 对应 Location</p>
 
-<h2 id="官方实例:2ab5870f91c2ce37f07c26e87656e181">官方实例</h2>
+<h2 id="官方实例">官方实例</h2>
 
 <pre><code class="language-go">type User struct {
     ID           int
@@ -166,9 +166,9 @@ type Language struct {
 }
 </code></pre>
 
-<h1 id="1-gorm实践:2ab5870f91c2ce37f07c26e87656e181">1.GORM实践</h1>
+<h1 id="1-gorm实践">1.GORM实践</h1>
 
-<h2 id="数据库:2ab5870f91c2ce37f07c26e87656e181">数据库</h2>
+<h2 id="数据库">数据库</h2>
 
 <pre><code class="language-sql">MariaDB [zwjj]&gt; desc zw_device;
 +-------------+---------------------+------+-----+---------+----------------+
@@ -190,7 +190,7 @@ type Language struct {
 +-------------+---------------------
 </code></pre>
 
-<h2 id="import:2ab5870f91c2ce37f07c26e87656e181">import</h2>
+<h2 id="import">import</h2>
 
 <pre><code class="language-golang">import(
         &quot;fmt&quot;
@@ -201,7 +201,7 @@ type Language struct {
 )
 </code></pre>
 
-<h2 id="define-structs-models-in-gorm:2ab5870f91c2ce37f07c26e87656e181">define Structs(Models) in gorm</h2>
+<h2 id="define-structs-models-in-gorm">define Structs(Models) in gorm</h2>
 
 <pre><code class="language-golang">type Device struct {
         DeviceID    int
@@ -222,7 +222,7 @@ func (d Device) TableName() string {
 
 </code></pre>
 
-<h2 id="get-handle-row-in-gorm:2ab5870f91c2ce37f07c26e87656e181">get/handle row in gorm</h2>
+<h2 id="get-handle-row-in-gorm">get/handle row in gorm</h2>
 
 <p>Locsearch实现了查找device_id = 4设备的详细信息</p>
 

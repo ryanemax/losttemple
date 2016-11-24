@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -110,11 +110,11 @@ window.onload=function(){
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="markdown制作ppt最佳实践:70a06631edd194abeda3ccc505c67c40">Markdown制作PPT最佳实践</h1>
+<h1 id="markdown制作ppt最佳实践">Markdown制作PPT最佳实践</h1>
 
 <p><a href="http://pandoc.org/demos.html">http://pandoc.org/demos.html</a></p>
 
-<h1 id="一-reveal-js-pandoc-推荐:70a06631edd194abeda3ccc505c67c40">一、reveal.js + pandoc（推荐）</h1>
+<h1 id="一-reveal-js-pandoc-推荐">一、reveal.js + pandoc（推荐）</h1>
 
 <ul>
 <li>HTML便于CSS样式修改</li>
@@ -132,37 +132,37 @@ pandoc -s --mathml -i -t dzslides SLIDES -o example16a.html
 pandoc -s --webtex -i -t slidy SLIDES -o example16b.html
 </code></pre>
 
-<h2 id="如何为html添加缺失的reveal-js:70a06631edd194abeda3ccc505c67c40">如何为html添加缺失的reveal.js</h2>
+<h2 id="如何为html添加缺失的reveal-js">如何为html添加缺失的reveal.js</h2>
 
 <pre><code class="language-sh">## https://github.com/anasinc/getsite
 ## 获取revealjs目录，复制到ppt同级目录中即可
 ./getsite.sh http://pandoc.org/demo/example16d.html
 </code></pre>
 
-<h1 id="二-revel-js模板定制:70a06631edd194abeda3ccc505c67c40">二、Revel.js模板定制</h1>
+<h1 id="二-revel-js模板定制">二、Revel.js模板定制</h1>
 
 <p>参考项目：<a href="https://github.com/yanping/reveal.js-with-pandoc">https://github.com/yanping/reveal.js-with-pandoc</a></p>
 
-<h1 id="三-pandoc-beamer-slide-show:70a06631edd194abeda3ccc505c67c40">三、pandoc + Beamer slide show</h1>
+<h1 id="三-pandoc-beamer-slide-show">三、pandoc + Beamer slide show</h1>
 
 <pre><code class="language-sh">pandoc -t beamer --latex-engine=xelatex README.md -o readppt.pdf -V mainfont=&quot;文泉驿微米黑&quot;
 </code></pre>
 
-<h1 id="其他方式:70a06631edd194abeda3ccc505c67c40">其他方式</h1>
+<h1 id="其他方式">其他方式</h1>
 
-<h2 id="nodeppt:70a06631edd194abeda3ccc505c67c40">nodeppt</h2>
+<h2 id="nodeppt">nodeppt</h2>
 
 <p><a href="https://github.com/ksky521/nodeppt/">https://github.com/ksky521/nodeppt/</a></p>
 
 <p><a href="http://ju.outofmemory.cn/entry/89175">推荐nodeppt：使用markdown语法来写网页ppt</a></p>
 
-<h2 id="landslide:70a06631edd194abeda3ccc505c67c40">landslide</h2>
+<h2 id="landslide">landslide</h2>
 
 <p><a href="https://github.com/adamzap/landslide">https://github.com/adamzap/landslide</a></p>
 
 <p>Generate HTML5 slideshows from markdown, ReST, or textile</p>
 
-<h1 id="md转ppt的shell脚本实现:70a06631edd194abeda3ccc505c67c40">md转ppt的shell脚本实现</h1>
+<h1 id="md转ppt的shell脚本实现">md转ppt的shell脚本实现</h1>
 
 <pre><code class="language-sh">#!/bin/sh
 if [ $# -eq 0 ]       ##判断参数是否存在

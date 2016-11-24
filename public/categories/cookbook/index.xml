@@ -1,14 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cookbook on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/cookbook/</link>
-    <description>Recent content in Cookbook on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/cookbook/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 27 Aug 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AR时代来临了，带上兵器吧</title>
+      <link>https://ryanemax.github.io/cookbook/vrar/arplayer/</link>
+      <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/vrar/arplayer/</guid>
+      <description>
+
+&lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://www.zhihu.com/question/28779933&#34;&gt;https://www.zhihu.com/question/28779933&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景
+
+&lt;ul&gt;
+&lt;li&gt;H5 意味着在手机而非 PC 上实现&lt;/li&gt;
+&lt;li&gt;AR 意味着需要获取实时的视频流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/323922423e94c7831ffd37b8a10efe70_b.png&#34; alt=&#34;WebRTC&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;条件
+
+&lt;ul&gt;
+&lt;li&gt;Android 5以上&lt;/li&gt;
+&lt;li&gt;原生Chrome浏览器&lt;/li&gt;
+&lt;li&gt;2016.9.20 update&lt;/li&gt;
+&lt;li&gt;手机QQ 微信&lt;/li&gt;
+&lt;li&gt;接入 QQ 浏览器 X5 内核的 Webview&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;假如上面的条件已经满足，接下来有几个库可以实现：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jeromeetienne/threex.webar&#34;&gt;https://github.com/jeromeetienne/threex.webar&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 107&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awe-media/awe.js&#34;&gt;https://github.com/awe-media/awe.js&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 486&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
@@ -18,7 +73,7 @@
       <guid>https://ryanemax.github.io/cookbook/tool/bashonwindows/</guid>
       <description>
 
-&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
+&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
 
@@ -27,13 +82,13 @@
 &amp;quot;SSH server broker&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
+&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
 
-&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
+&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
 
@@ -45,11 +100,11 @@ service ssh start
 zsh
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
+&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
 
 &lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
 
-&lt;h1 id=&#34;npm-fs-watch问题-error:15b7bf34ea7a9ec7413e4624150fca65&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
+&lt;h1 id=&#34;npm-fs-watch问题-error&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
 
@@ -65,7 +120,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
-&lt;h1 id=&#34;nginx-反向代理:14e79cee872ccae728a117a22b90a82a&#34;&gt;Nginx 反向代理&lt;/h1&gt;
+&lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;可通过域名转发过滤&lt;/li&gt;
@@ -74,9 +129,9 @@ zsh
 &lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;传统方式:14e79cee872ccae728a117a22b90a82a&#34;&gt;传统方式&lt;/h1&gt;
+&lt;h1 id=&#34;传统方式&#34;&gt;传统方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;多网卡绑定固定ip:14e79cee872ccae728a117a22b90a82a&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
+&lt;h2 id=&#34;多网卡绑定固定ip&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本高
@@ -88,7 +143,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;端口映射:14e79cee872ccae728a117a22b90a82a&#34;&gt;端口映射&lt;/h2&gt;
+&lt;h2 id=&#34;端口映射&#34;&gt;端口映射&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -96,7 +151,7 @@ zsh
 &lt;li&gt;端口数有限&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;dmz:14e79cee872ccae728a117a22b90a82a&#34;&gt;DMZ&lt;/h2&gt;
+&lt;h2 id=&#34;dmz&#34;&gt;DMZ&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;成本低&lt;/li&gt;
@@ -114,9 +169,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
-&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+&lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+&lt;h2 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h2&gt;
 
 &lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
 
@@ -129,9 +184,9 @@ zsh
 &lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
 &lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+&lt;h1 id=&#34;服务演示&#34;&gt;服务演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+&lt;h2 id=&#34;mopaas&#34;&gt;MoPaaS&lt;/h2&gt;
 
 &lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
 
@@ -162,9 +217,9 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/api/apitrends/</guid>
       <description>
 
-&lt;h1 id=&#34;简介:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
-&lt;h2 id=&#34;api-生态图解:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API 生态图解&lt;/h2&gt;
+&lt;h2 id=&#34;api-生态图解&#34;&gt;API 生态图解&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -201,7 +256,7 @@ zsh
 &lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api-spec-规则制定:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+&lt;h2 id=&#34;api-spec-规则制定&#34;&gt;API Spec 规则制定&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
 
@@ -210,7 +265,7 @@ zsh
 &lt;li&gt;swagger&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api构建工具链:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API构建工具链&lt;/h2&gt;
+&lt;h2 id=&#34;api构建工具链&#34;&gt;API构建工具链&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
 
@@ -220,7 +275,7 @@ zsh
 &lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;api-mbaas服务:c2832be018329e7d6bb22f0e0240e73e&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+&lt;h2 id=&#34;api-mbaas服务&#34;&gt;API-MBaaS服务&lt;/h2&gt;
 
 &lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
 
@@ -240,7 +295,7 @@ zsh
       <guid>https://ryanemax.github.io/cookbook/pkm/card/</guid>
       <description>
 
-&lt;h1 id=&#34;资料搜集:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;资料搜集&lt;/h1&gt;
+&lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
 
@@ -248,9 +303,9 @@ zsh
 
 &lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;实际体验:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;实际体验&lt;/h1&gt;
+&lt;h1 id=&#34;实际体验&#34;&gt;实际体验&lt;/h1&gt;
 
-&lt;h2 id=&#34;zappoint-淘汰:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
+&lt;h2 id=&#34;zappoint-淘汰&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;邮箱登陆&lt;/li&gt;
@@ -270,7 +325,7 @@ zsh
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;camcard-名片万能王-选用:46f5cf4e2d371f2ee083669c3e540058&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
+&lt;h2 id=&#34;camcard-名片万能王-选用&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;邮箱/手机登陆
@@ -306,9 +361,9 @@ zsh
       <guid>https://ryanemax.github.io/README/</guid>
       <description>
 
-&lt;h1 id=&#34;个人知识管理-规划中:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;个人知识管理（规划中）&lt;/h1&gt;
+&lt;h1 id=&#34;个人知识管理-规划中&#34;&gt;个人知识管理（规划中）&lt;/h1&gt;
 
-&lt;h2 id=&#34;简介及技术点:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;简介及技术点&lt;/h2&gt;
+&lt;h2 id=&#34;简介及技术点&#34;&gt;简介及技术点&lt;/h2&gt;
 
 &lt;p&gt;距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知识的技巧。&lt;/p&gt;
 
@@ -341,14 +396,14 @@ zsh
 &lt;li&gt;linux shell脚本&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;todolist:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;TODOLIST&lt;/h2&gt;
+&lt;h2 id=&#34;todolist&#34;&gt;TODOLIST&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;[ ] 从Leanote迁移知识经验，从为知笔记迁移知识经验，制定对大量知识的知识搜集、获取、归纳环节&lt;/li&gt;
-&lt;li&gt;[x] 实现从私有知识库（加密git）到公有知识库（公开git）的知识分享环节&lt;/li&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 从Leanote迁移知识经验，从为知笔记迁移知识经验，制定对大量知识的知识搜集、获取、归纳环节&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 实现从私有知识库（加密git）到公有知识库（公开git）的知识分享环节&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;常用脚本:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;常用脚本&lt;/h2&gt;
+&lt;h2 id=&#34;常用脚本&#34;&gt;常用脚本&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## markdown生成pdf脚本
 ./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;
@@ -356,7 +411,7 @@ zsh
 ./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;环境安装:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;环境安装&lt;/h2&gt;
+&lt;h2 id=&#34;环境安装&#34;&gt;环境安装&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 本方案适用于全平台
 ## Linux系列/arch linux
@@ -379,13 +434,13 @@ pacman -S pandoc
 pacman -S git atom
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;知识管理-各环节详细实施方案:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;知识管理-各环节详细实施方案&lt;/h1&gt;
+&lt;h1 id=&#34;知识管理-各环节详细实施方案&#34;&gt;知识管理-各环节详细实施方案&lt;/h1&gt;
 
-&lt;h2 id=&#34;浏览环节-greader-绑定feedly账号:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（浏览环节）gReader，绑定feedly账号&lt;/h2&gt;
+&lt;h2 id=&#34;浏览环节-greader-绑定feedly账号&#34;&gt;（浏览环节）gReader，绑定feedly账号&lt;/h2&gt;
 
-&lt;h2 id=&#34;收藏环节-greader加星:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（收藏环节）gReader加星&lt;/h2&gt;
+&lt;h2 id=&#34;收藏环节-greader加星&#34;&gt;（收藏环节）gReader加星&lt;/h2&gt;
 
-&lt;h2 id=&#34;归纳环节-笔记文本管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（归纳环节）笔记文本管理&lt;/h2&gt;
+&lt;h2 id=&#34;归纳环节-笔记文本管理&#34;&gt;（归纳环节）笔记文本管理&lt;/h2&gt;
 
 &lt;p&gt;Git地址：&lt;a href=&#34;https://bitbucket.org/ryanemax/note&#34;&gt;https://bitbucket.org/ryanemax/note&lt;/a&gt;
 - /inbox&lt;/p&gt;
@@ -421,7 +476,7 @@ pacman -S git atom
 &lt;p&gt;记录个人在细分领域产生的心得、体验，以及对新技术的探索与尝试&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;分享环节-个人博客管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;（分享环节）个人博客管理&lt;/h2&gt;
+&lt;h2 id=&#34;分享环节-个人博客管理&#34;&gt;（分享环节）个人博客管理&lt;/h2&gt;
 
 &lt;p&gt;技术点：&lt;/p&gt;
 
@@ -433,9 +488,9 @@ pacman -S git atom
 &lt;li&gt;&lt;p&gt;github pagaes&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;存储资料及软件管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;存储资料及软件管理&lt;/h1&gt;
+&lt;h1 id=&#34;存储资料及软件管理&#34;&gt;存储资料及软件管理&lt;/h1&gt;
 
-&lt;h2 id=&#34;云盘存储:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;云盘存储&lt;/h2&gt;
+&lt;h2 id=&#34;云盘存储&#34;&gt;云盘存储&lt;/h2&gt;
 
 &lt;p&gt;百度云盘
 - meCareer（应用数据/bypy/Career）&lt;/p&gt;
@@ -457,7 +512,7 @@ pacman -S git atom
 
 &lt;p&gt;QQ微云&lt;/p&gt;
 
-&lt;h2 id=&#34;软件管理:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;软件管理&lt;/h2&gt;
+&lt;h2 id=&#34;软件管理&#34;&gt;软件管理&lt;/h2&gt;
 
 &lt;p&gt;Windows：Oneget+chocolatey.org&lt;/p&gt;
 
@@ -469,7 +524,7 @@ pacman -S git atom
 
 &lt;p&gt;OpenWrt：opkg&lt;/p&gt;
 
-&lt;h2 id=&#34;博客:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;博客&lt;/h2&gt;
+&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;GithubPages
@@ -490,6 +545,33 @@ http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118 go get -u git
 git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&#34;github-pages百度收录策略&#34;&gt;Github Pages百度收录策略&lt;/h3&gt;
+
+&lt;p&gt;利用Github Pages创建博客的国内作者一定有这样的麻烦： Github对Baidu Spider的用户代理都会返回403状态码，因而百度无法收录博客内容。 为解决此问题，小编在2016年01月21日在Gitcafe Pages（今Coding.net）创建镜像， 并设置域名解析百度线路来的Harttle.com到该镜像。 如今百度已经可以正常收录Harttle.com的文章了，撰文在此希望能帮到别人。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一个域名：百度收录、Google收录、用户访问的域名是相同的。&lt;/li&gt;
+&lt;li&gt;免费使用：不需要购买VPS或者CDN服务。&lt;/li&gt;
+&lt;li&gt;实时同步：不存在CDN的不同步的问题，同时也不存在CDN线路选择不确定的问题。&lt;/li&gt;
+&lt;li&gt;不需备案：使用Coding.net的域名做CNAME，不需自己备案。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;注册coding ryn ryanemax@gmail.com&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;仓库同步&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;既然如今Gitcafe的Git仓库服务已经转移到了Coding.net， 下文中以Coding.net中的配置为例。
+  首先需要在Coding.net创建仓库并开启Pages服务。首先创建一个&lt;strong&gt;coding-pages&lt;/strong&gt;分支， 然后把它push到Coding.net上的仓库。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  git checkout -b coding-pages
+  git remote add coding.net git@git.coding.net:harttle/harttle.git
+  git push coding.net coding-pages
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在Coding.net上看到自己的仓库代码后，在Pages设置页面中开启Pages服务。 此时，可以访问&lt;a href=&#34;http://ryn.coding.me来测试了（可能会有一分钟左右的延迟，之间会404）。&#34;&gt;http://ryn.coding.me来测试了（可能会有一分钟左右的延迟，之间会404）。&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -501,7 +583,7 @@ git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
       <guid>https://ryanemax.github.io/cookbook/fuckGFW/</guid>
       <description>
 
-&lt;h1 id=&#34;windows程序socks代理-用于游戏:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
+&lt;h1 id=&#34;windows程序socks代理-用于游戏&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;shadowsocks-gui&lt;/p&gt;&lt;/li&gt;
@@ -509,7 +591,7 @@ git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
 &lt;li&gt;&lt;p&gt;SocksCap64 3.0  &lt;a href=&#34;http://www.sockscap64.com/&#34;&gt;http://www.sockscap64.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;linux代理:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Linux代理&lt;/h1&gt;
+&lt;h1 id=&#34;linux代理&#34;&gt;Linux代理&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;apt-get install shadowsocks&lt;/li&gt;
@@ -530,9 +612,9 @@ export https_proxy=http://127.0.0.1:8118
       <guid>https://ryanemax.github.io/cookbook/devops/linux-tar/</guid>
       <description>
 
-&lt;h1 id=&#34;linux最佳压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
+&lt;h1 id=&#34;linux最佳压缩方式&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
 
-&lt;h2 id=&#34;常用压缩方式:75faa320f80344dacc83083e472c77ff&#34;&gt;常用压缩方式&lt;/h2&gt;
+&lt;h2 id=&#34;常用压缩方式&#34;&gt;常用压缩方式&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
 tar -czvf ***.tar.gz
@@ -542,11 +624,11 @@ tar -xzvf ***.tar.gz
 tar -xjvf ***.tar.bz2
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;高压缩率方式:75faa320f80344dacc83083e472c77ff&#34;&gt;高压缩率方式&lt;/h2&gt;
+&lt;h2 id=&#34;高压缩率方式&#34;&gt;高压缩率方式&lt;/h2&gt;
 
 &lt;p&gt;gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下&lt;/p&gt;
 
-&lt;h3 id=&#34;压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz:75faa320f80344dacc83083e472c77ff&#34;&gt;压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz&lt;/h3&gt;
+&lt;h3 id=&#34;压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz&#34;&gt;压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
 #更简洁的方式
@@ -604,15 +686,15 @@ $tar -axf 1.tar.xz 1/a.bin
 
 &lt;p&gt;官方手册：&lt;a href=&#34;http://flight-manual.atom.io/&#34;&gt;http://flight-manual.atom.io/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;搜集尝试阶段:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;搜集尝试阶段&lt;/h1&gt;
+&lt;h1 id=&#34;搜集尝试阶段&#34;&gt;搜集尝试阶段&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.open-open.com/news/view/1c81d20#_label13&#34;&gt;开发者的15个实用的 Atom Packages&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/Darren_code/p/atom.html&#34;&gt;http://www.cnblogs.com/Darren_code/p/atom.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;setting:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Setting&lt;/h1&gt;
+&lt;h1 id=&#34;setting&#34;&gt;Setting&lt;/h1&gt;
 
-&lt;h2 id=&#34;取消保存时自动格式化markdown:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;取消保存时自动格式化Markdown&lt;/h2&gt;
+&lt;h2 id=&#34;取消保存时自动格式化markdown&#34;&gt;取消保存时自动格式化Markdown&lt;/h2&gt;
 
 &lt;p&gt;整合hugo后，头部往往需要写入toml/json的配置项，如果保存自动美化，会导致配置项格式错乱&lt;/p&gt;
 
@@ -620,17 +702,17 @@ $tar -axf 1.tar.xz 1/a.bin
 
 &lt;p&gt;[x] Run On Save&lt;/p&gt;
 
-&lt;h2 id=&#34;开启代码美化:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;开启代码美化&lt;/h2&gt;
+&lt;h2 id=&#34;开启代码美化&#34;&gt;开启代码美化&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;atom-beautify&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;markdown编辑器深度配置:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Markdown编辑器深度配置&lt;/h1&gt;
+&lt;h1 id=&#34;markdown编辑器深度配置&#34;&gt;Markdown编辑器深度配置&lt;/h1&gt;
 
-&lt;h1 id=&#34;实用快捷键:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;实用快捷键&lt;/h1&gt;
+&lt;h1 id=&#34;实用快捷键&#34;&gt;实用快捷键&lt;/h1&gt;
 
-&lt;h1 id=&#34;snippets:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Snippets&lt;/h1&gt;
+&lt;h1 id=&#34;snippets&#34;&gt;Snippets&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://atom.io/packages/snippets&#34;&gt;https://atom.io/packages/snippets&lt;/a&gt;&lt;/p&gt;
 
@@ -651,19 +733,30 @@ $tar -axf 1.tar.xz 1/a.bin
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/atom/snippets/issues/41&#34;&gt;https://github.com/atom/snippets/issues/41&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;ide插件:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;IDE插件&lt;/h1&gt;
+&lt;h1 id=&#34;ide插件&#34;&gt;IDE插件&lt;/h1&gt;
 
-&lt;p&gt;vim-mode&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vim-mode&lt;/li&gt;
+&lt;li&gt;linter&lt;/li&gt;
+&lt;li&gt;linter-eslint&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h1 id=&#34;语言插件:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;语言插件&lt;/h1&gt;
+&lt;h1 id=&#34;语言插件&#34;&gt;语言插件&lt;/h1&gt;
 
-&lt;h2 id=&#34;ng2开发环境:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;ng2开发环境&lt;/h2&gt;
+&lt;h2 id=&#34;nodejs-es6-开发环境&#34;&gt;nodejs - ES6 开发环境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;es6-javascript&lt;/li&gt;
+&lt;li&gt;atom-ternjs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ng2开发环境&#34;&gt;ng2开发环境&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;atom-typescript&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;go语言环境:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;Go语言环境&lt;/h2&gt;
+&lt;h2 id=&#34;go语言环境&#34;&gt;Go语言环境&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;go-plus&lt;/li&gt;
@@ -678,7 +771,7 @@ govet
 godef
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;奇妙旅途:0c4c30e0f0a82a960a0f1ccfe326da40&#34;&gt;奇妙旅途&lt;/h1&gt;
+&lt;h1 id=&#34;奇妙旅途&#34;&gt;奇妙旅途&lt;/h1&gt;
 
 &lt;p&gt;activate-power-mode&lt;/p&gt;
 
@@ -692,25 +785,25 @@ apm install
     
     <item>
       <title>VR时代来临了，带上兵器吧</title>
-      <link>https://ryanemax.github.io/cookbook/VRdev/</link>
+      <link>https://ryanemax.github.io/cookbook/vrar/VRdev/</link>
       <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/VRdev/</guid>
+      <guid>https://ryanemax.github.io/cookbook/vrar/VRdev/</guid>
       <description>
 
-&lt;h1 id=&#34;vr时代来临了-带上兵器吧:9362a39e43924dc1b98451e8b087760e&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
+&lt;h1 id=&#34;vr时代来临了-带上兵器吧&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/1492977dbb40704485516d6f5baeef20_r.jpg&#34; alt=&#34;vr&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;1-vr入门行业方向选择:9362a39e43924dc1b98451e8b087760e&#34;&gt;1.VR入门行业方向选择&lt;/h1&gt;
+&lt;h1 id=&#34;1-vr入门行业方向选择&#34;&gt;1.VR入门行业方向选择&lt;/h1&gt;
 
 &lt;p&gt;1.行业付费应用，360全景预览&lt;/p&gt;
 
 &lt;p&gt;2.建筑及3D美工设计领域&lt;/p&gt;
 
-&lt;h1 id=&#34;2-客户端引擎选择:9362a39e43924dc1b98451e8b087760e&#34;&gt;2.客户端引擎选择&lt;/h1&gt;
+&lt;h1 id=&#34;2-客户端引擎选择&#34;&gt;2.客户端引擎选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-手机vr-是违背沉浸式体验的:9362a39e43924dc1b98451e8b087760e&#34;&gt;1.手机VR，是违背沉浸式体验的&lt;/h2&gt;
+&lt;h2 id=&#34;1-手机vr-是违背沉浸式体验的&#34;&gt;1.手机VR，是违背沉浸式体验的&lt;/h2&gt;
 
 &lt;p&gt;前提：移动设备性能超过台式机性能之前&lt;/p&gt;
 
@@ -728,7 +821,7 @@ apm install
 
 &lt;p&gt;谨慎选择Unity，如果做手机VR，首选Unity&lt;/p&gt;
 
-&lt;h2 id=&#34;2-unity-内置oculus的vr支持:9362a39e43924dc1b98451e8b087760e&#34;&gt;2.Unity 内置Oculus的VR支持&lt;/h2&gt;
+&lt;h2 id=&#34;2-unity-内置oculus的vr支持&#34;&gt;2.Unity 内置Oculus的VR支持&lt;/h2&gt;
 
 &lt;p&gt;优点：
 - 开发效率高
@@ -742,7 +835,7 @@ apm install
 
 &lt;p&gt;授权价格：&lt;/p&gt;
 
-&lt;h2 id=&#34;3-ue4:9362a39e43924dc1b98451e8b087760e&#34;&gt;3.UE4&lt;/h2&gt;
+&lt;h2 id=&#34;3-ue4&#34;&gt;3.UE4&lt;/h2&gt;
 
 &lt;p&gt;优点：
 - 画质极致
@@ -767,16 +860,16 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 
 &lt;p&gt;极致效率的键位变更&lt;/p&gt;
 
-&lt;h1 id=&#34;coding常用键位变更:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Coding常用键位变更&lt;/h1&gt;
+&lt;h1 id=&#34;coding常用键位变更&#34;&gt;Coding常用键位变更&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ctrl =&amp;gt; Caps Lock&lt;/li&gt;
 &lt;li&gt;Caps Lock =&amp;gt; Ctrl&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;linux下键位变更:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Linux下键位变更&lt;/h1&gt;
+&lt;h1 id=&#34;linux下键位变更&#34;&gt;Linux下键位变更&lt;/h1&gt;
 
-&lt;h1 id=&#34;windows键盘全局替换:8d7bddaf7aa40c0f6feac0d72fb26b39&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
+&lt;h1 id=&#34;windows键盘全局替换&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
 
 &lt;p&gt;可以利用第三方工具，或者直接在注册表中修改键位映射关系&lt;/p&gt;
 
@@ -862,13 +955,13 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
       <guid>https://ryanemax.github.io/cookbook/backend/messagesystem/</guid>
       <description>
 
-&lt;h1 id=&#34;常见开源消息系统-中间件技术评选:98a09982e72308c69ab2b124e86725d9&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
+&lt;h1 id=&#34;常见开源消息系统-中间件技术评选&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
 
-&lt;h2 id=&#34;golang项目中mq系统的选择:98a09982e72308c69ab2b124e86725d9&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
+&lt;h2 id=&#34;golang项目中mq系统的选择&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackshare.io/stackups/rabbitmq-vs-nsq&#34;&gt;http://stackshare.io/stackups/rabbitmq-vs-nsq&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;rabbitmq-golang-client:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
+&lt;h3 id=&#34;rabbitmq-golang-client&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/streadway/amqp&#34;&gt;https://github.com/streadway/amqp&lt;/a&gt;&lt;/p&gt;
 
@@ -876,7 +969,7 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 
 &lt;p&gt;适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准&lt;/p&gt;
 
-&lt;h3 id=&#34;gonsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;gonsq&lt;/h3&gt;
+&lt;h3 id=&#34;gonsq&#34;&gt;gonsq&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/nsqio/nsq&#34;&gt;https://github.com/nsqio/nsq&lt;/a&gt;&lt;/p&gt;
 
@@ -884,11 +977,11 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 
 &lt;p&gt;适用场景：弱事务，日志系统&lt;/p&gt;
 
-&lt;h3 id=&#34;kafka-flume:98a09982e72308c69ab2b124e86725d9&#34;&gt;kafka+flume&lt;/h3&gt;
+&lt;h3 id=&#34;kafka-flume&#34;&gt;kafka+flume&lt;/h3&gt;
 
 &lt;p&gt;适用场景：日志、大数据&lt;/p&gt;
 
-&lt;h2 id=&#34;消息系统的作用:98a09982e72308c69ab2b124e86725d9&#34;&gt;消息系统的作用&lt;/h2&gt;
+&lt;h2 id=&#34;消息系统的作用&#34;&gt;消息系统的作用&lt;/h2&gt;
 
 &lt;p&gt;异步处理、削减峰值、减少组件之间的耦合。&lt;/p&gt;
 
@@ -904,7 +997,7 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 &lt;li&gt;负载均衡&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;常见消息系统协议:98a09982e72308c69ab2b124e86725d9&#34;&gt;常见消息系统协议&lt;/h2&gt;
+&lt;h2 id=&#34;常见消息系统协议&#34;&gt;常见消息系统协议&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;STOMP&lt;/li&gt;
@@ -914,7 +1007,7 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 &lt;li&gt;自定格式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;较好的开源系统列表:98a09982e72308c69ab2b124e86725d9&#34;&gt;较好的开源系统列表&lt;/h2&gt;
+&lt;h2 id=&#34;较好的开源系统列表&#34;&gt;较好的开源系统列表&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;RabbitMQ&lt;/li&gt;
@@ -922,9 +1015,9 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 &lt;li&gt;Redis&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;nsq-和-rabiitmq的对比:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
+&lt;h1 id=&#34;nsq-和-rabiitmq的对比&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
 
-&lt;h2 id=&#34;nsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ&lt;/h2&gt;
+&lt;h2 id=&#34;nsq&#34;&gt;NSQ&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://nsq.io/overview/quick_start.html&#34;&gt;http://nsq.io/overview/quick_start.html&lt;/a&gt;
 &lt;img src=&#34;http://media.tumblr.com/edb403d38fc2bcc727b8655ea70eb3a7/tumblr_inline_mf8sfr2sp41qj3yp2.png&#34; alt=&#34;nsq&#34; /&gt;&lt;/p&gt;
@@ -953,7 +1046,7 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
 
 &lt;p&gt;RabbitMQ里面的Exchange类似nsqd，queen类似channel。&lt;/p&gt;
 
-&lt;h2 id=&#34;rabbitmq:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ&lt;/h2&gt;
+&lt;h2 id=&#34;rabbitmq&#34;&gt;RabbitMQ&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://img.blog.csdn.net/20140220173559828&#34; alt=&#34;RabbitMQ&#34; /&gt;&lt;/p&gt;
 
@@ -990,7 +1083,7 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
       <guid>https://ryanemax.github.io/cookbook/devops/dockerstart/</guid>
       <description>
 
-&lt;h1 id=&#34;installation:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;Installation&lt;/h1&gt;
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;# Windows
 cinst docker -y
@@ -999,11 +1092,11 @@ pacman -Sy docker
 apt-get install docker -y
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;initicial:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;Initicial&lt;/h1&gt;
+&lt;h1 id=&#34;initicial&#34;&gt;Initicial&lt;/h1&gt;
 
 &lt;p&gt;docker pull debian&lt;/p&gt;
 
-&lt;h2 id=&#34;faq-an-error-occurred-trying-to-connect-post:d36d9c0a100878c0c9cfad8cc505feb0&#34;&gt;FAQ: An error occurred trying to connect: Post &amp;hellip;..&lt;/h2&gt;
+&lt;h2 id=&#34;faq-an-error-occurred-trying-to-connect-post&#34;&gt;FAQ: An error occurred trying to connect: Post &amp;hellip;..&lt;/h2&gt;
 
 &lt;p&gt;问题描述：&lt;/p&gt;
 
@@ -1034,15 +1127,15 @@ docker version
       <guid>https://ryanemax.github.io/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
       <description>
 
-&lt;h1 id=&#34;萤石云开发实践:314fd259cb5f197b4160aabedce691db&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
+&lt;h1 id=&#34;萤石云开发实践&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
 
-&lt;h1 id=&#34;常用资料:314fd259cb5f197b4160aabedce691db&#34;&gt;常用资料&lt;/h1&gt;
+&lt;h1 id=&#34;常用资料&#34;&gt;常用资料&lt;/h1&gt;
 
 &lt;p&gt;SDK下载：&lt;a href=&#34;https://open.ys7.com/sdk.html&#34;&gt;https://open.ys7.com/sdk.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;常见问题:314fd259cb5f197b4160aabedce691db&#34;&gt;常见问题&lt;/h1&gt;
+&lt;h1 id=&#34;常见问题&#34;&gt;常见问题&lt;/h1&gt;
 
-&lt;h2 id=&#34;faq1-是否可以在web-手机页面播放萤石云视频:314fd259cb5f197b4160aabedce691db&#34;&gt;FAQ1:是否可以在web/手机页面播放萤石云视频？&lt;/h2&gt;
+&lt;h2 id=&#34;faq1-是否可以在web-手机页面播放萤石云视频&#34;&gt;FAQ1:是否可以在web/手机页面播放萤石云视频？&lt;/h2&gt;
 
 &lt;p&gt;(1)、针对用户分享到视频广场的视频，调用萤石接口说明文档3.16接口：&lt;/p&gt;
 
@@ -1051,242 +1144,6 @@ docker version
 &lt;p&gt;②获取到m3u8地址，可以在h5页面 &lt;video&gt; 标签里，进行播放。&lt;/p&gt;
 
 &lt;p&gt;(2)、针对用户下面的设备视频，如果要在web页面进行播放，需要下载pcsdk，封装成控件，进行播放。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Arch Linux软件选型整理</title>
-      <link>https://ryanemax.github.io/cookbook/devops/archlinux/</link>
-      <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
-      
-      <guid>https://ryanemax.github.io/cookbook/devops/archlinux/</guid>
-      <description>
-
-&lt;p&gt;#发行版本
-Arch Linux&lt;/p&gt;
-
-&lt;h1 id=&#34;0-系统安装:f206309cfada2fa2891560ce0981d178&#34;&gt;0.系统安装&lt;/h1&gt;
-
-&lt;h2 id=&#34;0-dd:f206309cfada2fa2891560ce0981d178&#34;&gt;0.dd&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dd if=/dev/zero of=/dev/sda bs=512 count=1
-parted -s /dev/sda mklabel msdos
-fdisk
-m
-o
-#清空GPT/MBR分区格式
-
-dd if=arch.iso of=/dev/sda
-#此处of为设备,而不是设备分区
-#无法引导需要尝试切换USB2.0/USB3.0接口
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;1-fdisk:f206309cfada2fa2891560ce0981d178&#34;&gt;1.fdisk&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option fdisk
-#SATA3.0中/dev/sda的跳线一定要接在0第一个位置
-fdisk /dev/sda
-n
-p
-default
-+40G
-
-n
-p
-default
-+80G
-
-p
-w
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option cfdisk
-cfdisk
-#选择dos(MBR)
-#设置bootable
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#option gdisk for UEFI/GPT
-efivar -l #测试ISO是否EFI
-gdisk /dev/sda
-#option cgdisk for UEFI/GPT
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;2-mkfs-ext4:f206309cfada2fa2891560ce0981d178&#34;&gt;2.mkfs.ext4&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkfs.ext4 /dev/sda1
-mkfs.ext4 /dev/sda2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;3-mount:f206309cfada2fa2891560ce0981d178&#34;&gt;3.mount&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mount /dev/sda1 /mnt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;4-install:f206309cfada2fa2891560ce0981d178&#34;&gt;4.install&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/pacman.d/mirrorlist
-pacstrap -i /mnt base net-tools
-genfstab -U -p /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
-
-arch-chroot /mnt /bin/bash
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;5-launcher:f206309cfada2fa2891560ce0981d178&#34;&gt;5.Launcher&lt;/h2&gt;
-
-&lt;p&gt;refer to &lt;a href=&#34;http://blog.lucode.net/linux/archlinux-install-tutorial.html&#34;&gt;http://blog.lucode.net/linux/archlinux-install-tutorial.html&lt;/a&gt;
-###syslinux&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;syslinux-install_update -i -a -m
-vim /boot/syslinux/syslinux.cfg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;pacman-source-configure:f206309cfada2fa2891560ce0981d178&#34;&gt;Pacman Source Configure&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/pacman.conf
-#添加archlinuxcn源
-[archlinuxcn]
-#The Chinese Arch Linux communities packages.
-SigLevel = Optional TrustedOnly
-Server   = http://repo.archlinuxcn.org/$arch
-
-#添加multiarch源
-[multilib]
-Include = /etc/pacman.d/mirrorlist
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;window-manager:f206309cfada2fa2891560ce0981d178&#34;&gt;window manager&lt;/h1&gt;
-
-&lt;p&gt;pacman -S xorg
-pacman -S xorg-xinit
-pacman -S awesome&lt;/p&gt;
-
-&lt;p&gt;pacman -S fcitx fcitx-configtool fcitx-qt5&lt;/p&gt;
-
-&lt;p&gt;awesome主题
-&lt;a href=&#34;http://awesome.naquadah.org/wiki/Beautiful_themes&#34;&gt;http://awesome.naquadah.org/wiki/Beautiful_themes&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#更换桌面
-cd /usr/share/awesome/themes/default
-cp -f ~/Desktop/hy1.png ./background.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;多屏幕:f206309cfada2fa2891560ce0981d178&#34;&gt;多屏幕&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#查看已接入显示器设备
-xrandr
-
-#awesome多屏幕设置
-xrandr --output eDP --mode 1366x768 --output VGA-0 --mode 1920x1080 --left-of eDP
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Mod4 + o //send to another screen&lt;/p&gt;
-
-&lt;h1 id=&#34;wifi:f206309cfada2fa2891560ce0981d178&#34;&gt;Wifi&lt;/h1&gt;
-
-&lt;p&gt;wifi-menu&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S dialog wpa_supplicant
-
-#连接Wifi指令
-ip link
-
-wpa_supplicant -D nl80211,wext -i wlp3s0 -c &amp;lt;(wpa_passphrase &amp;quot;KaiYuanTech&amp;quot; &amp;quot;940914940914&amp;quot;)
-
-dhcpcd wlp3s0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;terminal:f206309cfada2fa2891560ce0981d178&#34;&gt;Terminal&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S terminator
-
-#手动配置或者右键-Preferences
-~/.config/terminator/config
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;sh命令行:f206309cfada2fa2891560ce0981d178&#34;&gt;sh命令行&lt;/h1&gt;
-
-&lt;p&gt;pacman -S zsh&lt;/p&gt;
-
-&lt;h1 id=&#34;font-beautify:f206309cfada2fa2891560ce0981d178&#34;&gt;Font &amp;amp; Beautify&lt;/h1&gt;
-
-&lt;p&gt;pacman -S wqy-microhei  wqy-zenhei&lt;/p&gt;
-
-&lt;h1 id=&#34;input-method:f206309cfada2fa2891560ce0981d178&#34;&gt;Input Method&lt;/h1&gt;
-
-&lt;p&gt;pacman -S fcitx fcitx-qt5 fcitx-configtools&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#添加到.xinitrc的awesome前面
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=&amp;quot;@im=fcitx&amp;quot;
-fcitx -d &amp;amp;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;图书馆-笔记系统:f206309cfada2fa2891560ce0981d178&#34;&gt;图书馆&amp;amp;笔记系统&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S calibre
-pacman -S wiznote
-firefox http://www.leanote.com
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;financial-accounting:f206309cfada2fa2891560ce0981d178&#34;&gt;Financial &amp;amp; Accounting&lt;/h1&gt;
-
-&lt;p&gt;pacman -S gnucash&lt;/p&gt;
-
-&lt;h1 id=&#34;develop-tools:f206309cfada2fa2891560ce0981d178&#34;&gt;Develop Tools&lt;/h1&gt;
-
-&lt;p&gt;pacman -S android-studio&lt;/p&gt;
-
-&lt;h1 id=&#34;security-tools:f206309cfada2fa2891560ce0981d178&#34;&gt;Security Tools&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#渗透测试
-pacman -S metasploit
-#网络封包
-pacman -S wireshark
-#漏洞扫描
-pacman -S nmap
-pacman -S openvas
-nessus优于openvas，openvas仅为开源免费替代方案
-https://wiki.archlinux.org/index.php/Nessus
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;multi-media:f206309cfada2fa2891560ce0981d178&#34;&gt;Multi Media&lt;/h1&gt;
-
-&lt;h2 id=&#34;flash-plugin:f206309cfada2fa2891560ce0981d178&#34;&gt;Flash Plugin&lt;/h2&gt;
-
-&lt;p&gt;pacman -S flashplugin&lt;/p&gt;
-
-&lt;h2 id=&#34;audio-driver:f206309cfada2fa2891560ce0981d178&#34;&gt;Audio Driver&lt;/h2&gt;
-
-&lt;p&gt;pacman -S alsa-utils&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#配置card中MM为00，按m键
-alsamixer
-#查看声卡
-aplay -l
-#添加/etc/asound.conf文件，设置默认声卡
-defaults.ctl.card 1
-defaults.pcm.card 1
-defaults.timer.card 1
-#重载配置
-alsactl restore
-alsactl kill quit
-alsactl init 1
-#reboot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;数学建模:f206309cfada2fa2891560ce0981d178&#34;&gt;数学建模&lt;/h1&gt;
-
-&lt;p&gt;pacman -S sagemath
-&lt;a href=&#34;http://www.sagemath.org&#34;&gt;http://www.sagemath.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;disk-mnt-tool:f206309cfada2fa2891560ce0981d178&#34;&gt;Disk Mnt Tool&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S ntfs-3g
-mount /dev/&amp;lt;your-NTFS-partition&amp;gt; /media/&amp;lt;folder&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

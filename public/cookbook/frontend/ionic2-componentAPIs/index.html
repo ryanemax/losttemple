@@ -5,7 +5,7 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="ionic2,component,API|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://ryanemax.github.io/css/style.css" type="text/css">
 <link rel="alternate" href="https://ryanemax.github.io/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
@@ -110,7 +110,7 @@ window.onload=function(){
 
 <p>截至2016-05-13已经阅读完，完成0.8.0整理</p>
 
-<h1 id="总览:08dab56054d98e9121640d2375a07126">总览</h1>
+<h1 id="总览">总览</h1>
 
 <p>COMPONENTS（样式组件）：<a href="http://ionicframework.com/docs/v2/components/">官方文档</a>，构建及设计原型时候参考</p>
 
@@ -126,21 +126,21 @@ window.onload=function(){
 <li>配置类组件</li>
 </ul>
 
-<h1 id="导航类组件:08dab56054d98e9121640d2375a07126">导航类组件</h1>
+<h1 id="导航类组件">导航类组件</h1>
 
-<h2 id="tab:08dab56054d98e9121640d2375a07126">Tab</h2>
+<h2 id="tab">Tab</h2>
 
-<h2 id="segment-二级分页:08dab56054d98e9121640d2375a07126">Segment 二级分页</h2>
+<h2 id="segment-二级分页">Segment 二级分页</h2>
 
 <p>相当于二级Tab</p>
 
-<h3 id="segmentbutton:08dab56054d98e9121640d2375a07126">SegmentButton</h3>
+<h3 id="segmentbutton">SegmentButton</h3>
 
 <p>二级分页的按钮组件</p>
 
-<h2 id="menu:08dab56054d98e9121640d2375a07126">Menu</h2>
+<h2 id="menu">Menu</h2>
 
-<h2 id="nav:08dab56054d98e9121640d2375a07126">Nav</h2>
+<h2 id="nav">Nav</h2>
 
 <ul>
 <li>swipeBackEnabled 滑动返回</li>
@@ -149,7 +149,7 @@ window.onload=function(){
 <pre><code class="language-js">  &lt;ion-nav swipeBackEnabled=&quot;false&quot; [root]=&quot;rootPage&quot;&gt;&lt;/ion-nav&gt;
 </code></pre>
 
-<h3 id="navpop:08dab56054d98e9121640d2375a07126">NavPop</h3>
+<h3 id="navpop">NavPop</h3>
 
 <p>带有nav-pop属性的元素，点击后直接关闭当前页面，包括：Page、Modal、Alert等。</p>
 
@@ -160,7 +160,7 @@ window.onload=function(){
 &lt;/ion-content&gt;
 </code></pre>
 
-<h3 id="navpush:08dab56054d98e9121640d2375a07126">NavPush</h3>
+<h3 id="navpush">NavPush</h3>
 
 <p>带有nav-push属性的元素，点击后弹出所绑定的页面。</p>
 
@@ -181,56 +181,56 @@ class MyPage {
 &lt;button [navPush]=&quot;[pushPage, params]&quot;&gt;&lt;/button&gt;
 </code></pre>
 
-<h2 id="navcontroller:08dab56054d98e9121640d2375a07126">NavController</h2>
+<h2 id="navcontroller">NavController</h2>
 
 <ul>
 <li>Page creation 页面创建</li>
 <li>Lifecycle events 生命周期事件</li>
 </ul>
 
-<h2 id="viewcontroller:08dab56054d98e9121640d2375a07126">ViewController</h2>
+<h2 id="viewcontroller">ViewController</h2>
 
 <p>用于控制当前所在页面，方式.dismiss(data)即pop掉当前页面，同时data数据传入上级页面。</p>
 
-<h1 id="布局类组件:08dab56054d98e9121640d2375a07126">布局类组件</h1>
+<h1 id="布局类组件">布局类组件</h1>
 
-<h2 id="navbar-界面中的导航条:08dab56054d98e9121640d2375a07126">Navbar 界面中的导航条</h2>
+<h2 id="navbar-界面中的导航条">Navbar 界面中的导航条</h2>
 
-<h3 id="title-导航条位置的标题:08dab56054d98e9121640d2375a07126">Title 导航条位置的标题</h3>
+<h3 id="title-导航条位置的标题">Title 导航条位置的标题</h3>
 
-<h2 id="searchbar-局面中的搜索条:08dab56054d98e9121640d2375a07126">Searchbar 局面中的搜索条</h2>
+<h2 id="searchbar-局面中的搜索条">Searchbar 局面中的搜索条</h2>
 
-<h2 id="slides-幻灯图:08dab56054d98e9121640d2375a07126">Slides 幻灯图</h2>
+<h2 id="slides-幻灯图">Slides 幻灯图</h2>
 
-<h1 id="功能类组件:08dab56054d98e9121640d2375a07126">功能类组件</h1>
+<h1 id="功能类组件">功能类组件</h1>
 
-<h2 id="alert-消息警示框:08dab56054d98e9121640d2375a07126">Alert 消息警示框</h2>
+<h2 id="alert-消息警示框">Alert 消息警示框</h2>
 
 <p>用于用户操作中触发的重要事件，需要操作或确认的通知，与Toast配合使用。</p>
 
-<h2 id="toast-消息提示框:08dab56054d98e9121640d2375a07126">Toast 消息提示框</h2>
+<h2 id="toast-消息提示框">Toast 消息提示框</h2>
 
 <p>用于用户操作中触发的非主要事件，无需操作的通知，与Alert配合使用。</p>
 
 <p>注意需要与ionic-native中的toast实现方式区分开。</p>
 
-<h1 id="数据类组件:08dab56054d98e9121640d2375a07126">数据类组件</h1>
+<h1 id="数据类组件">数据类组件</h1>
 
-<h2 id="navparams-导航过程中数据传输:08dab56054d98e9121640d2375a07126">NavParams 导航过程中数据传输</h2>
+<h2 id="navparams-导航过程中数据传输">NavParams 导航过程中数据传输</h2>
 
-<h2 id="loading-数据加载:08dab56054d98e9121640d2375a07126">Loading 数据加载</h2>
+<h2 id="loading-数据加载">Loading 数据加载</h2>
 
-<h2 id="infinitescroll-无限滚动-瀑布流:08dab56054d98e9121640d2375a07126">InfiniteScroll 无限滚动（瀑布流）</h2>
+<h2 id="infinitescroll-无限滚动-瀑布流">InfiniteScroll 无限滚动（瀑布流）</h2>
 
-<h2 id="refresher-数据下拉刷新:08dab56054d98e9121640d2375a07126">Refresher 数据下拉刷新</h2>
+<h2 id="refresher-数据下拉刷新">Refresher 数据下拉刷新</h2>
 
-<h2 id="spinner-数据加载时图片样式:08dab56054d98e9121640d2375a07126">Spinner 数据加载时图片样式</h2>
+<h2 id="spinner-数据加载时图片样式">Spinner 数据加载时图片样式</h2>
 
-<h2 id="localstorage-h5本地存储-临时:08dab56054d98e9121640d2375a07126">LocalStorage H5本地存储（临时）</h2>
+<h2 id="localstorage-h5本地存储-临时">LocalStorage H5本地存储（临时）</h2>
 
 <p>用于存放登录信息、浏览缓存等非重要性数据</p>
 
-<h2 id="sqlstorage-sql文件存储-永久:08dab56054d98e9121640d2375a07126">SqlStorage Sql文件存储（永久）</h2>
+<h2 id="sqlstorage-sql文件存储-永久">SqlStorage Sql文件存储（永久）</h2>
 
 <p>用于存放用户编辑资料、离线阅读资料等长期使用数据</p>
 
@@ -242,15 +242,15 @@ class MyPage {
 <li><p>快速清理 clear()</p></li>
 </ul>
 
-<h1 id="配置类组件:08dab56054d98e9121640d2375a07126">配置类组件</h1>
+<h1 id="配置类组件">配置类组件</h1>
 
-<h2 id="config:08dab56054d98e9121640d2375a07126">Config</h2>
+<h2 id="config">Config</h2>
 
-<h2 id="app:08dab56054d98e9121640d2375a07126">App</h2>
+<h2 id="app">App</h2>
 
-<h2 id="ionicapp:08dab56054d98e9121640d2375a07126">IonicApp</h2>
+<h2 id="ionicapp">IonicApp</h2>
 
-<h2 id="hidewhen:08dab56054d98e9121640d2375a07126">HideWhen</h2>
+<h2 id="hidewhen">HideWhen</h2>
 
 <p>标签加入hidewhen=&ldquo;ios,android&rdquo;属性后，在属性包含的平台不显示此标签。</p>
 
@@ -267,11 +267,11 @@ class MyPage {
 &lt;/div&gt;
 </code></pre>
 
-<h2 id="showwhen:08dab56054d98e9121640d2375a07126">ShowWhen</h2>
+<h2 id="showwhen">ShowWhen</h2>
 
 <p>类似HideWhen。</p>
 
-<h2 id="platform:08dab56054d98e9121640d2375a07126">Platform</h2>
+<h2 id="platform">Platform</h2>
 
 <p>用于检测设备平台及版本语言信息，检测后可根据不同平台设置不同业务逻辑/界面，与HideWhen、ShowWhen属性用法类似但更底层。</p>
 

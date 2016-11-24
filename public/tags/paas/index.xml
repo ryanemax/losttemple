@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paas on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/paas/</link>
-    <description>Recent content in Paas on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/paas/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/paas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/cookbook/backend/paas/</guid>
       <description>
 
-&lt;h1 id=&#34;写在最前面:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;写在最前面&lt;/h1&gt;
+&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
 
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenStack
@@ -58,7 +57,7 @@
 
 &lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
 
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
@@ -76,7 +75,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;paas现状:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS现状&lt;/h2&gt;
+&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CloudFoundry
@@ -107,7 +106,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;paas选型及适用范围:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;轻量级：Flynn、Deis二选一
@@ -126,11 +125,11 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;docker部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Docker部署&lt;/h1&gt;
+&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
 
-&lt;h1 id=&#34;openstack部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;OpenStack部署&lt;/h1&gt;
+&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
 
-&lt;h2 id=&#34;公司环境参数:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;公司环境参数&lt;/h2&gt;
+&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
@@ -138,7 +137,7 @@
 &lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;cloud-foundry部署:6a85bae82ab59432e683babaed4d9e6d&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
 </description>
     </item>
     
@@ -150,9 +149,9 @@
       <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
       <description>
 
-&lt;h1 id=&#34;静态演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;静态演示&lt;/h1&gt;
+&lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;github-pages:4491c19e53add98b3b0bad9d01db9356&#34;&gt;Github Pages&lt;/h2&gt;
+&lt;h2 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h2&gt;
 
 &lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
 
@@ -165,9 +164,9 @@
 &lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
 &lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;服务演示:4491c19e53add98b3b0bad9d01db9356&#34;&gt;服务演示&lt;/h1&gt;
+&lt;h1 id=&#34;服务演示&#34;&gt;服务演示&lt;/h1&gt;
 
-&lt;h2 id=&#34;mopaas:4491c19e53add98b3b0bad9d01db9356&#34;&gt;MoPaaS&lt;/h2&gt;
+&lt;h2 id=&#34;mopaas&#34;&gt;MoPaaS&lt;/h2&gt;
 
 &lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
 
@@ -198,7 +197,7 @@
       <guid>https://ryanemax.github.io/cookbook/backend/parse-learn/</guid>
       <description>
 
-&lt;h1 id=&#34;准备环境:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;准备环境&lt;/h1&gt;
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;系统环境
@@ -220,7 +219,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;学习参考:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;学习参考&lt;/h1&gt;
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
@@ -234,7 +233,7 @@
 &lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;server:5f6a21ef3c944debe2d2c50aec341740&#34;&gt;Server&lt;/h1&gt;
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
 </description>
     </item>
     

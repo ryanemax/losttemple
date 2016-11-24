@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anasit on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/anasit/</link>
-    <description>Recent content in Anasit on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/anasit/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 21 Jul 2016 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/anasit/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/meeting/2016-7-21ibmbluemix-anasit/</guid>
       <description>
 
-&lt;h1 id=&#34;零-前言:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;零、前言&lt;/h1&gt;
+&lt;h1 id=&#34;零-前言&#34;&gt;零、前言&lt;/h1&gt;
 
 &lt;p&gt;本文针对二三线城市&lt;strong&gt;中小型企业信息化&lt;/strong&gt;现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。&lt;/p&gt;
 
@@ -32,9 +31,9 @@
 - 案例1：江西某旅游集团信息化转型
 - 案例2：湖南某市九县三区民政养老信息化转型&lt;/p&gt;
 
-&lt;h1 id=&#34;一-企业信息化的市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
+&lt;h1 id=&#34;一-企业信息化的市场前景&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
 
-&lt;h2 id=&#34;企业信息化技术的发展:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
+&lt;h2 id=&#34;企业信息化技术的发展&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2000-2008
@@ -68,11 +67,11 @@
 
 &lt;p&gt;&lt;img src=&#34;https://d1fto35gcfffzn.cloudfront.net/images/products/pivotal-cloud-foundry/cloud-native-diagram-azure.png&#34; alt=&#34;CloudFondry&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;待整理-国内混合云市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
+&lt;h2 id=&#34;待整理-国内混合云市场前景&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
 
-&lt;h2 id=&#34;待整理-江西混合云市场前景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
+&lt;h2 id=&#34;待整理-江西混合云市场前景&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
 
-&lt;h2 id=&#34;中小企业信息化的需求:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
+&lt;h2 id=&#34;中小企业信息化的需求&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;互联网技术革新速度不断加速，二三线城市还未跟上步伐&lt;/li&gt;
@@ -92,9 +91,9 @@
 
 &lt;p&gt;这些头疼无比的选择，正反映了中小型企业信息化的现状：信息不对等，导致了中小型企业难接触飞速发展的企业信息化技术。&lt;/p&gt;
 
-&lt;h1 id=&#34;二-消灭信息不对等:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
+&lt;h1 id=&#34;二-消灭信息不对等&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
 
-&lt;h2 id=&#34;消灭常见认知误区:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;消灭常见认知误区&lt;/h2&gt;
+&lt;h2 id=&#34;消灭常见认知误区&#34;&gt;消灭常见认知误区&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;十年前，建设一个门户就是企业信息化&lt;/li&gt;
@@ -102,7 +101,7 @@
 &lt;li&gt;只要有WEB，拼凑几个智能硬件，就是互联网+项目&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;消灭成本预估误区:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;消灭成本预估误区&lt;/h2&gt;
+&lt;h2 id=&#34;消灭成本预估误区&#34;&gt;消灭成本预估误区&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;公司策划的项目很好，只差一个程序员
@@ -117,11 +116,11 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
+&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
 
-&lt;h3 id=&#34;关键工具:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;关键工具&lt;/h3&gt;
+&lt;h3 id=&#34;关键工具&#34;&gt;关键工具&lt;/h3&gt;
 
-&lt;h4 id=&#34;ibm-api-connect:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;IBM API Connect&lt;/h4&gt;
+&lt;h4 id=&#34;ibm-api-connect&#34;&gt;IBM API Connect&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;安全地打通现有的信息数据&lt;/li&gt;
@@ -136,11 +135,11 @@
 
 &lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/analytics.png&#34; alt=&#34;apiconnect2&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;项目背景:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;项目背景&lt;/h3&gt;
+&lt;h3 id=&#34;项目背景&#34;&gt;项目背景&lt;/h3&gt;
 
 &lt;p&gt;2015.4月，该旅游集团互联网+旅游产品与2015年1月开始已上线一个季度，由一家小型非技术型公司来外包完成产品开发。平台前期设计开发过于仓促，上线运营缺少维护支持以及全方位测试。导致了其正式上线运营后劲不足，影响到集团线下战略发展。&lt;/p&gt;
 
-&lt;h3 id=&#34;危机分析:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;危机分析&lt;/h3&gt;
+&lt;h3 id=&#34;危机分析&#34;&gt;危机分析&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/原运营情况.png&#34; alt=&#34;原运营情况&#34; /&gt;&lt;/p&gt;
 
@@ -154,7 +153,7 @@
 &lt;li&gt;线上产品经测试后漏洞较多，导致关键业务需要重构&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;提供支持:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;提供支持&lt;/h3&gt;
+&lt;h3 id=&#34;提供支持&#34;&gt;提供支持&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/平台2.0系统.png&#34; alt=&#34;优化后系统&#34; /&gt;&lt;/p&gt;
 
@@ -165,7 +164,7 @@
 &lt;li&gt;设计平台全套RESTful APIs，提供信息化数据微服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;成果:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;成果&lt;/h3&gt;
+&lt;h3 id=&#34;成果&#34;&gt;成果&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;大幅度减少集团原有的人力资源浪费（信息化及自动化）&lt;/li&gt;
@@ -173,7 +172,7 @@
 &lt;li&gt;为该集团提供技术岗位招聘需求，及产品迭代运维方案&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
+&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;服务方：小型作坊过多，中小型软件外包服务公司不规范
@@ -192,11 +191,11 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
+&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
+&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
 
-&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
+&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
 
 &lt;p&gt;有人评论说：&amp;rdquo;针对目前国内情况，DevOps还是很遥远。也许只有行业顶尖的公司，或者新成立的公司会有这样的尝试。大多数的企业还未开始进行敏捷的推进，传统的重重阻碍会使敏捷的推进进程遥遥无期。&amp;rdquo; DevOps真的离我们有那么远吗？DevOps应该从哪里开始呢？&lt;/p&gt;
 
@@ -213,7 +212,7 @@
 
 &lt;p&gt;营造一个充满信赖、文化强大的结构性平台去服务企业连接需求和实施，事半功倍。&lt;/p&gt;
 
-&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
+&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;原型测试阶段
@@ -236,9 +235,9 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
+&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
 
-&lt;h3 id=&#34;关键工具-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;关键工具&lt;/h3&gt;
+&lt;h3 id=&#34;关键工具-1&#34;&gt;关键工具&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Docker+Parse
@@ -251,15 +250,15 @@
 &lt;li&gt;API Connect&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;项目背景-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;项目背景&lt;/h3&gt;
+&lt;h3 id=&#34;项目背景-1&#34;&gt;项目背景&lt;/h3&gt;
 
-&lt;h3 id=&#34;危机分析-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;危机分析&lt;/h3&gt;
+&lt;h3 id=&#34;危机分析-1&#34;&gt;危机分析&lt;/h3&gt;
 
-&lt;h3 id=&#34;提供支持-1:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;提供支持&lt;/h3&gt;
+&lt;h3 id=&#34;提供支持-1&#34;&gt;提供支持&lt;/h3&gt;
 
-&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
+&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
 
-&lt;h3 id=&#34;服务方与企业方:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;服务方与企业方&lt;/h3&gt;
+&lt;h3 id=&#34;服务方与企业方&#34;&gt;服务方与企业方&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;小作坊惨遭淘汰，或在压力中转型成为与云接轨的合格服务商&lt;/li&gt;
@@ -283,7 +282,7 @@
 &lt;li&gt;企业真正需要的是信息化的全方位服务，而不仅仅是软件开发外包&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;大型信息科技公司:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;大型信息科技公司&lt;/h3&gt;
+&lt;h3 id=&#34;大型信息科技公司&#34;&gt;大型信息科技公司&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;制定规则
@@ -299,13 +298,13 @@
 &lt;li&gt;整合数据（DT时代）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
+&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
 
-&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
+&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
 
-&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
+&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
 
-&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊:8d5112f8e48022945e4a70b53a40aa3d&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
+&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
 </description>
     </item>
     

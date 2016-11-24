@@ -1,36 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vr on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/vr/</link>
-    <description>Recent content in Vr on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/vr/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 28 Feb 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>VR时代来临了，带上兵器吧</title>
-      <link>https://ryanemax.github.io/cookbook/VRdev/</link>
-      <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
+      <title>AR时代来临了，带上兵器吧</title>
+      <link>https://ryanemax.github.io/cookbook/vrar/arplayer/</link>
+      <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/VRdev/</guid>
+      <guid>https://ryanemax.github.io/cookbook/vrar/arplayer/</guid>
       <description>
 
-&lt;h1 id=&#34;vr时代来临了-带上兵器吧:9362a39e43924dc1b98451e8b087760e&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
+&lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://www.zhihu.com/question/28779933&#34;&gt;https://www.zhihu.com/question/28779933&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景
+
+&lt;ul&gt;
+&lt;li&gt;H5 意味着在手机而非 PC 上实现&lt;/li&gt;
+&lt;li&gt;AR 意味着需要获取实时的视频流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/323922423e94c7831ffd37b8a10efe70_b.png&#34; alt=&#34;WebRTC&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;条件
+
+&lt;ul&gt;
+&lt;li&gt;Android 5以上&lt;/li&gt;
+&lt;li&gt;原生Chrome浏览器&lt;/li&gt;
+&lt;li&gt;2016.9.20 update&lt;/li&gt;
+&lt;li&gt;手机QQ 微信&lt;/li&gt;
+&lt;li&gt;接入 QQ 浏览器 X5 内核的 Webview&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;假如上面的条件已经满足，接下来有几个库可以实现：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jeromeetienne/threex.webar&#34;&gt;https://github.com/jeromeetienne/threex.webar&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 107&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awe-media/awe.js&#34;&gt;https://github.com/awe-media/awe.js&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 486&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VR时代来临了，带上兵器吧</title>
+      <link>https://ryanemax.github.io/cookbook/vrar/VRdev/</link>
+      <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://ryanemax.github.io/cookbook/vrar/VRdev/</guid>
+      <description>
+
+&lt;h1 id=&#34;vr时代来临了-带上兵器吧&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/1492977dbb40704485516d6f5baeef20_r.jpg&#34; alt=&#34;vr&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;1-vr入门行业方向选择:9362a39e43924dc1b98451e8b087760e&#34;&gt;1.VR入门行业方向选择&lt;/h1&gt;
+&lt;h1 id=&#34;1-vr入门行业方向选择&#34;&gt;1.VR入门行业方向选择&lt;/h1&gt;
 
 &lt;p&gt;1.行业付费应用，360全景预览&lt;/p&gt;
 
 &lt;p&gt;2.建筑及3D美工设计领域&lt;/p&gt;
 
-&lt;h1 id=&#34;2-客户端引擎选择:9362a39e43924dc1b98451e8b087760e&#34;&gt;2.客户端引擎选择&lt;/h1&gt;
+&lt;h1 id=&#34;2-客户端引擎选择&#34;&gt;2.客户端引擎选择&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-手机vr-是违背沉浸式体验的:9362a39e43924dc1b98451e8b087760e&#34;&gt;1.手机VR，是违背沉浸式体验的&lt;/h2&gt;
+&lt;h2 id=&#34;1-手机vr-是违背沉浸式体验的&#34;&gt;1.手机VR，是违背沉浸式体验的&lt;/h2&gt;
 
 &lt;p&gt;前提：移动设备性能超过台式机性能之前&lt;/p&gt;
 
@@ -48,7 +103,7 @@
 
 &lt;p&gt;谨慎选择Unity，如果做手机VR，首选Unity&lt;/p&gt;
 
-&lt;h2 id=&#34;2-unity-内置oculus的vr支持:9362a39e43924dc1b98451e8b087760e&#34;&gt;2.Unity 内置Oculus的VR支持&lt;/h2&gt;
+&lt;h2 id=&#34;2-unity-内置oculus的vr支持&#34;&gt;2.Unity 内置Oculus的VR支持&lt;/h2&gt;
 
 &lt;p&gt;优点：
 - 开发效率高
@@ -62,7 +117,7 @@
 
 &lt;p&gt;授权价格：&lt;/p&gt;
 
-&lt;h2 id=&#34;3-ue4:9362a39e43924dc1b98451e8b087760e&#34;&gt;3.UE4&lt;/h2&gt;
+&lt;h2 id=&#34;3-ue4&#34;&gt;3.UE4&lt;/h2&gt;
 
 &lt;p&gt;优点：
 - 画质极致

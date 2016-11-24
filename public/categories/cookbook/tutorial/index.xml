@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cookbook/Tutorial on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/cookbook/tutorial/</link>
-    <description>Recent content in Cookbook/Tutorial on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/cookbook/tutorial/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/cookbook/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,9 +17,9 @@
       <guid>https://ryanemax.github.io/cookbook/tutorial/%E5%AF%BC%E8%AE%BA%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</guid>
       <description>
 
-&lt;h1 id=&#34;一-信息时代的生存环境:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;一、信息时代的生存环境&lt;/h1&gt;
+&lt;h1 id=&#34;一-信息时代的生存环境&#34;&gt;一、信息时代的生存环境&lt;/h1&gt;
 
-&lt;h2 id=&#34;接受现实-我们是普通人:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;接受现实——我们是普通人&lt;/h2&gt;
+&lt;h2 id=&#34;接受现实-我们是普通人&#34;&gt;接受现实——我们是普通人&lt;/h2&gt;
 
 &lt;p&gt;精英化思维？完美主义？理想主义？&lt;/p&gt;
 
@@ -30,13 +29,13 @@
 
 &lt;p&gt;那么作为一个普通人，我们如何在行业精英圈子中生存？&lt;/p&gt;
 
-&lt;h2 id=&#34;发觉本心-我们想要成为精英:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;发觉本心——我们想要成为精英&lt;/h2&gt;
+&lt;h2 id=&#34;发觉本心-我们想要成为精英&#34;&gt;发觉本心——我们想要成为精英&lt;/h2&gt;
 
 &lt;p&gt;我们距离外行人心中的精英：100小时&lt;/p&gt;
 
 &lt;p&gt;我们距离真正的行业精英：10000小时&lt;/p&gt;
 
-&lt;h2 id=&#34;艰苦奋斗-天将降大任于斯人:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;艰苦奋斗——天将降大任于斯人&lt;/h2&gt;
+&lt;h2 id=&#34;艰苦奋斗-天将降大任于斯人&#34;&gt;艰苦奋斗——天将降大任于斯人&lt;/h2&gt;
 
 &lt;p&gt;时间就像海绵，挤一挤总是有的？于是我们没日没夜地努力，盼望有一天可以出头？&lt;/p&gt;
 
@@ -54,11 +53,11 @@
 
 &lt;p&gt;&lt;strong&gt;one hour = one day!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;二-实施理论详解:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;二、实施理论详解&lt;/h1&gt;
+&lt;h1 id=&#34;二-实施理论详解&#34;&gt;二、实施理论详解&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-100小时理论:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;1.100小时理论&lt;/h2&gt;
+&lt;h2 id=&#34;1-100小时理论&#34;&gt;1.100小时理论&lt;/h2&gt;
 
-&lt;h3 id=&#34;理论:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;理论&lt;/h3&gt;
+&lt;h3 id=&#34;理论&#34;&gt;理论&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# 工作模式
 100 / 8 = 12 day = 2 weeks
@@ -75,7 +74,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;应用:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;应用&lt;/h3&gt;
+&lt;h3 id=&#34;应用&#34;&gt;应用&lt;/h3&gt;
 
 &lt;p&gt;遵循100小时定律，让自己在最短时间里超越60%的人&lt;/p&gt;
 
@@ -86,21 +85,21 @@
 &lt;li&gt;大三下/大四&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;2-10000小时定律:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;2.10000小时定律&lt;/h2&gt;
+&lt;h2 id=&#34;2-10000小时定律&#34;&gt;2.10000小时定律&lt;/h2&gt;
 
-&lt;h3 id=&#34;理论-1:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;理论&lt;/h3&gt;
+&lt;h3 id=&#34;理论-1&#34;&gt;理论&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;10000/8 = 1250 day = 3 years
 10000/4 = 2500 day = 6 years
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;应用-1:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;应用&lt;/h3&gt;
+&lt;h3 id=&#34;应用-1&#34;&gt;应用&lt;/h3&gt;
 
 &lt;p&gt;长期的艰苦奋斗，将决定你的未来&lt;/p&gt;
 
-&lt;h2 id=&#34;3-时间管理-动力定型理论:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;3.时间管理？ ==》动力定型理论！&lt;/h2&gt;
+&lt;h2 id=&#34;3-时间管理-动力定型理论&#34;&gt;3.时间管理？ ==》动力定型理论！&lt;/h2&gt;
 
-&lt;h3 id=&#34;理论-2:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;理论&lt;/h3&gt;
+&lt;h3 id=&#34;理论-2&#34;&gt;理论&lt;/h3&gt;
 
 &lt;p&gt;那么个人如何更加有效地学习？更加快速的分析并归纳知识？&lt;/p&gt;
 
@@ -122,18 +121,18 @@
 
 &lt;p&gt;&lt;strong&gt;正确规范的姿势&lt;/strong&gt;，正式讲究了少而精的原则。&lt;/p&gt;
 
-&lt;h3 id=&#34;应用-2:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;应用&lt;/h3&gt;
+&lt;h3 id=&#34;应用-2&#34;&gt;应用&lt;/h3&gt;
 
 &lt;p&gt;信息时代必须定型/掌握的能力：
 - 信息的搜集/获取能力
 - 知识的管理归纳能力
 - 思维的多变创新（创变）能力&lt;/p&gt;
 
-&lt;h1 id=&#34;三-信息时代必须掌握的概念:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;三、信息时代必须掌握的概念&lt;/h1&gt;
+&lt;h1 id=&#34;三-信息时代必须掌握的概念&#34;&gt;三、信息时代必须掌握的概念&lt;/h1&gt;
 
-&lt;h2 id=&#34;1-思维导图:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;1.思维导图&lt;/h2&gt;
+&lt;h2 id=&#34;1-思维导图&#34;&gt;1.思维导图&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是思维:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;什么是思维？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是思维&#34;&gt;什么是思维？&lt;/h3&gt;
 
 &lt;p&gt;mind是思维，thinking是思维的过程&lt;/p&gt;
 
@@ -143,7 +142,7 @@
 
 &lt;p&gt;思维的智力操作过程，分析与综合、抽象与概括&lt;/p&gt;
 
-&lt;h3 id=&#34;什么是概念:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;什么是概念？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是概念&#34;&gt;什么是概念？&lt;/h3&gt;
 
 &lt;p&gt;concept是概念&lt;/p&gt;
 
@@ -155,20 +154,20 @@
 
 &lt;p&gt;概念形成又叫做概念的掌握。&lt;/p&gt;
 
-&lt;h3 id=&#34;什么是思维导图:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;什么是思维导图？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是思维导图&#34;&gt;什么是思维导图？&lt;/h3&gt;
 
 &lt;p&gt;相关网站：
 &lt;a href=&#34;http://www.xmindchina.net/support.html&#34;&gt;XMind学习地址&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;2-rss信息聚合:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;2.RSS信息聚合&lt;/h2&gt;
+&lt;h2 id=&#34;2-rss信息聚合&#34;&gt;2.RSS信息聚合&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是rss:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;什么是RSS？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是rss&#34;&gt;什么是RSS？&lt;/h3&gt;
 
 &lt;p&gt;简易信息聚合，我们可以看到的所有新闻站点、资讯APP、微信、博客等都具有RSS功能。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://a4.att.hudong.com/11/83/01300000165488122542832087700.jpg&#34; alt=&#34;rss&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;为什么用rss:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;为什么用RSS？&lt;/h3&gt;
+&lt;h3 id=&#34;为什么用rss&#34;&gt;为什么用RSS？&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;多样性、个性化信息的聚合。&lt;/li&gt;
@@ -178,15 +177,15 @@
 &lt;li&gt;本地内容管理便利。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;用什么rss管理器:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;用什么RSS管理器？&lt;/h3&gt;
+&lt;h3 id=&#34;用什么rss管理器&#34;&gt;用什么RSS管理器？&lt;/h3&gt;
 
 &lt;p&gt;参考资料：&lt;a href=&#34;https://www.zhihu.com/question/28808592&#34;&gt;2015 国内最好的 RSS 阅读器是什么？&lt;/a&gt;
 - 普通：&lt;a href=&#34;http://www.yilan.io/&#34;&gt;一览&lt;/a&gt; 推荐国内用户使用
 - 极客：&lt;a href=&#34;http://feedly.com/i/welcome&#34;&gt;gReader+feedly&lt;/a&gt; 推荐技术宅使用&lt;/p&gt;
 
-&lt;h2 id=&#34;3-知识管理:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;3.知识管理&lt;/h2&gt;
+&lt;h2 id=&#34;3-知识管理&#34;&gt;3.知识管理&lt;/h2&gt;
 
-&lt;h3 id=&#34;什么是markdown:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;什么是markdown？&lt;/h3&gt;
+&lt;h3 id=&#34;什么是markdown&#34;&gt;什么是markdown？&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://sspai.com/25137&#34;&gt;认识与入门 Markdown&lt;/a&gt;
 这是可以让你生活更加轻松的笔记格式&lt;/p&gt;
@@ -194,7 +193,7 @@
 &lt;p&gt;&lt;a href=&#34;http://wenchao-img.qiniudn.com/markdown.html&#34;&gt;Markdown高级用法&lt;/a&gt;
 这是让你生活更加简单的神奇工具&lt;/p&gt;
 
-&lt;h3 id=&#34;用什么笔记系统:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;用什么笔记系统？&lt;/h3&gt;
+&lt;h3 id=&#34;用什么笔记系统&#34;&gt;用什么笔记系统？&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;文艺：&lt;a href=&#34;https://leanote.com/&#34;&gt;leanote&lt;/a&gt; Markdown笔记+博客&lt;/li&gt;
@@ -202,7 +201,7 @@
 &lt;li&gt;极客：&lt;strong&gt;markdown+git+githubpages&lt;/strong&gt; 高自由度/高安全性&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;总结:79232afc7f71e8f06c71d64d2e670ac0&#34;&gt;总结&lt;/h1&gt;
+&lt;h1 id=&#34;总结&#34;&gt;总结&lt;/h1&gt;
 
 &lt;p&gt;精神：&lt;/p&gt;
 

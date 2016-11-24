@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Odoo on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/odoo/</link>
-    <description>Recent content in Odoo on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/odoo/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sat, 27 Feb 2016 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,20 +17,20 @@
       <guid>https://ryanemax.github.io/faq/odoo/faq-accounting/</guid>
       <description>
 
-&lt;h1 id=&#34;货币选项中无cny:187b635426bccb02542e3ea74bd81df7&#34;&gt;货币选项中无CNY&lt;/h1&gt;
+&lt;h1 id=&#34;货币选项中无cny&#34;&gt;货币选项中无CNY&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:187b635426bccb02542e3ea74bd81df7&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;货币——CNY——未设置为有效&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:187b635426bccb02542e3ea74bd81df7&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&#34;&gt;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&lt;/a&gt;
 任务——会计——货币中将CNY设为有效&lt;/p&gt;
 
-&lt;h1 id=&#34;开启会计科目后-导致销售人员无法添加客户:187b635426bccb02542e3ea74bd81df7&#34;&gt;开启会计科目后，导致销售人员无法添加客户&lt;/h1&gt;
+&lt;h1 id=&#34;开启会计科目后-导致销售人员无法添加客户&#34;&gt;开启会计科目后，导致销售人员无法添加客户&lt;/h1&gt;
 
-&lt;h2 id=&#34;错误提示:187b635426bccb02542e3ea74bd81df7&#34;&gt;错误提示&lt;/h2&gt;
+&lt;h2 id=&#34;错误提示&#34;&gt;错误提示&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&#34;&gt;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&lt;/a&gt;&lt;/p&gt;
 
@@ -46,7 +45,7 @@ The following fields are invalid:
     Account Payable
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;原因分析-1:187b635426bccb02542e3ea74bd81df7&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;开启会计后，&lt;/p&gt;
 
@@ -60,7 +59,7 @@ The following fields are invalid:
 
 &lt;p&gt;As transactions are associated to customers or suppliers, you get reports to perform analysis per customer/supplier such as the customer statement, revenues per customers, aged receivable/payables, &amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案-1:187b635426bccb02542e3ea74bd81df7&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-1&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;1.设置可选的应付应收账款&lt;/p&gt;
 
@@ -98,11 +97,11 @@ The following fields are invalid:
       <guid>https://ryanemax.github.io/faq/odoo/learn/</guid>
       <description>
 
-&lt;h1 id=&#34;使用手册:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;使用手册&lt;/h1&gt;
+&lt;h1 id=&#34;使用手册&#34;&gt;使用手册&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.odoo.com/documentation/user/9.0/&#34;&gt;https://www.odoo.com/documentation/user/9.0/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;资料站点:f6ecf5148c4e37e58f4f14fcdc127e45&#34;&gt;资料站点&lt;/h1&gt;
+&lt;h1 id=&#34;资料站点&#34;&gt;资料站点&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.oejia.net/&#34;&gt;http://www.oejia.net/&lt;/a&gt;&lt;/p&gt;
 
@@ -118,9 +117,9 @@ The following fields are invalid:
       <guid>https://ryanemax.github.io/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
       <description>
 
-&lt;h1 id=&#34;odoo9多域名解析多数据库规则:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
+&lt;h1 id=&#34;odoo9多域名解析多数据库规则&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
 
-&lt;h1 id=&#34;配置文件:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;配置文件&lt;/h1&gt;
+&lt;h1 id=&#34;配置文件&#34;&gt;配置文件&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## Debian
 /etc/odoo/openerp-server.conf
@@ -130,7 +129,7 @@ dbfilter = ^%d$
 # 即  http://db001.openerp.com  访问时, 会自动设置为 dbfilter = db001
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;源码:f05496cb4b241523f3ddbdd6e5fd3116&#34;&gt;源码&lt;/h1&gt;
+&lt;h1 id=&#34;源码&#34;&gt;源码&lt;/h1&gt;
 
 &lt;p&gt;部分情况配置文件无法生效，是由于：&lt;/p&gt;
 
@@ -157,7 +156,7 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
       <guid>https://ryanemax.github.io/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
       <description>
 
-&lt;h1 id=&#34;payment支付-odoo-8-0:1d3aa595b3240b5c3555fb706a9a394a&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
+&lt;h1 id=&#34;payment支付-odoo-8-0&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/odoo-cn/payment&#34;&gt;https://github.com/odoo-cn/payment&lt;/a&gt;&lt;/p&gt;
 
@@ -173,7 +172,7 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
 
 &lt;p&gt;未经许可，不得用于商业用途！！&lt;/p&gt;
 
-&lt;h1 id=&#34;微信-odoo-8-0:1d3aa595b3240b5c3555fb706a9a394a&#34;&gt;微信 odoo 8.0&lt;/h1&gt;
+&lt;h1 id=&#34;微信-odoo-8-0&#34;&gt;微信 odoo 8.0&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/JoneXiong/oejia_wx&#34;&gt;https://github.com/JoneXiong/oejia_wx&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -187,12 +186,12 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
       <guid>https://ryanemax.github.io/faq/odoo/faq-system/</guid>
       <description>
 
-&lt;h1 id=&#34;无法保存照片-无法发送邮件:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
+&lt;h1 id=&#34;无法保存照片-无法发送邮件&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&#34;&gt;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&lt;/a&gt;
 无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在&lt;/p&gt;
 
-&lt;h2 id=&#34;原因分析:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;413 Request Entity Too Large
 nginx/1.6.2
@@ -200,7 +199,7 @@ nginx/1.6.2
 
 &lt;p&gt;nginx 大文件配置问题&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;在上传时nginx返回了413错误，查看log文件，显示的错误信息是:”413 Request Entity Too Large”, 需要做以下设 置：&lt;/p&gt;
 
@@ -227,14 +226,14 @@ proxy_temp_file_write_size 64k;
 upload_max_filesize = 2M
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;python的pip有的包过旧:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;Python的pip有的包过旧&lt;/h1&gt;
+&lt;h1 id=&#34;python的pip有的包过旧&#34;&gt;Python的pip有的包过旧&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析-1:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
 
 &lt;p&gt;pip包过老需要升级，以下包：
 - Pillow&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案-1:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-1&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;一行命令升级所有pip安装的Python包&lt;/p&gt;
 
@@ -252,9 +251,9 @@ upload_max_filesize = 2M
 &lt;pre&gt;&lt;code&gt;pip install -U distribute &amp;amp;&amp;amp; pip freeze --local | grep -v &#39;^\-e&#39; | cut -d = -f 1  | xargs pip install -U --allow-external mysql-connector-python
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;解决方案-2:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-2&#34;&gt;解决方案&lt;/h2&gt;
 
-&lt;h1 id=&#34;odoo-警告-邮件投递失败:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;Odoo 警告 - 邮件投递失败&lt;/h1&gt;
+&lt;h1 id=&#34;odoo-警告-邮件投递失败&#34;&gt;Odoo 警告 - 邮件投递失败&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Mail delivery failed via SMTP server &#39;smtp.mxhichina.com&#39;.
 SMTPSenderRefused: 440
@@ -264,7 +263,7 @@ postmaster-odoo@anasit.com
 
 &lt;p&gt;为何出现postmaster-odoo@anasit.com邮箱地址？&lt;/p&gt;
 
-&lt;h2 id=&#34;解决方案-3:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案-3&#34;&gt;解决方案&lt;/h2&gt;
 
 &lt;p&gt;1 .增加邮箱账号“postmaster-odoo@anasit.com”&lt;/p&gt;
 
@@ -272,7 +271,7 @@ postmaster-odoo@anasit.com
 
 &lt;p&gt;以上方法二选一即可.&lt;/p&gt;
 
-&lt;h1 id=&#34;设置默认值-十分实用:3752c4b73199d8e4ea484c2eb241f45e&#34;&gt;设置默认值——十分实用&lt;/h1&gt;
+&lt;h1 id=&#34;设置默认值-十分实用&#34;&gt;设置默认值——十分实用&lt;/h1&gt;
 
 &lt;p&gt;设置——关于——Acivate the developer mode.&lt;/p&gt;
 
@@ -294,11 +293,11 @@ postmaster-odoo@anasit.com
       <guid>https://ryanemax.github.io/faq/odoo/faq-sales/</guid>
       <description>
 
-&lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
+&lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
 
-&lt;h2 id=&#34;原因分析:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;原因分析&lt;/h2&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
 
-&lt;h2 id=&#34;解决方案:62dded5823b5fc83ff5c13afa84f4595&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 </description>
     </item>
     

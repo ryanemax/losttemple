@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cookbook/Database on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/cookbook/database/</link>
-    <description>Recent content in Cookbook/Database on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/categories/cookbook/database/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 08 Nov 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/categories/cookbook/database/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/cookbook/database/mongoOneToN/</guid>
       <description>
 
-&lt;h1 id=&#34;mongodb数据模型-结构设计中重要的经验法则:1f440c713d3b5caf0e29d03117390144&#34;&gt;MongoDB数据模型/结构设计中重要的经验法则&lt;/h1&gt;
+&lt;h1 id=&#34;mongodb数据模型-结构设计中重要的经验法则&#34;&gt;MongoDB数据模型/结构设计中重要的经验法则&lt;/h1&gt;
 
 &lt;p&gt;One-to-N：&lt;a href=&#34;http://www.tuicool.com/articles/iARr2m&#34;&gt;MongoDB数据结构设计中6条重要的经验法则，part 1&lt;/a&gt;&lt;/p&gt;
 
@@ -57,7 +56,7 @@
 
 &lt;p&gt;一对非常多的情况下，请将一的那端引用签入进多端的方案。&lt;/p&gt;
 
-&lt;h2 id=&#34;one-to-few-一对很少:1f440c713d3b5caf0e29d03117390144&#34;&gt;One-to-Few（一对很少）&lt;/h2&gt;
+&lt;h2 id=&#34;one-to-few-一对很少&#34;&gt;One-to-Few（一对很少）&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;## &amp;lt; db.person.findOne()
 {
@@ -100,7 +99,7 @@
 
 &lt;p&gt;例如，如果你是在对一个任务跟踪系统进行建模，每个用户将会被分配若干个任务。内嵌这些任务到用户文档在遇到“查询昨天所有的任务”这样的问题时将会非常困难。我会在下一篇文章针对这个用例提供一些适当的设计。&lt;/p&gt;
 
-&lt;h2 id=&#34;one-to-many-一对多:1f440c713d3b5caf0e29d03117390144&#34;&gt;One-to-Many（一对多）&lt;/h2&gt;
+&lt;h2 id=&#34;one-to-many-一对多&#34;&gt;One-to-Many（一对多）&lt;/h2&gt;
 
 &lt;p&gt;以商品替换零件订货系统为例。每个商品有数百个可替换的零件，但是不会超过数千个。这个用例很适合使用间接引用-将零件的objectid作为数组存放在商品文档中(在这个例子中我使用更加易读的2字节的ObjectID，现实世界中他们可能是由12个字节组成的)。&lt;/p&gt;
 
@@ -150,7 +149,7 @@
 
 &lt;p&gt;这种建模方式中的零件部分可以被多个产品使用，所以在多对多时不需要一张单独的连接表。&lt;/p&gt;
 
-&lt;h2 id=&#34;one-to-squillions-一对非常多:1f440c713d3b5caf0e29d03117390144&#34;&gt;One-to-Squillions(一对非常多)&lt;/h2&gt;
+&lt;h2 id=&#34;one-to-squillions-一对非常多&#34;&gt;One-to-Squillions(一对非常多)&lt;/h2&gt;
 
 &lt;p&gt;我们用一个收集不同机器日志的例子来讨论一对很多的问题。&lt;/p&gt;
 
@@ -196,15 +195,15 @@
       <guid>https://ryanemax.github.io/cookbook/database/Datagrip/</guid>
       <description>
 
-&lt;h1 id=&#34;初次了解datagrip:05d030163658352a64a07cc0639d32d2&#34;&gt;《初次了解DataGrip》&lt;/h1&gt;
+&lt;h1 id=&#34;初次了解datagrip&#34;&gt;《初次了解DataGrip》&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text&#34;&gt;http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;特性整理:05d030163658352a64a07cc0639d32d2&#34;&gt;特性整理&lt;/h1&gt;
+&lt;h1 id=&#34;特性整理&#34;&gt;特性整理&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.jetbrains.com/datagrip/features/&#34;&gt;http://www.jetbrains.com/datagrip/features/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;数据库基础操作:05d030163658352a64a07cc0639d32d2&#34;&gt;数据库基础操作&lt;/h2&gt;
+&lt;h2 id=&#34;数据库基础操作&#34;&gt;数据库基础操作&lt;/h2&gt;
 
 &lt;p&gt;支持数据库引擎：MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Sybase, DB2, SQLite, HyperSQL, Apache Derby and H2.&lt;/p&gt;
 
@@ -220,7 +219,7 @@
 &lt;li&gt;分析查询比较结果&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;代码编写实用特性:05d030163658352a64a07cc0639d32d2&#34;&gt;代码编写实用特性&lt;/h2&gt;
+&lt;h2 id=&#34;代码编写实用特性&#34;&gt;代码编写实用特性&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;SQL编写时提供代码补全&lt;/li&gt;
@@ -233,7 +232,7 @@
 &lt;li&gt;自定义的界面风格&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;其他多样的特性:05d030163658352a64a07cc0639d32d2&#34;&gt;其他多样的特性&lt;/h2&gt;
+&lt;h2 id=&#34;其他多样的特性&#34;&gt;其他多样的特性&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CSV编辑器&lt;/li&gt;

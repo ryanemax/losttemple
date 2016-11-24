@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Message on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/message/</link>
-    <description>Recent content in Message on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/message/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Sun, 29 Nov 2015 15:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/message/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,13 +17,13 @@
       <guid>https://ryanemax.github.io/cookbook/backend/messagesystem/</guid>
       <description>
 
-&lt;h1 id=&#34;常见开源消息系统-中间件技术评选:98a09982e72308c69ab2b124e86725d9&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
+&lt;h1 id=&#34;常见开源消息系统-中间件技术评选&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
 
-&lt;h2 id=&#34;golang项目中mq系统的选择:98a09982e72308c69ab2b124e86725d9&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
+&lt;h2 id=&#34;golang项目中mq系统的选择&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackshare.io/stackups/rabbitmq-vs-nsq&#34;&gt;http://stackshare.io/stackups/rabbitmq-vs-nsq&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;rabbitmq-golang-client:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
+&lt;h3 id=&#34;rabbitmq-golang-client&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/streadway/amqp&#34;&gt;https://github.com/streadway/amqp&lt;/a&gt;&lt;/p&gt;
 
@@ -32,7 +31,7 @@
 
 &lt;p&gt;适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准&lt;/p&gt;
 
-&lt;h3 id=&#34;gonsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;gonsq&lt;/h3&gt;
+&lt;h3 id=&#34;gonsq&#34;&gt;gonsq&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/nsqio/nsq&#34;&gt;https://github.com/nsqio/nsq&lt;/a&gt;&lt;/p&gt;
 
@@ -40,11 +39,11 @@
 
 &lt;p&gt;适用场景：弱事务，日志系统&lt;/p&gt;
 
-&lt;h3 id=&#34;kafka-flume:98a09982e72308c69ab2b124e86725d9&#34;&gt;kafka+flume&lt;/h3&gt;
+&lt;h3 id=&#34;kafka-flume&#34;&gt;kafka+flume&lt;/h3&gt;
 
 &lt;p&gt;适用场景：日志、大数据&lt;/p&gt;
 
-&lt;h2 id=&#34;消息系统的作用:98a09982e72308c69ab2b124e86725d9&#34;&gt;消息系统的作用&lt;/h2&gt;
+&lt;h2 id=&#34;消息系统的作用&#34;&gt;消息系统的作用&lt;/h2&gt;
 
 &lt;p&gt;异步处理、削减峰值、减少组件之间的耦合。&lt;/p&gt;
 
@@ -60,7 +59,7 @@
 &lt;li&gt;负载均衡&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;常见消息系统协议:98a09982e72308c69ab2b124e86725d9&#34;&gt;常见消息系统协议&lt;/h2&gt;
+&lt;h2 id=&#34;常见消息系统协议&#34;&gt;常见消息系统协议&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;STOMP&lt;/li&gt;
@@ -70,7 +69,7 @@
 &lt;li&gt;自定格式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;较好的开源系统列表:98a09982e72308c69ab2b124e86725d9&#34;&gt;较好的开源系统列表&lt;/h2&gt;
+&lt;h2 id=&#34;较好的开源系统列表&#34;&gt;较好的开源系统列表&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;RabbitMQ&lt;/li&gt;
@@ -78,9 +77,9 @@
 &lt;li&gt;Redis&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;nsq-和-rabiitmq的对比:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
+&lt;h1 id=&#34;nsq-和-rabiitmq的对比&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
 
-&lt;h2 id=&#34;nsq:98a09982e72308c69ab2b124e86725d9&#34;&gt;NSQ&lt;/h2&gt;
+&lt;h2 id=&#34;nsq&#34;&gt;NSQ&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://nsq.io/overview/quick_start.html&#34;&gt;http://nsq.io/overview/quick_start.html&lt;/a&gt;
 &lt;img src=&#34;http://media.tumblr.com/edb403d38fc2bcc727b8655ea70eb3a7/tumblr_inline_mf8sfr2sp41qj3yp2.png&#34; alt=&#34;nsq&#34; /&gt;&lt;/p&gt;
@@ -109,7 +108,7 @@
 
 &lt;p&gt;RabbitMQ里面的Exchange类似nsqd，queen类似channel。&lt;/p&gt;
 
-&lt;h2 id=&#34;rabbitmq:98a09982e72308c69ab2b124e86725d9&#34;&gt;RabbitMQ&lt;/h2&gt;
+&lt;h2 id=&#34;rabbitmq&#34;&gt;RabbitMQ&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://img.blog.csdn.net/20140220173559828&#34; alt=&#34;RabbitMQ&#34; /&gt;&lt;/p&gt;
 

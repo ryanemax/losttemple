@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gfw on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/gfw/</link>
-    <description>Recent content in Gfw on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/gfw/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 31 Mar 2016 01:05:51 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/gfw/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -28,7 +27,7 @@
       <guid>https://ryanemax.github.io/cookbook/fuckGFW/</guid>
       <description>
 
-&lt;h1 id=&#34;windows程序socks代理-用于游戏:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
+&lt;h1 id=&#34;windows程序socks代理-用于游戏&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;shadowsocks-gui&lt;/p&gt;&lt;/li&gt;
@@ -36,7 +35,7 @@
 &lt;li&gt;&lt;p&gt;SocksCap64 3.0  &lt;a href=&#34;http://www.sockscap64.com/&#34;&gt;http://www.sockscap64.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;linux代理:c74b820516da7c01801c2eeedf2330dc&#34;&gt;Linux代理&lt;/h1&gt;
+&lt;h1 id=&#34;linux代理&#34;&gt;Linux代理&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;apt-get install shadowsocks&lt;/li&gt;

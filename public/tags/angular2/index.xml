@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Angular2 on 刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/angular2/</link>
-    <description>Recent content in Angular2 on 刘雨飏@ANAS联盟</description>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://ryanemax.github.io/tags/angular2/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Thu, 25 Aug 2016 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://ryanemax.github.io/tags/angular2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -18,7 +17,7 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-universal/</guid>
       <description>
 
-&lt;h1 id=&#34;ng2-universal基础:99ba35dc358433404c10720574c18d78&#34;&gt;ng2-universal基础&lt;/h1&gt;
+&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
@@ -31,7 +30,7 @@
 
 &lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2整合universal:99ba35dc358433404c10720574c18d78&#34;&gt;ionic2整合universal&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
 
@@ -49,9 +48,9 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-vim/</guid>
       <description>
 
-&lt;h1 id=&#34;可用于ng2开发的ide评比:90187ca4a720b853310dffa460a52b57&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
 
-&lt;h2 id=&#34;intellij-idea-ce-2016-1-1:90187ca4a720b853310dffa460a52b57&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 差
@@ -69,7 +68,7 @@
 &lt;li&gt;辅助工具 差&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;webstorm-2016-2-1:90187ca4a720b853310dffa460a52b57&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;语法编辑 较好
@@ -90,7 +89,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件:90187ca4a720b853310dffa460a52b57&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
 
 &lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
 
@@ -106,9 +105,9 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</guid>
       <description>
 
-&lt;h1 id=&#34;基础选型:460bce4062430561faf966c08e14ab2b&#34;&gt;基础选型&lt;/h1&gt;
+&lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
 
-&lt;h2 id=&#34;回顾angularjs-1:460bce4062430561faf966c08e14ab2b&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
+&lt;h2 id=&#34;回顾angularjs-1&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
 
 &lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
 
@@ -117,7 +116,7 @@
 - $resource 框架自带，对$http进行初步封装
 - $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
 
-&lt;h2 id=&#34;调研angularjs-2:460bce4062430561faf966c08e14ab2b&#34;&gt;调研AngularJS 2&lt;/h2&gt;
+&lt;h2 id=&#34;调研angularjs-2&#34;&gt;调研AngularJS 2&lt;/h2&gt;
 
 &lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
 
@@ -158,17 +157,17 @@
 
 &lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2-http开发详解:460bce4062430561faf966c08e14ab2b&#34;&gt;angular2/http开发详解&lt;/h1&gt;
+&lt;h1 id=&#34;angular2-http开发详解&#34;&gt;angular2/http开发详解&lt;/h1&gt;
 
-&lt;h2 id=&#34;参考教程:460bce4062430561faf966c08e14ab2b&#34;&gt;参考教程&lt;/h2&gt;
+&lt;h2 id=&#34;参考教程&#34;&gt;参考教程&lt;/h2&gt;
 
 &lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;官方手册:460bce4062430561faf966c08e14ab2b&#34;&gt;官方手册&lt;/h2&gt;
+&lt;h2 id=&#34;官方手册&#34;&gt;官方手册&lt;/h2&gt;
 
 &lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;使用体验:460bce4062430561faf966c08e14ab2b&#34;&gt;使用体验&lt;/h3&gt;
+&lt;h3 id=&#34;使用体验&#34;&gt;使用体验&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
@@ -190,18 +189,18 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-es6-learn/</guid>
       <description>
 
-&lt;h1 id=&#34;es6:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ES6&lt;/h1&gt;
+&lt;h1 id=&#34;es6&#34;&gt;ES6&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;angular2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;Angular2&lt;/h1&gt;
+&lt;h1 id=&#34;angular2&#34;&gt;Angular2&lt;/h1&gt;
 
 &lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
 英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
 详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;ionic2:7e4a95056feddb7face3e2a9eee4f969&#34;&gt;ionic2&lt;/h1&gt;
+&lt;h1 id=&#34;ionic2&#34;&gt;ionic2&lt;/h1&gt;
 </description>
     </item>
     
@@ -213,13 +212,13 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-cms/</guid>
       <description>
 
-&lt;h1 id=&#34;ng2-seo优化简介:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
+&lt;h1 id=&#34;ng2-seo优化简介&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
 
 &lt;p&gt;ng2应用实现seo优化的方式有多种
 - universial 后端渲染
 - php 后端模拟渲染&lt;/p&gt;
 
-&lt;h1 id=&#34;blackstar-cms-ng2:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
+&lt;h1 id=&#34;blackstar-cms-ng2&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
 
 &lt;p&gt;技术选型
 - angular2-seed
@@ -237,7 +236,7 @@
 
 &lt;p&gt;star 1 on &lt;a href=&#34;https://github.com/Blackstar-CMS/samples&#34;&gt;https://github.com/Blackstar-CMS/samples&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;respond-5-2-ng1:6a248d5f34ca598532dbe5a568fa8a25&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
+&lt;h1 id=&#34;respond-5-2-ng1&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
 
 &lt;p&gt;技术选型
 - Bootstrap 3
@@ -265,15 +264,15 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</guid>
       <description>
 
-&lt;h1 id=&#34;firebase:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;Firebase&lt;/h1&gt;
+&lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
 
-&lt;h1 id=&#34;angularfire2:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;AngularFire2&lt;/h1&gt;
+&lt;h1 id=&#34;angularfire2&#34;&gt;AngularFire2&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://angularfire2.com/api/&#34;&gt;https://angularfire2.com/api/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;https://github.com/angular/angularfire2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;所有ng2应用示例:bb01fa6619c43dae7d241d7beb3628c0&#34;&gt;所有ng2应用示例&lt;/h2&gt;
+&lt;h2 id=&#34;所有ng2应用示例&#34;&gt;所有ng2应用示例&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://builtwithangular2.com/&#34;&gt;http://builtwithangular2.com/&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -287,7 +286,7 @@
       <guid>https://ryanemax.github.io/cookbook/api/rxjs/</guid>
       <description>
 
-&lt;h1 id=&#34;简介:a425801fc36a36d85b869085e7a47424&#34;&gt;简介&lt;/h1&gt;
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.moye.me/2016/05/31/learning_rxjs_part_one_preliminary/&#34;&gt;学习RxJS： 导入&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -301,7 +300,7 @@
       <guid>https://ryanemax.github.io/cookbook/frontend/ng2-admin/</guid>
       <description>
 
-&lt;h1 id=&#34;angular2后台管理前端框架选型:25fe8fb94ac26b21e75da0dc60a700f3&#34;&gt;Angular2后台管理前端框架选型&lt;/h1&gt;
+&lt;h1 id=&#34;angular2后台管理前端框架选型&#34;&gt;Angular2后台管理前端框架选型&lt;/h1&gt;
 
 &lt;p&gt;截至目前：2016-05-11，ng2发布了继Beta之后的RC候选版本，已经趋于成熟。公司决定配合ionic2，选择一套同样使用ng2构建的PC后台管理的前端模板。主要用于：&lt;/p&gt;
 
@@ -310,7 +309,7 @@
 &lt;li&gt;PC桌面应用构建。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&#34;可选后台前端框架搜集:25fe8fb94ac26b21e75da0dc60a700f3&#34;&gt;可选后台前端框架搜集&lt;/h1&gt;
+&lt;h1 id=&#34;可选后台前端框架搜集&#34;&gt;可选后台前端框架搜集&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;ionic2（选用）&lt;/p&gt;
@@ -364,7 +363,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://mlaval.github.io/angular2-bootstrap/&#34;&gt;http://mlaval.github.io/angular2-bootstrap/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;可选后台前端主题搜集:25fe8fb94ac26b21e75da0dc60a700f3&#34;&gt;可选后台前端主题搜集&lt;/h1&gt;
+&lt;h1 id=&#34;可选后台前端主题搜集&#34;&gt;可选后台前端主题搜集&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ani Angular 2 Theme&lt;/li&gt;
@@ -404,7 +403,7 @@
 
 &lt;p&gt;star 83 on &lt;a href=&#34;https://github.com/ziyasal/rdash-angular2&#34;&gt;https://github.com/ziyasal/rdash-angular2&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;ani-angular-2-剖析:25fe8fb94ac26b21e75da0dc60a700f3&#34;&gt;Ani Angular 2 剖析&lt;/h1&gt;
+&lt;h1 id=&#34;ani-angular-2-剖析&#34;&gt;Ani Angular 2 剖析&lt;/h1&gt;
 </description>
     </item>
     
