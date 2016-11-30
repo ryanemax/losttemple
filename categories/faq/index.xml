@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/faq/index.xml</link>
+    <link>https://cio.anasit.com/categories/faq/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="https://ryanemax.github.io/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cio.anasit.com/categories/faq/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>dreamfactory常见问题汇总</title>
-      <link>https://ryanemax.github.io/faq/dreamfactory/</link>
+      <link>https://cio.anasit.com/faq/dreamfactory/</link>
       <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/dreamfactory/</guid>
+      <guid>https://cio.anasit.com/faq/dreamfactory/</guid>
       <description>
 
 &lt;h1 id=&#34;composer-install-依赖问题&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
@@ -94,10 +94,10 @@ composer install
     
     <item>
       <title>systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案</title>
-      <link>https://ryanemax.github.io/faq/archfaq/</link>
+      <link>https://cio.anasit.com/faq/archfaq/</link>
       <pubDate>Fri, 13 May 2016 21:00:00 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/archfaq/</guid>
+      <guid>https://cio.anasit.com/faq/archfaq/</guid>
       <description>
 
 &lt;h1 id=&#34;systemd-journal进程占用100-cpu-硬盘磁盘无法读取&#34;&gt;systemd-journal进程占用100%CPU，硬盘磁盘无法读取&lt;/h1&gt;
@@ -124,10 +124,10 @@ blacklist sp5100_tco
     
     <item>
       <title>ionic2常见问题汇总之界面布局篇</title>
-      <link>https://ryanemax.github.io/faq/ionic2html/</link>
+      <link>https://cio.anasit.com/faq/ionic2html/</link>
       <pubDate>Sat, 07 May 2016 10:43:03 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/ionic2html/</guid>
+      <guid>https://cio.anasit.com/faq/ionic2html/</guid>
       <description>
 
 &lt;h1 id=&#34;当icon图标没有outline模式时-点击后会变成空白&#34;&gt;当icon图标没有outline模式时，点击后会变成空白&lt;/h1&gt;
@@ -168,10 +168,10 @@ blacklist sp5100_tco
     
     <item>
       <title>ionic2常见问题汇总之安装篇</title>
-      <link>https://ryanemax.github.io/faq/ionic2install/</link>
+      <link>https://cio.anasit.com/faq/ionic2install/</link>
       <pubDate>Tue, 29 Mar 2016 10:43:03 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/ionic2install/</guid>
+      <guid>https://cio.anasit.com/faq/ionic2install/</guid>
       <description>
 
 &lt;h1 id=&#34;ionic2常见问题汇总之安装篇&#34;&gt;《ionic2常见问题汇总之安装篇》&lt;/h1&gt;
@@ -339,10 +339,10 @@ n 5.12.0
     
     <item>
       <title>LNMP内存或CPU过高优化问题</title>
-      <link>https://ryanemax.github.io/faq/lnmp/502/</link>
+      <link>https://cio.anasit.com/faq/lnmp/502/</link>
       <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/lnmp/502/</guid>
+      <guid>https://cio.anasit.com/faq/lnmp/502/</guid>
       <description>
 
 &lt;h1 id=&#34;lnmp内存或cpu过高的优化问题&#34;&gt;《LNMP内存或CPU过高的优化问题》&lt;/h1&gt;
@@ -518,10 +518,10 @@ KiB Swap:        0 total,        0 used,        0 free.  2003548 cached Mem
     
     <item>
       <title>Odoo9会计模块常见问题</title>
-      <link>https://ryanemax.github.io/faq/odoo/faq-accounting/</link>
+      <link>https://cio.anasit.com/faq/odoo/faq-accounting/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/odoo/faq-accounting/</guid>
+      <guid>https://cio.anasit.com/faq/odoo/faq-accounting/</guid>
       <description>
 
 &lt;h1 id=&#34;货币选项中无cny&#34;&gt;货币选项中无CNY&lt;/h1&gt;
@@ -598,10 +598,10 @@ The following fields are invalid:
     
     <item>
       <title>Odoo9入门学习手册</title>
-      <link>https://ryanemax.github.io/faq/odoo/learn/</link>
+      <link>https://cio.anasit.com/faq/odoo/learn/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/odoo/learn/</guid>
+      <guid>https://cio.anasit.com/faq/odoo/learn/</guid>
       <description>
 
 &lt;h1 id=&#34;使用手册&#34;&gt;使用手册&lt;/h1&gt;
@@ -618,10 +618,10 @@ The following fields are invalid:
     
     <item>
       <title>Odoo9多域名如何解析多数据库</title>
-      <link>https://ryanemax.github.io/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+      <link>https://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+      <guid>https://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
       <description>
 
 &lt;h1 id=&#34;odoo9多域名解析多数据库规则&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
@@ -657,10 +657,10 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
     
     <item>
       <title>Odoo9有哪些优秀第三方模块</title>
-      <link>https://ryanemax.github.io/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
+      <link>https://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
       <description>
 
 &lt;h1 id=&#34;payment支付-odoo-8-0&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
@@ -687,10 +687,10 @@ group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;qu
     
     <item>
       <title>Odoo9系统设置栏目常见问题</title>
-      <link>https://ryanemax.github.io/faq/odoo/faq-system/</link>
+      <link>https://cio.anasit.com/faq/odoo/faq-system/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/odoo/faq-system/</guid>
+      <guid>https://cio.anasit.com/faq/odoo/faq-system/</guid>
       <description>
 
 &lt;h1 id=&#34;无法保存照片-无法发送邮件&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
@@ -794,10 +794,10 @@ postmaster-odoo@anasit.com
     
     <item>
       <title>Odoo9销售模块常见问题</title>
-      <link>https://ryanemax.github.io/faq/odoo/faq-sales/</link>
+      <link>https://cio.anasit.com/faq/odoo/faq-sales/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/odoo/faq-sales/</guid>
+      <guid>https://cio.anasit.com/faq/odoo/faq-sales/</guid>
       <description>
 
 &lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
@@ -810,10 +810,10 @@ postmaster-odoo@anasit.com
     
     <item>
       <title>Nginx-php-fastcgi-no-input-files</title>
-      <link>https://ryanemax.github.io/faq/lnmp/nginx-php-nofiles/</link>
+      <link>https://cio.anasit.com/faq/lnmp/nginx-php-nofiles/</link>
       <pubDate>Wed, 23 Sep 2015 10:49:00 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/lnmp/nginx-php-nofiles/</guid>
+      <guid>https://cio.anasit.com/faq/lnmp/nginx-php-nofiles/</guid>
       <description>
 
 &lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;
@@ -893,10 +893,10 @@ location ~ [^/]\.php(/|$) {
     
     <item>
       <title>Debian常见问题汇总</title>
-      <link>https://ryanemax.github.io/faq/debianfaq/</link>
+      <link>https://cio.anasit.com/faq/debianfaq/</link>
       <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/debianfaq/</guid>
+      <guid>https://cio.anasit.com/faq/debianfaq/</guid>
       <description>
 
 &lt;h1 id=&#34;apt-get更新问题-failed-to-fetch-http&#34;&gt;apt-get更新问题：Failed to Fetch : http://&lt;/h1&gt;
@@ -932,10 +932,10 @@ deb-src http://mirrors.ustc.edu.cn/debian testing-updates main contrib non-free
     
     <item>
       <title>steam for archlinux FAQ</title>
-      <link>https://ryanemax.github.io/faq/steam/</link>
+      <link>https://cio.anasit.com/faq/steam/</link>
       <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/steam/</guid>
+      <guid>https://cio.anasit.com/faq/steam/</guid>
       <description>&lt;p&gt;#FAQ:Run as root user
 ##Soluution:&lt;/p&gt;
 
@@ -952,10 +952,10 @@ deb-src http://mirrors.ustc.edu.cn/debian testing-updates main contrib non-free
     
     <item>
       <title>yo,npm,grunt,bower</title>
-      <link>https://ryanemax.github.io/faq/yo,npm,grunt,bower/</link>
+      <link>https://cio.anasit.com/faq/yo,npm,grunt,bower/</link>
       <pubDate>Mon, 17 Aug 2015 02:19:36 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/faq/yo,npm,grunt,bower/</guid>
+      <guid>https://cio.anasit.com/faq/yo,npm,grunt,bower/</guid>
       <description>&lt;p&gt;#Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo;
 &lt;a href=&#34;https://github.com/keystonejs/keystone/issues/1566&#34;&gt;https://github.com/keystonejs/keystone/issues/1566&lt;/a&gt;&lt;/p&gt;
 

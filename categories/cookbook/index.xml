@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/categories/cookbook/index.xml</link>
+    <link>https://cio.anasit.com/categories/cookbook/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="https://ryanemax.github.io/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cio.anasit.com/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
-      <link>https://ryanemax.github.io/cookbook/vrar/arplayer/</link>
+      <link>https://cio.anasit.com/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/vrar/arplayer/</guid>
+      <guid>https://cio.anasit.com/cookbook/vrar/arplayer/</guid>
       <description>
 
 &lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
-      <link>https://ryanemax.github.io/cookbook/tool/bashonwindows/</link>
+      <link>https://cio.anasit.com/cookbook/tool/bashonwindows/</link>
       <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/tool/bashonwindows/</guid>
+      <guid>https://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
       <description>
 
 &lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
@@ -114,10 +114,10 @@ zsh
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
 &lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
@@ -163,10 +163,10 @@ zsh
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>https://ryanemax.github.io/cookbook/backend/paas-deploy/</link>
+      <link>https://cio.anasit.com/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/backend/paas-deploy/</guid>
+      <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
@@ -211,10 +211,10 @@ zsh
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>https://ryanemax.github.io/cookbook/api/apitrends/</link>
+      <link>https://cio.anasit.com/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/apitrends/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/apitrends/</guid>
       <description>
 
 &lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
@@ -289,10 +289,10 @@ zsh
     
     <item>
       <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>https://ryanemax.github.io/cookbook/pkm/card/</link>
+      <link>https://cio.anasit.com/cookbook/pkm/card/</link>
       <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/pkm/card/</guid>
+      <guid>https://cio.anasit.com/cookbook/pkm/card/</guid>
       <description>
 
 &lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;
@@ -355,10 +355,10 @@ zsh
     
     <item>
       <title>个人知识管理解决方案</title>
-      <link>https://ryanemax.github.io/README/</link>
+      <link>https://cio.anasit.com/README/</link>
       <pubDate>Fri, 01 Apr 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/README/</guid>
+      <guid>https://cio.anasit.com/README/</guid>
       <description>
 
 &lt;h1 id=&#34;个人知识管理-规划中&#34;&gt;个人知识管理（规划中）&lt;/h1&gt;
@@ -577,10 +577,10 @@ git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
     
     <item>
       <title>Every one should learn how to Fuck The GFW</title>
-      <link>https://ryanemax.github.io/cookbook/fuckGFW/</link>
+      <link>https://cio.anasit.com/cookbook/fuckGFW/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/fuckGFW/</guid>
+      <guid>https://cio.anasit.com/cookbook/fuckGFW/</guid>
       <description>
 
 &lt;h1 id=&#34;windows程序socks代理-用于游戏&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
@@ -606,10 +606,10 @@ export https_proxy=http://127.0.0.1:8118
     
     <item>
       <title>Linux最佳文件压缩方式</title>
-      <link>https://ryanemax.github.io/cookbook/devops/linux-tar/</link>
+      <link>https://cio.anasit.com/cookbook/devops/linux-tar/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/devops/linux-tar/</guid>
+      <guid>https://cio.anasit.com/cookbook/devops/linux-tar/</guid>
       <description>
 
 &lt;h1 id=&#34;linux最佳压缩方式&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
@@ -678,10 +678,10 @@ $tar -axf 1.tar.xz 1/a.bin
     
     <item>
       <title>Atom实践探索</title>
-      <link>https://ryanemax.github.io/cookbook/tool/atom/</link>
+      <link>https://cio.anasit.com/cookbook/tool/atom/</link>
       <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/tool/atom/</guid>
+      <guid>https://cio.anasit.com/cookbook/tool/atom/</guid>
       <description>
 
 &lt;p&gt;官方手册：&lt;a href=&#34;http://flight-manual.atom.io/&#34;&gt;http://flight-manual.atom.io/&lt;/a&gt;&lt;/p&gt;
@@ -785,10 +785,10 @@ apm install
     
     <item>
       <title>VR时代来临了，带上兵器吧</title>
-      <link>https://ryanemax.github.io/cookbook/vrar/VRdev/</link>
+      <link>https://cio.anasit.com/cookbook/vrar/VRdev/</link>
       <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/vrar/VRdev/</guid>
+      <guid>https://cio.anasit.com/cookbook/vrar/VRdev/</guid>
       <description>
 
 &lt;h1 id=&#34;vr时代来临了-带上兵器吧&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
@@ -852,10 +852,10 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
     
     <item>
       <title>极致效率的键位变更</title>
-      <link>https://ryanemax.github.io/cookbook/tool/keyboard/</link>
+      <link>https://cio.anasit.com/cookbook/tool/keyboard/</link>
       <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/tool/keyboard/</guid>
+      <guid>https://cio.anasit.com/cookbook/tool/keyboard/</guid>
       <description>
 
 &lt;p&gt;极致效率的键位变更&lt;/p&gt;
@@ -949,10 +949,10 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
     
     <item>
       <title>常见开源消息系统/中间件技术评选</title>
-      <link>https://ryanemax.github.io/cookbook/backend/messagesystem/</link>
+      <link>https://cio.anasit.com/cookbook/backend/messagesystem/</link>
       <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/backend/messagesystem/</guid>
+      <guid>https://cio.anasit.com/cookbook/backend/messagesystem/</guid>
       <description>
 
 &lt;h1 id=&#34;常见开源消息系统-中间件技术评选&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
@@ -1077,10 +1077,10 @@ Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果�
     
     <item>
       <title>Docker入门实践</title>
-      <link>https://ryanemax.github.io/cookbook/devops/dockerstart/</link>
+      <link>https://cio.anasit.com/cookbook/devops/dockerstart/</link>
       <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/devops/dockerstart/</guid>
+      <guid>https://cio.anasit.com/cookbook/devops/dockerstart/</guid>
       <description>
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
@@ -1121,10 +1121,10 @@ docker version
     
     <item>
       <title>萤石云开发实践</title>
-      <link>https://ryanemax.github.io/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
+      <link>https://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
+      <guid>https://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
       <description>
 
 &lt;h1 id=&#34;萤石云开发实践&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
