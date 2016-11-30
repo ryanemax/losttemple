@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://cio.anasit.com/categories/game/dev/index.xml</link>
+    <link>http://cio.anasit.com/categories/game/dev/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="https://cio.anasit.com/categories/game/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://cio.anasit.com/categories/game/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>手机游戏客户端开发引擎调研</title>
-      <link>https://cio.anasit.com/game/mobilegame/</link>
+      <link>http://cio.anasit.com/game/mobilegame/</link>
       <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/mobilegame/</guid>
+      <guid>http://cio.anasit.com/game/mobilegame/</guid>
       <description>
 
 &lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
@@ -139,10 +139,10 @@ UleadGifAnimator&lt;/p&gt;
     
     <item>
       <title>mapplestory&#39;s Tech Collection</title>
-      <link>https://cio.anasit.com/game/dev/mapplestory/</link>
+      <link>http://cio.anasit.com/game/dev/mapplestory/</link>
       <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/dev/mapplestory/</guid>
+      <guid>http://cio.anasit.com/game/dev/mapplestory/</guid>
       <description>
 
 &lt;h1 id=&#34;冒险岛模拟器技术调研及收藏&#34;&gt;冒险岛模拟器技术调研及收藏&lt;/h1&gt;
