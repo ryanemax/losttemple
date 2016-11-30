@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://ryanemax.github.io/tags/restful/index.xml</link>
+    <link>https://cio.anasit.com/tags/restful/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="https://ryanemax.github.io/tags/restful/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cio.anasit.com/tags/restful/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
       <description>
 
 &lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
@@ -95,10 +95,10 @@
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/frontend/ng2-firebase/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
       <description>
 
 &lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
@@ -117,10 +117,10 @@
     
     <item>
       <title>RAML-Parser各大语言解析器评选</title>
-      <link>https://ryanemax.github.io/cookbook/api/raml-paser/</link>
+      <link>https://cio.anasit.com/cookbook/api/raml-paser/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/raml-paser/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/raml-paser/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-parser各大语言解析器评选&#34;&gt;《RAML-Parser各大语言解析器评选》&lt;/h1&gt;
@@ -233,10 +233,10 @@ a years ago &lt;a href=&#34;https://github.com/go-raml/raml&#34;&gt;https://gith
     
     <item>
       <title>RESTful API规范解决方案评选</title>
-      <link>https://ryanemax.github.io/cookbook/api/restapi/</link>
+      <link>https://cio.anasit.com/cookbook/api/restapi/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/restapi/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/restapi/</guid>
       <description>
 
 &lt;h1 id=&#34;1-描述语言选择&#34;&gt;1.描述语言选择&lt;/h1&gt;
@@ -272,10 +272,10 @@ This package combines swagger-php and swagger-ui into one Laravel-friendly packa
     
     <item>
       <title>raml 1.0 与 raml 0.8区别之处</title>
-      <link>https://ryanemax.github.io/cookbook/api/ramldiff0/</link>
+      <link>https://cio.anasit.com/cookbook/api/ramldiff0/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/ramldiff0/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/ramldiff0/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-1-0-与-raml-0-8区别之处&#34;&gt;《raml 1.0 与 raml 0.8区别之处》&lt;/h1&gt;
@@ -309,10 +309,10 @@ properties:
     
     <item>
       <title>golang的restful框架选择</title>
-      <link>https://ryanemax.github.io/cookbook/api/golangforrest/</link>
+      <link>https://cio.anasit.com/cookbook/api/golangforrest/</link>
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/golangforrest/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/golangforrest/</guid>
       <description>
 
 &lt;h1 id=&#34;0-必备功能&#34;&gt;0.必备功能&lt;/h1&gt;
@@ -465,10 +465,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>raml相关的generator</title>
-      <link>https://ryanemax.github.io/cookbook/api/raml-generator/</link>
+      <link>https://cio.anasit.com/cookbook/api/raml-generator/</link>
       <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/raml-generator/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/raml-generator/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-client-generator&#34;&gt;raml-client-generator&lt;/h1&gt;
@@ -521,10 +521,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>https://ryanemax.github.io/cookbook/api/restlet-java/</link>
+      <link>https://cio.anasit.com/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/restlet-java/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/restlet-java/</guid>
       <description>
 
 &lt;h1 id=&#34;那么java最潮流的restful-api开发框架及模式是什么&#34;&gt;那么java最潮流的RESTful API开发框架及模式是什么&lt;/h1&gt;
@@ -605,10 +605,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
-      <link>https://ryanemax.github.io/cookbook/api/mulesoft/</link>
+      <link>https://cio.anasit.com/cookbook/api/mulesoft/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/mulesoft/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/mulesoft/</guid>
       <description>
 
 &lt;h1 id=&#34;0-mulesoft与raml&#34;&gt;0. MuleSoft与RAML&lt;/h1&gt;
@@ -669,10 +669,10 @@ faster than gin,martini,Negroni&lt;/p&gt;
     
     <item>
       <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
-      <link>https://ryanemax.github.io/cookbook/api/newforraml/</link>
+      <link>https://cio.anasit.com/cookbook/api/newforraml/</link>
       <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
       
-      <guid>https://ryanemax.github.io/cookbook/api/newforraml/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/newforraml/</guid>
       <description>
 
 &lt;h1 id=&#34;0-0-前言&#34;&gt;0.0 前言&lt;/h1&gt;
