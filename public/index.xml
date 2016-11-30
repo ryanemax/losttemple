@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://cio.anasit.com/index.xml</link>
+    <link>http://cio.anasit.com/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Mon, 07 Nov 2016 12:00:00 +0800</lastBuildDate>
-    <atom:link href="https://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>个人职业生涯规划说明</title>
-      <link>https://cio.anasit.com/career/README/</link>
+      <link>http://cio.anasit.com/career/README/</link>
       <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/career/README/</guid>
+      <guid>http://cio.anasit.com/career/README/</guid>
       <description>
 
 &lt;h1 id=&#34;简历档案&#34;&gt;简历档案&lt;/h1&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
-      <link>https://cio.anasit.com/cookbook/vrar/arplayer/</link>
+      <link>http://cio.anasit.com/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/vrar/arplayer/</guid>
+      <guid>http://cio.anasit.com/cookbook/vrar/arplayer/</guid>
       <description>
 
 &lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
@@ -98,10 +98,10 @@
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
-      <link>https://cio.anasit.com/cookbook/tool/bashonwindows/</link>
+      <link>http://cio.anasit.com/cookbook/tool/bashonwindows/</link>
       <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
+      <guid>http://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
       <description>
 
 &lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
@@ -145,10 +145,10 @@ zsh
     
     <item>
       <title>ng2服务端渲染及SEO方案——universal</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-universal/</link>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-universal/</link>
       <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
       <description>
 
 &lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
@@ -176,10 +176,10 @@ zsh
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
 &lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
@@ -259,10 +259,10 @@ zsh
     
     <item>
       <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
-      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
+      <link>http://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
+      <guid>http://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
       <description>
 
 &lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
@@ -326,10 +326,10 @@ zsh
     
     <item>
       <title>（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</title>
-      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
+      <link>http://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
+      <guid>http://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
       <description>
 
 &lt;h1 id=&#34;零-前言&#34;&gt;零、前言&lt;/h1&gt;
@@ -625,10 +625,10 @@ zsh
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>https://cio.anasit.com/cookbook/backend/paas/</link>
+      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/paas/</guid>
+      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
@@ -757,10 +757,10 @@ zsh
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
 &lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
@@ -806,10 +806,10 @@ zsh
     
     <item>
       <title>CIO分论坛：新技术及IT信息服务会议记录</title>
-      <link>https://cio.anasit.com/meeting/2016-6-17apcio-it/</link>
+      <link>http://cio.anasit.com/meeting/2016-6-17apcio-it/</link>
       <pubDate>Fri, 17 Jun 2016 16:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/meeting/2016-6-17apcio-it/</guid>
+      <guid>http://cio.anasit.com/meeting/2016-6-17apcio-it/</guid>
       <description>
 
 &lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
@@ -1380,10 +1380,10 @@ zsh
     
     <item>
       <title>亚太CIO（上海）领袖峰会会议记录</title>
-      <link>https://cio.anasit.com/meeting/2016-6-17apcio/</link>
+      <link>http://cio.anasit.com/meeting/2016-6-17apcio/</link>
       <pubDate>Fri, 17 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/meeting/2016-6-17apcio/</guid>
+      <guid>http://cio.anasit.com/meeting/2016-6-17apcio/</guid>
       <description>
 
 &lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
@@ -2055,10 +2055,10 @@ zsh
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>https://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
@@ -2103,10 +2103,10 @@ zsh
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
       <description>
 
 &lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
@@ -2160,10 +2160,10 @@ zsh
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>https://cio.anasit.com/cookbook/api/apitrends/</link>
+      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
       <description>
 
 &lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
@@ -2238,10 +2238,10 @@ zsh
     
     <item>
       <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>https://cio.anasit.com/cookbook/pkm/card/</link>
+      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
       <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/pkm/card/</guid>
+      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
       <description>
 
 &lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;

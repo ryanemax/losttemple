@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://cio.anasit.com/tags/paas/index.xml</link>
+    <link>http://cio.anasit.com/tags/paas/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="https://cio.anasit.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://cio.anasit.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>https://cio.anasit.com/cookbook/backend/paas/</link>
+      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/paas/</guid>
+      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
@@ -143,10 +143,10 @@
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>https://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
@@ -191,10 +191,10 @@
     
     <item>
       <title>parse服务学习指引</title>
-      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <link>http://cio.anasit.com/cookbook/backend/parse-learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <guid>http://cio.anasit.com/cookbook/backend/parse-learn/</guid>
       <description>
 
 &lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;

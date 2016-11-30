@@ -1,4 +1,4 @@
-baseurl = "https://cio.anasit.com/"
+baseurl = "http://cio.anasit.com/"
 contentdir = "content"
 languageCode = "en-us"
 title = "刘雨飏@ANAS联盟"

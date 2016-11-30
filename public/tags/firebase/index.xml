@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>https://cio.anasit.com/tags/firebase/index.xml</link>
+    <link>http://cio.anasit.com/tags/firebase/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="https://cio.anasit.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://cio.anasit.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</link>
+      <link>http://cio.anasit.com/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
+      <guid>http://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
       <description>
 
 &lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
