@@ -7,6 +7,7 @@
 <meta name="author" content="{{ .Site.Params.author }}">
 {{ .Hugo.Generator }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="{{ "css/style.css" | absURL }}" type="text/css">
 <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
