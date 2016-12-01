@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbook-rsses on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/cookbook/index.xml</link>
+    <link>https://cio.anasit.com/cookbook/index.xml</link>
     <description>Recent content in Cookbook-rsses on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Fri, 21 Oct 2016 15:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cio.anasit.com/cookbook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
-      <link>http://cio.anasit.com/cookbook/vrar/arplayer/</link>
+      <link>https://cio.anasit.com/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/vrar/arplayer/</guid>
+      <guid>https://cio.anasit.com/cookbook/vrar/arplayer/</guid>
       <description>
 
 &lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
@@ -68,10 +68,10 @@
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
-      <link>http://cio.anasit.com/cookbook/tool/bashonwindows/</link>
+      <link>https://cio.anasit.com/cookbook/tool/bashonwindows/</link>
       <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
+      <guid>https://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
       <description>
 
 &lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
@@ -115,10 +115,10 @@ zsh
     
     <item>
       <title>ng2服务端渲染及SEO方案——universal</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-universal/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-universal/</link>
       <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
       <description>
 
 &lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
@@ -146,10 +146,10 @@ zsh
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
       <description>
 
 &lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
@@ -229,10 +229,10 @@ zsh
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas/</link>
+      <link>https://cio.anasit.com/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas/</guid>
+      <guid>https://cio.anasit.com/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
@@ -361,10 +361,10 @@ zsh
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>
 
 &lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
@@ -410,10 +410,10 @@ zsh
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>http://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <link>https://cio.anasit.com/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
       <description>
 
 &lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
@@ -458,10 +458,10 @@ zsh
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
       <description>
 
 &lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
@@ -515,10 +515,10 @@ zsh
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>http://cio.anasit.com/cookbook/api/apitrends/</link>
+      <link>https://cio.anasit.com/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/apitrends/</guid>
       <description>
 
 &lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
@@ -593,10 +593,10 @@ zsh
     
     <item>
       <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>http://cio.anasit.com/cookbook/pkm/card/</link>
+      <link>https://cio.anasit.com/cookbook/pkm/card/</link>
       <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/pkm/card/</guid>
+      <guid>https://cio.anasit.com/cookbook/pkm/card/</guid>
       <description>
 
 &lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;
@@ -659,19 +659,19 @@ zsh
     
     <item>
       <title>H5页面如何接入google ads实现广告收入？</title>
-      <link>http://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <link>https://cio.anasit.com/cookbook/cms/google-ads/</link>
       <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <guid>https://cio.anasit.com/cookbook/cms/google-ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
-      <link>http://cio.anasit.com/cookbook/cms/homesite/</link>
+      <link>https://cio.anasit.com/cookbook/cms/homesite/</link>
       <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <guid>https://cio.anasit.com/cookbook/cms/homesite/</guid>
       <description>
 
 &lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
@@ -741,10 +741,10 @@ zsh
     
     <item>
       <title>适合开发者的第三方RSS采集服务选型</title>
-      <link>http://cio.anasit.com/cookbook/cms/rss/</link>
+      <link>https://cio.anasit.com/cookbook/cms/rss/</link>
       <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/cms/rss/</guid>
+      <guid>https://cio.anasit.com/cookbook/cms/rss/</guid>
       <description>
 
 &lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
@@ -871,10 +871,10 @@ zsh
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
       <description>
 
 &lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
@@ -955,10 +955,10 @@ zsh
     
     <item>
       <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
       <description>
 
 &lt;h1 id=&#34;es6&#34;&gt;ES6&lt;/h1&gt;

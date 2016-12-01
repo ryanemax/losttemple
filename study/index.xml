@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Study-rsses on 刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/study/index.xml</link>
+    <link>https://cio.anasit.com/study/index.xml</link>
     <description>Recent content in Study-rsses on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <lastBuildDate>Thu, 31 Mar 2016 20:05:51 +0800</lastBuildDate>
-    <atom:link href="http://cio.anasit.com/study/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cio.anasit.com/study/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Markdown制作ppt最佳实践</title>
-      <link>http://cio.anasit.com/study/markdown2ppt/</link>
+      <link>https://cio.anasit.com/study/markdown2ppt/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/markdown2ppt/</guid>
+      <guid>https://cio.anasit.com/study/markdown2ppt/</guid>
       <description>
 
 &lt;h1 id=&#34;markdown制作ppt最佳实践&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
@@ -101,10 +101,10 @@ pandoc -s --mathjax -i -t revealjs ${srcfile} -o build/ppt/${buildname}.html
     
     <item>
       <title>markdown写中国国内论文最佳实践</title>
-      <link>http://cio.anasit.com/study/markdown2paper/</link>
+      <link>https://cio.anasit.com/study/markdown2paper/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/markdown2paper/</guid>
+      <guid>https://cio.anasit.com/study/markdown2paper/</guid>
       <description>
 
 &lt;h1 id=&#34;前置学习引导&#34;&gt;前置学习引导&lt;/h1&gt;
@@ -165,10 +165,10 @@ fc-cache vf
     
     <item>
       <title>如何用markdown生成带目录、页眉、页脚的pdf？ </title>
-      <link>http://cio.anasit.com/study/markdown2pdf/</link>
+      <link>https://cio.anasit.com/study/markdown2pdf/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/markdown2pdf/</guid>
+      <guid>https://cio.anasit.com/study/markdown2pdf/</guid>
       <description>
 
 &lt;h1 id=&#34;如何用markdown生成带目录-页眉-页脚的pdf&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/h1&gt;
@@ -437,10 +437,10 @@ $endif$
     
     <item>
       <title>Latex工具插件</title>
-      <link>http://cio.anasit.com/study/latex/</link>
+      <link>https://cio.anasit.com/study/latex/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/latex/</guid>
+      <guid>https://cio.anasit.com/study/latex/</guid>
       <description>
 
 &lt;h1 id=&#34;atom-latex插件&#34;&gt;Atom Latex插件&lt;/h1&gt;
@@ -457,10 +457,10 @@ $endif$
     
     <item>
       <title>论文生成工具</title>
-      <link>http://cio.anasit.com/study/tools/</link>
+      <link>https://cio.anasit.com/study/tools/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/tools/</guid>
+      <guid>https://cio.anasit.com/study/tools/</guid>
       <description>
 
 &lt;h1 id=&#34;scigen论文生成器&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
@@ -475,10 +475,10 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
     
     <item>
       <title>国税地税申报流程整理</title>
-      <link>http://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</link>
+      <link>https://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Tue, 15 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
+      <guid>https://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
       <description>
 
 &lt;h1 id=&#34;江西地税-企业个人所得税&#34;&gt;江西地税（企业个人所得税）&lt;/h1&gt;
@@ -495,10 +495,10 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
     
     <item>
       <title>去中心化贸易及货币的&#39;反祖现象&#39;探讨</title>
-      <link>http://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</link>
+      <link>https://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</link>
       <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
+      <guid>https://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
       <description>
 
 &lt;h1 id=&#34;去中心化贸易及货币的-反祖现象-探讨&#34;&gt;去中心化贸易及货币的&amp;rsquo;反祖现象&amp;rsquo;探讨&amp;rdquo;&lt;/h1&gt;
@@ -523,10 +523,10 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
     
     <item>
       <title>易的研究与学习</title>
-      <link>http://cio.anasit.com/study/occult/learnichang/</link>
+      <link>https://cio.anasit.com/study/occult/learnichang/</link>
       <pubDate>Mon, 19 Oct 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/occult/learnichang/</guid>
+      <guid>https://cio.anasit.com/study/occult/learnichang/</guid>
       <description>
 
 &lt;h2 id=&#34;学习方法&#34;&gt;学习方法&lt;/h2&gt;
@@ -568,10 +568,10 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
     
     <item>
       <title>FullStackOfNewGeneration/链接现实与信息系统的全栈开发技术</title>
-      <link>http://cio.anasit.com/study/it/FullStackOfNewGeneration/</link>
+      <link>https://cio.anasit.com/study/it/FullStackOfNewGeneration/</link>
       <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/it/FullStackOfNewGeneration/</guid>
+      <guid>https://cio.anasit.com/study/it/FullStackOfNewGeneration/</guid>
       <description>
 
 &lt;h1 id=&#34;0-short-intro&#34;&gt;0.Short Intro.&lt;/h1&gt;
@@ -641,10 +641,10 @@ raml2html is good.&lt;/p&gt;
     
     <item>
       <title>写作需要的技巧、工具等，写在正式写论文之前</title>
-      <link>http://cio.anasit.com/study/WritingSkill/</link>
+      <link>https://cio.anasit.com/study/WritingSkill/</link>
       <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/WritingSkill/</guid>
+      <guid>https://cio.anasit.com/study/WritingSkill/</guid>
       <description>
 
 &lt;p&gt;参考：&lt;/p&gt;
@@ -683,10 +683,10 @@ pandoc test1.md -s -o test1.pdf
     
     <item>
       <title>心理学学习计划</title>
-      <link>http://cio.anasit.com/study/psychology/learn/</link>
+      <link>https://cio.anasit.com/study/psychology/learn/</link>
       <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/psychology/learn/</guid>
+      <guid>https://cio.anasit.com/study/psychology/learn/</guid>
       <description>
 
 &lt;h1 id=&#34;心理学学习计划&#34;&gt;《心理学学习计划》&lt;/h1&gt;
@@ -726,10 +726,10 @@ pandoc test1.md -s -o test1.pdf
     
     <item>
       <title>心理学实用理论整理</title>
-      <link>http://cio.anasit.com/study/psychology/value/</link>
+      <link>https://cio.anasit.com/study/psychology/value/</link>
       <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/psychology/value/</guid>
+      <guid>https://cio.anasit.com/study/psychology/value/</guid>
       <description>
 
 &lt;h1 id=&#34;巴甫诺夫-动力定型&#34;&gt;巴甫诺夫——动力定型&lt;/h1&gt;
@@ -754,10 +754,10 @@ pandoc test1.md -s -o test1.pdf
     
     <item>
       <title>战争从未改变</title>
-      <link>http://cio.anasit.com/study/it/warneverchange/</link>
+      <link>https://cio.anasit.com/study/it/warneverchange/</link>
       <pubDate>Fri, 09 Jan 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/it/warneverchange/</guid>
+      <guid>https://cio.anasit.com/study/it/warneverchange/</guid>
       <description>
 
 &lt;h1 id=&#34;序言-战争从未改变-war-war-never-changes&#34;&gt;序言：战争从未改变 War，War Never changes&lt;/h1&gt;
@@ -1066,10 +1066,10 @@ could be acquired.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://cio.anasit.com/study/biology/takein/</link>
+      <link>https://cio.anasit.com/study/biology/takein/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://cio.anasit.com/study/biology/takein/</guid>
+      <guid>https://cio.anasit.com/study/biology/takein/</guid>
       <description>
 
 &lt;h1 id=&#34;探究生物药剂-精神力-幻想相关的知识体系&#34;&gt;探究生物药剂/精神力/幻想相关的知识体系&lt;/h1&gt;
@@ -1096,10 +1096,10 @@ could be acquired.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://cio.anasit.com/study/graduate/english/guide/</link>
+      <link>https://cio.anasit.com/study/graduate/english/guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://cio.anasit.com/study/graduate/english/guide/</guid>
+      <guid>https://cio.anasit.com/study/graduate/english/guide/</guid>
       <description>
 
 &lt;h1 id=&#34;2017考研英语规划-70分&#34;&gt;2017考研英语规划——70分&lt;/h1&gt;
