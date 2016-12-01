@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刘雨飏@ANAS联盟</title>
-    <link>http://cio.anasit.com/categories/study/index.xml</link>
+    <link>https://cio.anasit.com/categories/study/index.xml</link>
     <description>Recent content on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <atom:link href="http://cio.anasit.com/categories/study/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cio.anasit.com/categories/study/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Markdown制作ppt最佳实践</title>
-      <link>http://cio.anasit.com/study/markdown2ppt/</link>
+      <link>https://cio.anasit.com/study/markdown2ppt/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/markdown2ppt/</guid>
+      <guid>https://cio.anasit.com/study/markdown2ppt/</guid>
       <description>
 
 &lt;h1 id=&#34;markdown制作ppt最佳实践&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
@@ -100,10 +100,10 @@ pandoc -s --mathjax -i -t revealjs ${srcfile} -o build/ppt/${buildname}.html
     
     <item>
       <title>markdown写中国国内论文最佳实践</title>
-      <link>http://cio.anasit.com/study/markdown2paper/</link>
+      <link>https://cio.anasit.com/study/markdown2paper/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/markdown2paper/</guid>
+      <guid>https://cio.anasit.com/study/markdown2paper/</guid>
       <description>
 
 &lt;h1 id=&#34;前置学习引导&#34;&gt;前置学习引导&lt;/h1&gt;
@@ -164,10 +164,10 @@ fc-cache vf
     
     <item>
       <title>如何用markdown生成带目录、页眉、页脚的pdf？ </title>
-      <link>http://cio.anasit.com/study/markdown2pdf/</link>
+      <link>https://cio.anasit.com/study/markdown2pdf/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/markdown2pdf/</guid>
+      <guid>https://cio.anasit.com/study/markdown2pdf/</guid>
       <description>
 
 &lt;h1 id=&#34;如何用markdown生成带目录-页眉-页脚的pdf&#34;&gt;如何用markdown生成带目录、页眉、页脚的pdf？&lt;/h1&gt;
@@ -436,10 +436,10 @@ $endif$
     
     <item>
       <title>Latex工具插件</title>
-      <link>http://cio.anasit.com/study/latex/</link>
+      <link>https://cio.anasit.com/study/latex/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/latex/</guid>
+      <guid>https://cio.anasit.com/study/latex/</guid>
       <description>
 
 &lt;h1 id=&#34;atom-latex插件&#34;&gt;Atom Latex插件&lt;/h1&gt;
@@ -456,10 +456,10 @@ $endif$
     
     <item>
       <title>论文生成工具</title>
-      <link>http://cio.anasit.com/study/tools/</link>
+      <link>https://cio.anasit.com/study/tools/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/tools/</guid>
+      <guid>https://cio.anasit.com/study/tools/</guid>
       <description>
 
 &lt;h1 id=&#34;scigen论文生成器&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
@@ -474,10 +474,10 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
     
     <item>
       <title>写作需要的技巧、工具等，写在正式写论文之前</title>
-      <link>http://cio.anasit.com/study/WritingSkill/</link>
+      <link>https://cio.anasit.com/study/WritingSkill/</link>
       <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
       
-      <guid>http://cio.anasit.com/study/WritingSkill/</guid>
+      <guid>https://cio.anasit.com/study/WritingSkill/</guid>
       <description>
 
 &lt;p&gt;参考：&lt;/p&gt;
