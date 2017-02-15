@@ -6,5 +6,5 @@ echo -e "\033[0;32mCopying *.md from ~/Note to Blog...\033[0m"
 # 方式二：编辑exclude文件./ignore.list
 rsync -aztP --exclude-from "ignore.list" --delete ../note/ content
 
-#hugo server -w -D -t material-design 
-hugo server --bind 0.0.0.0 -w -D -t base16-ryn --baseUrl http://anasit.com:1313/
+#hugo server -w -D -t material-design
+hugo server --bind 0.0.0.0 -w -D -t hueman-ryn --baseUrl http://localhost:1313/

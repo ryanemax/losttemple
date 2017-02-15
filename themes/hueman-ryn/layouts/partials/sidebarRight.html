@@ -1,0 +1,38 @@
+{{ $baseurl := .Site.BaseURL }}
+<div class="sidebar s2">
+    <a class="sidebar-toggle" title="Expand Sidebar">
+        <i class="fa icon-sidebar-toggle"></i>
+    </a>
+    <div class="sidebar-content">
+        <div class="sidebar-top group">
+            <p>More</p>
+        </div>
+        <div id="categories-2" class="widget widget_categories">
+            <h3>Categories</h3>
+            <ul>
+                {{ with .Site.Taxonomies.categories }}
+                    {{ range $name, $value := . }}
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="/categories/{{ $name | urlize }}">{{ title $name }}</a>
+                            <small>({{ .Count }})</small>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+            <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                <h3>Tags</h3>
+                <div class="tagcloud">
+                    <p class="post-tags">
+                        {{ with .Site.Taxonomies.tags }}
+                            {{ range $k,$v:= . }}
+                            {{ if ge $v.Count 2 }}
+                                <a rel="tag" href="tags/{{ $k | urlize | lower }}/" class="tag-link-{{ $v.Count }}" title="{{ $v.Count }} Posts">{{ $k }}</a>
+                            {{ end }}
+                            {{ end}}
+                        {{ end}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

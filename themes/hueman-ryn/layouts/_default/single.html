@@ -1,0 +1,93 @@
+{{ partial "head.html" . }}
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  {{ partial "header.html" . }}
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                {{ range .Params.categories }}
+                <li class="category">
+                  <a href="/categories/{{ . | urlize }}/" rel="category tag">{{ . }}</a>
+                </li>
+                {{ end }}
+              </ul>
+
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title">{{ .Title }}</h1>
+                  <p class="post-tags">
+                    <span>Tags:</span>
+                    {{ range .Params.tags }}
+                    <a rel="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                  </p>
+                  <p class="post-byline">
+                    by {{ .GetParam "author" }} · {{ .Date.Format .Site.Params.DateForm }} · {{ .WordCount }} Words ·
+                    ~{{ .ReadingTime }}min reading time |
+                    <a href="https://github.com/ryanemax/ryanemax.github.io/tree/master/content/{{ replace .Source.File.Path "\\" "/" }}"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      <!--content-->
+                      {{ .Content }}
+                      <!--/content-->
+                    </div>
+
+
+                                  {{ with .Site.DisqusShortname }}
+                                  {{ partial "disqus.html" . }}
+                                  {{ end }}
+                                  <!-- {{ partial "duoshuo.html" . }} -->
+                                  <!-- {{ partial "relatedPosts.html" . }} -->
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="/public/qrcode.png" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div style="height:170px;">
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://cio.anasit.com/">ryanemax</a>
+                            <br />微信关注：ryanemax （刘雨飏）
+                            <br />本文出处：<a target="_blank" href="{{ .Permalink }}">{{ .Permalink }}</a>
+                            <br />
+                            授权协议：<a style="padding-top:5px;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">
+                              CC BY-SA 4.0
+          <!-- <img src="/img/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0"> -->
+        </a> </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  <!--/.entry-->
+
+                </div>
+                <!--/.post-inner-->
+              </article>
+              <!--/.post-->
+              <div class="clear"></div>
+            </div>
+          </section>
+
+          {{ partial "sidebarLeft.html" . }}
+          {{ partial "sidebarRight.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}

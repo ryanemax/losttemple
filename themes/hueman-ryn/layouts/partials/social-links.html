@@ -1,0 +1,35 @@
+<ul class="social-links">
+    {{if .Site.Params.github}}
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/{{ .Site.Params.github }}" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		{{end}}
+    {{if .Site.Params.linkedin}}
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    {{end}}
+		{{if .Site.Params.facebook}}
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/{{.Site.Params.facebook}}" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		{{end}}
+
+		{{if .Site.Params.twitter}}
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/{{.Site.Params.twitter}}" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		{{end}}
+</ul>

@@ -1,0 +1,84 @@
+title : "Ryn's Blog | Ryane Liu(刘雨飏)"
+languageCode : "zh-CN"
+baseurl : "https://cio.anasit.com/"
+copyright : "Copyright (c) 2007-2017, Ryn's Blog; all rights reserved."
+contentdir : "content"
+builddrafts : false
+
+# for theme
+theme : "hueman-ryn"
+#pygmentsuseclasses : true
+MetaDataFormat : "yaml"
+#paginate : 9
+canonifyurls : true
+builddrafts : false
+PaginatePath : paginator
+pygmentsStyle : "default"
+pygmentsUseClasses : true
+disablePathToLower : true
+hasCJKLanguage : true
+
+disqusShortname : "ryn" # optional
+
+permalinks:
+  posts: /:year/:month/:day/:slug/
+Taxonomies:
+  category : "categories"
+  tag : "tags"
+params:
+  author : "刘雨飏, the Founder of ANAS"
+  #codestyle : "monokai"
+  description : "Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane" # optional
+  CopyrightHTML: "Copyright &#xA9; 2007-2017. All Rights Reserved."
+  SidebarRecentLimit: 5
+  DateForm : "2006年01月02日"
+  Tagline: "学无止境、苦海行舟"
+  Description: "不懂编程的咨询师不是一名好管理。"
+  keywords : "刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane"
+  twitter : "ryanemax" # optional
+  GitHubUser: "ryanemax"
+  facebook: "ryanemax"
+  github : "ryanemax" # optional
+  #facebook : "Your facebook Name" # optional
+  #gplus : "ryanemax" # optional
+  linkedin : "ryanemax" # optional
+  #headerCover : "images/headerCover.png" # optional
+  #footerCover : "images/footerCover.png" # optional
+  #googleAnalyticsUserID : "Your Analytics User Id" # optional
+menu:
+  main:
+      - Name: "技术文章"
+        Pre: "<i class='fa fa-heart'></i>"
+        Weight: -130
+        Identifier: "cookbook"
+        URL: "/categories/cookbook/"
+      - Name: "学术思考"
+        Pre: "<i class='fa fa-heart'></i>"
+        Weight: -120
+        Identifier: "study"
+        URL: "/categories/study/"
+      - Name: "论坛峰会"
+        Pre: "<i class='fa fa-heart'></i>"
+        Weight: -120
+        Identifier: "meeting"
+        URL: "/categories/meeting/"
+      - Name: "FAQ"
+        Pre: "<i class='fa fa-heart'></i>"
+        Weight: -110
+        Identifier: "faq"
+        URL: "/categories/faq/"
+      - Name: "关于我"
+        Pre: "<i class='fa fa-road'></i>"
+        Identifier: "about"
+        Weight: -100
+        URL: "/about/"
+author:
+  name: "RyaneMax"
+images:
+  - 480x
+  - 768x
+  - 960x
+  - 1024x
+  - 1920x
+  - 720x340
+  - 520x245
