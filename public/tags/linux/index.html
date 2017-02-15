@@ -1,195 +1,919 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html class="no-js">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.17" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
-<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
-<title>Linux - 刘雨飏@ANAS联盟</title>
+  <base href="https://cio.anasit.com//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>Linux - Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
-<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<meta name="description" content="Linux">
+<meta name="author" content="ryanemax">
+<meta name="publisher" content="ryanemax">
+<meta name="generator" content="http://gohugo.io/"/>
+
+<meta itemprop="name" content="Linux - Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta itemprop="description" content="Linux">
+<meta itemprop="image" content="https://cio.anasit.com//public/avatar.jpg">
+
+<meta property="og:title" content="Linux - Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cio.anasit.com/tags/linux/" />
+<meta property="og:image" content="https://cio.anasit.com//public/avatar.jpg" />
+<meta property="og:description" content="Linux">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ryanemax">
+<meta name="twitter:title" content="Linux - Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta name="twitter:description" content="Linux">
+<meta name="twitter:creator" content="@ryanemax">
+<meta name="twitter:image" content="https://cio.anasit.com//public/avatar.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="https://cio.anasit.com/tags/linux/">
+  <link rel='shortlink' href="https://cio.anasit.com/tags/linux/"/>
+  <link rel="shortcut icon" href="https://cio.anasit.com//favicon.ico"/>
+  
+ <link href="https://cio.anasit.com//feed.xml" rel="alternate" type="application/rss+xml" title="Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+
+<link rel="stylesheet" id="human-style-css" href="https://cio.anasit.com/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="https://cio.anasit.com/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="https://cio.anasit.com/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="https://cio.anasit.com/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="https://cio.anasit.com/public/highlight/styles/github.css">
+<script src="https://cio.anasit.com/public/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="https://cio.anasit.com/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
 
-<script type="text/javascript" charset="utf-8">
-var getElementsByClass = function(searchClass,node,tag) {
-	var classElements = new Array();
-	if ( node == null )
-		node = document;
-	if ( tag == null )
-		tag = '*';
-	var els = node.getElementsByTagName(tag);
-	var elsLen = els.length;
-	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-	for (i = 0, j = 0; i < elsLen; i++) {
-		if ( pattern.test(els[i].className) ) {
-			classElements[j] = els[i];
-			j++;
-		}
-	}
-	return classElements;
-}
-window.onload=function(){
-	var obj1=document.getElementById("blink1");	
-	var obj2=document.getElementById("blink2");	
-	var timer=null;
-		var i1=0;
-		var i2=0;
-		clearInterval(timer);
-
-		timer=setInterval(function(){
-			obj1.innerHTML=i1++%2?"&nbsp;":"_";
-			obj2.innerHTML=i2++%2?"&nbsp;":"_";
-			false&&clearInterval(timer);
-		},700);
-};
-</script>
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
 
 </head>
-<body>
 
-	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
-		
-		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
-		
-		
-		
-		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
-		
-		
-		
-		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
-		
-		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
-	</div>
-<header>
-  <div class="container">
-    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
-		<span class="caret"># <span id="blink1">_</span></span>
+<body class="archive category col-3cm full-width topbar-enabled chrome">
+
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="https://cio.anasit.com//" class="nav-cs-icon">
+        <img width="40" height="40" src="https://cio.anasit.com/public/avatar.jpg" alt="ryanemax" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/">首页</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/">技术文章</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/study/">学术思考</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/meeting/">论坛峰会</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/faq/">FAQ</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/about/">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/index.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        学无止境、苦海行舟
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.google.com/search">
+              <div>
+                <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="https://cio.anasit.com//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="ryanemax" src="https://cio.anasit.com/public/avatar.jpg"></img>
+              Ryn&#39;s Blog | Ryane Liu(刘雨飏)
+            </a>
+          </h1>
+          <p class="site-description"> 不懂编程的咨询师不是一名好管理。 </p>
+        </div>
+
+      </div>
+    </div>
+    
   </div>
+  
 
 </header>
 
 
-<div class="container">
 
-<main role="main" class="article-list">
-  <h1 class="list-title">Linux</h1>
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <h1><i class="fa fa-folder-open"></i>Posts with the tag: <span>Linux</span></h1>
+            </div>
+            <div class="pad group">
+
+              <div class="post-list group">
   
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
     
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/faq/archfaq/">systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案</a></h2>
-  <div class="meta">
 
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-05-13">May 13, 2016</time></span>
 
-  </div>
-  <section class="summary">
-     systemd-journal进程占用100%CPU，硬盘磁盘无法读取 原因 journalctl 查看获得信息
-ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790)  解决办法 https://bbs.archlinux.org/viewtopic.php?id=211365
-##blacklisted sp5100_ 
-  </section>
-</article>
 
-  
+<div class="post-meta group">
+  <p class="post-category">
     
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/linux-tar/">Linux最佳文件压缩方式</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-03-27">March 27, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2  高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下
-压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz  <a href="/cookbook/devops/linux-tar/">Read More...</a>
-  </section>
-</article>
-
-  
+    <a href="categories/faq/" title="All posts in faq" rel="category tag">faq</a>
     
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/archlinux/">Arch Linux软件选型整理</a></h2>
-  <div class="meta">
+  </p>
 
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-11-04">November 04, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    #发行版本 Arch Linux
-0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切换USB2.0/USB3.0接口  1.fdisk #option  <a href="/cookbook/devops/archlinux/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/faq/debianfaq/">Debian常见问题汇总</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-08-17">August 17, 2015</time></span>
-
-  </div>
-  <section class="summary">
-     apt-get更新问题：Failed to Fetch : http:// 解决方案：
-cd /var/lib/apt/lists/partial rm *  sshd允许Root登录 cd /etc/ssh vim sshd_config PermitRootLogin yes service ssh restart  中国国内源更换 https://lug.ustc.edu.cn/repogen/
-# testing 源 d 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/faq/steam/">steam for archlinux FAQ</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-08-17">August 17, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    #FAQ:Run as root user ##Soluution:
-vim /etc/bin/steam /Cannot  #FAQ:libGL error: failed to load driver: r600
-##Solution: http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/sshkeepalive/">sshd链接保持长期存活 (Draft)</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-06-27">June 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    1.修改server端的etc/ssh/sshd_config
-复制代码 代码如下:
-ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后client响应，从而保持连接 ClientAliveCountMax 3 #server发出请求后，客户端没有响应得次数达到3，就自动断开连接，正常情况下，client不会不响应  2.修改client端的etc/ssh/ssh_config添 
-  </section>
-</article>
-
-  
-</main>
-
+  <p class="post-date">2016年05月13日</p>
 </div>
 
-<footer>
-  <div class="container">
-    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/faq/archfaq/" rel="bookmark" title="systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案">systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>systemd-journal进程占用100%CPU，硬盘磁盘无法读取 原因 journalctl 查看获得信息 ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790) 解决办法 https://bbs.archlinux.org/viewtopic.php?id=211365 ##blacklisted sp5100_tco in /etc/modprobe.d/blacklist.conf. cd /etc/modprobe.d vim blacklist.conf ##</p>
+</div>
+
+
   </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年03月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/linux-tar/" rel="bookmark" title="Linux最佳文件压缩方式">Linux最佳文件压缩方式</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年11月04日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/archlinux/" rel="bookmark" title="Arch Linux软件选型整理">Arch Linux软件选型整理</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>#发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/faq/" title="All posts in faq" rel="category tag">faq</a>
+    
+  </p>
+
+  <p class="post-date">2015年08月17日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/faq/debianfaq/" rel="bookmark" title="Debian常见问题汇总">Debian常见问题汇总</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>apt-get更新问题：Failed to Fetch : http:// 解决方案： cd /var/lib/apt/lists/partial rm * sshd允许Root登录 cd /etc/ssh vim sshd_config PermitRootLogin yes service ssh restart 中国国内源更换 https://lug.ustc.edu.cn/repogen/ # testing 源 deb http://mirrors.ustc.edu.cn/debian testing main contrib non-free deb-src</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/faq/" title="All posts in faq" rel="category tag">faq</a>
+    
+  </p>
+
+  <p class="post-date">2015年08月17日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/faq/steam/" rel="bookmark" title="steam for archlinux FAQ">steam for archlinux FAQ</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>#FAQ:Run as root user ##Soluution:
+vim /etc/bin/steam /Cannot  #FAQ:libGL error: failed to load driver: r600
+##Solution: http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年06月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/sshkeepalive/" rel="bookmark" title="sshd链接保持长期存活">sshd链接保持长期存活</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+</div>
+
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+    </div>
+    <div class="widget qrcode" style="text-align:center;">
+    <img src="https://cio.anasit.com/public/qrcode.png" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> ryanemax <br /></p>
+</div>
+
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.google.com/search">
+        <div>
+          <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+          
+<div class="sidebar s2">
+    <a class="sidebar-toggle" title="Expand Sidebar">
+        <i class="fa icon-sidebar-toggle"></i>
+    </a>
+    <div class="sidebar-content">
+        <div class="sidebar-top group">
+            <p>More</p>
+        </div>
+        <div id="categories-2" class="widget widget_categories">
+            <h3>Categories</h3>
+            <ul>
+                
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/career">Career</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook">Cookbook</a>
+                            <small>(31)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/api">Cookbook/Api</a>
+                            <small>(10)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/backend">Cookbook/Backend</a>
+                            <small>(8)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/cms">Cookbook/Cms</a>
+                            <small>(4)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/database">Cookbook/Database</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/fontend">Cookbook/Fontend</a>
+                            <small>(17)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/frontend">Cookbook/Frontend</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/network">Cookbook/Network</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/tutorial">Cookbook/Tutorial</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/faq">Faq</a>
+                            <small>(15)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game/dev">Game/Dev</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game/play">Game/Play</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/manifesto">Manifesto</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/meeting">Meeting</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study">Study</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/finance">Study/Finance</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/it">Study/It</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/ocult">Study/Ocult</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/psychology">Study/Psychology</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                
+            </ul>
+            <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                <h3>Tags</h3>
+                <div class="tagcloud">
+                    <p class="post-tags">
+                        
+                            
+                            
+                                <a rel="tag" href="tags//" class="tag-link-4" title="4 Posts"></a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/agile/" class="tag-link-4" title="4 Posts">agile</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/angular2/" class="tag-link-8" title="8 Posts">angular2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/apcio/" class="tag-link-2" title="2 Posts">apcio</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/baas/" class="tag-link-4" title="4 Posts">baas</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/bluemix/" class="tag-link-2" title="2 Posts">bluemix</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/career/" class="tag-link-2" title="2 Posts">career</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/change/" class="tag-link-2" title="2 Posts">change</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/cms/" class="tag-link-4" title="4 Posts">cms</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/eve/" class="tag-link-2" title="2 Posts">eve</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/frontend/" class="tag-link-2" title="2 Posts">frontend</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/game/" class="tag-link-4" title="4 Posts">game</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/gfw/" class="tag-link-2" title="2 Posts">gfw</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/golang/" class="tag-link-4" title="4 Posts">golang</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/hikvision/" class="tag-link-2" title="2 Posts">hikvision</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/html5/" class="tag-link-2" title="2 Posts">html5</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/iaas/" class="tag-link-2" title="2 Posts">iaas</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ibm/" class="tag-link-2" title="2 Posts">ibm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic/" class="tag-link-2" title="2 Posts">ionic</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic2/" class="tag-link-12" title="12 Posts">ionic2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/it/" class="tag-link-2" title="2 Posts">it</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/linux/" class="tag-link-6" title="6 Posts">linux</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/markdown/" class="tag-link-4" title="4 Posts">markdown</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/nginx/" class="tag-link-2" title="2 Posts">nginx</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/odoo/" class="tag-link-6" title="6 Posts">odoo</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/openwrt/" class="tag-link-2" title="2 Posts">openwrt</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/paas/" class="tag-link-3" title="3 Posts">paas</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/pkm/" class="tag-link-3" title="3 Posts">pkm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/psychology/" class="tag-link-2" title="2 Posts">psychology</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/restful/" class="tag-link-10" title="10 Posts">restful</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vim/" class="tag-link-4" title="4 Posts">vim</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vr/" class="tag-link-2" title="2 Posts">vr</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/win10/" class="tag-link-3" title="3 Posts">win10</a>
+                            
+                            
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2007-2017. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo</a>.
+              
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
 </footer>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
+
+  $('#messagesbsb').remove();
+
+</script>
+
+<script>
+    window.tctipConfig = {
+        
+        imagePrefix: "",
+        
+        cssPrefix: "",
+        
+
+        staticPrefix: "/tctip",
+        
+
+        buttonImageId: Math.ceil(Math.random() * 8) + 1,
+        
+
+        buttonTip: "dashang", 
+        
+
+        list: {
+             
+            weixin: {
+                qrimg: "wechatpay.png"
+            },
+             
+            alipay: {
+                qrimg: "alipayqr.png"
+            },
+             
+            bitcoin: {
+                account: "31n1Jqz7pmoTLkpWMdVxXonnSuXQMVGde8"
+            },
+             
+            another: {
+                icon: "img/litecoin.png",
+                name: "莱特币",
+                className: "",
+                account: "LY8AkgmkQ4EvaXcB2fWXpyED1CT3Ji8THu",
+                desc: "莱特币"
+            }
+        }
+    };
+</script>
+<script src="https://cio.anasit.com/tctip/js/tctip.min.js"></script>
 
 </body>
 </html>

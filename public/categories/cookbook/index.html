@@ -1,641 +1,1783 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html class="no-js">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.17" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
-<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
-<title>Cookbook - 刘雨飏@ANAS联盟</title>
+  <base href="https://cio.anasit.com//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>Cookbook - Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
-<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<meta name="description" content="Cookbook">
+<meta name="author" content="ryanemax">
+<meta name="publisher" content="ryanemax">
+<meta name="generator" content="http://gohugo.io/"/>
+
+<meta itemprop="name" content="Cookbook - Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta itemprop="description" content="Cookbook">
+<meta itemprop="image" content="https://cio.anasit.com//public/avatar.jpg">
+
+<meta property="og:title" content="Cookbook - Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cio.anasit.com/categories/cookbook/" />
+<meta property="og:image" content="https://cio.anasit.com//public/avatar.jpg" />
+<meta property="og:description" content="Cookbook">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ryanemax">
+<meta name="twitter:title" content="Cookbook - Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta name="twitter:description" content="Cookbook">
+<meta name="twitter:creator" content="@ryanemax">
+<meta name="twitter:image" content="https://cio.anasit.com//public/avatar.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="https://cio.anasit.com/categories/cookbook/">
+  <link rel='shortlink' href="https://cio.anasit.com/categories/cookbook/"/>
+  <link rel="shortcut icon" href="https://cio.anasit.com//favicon.ico"/>
+  
+ <link href="https://cio.anasit.com//feed.xml" rel="alternate" type="application/rss+xml" title="Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+
+<link rel="stylesheet" id="human-style-css" href="https://cio.anasit.com/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="https://cio.anasit.com/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="https://cio.anasit.com/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="https://cio.anasit.com/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="https://cio.anasit.com/public/highlight/styles/github.css">
+<script src="https://cio.anasit.com/public/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="https://cio.anasit.com/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
 
-<script type="text/javascript" charset="utf-8">
-var getElementsByClass = function(searchClass,node,tag) {
-	var classElements = new Array();
-	if ( node == null )
-		node = document;
-	if ( tag == null )
-		tag = '*';
-	var els = node.getElementsByTagName(tag);
-	var elsLen = els.length;
-	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-	for (i = 0, j = 0; i < elsLen; i++) {
-		if ( pattern.test(els[i].className) ) {
-			classElements[j] = els[i];
-			j++;
-		}
-	}
-	return classElements;
-}
-window.onload=function(){
-	var obj1=document.getElementById("blink1");	
-	var obj2=document.getElementById("blink2");	
-	var timer=null;
-		var i1=0;
-		var i2=0;
-		clearInterval(timer);
-
-		timer=setInterval(function(){
-			obj1.innerHTML=i1++%2?"&nbsp;":"_";
-			obj2.innerHTML=i2++%2?"&nbsp;":"_";
-			false&&clearInterval(timer);
-		},700);
-};
-</script>
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
 
 </head>
-<body>
 
-	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
-		
-		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
-		
-		
-		
-		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
-		
-		
-		
-		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
-		
-		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
-	</div>
-<header>
-  <div class="container">
-    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
-		<span class="caret"># <span id="blink1">_</span></span>
+<body class="archive category col-3cm full-width topbar-enabled chrome">
+
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="https://cio.anasit.com//" class="nav-cs-icon">
+        <img width="40" height="40" src="https://cio.anasit.com/public/avatar.jpg" alt="ryanemax" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/">首页</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/">技术文章</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/study/">学术思考</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/meeting/">论坛峰会</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/faq/">FAQ</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/about/">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/index.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        学无止境、苦海行舟
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.google.com/search">
+              <div>
+                <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="https://cio.anasit.com//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="ryanemax" src="https://cio.anasit.com/public/avatar.jpg"></img>
+              Ryn&#39;s Blog | Ryane Liu(刘雨飏)
+            </a>
+          </h1>
+          <p class="site-description"> 不懂编程的咨询师不是一名好管理。 </p>
+        </div>
+
+      </div>
+    </div>
+    
   </div>
+  
 
 </header>
 
 
-<div class="container">
 
-<main role="main" class="article-list">
-  <h1 class="list-title">Cookbook</h1>
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <h1><i class="fa fa-folder-open"></i>Category: <span>Cookbook</span></h1>
+            </div>
+            <div class="pad group">
+              
+                
+                
+                
+              
+              <div class="post-list group">
   
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
     
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/vrar/arplayer/">AR时代来临了，带上兵器吧</a></h2>
-  <div class="meta">
 
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-10-21">October 21, 2016</time></span>
 
-  </div>
-  <section class="summary">
-     Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933
- 场景  H5 意味着在手机而非 PC 上实现 AR 意味着需要获取实时的视频流   目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：
-简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。
- 
-  </section>
-</article>
 
-  
+<div class="post-meta group">
+  <p class="post-category">
     
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/bashonwindows/">BashOnWindows常见问题汇总</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-08-27">August 27, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734
-System =&amp;gt; Services =&amp;gt; disable: &amp;quot;SSH server proxy&amp;quot; &amp;quot;SSH server broker&amp;quot;  启动ssh后拒绝访问，refuse或connection closed https:// 
-  </section>
-</article>
-
-  
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
     
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/backend/iaas-DomainToMultiVPS/">如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</a></h2>
-  <div class="meta">
+  </p>
 
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-07-02">July 02, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     Nginx 反向代理  可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频流媒体服务  传统方式 多网卡绑定固定IP  成本高  网卡成本 组网维护成本 固定IP成本   端口映射  成本低 配置较为繁琐 端口数有限  DMZ  成本低 配置便捷 安全性较低   
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/backend/paas-deploy/">用于公开项目演示的paas服务选型</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-06-08">June 08, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源
- 费用 完全免费 个人主页 新建项目xxx/xxx.github.io即可 项目主页 项目内 新建分支 gh-pages即可  https://github.ccom https://git.oschina.com
-服务演示 MoPaaS 较新，基于Cloud Foundry封装后的公有云PaaS平台
- 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/api/apitrends/">API领域创业公司及其发展动态浅析</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-06-05">June 05, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     简介 API 生态图解    位置 项目/公司     MBaaS服务 实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix   APIs仓库 apis.guru   构建工具链 mulesoft restlet apigee   底层规则 raml swagger     使用RAML与APIkit以实现API需求层次中所定义的目标  API Spec 规则制定 详见： 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/pkm/card/">终于受不了铺天盖地的名片了，需要整顿一下</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-06-03">June 03, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     资料搜集 三款名片管理APP大比拼
-推荐一款好用的电子名片app？
-7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em
-实际体验 Zappoint 淘汰  邮箱登陆 拍照识别  中文较差 只有正面  同步通讯录 排列方式  时间排列 公司排列 姓名排列   CamCard 名片万能王 选用  邮箱/手机登陆  可绑定领英 可绑定微博   
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/README/">个人知识管理解决方案</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-04-01">April 01, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    个人知识管理（规划中） 简介及技术点 距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知识的技巧。
- 文档编辑  markdown latex pandoc YAML  版本控制  git github bitbucket  静态博客  github pages hugo disqus disqus 列表页统计数量 count.js http://html5up.net/    <a href="/README/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/fuckGFW/">Every one should learn how to Fuck The GFW</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-03-27">March 27, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     Windows程序socks代理（用于游戏）  shadowsocks-gui
- SocksCap64 3.0 http://www.sockscap64.com/
-  Linux代理  apt-get install shadowsocks apt-get install privoxy sh export http_proxy=http://127.0.0.1:8118 export https_proxy=http://1 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/linux-tar/">Linux最佳文件压缩方式</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-03-27">March 27, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2  高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下
-压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz  <a href="/cookbook/devops/linux-tar/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/atom/">Atom实践探索</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-03-25">March 25, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    官方手册：http://flight-manual.atom.io/
-搜集尝试阶段 开发者的15个实用的 Atom Packages
-http://www.cnblogs.com/Darren_code/p/atom.html
-Setting 取消保存时自动格式化Markdown 整合hugo后，头部往往需要写入toml/json的配置项，如果保存自动美化，会导致配置项格式错乱
-Packages=&amp;gt;tidy-markdown  <a href="/cookbook/tool/atom/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/vrar/VRdev/">VR时代来临了，带上兵器吧</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-02-28">February 28, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    《VR时代来临了，带上兵器吧》 1.VR入门行业方向选择 1.行业付费应用，360全景预览
-2.建筑及3D美工设计领域
-2.客户端引擎选择 1.手机VR，是违背沉浸式体验的 前提：移动设备性能超过台式机性能之前
-使用VR的反例：
-1.你想在拥挤车厢里,或者嘈杂的马路上, 或者忙碌的办公室里, 用手机体验VR
-2.回到家,你会将家庭影院级别的设备搁置在一边,然后把手机套在头上,来体验VR.
-VR不是个简单的潮流, 他确确实实是我们未 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/keyboard/">极致效率的键位变更</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-02-17">February 17, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    极致效率的键位变更
-Coding常用键位变更  Ctrl =&amp;gt; Caps Lock Caps Lock =&amp;gt; Ctrl  Linux下键位变更 Windows键盘全局替换 可以利用第三方工具，或者直接在注册表中修改键位映射关系
-注册表位置：[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] 如果没有此键，就新建一个
-新建一个二进制值  <a href="/cookbook/tool/keyboard/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/backend/messagesystem/">常见开源消息系统/中间件技术评选</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-11-29">November 29, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq
-RabbitMQ golang client https://github.com/streadway/amqp
-https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go
-适用场景：高安全性、支付业务、稳  <a href="/cookbook/backend/messagesystem/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/dockerstart/">Docker入门实践 (Draft)</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-11-27">November 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-     Installation # Windows cinst docker -y # Linux pacman -Sy docker apt-get install docker -y  Initicial docker pull debian
-FAQ: An error occurred trying to connect: Post &amp;hellip;.. 问题描述：
-$ docker pull debian Using defa 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/">萤石云开发实践</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-11-08">November 08, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    《萤石云开发实践》 常用资料 SDK下载：https://open.ys7.com/sdk.html
-常见问题 FAQ1:是否可以在web/手机页面播放萤石云视频？ (1)、针对用户分享到视频广场的视频，调用萤石接口说明文档3.16接口：
-①获取到iframeUrl，可以在html  标签里，进行播放。
-②获取到m3u8地址，可以在h5页面  标签里，进行播放。
-(2)、针对用户下面的设备视频，如果要在web页面进行播放，需要下载 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/archlinux/">Arch Linux软件选型整理</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-11-04">November 04, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    #发行版本 Arch Linux
-0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切换USB2.0/USB3.0接口  1.fdisk #option  <a href="/cookbook/devops/archlinux/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/">IVMS7000服务端信息搜集</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    基础环境 系统 Windows Server 2008 R2 光盘一：系统驱动 光盘二：安装程序
-数据库 数据库Mysql 5.7 库名 cms 用户 admin 密码 12345
-软件平台 1.iVMS-7000 http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsed 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/win10-msys2/">Win10搭建Linux开发环境，msys2&#43;pacman大法</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    Win10搭建Linux开发环境，msys2&#43;pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&amp;rsquo;s Pacman
-FAQ:基于mintty，输入～字符出错。 Fixed:更换语言输入法键盘即可
-从cygwin迁移到msys2的原因和步骤 http://segmentf  <a href="/cookbook/devops/win10-msys2/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/wgetsite/">wget整站模板抓取案例及wget参数详解</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite
-一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com  方式二：shell脚本 #!/bin/sh ## shell脚本getsite.sh ## 整站抓取，绕过robot.txt  <a href="/cookbook/devops/wgetsite/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/win10/">最佳Windows10工作环境推荐</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-10-27">October 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    最佳Windows10工作环境推荐 一、基础环境 包管理OneGet&#43;Chocolatey Windows10了，来一个趁手的包管理器吧
-快捷方式/虚拟桌面 充分利用Windows10多桌面功能提高效率
-目录划分 C://User/Ryane #用户目录 ~/Documents/ #文档目录 ~/Documents/Note #笔记 ~/Documents/Library #书库(Calibre目录)  文件读取 ext2expl 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/vimbest/">vim实用技巧实践</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-10-17">October 17, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    实用技巧 删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？
-清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下backspace？
-给一行末尾补分号，A; 不就好了，为什么还要鼠标移过去末尾点一下然后按下; ？
-然后给n行末尾补分号，Vjj*选中多行 :normal . 不就好了， 为什么要鼠标一个一个点了然后一个个补？
-复制a行插入到b行后， dd掉a行在b行那按下p不就好了。 为什么要鼠标选中  <a href="/cookbook/tool/vimbest/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/vim-go/">vim-go最佳实践</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-10-07">October 07, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    0.使用方法 gd 进入函数原始定义文件查看 Ctrl &#43; N Ctrl &#43; P
-1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量
-export GOROOT=/usr/lib/go export GOPATH=/root/workspace/goProjects export GOBIN=$GOPATH/bin export GOTOOLS=$GOROOT/pkg/tool expo  <a href="/cookbook/tool/vim-go/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/vim-ultisnips/">ultisnips&#39;s md实用经验</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-09-18">September 18, 2015</time></span>
-
-  </div>
-  <section class="summary">
-     添加文档类型识别 ~/.vim/ftdetect/mkd.md autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown  添加自定义代码段 markdown_ryn.snippets cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets   
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/agile/comapping/">协同工作中的思维导图/UML选择</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-09-03">September 03, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    1.UML creately.com 付费 实时协同
-集成  跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz  gliffy 付费 体验较好
-集成  JIRA Confluence Google Apps
-格式导出 PNG
- JPG
- SVG
- Gliffy
-  2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet   <a href="/cookbook/agile/comapping/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/agile/imsystem/">协同中的IM聊天室选择(jitsi/apperin/talkyio)</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-09-02">September 02, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    #jitsi.org 开源，可独立部署
-An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator)
-https://jitsi.org/Main/Features
-✔ 100% open source ✔ Encrypted by default ✔ HD audio with Opus ✔ No a  <a href="/cookbook/agile/imsystem/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/dms/">当团队线上办公需要dms文档管理系统</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-08-16">August 16, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    0.ffice软件选择 0.0 选择LibreOffice  支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Windows、Mac均可用  1.DMS系统选择 1.0 选择Alfresco  支持开源，并兼容LibreOffice系列文件 企业级ECM、BPM系统 Alfresco One #经典的企业级文档管理系统 Alfresco Activiti #可扩展自动化流程系统 Alfresco  <a href="/cookbook/dms/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/usefulwebsite/">实用的geek工具类站点</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-08-14">August 14, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    比较选优 alternativeto.net makeuseof.com
-Agile敏捷协作 taiga.io 一站式敏捷协作平台，开源免费
-“世界大战”尽在掌控：盘点全球网络攻击实时追踪系统 http://www.freebuf.com/news/special/56910.html
-SEO分析工具 http://semalt.com http://semalt.com/project/2801734 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/agile/taiga/">敏捷团队协作taiga.io，开源实用</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-08-14">August 14, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    TAIGA.IO使用记录 完全手册：http://taigaio.github.io/taiga-doc/dist/
-0.当敏捷团队碰到Agile系统 0.0 尝试 之前尝试过很多优秀的Agile工具：
-1.odoo 一体化的公司开源神器
-优点：全面的ERP，自带项目模块支持Kanban;
-缺点：缺少APP以及移动端，用户体验不足
-总结：现阶段团队需要更加专注敏捷开发工作，而且功能简洁易用的辅助系统，而全面的Odoo不适合现阶段，  <a href="/cookbook/agile/taiga/">Read More...</a>
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/blogforgit/">基于Git的分布式自由博客&#43;搭建</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-08-13">August 13, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    0.准备工作 基础开通
-https://pages.github.com/
-Blog选型
-参考:https://www.staticgen.com/
-hugo 基于Golang，速度极快的静态页面生成博客，http://gohugo.io/
-jekyll 基于Ruby，生成静态HTML博客
-Hexo 基于NodeJS，生成静态HTML博客
-由于较熟悉nodejs所以选择Hexo作为基础博客系统
-hexo 实际测试
-#arch li 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/devops/sshkeepalive/">sshd链接保持长期存活 (Draft)</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-06-27">June 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    1.修改server端的etc/ssh/sshd_config
-复制代码 代码如下:
-ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后client响应，从而保持连接 ClientAliveCountMax 3 #server发出请求后，客户端没有响应得次数达到3，就自动断开连接，正常情况下，client不会不响应  2.修改client端的etc/ssh/ssh_config添 
-  </section>
-</article>
-
-  
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/putty/">putty常用配置</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2015-05-27">May 27, 2015</time></span>
-
-  </div>
-  <section class="summary">
-    Session设置 1.PuttyGen设置密钥，将openssh转为.ppk文件 2.Load后先编辑Appearance更改界面，再进入SSH-Auth加载ppk密钥，最后点击Save保存
-备份 PuTTY 的设置 用 PuTTY 最不爽的就是，它把所有的设置都保存到注册表了，本来这不是什么问题。但是难免会重装一下机器，用下面的命令可以备份 PuTTY 的所有设置
-#导出 regedit /e C:\putty.reg &amp;qu 
-  </section>
-</article>
-
-  
-</main>
-
+  <p class="post-date">2016年10月21日</p>
 </div>
 
-<footer>
-  <div class="container">
-    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/vrar/arplayer/" rel="bookmark" title="AR时代来临了，带上兵器吧">AR时代来临了，带上兵器吧</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933 场景 H5 意味着在手机而非 PC 上实现 AR 意味着</p>
+</div>
+
+
   </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年08月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/bashonwindows/" rel="bookmark" title="BashOnWindows常见问题汇总">BashOnWindows常见问题汇总</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734 System =&gt; Services =&gt; disable: &quot;SSH server proxy&quot; &quot;SSH server broker&quot; 启动ssh后拒绝访问，refuse或connection closed https://github.com/Microsoft/BashOnWindows/issues/300 Actually changing UsePrivilegeSeparation to no in /etc/ssh/sshd_config</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年07月02日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/backend/iaas-domaintomultivps/" rel="bookmark" title="如何使外部客户通过不同域名，访问私有云内不同虚拟服务？">如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Nginx 反向代理 可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年06月08日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/backend/paas-deploy/" rel="bookmark" title="用于公开项目演示的paas服务选型">用于公开项目演示的paas服务选型</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.g</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年06月05日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/api/apitrends/" rel="bookmark" title="API领域创业公司及其发展动态浅析">API领域创业公司及其发展动态浅析</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>简介 API 生态图解 位置 项目/公司 MBaaS服务 实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix APIs仓库 apis.guru 构建工具链 mulesoft restlet apigee 底层规则 raml swagger 使用RAML与APIkit以实现A</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年06月03日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/pkm/card/" rel="bookmark" title="终于受不了铺天盖地的名片了，需要整顿一下">终于受不了铺天盖地的名片了，需要整顿一下</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>资料搜集 三款名片管理APP大比拼 推荐一款好用的电子名片app？ 7 business card apps for smartphones: Scan &lsquo;em and store &lsquo;em 实际体验 Zappoint 淘汰 邮箱登陆 拍照识别 中文较差 只有正面 同步通讯录</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年04月01日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/readme/" rel="bookmark" title="个人知识管理解决方案">个人知识管理解决方案</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>个人知识管理（规划中） 简介及技术点 距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年03月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/fuckgfw/" rel="bookmark" title="Every one should learn how to Fuck The GFW">Every one should learn how to Fuck The GFW</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Windows程序socks代理（用于游戏） shadowsocks-gui SocksCap64 3.0 http://www.sockscap64.com/ Linux代理 apt-get install shadowsocks apt-get install privoxy sh export http_proxy=http://127.0.0.1:8118 export https_proxy=http://127.0.0.1:8118</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年03月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/linux-tar/" rel="bookmark" title="Linux最佳文件压缩方式">Linux最佳文件压缩方式</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年03月25日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/atom/" rel="bookmark" title="Atom实践探索">Atom实践探索</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>官方手册：http://flight-manual.atom.io/ 搜集尝试阶段 开发者的15个实用的 Atom Packages http://www.cnblogs.com/Darren_code/p/atom.html Setting 取消保存时自动格式化Markdo</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年02月28日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/vrar/vrdev/" rel="bookmark" title="VR时代来临了，带上兵器吧">VR时代来临了，带上兵器吧</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>《VR时代来临了，带上兵器吧》 1.VR入门行业方向选择 1.行业付费应用，360全景预览 2.建筑及3D美工设计领域 2.客户端引擎选择 1.手机V</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年02月17日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/keyboard/" rel="bookmark" title="极致效率的键位变更">极致效率的键位变更</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>极致效率的键位变更 Coding常用键位变更 Ctrl =&gt; Caps Lock Caps Lock =&gt; Ctrl Linux下键位变更 Windows键盘全局替换 可以利用第三方工具，或者直接在注册表</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年11月29日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/backend/messagesystem/" rel="bookmark" title="常见开源消息系统/中间件技术评选">常见开源消息系统/中间件技术评选</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq RabbitMQ golang client https://github.com/streadway/amqp https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go 适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准 gonsq https://github.com/nsqio/nsq</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年11月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/dockerstart/" rel="bookmark" title="Docker入门实践">Docker入门实践</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Installation # Windows cinst docker -y # Linux pacman -Sy docker apt-get install docker -y Initicial docker pull debian FAQ: An error occurred trying to connect: Post &hellip;.. 问题描述： $ docker pull debian Using default tag: latest An error occurred trying to connect: Post http://localhost:2375/v1.21/images/create?fromImage=debian%3Alatest: dial tcp 127.0.0.1:2375: ConnectEx tcp: No connection could be made because the target machine actively refused it. 问题原因</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年11月08日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/thirdpart/%e8%90%a4%e7%9f%b3%e4%ba%91/" rel="bookmark" title="萤石云开发实践">萤石云开发实践</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>《萤石云开发实践》 常用资料 SDK下载：https://open.ys7.com/sdk.html 常见问题 FAQ1:是否可以在web/手机页面</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年11月04日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/archlinux/" rel="bookmark" title="Arch Linux软件选型整理">Arch Linux软件选型整理</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>#发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年10月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/thirdpart/ivms7000%e6%9c%8d%e5%8a%a1%e7%ab%af%e4%bf%a1%e6%81%af%e5%8f%8a%e6%8e%a5%e5%8f%a3%e5%bc%80%e5%8f%91%e7%bb%8f%e9%aa%8c/" rel="bookmark" title="IVMS7000服务端信息搜集">IVMS7000服务端信息搜集</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>基础环境 系统 Windows Server 2008 R2 光盘一：系统驱动 光盘二：安装程序 数据库 数据库Mysql 5.7 库名 cms 用户 admin 密码 12345 软件平台 1.iVMS-7000 http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi 2.iVMS-8200 备份服务器管理后台 3.iVMS-5000 集中监控管理</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年10月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/win10-msys2/" rel="bookmark" title="Win10搭建Linux开发环境，msys2&#43;pacman大法">Win10搭建Linux开发环境，msys2&#43;pacman大法</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Win10搭建Linux开发环境，msys2+pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&rsquo;s Pacman FAQ:基于mintty，输入～字符出错。 F</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年10月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/wgetsite/" rel="bookmark" title="wget整站模板抓取案例及wget参数详解">wget整站模板抓取案例及wget参数详解</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite 一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com 方式</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年10月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/win10/" rel="bookmark" title="最佳Windows10工作环境推荐">最佳Windows10工作环境推荐</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>最佳Windows10工作环境推荐 一、基础环境 包管理OneGet+Chocolatey Windows10了，来一个趁手的包管理器吧 快捷方式/</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年10月17日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/vimbest/" rel="bookmark" title="vim实用技巧实践">vim实用技巧实践</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>实用技巧 删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？ 清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下back</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年10月07日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/vim-go/" rel="bookmark" title="vim-go最佳实践">vim-go最佳实践</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>0.使用方法 gd 进入函数原始定义文件查看 Ctrl + N Ctrl + P 1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量 export</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年09月18日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/vim-ultisnips/" rel="bookmark" title="ultisnips&#39;s md实用经验">ultisnips&#39;s md实用经验</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>添加文档类型识别 ~/.vim/ftdetect/mkd.md autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown 添加自定义代码段 markdown_ryn.snippets cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年09月03日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/agile/comapping/" rel="bookmark" title="协同工作中的思维导图/UML选择">协同工作中的思维导图/UML选择</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>1.UML creately.com 付费 实时协同 集成 跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz gliffy 付费 体验较好 集成 JIRA Confluence Google Apps 格式导出 PNG JPG SVG Gliffy 2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet MindManager -</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年09月02日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/agile/imsystem/" rel="bookmark" title="协同中的IM聊天室选择(jitsi/apperin/talkyio)">协同中的IM聊天室选择(jitsi/apperin/talkyio)</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>#jitsi.org 开源，可独立部署 An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator) https://jitsi.org/Main/Features ✔ 100% open source ✔ Encrypted by default ✔ HD audio with Opus ✔ No account needed ✔ Presentations and desktop sharing ✔ Integrated chat ✔ Invite by pretty URLs https://MySite.com/OurConf appear.in 在线视频聊天室 Start talking in seconds It has never been</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年08月16日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/dms/" rel="bookmark" title="当团队线上办公需要dms文档管理系统">当团队线上办公需要dms文档管理系统</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年08月14日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/usefulwebsite/" rel="bookmark" title="实用的geek工具类站点">实用的geek工具类站点</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>比较选优 alternativeto.net makeuseof.com Agile敏捷协作 taiga.io 一站式敏捷协作平台，开源免费 “世界大战”尽在掌控：盘点全球网络攻击实时追踪系统 http://www.freebuf.com/news/special/56910.html SEO分析工具 http://semalt.com http://semalt.com/project/2801734</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年08月14日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/agile/taiga/" rel="bookmark" title="敏捷团队协作taiga.io，开源实用">敏捷团队协作taiga.io，开源实用</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>TAIGA.IO使用记录 完全手册：http://taigaio.github.io/taiga-doc/dist/ 0.当敏捷团队碰到Agil</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年08月13日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/blogforgit/" rel="bookmark" title="基于Git的分布式自由博客&#43;搭建">基于Git的分布式自由博客&#43;搭建</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>0.准备工作 基础开通 https://pages.github.com/ Blog选型 参考:https://www.staticgen.com/ hugo 基于Golang，速度极快的静态页面生成博客，</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+  
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年06月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/devops/sshkeepalive/" rel="bookmark" title="sshd链接保持长期存活">sshd链接保持长期存活</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  </div>
+  
+  
+  
+  <div class="post-row">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2015年05月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/putty/" rel="bookmark" title="putty常用配置">putty常用配置</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Session设置 1.PuttyGen设置密钥，将openssh转为.ppk文件 2.Load后先编辑Appearance更改界面，再进入SS</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+    
+  
+</div>
+
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+    </div>
+    <div class="widget qrcode" style="text-align:center;">
+    <img src="https://cio.anasit.com/public/qrcode.png" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> ryanemax <br /></p>
+</div>
+
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.google.com/search">
+        <div>
+          <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+          
+<div class="sidebar s2">
+    <a class="sidebar-toggle" title="Expand Sidebar">
+        <i class="fa icon-sidebar-toggle"></i>
+    </a>
+    <div class="sidebar-content">
+        <div class="sidebar-top group">
+            <p>More</p>
+        </div>
+        <div id="categories-2" class="widget widget_categories">
+            <h3>Categories</h3>
+            <ul>
+                
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/career">Career</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook">Cookbook</a>
+                            <small>(31)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/api">Cookbook/Api</a>
+                            <small>(10)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/backend">Cookbook/Backend</a>
+                            <small>(8)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/cms">Cookbook/Cms</a>
+                            <small>(4)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/database">Cookbook/Database</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/fontend">Cookbook/Fontend</a>
+                            <small>(17)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/frontend">Cookbook/Frontend</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/network">Cookbook/Network</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/tutorial">Cookbook/Tutorial</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/faq">Faq</a>
+                            <small>(15)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game/dev">Game/Dev</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game/play">Game/Play</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/manifesto">Manifesto</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/meeting">Meeting</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study">Study</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/finance">Study/Finance</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/it">Study/It</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/ocult">Study/Ocult</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/psychology">Study/Psychology</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                
+            </ul>
+            <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                <h3>Tags</h3>
+                <div class="tagcloud">
+                    <p class="post-tags">
+                        
+                            
+                            
+                                <a rel="tag" href="tags//" class="tag-link-4" title="4 Posts"></a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/agile/" class="tag-link-4" title="4 Posts">agile</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/angular2/" class="tag-link-8" title="8 Posts">angular2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/apcio/" class="tag-link-2" title="2 Posts">apcio</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/baas/" class="tag-link-4" title="4 Posts">baas</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/bluemix/" class="tag-link-2" title="2 Posts">bluemix</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/career/" class="tag-link-2" title="2 Posts">career</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/change/" class="tag-link-2" title="2 Posts">change</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/cms/" class="tag-link-4" title="4 Posts">cms</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/eve/" class="tag-link-2" title="2 Posts">eve</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/frontend/" class="tag-link-2" title="2 Posts">frontend</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/game/" class="tag-link-4" title="4 Posts">game</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/gfw/" class="tag-link-2" title="2 Posts">gfw</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/golang/" class="tag-link-4" title="4 Posts">golang</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/hikvision/" class="tag-link-2" title="2 Posts">hikvision</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/html5/" class="tag-link-2" title="2 Posts">html5</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/iaas/" class="tag-link-2" title="2 Posts">iaas</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ibm/" class="tag-link-2" title="2 Posts">ibm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic/" class="tag-link-2" title="2 Posts">ionic</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic2/" class="tag-link-12" title="12 Posts">ionic2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/it/" class="tag-link-2" title="2 Posts">it</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/linux/" class="tag-link-6" title="6 Posts">linux</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/markdown/" class="tag-link-4" title="4 Posts">markdown</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/nginx/" class="tag-link-2" title="2 Posts">nginx</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/odoo/" class="tag-link-6" title="6 Posts">odoo</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/openwrt/" class="tag-link-2" title="2 Posts">openwrt</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/paas/" class="tag-link-3" title="3 Posts">paas</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/pkm/" class="tag-link-3" title="3 Posts">pkm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/psychology/" class="tag-link-2" title="2 Posts">psychology</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/restful/" class="tag-link-10" title="10 Posts">restful</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vim/" class="tag-link-4" title="4 Posts">vim</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vr/" class="tag-link-2" title="2 Posts">vr</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/win10/" class="tag-link-3" title="3 Posts">win10</a>
+                            
+                            
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2007-2017. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo</a>.
+              
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
 </footer>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
+
+  $('#messagesbsb').remove();
+
+</script>
+
+<script>
+    window.tctipConfig = {
+        
+        imagePrefix: "",
+        
+        cssPrefix: "",
+        
+
+        staticPrefix: "/tctip",
+        
+
+        buttonImageId: Math.ceil(Math.random() * 8) + 1,
+        
+
+        buttonTip: "dashang", 
+        
+
+        list: {
+             
+            weixin: {
+                qrimg: "wechatpay.png"
+            },
+             
+            alipay: {
+                qrimg: "alipayqr.png"
+            },
+             
+            bitcoin: {
+                account: "31n1Jqz7pmoTLkpWMdVxXonnSuXQMVGde8"
+            },
+             
+            another: {
+                icon: "img/litecoin.png",
+                name: "莱特币",
+                className: "",
+                account: "LY8AkgmkQ4EvaXcB2fWXpyED1CT3Ji8THu",
+                desc: "莱特币"
+            }
+        }
+    };
+</script>
+<script src="https://cio.anasit.com/tctip/js/tctip.min.js"></script>
 
 </body>
 </html>
