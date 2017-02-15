@@ -1,738 +1,1176 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html class="no-js">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.17" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
-<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
-<title>刘雨飏@ANAS联盟</title>
+  <base href="https://cio.anasit.com//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="description" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta name="author" content="ryanemax">
+<meta name="publisher" content="ryanemax">
+<meta name="generator" content="http://gohugo.io/"/>
 
-<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
-<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<meta itemprop="name" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta itemprop="description" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta itemprop="image" content="https://cio.anasit.com//public/avatar.jpg">
+
+<meta property="og:title" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cio.anasit.com/" />
+<meta property="og:image" content="https://cio.anasit.com//public/avatar.jpg" />
+<meta property="og:description" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ryanemax">
+<meta name="twitter:title" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta name="twitter:description" content="Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta name="twitter:creator" content="@ryanemax">
+<meta name="twitter:image" content="https://cio.anasit.com//public/avatar.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="https://cio.anasit.com/">
+  <link rel='shortlink' href="https://cio.anasit.com/"/>
+  <link rel="shortcut icon" href="https://cio.anasit.com//favicon.ico"/>
+  
+ <link href="https://cio.anasit.com//feed.xml" rel="alternate" type="application/rss+xml" title="Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+
+<link rel="stylesheet" id="human-style-css" href="https://cio.anasit.com/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="https://cio.anasit.com/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="https://cio.anasit.com/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="https://cio.anasit.com/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="https://cio.anasit.com/public/highlight/styles/github.css">
+<script src="https://cio.anasit.com/public/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="https://cio.anasit.com/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
 
-<script type="text/javascript" charset="utf-8">
-var getElementsByClass = function(searchClass,node,tag) {
-	var classElements = new Array();
-	if ( node == null )
-		node = document;
-	if ( tag == null )
-		tag = '*';
-	var els = node.getElementsByTagName(tag);
-	var elsLen = els.length;
-	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-	for (i = 0, j = 0; i < elsLen; i++) {
-		if ( pattern.test(els[i].className) ) {
-			classElements[j] = els[i];
-			j++;
-		}
-	}
-	return classElements;
-}
-window.onload=function(){
-	var obj1=document.getElementById("blink1");	
-	var obj2=document.getElementById("blink2");	
-	var timer=null;
-		var i1=0;
-		var i2=0;
-		clearInterval(timer);
-
-		timer=setInterval(function(){
-			obj1.innerHTML=i1++%2?"&nbsp;":"_";
-			obj2.innerHTML=i2++%2?"&nbsp;":"_";
-			false&&clearInterval(timer);
-		},700);
-};
-</script>
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
 
 </head>
-<body>
 
-	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
-		
-		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
-		
-		
-		
-		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
-		
-		
-		
-		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
-		
-		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
-	</div>
-<header>
-  <div class="container">
-    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
-		<span class="caret"># <span id="blink1">_</span></span>
+<body class="archive category col-3cm full-width topbar-enabled chrome">
+
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="https://cio.anasit.com//" class="nav-cs-icon">
+        <img width="40" height="40" src="https://cio.anasit.com/public/avatar.jpg" alt="ryanemax" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/">首页</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/">技术文章</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/study/">学术思考</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/meeting/">论坛峰会</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/faq/">FAQ</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/about/">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/index.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        学无止境、苦海行舟
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.google.com/search">
+              <div>
+                <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="https://cio.anasit.com//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="ryanemax" src="https://cio.anasit.com/public/avatar.jpg"></img>
+              Ryn&#39;s Blog | Ryane Liu(刘雨飏)
+            </a>
+          </h1>
+          <p class="site-description"> 不懂编程的咨询师不是一名好管理。 </p>
+        </div>
+
+      </div>
+    </div>
+    
   </div>
+  
 
 </header>
 
 
-<div class="container">
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="pad group">
+              
+              
+                
+                <div class="featured">
+  <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+    <div class="post-inner post-hover">
+      
 
 
 
-<main role="main" class="homepage">
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/career/" title="All posts in career" rel="category tag">career</a>
+    
+  </p>
 
-  <h1 class="site-title">
-  <span class="base05">[</span><span class="base08">R</span><span class="base09">y</span><span class="base0a">n</span>&nbsp;<span class="base0b">L</span><span class="base0c"></span>i<span class="base0d">u</span><span class="base05">]</span>
-	<span class="base05"># <span id="blink2">_</span></span>
-</h1>
-
-<div class="hero-logo">
-	<img src="https://cio.anasit.com//img/base16-eighties.svg">
+  <p class="post-date">2017年02月14日</p>
 </div>
 
-<div style="text-align: center;">
-  do not try this "<code>\rm -r /</code>" when u feel lonely.
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/about/" rel="bookmark" title="关于我">关于我</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>大家好，我叫 刘雨飏，是一名信息科技浪潮之中的创业者。 我的经历 2007-2010 xxx 2007-2011 xxx 2011-2015 xxx 2016.11.09 - 至今「Anas IT Inc.」CIO 我的技能 编程语言：ES6/typ</p>
 </div>
 
 
-
-
-  <h1 class="headline">Tags</h1>
-
-  <section class="tags">
+    </div>
     
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/"></a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/agile">agile</a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/amap">amap</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/anasit">anasit</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/angular2">angular2</a>
-      <small>(8)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/apcio">apcio</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/api">api</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/archlinux">archlinux</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/atom">atom</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/autism">autism</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/baas">baas</a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/bashonwindows">bashonwindows</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/bluemix">bluemix</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/career">career</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/change">change</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/cms">cms</a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/cors">cors</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/creator">creator</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/curency">curency</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/devops">devops</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/es6">es6</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/eve">eve</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/firebase">firebase</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/frontend">frontend</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/fullstack">fullstack</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/game">game</a>
-      <small>(3)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/generate">generate</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/gfw">gfw</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/git">git</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/go">go</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/golang">golang</a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/hikvision">hikvision</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/html5">html5</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/hugo">hugo</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/iaas">iaas</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/ibm">ibm</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/icon">icon</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/ionic">ionic</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/ionic2">ionic2</a>
-      <small>(12)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/it">it</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/java">java</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/jax-rs">jax-rs</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/jersy">jersy</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/laravel">laravel</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/latex">latex</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/linux">linux</a>
-      <small>(6)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/mapplestory">mapplestory</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/markdown">markdown</a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/message">message</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/metaphysics">metaphysics</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/mindmap">mindmap</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/mobile">mobile</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/mongodb">mongodb</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/ncu">ncu</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/nginx">nginx</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/npm">npm</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/odoo">odoo</a>
-      <small>(6)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/openvpn">openvpn</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/openwrt">openwrt</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/orm">orm</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/paas">paas</a>
-      <small>(3)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/paper">paper</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/pdf">pdf</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/php">php</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/php5-fpm">php5-fpm</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/pkm">pkm</a>
-      <small>(3)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/ppt">ppt</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/psychology">psychology</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/restful">restful</a>
-      <small>(10)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/rss">rss</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/rxjs">rxjs</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/seo">seo</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/skill">skill</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/tax">tax</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/vim">vim</a>
-      <small>(4)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/vr">vr</a>
-      <small>(2)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/wget">wget</a>
-      <small>(1)</small>
-    </span>
-    
-    <span class="tag">
-      <a href="https://cio.anasit.com/tags/win10">win10</a>
-      <small>(3)</small>
-    </span>
-    
-  </section>
-
-
-  <h1 class="headline">Recent Posts</h1>
-
-  <div class="article-list">
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/career/README/">个人职业生涯规划说明</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-11-07">November 07, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     简历档案 档案书写平台  领英 简历书写  如何有效利用 LinkedIn  脉脉 职场社交  简历生成  官方英文简历，导出PDF Printing a Profile and Recommendations 领英API生成H5简历应用开发   
-  </section>
-</article>
-
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/vrar/arplayer/">AR时代来临了，带上兵器吧</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-10-21">October 21, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933
- 场景  H5 意味着在手机而非 PC 上实现 AR 意味着需要获取实时的视频流   目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：
-简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。
- 
-  </section>
-</article>
-
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/tool/bashonwindows/">BashOnWindows常见问题汇总</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-08-27">August 27, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734
-System =&amp;gt; Services =&amp;gt; disable: &amp;quot;SSH server proxy&amp;quot; &amp;quot;SSH server broker&amp;quot;  启动ssh后拒绝访问，refuse或connection closed https:// 
-  </section>
-</article>
-
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-universal/">ng2服务端渲染及SEO方案——universal</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-08-25">August 25, 2016</time></span>
-
-  </div>
-  <section class="summary">
-     ng2-universal基础  Github Design Doc Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2 Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness  Modules Univers 
-  </section>
-</article>
-
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/cookbook/frontend/ng2-wechat/">ng2开发手机Wap及微信应用可行性分析</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-07-30">July 30, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    参考文章  Ionic2-app can’t run in wechat’s browser of android angular2应用在安卓版微信内无法正常运行?  ionic2框架 测试规范参考  示例程序：ionic-conference-app【待替换】 浏览器环境  iOS 正常 默认浏览器 正常 微信浏览器 正常 QQ浏览器 【待测】火狐 【待测】谷歌 Android 正常 默认浏览器 正常 微信浏览器 正常 QQ浏览  <a href="/cookbook/frontend/ng2-wechat/">Read More...</a>
-  </section>
-</article>
-
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/meeting/2016-7-21ibmbluemix/">因专属更自如——IBM Bluemix 云端体验之旅会议记录</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-07-21">July 21, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    会议简介  会议主题  因专属更自如——IBM Bluemix 云端体验之旅 IBM Bluemix Dedicated  主办单位  世纪互联集团有限公司   Bluemix中国研究院Demo演示 定制化图片分类器服务  我的任务  新建任务-选择数据集-准确优先/精度优先  我的数据集  从示例数据集拷贝，用于尝试训练  我的训练模型 我的API   训练定制图片识别服务 CloudFoundry新建一个Demo 调用对应AP 
-  </section>
-</article>
-
-    
-      
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="/meeting/2016-7-21ibmbluemix-anasit/">（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革 (Draft)</a></h2>
-  <div class="meta">
-
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-07-21">July 21, 2016</time></span>
-
-  </div>
-  <section class="summary">
-    零、前言 本文针对二三线城市中小型企业信息化现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。
-主体分为四大章节 - 企业信息化的市场前景 - 消灭信息不对等！ - 中小企业如何顺利进行信息化转型？ - 安纳斯在江西区域发展策略
-以及2个具体的实施案例 - 案例1：江西某旅游集团信息化转型 - 案例2：湖南某市九县三区民政养老信息化转型
-一、企业信息化的市场前景 企业信息化技术的发展  2000-2008  自建机房   <a href="/meeting/2016-7-21ibmbluemix-anasit/">Read More...</a>
-  </section>
-</article>
-
-    
-  </div>
-
-
-
-  <h1 class="headline">Categories</h1>
-
-  <section class="categories">
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/career">Career</a>
-      <small>(1)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook">Cookbook</a>
-      <small>(31)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/api">Cookbook/Api</a>
-      <small>(10)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/backend">Cookbook/Backend</a>
-      <small>(8)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/cms">Cookbook/Cms</a>
-      <small>(4)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/database">Cookbook/Database</a>
-      <small>(2)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/fontend">Cookbook/Fontend</a>
-      <small>(16)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/frontend">Cookbook/Frontend</a>
-      <small>(1)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/network">Cookbook/Network</a>
-      <small>(2)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/cookbook/tutorial">Cookbook/Tutorial</a>
-      <small>(1)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/faq">Faq</a>
-      <small>(15)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/game/dev">Game/Dev</a>
-      <small>(2)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/game/play">Game/Play</a>
-      <small>(2)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/manifesto">Manifesto</a>
-      <small>(1)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/meeting">Meeting</a>
-      <small>(6)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/study">Study</a>
-      <small>(6)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/study/finance">Study/Finance</a>
-      <small>(2)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/study/it">Study/It</a>
-      <small>(2)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/study/ocult">Study/Ocult</a>
-      <small>(1)</small>
-    </h2>
-    
-    <h2 class="category">
-      <a href="https://cio.anasit.com/categories/study/psychology">Study/Psychology</a>
-      <small>(2)</small>
-    </h2>
-    
-  </section>
-
-
-</main>
-
-
-
+  </article>
+  
 </div>
 
-<footer>
-  <div class="container">
-    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+                
+              
+              <div class="post-list group">
+                
+                  
+                
+                  
+                    
+                      <div class="post-row">
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/fontend/" title="All posts in cookbook/fontend" rel="category tag">cookbook/fontend</a>
+    
+  </p>
+
+  <p class="post-date">2016年12月22日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/game/dev/techtree/" rel="bookmark" title="首款手机游戏的各项选型">首款手机游戏的各项选型</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>首款手机游戏的各项选型 画面/风格/素材 风格：手绘/像素风 画面：2D基准 部分3D特效调优 坚持每日一个手绘怪物 游戏类型 暗黑、地牢、Rougeli</p>
+</div>
+
+
   </div>
+  
+</article>
+
+
+
+                    
+                  
+                
+                  
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/career/" title="All posts in career" rel="category tag">career</a>
+    
+  </p>
+
+  <p class="post-date">2016年11月07日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/career/howtoprofile/" rel="bookmark" title="如何高效整理自己的个人简历？">如何高效整理自己的个人简历？</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>简历档案 档案书写平台 领英 简历书写 如何有效利用 LinkedIn 脉脉 职场社交 简历生成 官方英文简历，导出PDF Printing a Profile and Recommendations 领英API生成H5简历应用开发</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                      </div>
+                    
+                  
+                
+                  
+                    
+                      <div class="post-row">
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年10月21日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/vrar/arplayer/" rel="bookmark" title="AR时代来临了，带上兵器吧">AR时代来临了，带上兵器吧</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933 场景 H5 意味着在手机而非 PC 上实现 AR 意味着</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                  
+                
+                  
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/" title="All posts in cookbook" rel="category tag">cookbook</a>
+    
+  </p>
+
+  <p class="post-date">2016年08月27日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/tool/bashonwindows/" rel="bookmark" title="BashOnWindows常见问题汇总">BashOnWindows常见问题汇总</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734 System =&gt; Services =&gt; disable: &quot;SSH server proxy&quot; &quot;SSH server broker&quot; 启动ssh后拒绝访问，refuse或connection closed https://github.com/Microsoft/BashOnWindows/issues/300 Actually changing UsePrivilegeSeparation to no in /etc/ssh/sshd_config</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                      </div>
+                    
+                  
+                
+                  
+                    
+                      <div class="post-row">
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/fontend/" title="All posts in cookbook/fontend" rel="category tag">cookbook/fontend</a>
+    
+  </p>
+
+  <p class="post-date">2016年08月25日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/frontend/ng2-universal/" rel="bookmark" title="ng2服务端渲染及SEO方案——universal">ng2服务端渲染及SEO方案——universal</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>ng2-universal基础 Github Design Doc Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2 Universal Angular 2 Server Side Rendering for SEO &amp; Crawl-Friendliness Modules Universal Manage your application lifecycle and serialize changes while on the server to be sent to the client. ionic2整</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                  
+                
+                  
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/fontend/" title="All posts in cookbook/fontend" rel="category tag">cookbook/fontend</a>
+    
+  </p>
+
+  <p class="post-date">2016年07月30日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/frontend/ng2-wechat/" rel="bookmark" title="ng2开发手机Wap及微信应用可行性分析">ng2开发手机Wap及微信应用可行性分析</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>参考文章 Ionic2-app can’t run in wechat’s browser of android angular2应用在安卓版微信内无法正常运行? ionic2框架 测试规范参考 示例程序：ioni</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                      </div>
+                    
+                  
+                
+                  
+                    
+                      <div class="post-row">
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/meeting/" title="All posts in meeting" rel="category tag">meeting</a>
+    
+  </p>
+
+  <p class="post-date">2016年07月21日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/meeting/2016-7-21ibmbluemix/" rel="bookmark" title="因专属更自如——IBM Bluemix 云端体验之旅会议记录">因专属更自如——IBM Bluemix 云端体验之旅会议记录</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>会议简介 会议主题 因专属更自如——IBM Bluemix 云端体验之旅 IBM Bluemix Dedicated 主办单位 世纪互联集团有限公司 Bluemix中国研究院Demo演示 定制化图片分类器服</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                  
+                
+                  
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/meeting/" title="All posts in meeting" rel="category tag">meeting</a>
+    
+  </p>
+
+  <p class="post-date">2016年07月21日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/" rel="bookmark" title="（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革">（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>零、前言 本文针对二三线城市中小型企业信息化现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。 主体分为四大章节 - 企业信息化的市场前</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                      </div>
+                    
+                  
+                
+                  
+                    
+                      <div class="post-row">
+                    
+
+                      <article class="post type-post status-publish format-standard has-post-thumbnail hentry group">
+  <div class="post-inner post-hover">
+    
+
+
+
+<div class="post-meta group">
+  <p class="post-category">
+    
+    <a href="categories/cookbook/backend/" title="All posts in cookbook/backend" rel="category tag">cookbook/backend</a>
+    
+  </p>
+
+  <p class="post-date">2016年07月02日</p>
+</div>
+
+<h2 class="post-title">
+  <a href="https://cio.anasit.com/cookbook/backend/paas/" rel="bookmark" title="Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿">Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</a>
+</h2>
+
+<div class="entry excerpt">
+  <p>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp; Docker Predictions for 2016 2016年六大OpenStack &amp; Docker发展趋势预测</p>
+</div>
+
+
+  </div>
+  
+</article>
+
+
+
+                    
+                  
+                
+              </div>
+
+              
+              
+<style media="screen">
+  a.nextpostslink,a.previouspostslink,span.current{
+    margin-bottom:21px;
+  }
+</style>
+
+<nav class="pagination group">
+  <div class="wp-pagenavi">
+    <span class="pages">
+        Page 1 of 14
+        (135 Posts)
+    </span>
+    
+    
+        
+          <span class="current">1</span>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/2/">2</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/3/">3</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/4/">4</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/5/">5</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/6/">6</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/7/">7</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/8/">8</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/9/">9</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/10/">10</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/11/">11</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/12/">12</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/13/">13</a>
+        
+    
+        
+          <a class="page" href="https://cio.anasit.com/paginator/14/">14</a>
+        
+    
+    
+      <a class="nextpostslink" rel="next" href="https://cio.anasit.com/paginator/2/">&raquo;</a>
+    
+  </div>
+</nav>
+
+              
+            </div>
+
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+    </div>
+    <div class="widget qrcode" style="text-align:center;">
+    <img src="https://cio.anasit.com/public/qrcode.png" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> ryanemax <br /></p>
+</div>
+
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.google.com/search">
+        <div>
+          <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+          
+<div class="sidebar s2">
+    <a class="sidebar-toggle" title="Expand Sidebar">
+        <i class="fa icon-sidebar-toggle"></i>
+    </a>
+    <div class="sidebar-content">
+        <div class="sidebar-top group">
+            <p>More</p>
+        </div>
+        <div id="categories-2" class="widget widget_categories">
+            <h3>Categories</h3>
+            <ul>
+                
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/career">Career</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook">Cookbook</a>
+                            <small>(31)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/api">Cookbook/Api</a>
+                            <small>(10)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/backend">Cookbook/Backend</a>
+                            <small>(8)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/cms">Cookbook/Cms</a>
+                            <small>(4)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/database">Cookbook/Database</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/fontend">Cookbook/Fontend</a>
+                            <small>(17)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/frontend">Cookbook/Frontend</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/network">Cookbook/Network</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/tutorial">Cookbook/Tutorial</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/faq">Faq</a>
+                            <small>(15)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game/dev">Game/Dev</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game/play">Game/Play</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/manifesto">Manifesto</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/meeting">Meeting</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study">Study</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/finance">Study/Finance</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/it">Study/It</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/ocult">Study/Ocult</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study/psychology">Study/Psychology</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                
+            </ul>
+            <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                <h3>Tags</h3>
+                <div class="tagcloud">
+                    <p class="post-tags">
+                        
+                            
+                            
+                                <a rel="tag" href="tags//" class="tag-link-4" title="4 Posts"></a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/agile/" class="tag-link-4" title="4 Posts">agile</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/angular2/" class="tag-link-8" title="8 Posts">angular2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/apcio/" class="tag-link-2" title="2 Posts">apcio</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/baas/" class="tag-link-4" title="4 Posts">baas</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/bluemix/" class="tag-link-2" title="2 Posts">bluemix</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/career/" class="tag-link-2" title="2 Posts">career</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/change/" class="tag-link-2" title="2 Posts">change</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/cms/" class="tag-link-4" title="4 Posts">cms</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/eve/" class="tag-link-2" title="2 Posts">eve</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/frontend/" class="tag-link-2" title="2 Posts">frontend</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/game/" class="tag-link-4" title="4 Posts">game</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/gfw/" class="tag-link-2" title="2 Posts">gfw</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/golang/" class="tag-link-4" title="4 Posts">golang</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/hikvision/" class="tag-link-2" title="2 Posts">hikvision</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/html5/" class="tag-link-2" title="2 Posts">html5</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/iaas/" class="tag-link-2" title="2 Posts">iaas</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ibm/" class="tag-link-2" title="2 Posts">ibm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic/" class="tag-link-2" title="2 Posts">ionic</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic2/" class="tag-link-12" title="12 Posts">ionic2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/it/" class="tag-link-2" title="2 Posts">it</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/linux/" class="tag-link-6" title="6 Posts">linux</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/markdown/" class="tag-link-4" title="4 Posts">markdown</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/nginx/" class="tag-link-2" title="2 Posts">nginx</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/odoo/" class="tag-link-6" title="6 Posts">odoo</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/openwrt/" class="tag-link-2" title="2 Posts">openwrt</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/paas/" class="tag-link-3" title="3 Posts">paas</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/pkm/" class="tag-link-3" title="3 Posts">pkm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/psychology/" class="tag-link-2" title="2 Posts">psychology</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/restful/" class="tag-link-10" title="10 Posts">restful</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vim/" class="tag-link-4" title="4 Posts">vim</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vr/" class="tag-link-2" title="2 Posts">vr</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/win10/" class="tag-link-3" title="3 Posts">win10</a>
+                            
+                            
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2007-2017. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo</a>.
+              
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
 </footer>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
+
+  $('#messagesbsb').remove();
+
+</script>
+
+<script>
+    window.tctipConfig = {
+        
+        imagePrefix: "",
+        
+        cssPrefix: "",
+        
+
+        staticPrefix: "/tctip",
+        
+
+        buttonImageId: Math.ceil(Math.random() * 8) + 1,
+        
+
+        buttonTip: "dashang", 
+        
+
+        list: {
+             
+            weixin: {
+                qrimg: "wechatpay.png"
+            },
+             
+            alipay: {
+                qrimg: "alipayqr.png"
+            },
+             
+            bitcoin: {
+                account: "31n1Jqz7pmoTLkpWMdVxXonnSuXQMVGde8"
+            },
+             
+            another: {
+                icon: "img/litecoin.png",
+                name: "莱特币",
+                className: "",
+                account: "LY8AkgmkQ4EvaXcB2fWXpyED1CT3Ji8THu",
+                desc: "莱特币"
+            }
+        }
+    };
+</script>
+<script src="https://cio.anasit.com/tctip/js/tctip.min.js"></script>
 
 </body>
 </html>

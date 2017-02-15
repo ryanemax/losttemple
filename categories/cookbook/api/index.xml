@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>刘雨飏@ANAS联盟</title>
+    <title>Cookbook/Api on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
     <link>https://cio.anasit.com/categories/cookbook/api/index.xml</link>
-    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <description>Recent content in Cookbook/Api on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <language>zh-CN</language>
+    <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <atom:link href="https://cio.anasit.com/categories/cookbook/api/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -180,10 +180,10 @@ This package combines swagger-php and swagger-ui into one Laravel-friendly packa
     
     <item>
       <title>raml 1.0 与 raml 0.8区别之处</title>
-      <link>https://cio.anasit.com/cookbook/api/ramldiff0/</link>
+      <link>https://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/api/ramldiff0/</guid>
+      <guid>https://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</guid>
       <description>
 
 &lt;h1 id=&#34;raml-1-0-与-raml-0-8区别之处&#34;&gt;《raml 1.0 与 raml 0.8区别之处》&lt;/h1&gt;
@@ -230,7 +230,7 @@ properties:
 &lt;h2 id=&#34;直接跨所有域名-return-origin-req-header-get-origin-即可&#34;&gt;直接跨所有域名，return origin == req.Header.Get(&amp;ldquo;Origin&amp;rdquo;)，即可&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;func main() {
-	//.......
+    //.......
         api := rest.NewApi()
         api.Use(rest.DefaultDevStack...)
         //配置API跨域CORS
@@ -245,7 +245,7 @@ properties:
                 AccessControlAllowCredentials: true,
                 AccessControlMaxAge:           3600,
         })
-	//......
+    //......
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id=&#34;angularjs&#34;&gt;angularjs&lt;/h1&gt;

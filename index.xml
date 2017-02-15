@@ -1,21 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>刘雨飏@ANAS联盟</title>
+    <title>Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
     <link>https://cio.anasit.com/index.xml</link>
-    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <description>Recent content on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Mon, 07 Nov 2016 12:00:00 +0800</lastBuildDate>
+    <language>zh-CN</language>
+    <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 14 Feb 2017 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>个人职业生涯规划说明</title>
-      <link>https://cio.anasit.com/career/README/</link>
+      <title>关于我</title>
+      <link>https://cio.anasit.com/about/</link>
+      <pubDate>Tue, 14 Feb 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/about/</guid>
+      <description>
+
+&lt;p class=&#34;message&#34;&gt;
+大家好，我叫 刘雨飏，是一名信息科技浪潮之中的创业者。
+&lt;/p&gt;
+
+&lt;h3 id=&#34;我的经历&#34;&gt;我的经历&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2007-2010 xxx&lt;/li&gt;
+&lt;li&gt;2007-2011 xxx&lt;/li&gt;
+&lt;li&gt;2011-2015 xxx&lt;/li&gt;
+&lt;li&gt;2016.11.09 - 至今「Anas IT Inc.」CIO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;我的技能&#34;&gt;我的技能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;编程语言：ES6/typescript, Golang, Shell。&lt;/li&gt;
+&lt;li&gt;网站开发：Angular2/Ionic2，RESTful APIs，通常使用 Debian Linux。&lt;/li&gt;
+&lt;li&gt;熟悉 跨平台应用 开发。&lt;/li&gt;
+&lt;li&gt;持续交付、持续部署、DevOps。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;生活中的我&#34;&gt;生活中的我&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Breaking Dance&lt;/li&gt;
+&lt;li&gt;EVE Online&lt;/li&gt;
+&lt;li&gt;美剧&lt;/li&gt;
+&lt;li&gt;心理学&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;系列文章&#34;&gt;系列文章&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;xxx系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;xxx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;一些链接&#34;&gt;一些链接&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我的独立博客：&lt;a href=&#34;http://cio.anasit.com&#34;&gt;cio.anasit.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn ：&lt;a href=&#34;https://www.linkedin.com/in/ryanemax&#34;&gt;linkedin.com/in/ryanemax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Facebook：&lt;a href=&#34;https://www.facebook.com/ryanemax&#34;&gt;facebook.com/ryanemax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ryanemax&#34;&gt;github.com/ryanemax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email：ryanemax@gmail.com(cio@anasit.com)&lt;/li&gt;
+&lt;li&gt;微信号：ryanemax&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;声明&#34;&gt;声明&lt;/h3&gt;
+
+&lt;p&gt;本博客所有文章皆为原创。转载请注明原文链接，并最好与本人联系。谢谢！&lt;/p&gt;
+
+&lt;p&gt;© 2007-2017 刘雨飏@ANAS联盟 - &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>首款手机游戏的各项选型</title>
+      <link>https://cio.anasit.com/game/dev/techtree/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/dev/techtree/</guid>
+      <description>
+
+&lt;h1 id=&#34;首款手机游戏的各项选型&#34;&gt;首款手机游戏的各项选型&lt;/h1&gt;
+
+&lt;h1 id=&#34;画面-风格-素材&#34;&gt;画面/风格/素材&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;风格：手绘/像素风&lt;/li&gt;
+&lt;li&gt;画面：2D基准 部分3D特效调优&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dailymonster.ink/&#34;&gt;坚持每日一个手绘怪物&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;游戏类型&#34;&gt;游戏类型&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;暗黑、地牢、Rougelike&lt;/li&gt;
+&lt;li&gt;规则：类DND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;开发技术&#34;&gt;开发技术&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unity 3D&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;参考游戏&#34;&gt;参考游戏&lt;/h1&gt;
+
+&lt;h2 id=&#34;高自由度手游&#34;&gt;高自由度手游&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;不可思议的迷宫/地下城物语&lt;/li&gt;
+&lt;li&gt;江湖X&lt;/li&gt;
+&lt;li&gt;符文重生&lt;/li&gt;
+&lt;li&gt;贪婪洞窟&lt;/li&gt;
+&lt;li&gt;Heroes Tactics/无敌英雄 之 梦幻神魔大冒险
+
+&lt;ul&gt;
+&lt;li&gt;公司 Lilith Mobile&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Magic Rush: Heroes
+
+&lt;ul&gt;
+&lt;li&gt;公司 Elex&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;开放源码&#34;&gt;开放源码&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我叫MT2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何高效整理自己的个人简历？</title>
+      <link>https://cio.anasit.com/career/howtoprofile/</link>
       <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/career/README/</guid>
+      <guid>https://cio.anasit.com/career/howtoprofile/</guid>
       <description>
 
 &lt;h1 id=&#34;简历档案&#34;&gt;简历档案&lt;/h1&gt;
@@ -2155,150 +2281,6 @@ zsh
 &lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/isRuslan/vim-es6&#34;&gt;https://github.com/isRuslan/vim-es6&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>API领域创业公司及其发展动态浅析</title>
-      <link>https://cio.anasit.com/cookbook/api/apitrends/</link>
-      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/api/apitrends/</guid>
-      <description>
-
-&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;api-生态图解&#34;&gt;API 生态图解&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;位置&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;项目/公司&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;MBaaS服务&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;APIs仓库&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;apis.guru&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;构建工具链&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;mulesoft restlet apigee&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;底层规则&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;raml swagger&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;api-spec-规则制定&#34;&gt;API Spec 规则制定&lt;/h2&gt;
-
-&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;raml google/mulesoft为背景&lt;/li&gt;
-&lt;li&gt;swagger&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;api构建工具链&#34;&gt;API构建工具链&lt;/h2&gt;
-
-&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;restlet 基于Java的jax-rs的集大成者，raml、swagger通用&lt;/li&gt;
-&lt;li&gt;mulesoft 基于raml体系&lt;/li&gt;
-&lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;api-mbaas服务&#34;&gt;API-MBaaS服务&lt;/h2&gt;
-
-&lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;firebase&lt;/li&gt;
-&lt;li&gt;dreamfactory&lt;/li&gt;
-&lt;li&gt;apicloud&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>https://cio.anasit.com/cookbook/pkm/card/</link>
-      <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/pkm/card/</guid>
-      <description>
-
-&lt;h1 id=&#34;资料搜集&#34;&gt;资料搜集&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/mobile/n/2013-01-04/14527945520.shtml&#34;&gt;三款名片管理APP大比拼&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.zhihu.com/question/22962390&#34;&gt;推荐一款好用的电子名片app？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.computerworld.com/article/2486045/mobile-apps/mobile-apps-7-business-card-apps-for-smartphones-scan-em-and-store-em.html&#34;&gt;7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;实际体验&#34;&gt;实际体验&lt;/h1&gt;
-
-&lt;h2 id=&#34;zappoint-淘汰&#34;&gt;Zappoint 淘汰&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;邮箱登陆&lt;/li&gt;
-&lt;li&gt;拍照识别
-
-&lt;ul&gt;
-&lt;li&gt;中文较差&lt;/li&gt;
-&lt;li&gt;只有正面&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;同步通讯录&lt;/li&gt;
-&lt;li&gt;排列方式
-
-&lt;ul&gt;
-&lt;li&gt;时间排列&lt;/li&gt;
-&lt;li&gt;公司排列&lt;/li&gt;
-&lt;li&gt;姓名排列&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;camcard-名片万能王-选用&#34;&gt;CamCard 名片万能王 选用&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;邮箱/手机登陆
-
-&lt;ul&gt;
-&lt;li&gt;可绑定领英&lt;/li&gt;
-&lt;li&gt;可绑定微博&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;拍照识别
-
-&lt;ul&gt;
-&lt;li&gt;中文识别优秀&lt;/li&gt;
-&lt;li&gt;支持正面与背面&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;同步通讯录&lt;/li&gt;
-&lt;li&gt;排列方式
-
-&lt;ul&gt;
-&lt;li&gt;时间排列&lt;/li&gt;
-&lt;li&gt;公司排列&lt;/li&gt;
-&lt;li&gt;姓名排列&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;国产更适合汉语使用习惯&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
