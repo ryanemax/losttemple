@@ -73,10 +73,10 @@
     
     <item>
       <title>手机游戏客户端开发引擎调研</title>
-      <link>https://cio.anasit.com/game/mobilegame/</link>
+      <link>https://cio.anasit.com/game/dev/mobilegame/</link>
       <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/mobilegame/</guid>
+      <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
       <description>
 
 &lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
@@ -293,34 +293,6 @@ UleadGifAnimator&lt;/p&gt;
 &lt;li&gt;2.x质量一般，3.x开始改善&lt;/li&gt;
 &lt;li&gt;IDE，cocos studio十分难用，拖了引擎后腿&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>手机游戏客户端开发引擎</title>
-      <link>https://cio.anasit.com/game/dev/mobilegame/</link>
-      <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
-      <description>
-
-&lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://subject.manew.com/unity-cocos/index.html&#34;&gt;Unity &amp;amp; Cocos2D-x之间的战火硝烟&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;unity3d&#34;&gt;Unity3d&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;h1 id=&#34;cocos-2dx&#34;&gt;cocos-2dx&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;
 </description>
     </item>
     
@@ -643,78 +615,35 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
     </item>
     
     <item>
-      <title></title>
-      <link>https://cio.anasit.com/game/play/nexusmanager/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Project Nova 知识体系</title>
+      <link>https://cio.anasit.com/game/projectnova/jobclass/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/play/nexusmanager/</guid>
+      <guid>https://cio.anasit.com/game/projectnova/jobclass/</guid>
       <description>
 
-&lt;h1 id=&#34;mod站点&#34;&gt;Mod站点&lt;/h1&gt;
+&lt;h1 id=&#34;知识体系&#34;&gt;知识体系&lt;/h1&gt;
+
+&lt;p&gt;游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nexusmods.com/skyrim/mods/1334/&#34;&gt;Mod Organizer 包管理器&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nexusmods.com&#34;&gt;Nexus Mod 资源站点&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com&#34;&gt;资源站点&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;战斗系&lt;/li&gt;
+&lt;li&gt;器械系&lt;/li&gt;
+&lt;li&gt;建筑系&lt;/li&gt;
+&lt;li&gt;贸易系&lt;/li&gt;
+&lt;li&gt;探索系&lt;/li&gt;
+&lt;li&gt;政治系&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;账号注册&#34;&gt;账号注册&lt;/h1&gt;
-
-&lt;p&gt;ryanemax&lt;/p&gt;
-
-&lt;p&gt;ryanemax@gmail.com&lt;/p&gt;
-
-&lt;p&gt;IU*&lt;/p&gt;
-
-&lt;h1 id=&#34;上古卷轴5&#34;&gt;上古卷轴5&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://skse.silverlock.org/&#34;&gt;SKSE 1.7.3 OR NEWER&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nexusmods.com/skyrim/mods/11811/&#34;&gt;FNIS 5.4.2 OR NEWER&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nexusmods.com/skyrim/mods/3863/?&#34;&gt;SkyUI&lt;/a&gt; REQUIRES VERSION 5.0 OR NEWER&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nexusmods.com/skyrim/mods/71214/?&#34;&gt;Unofficial Skyrim Legendary Edition Patch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nexusmods.com/skyrim/mods/12951/?&#34;&gt;Enhanced Character Edit&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com/topic/16623-skyrim-sexlab-sex-animation-framework-v162-updated-jun-3rd-2016/&#34;&gt;Sexlab Framework&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com/files/file/156-zaz-animation-pack-2016-03-31/&#34;&gt;Zaz Animation Pack&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com/topic/25488-hdt-physics-extension-v1428-latest/&#34;&gt;HDT Physics Extension&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.loverslab.com/topic/23944-sos-schlongs-of-skyrim/&#34;&gt;SOS - Schlongs of Skyrim&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;辐射4&#34;&gt;辐射4&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nexusmods.com/fallout4/mods/15/?&#34;&gt;Caliente&amp;rsquo;s Beautiful Bodies Enhancer -CBBE-&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nexusmods.com/fallout4/mods/1608/?&#34;&gt;NUCLEAR Nude&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;知识体系的学习，是以时间来修炼，同时只可以进行3项知识的学习。
+逐渐强大起来的能量团体与组织，贡献出了以探索到的知识，形成能量学院，新人成为能量者后，会自动进入学习，并选择自己喜好的初始方向，自由选5种基础知识。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://cio.anasit.com/game/play/xkfyz/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cio.anasit.com/game/play/xkfyz/</guid>
-      <description>
-
-&lt;h1 id=&#34;侠客风云传&#34;&gt;侠客风云传&lt;/h1&gt;
-
-&lt;p&gt;ENRD-RNP7-E9C6-E9BY-XPCN&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>Project Nova 背景概述</title>
       <link>https://cio.anasit.com/game/projectnova/history/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/projectnova/history/</guid>
       <description>
@@ -738,9 +667,33 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
     </item>
     
     <item>
-      <title></title>
+      <title>Project Nova 能量体系</title>
+      <link>https://cio.anasit.com/game/projectnova/powerexp/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/projectnova/powerexp/</guid>
+      <description>
+
+&lt;h1 id=&#34;能量体系&#34;&gt;能量体系&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;能量微粒&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;能量晶体&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;规则的多边形小能量块，积累到一定数量后，可以组合出多种道具。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project Nova 道具体系</title>
       <link>https://cio.anasit.com/game/projectnova/itemclass/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/projectnova/itemclass/</guid>
       <description>
@@ -805,56 +758,6 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
 &lt;li&gt;世界级&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://cio.anasit.com/game/projectnova/jobclass/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cio.anasit.com/game/projectnova/jobclass/</guid>
-      <description>
-
-&lt;h1 id=&#34;知识体系&#34;&gt;知识体系&lt;/h1&gt;
-
-&lt;p&gt;游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;战斗系&lt;/li&gt;
-&lt;li&gt;器械系&lt;/li&gt;
-&lt;li&gt;建筑系&lt;/li&gt;
-&lt;li&gt;贸易系&lt;/li&gt;
-&lt;li&gt;探索系&lt;/li&gt;
-&lt;li&gt;政治系&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;知识体系的学习，是以时间来修炼，同时只可以进行3项知识的学习。
-逐渐强大起来的能量团体与组织，贡献出了以探索到的知识，形成能量学院，新人成为能量者后，会自动进入学习，并选择自己喜好的初始方向，自由选5种基础知识。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://cio.anasit.com/game/projectnova/powerexp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cio.anasit.com/game/projectnova/powerexp/</guid>
-      <description>
-
-&lt;h1 id=&#34;能量体系&#34;&gt;能量体系&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;能量微粒&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;能量晶体&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;规则的多边形小能量块，积累到一定数量后，可以组合出多种道具。&lt;/p&gt;
 </description>
     </item>
     

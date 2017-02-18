@@ -106,33 +106,5 @@
 </description>
     </item>
     
-    <item>
-      <title>手机游戏客户端开发引擎</title>
-      <link>https://cio.anasit.com/game/dev/mobilegame/</link>
-      <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
-      <description>
-
-&lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://subject.manew.com/unity-cocos/index.html&#34;&gt;Unity &amp;amp; Cocos2D-x之间的战火硝烟&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;unity3d&#34;&gt;Unity3d&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;h1 id=&#34;cocos-2dx&#34;&gt;cocos-2dx&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

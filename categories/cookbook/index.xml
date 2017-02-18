@@ -10,6 +10,67 @@
     <atom:link href="https://cio.anasit.com/categories/cookbook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>首款手机游戏的各项选型</title>
+      <link>https://cio.anasit.com/game/dev/techtree/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/dev/techtree/</guid>
+      <description>
+
+&lt;h1 id=&#34;首款手机游戏的各项选型&#34;&gt;首款手机游戏的各项选型&lt;/h1&gt;
+
+&lt;h1 id=&#34;画面-风格-素材&#34;&gt;画面/风格/素材&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;风格：手绘/像素风&lt;/li&gt;
+&lt;li&gt;画面：2D基准 部分3D特效调优&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dailymonster.ink/&#34;&gt;坚持每日一个手绘怪物&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;游戏类型&#34;&gt;游戏类型&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;暗黑、地牢、Rougelike&lt;/li&gt;
+&lt;li&gt;规则：类DND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;开发技术&#34;&gt;开发技术&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unity 3D&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;参考游戏&#34;&gt;参考游戏&lt;/h1&gt;
+
+&lt;h2 id=&#34;高自由度手游&#34;&gt;高自由度手游&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;不可思议的迷宫/地下城物语&lt;/li&gt;
+&lt;li&gt;江湖X&lt;/li&gt;
+&lt;li&gt;符文重生&lt;/li&gt;
+&lt;li&gt;贪婪洞窟&lt;/li&gt;
+&lt;li&gt;Heroes Tactics/无敌英雄 之 梦幻神魔大冒险
+
+&lt;ul&gt;
+&lt;li&gt;公司 Lilith Mobile&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Magic Rush: Heroes
+
+&lt;ul&gt;
+&lt;li&gt;公司 Elex&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;开放源码&#34;&gt;开放源码&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我叫MT2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AR时代来临了，带上兵器吧</title>
       <link>https://cio.anasit.com/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
@@ -113,6 +174,391 @@ zsh
     </item>
     
     <item>
+      <title>ng2服务端渲染及SEO方案——universal</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-universal/</link>
+      <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
+      <description>
+
+&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1q6g9UlmEZDXgrkY88AJZ6MUrUxcnwhBGS0EXbVlYicY/edit&#34;&gt;Design Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.angular-university.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/&#34;&gt;Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/universal-angular-2-server-side-rendering-seo-crawl-friendliness/&#34;&gt;Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Modules Universal&lt;/p&gt;
+
+&lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
+
+&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;与Ionic2中dom.js冲突&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2开发手机Wap及微信应用可行性分析</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ionic2框架&#34;&gt;ionic2框架&lt;/h1&gt;
+
+&lt;h2 id=&#34;测试规范参考&#34;&gt;测试规范参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
+&lt;li&gt;浏览器环境
+
+&lt;ul&gt;
+&lt;li&gt;iOS&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;li&gt;Android&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;最新版本测试&#34;&gt;最新版本测试&lt;/h2&gt;
+
+&lt;h3 id=&#34;测试-ionic-beta35&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;测试-angular2-beta14&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+
+&lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
+但是当使用http调用ajax请求时,会报一个找不到open方法的错。
+可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
+
+&lt;h3 id=&#34;旧版测试&#34;&gt;旧版测试&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;异常 微信浏览器&lt;/li&gt;
+&lt;li&gt;原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>parse服务学习指引</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统环境
+
+&lt;ul&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;服务端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluemix中可替代BaaS的服务及介绍</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;对比parse-com&#34;&gt;对比Parse.com&lt;/h1&gt;
+
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
+&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;功能对比，功能完善度不如parse&lt;/li&gt;
+&lt;li&gt;价格对比，性价比不如parse&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;| -     | 功能 | 价格 |
+| :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :- |
+| 免费套餐  | 无 | 无 |
+| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
+| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
+| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在Bluemix上搭建parse-server服务</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/bluemix/2016/02/01/migrating-from-parse-to-bluemix/&#34;&gt;Migrating from Parse to Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
+cf push Your-App-Name-On-Bluemix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建Cloud Foundry应用
+
+&lt;ul&gt;
+&lt;li&gt;选择Web Application&lt;/li&gt;
+&lt;li&gt;但不选择任何移动服务（Mobile Client Access等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;选择SDK for Node.js
+
+&lt;ul&gt;
+&lt;li&gt;APP Name 起名 parse-on-bluemix&lt;/li&gt;
+&lt;li&gt;点击完成/FINISH&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创建MongoDB实例（或直接使用已有数据库）
+
+&lt;ul&gt;
+&lt;li&gt;在parse-on-bluemix中选择，ADD A SERVICE OR API&lt;/li&gt;
+&lt;li&gt;寻找分类 Data and Analytics&lt;/li&gt;
+&lt;li&gt;选择新建 MongoDB by Compose&lt;/li&gt;
+&lt;li&gt;按需配置&lt;/li&gt;
+&lt;li&gt;本文不详细介绍数据库配置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;配置parse-server环境变量
+
+&lt;ul&gt;
+&lt;li&gt;进入CloudFoundry选择已有应用&lt;/li&gt;
+&lt;li&gt;Environment  Varieties&lt;/li&gt;
+&lt;li&gt;选择USER-DEFINED，具体参数参照Parse使用文档&lt;/li&gt;
+&lt;li&gt;APP_ID xxxxxxx&lt;/li&gt;
+&lt;li&gt;MASTER_KEY xxxxxxx&lt;/li&gt;
+&lt;li&gt;PARSE_MOUNT /parse-server&lt;/li&gt;
+&lt;li&gt;REST_KEY xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
+      <link>https://cio.anasit.com/cookbook/backend/paas/</link>
+      <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/paas/</guid>
+      <description>
+
+&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
+
+&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OpenStack
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://getcloudify.org/2015/12/26/openstack-docker-kubernetes-hybrid-cloud-nfv-orchestration-mano-etsi-cloudify.html&#34;&gt;6 OpenStack &amp;amp; Docker Predictions for 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2016-01/126953.htm&#34;&gt;2016年六大OpenStack &amp;amp; Docker发展趋势预测&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2013-08/88186.htm&#34;&gt;OpenStack云计算快速入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5596&#34;&gt;Pt. 3 – OpenStack与大厂硬件及新兴开源技术的结合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5600&#34;&gt;OpenStack+NFV 推动电信行业技术变革&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Mesos&lt;/li&gt;
+&lt;li&gt;Docker
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lupaworld.com/article-241959-1.html&#34;&gt;Docker已扎根新一代PaaS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloud.51cto.com/art/201411/458342.htm&#34;&gt;如果决定使用Docker，是否有必要同时使用OpenStack？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/533.html&#34;&gt;深入浅出Docker（一）：Docker核心技术预览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/534.html&#34;&gt;深入浅出Docker（二）：Docker命令行探秘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/535.html&#34;&gt;深入浅出Docker（三）：Docker开源之路&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/536.html&#34;&gt;深入浅出Docker（四）：Docker的集成测试部署之道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1026/1532.html&#34;&gt;深入浅出Docker（五）：基于Fig搭建开发环境&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0926/552.html&#34;&gt;Docker源码分析（一）：Docker架构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1011/619.html&#34;&gt;Docker源码分析(二)：Docker Client创建与命令执行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1108/2365.html&#34;&gt;Docker源码分析(三)：Docker Daemon启动&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1126/3406.html&#34;&gt;Docker源码分析(四)：Docker Daemon之NewDaemon实现&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1211/3623.html&#34;&gt;Docker源码分析（五）：Docker Server的创建&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/docker-source-code-analysis-part6&#34;&gt;Docker源码分析（六）：Docker Daemon网络&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;开源的私有云方案，OpenStack独大，与之竞争的产品不多。&lt;/p&gt;
+
+&lt;p&gt;Mesos可以在操作系统层面与OpenStack相互结合&lt;/p&gt;
+
+&lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
+
+&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;多租户和租户隔离 （multi-tenancy and tenancy isolation）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5290855.html&#34;&gt;混合云（Hybrid cloud）支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主流硬件支持、云快速交付 和 SLA 保证&lt;/li&gt;
+&lt;li&gt;大规模扩展性支持&lt;/li&gt;
+&lt;li&gt;私有云外围环境支持（包括支持CDN 、商业SDN控制器、防火墙和VPN/专线等）&lt;/li&gt;
+&lt;li&gt;良好的可使用性（用户和运维 Dashboard 等）&lt;/li&gt;
+&lt;li&gt;向上扩展性（PaaS 和 SaaS 等支撑）&lt;/li&gt;
+&lt;li&gt;企业数据中心IT环境支持（包括裸金属/Bare metal、F5 、GPU、跨云网络连通、租户计费、备份等支持）&lt;/li&gt;
+&lt;li&gt;行业解决方案&lt;/li&gt;
+&lt;li&gt;独立的服务，包括培训、运维等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CloudFoundry
+
+&lt;ul&gt;
+&lt;li&gt;Bluemix采用&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-09-28/2825811&#34;&gt;OpenShift负责人谈PaaS、Docker、Kubernetes及与CloudFoundry的竞争&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/yudar/p/4391535.html&#34;&gt;OpenStack与CloudFoundry简介&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oschina.net/translate/openstack-and-cloud-foundry&#34;&gt;OpenStack 和 Cloud Foundry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes（Google开源的Docker容器集群管理系统）
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dockone.io/article/639&#34;&gt;OpenStack, Kubernetes, Mesos 谁主沉浮？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/1970-01-01/2825241&#34;&gt;Google Kubernetes牵手OpenStack 混合云与容器化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Flynn（基于Docker的PaaS平台）
+
+&lt;ul&gt;
+&lt;li&gt;参考文章：&lt;a href=&#34;http://blog.csdn.net/zhangjun2915/article/details/41266133&#34;&gt;Flynn初探：基于Docker的PaaS平台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对比Kubernetes&lt;/li&gt;
+&lt;li&gt;在应用的抽象上，Flynn与Kubernetes有本质的区别：Flynn的应用管 理单元是App，只对应一个Docker镜像，但可以由这个镜像来启动多个进程，并且每个进程可以单独扩缩容；而Kubernetes的应用管理单元是 Pod，可对应多个不同的Docker镜像，并且Pod内的各个容器保证会运行在相同的机器上，整个Pod作为扩缩容的基本单位。&lt;/li&gt;
+&lt;li&gt;另外一个根本的区别是Kubernetes不提供镜像构建与版本管理的功能。因此，Kubernetes只能看成是面向容器而不是面向应用的系统。当然，我们可以在Kubernetes之上扩充这些功能。&lt;/li&gt;
+&lt;li&gt;对比Deis&lt;/li&gt;
+&lt;li&gt;第一，Deis、Flynn是都是采用Go语言开发；&lt;/li&gt;
+&lt;li&gt;第二，Deis完全依赖于CoreOS，而Flynn因为所有组件都可运行在容器里，没有OS的依赖；&lt;/li&gt;
+&lt;li&gt;第三，Deis在构建阶段，除了buildpack方式构建外，还支持Dockerfile与镜像直接上传两种方式，相对Flynn更为灵活。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;轻量级：Flynn、Deis二选一
+
+&lt;ul&gt;
+&lt;li&gt;团队熟悉GO则Flynn、熟悉Python则Deis&lt;/li&gt;
+&lt;li&gt;都属于轻量级Docker方案，适合服务器较少的情景&lt;/li&gt;
+&lt;li&gt;更加适合灵活的定制，同时也意味着生产环境需要考虑运维成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;重量级：CloudFoundry
+
+&lt;ul&gt;
+&lt;li&gt;配置较为复杂，初期学习成本相对高&lt;/li&gt;
+&lt;li&gt;较为成熟的重量级PaaS方案，生产环境运维成本低&lt;/li&gt;
+&lt;li&gt;适合服务器集群或更多服务器中使用&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
+
+&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
+
+&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
+&lt;li&gt;网络接入 电信百兆独享&lt;/li&gt;
+&lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
       <link>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
@@ -206,6 +652,63 @@ zsh
 &lt;li&gt;nfs&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用于angular2项目开发的vim环境配置及插件</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 差
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;es6 完全不支持ES6，安装es6插件无效&lt;/li&gt;
+&lt;li&gt;ng2 完全不支持angular2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 差
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 差&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 较好
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 较好
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 较好
+
+&lt;ul&gt;
+&lt;li&gt;gulp 小工具&lt;/li&gt;
+&lt;li&gt;RESTful Client 小工具&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+
+&lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/isRuslan/vim-es6&#34;&gt;https://github.com/isRuslan/vim-es6&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -354,797 +857,12 @@ zsh
     </item>
     
     <item>
-      <title>个人知识管理解决方案</title>
-      <link>https://cio.anasit.com/README/</link>
-      <pubDate>Fri, 01 Apr 2016 00:05:51 +0800</pubDate>
+      <title>H5页面如何接入google ads实现广告收入？</title>
+      <link>https://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/README/</guid>
-      <description>
-
-&lt;h1 id=&#34;个人知识管理-规划中&#34;&gt;个人知识管理（规划中）&lt;/h1&gt;
-
-&lt;h2 id=&#34;简介及技术点&#34;&gt;简介及技术点&lt;/h2&gt;
-
-&lt;p&gt;距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知识的技巧。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;文档编辑
-
-&lt;ul&gt;
-&lt;li&gt;markdown&lt;/li&gt;
-&lt;li&gt;latex&lt;/li&gt;
-&lt;li&gt;pandoc&lt;/li&gt;
-&lt;li&gt;YAML&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;版本控制
-
-&lt;ul&gt;
-&lt;li&gt;git&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;bitbucket&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;静态博客
-
-&lt;ul&gt;
-&lt;li&gt;github pages&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://gohugo.io&#34;&gt;hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;disqus&lt;/li&gt;
-&lt;li&gt;disqus 列表页统计数量 &lt;a href=&#34;https://help.disqus.com/customer/portal/articles/565624&#34;&gt;count.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://html5up.net/&#34;&gt;http://html5up.net/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;思维导图 xmind&lt;/li&gt;
-&lt;li&gt;linux shell脚本&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;todolist&#34;&gt;TODOLIST&lt;/h2&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 从Leanote迁移知识经验，从为知笔记迁移知识经验，制定对大量知识的知识搜集、获取、归纳环节&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 实现从私有知识库（加密git）到公有知识库（公开git）的知识分享环节&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;常用脚本&#34;&gt;常用脚本&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## markdown生成pdf脚本
-./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;
-## markdown生成ppt脚本
-./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;环境安装&#34;&gt;环境安装&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 本方案适用于全平台
-## Linux系列/arch linux
-pacman -S texlive-core
-pacman -S texlive-latexextra
-pacman -S pandoc
-pacman -S git atom
-
-## Linux系列/Debian/Ubuntu
-apt-get install texlive-base
-apt-get install texlive-latex-base
-apt-get install texlive-latex-extra
-apt-get install pandoc
-apt-get install git atom
-
-## Windows 10/msys2
-pacman -S texlive-core
-pacman -S texlive-latexextra
-pacman -S pandoc
-pacman -S git atom
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;知识管理-各环节详细实施方案&#34;&gt;知识管理-各环节详细实施方案&lt;/h1&gt;
-
-&lt;h2 id=&#34;浏览环节-greader-绑定feedly账号&#34;&gt;（浏览环节）gReader，绑定feedly账号&lt;/h2&gt;
-
-&lt;h2 id=&#34;收藏环节-greader加星&#34;&gt;（收藏环节）gReader加星&lt;/h2&gt;
-
-&lt;h2 id=&#34;归纳环节-笔记文本管理&#34;&gt;（归纳环节）笔记文本管理&lt;/h2&gt;
-
-&lt;p&gt;Git地址：&lt;a href=&#34;https://bitbucket.org/ryanemax/note&#34;&gt;https://bitbucket.org/ryanemax/note&lt;/a&gt;
-- /inbox&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;临时的未分类资料，以便及时书写心得、笔记等。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;/build&lt;/p&gt;
-
-&lt;p&gt;存放生成的经典的ppt以及pdf文档。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;/secret&lt;/p&gt;
-
-&lt;p&gt;记录自己个人的、公司的、客户的各种机密信息资料，用于备忘。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;/project&lt;/p&gt;
-
-&lt;p&gt;客户的信息资料如果超过一定数量级，将单独立项，写在project项目文件，保证信息的高整合度。&lt;/p&gt;
-
-&lt;p&gt;例如合作公司及其各项客户资料，网络环境，接口加密等等。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;/study&lt;/p&gt;
-
-&lt;p&gt;此目录用于研究论文写作，以论文形式，书写对各领域深入的探索，专业程度深，信息整合度高。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;/cookbook&lt;/p&gt;
-
-&lt;p&gt;记录个人对各项软件、系统的评测，及个人的最佳选择与配置方案&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;/cookbook/xxx&lt;/p&gt;
-
-&lt;p&gt;记录个人在细分领域产生的心得、体验，以及对新技术的探索与尝试&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;分享环节-个人博客管理&#34;&gt;（分享环节）个人博客管理&lt;/h2&gt;
-
-&lt;p&gt;技术点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;hugo //静态html生成工具&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;markdown&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;github pagaes&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;存储资料及软件管理&#34;&gt;存储资料及软件管理&lt;/h1&gt;
-
-&lt;h2 id=&#34;云盘存储&#34;&gt;云盘存储&lt;/h2&gt;
-
-&lt;p&gt;百度云盘
-- meCareer（应用数据/bypy/Career）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;职业生涯/公司项目资料等等
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;mePackage&lt;/p&gt;
-
-&lt;p&gt;各操作系统，各环境常用软件及安装程序&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;meLibrary&lt;/p&gt;
-
-&lt;p&gt;存储Calibre所收藏的各类电子图书库&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;360云盘&lt;/p&gt;
-
-&lt;p&gt;QQ微云&lt;/p&gt;
-
-&lt;h2 id=&#34;软件管理&#34;&gt;软件管理&lt;/h2&gt;
-
-&lt;p&gt;Windows：Oneget+chocolatey.org&lt;/p&gt;
-
-&lt;p&gt;Debian/Ubuntu：apt-get&lt;/p&gt;
-
-&lt;p&gt;Arch Linux/Msys2：pacman&lt;/p&gt;
-
-&lt;p&gt;CentOS：yum&lt;/p&gt;
-
-&lt;p&gt;OpenWrt：opkg&lt;/p&gt;
-
-&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GithubPages
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://ryanemax.github.io&#34;&gt;http://ryanemax.github.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hugo&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;diy theme: base16-ryn&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;## Installation
-http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118 go get -u github.com/spf13/hugo
-## Themes-bleak-ryn need hugo v1.6
-git clone https://github.com/ryanemax/blog/tree/master/themes/base16-ryn
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;github-pages百度收录策略&#34;&gt;Github Pages百度收录策略&lt;/h3&gt;
-
-&lt;p&gt;利用Github Pages创建博客的国内作者一定有这样的麻烦： Github对Baidu Spider的用户代理都会返回403状态码，因而百度无法收录博客内容。 为解决此问题，小编在2016年01月21日在Gitcafe Pages（今Coding.net）创建镜像， 并设置域名解析百度线路来的Harttle.com到该镜像。 如今百度已经可以正常收录Harttle.com的文章了，撰文在此希望能帮到别人。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;一个域名：百度收录、Google收录、用户访问的域名是相同的。&lt;/li&gt;
-&lt;li&gt;免费使用：不需要购买VPS或者CDN服务。&lt;/li&gt;
-&lt;li&gt;实时同步：不存在CDN的不同步的问题，同时也不存在CDN线路选择不确定的问题。&lt;/li&gt;
-&lt;li&gt;不需备案：使用Coding.net的域名做CNAME，不需自己备案。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;注册coding ryn ryanemax@gmail.com&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;仓库同步&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;既然如今Gitcafe的Git仓库服务已经转移到了Coding.net， 下文中以Coding.net中的配置为例。
-  首先需要在Coding.net创建仓库并开启Pages服务。首先创建一个&lt;strong&gt;coding-pages&lt;/strong&gt;分支， 然后把它push到Coding.net上的仓库。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  git checkout -b coding-pages
-  git remote add coding.net git@git.coding.net:harttle/harttle.git
-  git push coding.net coding-pages
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;在Coding.net上看到自己的仓库代码后，在Pages设置页面中开启Pages服务。 此时，可以访问&lt;a href=&#34;http://ryn.coding.me来测试了（可能会有一分钟左右的延迟，之间会404）。&#34;&gt;http://ryn.coding.me来测试了（可能会有一分钟左右的延迟，之间会404）。&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Every one should learn how to Fuck The GFW</title>
-      <link>https://cio.anasit.com/cookbook/fuckGFW/</link>
-      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/fuckGFW/</guid>
-      <description>
-
-&lt;h1 id=&#34;windows程序socks代理-用于游戏&#34;&gt;Windows程序socks代理（用于游戏）&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;shadowsocks-gui&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;SocksCap64 3.0  &lt;a href=&#34;http://www.sockscap64.com/&#34;&gt;http://www.sockscap64.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;linux代理&#34;&gt;Linux代理&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;apt-get install shadowsocks&lt;/li&gt;
-&lt;li&gt;apt-get install privoxy
-&lt;code&gt;sh
-export http_proxy=http://127.0.0.1:8118
-export https_proxy=http://127.0.0.1:8118
-&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Linux最佳文件压缩方式</title>
-      <link>https://cio.anasit.com/cookbook/devops/linux-tar/</link>
-      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/devops/linux-tar/</guid>
-      <description>
-
-&lt;h1 id=&#34;linux最佳压缩方式&#34;&gt;Linux最佳压缩方式&lt;/h1&gt;
-
-&lt;h2 id=&#34;常用压缩方式&#34;&gt;常用压缩方式&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
-tar -czvf ***.tar.gz
-tar -cjvf ***.tar.bz2
-#解压缩
-tar -xzvf ***.tar.gz
-tar -xjvf ***.tar.bz2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;高压缩率方式&#34;&gt;高压缩率方式&lt;/h2&gt;
-
-&lt;p&gt;gnu tar的1.26版本开始支持lzma和xz压缩，具体压缩实例如下&lt;/p&gt;
-
-&lt;h3 id=&#34;压缩率-tar-xz-tar-lzma-tar-bz2-tar-gz&#34;&gt;压缩率 tar.xz==tar.lzma&amp;gt;&amp;gt;.tar.bz2&amp;gt;&amp;gt;&amp;gt;&amp;gt;tar.gz&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#压缩
-#更简洁的方式
-tar -cJf aaa.tar.xz my_dir
-tar -c --xz   -f my_archive.tar.xz   /some_directory    # results in my_archive.tar.xz
-tar -c --lzma -f my_archive.tar.lzma /some_directory    # results in my_archive.tar.lzma
-
-#解压缩
-tar -xJf aaa.tar.xz
-tar -x --xz   -f my_archive.tar.xz      # results in /some_directory
-tar -x --lzma -f my_archive.tar.lzma    # results in /some_directory
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;其中&amp;ndash;xz可以用-J代替&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#或者使用tar的选项&amp;quot;-a&amp;quot;自动识别压缩文件后缀的方式：
-tar -caf aaa.tar.xz my_dir
-tar -xaf aaa.tar.xz
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;如果你嫌tar.xz 太长了，可以使用txz。&lt;/p&gt;
-
-&lt;p&gt;由于受到Dos 8.3文件名格式的限制，tar常使用下列缩写：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.tgz等价于.tar.gz
-.tbz与tb2等价于.tar.bz2
-.taz等价于.tar.Z
-.tlz等价于.tar.lzma
-.txz等价于.tar.xz
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;继续补充：
-查看tar包中的文件：
-tar -aft 1.tar.xz&lt;/p&gt;
-
-&lt;p&gt;解压缩tar中单独的文件或者目录：
-首先应用上面的命令查看tar包中的文件名和目录，然后使用-x解压缩命令
-$tar -aft 1.tar.xz
-1/
-1/a.bin
-1/b.bin
-1/c.bin
-$tar -axf 1.tar.xz 1/a.bin
-即可解压缩单独的文件a.bin而不用把这个压缩文件全部解压开来&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Atom实践探索</title>
-      <link>https://cio.anasit.com/cookbook/tool/atom/</link>
-      <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/tool/atom/</guid>
-      <description>
-
-&lt;p&gt;官方手册：&lt;a href=&#34;http://flight-manual.atom.io/&#34;&gt;http://flight-manual.atom.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;搜集尝试阶段&#34;&gt;搜集尝试阶段&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.open-open.com/news/view/1c81d20#_label13&#34;&gt;开发者的15个实用的 Atom Packages&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/Darren_code/p/atom.html&#34;&gt;http://www.cnblogs.com/Darren_code/p/atom.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;setting&#34;&gt;Setting&lt;/h1&gt;
-
-&lt;h2 id=&#34;取消保存时自动格式化markdown&#34;&gt;取消保存时自动格式化Markdown&lt;/h2&gt;
-
-&lt;p&gt;整合hugo后，头部往往需要写入toml/json的配置项，如果保存自动美化，会导致配置项格式错乱&lt;/p&gt;
-
-&lt;p&gt;Packages=&amp;gt;tidy-markdown&lt;/p&gt;
-
-&lt;p&gt;[x] Run On Save&lt;/p&gt;
-
-&lt;h2 id=&#34;开启代码美化&#34;&gt;开启代码美化&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;atom-beautify&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;markdown编辑器深度配置&#34;&gt;Markdown编辑器深度配置&lt;/h1&gt;
-
-&lt;h1 id=&#34;实用快捷键&#34;&gt;实用快捷键&lt;/h1&gt;
-
-&lt;h1 id=&#34;snippets&#34;&gt;Snippets&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://atom.io/packages/snippets&#34;&gt;https://atom.io/packages/snippets&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;snippets文件存储在目录：~/.atom/snippets.cson&lt;/p&gt;
-
-&lt;p&gt;snippets文件同时支持json与cson&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;scope选择&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Ctrl+Alt+Shift+P&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;插入时间变量(可惜！Atom代码段对数字以外的变量暂时不支持)&lt;/strong&gt;
-&lt;a href=&#34;https://github.com/atom/snippets/pull/173&#34;&gt; Add special variables #173 &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://discuss.atom.io/t/dynamic-snippet-text-in-snippets-cson/6920?source_topic_id=23326&#34;&gt;Dynamic snippet text in snippets.cson&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/25669615/atom-editor-snippet-for-inserting-a-timestamp&#34;&gt;http://stackoverflow.com/questions/25669615/atom-editor-snippet-for-inserting-a-timestamp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/atom/snippets/issues/41&#34;&gt;https://github.com/atom/snippets/issues/41&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;ide插件&#34;&gt;IDE插件&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;vim-mode&lt;/li&gt;
-&lt;li&gt;linter&lt;/li&gt;
-&lt;li&gt;linter-eslint&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;语言插件&#34;&gt;语言插件&lt;/h1&gt;
-
-&lt;h2 id=&#34;nodejs-es6-开发环境&#34;&gt;nodejs - ES6 开发环境&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;es6-javascript&lt;/li&gt;
-&lt;li&gt;atom-ternjs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;ng2开发环境&#34;&gt;ng2开发环境&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;atom-typescript&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;go语言环境&#34;&gt;Go语言环境&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;go-plus&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;go get -u github.com/nsf/gocode
-go get -u github.com/bradfitz/goimports
-
-go get -u github.com/golang/lint/golint
-
-govet
-godef
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;奇妙旅途&#34;&gt;奇妙旅途&lt;/h1&gt;
-
-&lt;p&gt;activate-power-mode&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd .atom/packages
-git clone https://github.com/JoelBesada/activate-power-mode.git cd activate-power-mode
-npm install
-apm install
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>VR时代来临了，带上兵器吧</title>
-      <link>https://cio.anasit.com/cookbook/vrar/VRdev/</link>
-      <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/vrar/VRdev/</guid>
-      <description>
-
-&lt;h1 id=&#34;vr时代来临了-带上兵器吧&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/1492977dbb40704485516d6f5baeef20_r.jpg&#34; alt=&#34;vr&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;1-vr入门行业方向选择&#34;&gt;1.VR入门行业方向选择&lt;/h1&gt;
-
-&lt;p&gt;1.行业付费应用，360全景预览&lt;/p&gt;
-
-&lt;p&gt;2.建筑及3D美工设计领域&lt;/p&gt;
-
-&lt;h1 id=&#34;2-客户端引擎选择&#34;&gt;2.客户端引擎选择&lt;/h1&gt;
-
-&lt;h2 id=&#34;1-手机vr-是违背沉浸式体验的&#34;&gt;1.手机VR，是违背沉浸式体验的&lt;/h2&gt;
-
-&lt;p&gt;前提：移动设备性能超过台式机性能之前&lt;/p&gt;
-
-&lt;p&gt;使用VR的反例：&lt;/p&gt;
-
-&lt;p&gt;1.你想在拥挤车厢里,或者嘈杂的马路上, 或者忙碌的办公室里, 用手机体验VR&lt;/p&gt;
-
-&lt;p&gt;2.回到家,你会将家庭影院级别的设备搁置在一边,然后把手机套在头上,来体验VR.&lt;/p&gt;
-
-&lt;p&gt;VR不是个简单的潮流, 他确确实实是我们未来社会极其重要的,甚至是不可或缺的必要技术, 这样看, 正因为如此, 他不会是个&amp;rdquo;短平快&amp;rdquo;的选择, 否则你可能就离大马路越来越远了.&lt;/p&gt;
-
-&lt;p&gt;Unity是最不看好的，因为十分不看好用手机实现的vr市场。&lt;/p&gt;
-
-&lt;p&gt;结论：&lt;/p&gt;
-
-&lt;p&gt;谨慎选择Unity，如果做手机VR，首选Unity&lt;/p&gt;
-
-&lt;h2 id=&#34;2-unity-内置oculus的vr支持&#34;&gt;2.Unity 内置Oculus的VR支持&lt;/h2&gt;
-
-&lt;p&gt;优点：
-- 开发效率高
-- 内置Oculus支持
-- 国内早期VR主流
-- 跨平台特性&lt;/p&gt;
-
-&lt;p&gt;缺点：
-- 画质达不到极致
-- 面向手机市场&lt;/p&gt;
-
-&lt;p&gt;授权价格：&lt;/p&gt;
-
-&lt;h2 id=&#34;3-ue4&#34;&gt;3.UE4&lt;/h2&gt;
-
-&lt;p&gt;优点：
-- 画质极致
-- 全套源码级别授权&lt;/p&gt;
-
-&lt;p&gt;缺点：
-- 学习周期长
-- 成本偏高/团队难招&lt;/p&gt;
-
-&lt;p&gt;授权价格：
-Unreal Engine 4的价格结构是$19/每月，以及一个5%的版税，如果你的游戏开始赚钱了。这样的价格结构是那些有抱负有追求的游戏开发者的福音！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>极致效率的键位变更</title>
-      <link>https://cio.anasit.com/cookbook/tool/keyboard/</link>
-      <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/tool/keyboard/</guid>
-      <description>
-
-&lt;p&gt;极致效率的键位变更&lt;/p&gt;
-
-&lt;h1 id=&#34;coding常用键位变更&#34;&gt;Coding常用键位变更&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ctrl =&amp;gt; Caps Lock&lt;/li&gt;
-&lt;li&gt;Caps Lock =&amp;gt; Ctrl&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;linux下键位变更&#34;&gt;Linux下键位变更&lt;/h1&gt;
-
-&lt;h1 id=&#34;windows键盘全局替换&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
-
-&lt;p&gt;可以利用第三方工具，或者直接在注册表中修改键位映射关系&lt;/p&gt;
-
-&lt;p&gt;注册表位置：[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] 如果没有此键，就新建一个&lt;/p&gt;
-
-&lt;p&gt;新建一个二进制值的Key，名叫：Scancode Map&lt;/p&gt;
-
-&lt;p&gt;输入如下的值：&lt;/p&gt;
-
-&lt;p&gt;00,00,00,00&lt;/p&gt;
-
-&lt;p&gt;00,00,00,00&lt;/p&gt;
-
-&lt;p&gt;03,00,00,00&lt;/p&gt;
-
-&lt;p&gt;3A,00,1D,00&lt;/p&gt;
-
-&lt;p&gt;1D,00,3A,00&lt;/p&gt;
-
-&lt;p&gt;00,00,00,00&lt;/p&gt;
-
-&lt;p&gt;前两行和最后一行，都是固定的，全部为0。第三行，表示你修改了几个键，其实我们只是改了两个键，不过最后那一行也要算进去，所以是3。&lt;/p&gt;
-
-&lt;p&gt;重点是在第四行和第五行。3A00，代表Caps Lock， 1D00，代表Ctrl。这一行，意思即为，将Caps Lock映射为Ctrl&lt;/p&gt;
-
-&lt;p&gt;第五行，就不用说了，意思刚好相反。&lt;/p&gt;
-
-&lt;p&gt;修改完毕后，重新登录Windows即可生效！&lt;/p&gt;
-
-&lt;p&gt;下面附上各个键位值的参考：&lt;/p&gt;
-
-&lt;p&gt;Escape 01 00&lt;/p&gt;
-
-&lt;p&gt;Tab 0F 00&lt;/p&gt;
-
-&lt;p&gt;Caps Lock 3A 00&lt;/p&gt;
-
-&lt;p&gt;Left Alt 38 00&lt;/p&gt;
-
-&lt;p&gt;Left Ctrl 1D 00&lt;/p&gt;
-
-&lt;p&gt;Left Shift 2A 00&lt;/p&gt;
-
-&lt;p&gt;Left Windows 5B E0&lt;/p&gt;
-
-&lt;p&gt;Right Alt 38 E0&lt;/p&gt;
-
-&lt;p&gt;Right Ctr l1D E0&lt;/p&gt;
-
-&lt;p&gt;Right Shift 36 00&lt;/p&gt;
-
-&lt;p&gt;Right Windows 5C E0&lt;/p&gt;
-
-&lt;p&gt;Backspace 0E 00&lt;/p&gt;
-
-&lt;p&gt;Delete 53 E0&lt;/p&gt;
-
-&lt;p&gt;Enter 1C 00&lt;/p&gt;
-
-&lt;p&gt;Space 39 00&lt;/p&gt;
-
-&lt;p&gt;Insert 52 E0&lt;/p&gt;
-
-&lt;p&gt;HOME 47 E0&lt;/p&gt;
-
-&lt;p&gt;End 4F E0&lt;/p&gt;
-
-&lt;p&gt;Num Lock 45 00&lt;/p&gt;
-
-&lt;p&gt;Page Down 51 E0&lt;/p&gt;
-
-&lt;p&gt;Page Up 49 E0&lt;/p&gt;
-
-&lt;p&gt;Scroll Lock 46 00&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>常见开源消息系统/中间件技术评选</title>
-      <link>https://cio.anasit.com/cookbook/backend/messagesystem/</link>
-      <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/backend/messagesystem/</guid>
-      <description>
-
-&lt;h1 id=&#34;常见开源消息系统-中间件技术评选&#34;&gt;《常见开源消息系统/中间件技术评选》&lt;/h1&gt;
-
-&lt;h2 id=&#34;golang项目中mq系统的选择&#34;&gt;Golang项目中MQ系统的选择&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://stackshare.io/stackups/rabbitmq-vs-nsq&#34;&gt;http://stackshare.io/stackups/rabbitmq-vs-nsq&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;rabbitmq-golang-client&#34;&gt;RabbitMQ golang client&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/streadway/amqp&#34;&gt;https://github.com/streadway/amqp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go&#34;&gt;https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准&lt;/p&gt;
-
-&lt;h3 id=&#34;gonsq&#34;&gt;gonsq&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/nsqio/nsq&#34;&gt;https://github.com/nsqio/nsq&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nsq.io/&#34;&gt;http://nsq.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;适用场景：弱事务，日志系统&lt;/p&gt;
-
-&lt;h3 id=&#34;kafka-flume&#34;&gt;kafka+flume&lt;/h3&gt;
-
-&lt;p&gt;适用场景：日志、大数据&lt;/p&gt;
-
-&lt;h2 id=&#34;消息系统的作用&#34;&gt;消息系统的作用&lt;/h2&gt;
-
-&lt;p&gt;异步处理、削减峰值、减少组件之间的耦合。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;是否持久化&lt;/li&gt;
-&lt;li&gt;吞吐能力&lt;/li&gt;
-&lt;li&gt;高可用&lt;/li&gt;
-&lt;li&gt;分布式扩展能力&lt;/li&gt;
-&lt;li&gt;兼容现有协议&lt;/li&gt;
-&lt;li&gt;易于维护&lt;/li&gt;
-&lt;li&gt;其他，如消息丢失和重复的处理&lt;/li&gt;
-&lt;li&gt;避免单点故障&lt;/li&gt;
-&lt;li&gt;负载均衡&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;常见消息系统协议&#34;&gt;常见消息系统协议&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;STOMP&lt;/li&gt;
-&lt;li&gt;AMQP&lt;/li&gt;
-&lt;li&gt;MEMCACHE协议&lt;/li&gt;
-&lt;li&gt;HTTP&lt;/li&gt;
-&lt;li&gt;自定格式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;较好的开源系统列表&#34;&gt;较好的开源系统列表&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RabbitMQ&lt;/li&gt;
-&lt;li&gt;NSQ&lt;/li&gt;
-&lt;li&gt;Redis&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;nsq-和-rabiitmq的对比&#34;&gt;NSQ 和 RabiitMQ的对比&lt;/h1&gt;
-
-&lt;h2 id=&#34;nsq&#34;&gt;NSQ&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nsq.io/overview/quick_start.html&#34;&gt;http://nsq.io/overview/quick_start.html&lt;/a&gt;
-&lt;img src=&#34;http://media.tumblr.com/edb403d38fc2bcc727b8655ea70eb3a7/tumblr_inline_mf8sfr2sp41qj3yp2.png&#34; alt=&#34;nsq&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;无中心设计、节点自动注册和发现。可以考虑作为内部通讯框架的基础。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/bitly/nsq&#34;&gt;https://github.com/bitly/nsq&lt;/a&gt;
-* 追求简单部署
-* 追求高可用、避免单点故障、无中心设计
-* 确保消息送达
-* 生产者消费者自动发现、消费者连接所有生产者、向消费者推的模式
-* 提供 HTTP 接口&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/snakes/nsq-nyc-golang-meetup&#34;&gt;https://speakerdeck.com/snakes/nsq-nyc-golang-meetup&lt;/a&gt;
-&lt;a href=&#34;https://github.com/davegardnerisme/nsqphp&#34;&gt;https://github.com/davegardnerisme/nsqphp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.davegardner.me.uk/blog/tag/nsq/&#34;&gt;http://www.davegardner.me.uk/blog/tag/nsq/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;NSQ组合比较自由。&lt;/p&gt;
-
-&lt;p&gt;可以单独使用nsqd，Producer和Consumer自己直接连接nsqd。&lt;/p&gt;
-
-&lt;p&gt;也可以利用nsqlookupd来管理nsqd（根据心跳，挑选出可用的nsqd），Producer和Consumer跟nsqlookupd来交互。&lt;/p&gt;
-
-&lt;p&gt;======================================&lt;/p&gt;
-
-&lt;p&gt;RabbitMQ里面的Exchange类似nsqd，queen类似channel。&lt;/p&gt;
-
-&lt;h2 id=&#34;rabbitmq&#34;&gt;RabbitMQ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://img.blog.csdn.net/20140220173559828&#34; alt=&#34;RabbitMQ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2500 job/s 入队列 1300 job/s 出队列
-适合小消息
-分布式无单点设计
-底层为 Erlang 实现
-有评论: RabbitMQ could not enqueue/dequeue fast enough.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html&#34;&gt;https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;对于一个数据从Producer到Consumer的正确传递，还有三个概念需要明确：exchanges, queues and bindings。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    **Exchanges** are where producers publish their messages.
-
-    **Queuesare** where the messages end up and are received by consumers
-
-    **Bindings** are how the messages get routed from the exchange to particular queues.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;还有几个概念是上述图中没有标明的，那就是Connection（连接），Channel（通道，频道）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Connection&lt;/strong&gt;： 就是一个TCP的连接。Producer和Consumer都是通过TCP连接到RabbitMQ Server的。以后我们可以看到，程序的起始处就是建立这个TCP连接。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Channels&lt;/strong&gt;： 虚拟连接。它建立在上述的TCP连接中。数据流动都是在Channel中进行的。也就是说，一般情况是程序起始建立TCP连接，第二步就是建立这个Channel。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Docker入门实践</title>
-      <link>https://cio.anasit.com/cookbook/devops/dockerstart/</link>
-      <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/devops/dockerstart/</guid>
-      <description>
-
-&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;# Windows
-cinst docker -y
-# Linux
-pacman -Sy docker
-apt-get install docker -y
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;initicial&#34;&gt;Initicial&lt;/h1&gt;
-
-&lt;p&gt;docker pull debian&lt;/p&gt;
-
-&lt;h2 id=&#34;faq-an-error-occurred-trying-to-connect-post&#34;&gt;FAQ: An error occurred trying to connect: Post &amp;hellip;..&lt;/h2&gt;
-
-&lt;p&gt;问题描述：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker pull debian
-Using default tag: latest
-An error occurred trying to connect: Post http://localhost:2375/v1.21/images/create?fromImage=debian%3Alatest: dial tcp 127.0.0.1:2375: ConnectEx tcp: No connection could be made because the target machine actively refused it.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;问题原因：系统无虚拟机服务启动
-解决方案：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 停止并删除boot2docker虚拟机
-boot2docker stop
-boot2docker destroy
-# 重新创建boot2docker虚拟机并启动
-boot2docker init
-boot2docker up
-docker version
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>萤石云开发实践</title>
-      <link>https://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
-      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
-      <description>
-
-&lt;h1 id=&#34;萤石云开发实践&#34;&gt;《萤石云开发实践》&lt;/h1&gt;
-
-&lt;h1 id=&#34;常用资料&#34;&gt;常用资料&lt;/h1&gt;
-
-&lt;p&gt;SDK下载：&lt;a href=&#34;https://open.ys7.com/sdk.html&#34;&gt;https://open.ys7.com/sdk.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;常见问题&#34;&gt;常见问题&lt;/h1&gt;
-
-&lt;h2 id=&#34;faq1-是否可以在web-手机页面播放萤石云视频&#34;&gt;FAQ1:是否可以在web/手机页面播放萤石云视频？&lt;/h2&gt;
-
-&lt;p&gt;(1)、针对用户分享到视频广场的视频，调用萤石接口说明文档3.16接口：&lt;/p&gt;
-
-&lt;p&gt;①获取到iframeUrl，可以在html &lt;iframe&gt; 标签里，进行播放。&lt;/p&gt;
-
-&lt;p&gt;②获取到m3u8地址，可以在h5页面 &lt;video&gt; 标签里，进行播放。&lt;/p&gt;
-
-&lt;p&gt;(2)、针对用户下面的设备视频，如果要在web页面进行播放，需要下载pcsdk，封装成控件，进行播放。&lt;/p&gt;
-</description>
+      <guid>https://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <description></description>
     </item>
     
   </channel>

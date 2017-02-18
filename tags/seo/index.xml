@@ -26,7 +26,7 @@
 &lt;h1 id=&#34;blackstar-cms-ng2&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
 
 &lt;p&gt;技术选型
-- angular2-seed
+- angular-seed
 - typescript
 - HTML via HTTP
 - HTML via the Blackstar CMS JavaScript Client

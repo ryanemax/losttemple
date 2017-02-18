@@ -10,6 +10,54 @@
     <atom:link href="https://cio.anasit.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>parse服务学习指引</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统环境
+
+&lt;ul&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;服务端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
       <link>https://cio.anasit.com/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
@@ -186,54 +234,6 @@
 &lt;li&gt;nfs&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>parse服务学习指引</title>
-      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
-      <description>
-
-&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;系统环境
-
-&lt;ul&gt;
-&lt;li&gt;npm&lt;/li&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;服务端
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;mongodb&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;管理端
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
 </description>
     </item>
     

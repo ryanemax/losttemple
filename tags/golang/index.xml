@@ -429,11 +429,308 @@ func ParseTime(gpstime []byte) time.Time {
     </item>
     
     <item>
+      <title>vim-go最佳实践</title>
+      <link>https://cio.anasit.com/cookbook/tool/vim-go/</link>
+      <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vim-go/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-使用方法&#34;&gt;0.使用方法&lt;/h1&gt;
+
+&lt;p&gt;gd  进入函数原始定义文件查看
+Ctrl + N
+Ctrl + P&lt;/p&gt;
+
+&lt;h1 id=&#34;1-常见faq&#34;&gt;1.常见FAQ&lt;/h1&gt;
+
+&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
+
+&lt;p&gt;1.环境变量没有设置完整
+设置正确环境变量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export GOROOT=/usr/lib/go
+export GOPATH=/root/workspace/goProjects
+export GOBIN=$GOPATH/bin
+export GOTOOLS=$GOROOT/pkg/tool
+export PATH=$PATH:$GOBIN:$GOTOOLS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.工具没有装全
+vim中运行如下命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#1.自动安装
+:GoInstallBinaries
+#2.手动安装(墙外)
+export http_proxy=http://10.0.2.2:8118
+export https_proxy=http://10.0.2.2:8118
+
+go get -u golang.org/x/tools/cmd/goimports &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/cmd/oracle &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/cmd/gorename &amp;amp;&amp;amp; \
+go get -u github.com/golang/lint/golint &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/gcimporter &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/types &amp;amp;&amp;amp; \
+go get -u github.com/kisielk/errcheck &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/loader
+
+https://github.com/bradfitz/goimports
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;2-基础环境配置&#34;&gt;2.基础环境配置&lt;/h1&gt;
+
+&lt;h2 id=&#34;vim-编辑器&#34;&gt;vim //编辑器&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Vim&#34;&gt;https://wiki.archlinux.org/index.php/Vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;vundle-vim包管理器&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gmarik/Vundle.vim&#34;&gt;https://github.com/gmarik/Vundle.vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;gocode-语法&#34;&gt;gocode //语法&lt;/h2&gt;
+
+&lt;p&gt;Add the following line to your .vimrc:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;quot; ================================
+ &amp;quot; set diy configuration by Ryane
+ &amp;quot; ================================
+ &amp;quot; set golang
+ Plugin &#39;nsf/gocode&#39;, {&#39;rtp&#39;: &#39;vim/&#39;}
+ :syntax on
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;安装后执行:PluginInstall进行下载安装&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>跨域跨域跨域golang与angularjs的默契</title>
+      <link>https://cio.anasit.com/cookbook/api/goangularfaq/</link>
+      <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/goangularfaq/</guid>
+      <description>
+
+&lt;h1 id=&#34;go-json-rest-golang&#34;&gt;go-json-rest (golang)&lt;/h1&gt;
+
+&lt;h2 id=&#34;启动cors中间件-指定origin跨域-origin这里填写对应域名即可&#34;&gt;启动CORS中间件，指定origin跨域，origin这里填写对应域名即可&lt;/h2&gt;
+
+&lt;h2 id=&#34;直接跨所有域名-return-origin-req-header-get-origin-即可&#34;&gt;直接跨所有域名，return origin == req.Header.Get(&amp;ldquo;Origin&amp;rdquo;)，即可&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;func main() {
+    //.......
+        api := rest.NewApi()
+        api.Use(rest.DefaultDevStack...)
+        //配置API跨域CORS
+        api.Use(&amp;amp;rest.CorsMiddleware{
+                RejectNonCorsRequests: false,
+                OriginValidator: func(origin string, request *rest.Request) bool {
+                        return origin == &amp;quot;http://localhost:8100&amp;quot;
+                },
+                AllowedMethods: []string{&amp;quot;GET&amp;quot;, &amp;quot;POST&amp;quot;, &amp;quot;PUT&amp;quot;},
+                AllowedHeaders: []string{
+                        &amp;quot;Accept&amp;quot;, &amp;quot;Content-Type&amp;quot;, &amp;quot;X-Custom-Header&amp;quot;, &amp;quot;Origin&amp;quot;},
+                AccessControlAllowCredentials: true,
+                AccessControlMaxAge:           3600,
+        })
+    //......
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;angularjs&#34;&gt;angularjs&lt;/h1&gt;
+
+&lt;h2 id=&#34;加withcredentials-ture-加内容类型application-json&#34;&gt;加withCredentials: ture，加内容类型application/json&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;    // Login
+    req = {
+        withCredentials: true,
+        method: &#39;POST&#39;,
+        url: &#39;http://127.0.0.1:8080/countries&#39;,
+        headers: {
+        &#39;Content-Type&#39;: &#39;application/json&#39;
+        //&#39;Content-Type&#39;: &#39;text/plain&#39;
+        },
+        data: { &amp;quot;username&amp;quot;: &amp;quot;test&amp;quot;, &amp;quot;password&amp;quot;: &amp;quot;123456&amp;quot; },
+    }
+    $http(req).
+        success(function(data, status, headers, config) {
+        console.log(&amp;quot;OK&amp;quot;);
+
+        }).
+        error(function(data, status, headers, config) {
+        console.log(&amp;quot;Shit&amp;quot;);
+
+        });
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>golang的restful框架选择</title>
+      <link>https://cio.anasit.com/cookbook/api/golangforrest/</link>
+      <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/golangforrest/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-必备功能&#34;&gt;0.必备功能&lt;/h1&gt;
+
+&lt;p&gt;坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RAML支持&lt;/li&gt;
+&lt;li&gt;CORS支持&lt;/li&gt;
+&lt;li&gt;JSON支持&lt;/li&gt;
+&lt;li&gt;良好的Router机制&lt;/li&gt;
+&lt;li&gt;简单的Controller、Service分离&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ORM支持（最好带migrate）&lt;/p&gt;
+
+&lt;h1 id=&#34;0-1-中间件大搜集&#34;&gt;0.1 中间件大搜集&lt;/h1&gt;
+
+&lt;h2 id=&#34;restgate&#34;&gt;RestGate&lt;/h2&gt;
+
+&lt;p&gt;支持框架：Negroni,Martini,Gin
+为REST API提供endpoints的安全验证机制&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;1-0-gin&#34;&gt;1.0 gin&lt;/h1&gt;
+
+&lt;p&gt;w 279 s 4087 f 395
+&lt;a href=&#34;https://gin-gonic.github.io/gin&#34;&gt;https://gin-gonic.github.io/gin&lt;/a&gt;
+&lt;a href=&#34;https://github.com/gin-gonic/gin&#34;&gt;https://github.com/gin-gonic/gin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REST最佳实践&lt;/strong&gt;
+&lt;a href=&#34;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&#34;&gt;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;api编写简洁&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;x20-x45 fastest than Martini&lt;/p&gt;
+
+&lt;h1 id=&#34;1-1-go-json-rest&#34;&gt;1.1 go-json-rest&lt;/h1&gt;
+
+&lt;p&gt;w 98 s 1816 fork 176&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ant0ine/go-json-rest&#34;&gt;https://github.com/ant0ine/go-json-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;Fast &amp;amp; scalable URL routing&lt;/li&gt;
+&lt;li&gt;Test package to help writing tests&lt;/li&gt;
+&lt;li&gt;routing engine 支持正则&lt;/li&gt;
+&lt;li&gt;检测统计by Memcached&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GORM 支持 migrate&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Middlewares like&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gzip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Auth&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Status&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AccessLogApache&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AccessLogJson&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AuthBasic&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ContentTypeChecker&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JsonIndent&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Jsonp&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PoweredBy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Recorder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Timer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Statsd&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JWT&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AuthToken&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SecureRedirect&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;go get github.com/ant0ine/go-json-rest/rest&lt;/p&gt;
+
+&lt;h1 id=&#34;1-2-echo&#34;&gt;1.2 Echo&lt;/h1&gt;
+
+&lt;p&gt;w 140 s 2326 f 143
+&lt;a href=&#34;https://github.com/labstack/echo&#34;&gt;https://github.com/labstack/echo&lt;/a&gt;
+faster than gin,martini,Negroni&lt;/p&gt;
+
+&lt;h1 id=&#34;1-3-go-relax&#34;&gt;1.3 go-relax&lt;/h1&gt;
+
+&lt;p&gt;w 8 s 105 f 2&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/codehack/go-relax&#34;&gt;https://github.com/codehack/go-relax&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;遵循ROA原则&lt;/li&gt;
+&lt;li&gt;HATEOAS支持&lt;/li&gt;
+&lt;li&gt;default json, also XML&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;routing engine 支持正则&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;支持的中间件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GZip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Method override&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Security&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Limits&lt;/p&gt;
+
+&lt;h1 id=&#34;1-4-go-rest&#34;&gt;1.4 go-rest&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ungerik/go-rest&#34;&gt;https://github.com/ungerik/go-rest&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;评分 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Small only three functions: HandleGET, HandlePOST, RunServer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Evil anti-pattern&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;zz-自主开发&#34;&gt;ZZ.自主开发&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.nicolasmerouze.com/build-web-framework-golang/&#34;&gt;https://www.nicolasmerouze.com/build-web-framework-golang/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>基于Git的分布式自由博客&#43;搭建</title>
-      <link>https://cio.anasit.com/cookbook/tool/blogforgit/</link>
+      <link>https://cio.anasit.com/cookbook/pkm/blogforgit/</link>
       <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/tool/blogforgit/</guid>
+      <guid>https://cio.anasit.com/cookbook/pkm/blogforgit/</guid>
       <description>
 
 &lt;h1 id=&#34;0-准备工作&#34;&gt;0.准备工作&lt;/h1&gt;

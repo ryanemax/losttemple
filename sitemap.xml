@@ -37,6 +37,21 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/cookbook/backend/parse-learn/</loc>
+    <lastmod>2016-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cio.anasit.com/cookbook/backend/bluemix/</loc>
+    <lastmod>2016-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</loc>
+    <lastmod>2016-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</loc>
     <lastmod>2016-07-21T12:00:00+08:00</lastmod>
   </url>
@@ -172,7 +187,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/game/mobilegame/</loc>
+    <loc>https://cio.anasit.com/game/dev/mobilegame/</loc>
     <lastmod>2016-05-04T00:05:51+08:00</lastmod>
   </url>
   
@@ -187,12 +202,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/game/dev/mobilegame/</loc>
-    <lastmod>2016-05-01T00:05:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/cookbook/tutorial/%E5%AF%BC%E8%AE%BA%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</loc>
+    <loc>https://cio.anasit.com/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</loc>
     <lastmod>2016-04-22T00:00:00+08:00</lastmod>
   </url>
   
@@ -232,7 +242,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/cookbook/fuckGFW/</loc>
+    <loc>https://cio.anasit.com/cookbook/tool/fuckGFW/</loc>
     <lastmod>2016-03-27T15:05:51+08:00</lastmod>
   </url>
   
@@ -327,6 +337,11 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/study/finance/README/</loc>
+    <lastmod>2015-12-04T15:05:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/cookbook/backend/messagesystem/</loc>
     <lastmod>2015-11-29T15:05:51+08:00</lastmod>
   </url>
@@ -397,8 +412,13 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/study/occult/learnichang/</loc>
+    <loc>https://cio.anasit.com/study/metaphysics/learnichang/</loc>
     <lastmod>2015-10-19T11:39:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cio.anasit.com/study/metaphysics/mindpower/</loc>
+    <lastmod>2015-10-18T11:39:42+08:00</lastmod>
   </url>
   
   <url>
@@ -472,6 +492,11 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/cookbook/agile/corpedit/</loc>
+    <lastmod>2015-09-03T01:29:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/cookbook/agile/imsystem/</loc>
     <lastmod>2015-09-02T17:31:17+08:00</lastmod>
   </url>
@@ -507,6 +532,11 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/faq/win10/</loc>
+    <lastmod>2015-08-17T13:43:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/faq/steam/</loc>
     <lastmod>2015-08-17T13:43:03+08:00</lastmod>
   </url>
@@ -517,7 +547,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/cookbook/dms/</loc>
+    <loc>https://cio.anasit.com/cookbook/agile/dms/</loc>
     <lastmod>2015-08-16T07:14:29+08:00</lastmod>
   </url>
   
@@ -537,7 +567,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/cookbook/tool/blogforgit/</loc>
+    <loc>https://cio.anasit.com/cookbook/pkm/blogforgit/</loc>
     <lastmod>2015-08-13T17:51:58+08:00</lastmod>
   </url>
   
@@ -572,41 +602,23 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/</loc>
-    <lastmod>2016-03-27T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/cookbook/agile/corpedit/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/faq/win10/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/game/play/nexusmanager/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/game/play/xkfyz/</loc>
+    <loc>https://cio.anasit.com/game/projectnova/jobclass/</loc>
+    <lastmod>2014-02-15T15:05:51+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cio.anasit.com/game/projectnova/history/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/game/projectnova/itemclass/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/game/projectnova/jobclass/</loc>
+    <lastmod>2014-02-15T15:05:51+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cio.anasit.com/game/projectnova/powerexp/</loc>
+    <lastmod>2014-02-15T15:05:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cio.anasit.com/game/projectnova/itemclass/</loc>
+    <lastmod>2014-02-15T15:05:51+08:00</lastmod>
   </url>
   
   <url>
@@ -615,38 +627,6 @@
   
   <url>
     <loc>https://cio.anasit.com/meeting/2016-10-25-2016-10-26IT-EXPO/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/biology/takein/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/finance/README/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/graduate/english/guide/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/graduate/politics/guide/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/graduate/psychology/general/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/graduate/psychology/guide/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/graduate/schedule/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/study/occult/mindpower/</loc>
   </url>
   
   <url>
@@ -668,7 +648,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/angular2/</loc>
+    <loc>https://cio.anasit.com/tags/angular/</loc>
     <lastmod>2016-08-25T12:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -692,12 +672,6 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/archlinux/</loc>
-    <lastmod>2015-11-04T07:02:15+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://cio.anasit.com/tags/atom/</loc>
     <lastmod>2016-03-25T15:05:51+08:00</lastmod>
     <priority>0</priority>
@@ -711,13 +685,13 @@
   
   <url>
     <loc>https://cio.anasit.com/tags/baas/</loc>
-    <lastmod>2016-05-30T13:43:03+08:00</lastmod>
+    <lastmod>2016-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/bashonwindows/</loc>
-    <lastmod>2016-08-27T15:05:51+08:00</lastmod>
+    <loc>https://cio.anasit.com/tags/backend/</loc>
+    <lastmod>2016-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -725,10 +699,6 @@
     <loc>https://cio.anasit.com/tags/bluemix/</loc>
     <lastmod>2016-07-21T12:00:00+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/cookbook/backend/bluemix/</loc>
   </url>
   
   <url>
@@ -768,55 +738,7 @@
   
   <url>
     <loc>https://cio.anasit.com/categories/cookbook/</loc>
-    <lastmod>2016-10-21T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/api/</loc>
-    <lastmod>2016-05-17T00:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/backend/</loc>
-    <lastmod>2016-07-02T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/cms/</loc>
-    <lastmod>2016-05-23T20:22:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/database/</loc>
-    <lastmod>2015-11-08T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/fontend/</loc>
     <lastmod>2016-12-22T00:12:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/frontend/</loc>
-    <lastmod>2016-03-30T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/network/</loc>
-    <lastmod>2015-10-21T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/cookbook/tutorial/</loc>
-    <lastmod>2016-04-22T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -845,8 +767,14 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/tags/database/</loc>
+    <lastmod>2015-11-08T15:05:51+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/tags/devops/</loc>
-    <lastmod>2015-11-27T15:05:51+08:00</lastmod>
+    <lastmod>2016-03-27T15:05:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -875,6 +803,12 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/tags/finance/</loc>
+    <lastmod>2016-03-15T15:05:51+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/tags/firebase/</loc>
     <lastmod>2016-05-17T00:00:00+08:00</lastmod>
     <priority>0</priority>
@@ -882,7 +816,7 @@
   
   <url>
     <loc>https://cio.anasit.com/tags/frontend/</loc>
-    <lastmod>2016-03-30T15:05:51+08:00</lastmod>
+    <lastmod>2016-12-22T00:12:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -893,20 +827,14 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/game/</loc>
-    <lastmod>2016-12-22T00:12:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/game/dev/</loc>
+    <loc>https://cio.anasit.com/categories/game/</loc>
     <lastmod>2016-05-04T00:05:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/categories/game/play/</loc>
-    <lastmod>2016-02-15T15:05:51+08:00</lastmod>
+    <loc>https://cio.anasit.com/tags/game/</loc>
+    <lastmod>2016-12-22T00:12:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -931,12 +859,6 @@
   <url>
     <loc>https://cio.anasit.com/tags/git/</loc>
     <lastmod>2015-08-13T17:51:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/tags/go/</loc>
-    <lastmod>2015-10-07T15:05:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1146,7 +1068,7 @@
   
   <url>
     <loc>https://cio.anasit.com/tags/paas/</loc>
-    <lastmod>2016-07-02T15:05:51+08:00</lastmod>
+    <lastmod>2016-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1187,8 +1109,20 @@
   </url>
   
   <url>
+    <loc>https://cio.anasit.com/tags/project-nova/</loc>
+    <lastmod>2014-02-15T15:05:51+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cio.anasit.com/tags/psychology/</loc>
     <lastmod>2015-03-04T11:39:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cio.anasit.com/tags/raml/</loc>
+    <lastmod>2015-11-08T15:05:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1241,30 +1175,6 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/categories/study/finance/</loc>
-    <lastmod>2016-03-15T15:05:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/study/it/</loc>
-    <lastmod>2015-10-18T09:46:37+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/study/ocult/</loc>
-    <lastmod>2015-10-19T11:39:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/categories/study/psychology/</loc>
-    <lastmod>2015-03-04T11:39:42+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://cio.anasit.com/tags/</loc>
     <priority>0</priority>
   </url>
@@ -1282,7 +1192,7 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/vr/</loc>
+    <loc>https://cio.anasit.com/tags/vrar/</loc>
     <lastmod>2016-10-21T15:05:51+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1295,16 +1205,8 @@
   
   <url>
     <loc>https://cio.anasit.com/tags/win10/</loc>
-    <lastmod>2015-10-27T15:05:51+08:00</lastmod>
+    <lastmod>2016-08-27T15:05:51+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/cookbook/backend/parse-learn/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</loc>
   </url>
   
 </urlset>

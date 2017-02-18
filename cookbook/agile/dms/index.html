@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <base href="https://cio.anasit.com//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>当团队线上办公需要dms文档管理系统 - Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="description" content="0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind">
+<meta name="author" content="ryanemax">
+<meta name="publisher" content="ryanemax">
+<meta name="generator" content="http://gohugo.io/"/>
+
+<meta itemprop="name" content="当团队线上办公需要dms文档管理系统 - Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta itemprop="description" content="0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind">
+<meta itemprop="image" content="https://cio.anasit.com//public/avatar.jpg">
+
+<meta property="og:title" content="当团队线上办公需要dms文档管理系统 - Ryn&#39;s Blog | Ryane Liu(刘雨飏)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cio.anasit.com/cookbook/agile/dms/" />
+<meta property="og:image" content="https://cio.anasit.com//public/avatar.jpg" />
+<meta property="og:description" content="0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ryanemax">
+<meta name="twitter:title" content="当团队线上办公需要dms文档管理系统 - Ryn&#39;s Blog | Ryane Liu(刘雨飏)">
+<meta name="twitter:description" content="0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind">
+<meta name="twitter:creator" content="@ryanemax">
+<meta name="twitter:image" content="https://cio.anasit.com//public/avatar.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="https://cio.anasit.com/cookbook/agile/dms/">
+  <link rel='shortlink' href="https://cio.anasit.com/cookbook/agile/dms/"/>
+  <link rel="shortcut icon" href="https://cio.anasit.com//favicon.ico"/>
+  
+<link rel="stylesheet" id="human-style-css" href="https://cio.anasit.com/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="https://cio.anasit.com/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="https://cio.anasit.com/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="https://cio.anasit.com/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="https://cio.anasit.com/public/highlight/styles/github.css">
+<script src="https://cio.anasit.com/public/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="https://cio.anasit.com/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
+
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
+
+</head>
+
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="https://cio.anasit.com//" class="nav-cs-icon">
+        <img width="40" height="40" src="https://cio.anasit.com/public/avatar.jpg" alt="ryanemax" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/">首页</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook/">技术文章</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/study/">学术思考</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/meeting/">论坛峰会</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/categories/faq/">FAQ</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/about/">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="https://cio.anasit.com/index.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        学无止境、苦海行舟
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.google.com/search">
+              <div>
+                <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="https://cio.anasit.com//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="ryanemax" src="https://cio.anasit.com/public/avatar.jpg"></img>
+              Ryn&#39;s Blog | Ryane Liu(刘雨飏)
+            </a>
+          </h1>
+          <p class="site-description"> 不懂编程的咨询师不是一名好管理。 </p>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  
+
+</header>
+
+
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                
+                <li class="category">
+                  <a href="https://cio.anasit.com/categories/cookbook/" rel="category tag">cookbook</a>
+                </li>
+                
+              </ul>
+
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title">当团队线上办公需要dms文档管理系统</h1>
+                  <p class="post-tags">
+                    <span>Tags:</span>
+                    
+                    <a rel="tag" href="https://cio.anasit.com/tags/agile">agile</a>
+                    
+                  </p>
+                  <p class="post-byline">
+                    by  · 2015年08月16日 · 400 Words ·
+                    ~1min reading time |
+                    <a href="https://github.com/ryanemax/ryanemax.github.io/tree/master/content/cookbook/agile/dms.md"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      
+                      
+
+<h1 id="0-ffice软件选择">0.ffice软件选择</h1>
+
+<h2 id="0-0-选择libreoffice">0.0 选择LibreOffice</h2>
+
+<ul>
+<li>支持开源，以及Web亲和力，选择LibreOffice系列</li>
+<li>跨平台，团队Linux、Windows、Mac均可用</li>
+</ul>
+
+<h1 id="1-dms系统选择">1.DMS系统选择</h1>
+
+<h2 id="1-0-选择alfresco">1.0 选择Alfresco</h2>
+
+<ul>
+<li>支持开源，并兼容LibreOffice系列文件</li>
+<li>企业级ECM、BPM系统</li>
+<li>Alfresco One #经典的企业级文档管理系统</li>
+<li>Alfresco Activiti #可扩展自动化流程系统</li>
+<li>Alfresco Mobile #iOS、Android移动端</li>
+</ul>
+
+<p>部署环境/技术特性：
+* Tomcat
+* Java (JRE only)
+* PostgreSQL
+* Solr1/Solr4
+* SharePoint
+* Web Quick Start
+* Google Docs Integration
+* LibreOffice</p>
+
+<h2 id="1-1-安装版本选择">1.1 安装版本选择</h2>
+
+<h3 id="alfresco-one-vs-community-区别">Alfresco One vs Community 区别</h3>
+
+<p><a href="http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014">http://www.slideshare.net/toniblyx/alfresco-one-enterprise-vs-alfresco-community-ko-2014</a></p>
+
+<p><strong>Technical differences</strong>
+* One 数据库支持Oracle,MS SQL,DB2,Mysql,Postgre
+* One 服务端支持Tomcat Jboss
+* 认证接口 SAP,Salesforce,AWS S3,Outlook, Brava Viewer
+* One 支持集群部署
+* Cloud Sync</p>
+
+<h3 id="alfresco-one-5-0-1">Alfresco One 5.0.1</h3>
+
+<p><a href="http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html">http://docs.alfresco.com/5.0/concepts/install-lolibfiles.html</a></p>
+
+<h3 id="alfresco-community-edition-5-0">Alfresco Community Edition 5.0</h3>
+
+<p><a href="https://github.com/Alfresco/community-edition">https://github.com/Alfresco/community-edition</a></p>
+
+<p>Resources:
+* Master subversion repository: <a href="http://svn.alfresco.com">http://svn.alfresco.com</a>
+* Issue tracker: <a href="http://issues.alfresco.com">http://issues.alfresco.com</a>
+* Official documentation: <a href="http://docs.alfresco.com">http://docs.alfresco.com</a>
+* Community wiki: <a href="http://wiki.alfresco.com">http://wiki.alfresco.com</a>
+* Add-ons directory: <a href="http://addons.alfresco.com">http://addons.alfresco.com</a>
+* Other developer resources: <a href="https://www.alfresco.com">https://www.alfresco.com</a></p>
+
+<h2 id="1-2-tomcat-下安装alfresco-community">1.2 Tomcat 下安装Alfresco Community</h2>
+
+<p><a href="http://docs.alfresco.com/community/tasks/alf-war-install.html">http://docs.alfresco.com/community/tasks/alf-war-install.html</a></p>
+
+<h3 id="1-2-1-下载alfresco-community-5-0-d-zip">1.2.1 下载alfresco-community-5.0.d.zip</h3>
+
+<pre><code class="language-bash">#https://wiki.alfresco.com/wiki/Community_file_list_5.0.d
+
+wget http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-community-5.0.d.zip
+</code></pre>
+
+<h3 id="1-2-2-配置tomcat-7">1.2.2 配置Tomcat 7</h3>
+
+<pre><code class="language-bash">#http://docs.alfresco.com/community/tasks/configfiles-change-path.html
+#Edit the &lt;TOMCAT_HOME&gt;/conf/server.xml file.
+#Locate the Connector sections, and then add the URIEncoding=&quot;UTF-8&quot; and maxHttpHeaderSize=&quot;32768&quot; properties.
+
+&lt;Connector port=&quot;8080&quot; protocol=&quot;HTTP/1.1&quot; URIEncoding=&quot;UTF-8&quot; connectionTimeout=&quot;20000&quot; redirectPort=&quot;8443&quot; maxHttpHeaderSize=&quot;32768&quot;/&gt;
+</code></pre>
+
+<h3 id="1-2-3-部署war">1.2.3.部署War</h3>
+
+<p><a href="http://docs.alfresco.com/community/tasks/alf-war-install.html">http://docs.alfresco.com/community/tasks/alf-war-install.html</a></p>
+
+                      
+                    </div>
+
+
+                                  
+                                  <div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+                                  
+                                  
+                                  
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="https://cio.anasit.com/public/qrcode.png" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div style="height:170px;">
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://cio.anasit.com/">ryanemax</a>
+                            <br />微信关注：ryanemax （刘雨飏）
+                            <br />本文出处：<a target="_blank" href="https://cio.anasit.com/cookbook/agile/dms/">https://cio.anasit.com/cookbook/agile/dms/</a>
+                            <br />
+                            授权协议：<a style="padding-top:5px;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">
+                              CC BY-SA 4.0
+          
+        </a> </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  
+
+                </div>
+                
+              </article>
+              
+              <div class="clear"></div>
+            </div>
+          </section>
+
+          <div class="sidebar s1">
+    <a class="sidebar-toggle" title="Expand Sidebar">
+        <i class="fa icon-sidebar-toggle"></i>
+    </a>
+    <div class="sidebar-content">
+        <div class="sidebar-top group">
+            <p>Follow:</p>
+            <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+        </div>
+        <div class="widget qrcode" style="text-align:center;">
+    <img src="https://cio.anasit.com/public/qrcode.png" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> ryanemax <br /></p>
+</div>
+
+        <ul class="post-nav group">
+            <li class="next">
+                
+                    <a href="https://cio.anasit.com/cookbook/api/newforraml/" rel="next">
+                        <i class="fa fa-chevron-right"></i>
+                        <strong>Next post</strong>
+                        <span>当敏捷团队碰撞RESTful，RAML心得体会</span>
+                    </a>
+                
+            </li>
+            <li class="previous">
+                
+                    <a href="https://cio.anasit.com/faq/yo,npm,grunt,bower/" rel="prev">
+                        <i class="fa fa-chevron-left"></i>
+                        <strong>Previous Post</strong>
+                        <span>yo,npm,grunt,bower</span>
+                    </a>
+                
+            </li>
+        </ul>
+        <div id="search-2" class="widget widget_search">
+            <h3>Search</h3>
+            <form method="get" class="searchform themeform" action="https://www.google.com/search">
+                <div>
+                    <input type="text" class="search" name="q" placeholder="Press enter to start searching">
+                </div>
+            </form>
+        </div>
+
+        <div class="widget widget_recent_entries sidebarLeft">
+            <h3>Related Posts</h3>
+            <ul>
+                
+                
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+            </ul>
+        </div>
+        
+    </div>
+    
+</div>
+
+          
+<div class="sidebar s2">
+    <a class="sidebar-toggle" title="Expand Sidebar">
+        <i class="fa icon-sidebar-toggle"></i>
+    </a>
+    <div class="sidebar-content">
+        <div class="sidebar-top group">
+            <p>More</p>
+        </div>
+        <div id="categories-2" class="widget widget_categories">
+            <h3>Categories</h3>
+            <ul>
+                
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/career">Career</a>
+                            <small>(2)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/cookbook">Cookbook</a>
+                            <small>(76)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/faq">Faq</a>
+                            <small>(16)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/game">Game</a>
+                            <small>(8)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/manifesto">Manifesto</a>
+                            <small>(1)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/meeting">Meeting</a>
+                            <small>(6)</small>
+                        </li>
+                    
+                        <li class="cat-item cat-item-1">
+                            <a rel="nofollow" href="https://cio.anasit.com/categories/study">Study</a>
+                            <small>(15)</small>
+                        </li>
+                    
+                
+            </ul>
+            <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                <h3>Tags</h3>
+                <div class="tagcloud">
+                    <p class="post-tags">
+                        
+                            
+                            
+                                <a rel="tag" href="tags/agile/" class="tag-link-5" title="5 Posts">agile</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/angular/" class="tag-link-14" title="14 Posts">angular</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/apcio/" class="tag-link-2" title="2 Posts">apcio</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/api/" class="tag-link-9" title="9 Posts">api</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/baas/" class="tag-link-4" title="4 Posts">baas</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/backend/" class="tag-link-11" title="11 Posts">backend</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/bluemix/" class="tag-link-2" title="2 Posts">bluemix</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/career/" class="tag-link-2" title="2 Posts">career</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/cms/" class="tag-link-5" title="5 Posts">cms</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/curency/" class="tag-link-2" title="2 Posts">curency</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/database/" class="tag-link-2" title="2 Posts">database</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/devops/" class="tag-link-7" title="7 Posts">devops</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/eve/" class="tag-link-2" title="2 Posts">eve</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/finance/" class="tag-link-3" title="3 Posts">finance</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/frontend/" class="tag-link-18" title="18 Posts">frontend</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/game/" class="tag-link-2" title="2 Posts">game</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/gfw/" class="tag-link-2" title="2 Posts">gfw</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/golang/" class="tag-link-7" title="7 Posts">golang</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/hikvision/" class="tag-link-2" title="2 Posts">hikvision</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/iaas/" class="tag-link-2" title="2 Posts">iaas</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ibm/" class="tag-link-2" title="2 Posts">ibm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic/" class="tag-link-2" title="2 Posts">ionic</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/ionic2/" class="tag-link-12" title="12 Posts">ionic2</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/it/" class="tag-link-2" title="2 Posts">it</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/linux/" class="tag-link-6" title="6 Posts">linux</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/markdown/" class="tag-link-4" title="4 Posts">markdown</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/metaphysics/" class="tag-link-2" title="2 Posts">metaphysics</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/nginx/" class="tag-link-2" title="2 Posts">nginx</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/odoo/" class="tag-link-6" title="6 Posts">odoo</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/openwrt/" class="tag-link-2" title="2 Posts">openwrt</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/paas/" class="tag-link-3" title="3 Posts">paas</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/pkm/" class="tag-link-4" title="4 Posts">pkm</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/project-nova/" class="tag-link-4" title="4 Posts">project-nova</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/psychology/" class="tag-link-2" title="2 Posts">psychology</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/raml/" class="tag-link-5" title="5 Posts">raml</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/restful/" class="tag-link-5" title="5 Posts">restful</a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vim/" class="tag-link-4" title="4 Posts">vim</a>
+                            
+                            
+                            
+                                <a rel="tag" href="tags/vrar/" class="tag-link-2" title="2 Posts">vrar</a>
+                            
+                            
+                            
+                            
+                            
+                                <a rel="tag" href="tags/win10/" class="tag-link-5" title="5 Posts">win10</a>
+                            
+                            
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2007-2017. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo</a>.
+              
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/ryanemax" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+		
+    
+    <li>
+    <a class="social-tooltip" title="On LinkedIn"
+        href="https://www.linkedin.com/in/ryanemax" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    
+		
+    <li>
+    <a class="social-tooltip" title="On Facebook"
+        href="https://www.facebook.com/ryanemax" target="_blank">
+        <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+		
+
+		
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/ryanemax" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+		
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
+</footer>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
+
+  $('#messagesbsb').remove();
+
+</script>
+
+<script>
+    window.tctipConfig = {
+        
+        imagePrefix: "",
+        
+        cssPrefix: "",
+        
+
+        staticPrefix: "/tctip",
+        
+
+        buttonImageId: Math.ceil(Math.random() * 8) + 1,
+        
+
+        buttonTip: "dashang", 
+        
+
+        list: {
+             
+            weixin: {
+                qrimg: "wechatpay.png"
+            },
+             
+            alipay: {
+                qrimg: "alipayqr.png"
+            },
+             
+            bitcoin: {
+                account: "31n1Jqz7pmoTLkpWMdVxXonnSuXQMVGde8"
+            },
+             
+            another: {
+                icon: "img/litecoin.png",
+                name: "莱特币",
+                className: "",
+                account: "LY8AkgmkQ4EvaXcB2fWXpyED1CT3Ji8THu",
+                desc: "莱特币"
+            }
+        }
+    };
+</script>
+<script src="https://cio.anasit.com/tctip/js/tctip.min.js"></script>
+
+</body>
+</html>
+
