@@ -384,6 +384,145 @@ zsh
     </item>
     
     <item>
+      <title>parse服务学习指引</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统环境
+
+&lt;ul&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;服务端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluemix中可替代BaaS的服务及介绍</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;对比parse-com&#34;&gt;对比Parse.com&lt;/h1&gt;
+
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
+&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;功能对比，功能完善度不如parse&lt;/li&gt;
+&lt;li&gt;价格对比，性价比不如parse&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;| -     | 功能 | 价格 |
+| :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :- |
+| 免费套餐  | 无 | 无 |
+| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
+| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
+| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在Bluemix上搭建parse-server服务</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/bluemix/2016/02/01/migrating-from-parse-to-bluemix/&#34;&gt;Migrating from Parse to Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
+cf push Your-App-Name-On-Bluemix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建Cloud Foundry应用
+
+&lt;ul&gt;
+&lt;li&gt;选择Web Application&lt;/li&gt;
+&lt;li&gt;但不选择任何移动服务（Mobile Client Access等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;选择SDK for Node.js
+
+&lt;ul&gt;
+&lt;li&gt;APP Name 起名 parse-on-bluemix&lt;/li&gt;
+&lt;li&gt;点击完成/FINISH&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创建MongoDB实例（或直接使用已有数据库）
+
+&lt;ul&gt;
+&lt;li&gt;在parse-on-bluemix中选择，ADD A SERVICE OR API&lt;/li&gt;
+&lt;li&gt;寻找分类 Data and Analytics&lt;/li&gt;
+&lt;li&gt;选择新建 MongoDB by Compose&lt;/li&gt;
+&lt;li&gt;按需配置&lt;/li&gt;
+&lt;li&gt;本文不详细介绍数据库配置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;配置parse-server环境变量
+
+&lt;ul&gt;
+&lt;li&gt;进入CloudFoundry选择已有应用&lt;/li&gt;
+&lt;li&gt;Environment  Varieties&lt;/li&gt;
+&lt;li&gt;选择USER-DEFINED，具体参数参照Parse使用文档&lt;/li&gt;
+&lt;li&gt;APP_ID xxxxxxx&lt;/li&gt;
+&lt;li&gt;MASTER_KEY xxxxxxx&lt;/li&gt;
+&lt;li&gt;PARSE_MOUNT /parse-server&lt;/li&gt;
+&lt;li&gt;REST_KEY xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
       <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
@@ -1501,786 +1640,6 @@ zsh
 &lt;li&gt;分析性能&lt;/li&gt;
 &lt;li&gt;优化策略&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>亚太CIO（上海）领袖峰会会议记录</title>
-      <link>https://cio.anasit.com/meeting/2016-6-17apcio/</link>
-      <pubDate>Fri, 17 Jun 2016 12:00:00 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/meeting/2016-6-17apcio/</guid>
-      <description>
-
-&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;会议主题
-
-&lt;ul&gt;
-&lt;li&gt;大数据时代&amp;ndash;数字化转型与创新高峰论坛&lt;/li&gt;
-&lt;li&gt;2016亚太CIO实践与分享&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;主办单位
-
-&lt;ul&gt;
-&lt;li&gt;上海市计算机用户协会&lt;/li&gt;
-&lt;li&gt;上海市通信学会&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;承办单位
-
-&lt;ul&gt;
-&lt;li&gt;浩韵国际会展&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;协办单位
-
-&lt;ul&gt;
-&lt;li&gt;首席数据官联盟&lt;/li&gt;
-&lt;li&gt;工业4.0俱乐部&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;技术支持
-
-&lt;ul&gt;
-&lt;li&gt;香港大学SPACE中国商学院&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;大型装备数字设计与智能制造&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;谭建荣&lt;/li&gt;
-&lt;li&gt;中国工程院院士&lt;/li&gt;
-&lt;li&gt;联系方式
-
-&lt;ul&gt;
-&lt;li&gt;tjr@card.zju.edu.cn&lt;/li&gt;
-&lt;li&gt;0571-xxxxxxx&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;四大技术-会聚引领21世纪&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;生命科学技术&lt;/li&gt;
-&lt;li&gt;纳米技术&lt;/li&gt;
-&lt;li&gt;信息技术&lt;/li&gt;
-&lt;li&gt;认知科学技术&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;四大技术估计过高，期望过大。&lt;/p&gt;
-
-&lt;p&gt;信息科技与大数据的发展超出人们的预期。&lt;/p&gt;
-
-&lt;h2 id=&#34;大型装备的重要性&#34;&gt;大型装备的重要性&lt;/h2&gt;
-
-&lt;p&gt;大型复杂装备的设计与制造水平是衡量国家科技实力和综合国力的一个重要标志。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;大型数控机床装备&lt;/li&gt;
-&lt;li&gt;大型空气分离装备&lt;/li&gt;
-&lt;li&gt;大型盾构挖掘装备&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;振兴制造业的三大战略计划&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;美国“先进制造业国家战略计划”&lt;/li&gt;
-&lt;li&gt;德国“工业4.0”三大主题&lt;/li&gt;
-&lt;li&gt;“中国制造2025”三大核心
-
-&lt;ul&gt;
-&lt;li&gt;数字化制造&lt;/li&gt;
-&lt;li&gt;网络化制造&lt;/li&gt;
-&lt;li&gt;智能化制造&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最终都导向智能制造&lt;/p&gt;
-
-&lt;h2 id=&#34;机电液系统的发展趋势与前沿&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
-
-&lt;p&gt;在新的工业革命到来之际，我们需要认真思考：机电液系统基础研究如何应对新的技术变革，需要解决那些基础科学问题？&lt;/p&gt;
-
-&lt;p&gt;机电液体系
-- 大数据场
-- 智能化生产
-- 移动网络
-  - 三维打印
-  - 智能机器人&lt;/p&gt;
-
-&lt;p&gt;机电液体系 =带来变化=&amp;gt;
-- 数字化
-- 智能化
-- 拟人化
-- 绿色化&lt;/p&gt;
-
-&lt;h2 id=&#34;智能-人工智能-制造的发展趋势&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;大数据场&lt;/li&gt;
-&lt;li&gt;人工智能&lt;/li&gt;
-&lt;li&gt;移动网络&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;什么是智能制造&#34;&gt;什么是智能制造？&lt;/h2&gt;
-
-&lt;h3 id=&#34;什么是数字制造&#34;&gt;什么是数字制造？&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;数字制造：数字技术与制造技术的融合&lt;/li&gt;
-&lt;li&gt;数字制造：用数字技术解决制造的问题&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;什么是智能制造-1&#34;&gt;什么是智能制造？&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;智能制造：智能技术与制造技术的融合&lt;/li&gt;
-&lt;li&gt;智能制造：用智能技术解决制造的问题&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;太多企业、专家、领导没有理解透彻什么是智能制造，导致新瓶酿旧酒，以数字制造重新打包形成智能制造。&lt;/p&gt;
-
-&lt;p&gt;智能制造关键案例
-- 美国波司登大狗
-  - 远程控制
-  - 负重爬坡
-  - 行进速度
-  - 平衡能力
-- AlphaGo&lt;/p&gt;
-
-&lt;p&gt;阿尔法围棋，是一款围棋人工智能程序，由Google旗下团队开发。&lt;/p&gt;
-
-&lt;p&gt;2015年3月对战世界围棋冠军、职业九段选手李世石，并以4：1的总比分获胜。
-  - 深度学习
-  - 两个大脑
-    - 落子选择器 Move Picker
-    - 棋局评估器 Position Evaluator&lt;/p&gt;
-
-&lt;h3 id=&#34;人工智能的3个阶段&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
-
-&lt;h3 id=&#34;智能制造的三大核心&#34;&gt;智能制造的三大核心&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;知识库/知识工程&lt;/li&gt;
-&lt;li&gt;动态传感&lt;/li&gt;
-&lt;li&gt;自主学习/自主决策&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;智能制造十大关键技术&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
-
-&lt;h1 id=&#34;国企信息化转型与创新&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;李小山&lt;/li&gt;
-&lt;li&gt;上海市国资委信息处处长&lt;/li&gt;
-&lt;li&gt;联系方式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;关于国有企业&#34;&gt;关于国有企业&lt;/h2&gt;
-
-&lt;h3 id=&#34;什么是国有企业&#34;&gt;什么是国有企业&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;属于全民所有&lt;/li&gt;
-&lt;li&gt;是推进国家现代化、保障人民共同利益的重要力量&lt;/li&gt;
-&lt;li&gt;是我们党和国家事业发展的重要物资基础和政治基础&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;上海国有企业概况&#34;&gt;上海国有企业概况&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;DGP半壁江山&lt;/li&gt;
-&lt;li&gt;大多处于关乎国计民生的重要行业&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;市属国资&#34;&gt;市属国资&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Y2016Q1，yividuxq&lt;/li&gt;
-&lt;li&gt;营收同比增长5.5%&lt;/li&gt;
-&lt;li&gt;全国占比新高（全国资产1/7 全国收入2/7 创造利润1/3）&lt;/li&gt;
-&lt;li&gt;统一监管，产融结合&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;政策&#34;&gt;政策&lt;/h2&gt;
-
-&lt;h3 id=&#34;国家层面国有企业改革顶层设计&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1+N&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;上海市国资国企改革&#34;&gt;上海市国资国企改革&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2013年底&lt;/li&gt;
-&lt;li&gt;1+N&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;组织&#34;&gt;组织&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;信息中心（情报中心）&lt;/li&gt;
-&lt;li&gt;计算机室（机房）&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;信息技术部&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;信息管理部（装备部）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;管理信息部（科技信息部）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;流程信息部&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;创新与流程管理部&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;创新中心&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;实践&#34;&gt;实践&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;“智慧”路灯&lt;/li&gt;
-&lt;li&gt;“智慧”交通&lt;/li&gt;
-&lt;li&gt;“智慧”供水&lt;/li&gt;
-&lt;li&gt;“智慧”教育&lt;/li&gt;
-&lt;li&gt;“智慧”燃气&lt;/li&gt;
-&lt;li&gt;“智慧”长途&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;未来-以及未来就绪的戴尔&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;吕良&lt;/li&gt;
-&lt;li&gt;戴尔（中国）有限公司&lt;/li&gt;
-&lt;li&gt;企业级解决方案高级经理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;圣彼得广场 2005&lt;/li&gt;
-&lt;li&gt;圣彼得广场 2013&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
-
-&lt;h2 id=&#34;世界改变的步伐正在加快&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;更多需求
-8秒 人的注意力持续时间比金鱼还少一秒&lt;/li&gt;
-&lt;li&gt;随时随地工作
-80-90% 的员工至少在业余时间进行远程工作&lt;/li&gt;
-&lt;li&gt;被数据包围
-90% 历史上的数据在过去两年中产生&lt;/li&gt;
-&lt;li&gt;无处不在的风险
-1，000，000&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;颠覆性技术&#34;&gt;颠覆性技术&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;移动互联&lt;/li&gt;
-&lt;li&gt;人工智能&lt;/li&gt;
-&lt;li&gt;物联网&lt;/li&gt;
-&lt;li&gt;云计算
-&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;今天现状&#34;&gt;今天现状&lt;/h2&gt;
-
-&lt;p&gt;在未来10年中，现有的财务500强公司将会消失&lt;/p&gt;
-
-&lt;p&gt;财富500强的平均生命
-- 1920诞生 需要67年发展
-- 2016诞生 需要15年发展&lt;/p&gt;
-
-&lt;h2 id=&#34;今天的机会&#34;&gt;今天的机会&lt;/h2&gt;
-
-&lt;p&gt;拥抱数字变革&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;108%营业额或者订单&lt;/li&gt;
-&lt;li&gt;56%从新产品和服务增加&lt;/li&gt;
-&lt;li&gt;56%客户满意度增长&lt;/li&gt;
-&lt;li&gt;83%员工活动量&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;新的商业模式带来的巨大颠覆&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
-
-&lt;h2 id=&#34;危机-危险和机会&#34;&gt;危机-危险和机会&lt;/h2&gt;
-
-&lt;h2 id=&#34;您处于传统it和新兴it的十字路口&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
-
-&lt;p&gt;未来
-- 公有云
-- 混合云
-- 私有云&lt;/p&gt;
-
-&lt;h2 id=&#34;使强大的技术更易获得&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;性能 上升&lt;/li&gt;
-&lt;li&gt;成本 下降&lt;/li&gt;
-&lt;li&gt;复杂度 下降&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;交付超长期的价值&lt;/p&gt;
-
-&lt;p&gt;使强大的技术更容易使用&lt;/p&gt;
-
-&lt;p&gt;推动效率提升&lt;/p&gt;
-
-&lt;h2 id=&#34;戴尔任意云&#34;&gt;戴尔任意云&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;云计算基础设施&lt;/li&gt;
-&lt;li&gt;私有云解决方案&lt;/li&gt;
-&lt;li&gt;未来就绪企业云联盟&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;技术即业务-数字化企业变革&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;张松&lt;/li&gt;
-&lt;li&gt;ThoughtWorks中国区总经理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;变革历程&#34;&gt;变革历程&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;业务自动化 1980
-
-&lt;ul&gt;
-&lt;li&gt;BUSINESS AUTOMATION&lt;/li&gt;
-&lt;li&gt;生产力&lt;/li&gt;
-&lt;li&gt;效率&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;行业互联网化 1995
-
-&lt;ul&gt;
-&lt;li&gt;WEB ENABLED BUSINESS&lt;/li&gt;
-&lt;li&gt;生产力&lt;/li&gt;
-&lt;li&gt;通过延伸实现增长&lt;/li&gt;
-&lt;li&gt;互联网为一种销售渠道&lt;/li&gt;
-&lt;li&gt;网络驱动的客户粘性&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;技术即业务本身 2010-2016
-
-&lt;ul&gt;
-&lt;li&gt;TECHNOLOGY IS BUSINESS&lt;/li&gt;
-&lt;li&gt;以创新为引擎的增长&lt;/li&gt;
-&lt;li&gt;业务模型&lt;/li&gt;
-&lt;li&gt;产品/服务创新&lt;/li&gt;
-&lt;li&gt;数字化作为客户粘性的首要渠道&lt;/li&gt;
-&lt;li&gt;来自数据的洞察&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;为什么是现在发生&#34;&gt;为什么是现在发生&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;技术进步&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;基础设施进步带来移动、云和信息技术繁荣发展。
-- 融合与重构&lt;/p&gt;
-
-&lt;p&gt;移动、云、数据、物联网、社交平台、新架构和语言正在连接起来，并开始带来更加剧烈的数字化革命。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;消费行为的改变&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;正在发生&lt;/li&gt;
-&lt;li&gt;娱乐&lt;/li&gt;
-&lt;li&gt;零售&lt;/li&gt;
-&lt;li&gt;媒体&lt;/li&gt;
-&lt;li&gt;旅行&lt;/li&gt;
-&lt;li&gt;潜在的发生&lt;/li&gt;
-&lt;li&gt;汽车&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;垄断遭遇新对手的挑战&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;法规政策的变化&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;如今ceo的优先任务&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;创新驱动增长&lt;/li&gt;
-&lt;li&gt;人口结构发生变化&lt;/li&gt;
-&lt;li&gt;技术被提上议程&lt;/li&gt;
-&lt;li&gt;未来技术投资&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;H1 精益企业架构生态型文化&lt;/li&gt;
-&lt;li&gt;H2 科技核心组织平台业务&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;H3 科技驱动的差异化服务&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;高适应力，持续创新的高绩效组织&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;探索新商业模式&lt;/li&gt;
-&lt;li&gt;拓展已验证商业模式&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;生态型文化&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;持续改善&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;动态投资组合管理&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;精益企业运营&lt;/li&gt;
-&lt;li&gt;精益企业IT架构&lt;/li&gt;
-&lt;li&gt;极致的目的和方向&lt;/li&gt;
-&lt;li&gt;去中心化组织结构&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;引领变革的企业&#34;&gt;引领变革的企业&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;认识技术的战略角色&lt;/li&gt;
-&lt;li&gt;将技术提上重要议程&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;企业级创新-三通道模式&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;模式创新&lt;/li&gt;
-&lt;li&gt;体验创新&lt;/li&gt;
-&lt;li&gt;流程创新&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
-
-&lt;p&gt;“极度安全，极度隐秘”&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;首批五家民营银行之一&lt;/li&gt;
-&lt;li&gt;银行保险箱从实物到虚拟的形态&lt;/li&gt;
-&lt;li&gt;第一款由银行推出的掌上保险箱产品&lt;/li&gt;
-&lt;li&gt;互联网手段获客和提升用户体验&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;场景分析&lt;/li&gt;
-&lt;li&gt;用户历程图&lt;/li&gt;
-&lt;li&gt;触点优化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
-
-&lt;p&gt;挑战
-- 商家上篇的库存要点
-- 及时、主动补货
-- 快捷，随时的订货流程&lt;/p&gt;
-
-&lt;h1 id=&#34;数据驱动创新&#34;&gt;数据驱动创新&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;任京旸&lt;/li&gt;
-&lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;不同视角下的数字世界&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;连接泛在化
-
-&lt;ul&gt;
-&lt;li&gt;互联网+&lt;/li&gt;
-&lt;li&gt;移动互联网&lt;/li&gt;
-&lt;li&gt;物联网&lt;/li&gt;
-&lt;li&gt;车联网&lt;/li&gt;
-&lt;li&gt;船联网&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;创新生态化
-
-&lt;ul&gt;
-&lt;li&gt;跨界融合创新&lt;/li&gt;
-&lt;li&gt;产业协同创新&lt;/li&gt;
-&lt;li&gt;技术集成创新&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;应用智能化&lt;/li&gt;
-&lt;li&gt;数据产业化
-
-&lt;ul&gt;
-&lt;li&gt;工业大数据&lt;/li&gt;
-&lt;li&gt;政府大数据&lt;/li&gt;
-&lt;li&gt;科学大数据&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;计算多元化
-
-&lt;ul&gt;
-&lt;li&gt;云计算&lt;/li&gt;
-&lt;li&gt;高性能计算&lt;/li&gt;
-&lt;li&gt;流计算&lt;/li&gt;
-&lt;li&gt;量子计算&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;曙光的发展历程&#34;&gt;曙光的发展历程&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1993 高性能计算 曙光一号诞生&lt;/li&gt;
-&lt;li&gt;1997 服务器 曙光品牌服务器问世&lt;/li&gt;
-&lt;li&gt;2001 存储 曙光品牌存储发布&lt;/li&gt;
-&lt;li&gt;2009 云计算 首个城市云计算中心开通&lt;/li&gt;
-&lt;li&gt;2013 大数据 曙光大数据一体机发布&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;曙光hpc与中国工业共成长&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
-
-&lt;p&gt;作为中国第一、亚洲最大、全球第三的高性能计算厂商，曙光高性能计算系统在中国工业领域有着广泛和深入的应用，在CAE模拟仿真方面拥有国内最多的成功案例！&lt;/p&gt;
-
-&lt;p&gt;机械、材料、电子、飞机&lt;/p&gt;
-
-&lt;p&gt;汽车、轮船、航空航天、电力&lt;/p&gt;
-
-&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;sugon短片分享&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;20+城市云中心&lt;/li&gt;
-&lt;li&gt;1000+政务及智慧应用&lt;/li&gt;
-&lt;li&gt;30+行业云建设&lt;/li&gt;
-&lt;li&gt;30+PB数据交换共享&lt;/li&gt;
-&lt;li&gt;2项云计算国标&lt;/li&gt;
-&lt;li&gt;100+大数据技术专利&lt;/li&gt;
-&lt;li&gt;4个生态联盟&lt;/li&gt;
-&lt;li&gt;20+创业企业&lt;/li&gt;
-&lt;li&gt;300+合作伙伴&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;曙光数据中国加速计划&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
-
-&lt;p&gt;期望寻求更多的合作&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;目标
-
-&lt;ul&gt;
-&lt;li&gt;加速网络布局&lt;/li&gt;
-&lt;li&gt;加速数据汇聚&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;抓手
-
-&lt;ul&gt;
-&lt;li&gt;创新城市云连锁模式&lt;/li&gt;
-&lt;li&gt;部署4个行业大数据&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;数字仿真&lt;/li&gt;
-&lt;li&gt;IT云化&lt;/li&gt;
-&lt;li&gt;数据融合&lt;/li&gt;
-&lt;li&gt;生态协同&lt;/li&gt;
-&lt;li&gt;应用拓展&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;打通中科院创新链与创业链&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;中科院先进计算技术创新与产业化联盟（曙光牵头）
-
-&lt;ul&gt;
-&lt;li&gt;智能制造项目协同创新&lt;/li&gt;
-&lt;li&gt;中科院技术资源转化对接&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;嘉宾对话环节&#34;&gt;嘉宾对话环节&lt;/h1&gt;
-
-&lt;h2 id=&#34;嘉宾介绍&#34;&gt;嘉宾介绍&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;主持人 李静
-
-&lt;ul&gt;
-&lt;li&gt;上海电气集团CIO&lt;/li&gt;
-&lt;li&gt;上海计算机用户协会理事长&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;王健
-
-&lt;ul&gt;
-&lt;li&gt;上海通用汽车有限公司CIO&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;吕良
-
-&lt;ul&gt;
-&lt;li&gt;戴尔（中国）有限公司企业级解决方案高级经理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;高俊
-
-&lt;ul&gt;
-&lt;li&gt;迅达电梯亚太区CIO&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;任京旸
-
-&lt;ul&gt;
-&lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;张启亮
-
-&lt;ul&gt;
-&lt;li&gt;徐工集团信息部部长&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;张松
-
-&lt;ul&gt;
-&lt;li&gt;ThoughtWorks大中华区总经理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;黄立
-
-&lt;ul&gt;
-&lt;li&gt;葛兰素史克中国区IT总监&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;讨论问题-不完整&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;信息时代对CIO的要求越来越高，期望寻求关于新技术，例如区块链如何融入企业或产品的解决方案&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CIO应该做的&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;企业信息战略&lt;/li&gt;
-&lt;li&gt;市场洞察能力&lt;/li&gt;
-&lt;li&gt;市场建交能力&lt;/li&gt;
-&lt;li&gt;及时的执行力&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;行业领先企业CIO关注点出现变化&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CIO角色定位开始转化成企业家，而不是部门主管&lt;/li&gt;
-&lt;li&gt;新业务出现都是以技术驱动&lt;/li&gt;
-&lt;li&gt;开展新公司的主营业务，如何进行信息化整合&lt;/li&gt;
-&lt;li&gt;CIO变革措施&lt;/li&gt;
-&lt;li&gt;IBM全球CIO，提倡理念组织变化，IT不该作为一个部门，应该作为业务基础，整合所有兼并相关公司的信息系统，简化、统一、贯通。&lt;/li&gt;
-&lt;li&gt;企业内部整合，辐射到跨企业跨领域边界信息资源整合&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>用于公开项目演示的paas服务选型</title>
-      <link>https://cio.anasit.com/cookbook/backend/paas-deploy/</link>
-      <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
-      <description>
-
-&lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
-
-&lt;h2 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h2&gt;
-
-&lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;费用 完全免费&lt;/li&gt;
-&lt;li&gt;个人主页 新建项目xxx/xxx.github.io即可&lt;/li&gt;
-&lt;li&gt;项目主页 项目内 新建分支 gh-pages即可&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
-&lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;服务演示&#34;&gt;服务演示&lt;/h1&gt;
-
-&lt;h2 id=&#34;mopaas&#34;&gt;MoPaaS&lt;/h2&gt;
-
-&lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;费用 初级应用免费&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;两个项目 以下免费&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;支持项目&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mysql&lt;/li&gt;
-&lt;li&gt;postgresql&lt;/li&gt;
-&lt;li&gt;mongodb&lt;/li&gt;
-&lt;li&gt;redis&lt;/li&gt;
-&lt;li&gt;memcached&lt;/li&gt;
-&lt;li&gt;nfs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
-      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
-      <description>
-
-&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
-
-&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;语法编辑 差
-
-&lt;ul&gt;
-&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
-&lt;li&gt;es6 完全不支持ES6，安装es6插件无效&lt;/li&gt;
-&lt;li&gt;ng2 完全不支持angular2&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;项目特性 差
-
-&lt;ul&gt;
-&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;辅助工具 差&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;语法编辑 较好
-
-&lt;ul&gt;
-&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;项目特性 较好
-
-&lt;ul&gt;
-&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;辅助工具 较好
-
-&lt;ul&gt;
-&lt;li&gt;gulp 小工具&lt;/li&gt;
-&lt;li&gt;RESTful Client 小工具&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
-
-&lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/isRuslan/vim-es6&#34;&gt;https://github.com/isRuslan/vim-es6&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
