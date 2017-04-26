@@ -729,13 +729,13 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/categories/career/</loc>
+    <loc>https://cio.anasit.com/tags/career/</loc>
     <lastmod>2017-02-14T12:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/career/</loc>
+    <loc>https://cio.anasit.com/categories/career/</loc>
     <lastmod>2017-02-14T12:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -854,14 +854,14 @@
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/categories/game/</loc>
-    <lastmod>2016-05-04T00:05:51+08:00</lastmod>
+    <loc>https://cio.anasit.com/tags/game/</loc>
+    <lastmod>2016-12-22T00:12:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cio.anasit.com/tags/game/</loc>
-    <lastmod>2016-12-22T00:12:00+08:00</lastmod>
+    <loc>https://cio.anasit.com/categories/game/</loc>
+    <lastmod>2016-05-04T00:05:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
