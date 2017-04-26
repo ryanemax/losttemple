@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="ionic2,angular,RESTful,API|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>ionic2与ng2基于RESTful的HTTP数据处理技术选型 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-17">May 17, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/ionic2">ionic2</a>
+
+        <a href="https://cio.anasit.com/tags/api">api</a>
+
+        <a href="https://cio.anasit.com/tags/restful">restful</a>
+
+        <a href="https://cio.anasit.com/tags/frontend">frontend</a>
+
+        <a href="https://cio.anasit.com/tags/angular">angular</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">ionic2与ng2基于RESTful的HTTP数据处理技术选型</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="基础选型">基础选型</h1>
+
+<h2 id="回顾angularjs-1">回顾AngularJS 1</h2>
+
+<p>结论：ng1采用较为成熟的RESTangular第三方组件。</p>
+
+<p>Angularjs 1 中可选的数据处理方法有以下三种：
+- $http 框架自带，处理原始HTTP请求
+- $resource 框架自带，对$http进行初步封装
+- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。</p>
+
+<h2 id="调研angularjs-2">调研AngularJS 2</h2>
+
+<p>结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http</p>
+
+<ul>
+<li>angular/http</li>
+</ul>
+
+<p>官方手册：<a href="https://angular.io/docs/js/latest/api/http/">https://angular.io/docs/js/latest/api/http/</a></p>
+
+<p>使用参考：<a href="http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/">http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/</a></p>
+
+<pre><code class="language-js">  import {Http} from 'angular2/http';
+</code></pre>
+
+<ul>
+<li>marmelab/restful.js 第三方组件，纯ES6</li>
+</ul>
+
+<p>star 535 on <a href="https://github.com/marmelab/restful.js">https://github.com/marmelab/restful.js</a></p>
+
+<p>基于ES6开发，Think Restangular without Angular.</p>
+
+<pre><code class="language-sh">  # 方式一：npm安装
+  npm install restful.js
+  # 方式二：webpack安装
+  import restful from 'restful.js';
+</code></pre>
+
+<ul>
+<li>Paldom/angular2-rest</li>
+</ul>
+
+<p>star 94 on <a href="https://github.com/Paldom/angular2-rest">https://github.com/Paldom/angular2-rest</a></p>
+
+<ul>
+<li>darekf77/ng2-rest</li>
+</ul>
+
+<p>star 2 on <a href="https://github.com/darekf77/ng2-rest">https://github.com/darekf77/ng2-rest</a></p>
+
+<h1 id="angular2-http开发详解">angular2/http开发详解</h1>
+
+<h2 id="参考教程">参考教程</h2>
+
+<p>最佳实践 <a href="https://github.com/driftyco/ionic-conference-app">https://github.com/driftyco/ionic-conference-app</a></p>
+
+<h2 id="官方手册">官方手册</h2>
+
+<p>官方手册：<a href="https://angular.io/docs/js/latest/api/http/">https://angular.io/docs/js/latest/api/http/</a></p>
+
+<h3 id="使用体验">使用体验</h3>
+
+<ol>
+<li>（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求</li>
+<li>（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件</li>
+<li>（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余</li>
+</ol>
+
+<p>那么以上三种情景，第三种情景使用频率较高：由于后端<strong>不是规范的REST</strong>，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。</p>
+
+<p>因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。</p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

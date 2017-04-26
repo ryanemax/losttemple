@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionic on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/ionic/index.xml</link>
+    <description>Recent content in Ionic on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ionic命令行Generate体验总结</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic2-generate/</link>
+      <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic2-generate/</guid>
+      <description>
+
+&lt;h1 id=&#34;ionic命令行generate体验总结&#34;&gt;ionic命令行Generate体验总结&lt;/h1&gt;
+
+&lt;h1 id=&#34;工具简述-description&#34;&gt;工具简述 Description&lt;/h1&gt;
+
+&lt;p&gt;Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier.&lt;/p&gt;
+
+&lt;p&gt;To create a page you can use the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# ionic g page &amp;lt;PageName&amp;gt;
+ionic g page MyAboutPage
+
+√ Create app/pages/my-about-page/my-about-page.html
+√ Create app/pages/my-about-page/my-about-page.js
+√ Create app/pages/my-about-page/my-about-page.scss
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will give you a html file, sass file, and a js file with your component definition.&lt;/p&gt;
+
+&lt;p&gt;To create a service, you can replace page with provider:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ionic g provider MyData
+
+√ Create app/pages/my-data/my-data.js
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will create a standard class with a simple http get request using Angular’s http class.&lt;/p&gt;
+
+&lt;h1 id=&#34;命名规范-a-quick-note-on-naming-conventions&#34;&gt;命名规范 A quick note on naming conventions&lt;/h1&gt;
+
+&lt;p&gt;Ionic 2 uses kebob-casing for file names (&lt;strong&gt;my-about-page.html&lt;/strong&gt;) and css classes (&lt;strong&gt;.my-about-page&lt;/strong&gt;), and uses PascalCasing for JavaScript classes in ES6/TypeScript (&lt;strong&gt;MyAboutPage&lt;/strong&gt;). Using this convention, developers can pick up any Ionic 2 project and quickly become productive, similar to Rails.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;目录名称 /app/pages/my-about-page/&lt;/li&gt;
+&lt;li&gt;文件名称 my-about-page.html&lt;/li&gt;
+&lt;li&gt;scss样式 .myaboutpage&lt;/li&gt;
+&lt;li&gt;Class名称 MyAboutPage&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionicCreator实际体验与评测</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic-creator/</link>
+      <pubDate>Tue, 03 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic-creator/</guid>
+      <description>
+
+&lt;h1 id=&#34;ioniccreator实际体验与评测&#34;&gt;ionicCreator实际体验与评测&lt;/h1&gt;
+
+&lt;h2 id=&#34;免费版&#34;&gt;免费版&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;目前只支持ionic 1.0&lt;/li&gt;
+&lt;li&gt;页面修改Routing URL，导出项目templates中page名未变化，依然是page1-n&lt;/li&gt;
+&lt;li&gt;components 组件少，且不可定制&lt;/li&gt;
+&lt;li&gt;全程需要翻墙&lt;/li&gt;
+&lt;li&gt;不实用，不如参考css文档，直接使用html写所需的页面&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;使用creator构建的一个测试项目：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://creator.ionic.io/share/a5d70d07f53f&#34;&gt;https://creator.ionic.io/share/a5d70d07f53f&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 代理从creator创建项目到本地
+http_proxy=http://127.0.0.1:8118 ionic start coinnova creator:a5d70d07f53f
+
+## 登录ionic
+cd coinnova
+ionic login
+
+## 修改后提交项目
+ionic push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;pro版&#34;&gt;Pro版&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必须认证信用卡后，才可免费体验一个月&lt;/li&gt;
+&lt;li&gt;creator使用功能无明显提升&lt;/li&gt;
+&lt;li&gt;允许1个私有项目&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;team版&#34;&gt;Team版&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必须认证信用卡后，才可免费体验一个月&lt;/li&gt;
+&lt;li&gt;creator使用功能无明显提升&lt;/li&gt;
+&lt;li&gt;允许2个私有项目&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

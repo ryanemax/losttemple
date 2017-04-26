@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>适合开发者的第三方RSS采集服务选型 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-22">May 22, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/cms">cms</a>
+
+        <a href="https://cio.anasit.com/tags/rss">rss</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">适合开发者的第三方RSS采集服务选型</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="简介">简介</h1>
+
+<h2 id="项目背景">项目背景</h2>
+
+<p>greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。</p>
+
+<p>作为个人用户，所有碰到的基础需求，都可以满足，未考虑付费服务。</p>
+
+<p>但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。</p>
+
+<h2 id="参考文章">参考文章</h2>
+
+<p><a href="http://sspai.com/27576">观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader</a>
+<a href="http://www.zhihu.com/question/21278318">RSS 阅读器 InoReader 的使用体验如何？</a></p>
+
+<h2 id="如何迁移自己的rss订阅">如何迁移自己的rss订阅？</h2>
+
+<ol>
+<li>登录feedly，点击用户，选择export OPML文件</li>
+<li>将导出的OPML文件导入你想要使用的rss订阅服务</li>
+</ol>
+
+<h1 id="私有云-rss-聚合器">私有云 RSS 聚合器</h1>
+
+<ul>
+<li>filipedeschamps/rss-feed-emitter
+
+<ul>
+<li>nodejs+es6</li>
+<li>star 621</li>
+</ul></li>
+<li>dai-shi/rss-pipes
+
+<ul>
+<li>nodejs</li>
+<li>star 70</li>
+</ul></li>
+<li>freshrss.org
+
+<ul>
+<li>php+mysql</li>
+<li>star 382</li>
+</ul></li>
+</ul>
+
+<h2 id="freshrss">freshrss</h2>
+
+<ul>
+<li>php-pdo</li>
+<li>xml/curl</li>
+<li>mysql</li>
+<li>pelican（静态页面生成部分）</li>
+</ul>
+
+<h1 id="公有云-rss-订阅服务">公有云 RSS 订阅服务</h1>
+
+<ul>
+<li>feedly</li>
+<li>inoreader</li>
+<li>feedbin</li>
+<li>feedwrangler</li>
+</ul>
+
+<h2 id="inoreader">inoreader</h2>
+
+<h2 id="缺点">缺点</h2>
+
+<p>Inoreader对于RSS源的抓取不如Feedly。</p>
+
+<ol>
+<li><p>订阅的科大BBS的RSS源，全部乱码出错，而在Feedly并未出现这种问题。</p></li>
+
+<li><p>总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。</p></li>
+</ol>
+
+<h2 id="简介-1">简介</h2>
+
+<p><a href="http://www.inoreader.com/">http://www.inoreader.com/</a></p>
+
+<p>开发者平台 <a href="http://www.inoreader.com/developers/">http://www.inoreader.com/developers/</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;feature=youtu.be">https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;feature=youtu.be</a></p>
+
+<p>资费参考 <a href="http://www.inoreader.com/upgrade/feature/from_preferences">http://www.inoreader.com/upgrade/feature/from_preferences</a></p>
+
+<p>Free套餐：
+- Number of subscriptions   Unlimited
+- Search in subscriptions
+- RSS Feeds for favorites, channels, folders and tags</p>
+
+<ul>
+<li>HTML Clips for favorites, channels, folders and tags  Default</li>
+<li>Unread counter cap (actual unread articles are not limited)   1000</li>
+<li>Number of active searches     1</li>
+<li>Number of rules   1</li>
+<li>Number of filtered feeds  1</li>
+<li>Number of Highlighters    5</li>
+<li>Number of boosted feeds   10</li>
+<li>Number of Google+ feeds   0</li>
+<li>Number of Twitter feeds   1</li>
+<li>Number of Facebook page feeds     1</li>
+<li>Number of VKontakte feeds     1</li>
+<li>Audio Player  Inline</li>
+<li>Address book - Gmail integrated   Limited to 10 entries</li>
+</ul>
+
+<h1 id="feedly">feedly</h1>
+
+<p>feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api</p>
+
+<p>开发者平台 <a href="http://developer.feedly.com/">http://developer.feedly.com/</a></p>
+
+<p>资费参考 <a href="https://feedly.com/i/pro/showcase.zapier">https://feedly.com/i/pro/showcase.zapier</a></p>
+
+<p>Free套餐:
+- Up to 100 sources
+- Mobile and desktop
+- Organize source into easy-to-read collections
+- Share to Twitter, Pinterest and Facebook</p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

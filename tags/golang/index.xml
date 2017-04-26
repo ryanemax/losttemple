@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/golang/index.xml</link>
+    <description>Recent content in Golang on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GoLang几种读文件方式的比较</title>
+      <link>https://cio.anasit.com/cookbook/backend/golangReadFile/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/golangReadFile/</guid>
+      <description>
+
+&lt;h1 id=&#34;golang几种读文件方式的比较&#34;&gt;GoLang几种读文件方式的比较&lt;/h1&gt;
+
+&lt;p&gt;GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和ioutil 库。&lt;/p&gt;
+
+&lt;p&gt;那他们的效率如何呢？用一个简单的程序来评测一下：&lt;/p&gt;
+
+&lt;p&gt;Go代码:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;    package main  
+
+    import(  
+        &amp;quot;fmt&amp;quot;  
+        &amp;quot;os&amp;quot;  
+        &amp;quot;flag&amp;quot;  
+        &amp;quot;io&amp;quot;  
+        &amp;quot;io/ioutil&amp;quot;  
+        &amp;quot;bufio&amp;quot;  
+        &amp;quot;time&amp;quot;  
+    )  
+
+    func read1(path string)string{  
+        fi,err := os.Open(path)  
+        if err != nil{  
+            panic(err)  
+        }  
+        defer fi.Close()  
+
+        chunks := make([]byte,1024,1024)  
+        buf := make([]byte,1024)  
+        for{  
+            n,err := fi.Read(buf)  
+            if err != nil &amp;amp;&amp;amp; err != io.EOF{panic(err)}  
+            if 0 ==n {break}  
+            chunks=append(chunks,buf[:n]...)  
+            // fmt.Println(string(buf[:n]))  
+        }  
+        return string(chunks)  
+    }  
+
+    func read2(path string)string{  
+        fi,err := os.Open(path)  
+        if err != nil{panic(err)}  
+        defer fi.Close()  
+        r := bufio.NewReader(fi)  
+
+        chunks := make([]byte,1024,1024)  
+
+        buf := make([]byte,1024)  
+        for{  
+            n,err := r.Read(buf)  
+            if err != nil &amp;amp;&amp;amp; err != io.EOF{panic(err)}  
+            if 0 ==n {break}  
+            chunks=append(chunks,buf[:n]...)  
+            // fmt.Println(string(buf[:n]))  
+        }  
+        return string(chunks)  
+    }  
+
+    func read3(path string)string{  
+        fi,err := os.Open(path)  
+        if err != nil{panic(err)}  
+        defer fi.Close()  
+        fd,err := ioutil.ReadAll(fi)  
+        // fmt.Println(string(fd))  
+        return string(fd)  
+    }  
+
+    func main(){  
+
+        flag.Parse()  
+        file := flag.Arg(0)  
+        f,err := ioutil.ReadFile(file)  
+        if err != nil{  
+            fmt.Printf(&amp;quot;%s\n&amp;quot;,err)  
+            panic(err)  
+        }  
+        fmt.Println(string(f))  
+        start := time.Now()  
+        read1(file)  
+        t1 := time.Now()  
+        fmt.Printf(&amp;quot;Cost time %v\n&amp;quot;,t1.Sub(start))  
+        read2(file)  
+        t2 := time.Now()  
+        fmt.Printf(&amp;quot;Cost time %v\n&amp;quot;,t2.Sub(t1))  
+        read3(file)  
+        t3 := time.Now()  
+        fmt.Printf(&amp;quot;Cost time %v\n&amp;quot;,t3.Sub(t2))  
+
+    }  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;运行命令go run read.go filename, 制定需要读取的文件就可以了。这里我比较了读取13.7MB的日志文件，三种方式分别消耗的时间是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;    Cost time 105.006ms  
+    Cost time 68.0039ms  
+    Cost time 31.0018ms  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;读取29.3MB的媒体文件：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;    Cost time 390.0223ms  
+    Cost time 194.0111ms  
+    Cost time 83.0048ms  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;读取302MB的媒体文件:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;    Cost time 40.8043338s  
+    Cost time 1m5.0407201s  
+    Cost time 8.8155043s  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这个差距就很明显了，ioutil提供的方法效率就是高。有空可以再从代码层面再去分析一下。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Golang database/sql &amp; GORM</title>
+      <link>https://cio.anasit.com/cookbook/backend/golangsqlorm/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/golangsqlorm/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-models写法技巧及migration标准&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
+
+&lt;h2 id=&#34;法则&#34;&gt;法则&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;基本满足大驼峰命名法则&lt;/strong&gt;
+首字母大写
+&amp;ldquo;_&amp;rdquo; 忽略后大写&lt;/p&gt;
+
+&lt;h2 id=&#34;实例&#34;&gt;实例&lt;/h2&gt;
+
+&lt;p&gt;device_id 对应 DeviceID
+create_time 对应 CreateTime
+location 对应 Location&lt;/p&gt;
+
+&lt;h2 id=&#34;官方实例&#34;&gt;官方实例&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;type User struct {
+    ID           int
+    Birthday     time.Time
+    Age          int
+    Name         string  `sql:&amp;quot;size:255&amp;quot;` // Default size for string is 255, you could reset it with this tag
+    Num          int     `sql:&amp;quot;AUTO_INCREMENT&amp;quot;`
+    CreatedAt    time.Time
+    UpdatedAt    time.Time
+    DeletedAt    *time.Time
+
+    Emails            []Email         // One-To-Many relationship (has many)
+    BillingAddress    Address         // One-To-One relationship (has one)
+    BillingAddressID  sql.NullInt64   // Foreign key of BillingAddress
+    ShippingAddress   Address         // One-To-One relationship (has one)
+    ShippingAddressID int             // Foreign key of ShippingAddress
+    IgnoreMe          int `sql:&amp;quot;-&amp;quot;`   // Ignore this field
+    Languages         []Language `gorm:&amp;quot;many2many:user_languages;&amp;quot;` // Many-To-Many relationship, &#39;user_languages&#39; is join table
+}
+
+type Email struct {
+    ID      int
+    UserID  int     `sql:&amp;quot;index&amp;quot;` // Foreign key (belongs to), tag `index` will create index for this field when using AutoMigrate
+    Email   string  `sql:&amp;quot;type:varchar(100);unique_index&amp;quot;` // Set field&#39;s sql type, tag `unique_index` will create unique index
+    Subscribed bool
+}
+
+type Address struct {
+    ID       int
+    Address1 string         `sql:&amp;quot;not null;unique&amp;quot;` // Set field as not nullable and unique
+    Address2 string         `sql:&amp;quot;type:varchar(100);unique&amp;quot;`
+    Post     sql.NullString `sql:&amp;quot;not null&amp;quot;`
+}
+
+type Language struct {
+    ID   int
+    Name string `sql:&amp;quot;index:idx_name_code&amp;quot;` // Create index with name, and will create combined index if find other fields defined same name
+    Code string `sql:&amp;quot;index:idx_name_code&amp;quot;` // `unique_index` also works
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;1-gorm实践&#34;&gt;1.GORM实践&lt;/h1&gt;
+
+&lt;h2 id=&#34;数据库&#34;&gt;数据库&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;MariaDB [zwjj]&amp;gt; desc zw_device;
++-------------+---------------------+------+-----+---------+----------------+
+| Field       | Type                | Null | Key | Default | Extra          |
++-------------+---------------------+------+-----+---------+----------------+
+| device_id   | int(10) unsigned    | NO   | PRI | NULL    | auto_increment |
+| user_id     | int(10)             | YES  |     | NULL    |                |
+| device_sn   | varchar(32)         | NO   |     | NULL    |                |
+| device_imei | varchar(32)         | NO   |     | NULL    |                |
+| description | text                | NO   |     | NULL    |                |
+| sort        | int(10) unsigned    | NO   |     | NULL    |                |
+| type        | tinyint(1) unsigned | NO   |     | 0       |                |
+| status      | tinyint(1)          | NO   |     | 1       |                |
+| location    | varchar(32)         | YES  |     | NULL    |                |
+| lat         | varchar(255)        | YES  |     | NULL    |                |
+| lng         | varchar(125)        | NO   |     | NULL    |                |
+| last_time   | int(10) unsigned    | NO   |     | NULL    |                |
+| create_time | int(10) unsigned    | NO   |     | NULL    |                |
++-------------+---------------------
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;import&#34;&gt;import&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;import(
+        &amp;quot;fmt&amp;quot;
+        _ &amp;quot;github.com/go-sql-driver/mysql&amp;quot;
+        &amp;quot;github.com/jinzhu/gorm&amp;quot;
+        _ &amp;quot;github.com/lib/pq&amp;quot;
+        &amp;quot;log&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;define-structs-models-in-gorm&#34;&gt;define Structs(Models) in gorm&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;type Device struct {
+        DeviceID    int
+        UserID      int
+        DeviceSN    string
+        DeviceImei  string
+        Description string
+        Sort        int
+        Type        int
+        Status      int
+        Location    string
+        Lat         string
+        Lng         string
+}
+func (d Device) TableName() string {
+        return &amp;quot;zw_device&amp;quot;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;get-handle-row-in-gorm&#34;&gt;get/handle row in gorm&lt;/h2&gt;
+
+&lt;p&gt;Locsearch实现了查找device_id = 4设备的详细信息&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;# select by Models
+func Locsearch(info string) {
+        fmt.Println(info)
+        db, err := gorm.Open(&amp;quot;mysql&amp;quot;, &amp;quot;zwjj:zwjj@tcp(gis.anasit.com:3306)/zwjj?charset=utf8&amp;amp;parseTime=True&amp;quot;)
+        if err != nil {
+                log.Fatal(err)
+        }
+        db.LogMode(true)
+        var device Device
+        row := db.Where(&amp;quot;device_id = ?&amp;quot;, &amp;quot;4&amp;quot;).First(&amp;amp;device)
+        row.Scan(&amp;amp;device)
+        fmt.Println(device.DeviceImei, device.DeviceID, device.Lat)
+}
+
+
+# raw select lat, lng start
+	var device Device
+        row := db.Table(&amp;quot;zw_device&amp;quot;).Where(&amp;quot;device_id = ?&amp;quot;, &amp;quot;4&amp;quot;).Select(&amp;quot;lat, lng&amp;quot;).Row()
+        row.Scan(&amp;amp;device.Lat, &amp;amp;device.Lng)
+        fmt.Println(device.Lat)
+# raw end
+
+# raw select * start
+	var device Device
+        row := db.Table(&amp;quot;zw_device&amp;quot;).Where(&amp;quot;device_id = ?&amp;quot;, &amp;quot;4&amp;quot;).Select(&amp;quot;*&amp;quot;)
+        row.Scan(&amp;amp;device)
+        fmt.Println(device.DeviceImei, device.DeviceID, device.Lat)
+# raw end
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Golang代码组织最佳方案</title>
+      <link>https://cio.anasit.com/cookbook/backend/golangincase/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/golangincase/</guid>
+      <description>
+
+&lt;h1 id=&#34;golang代码组织最佳方案&#34;&gt;《Golang代码组织最佳方案》&lt;/h1&gt;
+
+&lt;h2 id=&#34;案例一-不建议的偷懒结构&#34;&gt;案例一：不建议的偷懒结构&lt;/h2&gt;
+
+&lt;p&gt;$gopath/src/github.com/ryanemax/device/pkg_phone/phone.go&lt;/p&gt;
+
+&lt;p&gt;$gopath/src/github.com/ryanemax/device/main.go&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import &amp;quot;./pkg_phone&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;案例二-docker中也不建议的偷懒结构&#34;&gt;案例二：Docker中也不建议的偷懒结构&lt;/h2&gt;
+
+&lt;p&gt;gonet2示例：github.com/gonet2/game&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;Dockerfile # Docker环境文件
+src/proto # 包proto
+src/registry # 包registry
+src/game/service.go # game主程
+  import(
+    &amp;quot;regitry&amp;quot;
+    &amp;quot;proto&amp;quot;
+    )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;虽然docker中环境纯净，但多个$GOPATH中如果都存在src/registry名称的库，则会产生冲突。&lt;/p&gt;
+
+&lt;h2 id=&#34;最佳结构方式&#34;&gt;最佳结构方式&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;# 案例一中
+  import &amp;quot;github.com/ryanemax/device/pkg_phone&amp;quot;
+# 案例二中
+  import (
+    &amp;quot;github.com/gonet2/src/registry&amp;quot;
+    &amp;quot;github.com/gonet2/src/proto&amp;quot;
+  )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;golang实用的第三方库&#34;&gt;《Golang实用的第三方库》&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/avelino/awesome-go&#34;&gt;https://github.com/avelino/awesome-go&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;命令行应用开发库&#34;&gt;命令行应用开发库&lt;/h2&gt;
+
+&lt;h3 id=&#34;cobra-案例-hugo&#34;&gt;Cobra,案例：Hugo&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;文本界面应用开发库&#34;&gt;文本界面应用开发库&lt;/h2&gt;
+
+&lt;h3 id=&#34;color-简单的命令行颜色输出&#34;&gt;color 简单的命令行颜色输出&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/fatih/color&#34;&gt;https://github.com/fatih/color&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/3cef9169d42dd94bd7299782d691396027d688a4/687474703a2f2f692e696d6775722e636f6d2f63314a49306c412e706e67&#34; alt=&#34;color&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;termui-完整的命令行应用界面-基于https-github-com-nsf-termbox-go&#34;&gt;Termui 完整的命令行应用界面(基于&lt;a href=&#34;https://github.com/nsf/termbox-go&#34;&gt;https://github.com/nsf/termbox-go&lt;/a&gt;)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gizak/termui&#34;&gt;https://github.com/gizak/termui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gizak/termui/master/_example/dashboard.gif&#34; alt=&#34;termui&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;实用的原生库&#34;&gt;实用的原生库&lt;/h1&gt;
+
+&lt;h2 id=&#34;encoding-hex&#34;&gt;encoding/hex&lt;/h2&gt;
+
+&lt;p&gt;常用于解析网络通信协议中的BCD码流&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pdata := byte[]{0x12,0x34,0x56,0x78}
+data_imei := hex.EncodeToString(pdata[0:3])
+fmt.Println(data_imei)
+## 输出结果为12345678
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;strconv&#34;&gt;strconv&lt;/h2&gt;
+
+&lt;p&gt;常用与各数制与字符之间的转换&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## 常规方式：转换int类型12，到二进制字符串
+fint := strconv.FormatInt(12, 2)
+fmt.Println(&amp;quot;FormatBinary 12:&amp;quot;, fint)
+## 输出结果为1100
+
+
+## 快捷方式：转换int类型12，到二进制字符串
+bs := fmt.Sprintf(&amp;quot;%b&amp;quot;,12)
+## bs输出结果为1100
+
+## 快捷方式：转换任意数制到int类型
+fmt.Printf(&amp;quot;电压等级：%d\n&amp;quot;, content[1])
+plev, err := strconv.Atoi(fmt.Sprintf(&amp;quot;%d&amp;quot;, content[1]))
+if err != nil {
+        Warning(err.Error())
+}
+device.StatusPowerLev = plev
+
+fmt.Printf(&amp;quot;GSM信号强度等级:%d\n&amp;quot;, content[2])
+gsmlev, err := strconv.Atoi(fmt.Sprintf(&amp;quot;%d&amp;quot;, content[2]))
+if err != nil {
+        Warning(err.Error())
+}
+device.StatusGsmLev = gsmlev
+
+## 快捷方式：Byte时间数据，转时间戳
+## gpstime := []byte{0x0f, 0x0c, 0x0e, 0x11, 0x01, 0x0c}
+func ParseTime(gpstime []byte) time.Time {
+        //解析六个字节的时间数据为标准的时间戳
+        var ts string
+        for _, v := range gpstime {
+        //将每个字节格式化输出成十进制字符串
+                ts += fmt.Sprintf(&amp;quot;%2d&amp;quot;, v)
+        }
+        //替换格式化输出导致的整数高位空格
+        ts = strings.Replace(ts, &amp;quot; &amp;quot;, &amp;quot;0&amp;quot;, -1)
+
+        //时间戳格式化
+        const TimeFormat = &amp;quot;2006-01-02 15:04:05&amp;quot;
+        t, err := time.Parse(TimeFormat, &amp;quot;20&amp;quot;+ts[0:2]+&amp;quot;-&amp;quot;+ts[2:4]+&amp;quot;-&amp;quot;+ts[4:6]+&amp;quot; &amp;quot;+ts[6:8]+&amp;quot;:&amp;quot;+ts[8:10]+&amp;quot;:&amp;quot;+ts[10:12])
+        if err != nil {
+                //Error(err.Error())
+        }
+        //Warning(err.Error())
+        //Info(&amp;quot;定位时间：&amp;quot;, t)
+        return t
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vim-go最佳实践</title>
+      <link>https://cio.anasit.com/cookbook/tool/vim-go/</link>
+      <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vim-go/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-使用方法&#34;&gt;0.使用方法&lt;/h1&gt;
+
+&lt;p&gt;gd  进入函数原始定义文件查看
+Ctrl + N
+Ctrl + P&lt;/p&gt;
+
+&lt;h1 id=&#34;1-常见faq&#34;&gt;1.常见FAQ&lt;/h1&gt;
+
+&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
+
+&lt;p&gt;1.环境变量没有设置完整
+设置正确环境变量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export GOROOT=/usr/lib/go
+export GOPATH=/root/workspace/goProjects
+export GOBIN=$GOPATH/bin
+export GOTOOLS=$GOROOT/pkg/tool
+export PATH=$PATH:$GOBIN:$GOTOOLS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.工具没有装全
+vim中运行如下命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#1.自动安装
+:GoInstallBinaries
+#2.手动安装(墙外)
+export http_proxy=http://10.0.2.2:8118
+export https_proxy=http://10.0.2.2:8118
+
+go get -u golang.org/x/tools/cmd/goimports &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/cmd/oracle &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/cmd/gorename &amp;amp;&amp;amp; \
+go get -u github.com/golang/lint/golint &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/gcimporter &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/types &amp;amp;&amp;amp; \
+go get -u github.com/kisielk/errcheck &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/loader
+
+https://github.com/bradfitz/goimports
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;2-基础环境配置&#34;&gt;2.基础环境配置&lt;/h1&gt;
+
+&lt;h2 id=&#34;vim-编辑器&#34;&gt;vim //编辑器&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Vim&#34;&gt;https://wiki.archlinux.org/index.php/Vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;vundle-vim包管理器&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gmarik/Vundle.vim&#34;&gt;https://github.com/gmarik/Vundle.vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;gocode-语法&#34;&gt;gocode //语法&lt;/h2&gt;
+
+&lt;p&gt;Add the following line to your .vimrc:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;quot; ================================
+ &amp;quot; set diy configuration by Ryane
+ &amp;quot; ================================
+ &amp;quot; set golang
+ Plugin &#39;nsf/gocode&#39;, {&#39;rtp&#39;: &#39;vim/&#39;}
+ :syntax on
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;安装后执行:PluginInstall进行下载安装&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>跨域跨域跨域golang与angularjs的默契</title>
+      <link>https://cio.anasit.com/cookbook/api/goangularfaq/</link>
+      <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/goangularfaq/</guid>
+      <description>
+
+&lt;h1 id=&#34;go-json-rest-golang&#34;&gt;go-json-rest (golang)&lt;/h1&gt;
+
+&lt;h2 id=&#34;启动cors中间件-指定origin跨域-origin这里填写对应域名即可&#34;&gt;启动CORS中间件，指定origin跨域，origin这里填写对应域名即可&lt;/h2&gt;
+
+&lt;h2 id=&#34;直接跨所有域名-return-origin-req-header-get-origin-即可&#34;&gt;直接跨所有域名，return origin == req.Header.Get(&amp;ldquo;Origin&amp;rdquo;)，即可&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;func main() {
+	//.......
+        api := rest.NewApi()
+        api.Use(rest.DefaultDevStack...)
+        //配置API跨域CORS
+        api.Use(&amp;amp;rest.CorsMiddleware{
+                RejectNonCorsRequests: false,
+                OriginValidator: func(origin string, request *rest.Request) bool {
+                        return origin == &amp;quot;http://localhost:8100&amp;quot;
+                },
+                AllowedMethods: []string{&amp;quot;GET&amp;quot;, &amp;quot;POST&amp;quot;, &amp;quot;PUT&amp;quot;},
+                AllowedHeaders: []string{
+                        &amp;quot;Accept&amp;quot;, &amp;quot;Content-Type&amp;quot;, &amp;quot;X-Custom-Header&amp;quot;, &amp;quot;Origin&amp;quot;},
+                AccessControlAllowCredentials: true,
+                AccessControlMaxAge:           3600,
+        })
+	//......
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;angularjs&#34;&gt;angularjs&lt;/h1&gt;
+
+&lt;h2 id=&#34;加withcredentials-ture-加内容类型application-json&#34;&gt;加withCredentials: ture，加内容类型application/json&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;    // Login
+    req = {
+        withCredentials: true,
+        method: &#39;POST&#39;,
+        url: &#39;http://127.0.0.1:8080/countries&#39;,
+        headers: {
+        &#39;Content-Type&#39;: &#39;application/json&#39;
+        //&#39;Content-Type&#39;: &#39;text/plain&#39;
+        },
+        data: { &amp;quot;username&amp;quot;: &amp;quot;test&amp;quot;, &amp;quot;password&amp;quot;: &amp;quot;123456&amp;quot; },
+    }
+    $http(req).
+        success(function(data, status, headers, config) {
+        console.log(&amp;quot;OK&amp;quot;);
+
+        }).
+        error(function(data, status, headers, config) {
+        console.log(&amp;quot;Shit&amp;quot;);
+
+        });
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>golang的restful框架选择</title>
+      <link>https://cio.anasit.com/cookbook/api/golangforrest/</link>
+      <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/golangforrest/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-必备功能&#34;&gt;0.必备功能&lt;/h1&gt;
+
+&lt;p&gt;坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RAML支持&lt;/li&gt;
+&lt;li&gt;CORS支持&lt;/li&gt;
+&lt;li&gt;JSON支持&lt;/li&gt;
+&lt;li&gt;良好的Router机制&lt;/li&gt;
+&lt;li&gt;简单的Controller、Service分离&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ORM支持（最好带migrate）&lt;/p&gt;
+
+&lt;h1 id=&#34;0-1-中间件大搜集&#34;&gt;0.1 中间件大搜集&lt;/h1&gt;
+
+&lt;h2 id=&#34;restgate&#34;&gt;RestGate&lt;/h2&gt;
+
+&lt;p&gt;支持框架：Negroni,Martini,Gin
+为REST API提供endpoints的安全验证机制&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;1-0-gin&#34;&gt;1.0 gin&lt;/h1&gt;
+
+&lt;p&gt;w 279 s 4087 f 395
+&lt;a href=&#34;https://gin-gonic.github.io/gin&#34;&gt;https://gin-gonic.github.io/gin&lt;/a&gt;
+&lt;a href=&#34;https://github.com/gin-gonic/gin&#34;&gt;https://github.com/gin-gonic/gin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REST最佳实践&lt;/strong&gt;
+&lt;a href=&#34;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&#34;&gt;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;api编写简洁&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;x20-x45 fastest than Martini&lt;/p&gt;
+
+&lt;h1 id=&#34;1-1-go-json-rest&#34;&gt;1.1 go-json-rest&lt;/h1&gt;
+
+&lt;p&gt;w 98 s 1816 fork 176&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ant0ine/go-json-rest&#34;&gt;https://github.com/ant0ine/go-json-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;Fast &amp;amp; scalable URL routing&lt;/li&gt;
+&lt;li&gt;Test package to help writing tests&lt;/li&gt;
+&lt;li&gt;routing engine 支持正则&lt;/li&gt;
+&lt;li&gt;检测统计by Memcached&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GORM 支持 migrate&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Middlewares like&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gzip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Auth&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Status&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AccessLogApache&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AccessLogJson&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AuthBasic&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ContentTypeChecker&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JsonIndent&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Jsonp&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PoweredBy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Recorder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Timer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Statsd&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JWT&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AuthToken&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SecureRedirect&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;go get github.com/ant0ine/go-json-rest/rest&lt;/p&gt;
+
+&lt;h1 id=&#34;1-2-echo&#34;&gt;1.2 Echo&lt;/h1&gt;
+
+&lt;p&gt;w 140 s 2326 f 143
+&lt;a href=&#34;https://github.com/labstack/echo&#34;&gt;https://github.com/labstack/echo&lt;/a&gt;
+faster than gin,martini,Negroni&lt;/p&gt;
+
+&lt;h1 id=&#34;1-3-go-relax&#34;&gt;1.3 go-relax&lt;/h1&gt;
+
+&lt;p&gt;w 8 s 105 f 2&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/codehack/go-relax&#34;&gt;https://github.com/codehack/go-relax&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;遵循ROA原则&lt;/li&gt;
+&lt;li&gt;HATEOAS支持&lt;/li&gt;
+&lt;li&gt;default json, also XML&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;routing engine 支持正则&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;支持的中间件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GZip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Method override&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Security&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Limits&lt;/p&gt;
+
+&lt;h1 id=&#34;1-4-go-rest&#34;&gt;1.4 go-rest&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ungerik/go-rest&#34;&gt;https://github.com/ungerik/go-rest&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;评分 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Small only three functions: HandleGET, HandlePOST, RunServer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Evil anti-pattern&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;zz-自主开发&#34;&gt;ZZ.自主开发&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.nicolasmerouze.com/build-web-framework-golang/&#34;&gt;https://www.nicolasmerouze.com/build-web-framework-golang/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>基于Git的分布式自由博客&#43;搭建</title>
+      <link>https://cio.anasit.com/cookbook/pkm/blogforgit/</link>
+      <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/pkm/blogforgit/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-准备工作&#34;&gt;0.准备工作&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;基础开通&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blog选型&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;参考:&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;https://www.staticgen.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt; 基于Golang，速度极快的静态页面生成博客，&lt;a href=&#34;http://gohugo.io/&#34;&gt;http://gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;jekyll 基于Ruby，生成静态HTML博客&lt;/p&gt;
+
+&lt;p&gt;Hexo 基于NodeJS，生成静态HTML博客&lt;/p&gt;
+
+&lt;p&gt;由于较熟悉nodejs所以选择Hexo作为基础博客系统&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hexo 实际测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#arch linux
+
+npm install hexo --no-optional
+
+#mac os x
+
+brew install brew
+
+ALL_PROXY=socks5://127.0.0.1:1080 brew install brew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;http://ibruce.info/2013/11/22/hexo-your-blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;缺点：版本控制混乱、插件社区不够活跃&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hugo 实际测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;http://gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;优点：generate速度快，主题多样，插件多样&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FAQ:白屏幕&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;theme需要设置并下载到/themes文件内&lt;/p&gt;
+
+&lt;p&gt;hugo server -t &lt;themename&gt; -w -D&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important:源码与public静态页面分离&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1.Make gh-pages the default branch
+
+2.master for content(.md/project)
+
+3.gh-pages for sites(.html)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ff-私密笔记&#34;&gt;FF.私密笔记&lt;/h1&gt;
+
+&lt;p&gt;Hexo是静态页面，无法限制权限&lt;/p&gt;
+
+&lt;p&gt;因此，私密笔记暂时实用BitBucket的Private项目来记录，不借助任何博客系统，直接markdown记录上传.md文件&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux编辑&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Git访问&lt;a href=&#34;https://ryanemax@bitbucket.org/ryanemax/note.git&#34;&gt;https://ryanemax@bitbucket.org/ryanemax/note.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim+Markdown插件&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android客户端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;集成Git访问&lt;a href=&#34;https://ryanemax@bitbucket.org/ryanemax/note.git&#34;&gt;https://ryanemax@bitbucket.org/ryanemax/note.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CodeAnyWhere GooglePlay下载&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

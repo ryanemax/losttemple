@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>极致效率的键位变更 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-02-17">February 17, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+  </div>
+  <h1 class="headline" itemprop="headline">极致效率的键位变更</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<p>极致效率的键位变更</p>
+
+<h1 id="coding常用键位变更">Coding常用键位变更</h1>
+
+<ul>
+<li>Ctrl =&gt; Caps Lock</li>
+<li>Caps Lock =&gt; Ctrl</li>
+</ul>
+
+<h1 id="linux下键位变更">Linux下键位变更</h1>
+
+<h1 id="windows键盘全局替换">Windows键盘全局替换</h1>
+
+<p>可以利用第三方工具，或者直接在注册表中修改键位映射关系</p>
+
+<p>注册表位置：[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] 如果没有此键，就新建一个</p>
+
+<p>新建一个二进制值的Key，名叫：Scancode Map</p>
+
+<p>输入如下的值：</p>
+
+<p>00,00,00,00</p>
+
+<p>00,00,00,00</p>
+
+<p>03,00,00,00</p>
+
+<p>3A,00,1D,00</p>
+
+<p>1D,00,3A,00</p>
+
+<p>00,00,00,00</p>
+
+<p>前两行和最后一行，都是固定的，全部为0。第三行，表示你修改了几个键，其实我们只是改了两个键，不过最后那一行也要算进去，所以是3。</p>
+
+<p>重点是在第四行和第五行。3A00，代表Caps Lock， 1D00，代表Ctrl。这一行，意思即为，将Caps Lock映射为Ctrl</p>
+
+<p>第五行，就不用说了，意思刚好相反。</p>
+
+<p>修改完毕后，重新登录Windows即可生效！</p>
+
+<p>下面附上各个键位值的参考：</p>
+
+<p>Escape 01 00</p>
+
+<p>Tab 0F 00</p>
+
+<p>Caps Lock 3A 00</p>
+
+<p>Left Alt 38 00</p>
+
+<p>Left Ctrl 1D 00</p>
+
+<p>Left Shift 2A 00</p>
+
+<p>Left Windows 5B E0</p>
+
+<p>Right Alt 38 E0</p>
+
+<p>Right Ctr l1D E0</p>
+
+<p>Right Shift 36 00</p>
+
+<p>Right Windows 5C E0</p>
+
+<p>Backspace 0E 00</p>
+
+<p>Delete 53 E0</p>
+
+<p>Enter 1C 00</p>
+
+<p>Space 39 00</p>
+
+<p>Insert 52 E0</p>
+
+<p>HOME 47 E0</p>
+
+<p>End 4F E0</p>
+
+<p>Num Lock 45 00</p>
+
+<p>Page Down 51 E0</p>
+
+<p>Page Up 49 E0</p>
+
+<p>Scroll Lock 46 00</p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

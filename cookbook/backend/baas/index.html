@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>MBaaS产品调研及私有云解决方案草稿 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-08">October 08, 2015</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/backend">backend</a>
+
+        <a href="https://cio.anasit.com/tags/baas">baas</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">MBaaS产品调研及私有云解决方案草稿</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="热门baas简介">热门baas简介</h1>
+
+<p><a href="http://www.techweb.com.cn/network/virtual/2016-01-05/2252623.shtml">应用开发不可不知的五大BaaS后端云服务 </a></p>
+
+<h2 id="baas公有云">baas公有云</h2>
+
+<ul>
+<li>firebase google收购的专业baas服务，完美整合angular2，在华无法使用</li>
+<li>wilddog 国内，仿firebase，api通用</li>
+<li>parse 主要提供移动端推送及统计服务，官方GO，开源版Nodejs</li>
+<li>LeanCloud 国内，仿parse，api通用</li>
+<li>bluemix IBM创办的paas平台，附带baas服务，2016年6月已入华</li>
+</ul>
+
+<h2 id="baas私有云">baas私有云</h2>
+
+<ul>
+<li>appery.io 最完美的HybirdApp云服务MBaaS，配套在线设计IDE，在线Cordova打包</li>
+<li>dreamfactory 针对RESTful APIs的资源控制，基于Laravel+Swagger2</li>
+<li>kinvey</li>
+</ul>
+
+<h1 id="市场分析">市场分析</h1>
+
+<h2 id="对传统开发模式带来的影响">对传统开发模式带来的影响</h2>
+
+<p>前端影响 <a href="https://www.zhihu.com/question/27087120">https://www.zhihu.com/question/27087120</a></p>
+
+<p>后端影响 <a href="https://www.zhihu.com/question/29600252">https://www.zhihu.com/question/29600252</a></p>
+
+<ul>
+<li><p>开发人员的岗位结构发生转型，简化重复的抽象操作，关注业务本身逻辑</p>
+
+<ul>
+<li>前端／客户端＋少许云端js代码</li>
+<li>后台 负责数据的获取（爬虫）分析处理（商业智能）预测判断（机器学习）</li>
+<li>后端的服务化，API化；  前端的多样化，静态化</li>
+</ul></li>
+
+<li><p>页面逐渐应用化。</p></li>
+</ul>
+
+<p>从最早的B/S产品架构看，页面层属于MVC中的V，是由服务端输出的，服务端的输出结果是页面。</p>
+
+<p>［M］－［C］－［V］ ｜ 浏览器</p>
+
+<p>后来逐步AJAX化了之后，也增加了一些输出数据的接口。</p>
+
+<p>［M］－［C］－［V / Data］ ｜ 浏览器</p>
+
+<ul>
+<li>响应式程序，俗称后端的前台 API GET/POST响应</li>
+</ul>
+
+<p>大部分会被baas替代，原因是其逻辑很容易被抽象，即便少许复杂的也可通过云端的js／nodejs搞定</p>
+
+<ul>
+<li>非响应式程序，俗称后端的后台程序</li>
+</ul>
+
+<p>例如自动化运维 机器学习 爬虫 复杂业务数据分析处理 大数据。
+  不会被替代，但会发展更加蓬勃，人才涌入及工作简化。</p>
+
+<h1 id="mbaas-是baas在mobile细分领域的应用">MBaaS 是BaaS在mobile细分领域的应用</h1>
+
+<h2 id="产品结构简介">产品结构简介</h2>
+
+<p>参考 appery.io 整理出一下必备功能模块</p>
+
+<ul>
+<li>App Builder
+
+<ul>
+<li>Cross-Platform Development</li>
+<li>Custom UI Components</li>
+<li>Write Custom JS or CSS</li>
+<li>Model-Based Data Structure</li>
+<li>Advanced Storage Layer</li>
+<li>Source Code Editing</li>
+<li>App Deployment</li>
+<li>Certificate Management</li>
+</ul></li>
+<li>Backend Services
+
+<ul>
+<li>Database</li>
+<li>Push Notifications</li>
+<li>User Management</li>
+<li>File Management</li>
+<li>Visual Web Console</li>
+<li>Instant REST APIs</li>
+<li>Query Editor</li>
+<li>Server Code</li>
+<li>Jobs Scheduler</li>
+<li>Web Hooks</li>
+</ul></li>
+<li>API Express</li>
+</ul>
+
+<h2 id="appbuilder">AppBuilder</h2>
+
+<ul>
+<li>ionic creator
+
+<ul>
+<li>ionic官方开发</li>
+</ul></li>
+<li>appgyver
+
+<ul>
+<li>支持PhoneGap</li>
+<li>与DreamFactory合作</li>
+</ul></li>
+</ul>
+
+<h2 id="backend-services">Backend Services</h2>
+
+<ul>
+<li>DreamFactory
+
+<ul>
+<li>提供RESTful全系列api构建</li>
+<li>缺少push推送功能，缺少即时通信功能</li>
+</ul></li>
+<li>Parse Server+Dashboard
+
+<ul>
+<li>实时推送</li>
+<li>数据分析</li>
+</ul></li>
+<li>firebase</li>
+</ul>
+
+<h1 id="backend-service-评比选型">Backend Service 评比选型</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left">类目</th>
+<th align="left">Firebase</th>
+<th align="left">DreamFactory</th>
+<th align="left">Parse</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">私有部署</td>
+<td align="left">不支持</td>
+<td align="left">免费版开源</td>
+<td align="left">完全开源</td>
+</tr>
+
+<tr>
+<td align="left">导入导出</td>
+<td align="left">-</td>
+<td align="left">可整体导出为.dfpkg2文件</td>
+<td align="left">有</td>
+</tr>
+
+<tr>
+<td align="left">[Auth] 验证体系</td>
+<td align="left">用户User</td>
+<td align="left">用户User+角色Role</td>
+<td align="left">User+Role+Session</td>
+</tr>
+
+<tr>
+<td align="left">[Data/Schema] 数据操作 RESTful</td>
+<td align="left">有</td>
+<td align="left">有</td>
+<td align="left">有</td>
+</tr>
+
+<tr>
+<td align="left">[Storage] 文件存储</td>
+<td align="left">有</td>
+<td align="left">有(多选)</td>
+<td align="left">有</td>
+</tr>
+
+<tr>
+<td align="left">[DB Ext] 数据库扩展性</td>
+<td align="left">无法扩展</td>
+<td align="left">可选用mysql、pgsql等驱动，便于数据库级别接入其他系统</td>
+<td align="left">mongodb</td>
+</tr>
+
+<tr>
+<td align="left">[ng2sdk]</td>
+<td align="left"><a href="https://github.com/angular/angularfire2">angularfire2</a></td>
+<td align="left"><a href="https://github.com/dreamfactorysoftware/angular2-sdk">angular2-sdk</a></td>
+<td align="left">暂无</td>
+</tr>
+
+<tr>
+<td align="left">[Push] 消息推送</td>
+<td align="left">有</td>
+<td align="left">无</td>
+<td align="left">有</td>
+</tr>
+
+<tr>
+<td align="left">[Analytics] APP分析</td>
+<td align="left">有</td>
+<td align="left">无</td>
+<td align="left">有</td>
+</tr>
+
+<tr>
+<td align="left">[Crash Report] 错误反馈</td>
+<td align="left">有</td>
+<td align="left">无</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">[RealTime Communication] 实时通信</td>
+<td align="left">websocket</td>
+<td align="left">无</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2015  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

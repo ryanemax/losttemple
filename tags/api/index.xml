@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/api/index.xml</link>
+    <description>Recent content in Api on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>API领域创业公司及其发展动态浅析</title>
+      <link>https://cio.anasit.com/cookbook/api/apitrends/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <description>
+
+&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;api-生态图解&#34;&gt;API 生态图解&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;位置&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;项目/公司&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MBaaS服务&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;APIs仓库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;apis.guru&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;构建工具链&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mulesoft restlet apigee&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;底层规则&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;raml swagger&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/api-raml-apikit&#34;&gt;使用RAML与APIkit以实现API需求层次中所定义的目标&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-spec-规则制定&#34;&gt;API Spec 规则制定&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/restapi/&#34;&gt;RESTful API规范解决方案评选&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;raml google/mulesoft为背景&lt;/li&gt;
+&lt;li&gt;swagger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api构建工具链&#34;&gt;API构建工具链&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://ryanemax.github.io/cookbook/api/mulesoft/&#34;&gt;MuleSoft，打造RAML的协作平台&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;restlet 基于Java的jax-rs的集大成者，raml、swagger通用&lt;/li&gt;
+&lt;li&gt;mulesoft 基于raml体系&lt;/li&gt;
+&lt;li&gt;apigee 基于swagger体系&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-mbaas服务&#34;&gt;API-MBaaS服务&lt;/h2&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;https://ryanemax.github.io/cookbook/backend/baas/&#34;&gt;MBaaS产品调研及私有云解决方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;li&gt;dreamfactory&lt;/li&gt;
+&lt;li&gt;apicloud&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
+      <description>
+
+&lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
+
+&lt;h2 id=&#34;回顾angularjs-1&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
+
+&lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
+
+&lt;p&gt;Angularjs 1 中可选的数据处理方法有以下三种：
+- $http 框架自带，处理原始HTTP请求
+- $resource 框架自带，对$http进行初步封装
+- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
+
+&lt;h2 id=&#34;调研angularjs-2&#34;&gt;调研AngularJS 2&lt;/h2&gt;
+
+&lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;angular/http&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用参考：&lt;a href=&#34;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&#34;&gt;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  import {Http} from &#39;angular2/http&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;marmelab/restful.js 第三方组件，纯ES6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 535 on &lt;a href=&#34;https://github.com/marmelab/restful.js&#34;&gt;https://github.com/marmelab/restful.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基于ES6开发，Think Restangular without Angular.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # 方式一：npm安装
+  npm install restful.js
+  # 方式二：webpack安装
+  import restful from &#39;restful.js&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paldom/angular2-rest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 94 on &lt;a href=&#34;https://github.com/Paldom/angular2-rest&#34;&gt;https://github.com/Paldom/angular2-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;darekf77/ng2-rest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;angular2-http开发详解&#34;&gt;angular2/http开发详解&lt;/h1&gt;
+
+&lt;h2 id=&#34;参考教程&#34;&gt;参考教程&lt;/h2&gt;
+
+&lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;官方手册&#34;&gt;官方手册&lt;/h2&gt;
+
+&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;使用体验&#34;&gt;使用体验&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
+&lt;li&gt;（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件&lt;/li&gt;
+&lt;li&gt;（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;那么以上三种情景，第三种情景使用频率较高：由于后端&lt;strong&gt;不是规范的REST&lt;/strong&gt;，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。&lt;/p&gt;
+
+&lt;p&gt;因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RAML-Parser各大语言解析器评选</title>
+      <link>https://cio.anasit.com/cookbook/api/raml-paser/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/raml-paser/</guid>
+      <description>
+
+&lt;h1 id=&#34;raml-parser各大语言解析器评选&#34;&gt;《RAML-Parser各大语言解析器评选》&lt;/h1&gt;
+
+&lt;h1 id=&#34;前言-好的解析器是api自动化工具链必备之环&#34;&gt;前言、好的解析器是API自动化工具链必备之环&lt;/h1&gt;
+
+&lt;p&gt;PS:可以直接到底部看结论。&lt;/p&gt;
+
+&lt;p&gt;In the Beginning, I Want to figure out which raml-Parsers is the best.&lt;/p&gt;
+
+&lt;p&gt;RAML一上手，我就打算找一个最适合做生成器的RAML语法解析器。&lt;/p&gt;
+
+&lt;p&gt;It must be frequently updating, support the newest raml version, 0.8 &amp;amp; 1.0.&lt;/p&gt;
+
+&lt;p&gt;首先它的社区必须更新地快，支持最新的RAML版本。&lt;/p&gt;
+
+&lt;p&gt;其次解析器语言处理文本字符串或文件IO性能一定要好，一般大型项目的代码生成。&lt;/p&gt;
+
+&lt;h1 id=&#34;选项-看看目前已经有了那些好用的解析器&#34;&gt;选项、看看目前已经有了那些好用的解析器&lt;/h1&gt;
+
+&lt;p&gt;本文截止：2016/1/29，排名不分先后&lt;/p&gt;
+
+&lt;h2 id=&#34;1-php-raml-parser-https-github-com-alecsammon-php-raml-parser&#34;&gt;1.php-raml-parser &lt;a href=&#34;https://github.com/alecsammon/php-raml-parser&#34;&gt;https://github.com/alecsammon/php-raml-parser&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Support Composer Install
+与Laravel结合会更加紧密&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Not Know whether support raml v1.0
+6 days ago &lt;a href=&#34;https://github.com/alecsammon/php-raml-parser&#34;&gt;https://github.com/alecsammon/php-raml-parser&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parses a RAML file into a PHP object.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2-go-raml-parser-https-github-com-go-raml-raml&#34;&gt;2.go-raml parser &lt;a href=&#34;https://github.com/go-raml/raml&#34;&gt;https://github.com/go-raml/raml&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;最新分支版本:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/buddhamagnet/raml&#34;&gt;https://github.com/buddhamagnet/raml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Compatibility:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Preliminary 1.0 support&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Full 1.0 support&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Additional 0.8 support&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;官方版本:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;fast handling and generate static *.php files&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Too late Version
+a years ago &lt;a href=&#34;https://github.com/go-raml/raml&#34;&gt;https://github.com/go-raml/raml&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;yaml-parser
+可以直接用go的yaml解析库来自己写raml-parser&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;3-go-raml-forked-and-raml-gen&#34;&gt;3.go-raml forked and raml-gen&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/EconomistDigitalSolutions/ramlapi&#34;&gt;https://github.com/EconomistDigitalSolutions/ramlapi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The ramlapi codebase contains two packages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Ramlapi - used to parse a RAML file and wire it up to a router.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ramlgen - used to parse a RAML file and write a set of HTTP handlers.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Compatibility:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Preliminary 1.0 support&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Full 1.0 support&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Additional 0.8 support&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;4-raml-js-parser2&#34;&gt;4.raml-js-parser2&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Support RAML v1.0 Beta
+对RAML1.0新特性支持更加及时&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Newest
+12 days ago &lt;a href=&#34;https://github.com/raml-org/raml-js-parser-2&#34;&gt;https://github.com/raml-org/raml-js-parser-2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;结论-go-raml社区分支版本最佳&#34;&gt;结论：go-raml社区分支版本最佳&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-成熟的可参考代码生成器&#34;&gt;1.成熟的可参考代码生成器&lt;/h2&gt;
+
+&lt;p&gt;基于go-raml成熟的代码生成器，&lt;a href=&#34;https://github.com/EconomistDigitalSolutions/ramlapi&#34;&gt;EconomistDigitalSolutions/ramlapi&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-高效文件处理性能&#34;&gt;2.高效文件处理性能&lt;/h2&gt;
+
+&lt;p&gt;golang并发处理底层文件效率极高，成功案例有，&lt;a href=&#34;https://www.gohugo.io/&#34;&gt;hugo静态博客生成器&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-社区活跃-支持v1-0&#34;&gt;3.社区活跃，支持v1.0&lt;/h2&gt;
+
+&lt;p&gt;分支版本已经支持最新的raml v1.0版本。&lt;a href=&#34;https://github.com/buddhamagnet/raml&#34;&gt;go-raml forked by buddhamagnet&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>raml 1.0 与 raml 0.8区别之处</title>
+      <link>https://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</guid>
+      <description>
+
+&lt;h1 id=&#34;raml-1-0-与-raml-0-8区别之处&#34;&gt;《raml 1.0 与 raml 0.8区别之处》&lt;/h1&gt;
+
+&lt;h1 id=&#34;type与schema&#34;&gt;type与schema&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1.0中新增的type概念类似于Objects对象或Model模型，与0.8中schema对应。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1.0中还出现的schema自动识别为type的别名，以后尽量使用type，schema会被移除。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;行首types:为声明多个type属性，属性下type: string为表示该属性为string类型。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;type: object则说明该属性为对象类型&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-raml&#34;&gt;## 示例：声明一个类型为对象的属性
+types:
+Email:
+type: object
+properties:
+  name:
+    type: string
+  title:
+    type: string
+  forward:
+    type: string
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>golang的restful框架选择</title>
+      <link>https://cio.anasit.com/cookbook/api/golangforrest/</link>
+      <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/golangforrest/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-必备功能&#34;&gt;0.必备功能&lt;/h1&gt;
+
+&lt;p&gt;坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RAML支持&lt;/li&gt;
+&lt;li&gt;CORS支持&lt;/li&gt;
+&lt;li&gt;JSON支持&lt;/li&gt;
+&lt;li&gt;良好的Router机制&lt;/li&gt;
+&lt;li&gt;简单的Controller、Service分离&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ORM支持（最好带migrate）&lt;/p&gt;
+
+&lt;h1 id=&#34;0-1-中间件大搜集&#34;&gt;0.1 中间件大搜集&lt;/h1&gt;
+
+&lt;h2 id=&#34;restgate&#34;&gt;RestGate&lt;/h2&gt;
+
+&lt;p&gt;支持框架：Negroni,Martini,Gin
+为REST API提供endpoints的安全验证机制&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;1-0-gin&#34;&gt;1.0 gin&lt;/h1&gt;
+
+&lt;p&gt;w 279 s 4087 f 395
+&lt;a href=&#34;https://gin-gonic.github.io/gin&#34;&gt;https://gin-gonic.github.io/gin&lt;/a&gt;
+&lt;a href=&#34;https://github.com/gin-gonic/gin&#34;&gt;https://github.com/gin-gonic/gin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REST最佳实践&lt;/strong&gt;
+&lt;a href=&#34;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&#34;&gt;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;api编写简洁&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;x20-x45 fastest than Martini&lt;/p&gt;
+
+&lt;h1 id=&#34;1-1-go-json-rest&#34;&gt;1.1 go-json-rest&lt;/h1&gt;
+
+&lt;p&gt;w 98 s 1816 fork 176&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ant0ine/go-json-rest&#34;&gt;https://github.com/ant0ine/go-json-rest&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;Fast &amp;amp; scalable URL routing&lt;/li&gt;
+&lt;li&gt;Test package to help writing tests&lt;/li&gt;
+&lt;li&gt;routing engine 支持正则&lt;/li&gt;
+&lt;li&gt;检测统计by Memcached&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GORM 支持 migrate&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Middlewares like&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gzip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Auth&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Status&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AccessLogApache&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AccessLogJson&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AuthBasic&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ContentTypeChecker&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JsonIndent&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Jsonp&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PoweredBy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Recorder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Timer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Statsd&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JWT&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AuthToken&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SecureRedirect&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;go get github.com/ant0ine/go-json-rest/rest&lt;/p&gt;
+
+&lt;h1 id=&#34;1-2-echo&#34;&gt;1.2 Echo&lt;/h1&gt;
+
+&lt;p&gt;w 140 s 2326 f 143
+&lt;a href=&#34;https://github.com/labstack/echo&#34;&gt;https://github.com/labstack/echo&lt;/a&gt;
+faster than gin,martini,Negroni&lt;/p&gt;
+
+&lt;h1 id=&#34;1-3-go-relax&#34;&gt;1.3 go-relax&lt;/h1&gt;
+
+&lt;p&gt;w 8 s 105 f 2&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/codehack/go-relax&#34;&gt;https://github.com/codehack/go-relax&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评分 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;遵循ROA原则&lt;/li&gt;
+&lt;li&gt;HATEOAS支持&lt;/li&gt;
+&lt;li&gt;default json, also XML&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;routing engine 支持正则&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;支持的中间件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GZip&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Method override&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Security&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Limits&lt;/p&gt;
+
+&lt;h1 id=&#34;1-4-go-rest&#34;&gt;1.4 go-rest&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ungerik/go-rest&#34;&gt;https://github.com/ungerik/go-rest&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;评分 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Small only three functions: HandleGET, HandlePOST, RunServer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Evil anti-pattern&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;zz-自主开发&#34;&gt;ZZ.自主开发&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.nicolasmerouze.com/build-web-framework-golang/&#34;&gt;https://www.nicolasmerouze.com/build-web-framework-golang/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>raml相关的generator</title>
+      <link>https://cio.anasit.com/cookbook/api/raml-generator/</link>
+      <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/raml-generator/</guid>
+      <description>
+
+&lt;h1 id=&#34;raml-client-generator&#34;&gt;raml-client-generator&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mulesoft/raml-client-generator&#34;&gt;https://github.com/mulesoft/raml-client-generator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;supported languages
+- javascript&lt;/p&gt;
+
+&lt;h1 id=&#34;raml-for-jax-rs&#34;&gt;raml-for-jax-rs&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mulesoft/raml-for-jax-rs&#34;&gt;https://github.com/mulesoft/raml-for-jax-rs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java for JAX-RS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;raml2code&#34;&gt;raml2code&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gextech/raml2code&#34;&gt;https://github.com/gextech/raml2code&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;raml2code-groovy-pojo&lt;/li&gt;
+&lt;li&gt;raml2code-jaxrs-interfaces&lt;/li&gt;
+&lt;li&gt;raml2code-js-client&lt;/li&gt;
+&lt;li&gt;raml2code-retrofit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;raml-about-golang&#34;&gt;raml about golang&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://forum.raml.org/t/go-based-raml-parser/592/2&#34;&gt;http://forum.raml.org/t/go-based-raml-parser/592/2&lt;/a&gt;
+- &lt;a href=&#34;https://godoc.org/gopkg.in/raml.v0&#34;&gt;https://godoc.org/gopkg.in/raml.v0&lt;/a&gt;
+- &lt;a href=&#34;https://github.com/go-raml/raml/tree/v0&#34;&gt;https://github.com/go-raml/raml/tree/v0&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;raml-for-php&#34;&gt;raml for php&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;phpsx.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/k42b3/psx&#34;&gt;https://github.com/k42b3/psx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Logic层，分离service&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Table自动创建sql表的CRUD&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Multi-Response Generation(Controoler,Json,XML,Atom,Soap,Jsonx)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dependency managment(PSX comes with an fast DI container which implements the Symfony DI container interface)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Restlet，当java遇见RESTfulAPIs</title>
+      <link>https://cio.anasit.com/cookbook/api/restlet-java/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/restlet-java/</guid>
+      <description>
+
+&lt;h1 id=&#34;那么java最潮流的restful-api开发框架及模式是什么&#34;&gt;那么java最潮流的RESTful API开发框架及模式是什么&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;jersey&lt;/li&gt;
+&lt;li&gt;jax-rs&lt;/li&gt;
+&lt;li&gt;maven&lt;/li&gt;
+&lt;li&gt;jetty&lt;/li&gt;
+&lt;li&gt;swagger 2.x&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;最佳规范jax-rs&#34;&gt;最佳规范jax-rs&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/felixjia/p/3608718.html&#34;&gt;zt 比较各JAX-RS实现：CXF,Jersey,RESTEasy,Restlet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/yjmyzz/p/javaee-jax-rs-tutorial.html&#34;&gt;java 利用JAX-RS快速开发RESTful 服务&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Restlet生成后端代码采用swagger-jersey-jaxrs组合&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;restlet套件-基于raml-swagger及jax-rs&#34;&gt;Restlet套件(基于RAML、Swagger及jax-rs)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://restlet.com/projects/restlet-framework/&#34;&gt;https://restlet.com/projects/restlet-framework/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;构建后台项目基本步骤&#34;&gt;构建后台项目基本步骤&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;API Studio开发API&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;导出服务端项目&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;启动项目&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # for swagger-jersy-jaxrs
+  ## 运行调试
+  mvn clean package jetty:deploy-war
+  ## 部署war包
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;查看并测试api&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  http://localhost:80/api/swagger.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;当前后端代码生成器的功能&#34;&gt;当前后端代码生成器的功能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Path 请求路由生成&lt;/li&gt;
+&lt;li&gt;Type/Representations 数据结构生成&lt;/li&gt;
+&lt;li&gt;Factory/impl 工厂模式文件结构生成&lt;/li&gt;
+&lt;li&gt;未完成：统一Json响应接口，需自主开发&lt;/li&gt;
+&lt;li&gt;未完成：数据库迁移，需自主开发&lt;/li&gt;
+&lt;li&gt;未完成：数据层处理逻辑，需自主开发&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;为restlet-jax-rs版提供数据层集成&#34;&gt;为restlet jax-rs版提供数据层集成&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;思路一：采用直接通过maven引入原始JPA包&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ibm.com/developerworks/cn/web/wa-datawebapp/&#34;&gt;使用 JAX-RS、JPA 和 Dojo 创建丰富的以数据为中心的 web 应用程序&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;思路二：在jersy框架中寻找解决方案&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jersey.java.net/&#34;&gt;官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.codingpedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/&#34;&gt;Tutorial – REST API design and implementation in Java with Jersey and Spring&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://waylau.com/jersey-mysql5-hibernate4/&#34;&gt;用Jersey构建RESTful服务5&amp;ndash;Jersey+MySQL5.6+Hibernate4.3&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
+      <link>https://cio.anasit.com/cookbook/api/mulesoft/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/mulesoft/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-mulesoft与raml&#34;&gt;0. MuleSoft与RAML&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MuleSoft专注企业Saas集成，获5000亿美元估值&lt;/li&gt;
+&lt;li&gt;开源3个RAML的API设计、测试、自动化工具&lt;/li&gt;
+&lt;li&gt;联合Angularjs等诸多团队为RAML作出贡献&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;官网注册：ryanemax Ixxxol&lt;/p&gt;
+
+&lt;h1 id=&#34;1-相关工具总览&#34;&gt;1. 相关工具总览&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mulesoft.com/anypoint-platform#connectors&#34;&gt;https://developer.mulesoft.com/anypoint-platform#connectors&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;anypoint-exchange-collaborate-reuse-and-win&#34;&gt;Anypoint Exchange: Collaborate,reuse and win&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;www.mulesoft.com/exchange&lt;/li&gt;
+&lt;li&gt;丰富的API案例、模板、连接器&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mule-community-the-unified-runtime-that-started-it-all&#34;&gt;Mule Community: the unified runtime that started it all&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mulesoft.com/download-mule-esb-runtime&#34;&gt;https://developer.mulesoft.com/download-mule-esb-runtime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Deploy anywhere&lt;/li&gt;
+&lt;li&gt;Mule 3.7.0 runtime&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;anypoint-studio&#34;&gt;Anypoint Studio&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;award winning IDE that makes it easy to design and build integrations&lt;/li&gt;
+&lt;li&gt;bundled with the 3.7.0 Enterprise Runtime&lt;/li&gt;
+&lt;li&gt;based on eclipse&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;anypoint-api-designer&#34;&gt;Anypoint API Designer&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开源&lt;a href=&#34;https://github.com/mulesoft/api-designer&#34;&gt;https://github.com/mulesoft/api-designer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;带语法提醒的RAML编辑平台&lt;/li&gt;
+&lt;li&gt;AngularJs编写，可作为编辑器嵌入Web&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-console&#34;&gt;api-console&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开源&lt;a href=&#34;https://github.com/mulesoft/api-consoler&#34;&gt;https://github.com/mulesoft/api-consoler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;通过CORS运行.raml文件用于测试&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;esb-solutions-free-30-days&#34;&gt;ESB Solutions(free 30 days)&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
+      <link>https://cio.anasit.com/cookbook/api/newforraml/</link>
+      <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/newforraml/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-0-前言&#34;&gt;0.0 前言&lt;/h1&gt;
+
+&lt;p&gt;自己的团队是以Agile敏捷管理方式构建的，为了前后端的分离，使各端工程师更加专注得进行自己所负责的模块与功能。&lt;/p&gt;
+
+&lt;p&gt;好用的东西整理在前面：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;restclient #restclient.net
+#restful客户端模拟测试，有firefox、chrome插件
+
+RAMLang #https://github.com/syple/generator-ramlang
+#RAMLang is a simple, easy-to-use command line tool. It&#39;s main goal is to provide AngularJS services to help communicate with RESTful API&#39;s.
+#生成AngularJS
+
+Restlet Studio #http://restlet.com/products/restlet-studio/
+#开发RESTful API，生成Server（Java/Node.js）、ClientSDK（Android/Java/Obj-C/AngularJS）
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;0-1-第一阶段&#34;&gt;0.1 第一阶段&lt;/h2&gt;
+
+&lt;h3 id=&#34;初步探索更有效-便捷的开发方式&#34;&gt;初步探索更有效、便捷的开发方式&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Xmind #思维导图  
+MediaWiki #手熟的wiki系统
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;一开始系统设计，遵循API模式，团队内部总结JSON数据的格式及安全机制，API由Xmind的思维导图作出，而开发完成的API由开发人员在MediaWiki编写。这个阶段团队可以相对直观得设计API（思维导图），可以在开发后有效查询API（MediaWiki）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;缺陷：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;1.Ximd与MediaWiki属于重复工作&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;2.Xmind无法以Json形式清晰罗列各种API的&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;0-2-第二阶段&#34;&gt;0.2 第二阶段&lt;/h2&gt;
+
+&lt;h3 id=&#34;进一步减少api设计及整理的重复工作&#34;&gt;进一步减少API设计及整理的重复工作&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    RESTful Web APIs #解惑的书籍，看了这本才决定去学习restful规范，以此改进自己的轮子  
+    RAML #RESTful API Modeling Language
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在学习RESTful Web APIs书之后，更加明白了RAML的重要性，不但在书写设计API时有更多的规范可以参考，更重要的是，RAML可自由转换成Wiki及HTML页面，无需重复的写入工作。&lt;/p&gt;
+
+&lt;h2 id=&#34;0-3-疑问与探索&#34;&gt;0.3 疑问与探索&lt;/h2&gt;
+
+&lt;h3 id=&#34;继续hack掉存在麻烦或者疑惑的工作&#34;&gt;继续hack掉存在麻烦或者疑惑的工作&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Ask 1.RAML生成的wiki及html无法进行权限控制，如何分级来对外发布记载API的Wiki？&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ask 2.RAML是相对规范有规律的，那么如何与后台语言更高效结合，自动生成CURD？&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

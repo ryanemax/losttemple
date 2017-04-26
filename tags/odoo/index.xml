@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odoo on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/odoo/index.xml</link>
+    <description>Recent content in Odoo on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Odoo9会计模块常见问题</title>
+      <link>https://cio.anasit.com/faq/odoo/faq-accounting/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/faq-accounting/</guid>
+      <description>
+
+&lt;h1 id=&#34;货币选项中无cny&#34;&gt;货币选项中无CNY&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;货币——CNY——未设置为有效&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&#34;&gt;http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66&lt;/a&gt;
+任务——会计——货币中将CNY设为有效&lt;/p&gt;
+
+&lt;h1 id=&#34;开启会计科目后-导致销售人员无法添加客户&#34;&gt;开启会计科目后，导致销售人员无法添加客户&lt;/h1&gt;
+
+&lt;h2 id=&#34;错误提示&#34;&gt;错误提示&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&#34;&gt;https://www.odoo.com/forum/help-1/question/the-following-fields-are-invalid-account-receivable-account-payable-49409&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/resolved-the-following-fields-are-invalid-account-receivable-account-payable-75878&#34;&gt;https://www.odoo.com/forum/help-1/question/resolved-the-following-fields-are-invalid-account-receivable-account-payable-75878&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;下列字段无效：
+    应收账款
+      应付账款
+
+The following fields are invalid:
+    Account Receivable
+    Account Payable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;开启会计后，&lt;/p&gt;
+
+&lt;p&gt;客户——会计栏目——分类帐分录——需要设置&lt;/p&gt;
+
+&lt;p&gt;但销售人员无权限设置，导致了缺少字段&lt;/p&gt;
+
+&lt;p&gt;官方解释：Accounts Receivable &amp;amp; Payable&lt;/p&gt;
+
+&lt;p&gt;By default, Odoo uses a single account for all account receivable entries and one for all accounts payable entries. You can create separate accounts per customers/suppliers, but you don&amp;rsquo;t need to.&lt;/p&gt;
+
+&lt;p&gt;As transactions are associated to customers or suppliers, you get reports to perform analysis per customer/supplier such as the customer statement, revenues per customers, aged receivable/payables, &amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案-1&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;1.设置可选的应付应收账款&lt;/p&gt;
+
+&lt;p&gt;安装会计科目表l10n_cn&lt;/p&gt;
+
+&lt;p&gt;会计——科目表——新建科目&lt;/p&gt;
+
+&lt;p&gt;默认应收账款 dr Receivable&lt;/p&gt;
+
+&lt;p&gt;默认应付账款 dp Payable&lt;/p&gt;
+
+&lt;p&gt;2.设置为默认自动选择&lt;/p&gt;
+
+&lt;p&gt;设置——关于——Acivate the developer mode.&lt;/p&gt;
+
+&lt;p&gt;打开新增公司——会计页面——填写默认账款科目&lt;/p&gt;
+
+&lt;p&gt;右上调试栏目——Set Defaults&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Account Payable = dp 默认应付账款&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Account Receivable = dr 默认应收账款&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All Users&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9入门学习手册</title>
+      <link>https://cio.anasit.com/faq/odoo/learn/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;使用手册&#34;&gt;使用手册&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/documentation/user/9.0/&#34;&gt;https://www.odoo.com/documentation/user/9.0/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;资料站点&#34;&gt;资料站点&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.oejia.net/&#34;&gt;http://www.oejia.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shine-it.net&#34;&gt;http://shine-it.net&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9多域名如何解析多数据库</title>
+      <link>https://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+      <description>
+
+&lt;h1 id=&#34;odoo9多域名解析多数据库规则&#34;&gt;Odoo9多域名解析多数据库规则&lt;/h1&gt;
+
+&lt;h1 id=&#34;配置文件&#34;&gt;配置文件&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## Debian
+/etc/odoo/openerp-server.conf
+
+dbfilter = ^%d$          
+# 即取 OE WEB访问时取地址栏上 域名的第末子域.   
+# 即  http://db001.openerp.com  访问时, 会自动设置为 dbfilter = db001
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;源码&#34;&gt;源码&lt;/h1&gt;
+
+&lt;p&gt;部分情况配置文件无法生效，是由于：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## /openerp/tools/config.py 文件
+group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;quot;, default=&#39;.*&#39;,
+                 help=&amp;quot;Filter listed database&amp;quot;, metavar=&amp;quot;REGEXP&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这个 default=&amp;lsquo;.*&amp;rsquo; 将配置文件中的设置又盖掉了，将其改为：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;group.add_option(&amp;quot;--db-filter&amp;quot;, dest=&amp;quot;dbfilter&amp;quot;, my_default=&#39;.*&#39;,
+                 help=&amp;quot;Filter listed database&amp;quot;, metavar=&amp;quot;REGEXP&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后配置文件即可生效&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9有哪些优秀第三方模块</title>
+      <link>https://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
+      <description>
+
+&lt;h1 id=&#34;payment支付-odoo-8-0&#34;&gt;Payment支付 odoo 8.0&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/odoo-cn/payment&#34;&gt;https://github.com/odoo-cn/payment&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;alipay 支付宝 [done]&lt;/li&gt;
+&lt;li&gt;tenpay 财付通 [done]&lt;/li&gt;
+&lt;li&gt;chinabank 银联&lt;/li&gt;
+&lt;li&gt;weixin 微信支付 [done]&lt;/li&gt;
+&lt;li&gt;allPay 台湾欧付宝 [done]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;声明&lt;/p&gt;
+
+&lt;p&gt;未经许可，不得用于商业用途！！&lt;/p&gt;
+
+&lt;h1 id=&#34;微信-odoo-8-0&#34;&gt;微信 odoo 8.0&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/JoneXiong/oejia_wx&#34;&gt;https://github.com/JoneXiong/oejia_wx&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9系统设置栏目常见问题</title>
+      <link>https://cio.anasit.com/faq/odoo/faq-system/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/faq-system/</guid>
+      <description>
+
+&lt;h1 id=&#34;无法保存照片-无法发送邮件&#34;&gt;无法保存照片/无法发送邮件&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&#34;&gt;https://www.odoo.com/forum/help-1/question/cant-upload-images-905&lt;/a&gt;
+无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在&lt;/p&gt;
+
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;413 Request Entity Too Large
+nginx/1.6.2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;nginx 大文件配置问题&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;在上传时nginx返回了413错误，查看log文件，显示的错误信息是:”413 Request Entity Too Large”, 需要做以下设 置：&lt;/p&gt;
+
+&lt;p&gt;打开nginx主配置文件nginx.conf，找到http{}段，增加 client_max_body_size的相关设置, 这个值默认是1m，可以增加到3m以增加提高文件大小限制；&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 在http，server或者location段修改下面的配置：
+# set client body size to 8M #
+client_max_body_size 8M;
+# 其他可选项 #
+client_max_body_size    3m;
+client_body_buffer_size  128k;
+proxy_connect_timeout    600;
+proxy_read_timeout      600;
+proxy_send_timeout      6000;
+proxy_buffer_size        16k;
+proxy_buffers            4 64k;
+proxy_busy_buffers_size 64k;
+proxy_temp_file_write_size 64k;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;如果运行的是php，那么还要检查php.ini，这个大小client_max_body_size要和php.ini中的如下值的最大值一致或者稍大，这样就不会因为提交数据大小不一致出现的错误。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;post_max_size = 6M
+upload_max_filesize = 2M
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;python的pip有的包过旧&#34;&gt;Python的pip有的包过旧&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析-1&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;p&gt;pip包过老需要升级，以下包：
+- Pillow&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案-1&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;一行命令升级所有pip安装的Python包&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip freeze --local | grep -v &#39;^\-e&#39; | cut -d = -f 1  | xargs pip install -U
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;建议在执行前先执行：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install -U distribute
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2015年10月21日补充：
+由于使用了mysql-connector-python的包，在安装时要使用 &amp;ndash;allow-external mysql-connector-python 参数，所以在升级时，也应该加上该参数，命令行为：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install -U distribute &amp;amp;&amp;amp; pip freeze --local | grep -v &#39;^\-e&#39; | cut -d = -f 1  | xargs pip install -U --allow-external mysql-connector-python
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;解决方案-2&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;h1 id=&#34;odoo-警告-邮件投递失败&#34;&gt;Odoo 警告 - 邮件投递失败&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Mail delivery failed via SMTP server &#39;smtp.mxhichina.com&#39;.
+SMTPSenderRefused: 440
+mail from account doesn&#39;t conform with authentication (Auth Account:info@anasit.com|Mail Account:postmaster-odoo@anasit.com)
+postmaster-odoo@anasit.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;为何出现postmaster-odoo@anasit.com邮箱地址？&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案-3&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;p&gt;1 .增加邮箱账号“postmaster-odoo@anasit.com”&lt;/p&gt;
+
+&lt;p&gt;2.在addons\base\ir\ir_mail_server.py第381行，改“postmaster-odoo”为已存在的邮件账号，如“sales”、“info”&lt;/p&gt;
+
+&lt;p&gt;以上方法二选一即可.&lt;/p&gt;
+
+&lt;h1 id=&#34;设置默认值-十分实用&#34;&gt;设置默认值——十分实用&lt;/h1&gt;
+
+&lt;p&gt;设置——关于——Acivate the developer mode.&lt;/p&gt;
+
+&lt;p&gt;打开字段所在页面&lt;/p&gt;
+
+&lt;p&gt;右上调试栏目——Set Defaults&lt;/p&gt;
+
+&lt;p&gt;选择默认值项目&lt;/p&gt;
+
+&lt;p&gt;选择默认值范围：All Users&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Odoo9销售模块常见问题</title>
+      <link>https://cio.anasit.com/faq/odoo/faq-sales/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/faq-sales/</guid>
+      <description>
+
+&lt;h1 id=&#34;系列产品可设置不同标价-但无法设置不同成本&#34;&gt;系列产品可设置不同标价，但无法设置不同成本&lt;/h1&gt;
+
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
+
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

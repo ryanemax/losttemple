@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/vim/index.xml</link>
+    <description>Recent content in Vim on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>用于angular2项目开发的vim环境配置及插件</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;可用于ng2开发的ide评比&#34;&gt;可用于ng2开发的IDE评比&lt;/h1&gt;
+
+&lt;h2 id=&#34;intellij-idea-ce-2016-1-1&#34;&gt;intellij idea ce 2016.1.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 差
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;es6 完全不支持ES6，安装es6插件无效&lt;/li&gt;
+&lt;li&gt;ng2 完全不支持angular2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 差
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 差&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;webstorm-2016-2-1&#34;&gt;WebStorm 2016.2.1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;语法编辑 较好
+
+&lt;ul&gt;
+&lt;li&gt;html/css emmet支持，默认补全&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;项目特性 较好
+
+&lt;ul&gt;
+&lt;li&gt;Rafactor 无法识别任何关联文件、命名、变量&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;辅助工具 较好
+
+&lt;ul&gt;
+&lt;li&gt;gulp 小工具&lt;/li&gt;
+&lt;li&gt;RESTful Client 小工具&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;用于开发angular2的vim环境配置及插件&#34;&gt;用于开发angular2的vim环境配置及插件&lt;/h1&gt;
+
+&lt;p&gt;参考 &lt;a href=&#34;http://cnodejs.org/topic/55fe3254272b724e5efefb26&#34;&gt;http://cnodejs.org/topic/55fe3254272b724e5efefb26&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/isRuslan/vim-es6&#34;&gt;https://github.com/isRuslan/vim-es6&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vim实用技巧实践</title>
+      <link>https://cio.anasit.com/cookbook/tool/vimbest/</link>
+      <pubDate>Sat, 17 Oct 2015 04:41:31 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vimbest/</guid>
+      <description>
+
+&lt;h1 id=&#34;实用技巧&#34;&gt;实用技巧&lt;/h1&gt;
+
+&lt;p&gt;删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？&lt;/p&gt;
+
+&lt;p&gt;清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下backspace？&lt;/p&gt;
+
+&lt;p&gt;给一行末尾补分号，A; 不就好了，为什么还要鼠标移过去末尾点一下然后按下; ？&lt;/p&gt;
+
+&lt;p&gt;然后给n行末尾补分号，Vjj*选中多行 :normal . 不就好了， 为什么要鼠标一个一个点了然后一个个补？&lt;/p&gt;
+
+&lt;p&gt;复制a行插入到b行后， dd掉a行在b行那按下p不就好了。 为什么要鼠标选中a，ctrl+x ，然后到b的末尾按下回车，然后ctrl-v ？&lt;/p&gt;
+
+&lt;h1 id=&#34;vim-比较文件-多窗口操作&#34;&gt;vim 比较文件/多窗口操作&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim -d file1 file2 ...  #垂直打开多窗口,并且进行比较
+vimdiff file1 file2 ..  #等同于上一句
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;打开多个窗口的命令以下几个：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;	#横向切割窗口
+:new+窗口名(保存后就是文件名)
+	:split+窗口名，也可以简写为:sp+窗口名
+	 #纵向切割窗口名
+	 :vsplit+窗口名，也可以简写为：vsp+窗口名
+
+	 vim -o file1 file2 ...  #水平打开多窗口，
+	 vim -O file1 file2 ...  #垂直打开多窗口,
+	 vim -d file1 file2 ...  #垂直打开多窗口,并且进行比较
+	 vimdiff file1 file2 ..  #等同于上一句
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;关闭多窗口
+可以用：q!，也可以使用：close，最后一个窗口不能使用close关闭。使用close只是暂时关闭窗口，其内容还在缓存中，只有使用q!、w!或x才能真能退出。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt; #关闭窗口
+     q  或 close   #关闭当前窗口
+     only          #保留当前窗口，关闭其它所有窗口
+     qall(qa)          #退出所有窗口
+     wall          #保存所有窗口
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;窗口切换&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ctrl+w+j/k #通过j/k可以上下切换，或者:ctrl+w加上下左右键，还可以通过快速双击ctrl+w依次切换窗口。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;多标签
+直接在编辑的时候输入：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim -p 要编辑的文件名
+#如vim -p * 就是编辑当前目录的所有文件
+#多个标签间进行切换时向右切换gt，向左切换用gT
+#在编辑的时候想增加一个标签就可以:tabnew filename
+:tabc       关闭当前的tab
+:tabo       关闭所有其他的tab
+:tabs       查看所有打开的tab
+:tabp      前一个
+:tabn      后一个
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;vim代开hexl十六进制模式&#34;&gt;vim代开HEXl十六进制模式&lt;/h1&gt;
+
+&lt;p&gt;Same as hex, just pass -b flag to xxd:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;:%!xxd -b
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;vim中执行shell命令&#34;&gt;vim中执行shell命令&lt;/h1&gt;
+
+&lt;p&gt;1):!command
+不退出vim，并执行shell命令command，将命令输出显示在vim的命令区域，不会改变当前编辑的文件的内容
+例如
+:!ls -l&lt;/p&gt;
+
+&lt;p&gt;特别的可以运行:!bash来启动一个bash shell并执行命令，不需要退出vim
+2):r !command
+将shell命令command的结果插入到当前行的下一行
+例如
+:r !date，读取系统时间并插入到当前行的下一行。
+3):起始行号,结束行号 !command
+将起始行号和结束行号指定的范围中的内容输入到shell命令command处理，并将处理结果替换起始行号和结束行号指定的范围中的内容
+例如
+:62,72 !sort，将62行到72行的内容进行排序
+可以只指定起始行，例如:62 !tr [a-z] [A-Z]，将62行的小写字母转为大写字母
+当前光标所在行，除可以指定行号外，也可以用.表示，例如:. !tr [a-z] [A-Z]，将当前行的小写转为大写
+4):起始行号,结束行号 w !command
+将起始行号和结束行号所指定的范围的内容作为命令command的输入。不会改变当前编辑的文件的内容
+例如
+:62,72 w !sort，将62行到72行的内容进行排序，但排序的结果并不会直接输出到当前编辑的文件中，而是显示在vim敲命令的区域
+特殊的可以下面这么用
+:62 w !bash，将会把第62行的内容作为bash命令来执行并显示结果，而且不会改变当前编辑的文件的内容
+同样的:. w !bash，将当前行的内容作为bash命令来执行
+例如52行内容为ls -l
+那么输入:52 w !bash就跟执行!ls -l是一样的效果，如果你用的shell是bash shell&lt;/p&gt;
+
+&lt;p&gt;如果输入的是:52 !bash，那么会把第52行的内容也就是ls -l作为命令执行，同时命令的输出结果会替换第52行的内容，注意其中的区别。&lt;/p&gt;
+
+&lt;h1 id=&#34;多行编辑&#34;&gt;多行编辑&lt;/h1&gt;
+
+&lt;h2 id=&#34;原生列模式-多行注释&#34;&gt;原生列模式(多行注释)&lt;/h2&gt;
+
+&lt;p&gt;多行注释按键操作：
+      注释：Ctrl-v 进入列编辑模式，向下或向上移动光标，把需要注释的行的开头标记起来，然后按大写的I，再插入注释符比如&amp;rdquo;#&amp;ldquo;，按Esc，就会全部注释了。
+      删除：Ctrl-v 进入列编辑模式，向下或向上移动光标，选中注释部分，按d，就会删除注释符号。&lt;/p&gt;
+
+&lt;p&gt;多行注释使用替换命令：
+            :%s/^/\/\//g来在全部内容的行首添加//号注释
+             :2,50s/^/\/\//g在2~50行首添加//号注释
+            反过来替换既是删除操作。&lt;/p&gt;
+
+&lt;h2 id=&#34;多行标记插件&#34;&gt;多行标记插件&lt;/h2&gt;
+
+&lt;h1 id=&#34;vim单文件操作&#34;&gt;VIM单文件操作&lt;/h1&gt;
+
+&lt;h2 id=&#34;光标定位快捷键&#34;&gt;光标定位快捷键&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;到指定行  :行号，行号G
+ 到文件头 1G
+ 到文件尾 G
+ 左下上右 h,j,k,l
+ 下一个字 w，上一个字 b   
+ 到行首   ^
+ 到行尾   $
+ 行尾插入 A，添加空行 o
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;在函数中定位光标&#34;&gt;在函数中定位光标&lt;/h2&gt;
+
+&lt;p&gt;[[  转到上一个位于第一列的“{”
+]]  转到下一个位于第一列的“{”
+{   转到上一个空行
+}   转到下一个空行&lt;/p&gt;
+
+&lt;h2 id=&#34;查找当前文件&#34;&gt;查找当前文件&lt;/h2&gt;
+
+&lt;p&gt;n,N       查找到key后，n跳到后一个位置，N跳到前一个位置&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;, #     当前光标所在的词key作为关键字，精确匹配查找，相当于/&amp;lt;key&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;g*, g#    当前光标所在的词key作为关键字，忽略大小写查找，相当于/key
+/key      从当前光标位置开始向后查找key&lt;/p&gt;
+
+&lt;p&gt;?key      从当前光标位置开始向前查找key
+/&amp;lt;key&amp;gt;，?&amp;lt;key&amp;gt;  精确匹配查找key&lt;/p&gt;
+
+&lt;h2 id=&#34;批量替换&#34;&gt;批量替换&lt;/h2&gt;
+
+&lt;p&gt;:%s/要被取代的字串/新的字串/g&lt;/p&gt;
+
+&lt;h2 id=&#34;复制粘贴删除&#34;&gt;复制粘贴删除&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;  复制行 yy    复制n行 nyy
+  粘贴行 p
+  删除行 dd    删除n行 ndd
+  删除字 dw    复制字  yw
+
+  可视块选择复制：
+         进入可视化模式 v，V，Ctrl-v
+         可视化模式下，方向键选择块
+         按y复制选择的块
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vim-go最佳实践</title>
+      <link>https://cio.anasit.com/cookbook/tool/vim-go/</link>
+      <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vim-go/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-使用方法&#34;&gt;0.使用方法&lt;/h1&gt;
+
+&lt;p&gt;gd  进入函数原始定义文件查看
+Ctrl + N
+Ctrl + P&lt;/p&gt;
+
+&lt;h1 id=&#34;1-常见faq&#34;&gt;1.常见FAQ&lt;/h1&gt;
+
+&lt;h2 id=&#34;ycm-第三方包没办法自动补全问题&#34;&gt;YCM,第三方包没办法自动补全问题&lt;/h2&gt;
+
+&lt;p&gt;1.环境变量没有设置完整
+设置正确环境变量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export GOROOT=/usr/lib/go
+export GOPATH=/root/workspace/goProjects
+export GOBIN=$GOPATH/bin
+export GOTOOLS=$GOROOT/pkg/tool
+export PATH=$PATH:$GOBIN:$GOTOOLS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.工具没有装全
+vim中运行如下命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#1.自动安装
+:GoInstallBinaries
+#2.手动安装(墙外)
+export http_proxy=http://10.0.2.2:8118
+export https_proxy=http://10.0.2.2:8118
+
+go get -u golang.org/x/tools/cmd/goimports &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/cmd/oracle &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/cmd/gorename &amp;amp;&amp;amp; \
+go get -u github.com/golang/lint/golint &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/gcimporter &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/types &amp;amp;&amp;amp; \
+go get -u github.com/kisielk/errcheck &amp;amp;&amp;amp; \
+go get -u golang.org/x/tools/go/loader
+
+https://github.com/bradfitz/goimports
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;2-基础环境配置&#34;&gt;2.基础环境配置&lt;/h1&gt;
+
+&lt;h2 id=&#34;vim-编辑器&#34;&gt;vim //编辑器&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Vim&#34;&gt;https://wiki.archlinux.org/index.php/Vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;vundle-vim包管理器&#34;&gt;vundle //Vim包管理器&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gmarik/Vundle.vim&#34;&gt;https://github.com/gmarik/Vundle.vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;gocode-语法&#34;&gt;gocode //语法&lt;/h2&gt;
+
+&lt;p&gt;Add the following line to your .vimrc:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;quot; ================================
+ &amp;quot; set diy configuration by Ryane
+ &amp;quot; ================================
+ &amp;quot; set golang
+ Plugin &#39;nsf/gocode&#39;, {&#39;rtp&#39;: &#39;vim/&#39;}
+ :syntax on
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;安装后执行:PluginInstall进行下载安装&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ultisnips&#39;s md实用经验</title>
+      <link>https://cio.anasit.com/cookbook/tool/vim-ultisnips/</link>
+      <pubDate>Fri, 18 Sep 2015 04:27:55 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vim-ultisnips/</guid>
+      <description>
+
+&lt;h1 id=&#34;添加文档类型识别-vim-ftdetect-mkd-md&#34;&gt;添加文档类型识别 ~/.vim/ftdetect/mkd.md&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-vim&#34;&gt;autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;添加自定义代码段-markdown-ryn-snippets&#34;&gt;添加自定义代码段 markdown_ryn.snippets&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

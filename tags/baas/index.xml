@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baas on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/baas/index.xml</link>
+    <description>Recent content in Baas on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/baas/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;iot&#34;&gt;IOT&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;waston&#34;&gt;Waston&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile&#34;&gt;Mobile&lt;/h1&gt;
+
+&lt;p&gt;总评：弱势但不乏亮点&lt;/p&gt;
+
+&lt;p&gt;Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，暂时无法广泛应用于生产环境。&lt;/p&gt;
+
+&lt;p&gt;部分消息推送、用户分析、统计服务，可尝试性接入产品进行试用，以便于对接Bluemix大数据服务项目。&lt;/p&gt;
+
+&lt;h2 id=&#34;消息推送服务-push-notifications&#34;&gt;消息推送服务：Push Notifications&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆☆☆☆
+- 价格实惠、客户端SDK完善
+- 略优于市面上混杂的推送服务&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;费用参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月前一百万条数字消息（推送通知）免费&lt;/li&gt;
+&lt;li&gt;US$ 1.05 USD/百万条数字消息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PN&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;极光&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;推送方式&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM、Chrome、Firefox&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;APNs、GCM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;广播推送&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;标签分组&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;需开发&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;并发&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;自主扩容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 功能贫瘠，无法替代firebase、parse.com等专业MBaaS服务
+- 缺少权限控制，需要自主编写逻辑
+- 数据库无法独立部署，后期拓展限制较大&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;类似Mongodb的Collections，用于存放数据对象的集合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据对象设计，可自定义数据对象成员属性及字段&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MACM收费参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;| -     | 功能 | 价格 |
+| :&amp;mdash;- | :&amp;mdash;- | :- |
+| 免费套餐  | 无 | 无 |
+| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
+| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
+| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对比ParsePlatform&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;MACM&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;可选数据库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mongodb/postgresql&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;功能&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;简单的对象存储，无详尽的权限机制&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;对象存储、角色权限等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;前端ui-app-快速构建工具-kinetise&#34;&gt;前端UI（APP）快速构建工具：Kinetise&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 成熟度，无法替代Ionic Creator及APICloud等前端快速构建平台
+- 可作为初学练习，快速成型Demo的构建
+- 可导出项目源码，后续优化可自行编程&lt;/p&gt;
+
+&lt;h2 id=&#34;twilio-mobile-analytics-mobile-client-access-mobile-quality-assurance&#34;&gt;Twilio/Mobile Analytics/Mobile Client Access/Mobile Quality Assurance&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;待测试&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在Bluemix上搭建parse-server服务</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/bluemix/2016/02/01/migrating-from-parse-to-bluemix/&#34;&gt;Migrating from Parse to Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
+cf push Your-App-Name-On-Bluemix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建Cloud Foundry应用
+
+&lt;ul&gt;
+&lt;li&gt;选择Web Application&lt;/li&gt;
+&lt;li&gt;但不选择任何移动服务（Mobile Client Access等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;选择SDK for Node.js
+
+&lt;ul&gt;
+&lt;li&gt;APP Name 起名 parse-on-bluemix&lt;/li&gt;
+&lt;li&gt;点击完成/FINISH&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创建MongoDB实例（或直接使用已有数据库）
+
+&lt;ul&gt;
+&lt;li&gt;在parse-on-bluemix中选择，ADD A SERVICE OR API&lt;/li&gt;
+&lt;li&gt;寻找分类 Data and Analytics&lt;/li&gt;
+&lt;li&gt;选择新建 MongoDB by Compose&lt;/li&gt;
+&lt;li&gt;按需配置&lt;/li&gt;
+&lt;li&gt;本文不详细介绍数据库配置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;配置parse-server环境变量
+
+&lt;ul&gt;
+&lt;li&gt;进入CloudFoundry选择已有应用&lt;/li&gt;
+&lt;li&gt;Environment  Varieties&lt;/li&gt;
+&lt;li&gt;选择USER-DEFINED，具体参数参照Parse使用文档&lt;/li&gt;
+&lt;li&gt;APP_ID xxxxxxx&lt;/li&gt;
+&lt;li&gt;MASTER_KEY xxxxxxx&lt;/li&gt;
+&lt;li&gt;PARSE_MOUNT /parse-server&lt;/li&gt;
+&lt;li&gt;REST_KEY xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dreamfactory常见问题汇总</title>
+      <link>https://cio.anasit.com/faq/dreamfactory/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/dreamfactory/</guid>
+      <description>
+
+&lt;h1 id=&#34;composer-install-依赖问题&#34;&gt;Composer Install 依赖问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;报错缺少ext-mongodb依赖&#34;&gt;报错缺少ext-mongodb依赖&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;root@iZ283foxixfZ:/var/www/df2# composer install --no-dev
+Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
+Loading composer repositories with package information
+Installing dependencies from lock file
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Installation request for mongodb/mongodb 1.0.2 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+  Problem 2
+    - mongodb/mongodb 1.0.2 requires ext-mongodb ^1.1.0 -&amp;gt; the requested PHP extension mongodb is missing from your system.
+    - jenssegers/mongodb v3.0.2 requires mongodb/mongodb ^1.0.0 -&amp;gt; satisfiable by mongodb/mongodb[1.0.2].
+    - Installation request for jenssegers/mongodb v3.0.2 -&amp;gt; satisfiable by jenssegers/mongodb[v3.0.2].
+
+  To enable extensions, verify that they are enabled in those .ini files:
+    - /etc/php5/cli/php.ini
+    - /etc/php5/cli/conf.d/05-opcache.ini
+    - /etc/php5/cli/conf.d/10-pdo.ini
+    - /etc/php5/cli/conf.d/20-apcu.ini
+    - /etc/php5/cli/conf.d/20-curl.ini
+    - /etc/php5/cli/conf.d/20-gd.ini
+    - /etc/php5/cli/conf.d/20-json.ini
+    - /etc/php5/cli/conf.d/20-mongo.ini
+    - /etc/php5/cli/conf.d/20-mysql.ini
+    - /etc/php5/cli/conf.d/20-mysqli.ini
+    - /etc/php5/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php5/cli/conf.d/20-readline.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;问题分析&#34;&gt;问题分析&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php -m | grep &amp;ldquo;mongo&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示mongo插件&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;php &amp;ndash;ini&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;正常显示20-mongo.ini插件&lt;/p&gt;
+
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;apt-get install php5-dev
+
+apt-get install libssl-dev
+
+apt-get install pkg-config
+
+pecl install mongodb
+
+vim /etc/php5/cli/php.ini
+
+# add this line
+# extension = mongodb.so
+
+composer install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;composer-install-缺少idehelper问题&#34;&gt;composer install 缺少idehelper问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/barryvdh/laravel-ide-helper/issues/55&#34;&gt;https://github.com/barryvdh/laravel-ide-helper/issues/55&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;composer install
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MBaaS产品调研及私有云解决方案草稿</title>
+      <link>https://cio.anasit.com/cookbook/backend/baas/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/baas/</guid>
+      <description>
+
+&lt;h1 id=&#34;热门baas简介&#34;&gt;热门baas简介&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.techweb.com.cn/network/virtual/2016-01-05/2252623.shtml&#34;&gt;应用开发不可不知的五大BaaS后端云服务 &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;baas公有云&#34;&gt;baas公有云&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;firebase google收购的专业baas服务，完美整合angular2，在华无法使用&lt;/li&gt;
+&lt;li&gt;wilddog 国内，仿firebase，api通用&lt;/li&gt;
+&lt;li&gt;parse 主要提供移动端推送及统计服务，官方GO，开源版Nodejs&lt;/li&gt;
+&lt;li&gt;LeanCloud 国内，仿parse，api通用&lt;/li&gt;
+&lt;li&gt;bluemix IBM创办的paas平台，附带baas服务，2016年6月已入华&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;baas私有云&#34;&gt;baas私有云&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;appery.io 最完美的HybirdApp云服务MBaaS，配套在线设计IDE，在线Cordova打包&lt;/li&gt;
+&lt;li&gt;dreamfactory 针对RESTful APIs的资源控制，基于Laravel+Swagger2&lt;/li&gt;
+&lt;li&gt;kinvey&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;市场分析&#34;&gt;市场分析&lt;/h1&gt;
+
+&lt;h2 id=&#34;对传统开发模式带来的影响&#34;&gt;对传统开发模式带来的影响&lt;/h2&gt;
+
+&lt;p&gt;前端影响 &lt;a href=&#34;https://www.zhihu.com/question/27087120&#34;&gt;https://www.zhihu.com/question/27087120&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;后端影响 &lt;a href=&#34;https://www.zhihu.com/question/29600252&#34;&gt;https://www.zhihu.com/question/29600252&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;开发人员的岗位结构发生转型，简化重复的抽象操作，关注业务本身逻辑&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;前端／客户端＋少许云端js代码&lt;/li&gt;
+&lt;li&gt;后台 负责数据的获取（爬虫）分析处理（商业智能）预测判断（机器学习）&lt;/li&gt;
+&lt;li&gt;后端的服务化，API化；  前端的多样化，静态化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;页面逐渐应用化。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从最早的B/S产品架构看，页面层属于MVC中的V，是由服务端输出的，服务端的输出结果是页面。&lt;/p&gt;
+
+&lt;p&gt;［M］－［C］－［V］ ｜ 浏览器&lt;/p&gt;
+
+&lt;p&gt;后来逐步AJAX化了之后，也增加了一些输出数据的接口。&lt;/p&gt;
+
+&lt;p&gt;［M］－［C］－［V / Data］ ｜ 浏览器&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;响应式程序，俗称后端的前台 API GET/POST响应&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;大部分会被baas替代，原因是其逻辑很容易被抽象，即便少许复杂的也可通过云端的js／nodejs搞定&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;非响应式程序，俗称后端的后台程序&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;例如自动化运维 机器学习 爬虫 复杂业务数据分析处理 大数据。
+  不会被替代，但会发展更加蓬勃，人才涌入及工作简化。&lt;/p&gt;
+
+&lt;h1 id=&#34;mbaas-是baas在mobile细分领域的应用&#34;&gt;MBaaS 是BaaS在mobile细分领域的应用&lt;/h1&gt;
+
+&lt;h2 id=&#34;产品结构简介&#34;&gt;产品结构简介&lt;/h2&gt;
+
+&lt;p&gt;参考 appery.io 整理出一下必备功能模块&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;App Builder
+
+&lt;ul&gt;
+&lt;li&gt;Cross-Platform Development&lt;/li&gt;
+&lt;li&gt;Custom UI Components&lt;/li&gt;
+&lt;li&gt;Write Custom JS or CSS&lt;/li&gt;
+&lt;li&gt;Model-Based Data Structure&lt;/li&gt;
+&lt;li&gt;Advanced Storage Layer&lt;/li&gt;
+&lt;li&gt;Source Code Editing&lt;/li&gt;
+&lt;li&gt;App Deployment&lt;/li&gt;
+&lt;li&gt;Certificate Management&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Backend Services
+
+&lt;ul&gt;
+&lt;li&gt;Database&lt;/li&gt;
+&lt;li&gt;Push Notifications&lt;/li&gt;
+&lt;li&gt;User Management&lt;/li&gt;
+&lt;li&gt;File Management&lt;/li&gt;
+&lt;li&gt;Visual Web Console&lt;/li&gt;
+&lt;li&gt;Instant REST APIs&lt;/li&gt;
+&lt;li&gt;Query Editor&lt;/li&gt;
+&lt;li&gt;Server Code&lt;/li&gt;
+&lt;li&gt;Jobs Scheduler&lt;/li&gt;
+&lt;li&gt;Web Hooks&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API Express&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;appbuilder&#34;&gt;AppBuilder&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ionic creator
+
+&lt;ul&gt;
+&lt;li&gt;ionic官方开发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;appgyver
+
+&lt;ul&gt;
+&lt;li&gt;支持PhoneGap&lt;/li&gt;
+&lt;li&gt;与DreamFactory合作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;backend-services&#34;&gt;Backend Services&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DreamFactory
+
+&lt;ul&gt;
+&lt;li&gt;提供RESTful全系列api构建&lt;/li&gt;
+&lt;li&gt;缺少push推送功能，缺少即时通信功能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Parse Server+Dashboard
+
+&lt;ul&gt;
+&lt;li&gt;实时推送&lt;/li&gt;
+&lt;li&gt;数据分析&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;firebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;backend-service-评比选型&#34;&gt;Backend Service 评比选型&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;类目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Firebase&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;DreamFactory&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;私有部署&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;不支持&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;免费版开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;完全开源&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;导入导出&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;可整体导出为.dfpkg2文件&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Auth] 验证体系&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;用户User&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;用户User+角色Role&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;User+Role+Session&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Data/Schema] 数据操作 RESTful&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Storage] 文件存储&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有(多选)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[DB Ext] 数据库扩展性&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无法扩展&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;可选用mysql、pgsql等驱动，便于数据库级别接入其他系统&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mongodb&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[ng2sdk]&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;angularfire2&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://github.com/dreamfactorysoftware/angular2-sdk&#34;&gt;angular2-sdk&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;暂无&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Push] 消息推送&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Analytics] APP分析&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[Crash Report] 错误反馈&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;有&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;[RealTime Communication] 实时通信&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;websocket&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;无&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

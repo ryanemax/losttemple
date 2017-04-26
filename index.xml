@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/index.xml</link>
+    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <lastBuildDate>Wed, 26 Apr 2017 20:00:00 +0800</lastBuildDate>
+    <atom:link href="https://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2017中国大数据应用创新峰会暨数据中国城市行活动会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-4-26bdinchina/</link>
+      <pubDate>Wed, 26 Apr 2017 20:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-4-26bdinchina/</guid>
+      <description>
+
+&lt;h1 id=&#34;2017中国大数据应用创新峰会暨数据中国城市行活动会议记录&#34;&gt;2017中国大数据应用创新峰会暨数据中国城市行活动会议记录&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国大数据产业生态联盟&lt;/li&gt;
+&lt;li&gt;Big Data Industry Ecological Alliance of China&lt;/li&gt;
+&lt;li&gt;2017.04.26 青岛&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主旨报告-2017年大数据发展趋势&#34;&gt;主旨报告——2017年大数据发展趋势&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;北京大学教授 工业和信息化部原副部长 杨学山&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-历史发展&#34;&gt;一、历史发展&lt;/h2&gt;
+
+&lt;h3 id=&#34;信息流引领未来&#34;&gt;信息流引领未来&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;信息流引领新动能，实现新发展&lt;/li&gt;
+&lt;li&gt;非结构信息 ==&amp;gt; 分析、提取 ==&amp;gt; 价值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-应用创新&#34;&gt;二、应用创新&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;今天已有/已产生的数据（价值密度低）&lt;/li&gt;
+&lt;li&gt;企业、政府，如何通过信息流加快发展&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;人做的事情 ==&amp;gt; 数据链 ==&amp;gt; 大数据&lt;/li&gt;
+&lt;li&gt;昔要通古，从目的出发，重定义系统/重定义数据链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-技术创新&#34;&gt;三、技术创新&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;传统方式（hadoop）：将音视频、非结构文本 ==&amp;gt; 有价值数据&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;新的系统、工具支持
+
+&lt;ul&gt;
+&lt;li&gt;数据链构建（完整）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;建模和仿真
+
+&lt;ul&gt;
+&lt;li&gt;新模型&lt;/li&gt;
+&lt;li&gt;新数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;四-模式创新&#34;&gt;四、模式创新&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;解决制度矛盾
+
+&lt;ul&gt;
+&lt;li&gt;如：智慧城市的推进，需要跨部门、跨层级合作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解决可持续发展问题
+
+&lt;ul&gt;
+&lt;li&gt;可持续发展的商业模式，可以为大数据产业建立起完善的激励机制&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;主旨报告-数据引领未来-创新成就梦想&#34;&gt;主旨报告——数据引领未来，创新成就梦想&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;青岛市南区政府 高健&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-市南区大数据发展优势明显&#34;&gt;一、市南区大数据发展优势明显&lt;/h2&gt;
+
+&lt;h3 id=&#34;历史之城&#34;&gt;历史之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“三湾三城”历史悠久、文化底蕴深厚&lt;/li&gt;
+&lt;li&gt;265历史优秀建筑&lt;/li&gt;
+&lt;li&gt;72处339栋文保单位&lt;/li&gt;
+&lt;li&gt;41 名人故居&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;旅游之城&#34;&gt;旅游之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15家A级&lt;/li&gt;
+&lt;li&gt;4家AAAA级&lt;/li&gt;
+&lt;li&gt;拥有亚洲六个最美海湾之一&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;时尚之城&#34;&gt;时尚之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;年平均空气优良天数 230&lt;/li&gt;
+&lt;li&gt;城区绿化 35.4%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;学术创新&#34;&gt;学术创新&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;外聘院士 18&lt;/li&gt;
+&lt;li&gt;两院院士 17&lt;/li&gt;
+&lt;li&gt;国家“千人计划”专家 12&lt;/li&gt;
+&lt;li&gt;大数据类创新服务项目丰富
+
+&lt;ul&gt;
+&lt;li&gt;教育、治安、文化、旅游&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-市南区基于大数据的产业基础丰富&#34;&gt;二、市南区基于大数据的产业基础丰富&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;金融企业&lt;/li&gt;
+&lt;li&gt;大型企业&lt;/li&gt;
+&lt;li&gt;创意企业&lt;/li&gt;
+&lt;li&gt;政策扶持 一次性落实各类扶持资金1.8亿元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-市南区大数据基础发展原则及路径&#34;&gt;三、市南区大数据基础发展原则及路径&lt;/h2&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要坚持五个方面的原则&#34;&gt;促进大数据发展，要坚持五个方面的原则&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要坚持创新驱动的原则&lt;/li&gt;
+&lt;li&gt;要坚持统筹规划的原则&lt;/li&gt;
+&lt;li&gt;要坚持开放共享的原则&lt;/li&gt;
+&lt;li&gt;要坚持应用示范的原则&lt;/li&gt;
+&lt;li&gt;要坚持确保安全的原则&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;发展路线&#34;&gt;发展路线&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017 全区统一“政务云”&lt;/li&gt;
+&lt;li&gt;2018 实现政务大数据、云计算分中心&lt;/li&gt;
+&lt;li&gt;2019 xxx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要做好五个方面任务&#34;&gt;促进大数据发展，要做好五个方面任务&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要着力推进城区资源数据化&lt;/li&gt;
+&lt;li&gt;要着力推进公共数据共享化&lt;/li&gt;
+&lt;li&gt;要着力推进政府治理智慧化&lt;/li&gt;
+&lt;li&gt;要着力推进民生服务便捷化&lt;/li&gt;
+&lt;li&gt;要着力推进数据产业创新化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要构建五个方面的支撑保障&#34;&gt;促进大数据发展，要构建五个方面的支撑保障&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要加强组织保障&lt;/li&gt;
+&lt;li&gt;要强化财力支撑&lt;/li&gt;
+&lt;li&gt;要搭建发展平台&lt;/li&gt;
+&lt;li&gt;要着力聚集人才&lt;/li&gt;
+&lt;li&gt;要促进协同发展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主题报告-大数据产品与解决方案测评结果发布&#34;&gt;主题报告——大数据产品与解决方案测评结果发布&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品与方案质量保障工作组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-工作背景&#34;&gt;一、工作背景&lt;/h2&gt;
+
+&lt;p&gt;落实《国务院关于印发促进大数据发展行动纲要的通知》(国发[2015]50号)&lt;/p&gt;
+
+&lt;h2 id=&#34;二-流程回顾&#34;&gt;二、流程回顾&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品&lt;/li&gt;
+&lt;li&gt;大数据解决方案
+
+&lt;ul&gt;
+&lt;li&gt;金融行业&lt;/li&gt;
+&lt;li&gt;能源行业&lt;/li&gt;
+&lt;li&gt;电子商务行业&lt;/li&gt;
+&lt;li&gt;教育行业&lt;/li&gt;
+&lt;li&gt;工业领域&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;产品和方案征集、技术评测、专家评审、证书颁发&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品评测指标体系
+
+&lt;ul&gt;
+&lt;li&gt;功能、安全、兼容、可靠、可扩展、知识产权&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解决方案评测指标体系
+
+&lt;ul&gt;
+&lt;li&gt;应用需求分析、系统架构分析、核心功能验证、应用规模&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-主要奖项&#34;&gt;三、主要奖项&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;8 大数据产品认证证书&lt;/li&gt;
+&lt;li&gt;5 大数据解决方案认证证书&lt;/li&gt;
+&lt;li&gt;6 大数据应用案例认证证书&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;四-本次评测工作总结&#34;&gt;四、本次评测工作总结&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品和方案多样化&lt;/li&gt;
+&lt;li&gt;部分企业具备整套解决方案&lt;/li&gt;
+&lt;li&gt;大数据案例逐步落地&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;五-目前大数据产品存在的问题&#34;&gt;五、目前大数据产品存在的问题&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术创新和支撑能力仍需加强&lt;/li&gt;
+&lt;li&gt;大数据安全急需关注&lt;/li&gt;
+&lt;li&gt;行业应用规模不够大（暂无PB级应用）&lt;/li&gt;
+&lt;li&gt;部分大数据方案拳法创新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;六-后期工作&#34;&gt;六、后期工作&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017-4 正式启动第二期大数据产品和解决方案征集测评&lt;/li&gt;
+&lt;li&gt;开展大数据产品和解决方案的性能专题测评&lt;/li&gt;
+&lt;li&gt;探索大数据数据全生命周期的数据安全审查服务&lt;/li&gt;
+&lt;li&gt;面向重点行业（政务、医疗、环保、交通、工业、能源等领域）的大数据平台建设提供咨询、测评服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;cosmoplat-全球引领自主创新的工业互联网云平台&#34;&gt;COSMOPlat——全球引领自主创新的工业互联网云平台&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;海尔集团家电产业集团大数据&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;为什么-应对实战的挑战&#34;&gt;为什么：应对实战的挑战&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户需求被释放
+
+&lt;ul&gt;
+&lt;li&gt;个性化、细节化&lt;/li&gt;
+&lt;li&gt;高端化、高品质&lt;/li&gt;
+&lt;li&gt;参与感、体验感&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;行业难题
+
+&lt;ul&gt;
+&lt;li&gt;压货促销，库存大&lt;/li&gt;
+&lt;li&gt;产品同质化严重，缺乏创新&lt;/li&gt;
+&lt;li&gt;效率低、利润下降&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;转型挑战
+
+&lt;ul&gt;
+&lt;li&gt;工业1.0、2.0、3.0并存&lt;/li&gt;
+&lt;li&gt;产业结构不合理&lt;/li&gt;
+&lt;li&gt;生产性服务业发展滞后&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;实现转型的战略愿景&#34;&gt;实现转型的战略愿景&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;战略愿景
+
+&lt;ul&gt;
+&lt;li&gt;物联网时代的智慧生活行业引领者&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;战略路径
+
+&lt;ul&gt;
+&lt;li&gt;顾客、用户、社群、电器、网器、生态&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;智慧家庭、互联工厂&lt;/p&gt;
+
+&lt;p&gt;单一硬件产品 -&amp;gt; 智慧生活解决方案&lt;/p&gt;
+
+&lt;p&gt;大规模制造 -&amp;gt; 大规模定制&lt;/p&gt;
+
+&lt;p&gt;社区生态大数据平台&lt;/p&gt;
+
+&lt;h2 id=&#34;满足用户生活场景定制的最佳体验&#34;&gt;满足用户生活场景定制的最佳体验&lt;/h2&gt;
+
+&lt;p&gt;全流程并联、零距离互联互通、开放式的创新体系&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业&lt;/li&gt;
+&lt;li&gt;资源&lt;/li&gt;
+&lt;li&gt;工业新生态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;颠覆性创新的平台架构&#34;&gt;颠覆性创新的平台架构&lt;/h2&gt;
+
+&lt;p&gt;三大差异化能力、用户全流程参与大规模定制体验迭代、零距离互联互通、开放新生态&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模式层&lt;/li&gt;
+&lt;li&gt;应用层&lt;/li&gt;
+&lt;li&gt;平台层&lt;/li&gt;
+&lt;li&gt;资源层&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;开放的云平台&lt;/li&gt;
+&lt;li&gt;分布式架构&lt;/li&gt;
+&lt;li&gt;模块化微服务&lt;/li&gt;
+&lt;li&gt;智能化物联&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;8大互联工厂样板&#34;&gt;8大互联工厂样板&lt;/h2&gt;
+
+&lt;p&gt;互联工厂：用户深度参与大规模定制模式&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户交互&lt;/li&gt;
+&lt;li&gt;众创定制&lt;/li&gt;
+&lt;li&gt;定制订单&lt;/li&gt;
+&lt;li&gt;生产可视&lt;/li&gt;
+&lt;li&gt;交付可视&lt;/li&gt;
+&lt;li&gt;使用体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;沈阳冰箱、佛山滚筒、郑州空调、青岛模具、青岛热水器、FPA电机、胶州空调、黄岛空调&lt;/p&gt;
+
+&lt;h2 id=&#34;迭代&#34;&gt;迭代&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对内成果复制到全球108个工厂&lt;/li&gt;
+&lt;li&gt;对外跨行业、跨区域服务与推广，构建智能制造生态服务新产业&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;大数据应用1-零部件模块化&#34;&gt;大数据应用1：零部件模块化&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模块化对3种定制模式的支撑
+
+&lt;ul&gt;
+&lt;li&gt;快速满足用户多样性个性化需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;模块化采购的4类价格模型
+
+&lt;ul&gt;
+&lt;li&gt;有效降低全球资源采购成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;大数据应用2-生产流程可视化&#34;&gt;大数据应用2：生产流程可视化&lt;/h2&gt;
+
+&lt;h2 id=&#34;大数据应用4-服务交互智能化&#34;&gt;大数据应用4：服务交互智能化&lt;/h2&gt;
+
+&lt;h2 id=&#34;获得国家-行业广泛的认可&#34;&gt;获得国家、行业广泛的认可&lt;/h2&gt;
+
+&lt;h1 id=&#34;主题报告-融合数据-强化应用-创新服务&#34;&gt;主题报告——融合数据、强化应用、创新服务&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;久其软件 钱晖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-大数据战略&#34;&gt;一、大数据战略&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;久其战略——业内领先的、聚焦B2B2C的大数据综合服务提供商&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-大数据认知&#34;&gt;二、大数据认知&lt;/h2&gt;
+
+&lt;p&gt;应用环境：宏观环境、经济社会环境&lt;/p&gt;
+
+&lt;p&gt;应用要素：技术、数据、应用场景&lt;/p&gt;
+
+&lt;p&gt;应用场景：
+- 政务大数据（国发[2017]27号文）
+    - 大力推行“互联网+政务服务”
+    - 尽职/合规
+    - 公平/作为
+    - 智能/服务
+- 优化服务
+    - 大数据
+        - 识别服务需求
+        - 优化服务界面
+        - 进行服务预警
+    - 服务创新
+        - 个性化服务
+        - 适应性服务
+        - 主动协同服务&lt;/p&gt;
+
+&lt;h2 id=&#34;三-大数据实践&#34;&gt;三、大数据实践&lt;/h2&gt;
+
+&lt;p&gt;大数据应用领域
+- 民生大数据
+- 交通大数据
+- 传播大数据
+- 财经大数据
+- 司法大数据
+- 产业大数据&lt;/p&gt;
+
+&lt;p&gt;久其大数据应用行业与案例&lt;/p&gt;
+
+&lt;p&gt;大数据为国家教育现代化服务&lt;/p&gt;
+
+&lt;p&gt;大数据助力国家精准扶贫——2020年实现全面脱贫
+- 单致贫因素分析
+- 多致贫因素分析
+- 扶贫资金模拟
+- PDMI用户行为分析与推荐系统
+- 用户画像&lt;/p&gt;
+
+&lt;p&gt;大数据为产业发展服务&lt;/p&gt;
+
+&lt;h2 id=&#34;愿景&#34;&gt;愿景&lt;/h2&gt;
+
+&lt;p&gt;让信息的制造者成为受益者&lt;/p&gt;
+
+&lt;h1 id=&#34;主题报告-神州泰岳与大数据&#34;&gt;主题报告——神州泰岳与大数据&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;神州泰岳 董事副总裁 杨凯程&lt;/p&gt;
+
+&lt;h2 id=&#34;两大核心挑战&#34;&gt;两大核心挑战&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;技术创新&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;感知智能（视觉识别、语音识别）&lt;/li&gt;
+&lt;li&gt;认知智能（自然语言语义识别）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;场景创新&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以深度学习为代表的机器学习成为了AI算法的基础
+- 大数据带来的样本易获取
+- GPU带来的算力大提升&lt;/p&gt;
+
+&lt;p&gt;感知智能的巨大成就和众创时代的来临
+- 看得到、听得到、说得清
+- 机器学习的算法是普惠的
+- GPU带来的算力是普惠的
+- 学习样本已经更加易于获得&lt;/p&gt;
+
+&lt;p&gt;认知智能的角度来看深度学习效果不如预期、路还漫长
+- 数据的“善良性”，要求语料质量优质
+- 互联网上最多最容易获得样本数据
+- 或者样本数据易于获得易于积累的领域&lt;/p&gt;
+
+&lt;p&gt;尤其是在行业领域深度学习还将面临三个挑战
+- 缺乏足够丰富的样本数据
+    - 算法训练、测试、解决困难
+- 中文歧义性的挑战
+    - 相同的含义不一样的表达
+    - 相同的表达不一样的含义
+- 应答结果的专业性要求&lt;/p&gt;
+
+&lt;h2 id=&#34;神州泰岳nlp-基于概念计算的智慧语义认知技术&#34;&gt;神州泰岳NLP：基于概念计算的智慧语义认知技术&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;符号化语义表示的DNA语义词库&lt;/li&gt;
+&lt;li&gt;语义=语言本体+领域范畴+意义表示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;面向业务建模解决从技术专注转移到业务专注
+- 规范的业务表示
+- 复杂的自然语言表示&lt;/p&gt;
+
+&lt;h2 id=&#34;dinfo-oec是神州泰岳对于人工智能认知的重要贡献&#34;&gt;DINFO-OEC是神州泰岳对于人工智能认知的重要贡献&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业界首款面向业务建模的DINFO-OEC平台&lt;/li&gt;
+&lt;li&gt;机器学习依赖的两个主要条件不再成为必须&lt;/li&gt;
+&lt;li&gt;神州泰岳人工智能&lt;strong&gt;认知+&lt;/strong&gt;的三大战略概念&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;云服务-场景创新&#34;&gt;云服务——场景创新&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;智脑公安案情分析系统
+
+&lt;ul&gt;
+&lt;li&gt;以入室盗窃案情记录为例&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;专家论坛-大数据驱动下的应用创新&#34;&gt;专家论坛——大数据驱动下的应用创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主持人：郭嘉凯
+
+&lt;ul&gt;
+&lt;li&gt;中国大数据产业生态联盟副秘书长&lt;/li&gt;
+&lt;li&gt;《软件和集成电路》杂志社总编辑&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：张理敬
+
+&lt;ul&gt;
+&lt;li&gt;青岛市大数据发展促进局副局长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：黄曜令
+
+&lt;ul&gt;
+&lt;li&gt;北京润乾软件技术有限公司总经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：陈维强
+
+&lt;ul&gt;
+&lt;li&gt;海信集团有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：徐斌
+
+&lt;ul&gt;
+&lt;li&gt;雪松集团CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;中国大数据产业生态联盟2017-第二届-理事成员大会摘要&#34;&gt;中国大数据产业生态联盟2017（第二届）理事成员大会摘要&lt;/h1&gt;
+
+&lt;h2 id=&#34;联盟2016工作总结&#34;&gt;联盟2016工作总结&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;面向各地方政府政务大数据的培训课程&lt;/li&gt;
+&lt;li&gt;发布《2016中国大数据产业生态地图》白皮书&lt;/li&gt;
+&lt;li&gt;揭晓“中国大数据企业50强”&lt;/li&gt;
+&lt;li&gt;每月一次“BOSS团”沙龙活动
+
+&lt;ul&gt;
+&lt;li&gt;B2B资源对接&lt;/li&gt;
+&lt;li&gt;理事成员以上单位可主动承办&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;“大数据发展五星城市”测评（年初、年底各一次）
+
+&lt;ul&gt;
+&lt;li&gt;截止目前，青岛、贵阳、南京、沈阳&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;产品与解决方案测评工作（面向联盟内部成员免费）&lt;/li&gt;
+&lt;li&gt;专著出版《数据新势力》&lt;/li&gt;
+&lt;li&gt;协助成员进行针对性资源、业务对接
+
+&lt;ul&gt;
+&lt;li&gt;B&amp;amp;B、B&amp;amp;G、B&amp;amp;C&lt;/li&gt;
+&lt;li&gt;B&amp;amp;C部分由CIO专委会与企业用户进行对接落地&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟2017整体规划&#34;&gt;联盟2017整体规划&lt;/h2&gt;
+
+&lt;h2 id=&#34;联盟-大数据人才培养工作组-2017整体规划&#34;&gt;联盟&amp;lt;大数据人才培养工作组&amp;gt;2017整体规划&lt;/h2&gt;
+
+&lt;h2 id=&#34;联盟-大数据发展水平评价工作组-工作报告&#34;&gt;联盟&amp;lt;大数据发展水平评价工作组&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主要进行区域发展水平测评与发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016总结&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据发展水平评价指标体系研究制定&lt;/li&gt;
+&lt;li&gt;大数据发展水平评价机制制定&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大数据发展水平评价结果发布&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大数据发展水平评价指标体系&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布专题研究报告&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布每年白皮书&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;维护网站专栏&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017工作&#34;&gt;2017工作&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;确定首批专家委员会&lt;/li&gt;
+&lt;li&gt;大数据发展水平评价专栏正式上线&lt;/li&gt;
+&lt;li&gt;发展区域大数据发展书评自评价功能（地方政府，可进行问卷自评，具有内部参考性）
+
+&lt;ul&gt;
+&lt;li&gt;自评后，可申请专家评价&lt;/li&gt;
+&lt;li&gt;联盟成员，可主动自己所在区域发起评价&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;发展区域大数据发展水平评价体系修订升级工作
+
+&lt;ul&gt;
+&lt;li&gt;8月，征集建议&lt;/li&gt;
+&lt;li&gt;9月，组织专家单位，进行修改&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;开展2017年下半年区域大数据发展评价工作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-大数据产品与方案质量保障工作组-工作报告&#34;&gt;联盟&amp;lt;大数据产品与方案质量保障工作组&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;周润松&lt;/li&gt;
+&lt;li&gt;主要进行产品与解决方案测评与发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016总结-1&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品和解决方案发放平台&lt;/li&gt;
+&lt;li&gt;测评认证结果发布平台&lt;/li&gt;
+&lt;li&gt;政府关键数据支撑平台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017计划&#34;&gt;2017计划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展大数据产业优秀产品以及解决方案征集工作
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品&lt;/li&gt;
+&lt;li&gt;大数据解决方案&lt;/li&gt;
+&lt;li&gt;大数据应用案例&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;发展大数据产品的专题测评工作&lt;/li&gt;
+&lt;li&gt;为面向重点行业的大数据平台建设提供咨询、测评服务&lt;/li&gt;
+&lt;li&gt;打造大数据生态中心，建立优秀的大数据产品和解决方案应用体验中心
+
+&lt;ul&gt;
+&lt;li&gt;产品体验&lt;/li&gt;
+&lt;li&gt;方案体验&lt;/li&gt;
+&lt;li&gt;需求对接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;打造中国大数据产品及解决方案测评与认定结果发布平台
+
+&lt;ul&gt;
+&lt;li&gt;更全的产品分类与测评收录&lt;/li&gt;
+&lt;li&gt;更全的行业应用案例测评收率&lt;/li&gt;
+&lt;li&gt;更全更专业的测评结果&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-大数据工业大数据专委会-工作报告&#34;&gt;联盟&amp;lt;大数据工业大数据专委会&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;h3 id=&#34;2016总结-2&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国制造2025战略
+
+&lt;ul&gt;
+&lt;li&gt;重复现有工业体系&lt;/li&gt;
+&lt;li&gt;规模庞大、层次多样的需求&lt;/li&gt;
+&lt;li&gt;全球性价值&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;中国政府重视工业大数据发展&lt;/li&gt;
+&lt;li&gt;建立大数据人才培养机制&lt;/li&gt;
+&lt;li&gt;筹建工业大数据应用展示中心&lt;/li&gt;
+&lt;li&gt;组织召开、出席大数据相关会议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017计划-1&#34;&gt;2017计划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;推荐专委会组织建设&lt;/li&gt;
+&lt;li&gt;开展大数据人才培养&lt;/li&gt;
+&lt;li&gt;注重大数据技术研究：技术、产品、应用&lt;/li&gt;
+&lt;li&gt;展示工业大数据优秀成果
+
+&lt;ul&gt;
+&lt;li&gt;建立全国级、省市级的工业大数据应用展示中心
+
+&lt;ul&gt;
+&lt;li&gt;杭州、河南在今年7月份建成&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;探索工业大数据新型商业服务模式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;推动工业大数据产业标准&lt;/li&gt;
+&lt;li&gt;开展工业大数据产业和实践研究&lt;/li&gt;
+&lt;li&gt;组织召开、参加行业活动&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-财经大数据专委会&#34;&gt;联盟&amp;lt;财经大数据专委会&amp;gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;搭建交流平台
+
+&lt;ul&gt;
+&lt;li&gt;汇聚智慧、分享经验&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;构建生态体系
+
+&lt;ul&gt;
+&lt;li&gt;打通链条、建设生态&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;推动资源开放
+
+&lt;ul&gt;
+&lt;li&gt;融合数据、共享资源&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;落实数据服务
+
+&lt;ul&gt;
+&lt;li&gt;平台运作、服务无限&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-产业互联网服务专委会-工作计划&#34;&gt;联盟&amp;lt;产业互联网服务专委会&amp;gt;工作计划&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;www.ciisc.org 4008-200-747&lt;/li&gt;
+&lt;li&gt;服务宗旨：聚合千家资源、服务万家企业
+
+&lt;ul&gt;
+&lt;li&gt;当地政府合作、挖掘中小企业需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配合联盟的数据中国行&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;落地青岛&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为当地政府搭建“技术云”产业服务大数据云平台&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为当地中小企业与全国专业机构和专家学者产学研对接创造联盟的服务平台&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-cio专委会工作报告&#34;&gt;联盟&lt;CIO专委会工作报告&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;徐斌&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016工作汇报&#34;&gt;2016工作汇报&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业用户大数据，将企业用户的需求引入整个大数据体系&lt;/li&gt;
+&lt;li&gt;2016-12-22成立&lt;/li&gt;
+&lt;li&gt;目前已经有70位发布聘书委员&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017工作计划&#34;&gt;2017工作计划&lt;/h3&gt;
+
+&lt;h4 id=&#34;愿景-1&#34;&gt;愿景&lt;/h4&gt;
+
+&lt;p&gt;成为国内领先的“前瞻性挖掘企业发展需求，务实性应用大数据解决方案，形成大数据应用方案提供方和大数据价值获得方的有机互动，共同发展”的专业委员会&lt;/p&gt;
+
+&lt;p&gt;打造企业单位、行业组织、大数据方案提供商、和专家智库等多方互动的桥梁&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业&lt;/li&gt;
+&lt;li&gt;行业&lt;/li&gt;
+&lt;li&gt;供应商&lt;/li&gt;
+&lt;li&gt;专家智库&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;宗旨&#34;&gt;宗旨&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;交流：搭建CIO交流平台&lt;/li&gt;
+&lt;li&gt;共享：推动企业大数据资源开放共享与应用&lt;/li&gt;
+&lt;li&gt;生态：构建企业大数据服务生态链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;目标-需求指导供给-供给推动需求-大数据价值实现&#34;&gt;目标：需求指导供给 + 供给推动需求 = 大数据价值实现&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;贯彻国家顶层设计思想，建设合作共赢的企业大数据生态&lt;/li&gt;
+&lt;li&gt;一方面通过企业需求的收集，分析和汇总来指导大数据方案提供商能够更好地设计和建设具有实际企业应用价值的解决方案&lt;/li&gt;
+&lt;li&gt;另一方案为企业CIO们带来更多元，更丰富的大数据应用解决方案，来加快企业应用合适的方案来快速提升价值，实现企业核心竞争力的不断提升&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;主要工作-供需连接-合作共赢&#34;&gt;主要工作：供需连接+合作共赢&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展企业大数据应用现状研究，发掘大数据在企业中产生价值的场景&lt;/li&gt;
+&lt;li&gt;推动企业CIO们对大数据的进一步认识，了解大数据产业发展的最佳实践&lt;/li&gt;
+&lt;li&gt;利用CIO的聚集效应，发现潜在的共同需求，实现以需求驱动设计和生产的模式&lt;/li&gt;
+&lt;li&gt;推动企业的信息化和工业化深度融合发展，发现经济转型和创业创新机遇&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;行动计划&#34;&gt;行动计划&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月CIO数据讲堂&lt;/li&gt;
+&lt;li&gt;定期CIO线下沙龙&lt;/li&gt;
+&lt;li&gt;10月举办大型交流论坛&lt;/li&gt;
+&lt;li&gt;线上CIO主题交流群&lt;/li&gt;
+&lt;li&gt;企业最佳实践考察&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-数据智能专委会&#34;&gt;联盟&amp;lt;数据智能专委会&amp;gt;&lt;/h2&gt;
+
+&lt;p&gt;根据目前大数据与人工智能融合的产业趋势和技术驱动产业突破创新的战略决策，在中国大数据产业生态联盟下，由大数据与人工智能领域的领导型企业牵头成立，推进各项工作，产业链上下游相关企业自愿加入的专业服务机构。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;2017.07 组织召开大数据与人工智能的全国高峰论坛（2000门票，对联盟成员免费）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;www.baifendian.com&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-公共服务大数据专委会&#34;&gt;联盟&amp;lt;公共服务大数据专委会&amp;gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown制作书籍出版实践笔记</title>
+      <link>https://cio.anasit.com/study/markdown2book/</link>
+      <pubDate>Fri, 24 Feb 2017 14:07:07 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/markdown2book/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;前几篇markdown系列文章中，已经尝试使用pandoc快速制作PPT、PDF、论文等中小篇幅的排版文件，&lt;a href=&#34;http://pandoc.org/demos.html。&#34;&gt;http://pandoc.org/demos.html。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;理论上对于书籍排版，也可以基于latex模版进行，但在采取此方案之前，需要调研是否有其他更加适合的方案。&lt;/p&gt;
+
+&lt;p&gt;参考文章：&lt;a href=&#34;http://www.ituring.com.cn/article/828&#34;&gt;用Markdown来写自由书籍-开源技术的方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;markdown书籍排版案例分析&#34;&gt;Markdown书籍排版案例分析&lt;/h1&gt;
+
+&lt;h2 id=&#34;跟我学企业敏捷开发&#34;&gt;《跟我学企业敏捷开发》&lt;/h2&gt;
+
+&lt;p&gt;Software Development Camp &lt;a href=&#34;https://github.com/larrycai/sdcamp&#34;&gt;https://github.com/larrycai/sdcamp&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 本书采用自定义latex模版的形式，进行书籍排版&lt;/li&gt;
+&lt;li&gt;排版 整本书籍的排版与pandoc生成论文的效果相近&lt;/li&gt;
+&lt;li&gt;结论 可作为开源经验分享，但作为出版书目需要深度的定制&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ecmascript-6-入门&#34;&gt;《ECMAScript 6 入门》&lt;/h2&gt;
+
+&lt;p&gt;在线书籍 &lt;a href=&#34;http://es6.ruanyifeng.com/&#34;&gt;http://es6.ruanyifeng.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;源码 &lt;a href=&#34;http://github.com/ruanyf/es6tutorial/&#34;&gt;http://github.com/ruanyf/es6tutorial/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 未知？（希望大家可以分享一下）&lt;/li&gt;
+&lt;li&gt;排版 优美，完整，电子版同样便于观察&lt;/li&gt;
+&lt;li&gt;结论 此方案效果较好，便于电子版分享与出版&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hugo-material-docs&#34;&gt;《Hugo &amp;amp; material-docs》&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 静态HTML生成器——gohugo.io，主题material-docs&lt;/li&gt;
+&lt;li&gt;排版 排版优美，多种设备响应式显示&lt;/li&gt;
+&lt;li&gt;结论 适用于电子版技术手册分享，但出版成书的效果未知&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gitbook&#34;&gt;《GitBook》&lt;/h2&gt;
+
+&lt;p&gt;成品示例：&lt;a href=&#34;https://toolchain.gitbook.com/examples.html&#34;&gt;https://toolchain.gitbook.com/examples.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 Github + Gitbook服务&lt;/li&gt;
+&lt;li&gt;排版 排版优美，跨设备响应式显示&lt;/li&gt;
+&lt;li&gt;结论 多种插件选择，可直接转化为ebook/pdf等格式，便于出版&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;gitbook实践体验-待完成&#34;&gt;GitBook实践体验（待完成）&lt;/h1&gt;
+
+&lt;h1 id=&#34;书籍出版流程与注意事项-待完成&#34;&gt;书籍出版流程与注意事项（待完成）&lt;/h1&gt;
+
+&lt;p&gt;出版社印刷书籍所需格式？pdf？latex？&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluemix应用快速构建实践体验</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix-case/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix-case/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;mobile-waston-个人性格分析应用&#34;&gt;Mobile+Waston 个人性格分析应用&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile-iot-餐厅快速点餐应用&#34;&gt;Mobile+IOT 餐厅快速点餐应用&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>关于我</title>
+      <link>https://cio.anasit.com/about/</link>
+      <pubDate>Tue, 14 Feb 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/about/</guid>
+      <description>
+
+&lt;p class=&#34;message&#34;&gt;
+大家好，我叫 刘雨飏，是一名信息科技浪潮之中的创业者。
+&lt;/p&gt;
+
+&lt;h3 id=&#34;我的经历&#34;&gt;我的经历&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2007-2010 xxx&lt;/li&gt;
+&lt;li&gt;2007-2011 xxx&lt;/li&gt;
+&lt;li&gt;2011-2015 xxx&lt;/li&gt;
+&lt;li&gt;2015.11.09 - 至今「Anas IT Inc.」CIO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;我的技能&#34;&gt;我的技能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;编程语言：ES6/typescript, Golang, Shell。&lt;/li&gt;
+&lt;li&gt;网站开发：Angular2/Ionic2，RESTful APIs，通常使用 Debian Linux。&lt;/li&gt;
+&lt;li&gt;熟悉 跨平台应用 开发。&lt;/li&gt;
+&lt;li&gt;持续交付、持续部署、DevOps。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;生活中的我&#34;&gt;生活中的我&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Breaking Dance&lt;/li&gt;
+&lt;li&gt;EVE Online&lt;/li&gt;
+&lt;li&gt;美剧&lt;/li&gt;
+&lt;li&gt;心理学&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;系列文章&#34;&gt;系列文章&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;xxx系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;xxx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;一些链接&#34;&gt;一些链接&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我的独立博客：&lt;a href=&#34;http://cio.anasit.com&#34;&gt;cio.anasit.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn ：&lt;a href=&#34;https://www.linkedin.com/in/ryanemax&#34;&gt;linkedin.com/in/ryanemax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Facebook：&lt;a href=&#34;https://www.facebook.com/ryanemax&#34;&gt;facebook.com/ryanemax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ryanemax&#34;&gt;github.com/ryanemax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email：ryanemax@gmail.com(cio@anasit.com)&lt;/li&gt;
+&lt;li&gt;微信号：ryanemax&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;声明&#34;&gt;声明&lt;/h3&gt;
+
+&lt;p&gt;本博客所有文章皆为原创。转载请注明原文链接，并最好与本人联系。谢谢！&lt;/p&gt;
+
+&lt;p&gt;© 2007-2017 刘雨飏@ANAS联盟 - &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>首款手机游戏的各项选型</title>
+      <link>https://cio.anasit.com/game/dev/techtree/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/dev/techtree/</guid>
+      <description>
+
+&lt;h1 id=&#34;首款手机游戏的各项选型&#34;&gt;首款手机游戏的各项选型&lt;/h1&gt;
+
+&lt;h1 id=&#34;画面-风格-素材&#34;&gt;画面/风格/素材&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;风格：手绘/像素风&lt;/li&gt;
+&lt;li&gt;画面：2D基准 部分3D特效调优&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dailymonster.ink/&#34;&gt;坚持每日一个手绘怪物&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;游戏类型&#34;&gt;游戏类型&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;暗黑、地牢、Rougelike&lt;/li&gt;
+&lt;li&gt;规则：类DND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;开发技术&#34;&gt;开发技术&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unity 3D&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;参考游戏&#34;&gt;参考游戏&lt;/h1&gt;
+
+&lt;h2 id=&#34;高自由度手游&#34;&gt;高自由度手游&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;不可思议的迷宫/地下城物语&lt;/li&gt;
+&lt;li&gt;江湖X&lt;/li&gt;
+&lt;li&gt;符文重生&lt;/li&gt;
+&lt;li&gt;贪婪洞窟&lt;/li&gt;
+&lt;li&gt;Heroes Tactics/无敌英雄 之 梦幻神魔大冒险
+
+&lt;ul&gt;
+&lt;li&gt;公司 Lilith Mobile&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Magic Rush: Heroes
+
+&lt;ul&gt;
+&lt;li&gt;公司 Elex&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;开放源码&#34;&gt;开放源码&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我叫MT2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何高效整理自己的个人简历？</title>
+      <link>https://cio.anasit.com/career/howtoprofile/</link>
+      <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/career/howtoprofile/</guid>
+      <description>
+
+&lt;h1 id=&#34;简历档案&#34;&gt;简历档案&lt;/h1&gt;
+
+&lt;h2 id=&#34;档案书写平台&#34;&gt;档案书写平台&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;领英 简历书写
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/21308578&#34;&gt;如何有效利用 LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;脉脉 职场社交&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;简历生成&#34;&gt;简历生成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官方英文简历，导出PDF &lt;a href=&#34;https://www.linkedin.com/help/linkedin/answer/4281/printing-a-profile-and-recommendations?lang=en&#34;&gt;Printing a Profile and Recommendations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;领英API生成H5简历应用开发&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AR时代来临了，带上兵器吧</title>
+      <link>https://cio.anasit.com/cookbook/vrar/arplayer/</link>
+      <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/vrar/arplayer/</guid>
+      <description>
+
+&lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://www.zhihu.com/question/28779933&#34;&gt;https://www.zhihu.com/question/28779933&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景
+
+&lt;ul&gt;
+&lt;li&gt;H5 意味着在手机而非 PC 上实现&lt;/li&gt;
+&lt;li&gt;AR 意味着需要获取实时的视频流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/323922423e94c7831ffd37b8a10efe70_b.png&#34; alt=&#34;WebRTC&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;条件
+
+&lt;ul&gt;
+&lt;li&gt;Android 5以上&lt;/li&gt;
+&lt;li&gt;原生Chrome浏览器&lt;/li&gt;
+&lt;li&gt;2016.9.20 update&lt;/li&gt;
+&lt;li&gt;手机QQ 微信&lt;/li&gt;
+&lt;li&gt;接入 QQ 浏览器 X5 内核的 Webview&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;假如上面的条件已经满足，接下来有几个库可以实现：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jeromeetienne/threex.webar&#34;&gt;https://github.com/jeromeetienne/threex.webar&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 107&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awe-media/awe.js&#34;&gt;https://github.com/awe-media/awe.js&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;star 486&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BashOnWindows常见问题汇总</title>
+      <link>https://cio.anasit.com/cookbook/tool/bashonwindows/</link>
+      <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
+      <description>
+
+&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;System =&amp;gt; Services =&amp;gt; disable:
+&amp;quot;SSH server proxy&amp;quot;
+&amp;quot;SSH server broker&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
+
+&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;进入bash自动启动ssh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# vim .bash_aliaes
+cd /mnt/d/Users/Ryane
+service ssh start
+zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
+
+&lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;h1 id=&#34;npm-fs-watch问题-error&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/396&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/396&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2服务端渲染及SEO方案——universal</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-universal/</link>
+      <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
+      <description>
+
+&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1q6g9UlmEZDXgrkY88AJZ6MUrUxcnwhBGS0EXbVlYicY/edit&#34;&gt;Design Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.angular-university.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/&#34;&gt;Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/universal-angular-2-server-side-rendering-seo-crawl-friendliness/&#34;&gt;Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Modules Universal&lt;/p&gt;
+
+&lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
+
+&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;与Ionic2中dom.js冲突&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ng2开发手机Wap及微信应用可行性分析</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</link>
+      <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ionic2框架&#34;&gt;ionic2框架&lt;/h1&gt;
+
+&lt;h2 id=&#34;测试规范参考&#34;&gt;测试规范参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
+&lt;li&gt;浏览器环境
+
+&lt;ul&gt;
+&lt;li&gt;iOS&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;li&gt;Android&lt;/li&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;最新版本测试&#34;&gt;最新版本测试&lt;/h2&gt;
+
+&lt;h3 id=&#34;测试-ionic-beta35&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;正常 默认浏览器&lt;/li&gt;
+&lt;li&gt;正常 微信浏览器&lt;/li&gt;
+&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
+&lt;li&gt;【待测】火狐&lt;/li&gt;
+&lt;li&gt;【待测】谷歌&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;测试-angular2-beta14&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
+
+&lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
+但是当使用http调用ajax请求时,会报一个找不到open方法的错。
+可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
+
+&lt;h3 id=&#34;旧版测试&#34;&gt;旧版测试&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Android
+
+&lt;ul&gt;
+&lt;li&gt;异常 微信浏览器&lt;/li&gt;
+&lt;li&gt;原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>parse服务学习指引</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统环境
+
+&lt;ul&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;服务端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;iot&#34;&gt;IOT&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;waston&#34;&gt;Waston&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile&#34;&gt;Mobile&lt;/h1&gt;
+
+&lt;p&gt;总评：弱势但不乏亮点&lt;/p&gt;
+
+&lt;p&gt;Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，暂时无法广泛应用于生产环境。&lt;/p&gt;
+
+&lt;p&gt;部分消息推送、用户分析、统计服务，可尝试性接入产品进行试用，以便于对接Bluemix大数据服务项目。&lt;/p&gt;
+
+&lt;h2 id=&#34;消息推送服务-push-notifications&#34;&gt;消息推送服务：Push Notifications&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆☆☆☆
+- 价格实惠、客户端SDK完善
+- 略优于市面上混杂的推送服务&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;费用参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月前一百万条数字消息（推送通知）免费&lt;/li&gt;
+&lt;li&gt;US$ 1.05 USD/百万条数字消息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PN&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;极光&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;推送方式&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM、Chrome、Firefox&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;APNs、GCM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;广播推送&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;标签分组&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;需开发&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;并发&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;自主扩容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 功能贫瘠，无法替代firebase、parse.com等专业MBaaS服务
+- 缺少权限控制，需要自主编写逻辑
+- 数据库无法独立部署，后期拓展限制较大&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;类似Mongodb的Collections，用于存放数据对象的集合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据对象设计，可自定义数据对象成员属性及字段&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MACM收费参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;| -     | 功能 | 价格 |
+| :&amp;mdash;- | :&amp;mdash;- | :- |
+| 免费套餐  | 无 | 无 |
+| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
+| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
+| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对比ParsePlatform&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;MACM&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;可选数据库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mongodb/postgresql&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;功能&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;简单的对象存储，无详尽的权限机制&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;对象存储、角色权限等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;前端ui-app-快速构建工具-kinetise&#34;&gt;前端UI（APP）快速构建工具：Kinetise&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 成熟度，无法替代Ionic Creator及APICloud等前端快速构建平台
+- 可作为初学练习，快速成型Demo的构建
+- 可导出项目源码，后续优化可自行编程&lt;/p&gt;
+
+&lt;h2 id=&#34;twilio-mobile-analytics-mobile-client-access-mobile-quality-assurance&#34;&gt;Twilio/Mobile Analytics/Mobile Client Access/Mobile Quality Assurance&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;待测试&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在Bluemix上搭建parse-server服务</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/bluemix/2016/02/01/migrating-from-parse-to-bluemix/&#34;&gt;Migrating from Parse to Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
+cf push Your-App-Name-On-Bluemix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建Cloud Foundry应用
+
+&lt;ul&gt;
+&lt;li&gt;选择Web Application&lt;/li&gt;
+&lt;li&gt;但不选择任何移动服务（Mobile Client Access等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;选择SDK for Node.js
+
+&lt;ul&gt;
+&lt;li&gt;APP Name 起名 parse-on-bluemix&lt;/li&gt;
+&lt;li&gt;点击完成/FINISH&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创建MongoDB实例（或直接使用已有数据库）
+
+&lt;ul&gt;
+&lt;li&gt;在parse-on-bluemix中选择，ADD A SERVICE OR API&lt;/li&gt;
+&lt;li&gt;寻找分类 Data and Analytics&lt;/li&gt;
+&lt;li&gt;选择新建 MongoDB by Compose&lt;/li&gt;
+&lt;li&gt;按需配置&lt;/li&gt;
+&lt;li&gt;本文不详细介绍数据库配置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;配置parse-server环境变量
+
+&lt;ul&gt;
+&lt;li&gt;进入CloudFoundry选择已有应用&lt;/li&gt;
+&lt;li&gt;Environment  Varieties&lt;/li&gt;
+&lt;li&gt;选择USER-DEFINED，具体参数参照Parse使用文档&lt;/li&gt;
+&lt;li&gt;APP_ID xxxxxxx&lt;/li&gt;
+&lt;li&gt;MASTER_KEY xxxxxxx&lt;/li&gt;
+&lt;li&gt;PARSE_MOUNT /parse-server&lt;/li&gt;
+&lt;li&gt;REST_KEY xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
+      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会议主题
+
+&lt;ul&gt;
+&lt;li&gt;因专属更自如——IBM Bluemix 云端体验之旅&lt;/li&gt;
+&lt;li&gt;IBM Bluemix Dedicated&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;主办单位
+
+&lt;ul&gt;
+&lt;li&gt;世纪互联集团有限公司&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;bluemix中国研究院demo演示&#34;&gt;Bluemix中国研究院Demo演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;定制化图片分类器服务&#34;&gt;定制化图片分类器服务&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我的任务
+
+&lt;ul&gt;
+&lt;li&gt;新建任务-选择数据集-准确优先/精度优先&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;我的数据集
+
+&lt;ul&gt;
+&lt;li&gt;从示例数据集拷贝，用于尝试训练&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;我的训练模型&lt;/li&gt;
+&lt;li&gt;我的API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;训练定制图片识别服务&lt;/li&gt;
+&lt;li&gt;CloudFoundry新建一个Demo&lt;/li&gt;
+&lt;li&gt;调用对应API构建应用&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;移动消息连接服务-快速连接微信与应用&#34;&gt;移动消息连接服务：快速连接微信与应用&lt;/h2&gt;
+
+&lt;p&gt;连接Bluemix应用于微信&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;随着移动即时消息通讯工具普及，企业越来越重视利用其服务号建立交互式消息应用实现与客户的交互，提供客户服务，甚至完成销售过程。&lt;/li&gt;
+&lt;li&gt;Bluemix China上的移动消息连接服务提供了一种连接微信的能力&lt;/li&gt;
+&lt;li&gt;打开移动消息应用的认知能力大门，连接Bluemix图片识别，中文问答，中文语音识别、中文舆情分析等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;中网微信购票服务&#34;&gt;中网微信购票服务&lt;/h3&gt;
+
+&lt;p&gt;5天，服务4800人购票，观众线上购票线下取票&lt;/p&gt;
+
+&lt;p&gt;中网微信公众订阅号=&amp;gt;移动消息连接服务=&amp;gt;客户服务助手=&amp;gt;CloudFoundry&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</title>
+      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
+      <description>
+
+&lt;h1 id=&#34;零-前言&#34;&gt;零、前言&lt;/h1&gt;
+
+&lt;p&gt;本文针对二三线城市&lt;strong&gt;中小型企业信息化&lt;/strong&gt;现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。&lt;/p&gt;
+
+&lt;p&gt;主体分为四大章节
+- 企业信息化的市场前景
+- 消灭信息不对等！
+- 中小企业如何顺利进行信息化转型？
+- 安纳斯在江西区域发展策略&lt;/p&gt;
+
+&lt;p&gt;以及2个具体的实施案例
+- 案例1：江西某旅游集团信息化转型
+- 案例2：湖南某市九县三区民政养老信息化转型&lt;/p&gt;
+
+&lt;h1 id=&#34;一-企业信息化的市场前景&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
+
+&lt;h2 id=&#34;企业信息化技术的发展&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2000-2008
+
+&lt;ul&gt;
+&lt;li&gt;自建机房&lt;/li&gt;
+&lt;li&gt;IDC托管&lt;/li&gt;
+&lt;li&gt;门户网站、OA、ERP&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2009 各大公司陆续发布公有IaaS服务&lt;/li&gt;
+&lt;li&gt;2012 云计算时代的&lt;strong&gt;PaaS&lt;/strong&gt;元年
+
+&lt;ul&gt;
+&lt;li&gt;Hadoop、MapReduce被IBM、亚马逊、谷歌、和微软等财力雄厚的PaaS提供商封装成预制服务&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2015
+
+&lt;ul&gt;
+&lt;li&gt;全面融入IT领域的&lt;strong&gt;容器技术&lt;/strong&gt;元年&lt;/li&gt;
+&lt;li&gt;Windows Server 2016将为Docker类容器技术提供支持&lt;/li&gt;
+&lt;li&gt;OpenStack、CloudFoundry等Linux巨头，也在重新对其产品线中的某些核心组件进行调整&lt;/li&gt;
+&lt;li&gt;2015年中国企业级SaaS市场规模将达到199.3亿元，这是一个正经历着裂变式高速增长的市场&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2016 变革从此爆发
+
+&lt;ul&gt;
+&lt;li&gt;预计2016年中国企业级SaaS市场规模将超过300亿元人民币&lt;/li&gt;
+&lt;li&gt;混合云 IBM Bluemix 中国区将正式发布&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://d1fto35gcfffzn.cloudfront.net/images/products/pivotal-cloud-foundry/cloud-native-diagram-azure.png&#34; alt=&#34;CloudFondry&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;待整理-国内混合云市场前景&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
+
+&lt;h2 id=&#34;待整理-江西混合云市场前景&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
+
+&lt;h2 id=&#34;中小企业信息化的需求&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;互联网技术革新速度不断加速，二三线城市还未跟上步伐&lt;/li&gt;
+&lt;li&gt;企业信息系统，该选择私有云还是公有云？
+
+&lt;ul&gt;
+&lt;li&gt;如果公有云，该选择IBM、AWS还是国内服务商？&lt;/li&gt;
+&lt;li&gt;如果私有云，该选择私有云IDC托管还是自建机房？&lt;/li&gt;
+&lt;li&gt;企业云资源虚拟化，该选择OpenStack还是Docker？
+
+&lt;ul&gt;
+&lt;li&gt;OpenStack该选择自建服务器集群，还是统一托管至IDC？&lt;/li&gt;
+&lt;li&gt;Docker管理的PaaS级方案，该选择CloudFoundry、Kubernetes、Deis还是Flynn？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些头疼无比的选择，正反映了中小型企业信息化的现状：信息不对等，导致了中小型企业难接触飞速发展的企业信息化技术。&lt;/p&gt;
+
+&lt;h1 id=&#34;二-消灭信息不对等&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
+
+&lt;h2 id=&#34;消灭常见认知误区&#34;&gt;消灭常见认知误区&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;十年前，建设一个门户就是企业信息化&lt;/li&gt;
+&lt;li&gt;现在，做一个公众号，发布一款APP就是企业信息化&lt;/li&gt;
+&lt;li&gt;只要有WEB，拼凑几个智能硬件，就是互联网+项目&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;消灭成本预估误区&#34;&gt;消灭成本预估误区&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;公司策划的项目很好，只差一个程序员
+
+&lt;ul&gt;
+&lt;li&gt;对系统&lt;strong&gt;需求不明确&lt;/strong&gt;，导致资金预算与预期成果严重不符&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;请一个软件外包团队，几个月就能做完项目
+
+&lt;ul&gt;
+&lt;li&gt;对系统上线&lt;strong&gt;运维成本不了解&lt;/strong&gt;，导致项目难以持续迭代&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
+
+&lt;h3 id=&#34;关键工具&#34;&gt;关键工具&lt;/h3&gt;
+
+&lt;h4 id=&#34;ibm-api-connect&#34;&gt;IBM API Connect&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安全地打通现有的信息数据&lt;/li&gt;
+&lt;li&gt;可视化API构建集成&lt;/li&gt;
+&lt;li&gt;Swagger2.0规范标准&lt;/li&gt;
+&lt;li&gt;API使用统计分析&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/design.png&#34; alt=&#34;apiconnect0&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/source.png&#34; alt=&#34;apiconnect1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/analytics.png&#34; alt=&#34;apiconnect2&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;项目背景&#34;&gt;项目背景&lt;/h3&gt;
+
+&lt;p&gt;2015.4月，该旅游集团互联网+旅游产品与2015年1月开始已上线一个季度，由一家小型非技术型公司来外包完成产品开发。平台前期设计开发过于仓促，上线运营缺少维护支持以及全方位测试。导致了其正式上线运营后劲不足，影响到集团线下战略发展。&lt;/p&gt;
+
+&lt;h3 id=&#34;危机分析&#34;&gt;危机分析&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/原运营情况.png&#34; alt=&#34;原运营情况&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;拥有200家子公司，但集团内部信息化系统杂乱
+
+&lt;ul&gt;
+&lt;li&gt;新员工入职需要先学习五种系统，日志汇报系统、财务审批系统、旅游产品系统、客户管理系统、微信商城系统&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;各子系统的交接环节，完全使用&lt;strong&gt;人工手动&lt;/strong&gt;统计与交接&lt;/li&gt;
+&lt;li&gt;线上产品经测试后漏洞较多，导致关键业务需要重构&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;提供支持&#34;&gt;提供支持&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/平台2.0系统.png&#34; alt=&#34;优化后系统&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;重构微平台关键业务——旅游产品商城，对接财务报表系统&lt;/li&gt;
+&lt;li&gt;对接集团内部信息系统，部分打通API，部分子系统直接重构&lt;/li&gt;
+&lt;li&gt;优化线上产品自动化部署及自动化运维策略&lt;/li&gt;
+&lt;li&gt;设计平台全套RESTful APIs，提供信息化数据微服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;成果&#34;&gt;成果&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;大幅度减少集团原有的人力资源浪费（信息化及自动化）&lt;/li&gt;
+&lt;li&gt;利于项目维护及后续扩展开发（基于RESTful重构后的线上产品数据接口）&lt;/li&gt;
+&lt;li&gt;为该集团提供技术岗位招聘需求，及产品迭代运维方案&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务方：小型作坊过多，中小型软件外包服务公司不规范
+
+&lt;ul&gt;
+&lt;li&gt;人才难以寻求，二三线城市互联网技术人才紧缺。&lt;/li&gt;
+&lt;li&gt;成本难以压缩，小型公司外包业务利润率，仅有30%。&lt;/li&gt;
+&lt;li&gt;领头人非技术出身，技术策略偏重重复生产，而非技术革新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;企业方：采购SaaS服务接口开放度不高，或企业内无人进行信息整合
+
+&lt;ul&gt;
+&lt;li&gt;SaaS服务兴起，但多为通用模板，定制化较少&lt;/li&gt;
+&lt;li&gt;缺少合适的技术人才，进行信息整合优化&lt;/li&gt;
+&lt;li&gt;中小企业（非互联网领域）信息技术投入多为负支出，所带来成果难以见效&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
+
+&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
+
+&lt;p&gt;有人评论说：&amp;rdquo;针对目前国内情况，DevOps还是很遥远。也许只有行业顶尖的公司，或者新成立的公司会有这样的尝试。大多数的企业还未开始进行敏捷的推进，传统的重重阻碍会使敏捷的推进进程遥遥无期。&amp;rdquo; DevOps真的离我们有那么远吗？DevOps应该从哪里开始呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/cloudfoundrycert.jpg&#34; alt=&#34;cfcert&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.wenwenyun.com/uploads/allimg/140924/12222031D-0.png&#34; alt=&#34;agile&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;持续部署和交付&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;利用专为缩减时间和降低管理运营成本而设计的平台，缩短软件交付周期。
+- DevOps&lt;/p&gt;
+
+&lt;p&gt;营造一个充满信赖、文化强大的结构性平台去服务企业连接需求和实施，事半功倍。&lt;/p&gt;
+
+&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;原型测试阶段
+
+&lt;ul&gt;
+&lt;li&gt;公有云——IBM Bluemix Public&lt;/li&gt;
+&lt;li&gt;适用于：小型规模应用，或测试期产品&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;公测迭代阶段
+
+&lt;ul&gt;
+&lt;li&gt;私有托管——IBM Bluemix Dedicated&lt;/li&gt;
+&lt;li&gt;适用于：用户规模较大，注重数据独立性与可靠性，需要硬件独立的私有环境&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;大规模发布阶段
+
+&lt;ul&gt;
+&lt;li&gt;私有部署——IBM Bluemix Local&lt;/li&gt;
+&lt;li&gt;适用于：公司有专业运维部门，对IaaS或PaaS层有一定的定制需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
+
+&lt;h3 id=&#34;关键工具-1&#34;&gt;关键工具&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker+Parse
+
+&lt;ul&gt;
+&lt;li&gt;IBM Bluemix替代方案&lt;/li&gt;
+&lt;li&gt;Mobile Application Content Manager&lt;/li&gt;
+&lt;li&gt;Push Notifications&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API Connect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;项目背景-1&#34;&gt;项目背景&lt;/h3&gt;
+
+&lt;h3 id=&#34;危机分析-1&#34;&gt;危机分析&lt;/h3&gt;
+
+&lt;h3 id=&#34;提供支持-1&#34;&gt;提供支持&lt;/h3&gt;
+
+&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
+
+&lt;h3 id=&#34;服务方与企业方&#34;&gt;服务方与企业方&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;小作坊惨遭淘汰，或在压力中转型成为与云接轨的合格服务商&lt;/li&gt;
+&lt;li&gt;具有一定规模的传统软件服务商，将面临尴尬的局面，喜忧参半
+
+&lt;ul&gt;
+&lt;li&gt;威胁&lt;/li&gt;
+&lt;li&gt;较为“老龄化”的技术团队&lt;/li&gt;
+&lt;li&gt;难以迭代的技术债务&lt;/li&gt;
+&lt;li&gt;新技术创业公司的冲击&lt;/li&gt;
+&lt;li&gt;机遇&lt;/li&gt;
+&lt;li&gt;老客户的更新迭代需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;互联网技术岗位需求增加，技术交流氛围提升，人才普遍水平上升&lt;/li&gt;
+&lt;li&gt;信息化将成为传统公司必经之路
+
+&lt;ul&gt;
+&lt;li&gt;较早探索转型的企业，初期会面临诸多实验性成本投入&lt;/li&gt;
+&lt;li&gt;可成功信息化转型的企业，其企业发展必然会受到增幅&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;企业真正需要的是信息化的全方位服务，而不仅仅是软件开发外包&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;大型信息科技公司&#34;&gt;大型信息科技公司&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;制定规则
+
+&lt;ul&gt;
+&lt;li&gt;成为推动与云接轨的&lt;strong&gt;软件服务标准流程及制度&lt;/strong&gt;产生与发展的&lt;strong&gt;关键力量&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;拥抱开发者
+
+&lt;ul&gt;
+&lt;li&gt;自身更加注重IaaS及PaaS服务的建设，将鼓励开发者自成生态圈，在其标准及服务上进行SaaS的开发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;整合数据（DT时代）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
+
+&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
+
+&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
+
+&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
