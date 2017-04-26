@@ -22,10 +22,10 @@ if [ $# -eq 1 ]
 	  git commit -m "$msg"
 
 	  # Push source and build repos.
-#	  git push -f origin master
-#	  git subtree add --prefix=public https://github.com/ryanemax/ryanemax.github.io.git gh-pages --squash
-	  git subtree push --prefix=public https://github.com/ryanemax/ryanemax.github.io.git gh-pages --squash
+    git push -f origin master
+	  git subtree add --prefix=public https://github.com/ryanemax/ryanemax.github.io.git gh-pages
+	  git subtree push --prefix=public https://github.com/ryanemax/ryanemax.github.io.git gh-pages
 	  # Push source and build repos to Coding.net.
 	  # git push coding master
-#	  git subtree add --prefix=public https://git.coding.net/ryn/blog.git gh-pages --squash
+	  git subtree add --prefix=public https://git.coding.net/ryn/blog.git gh-pages --squash
 	  git subtree push --prefix=public https://git.coding.net/ryn/blog.git gh-pages
