@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bdinchina on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/tags/bdinchina/index.xml</link>
+    <description>Recent content in Bdinchina on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/tags/bdinchina/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2017中国大数据应用创新峰会暨数据中国城市行活动会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-4-26bdinchina/</link>
+      <pubDate>Wed, 26 Apr 2017 20:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-4-26bdinchina/</guid>
+      <description>
+
+&lt;h1 id=&#34;2017中国大数据应用创新峰会暨数据中国城市行活动会议记录&#34;&gt;2017中国大数据应用创新峰会暨数据中国城市行活动会议记录&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国大数据产业生态联盟&lt;/li&gt;
+&lt;li&gt;Big Data Industry Ecological Alliance of China&lt;/li&gt;
+&lt;li&gt;2017.04.26 青岛&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主旨报告-2017年大数据发展趋势&#34;&gt;主旨报告——2017年大数据发展趋势&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;北京大学教授 工业和信息化部原副部长 杨学山&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-历史发展&#34;&gt;一、历史发展&lt;/h2&gt;
+
+&lt;h3 id=&#34;信息流引领未来&#34;&gt;信息流引领未来&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;信息流引领新动能，实现新发展&lt;/li&gt;
+&lt;li&gt;非结构信息 ==&amp;gt; 分析、提取 ==&amp;gt; 价值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-应用创新&#34;&gt;二、应用创新&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;今天已有/已产生的数据（价值密度低）&lt;/li&gt;
+&lt;li&gt;企业、政府，如何通过信息流加快发展&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;人做的事情 ==&amp;gt; 数据链 ==&amp;gt; 大数据&lt;/li&gt;
+&lt;li&gt;昔要通古，从目的出发，重定义系统/重定义数据链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-技术创新&#34;&gt;三、技术创新&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;传统方式（hadoop）：将音视频、非结构文本 ==&amp;gt; 有价值数据&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;新的系统、工具支持
+
+&lt;ul&gt;
+&lt;li&gt;数据链构建（完整）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;建模和仿真
+
+&lt;ul&gt;
+&lt;li&gt;新模型&lt;/li&gt;
+&lt;li&gt;新数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;四-模式创新&#34;&gt;四、模式创新&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;解决制度矛盾
+
+&lt;ul&gt;
+&lt;li&gt;如：智慧城市的推进，需要跨部门、跨层级合作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解决可持续发展问题
+
+&lt;ul&gt;
+&lt;li&gt;可持续发展的商业模式，可以为大数据产业建立起完善的激励机制&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;主旨报告-数据引领未来-创新成就梦想&#34;&gt;主旨报告——数据引领未来，创新成就梦想&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;青岛市南区政府 高健&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-市南区大数据发展优势明显&#34;&gt;一、市南区大数据发展优势明显&lt;/h2&gt;
+
+&lt;h3 id=&#34;历史之城&#34;&gt;历史之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“三湾三城”历史悠久、文化底蕴深厚&lt;/li&gt;
+&lt;li&gt;265历史优秀建筑&lt;/li&gt;
+&lt;li&gt;72处339栋文保单位&lt;/li&gt;
+&lt;li&gt;41 名人故居&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;旅游之城&#34;&gt;旅游之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15家A级&lt;/li&gt;
+&lt;li&gt;4家AAAA级&lt;/li&gt;
+&lt;li&gt;拥有亚洲六个最美海湾之一&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;时尚之城&#34;&gt;时尚之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;年平均空气优良天数 230&lt;/li&gt;
+&lt;li&gt;城区绿化 35.4%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;学术创新&#34;&gt;学术创新&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;外聘院士 18&lt;/li&gt;
+&lt;li&gt;两院院士 17&lt;/li&gt;
+&lt;li&gt;国家“千人计划”专家 12&lt;/li&gt;
+&lt;li&gt;大数据类创新服务项目丰富
+
+&lt;ul&gt;
+&lt;li&gt;教育、治安、文化、旅游&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-市南区基于大数据的产业基础丰富&#34;&gt;二、市南区基于大数据的产业基础丰富&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;金融企业&lt;/li&gt;
+&lt;li&gt;大型企业&lt;/li&gt;
+&lt;li&gt;创意企业&lt;/li&gt;
+&lt;li&gt;政策扶持 一次性落实各类扶持资金1.8亿元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-市南区大数据基础发展原则及路径&#34;&gt;三、市南区大数据基础发展原则及路径&lt;/h2&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要坚持五个方面的原则&#34;&gt;促进大数据发展，要坚持五个方面的原则&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要坚持创新驱动的原则&lt;/li&gt;
+&lt;li&gt;要坚持统筹规划的原则&lt;/li&gt;
+&lt;li&gt;要坚持开放共享的原则&lt;/li&gt;
+&lt;li&gt;要坚持应用示范的原则&lt;/li&gt;
+&lt;li&gt;要坚持确保安全的原则&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;发展路线&#34;&gt;发展路线&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017 全区统一“政务云”&lt;/li&gt;
+&lt;li&gt;2018 实现政务大数据、云计算分中心&lt;/li&gt;
+&lt;li&gt;2019 xxx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要做好五个方面任务&#34;&gt;促进大数据发展，要做好五个方面任务&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要着力推进城区资源数据化&lt;/li&gt;
+&lt;li&gt;要着力推进公共数据共享化&lt;/li&gt;
+&lt;li&gt;要着力推进政府治理智慧化&lt;/li&gt;
+&lt;li&gt;要着力推进民生服务便捷化&lt;/li&gt;
+&lt;li&gt;要着力推进数据产业创新化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要构建五个方面的支撑保障&#34;&gt;促进大数据发展，要构建五个方面的支撑保障&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要加强组织保障&lt;/li&gt;
+&lt;li&gt;要强化财力支撑&lt;/li&gt;
+&lt;li&gt;要搭建发展平台&lt;/li&gt;
+&lt;li&gt;要着力聚集人才&lt;/li&gt;
+&lt;li&gt;要促进协同发展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主题报告-大数据产品与解决方案测评结果发布&#34;&gt;主题报告——大数据产品与解决方案测评结果发布&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品与方案质量保障工作组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-工作背景&#34;&gt;一、工作背景&lt;/h2&gt;
+
+&lt;p&gt;落实《国务院关于印发促进大数据发展行动纲要的通知》(国发[2015]50号)&lt;/p&gt;
+
+&lt;h2 id=&#34;二-流程回顾&#34;&gt;二、流程回顾&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品&lt;/li&gt;
+&lt;li&gt;大数据解决方案
+
+&lt;ul&gt;
+&lt;li&gt;金融行业&lt;/li&gt;
+&lt;li&gt;能源行业&lt;/li&gt;
+&lt;li&gt;电子商务行业&lt;/li&gt;
+&lt;li&gt;教育行业&lt;/li&gt;
+&lt;li&gt;工业领域&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;产品和方案征集、技术评测、专家评审、证书颁发&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品评测指标体系
+
+&lt;ul&gt;
+&lt;li&gt;功能、安全、兼容、可靠、可扩展、知识产权&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解决方案评测指标体系
+
+&lt;ul&gt;
+&lt;li&gt;应用需求分析、系统架构分析、核心功能验证、应用规模&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-主要奖项&#34;&gt;三、主要奖项&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;8 大数据产品认证证书&lt;/li&gt;
+&lt;li&gt;5 大数据解决方案认证证书&lt;/li&gt;
+&lt;li&gt;6 大数据应用案例认证证书&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;四-本次评测工作总结&#34;&gt;四、本次评测工作总结&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品和方案多样化&lt;/li&gt;
+&lt;li&gt;部分企业具备整套解决方案&lt;/li&gt;
+&lt;li&gt;大数据案例逐步落地&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;五-目前大数据产品存在的问题&#34;&gt;五、目前大数据产品存在的问题&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术创新和支撑能力仍需加强&lt;/li&gt;
+&lt;li&gt;大数据安全急需关注&lt;/li&gt;
+&lt;li&gt;行业应用规模不够大（暂无PB级应用）&lt;/li&gt;
+&lt;li&gt;部分大数据方案拳法创新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;六-后期工作&#34;&gt;六、后期工作&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017-4 正式启动第二期大数据产品和解决方案征集测评&lt;/li&gt;
+&lt;li&gt;开展大数据产品和解决方案的性能专题测评&lt;/li&gt;
+&lt;li&gt;探索大数据数据全生命周期的数据安全审查服务&lt;/li&gt;
+&lt;li&gt;面向重点行业（政务、医疗、环保、交通、工业、能源等领域）的大数据平台建设提供咨询、测评服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;cosmoplat-全球引领自主创新的工业互联网云平台&#34;&gt;COSMOPlat——全球引领自主创新的工业互联网云平台&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;海尔集团家电产业集团大数据&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;为什么-应对实战的挑战&#34;&gt;为什么：应对实战的挑战&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户需求被释放
+
+&lt;ul&gt;
+&lt;li&gt;个性化、细节化&lt;/li&gt;
+&lt;li&gt;高端化、高品质&lt;/li&gt;
+&lt;li&gt;参与感、体验感&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;行业难题
+
+&lt;ul&gt;
+&lt;li&gt;压货促销，库存大&lt;/li&gt;
+&lt;li&gt;产品同质化严重，缺乏创新&lt;/li&gt;
+&lt;li&gt;效率低、利润下降&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;转型挑战
+
+&lt;ul&gt;
+&lt;li&gt;工业1.0、2.0、3.0并存&lt;/li&gt;
+&lt;li&gt;产业结构不合理&lt;/li&gt;
+&lt;li&gt;生产性服务业发展滞后&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;实现转型的战略愿景&#34;&gt;实现转型的战略愿景&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;战略愿景
+
+&lt;ul&gt;
+&lt;li&gt;物联网时代的智慧生活行业引领者&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;战略路径
+
+&lt;ul&gt;
+&lt;li&gt;顾客、用户、社群、电器、网器、生态&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;智慧家庭、互联工厂&lt;/p&gt;
+
+&lt;p&gt;单一硬件产品 -&amp;gt; 智慧生活解决方案&lt;/p&gt;
+
+&lt;p&gt;大规模制造 -&amp;gt; 大规模定制&lt;/p&gt;
+
+&lt;p&gt;社区生态大数据平台&lt;/p&gt;
+
+&lt;h2 id=&#34;满足用户生活场景定制的最佳体验&#34;&gt;满足用户生活场景定制的最佳体验&lt;/h2&gt;
+
+&lt;p&gt;全流程并联、零距离互联互通、开放式的创新体系&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业&lt;/li&gt;
+&lt;li&gt;资源&lt;/li&gt;
+&lt;li&gt;工业新生态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;颠覆性创新的平台架构&#34;&gt;颠覆性创新的平台架构&lt;/h2&gt;
+
+&lt;p&gt;三大差异化能力、用户全流程参与大规模定制体验迭代、零距离互联互通、开放新生态&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模式层&lt;/li&gt;
+&lt;li&gt;应用层&lt;/li&gt;
+&lt;li&gt;平台层&lt;/li&gt;
+&lt;li&gt;资源层&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;开放的云平台&lt;/li&gt;
+&lt;li&gt;分布式架构&lt;/li&gt;
+&lt;li&gt;模块化微服务&lt;/li&gt;
+&lt;li&gt;智能化物联&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;8大互联工厂样板&#34;&gt;8大互联工厂样板&lt;/h2&gt;
+
+&lt;p&gt;互联工厂：用户深度参与大规模定制模式&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户交互&lt;/li&gt;
+&lt;li&gt;众创定制&lt;/li&gt;
+&lt;li&gt;定制订单&lt;/li&gt;
+&lt;li&gt;生产可视&lt;/li&gt;
+&lt;li&gt;交付可视&lt;/li&gt;
+&lt;li&gt;使用体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;沈阳冰箱、佛山滚筒、郑州空调、青岛模具、青岛热水器、FPA电机、胶州空调、黄岛空调&lt;/p&gt;
+
+&lt;h2 id=&#34;迭代&#34;&gt;迭代&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对内成果复制到全球108个工厂&lt;/li&gt;
+&lt;li&gt;对外跨行业、跨区域服务与推广，构建智能制造生态服务新产业&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;大数据应用1-零部件模块化&#34;&gt;大数据应用1：零部件模块化&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模块化对3种定制模式的支撑
+
+&lt;ul&gt;
+&lt;li&gt;快速满足用户多样性个性化需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;模块化采购的4类价格模型
+
+&lt;ul&gt;
+&lt;li&gt;有效降低全球资源采购成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;大数据应用2-生产流程可视化&#34;&gt;大数据应用2：生产流程可视化&lt;/h2&gt;
+
+&lt;h2 id=&#34;大数据应用4-服务交互智能化&#34;&gt;大数据应用4：服务交互智能化&lt;/h2&gt;
+
+&lt;h2 id=&#34;获得国家-行业广泛的认可&#34;&gt;获得国家、行业广泛的认可&lt;/h2&gt;
+
+&lt;h1 id=&#34;主题报告-融合数据-强化应用-创新服务&#34;&gt;主题报告——融合数据、强化应用、创新服务&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;久其软件 钱晖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-大数据战略&#34;&gt;一、大数据战略&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;久其战略——业内领先的、聚焦B2B2C的大数据综合服务提供商&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-大数据认知&#34;&gt;二、大数据认知&lt;/h2&gt;
+
+&lt;p&gt;应用环境：宏观环境、经济社会环境&lt;/p&gt;
+
+&lt;p&gt;应用要素：技术、数据、应用场景&lt;/p&gt;
+
+&lt;p&gt;应用场景：
+- 政务大数据（国发[2017]27号文）
+    - 大力推行“互联网+政务服务”
+    - 尽职/合规
+    - 公平/作为
+    - 智能/服务
+- 优化服务
+    - 大数据
+        - 识别服务需求
+        - 优化服务界面
+        - 进行服务预警
+    - 服务创新
+        - 个性化服务
+        - 适应性服务
+        - 主动协同服务&lt;/p&gt;
+
+&lt;h2 id=&#34;三-大数据实践&#34;&gt;三、大数据实践&lt;/h2&gt;
+
+&lt;p&gt;大数据应用领域
+- 民生大数据
+- 交通大数据
+- 传播大数据
+- 财经大数据
+- 司法大数据
+- 产业大数据&lt;/p&gt;
+
+&lt;p&gt;久其大数据应用行业与案例&lt;/p&gt;
+
+&lt;p&gt;大数据为国家教育现代化服务&lt;/p&gt;
+
+&lt;p&gt;大数据助力国家精准扶贫——2020年实现全面脱贫
+- 单致贫因素分析
+- 多致贫因素分析
+- 扶贫资金模拟
+- PDMI用户行为分析与推荐系统
+- 用户画像&lt;/p&gt;
+
+&lt;p&gt;大数据为产业发展服务&lt;/p&gt;
+
+&lt;h2 id=&#34;愿景&#34;&gt;愿景&lt;/h2&gt;
+
+&lt;p&gt;让信息的制造者成为受益者&lt;/p&gt;
+
+&lt;h1 id=&#34;主题报告-神州泰岳与大数据&#34;&gt;主题报告——神州泰岳与大数据&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;神州泰岳 董事副总裁 杨凯程&lt;/p&gt;
+
+&lt;h2 id=&#34;两大核心挑战&#34;&gt;两大核心挑战&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;技术创新&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;感知智能（视觉识别、语音识别）&lt;/li&gt;
+&lt;li&gt;认知智能（自然语言语义识别）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;场景创新&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以深度学习为代表的机器学习成为了AI算法的基础
+- 大数据带来的样本易获取
+- GPU带来的算力大提升&lt;/p&gt;
+
+&lt;p&gt;感知智能的巨大成就和众创时代的来临
+- 看得到、听得到、说得清
+- 机器学习的算法是普惠的
+- GPU带来的算力是普惠的
+- 学习样本已经更加易于获得&lt;/p&gt;
+
+&lt;p&gt;认知智能的角度来看深度学习效果不如预期、路还漫长
+- 数据的“善良性”，要求语料质量优质
+- 互联网上最多最容易获得样本数据
+- 或者样本数据易于获得易于积累的领域&lt;/p&gt;
+
+&lt;p&gt;尤其是在行业领域深度学习还将面临三个挑战
+- 缺乏足够丰富的样本数据
+    - 算法训练、测试、解决困难
+- 中文歧义性的挑战
+    - 相同的含义不一样的表达
+    - 相同的表达不一样的含义
+- 应答结果的专业性要求&lt;/p&gt;
+
+&lt;h2 id=&#34;神州泰岳nlp-基于概念计算的智慧语义认知技术&#34;&gt;神州泰岳NLP：基于概念计算的智慧语义认知技术&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;符号化语义表示的DNA语义词库&lt;/li&gt;
+&lt;li&gt;语义=语言本体+领域范畴+意义表示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;面向业务建模解决从技术专注转移到业务专注
+- 规范的业务表示
+- 复杂的自然语言表示&lt;/p&gt;
+
+&lt;h2 id=&#34;dinfo-oec是神州泰岳对于人工智能认知的重要贡献&#34;&gt;DINFO-OEC是神州泰岳对于人工智能认知的重要贡献&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业界首款面向业务建模的DINFO-OEC平台&lt;/li&gt;
+&lt;li&gt;机器学习依赖的两个主要条件不再成为必须&lt;/li&gt;
+&lt;li&gt;神州泰岳人工智能&lt;strong&gt;认知+&lt;/strong&gt;的三大战略概念&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;云服务-场景创新&#34;&gt;云服务——场景创新&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;智脑公安案情分析系统
+
+&lt;ul&gt;
+&lt;li&gt;以入室盗窃案情记录为例&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;专家论坛-大数据驱动下的应用创新&#34;&gt;专家论坛——大数据驱动下的应用创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主持人：郭嘉凯
+
+&lt;ul&gt;
+&lt;li&gt;中国大数据产业生态联盟副秘书长&lt;/li&gt;
+&lt;li&gt;《软件和集成电路》杂志社总编辑&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：张理敬
+
+&lt;ul&gt;
+&lt;li&gt;青岛市大数据发展促进局副局长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：黄曜令
+
+&lt;ul&gt;
+&lt;li&gt;北京润乾软件技术有限公司总经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：陈维强
+
+&lt;ul&gt;
+&lt;li&gt;海信集团有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：徐斌
+
+&lt;ul&gt;
+&lt;li&gt;雪松集团CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;中国大数据产业生态联盟2017-第二届-理事成员大会摘要&#34;&gt;中国大数据产业生态联盟2017（第二届）理事成员大会摘要&lt;/h1&gt;
+
+&lt;h2 id=&#34;联盟2016工作总结&#34;&gt;联盟2016工作总结&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;面向各地方政府政务大数据的培训课程&lt;/li&gt;
+&lt;li&gt;发布《2016中国大数据产业生态地图》白皮书&lt;/li&gt;
+&lt;li&gt;揭晓“中国大数据企业50强”&lt;/li&gt;
+&lt;li&gt;每月一次“BOSS团”沙龙活动
+
+&lt;ul&gt;
+&lt;li&gt;B2B资源对接&lt;/li&gt;
+&lt;li&gt;理事成员以上单位可主动承办&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;“大数据发展五星城市”测评（年初、年底各一次）
+
+&lt;ul&gt;
+&lt;li&gt;截止目前，青岛、贵阳、南京、沈阳&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;产品与解决方案测评工作（面向联盟内部成员免费）&lt;/li&gt;
+&lt;li&gt;专著出版《数据新势力》&lt;/li&gt;
+&lt;li&gt;协助成员进行针对性资源、业务对接
+
+&lt;ul&gt;
+&lt;li&gt;B&amp;amp;B、B&amp;amp;G、B&amp;amp;C&lt;/li&gt;
+&lt;li&gt;B&amp;amp;C部分由CIO专委会与企业用户进行对接落地&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟2017整体规划&#34;&gt;联盟2017整体规划&lt;/h2&gt;
+
+&lt;h2 id=&#34;联盟-大数据人才培养工作组-2017整体规划&#34;&gt;联盟&amp;lt;大数据人才培养工作组&amp;gt;2017整体规划&lt;/h2&gt;
+
+&lt;h2 id=&#34;联盟-大数据发展水平评价工作组-工作报告&#34;&gt;联盟&amp;lt;大数据发展水平评价工作组&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主要进行区域发展水平测评与发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016总结&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据发展水平评价指标体系研究制定&lt;/li&gt;
+&lt;li&gt;大数据发展水平评价机制制定&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大数据发展水平评价结果发布&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大数据发展水平评价指标体系&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布专题研究报告&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布每年白皮书&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;维护网站专栏&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017工作&#34;&gt;2017工作&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;确定首批专家委员会&lt;/li&gt;
+&lt;li&gt;大数据发展水平评价专栏正式上线&lt;/li&gt;
+&lt;li&gt;发展区域大数据发展书评自评价功能（地方政府，可进行问卷自评，具有内部参考性）
+
+&lt;ul&gt;
+&lt;li&gt;自评后，可申请专家评价&lt;/li&gt;
+&lt;li&gt;联盟成员，可主动自己所在区域发起评价&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;发展区域大数据发展水平评价体系修订升级工作
+
+&lt;ul&gt;
+&lt;li&gt;8月，征集建议&lt;/li&gt;
+&lt;li&gt;9月，组织专家单位，进行修改&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;开展2017年下半年区域大数据发展评价工作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-大数据产品与方案质量保障工作组-工作报告&#34;&gt;联盟&amp;lt;大数据产品与方案质量保障工作组&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;周润松&lt;/li&gt;
+&lt;li&gt;主要进行产品与解决方案测评与发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016总结-1&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品和解决方案发放平台&lt;/li&gt;
+&lt;li&gt;测评认证结果发布平台&lt;/li&gt;
+&lt;li&gt;政府关键数据支撑平台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017计划&#34;&gt;2017计划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展大数据产业优秀产品以及解决方案征集工作
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品&lt;/li&gt;
+&lt;li&gt;大数据解决方案&lt;/li&gt;
+&lt;li&gt;大数据应用案例&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;发展大数据产品的专题测评工作&lt;/li&gt;
+&lt;li&gt;为面向重点行业的大数据平台建设提供咨询、测评服务&lt;/li&gt;
+&lt;li&gt;打造大数据生态中心，建立优秀的大数据产品和解决方案应用体验中心
+
+&lt;ul&gt;
+&lt;li&gt;产品体验&lt;/li&gt;
+&lt;li&gt;方案体验&lt;/li&gt;
+&lt;li&gt;需求对接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;打造中国大数据产品及解决方案测评与认定结果发布平台
+
+&lt;ul&gt;
+&lt;li&gt;更全的产品分类与测评收录&lt;/li&gt;
+&lt;li&gt;更全的行业应用案例测评收率&lt;/li&gt;
+&lt;li&gt;更全更专业的测评结果&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-大数据工业大数据专委会-工作报告&#34;&gt;联盟&amp;lt;大数据工业大数据专委会&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;h3 id=&#34;2016总结-2&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国制造2025战略
+
+&lt;ul&gt;
+&lt;li&gt;重复现有工业体系&lt;/li&gt;
+&lt;li&gt;规模庞大、层次多样的需求&lt;/li&gt;
+&lt;li&gt;全球性价值&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;中国政府重视工业大数据发展&lt;/li&gt;
+&lt;li&gt;建立大数据人才培养机制&lt;/li&gt;
+&lt;li&gt;筹建工业大数据应用展示中心&lt;/li&gt;
+&lt;li&gt;组织召开、出席大数据相关会议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017计划-1&#34;&gt;2017计划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;推荐专委会组织建设&lt;/li&gt;
+&lt;li&gt;开展大数据人才培养&lt;/li&gt;
+&lt;li&gt;注重大数据技术研究：技术、产品、应用&lt;/li&gt;
+&lt;li&gt;展示工业大数据优秀成果
+
+&lt;ul&gt;
+&lt;li&gt;建立全国级、省市级的工业大数据应用展示中心
+
+&lt;ul&gt;
+&lt;li&gt;杭州、河南在今年7月份建成&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;探索工业大数据新型商业服务模式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;推动工业大数据产业标准&lt;/li&gt;
+&lt;li&gt;开展工业大数据产业和实践研究&lt;/li&gt;
+&lt;li&gt;组织召开、参加行业活动&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-财经大数据专委会&#34;&gt;联盟&amp;lt;财经大数据专委会&amp;gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;搭建交流平台
+
+&lt;ul&gt;
+&lt;li&gt;汇聚智慧、分享经验&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;构建生态体系
+
+&lt;ul&gt;
+&lt;li&gt;打通链条、建设生态&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;推动资源开放
+
+&lt;ul&gt;
+&lt;li&gt;融合数据、共享资源&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;落实数据服务
+
+&lt;ul&gt;
+&lt;li&gt;平台运作、服务无限&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-产业互联网服务专委会-工作计划&#34;&gt;联盟&amp;lt;产业互联网服务专委会&amp;gt;工作计划&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;www.ciisc.org 4008-200-747&lt;/li&gt;
+&lt;li&gt;服务宗旨：聚合千家资源、服务万家企业
+
+&lt;ul&gt;
+&lt;li&gt;当地政府合作、挖掘中小企业需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配合联盟的数据中国行&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;落地青岛&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为当地政府搭建“技术云”产业服务大数据云平台&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为当地中小企业与全国专业机构和专家学者产学研对接创造联盟的服务平台&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-cio专委会工作报告&#34;&gt;联盟&lt;CIO专委会工作报告&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;徐斌&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016工作汇报&#34;&gt;2016工作汇报&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业用户大数据，将企业用户的需求引入整个大数据体系&lt;/li&gt;
+&lt;li&gt;2016-12-22成立&lt;/li&gt;
+&lt;li&gt;目前已经有70位发布聘书委员&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017工作计划&#34;&gt;2017工作计划&lt;/h3&gt;
+
+&lt;h4 id=&#34;愿景-1&#34;&gt;愿景&lt;/h4&gt;
+
+&lt;p&gt;成为国内领先的“前瞻性挖掘企业发展需求，务实性应用大数据解决方案，形成大数据应用方案提供方和大数据价值获得方的有机互动，共同发展”的专业委员会&lt;/p&gt;
+
+&lt;p&gt;打造企业单位、行业组织、大数据方案提供商、和专家智库等多方互动的桥梁&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业&lt;/li&gt;
+&lt;li&gt;行业&lt;/li&gt;
+&lt;li&gt;供应商&lt;/li&gt;
+&lt;li&gt;专家智库&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;宗旨&#34;&gt;宗旨&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;交流：搭建CIO交流平台&lt;/li&gt;
+&lt;li&gt;共享：推动企业大数据资源开放共享与应用&lt;/li&gt;
+&lt;li&gt;生态：构建企业大数据服务生态链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;目标-需求指导供给-供给推动需求-大数据价值实现&#34;&gt;目标：需求指导供给 + 供给推动需求 = 大数据价值实现&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;贯彻国家顶层设计思想，建设合作共赢的企业大数据生态&lt;/li&gt;
+&lt;li&gt;一方面通过企业需求的收集，分析和汇总来指导大数据方案提供商能够更好地设计和建设具有实际企业应用价值的解决方案&lt;/li&gt;
+&lt;li&gt;另一方案为企业CIO们带来更多元，更丰富的大数据应用解决方案，来加快企业应用合适的方案来快速提升价值，实现企业核心竞争力的不断提升&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;主要工作-供需连接-合作共赢&#34;&gt;主要工作：供需连接+合作共赢&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展企业大数据应用现状研究，发掘大数据在企业中产生价值的场景&lt;/li&gt;
+&lt;li&gt;推动企业CIO们对大数据的进一步认识，了解大数据产业发展的最佳实践&lt;/li&gt;
+&lt;li&gt;利用CIO的聚集效应，发现潜在的共同需求，实现以需求驱动设计和生产的模式&lt;/li&gt;
+&lt;li&gt;推动企业的信息化和工业化深度融合发展，发现经济转型和创业创新机遇&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;行动计划&#34;&gt;行动计划&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月CIO数据讲堂&lt;/li&gt;
+&lt;li&gt;定期CIO线下沙龙&lt;/li&gt;
+&lt;li&gt;10月举办大型交流论坛&lt;/li&gt;
+&lt;li&gt;线上CIO主题交流群&lt;/li&gt;
+&lt;li&gt;企业最佳实践考察&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-数据智能专委会&#34;&gt;联盟&amp;lt;数据智能专委会&amp;gt;&lt;/h2&gt;
+
+&lt;p&gt;根据目前大数据与人工智能融合的产业趋势和技术驱动产业突破创新的战略决策，在中国大数据产业生态联盟下，由大数据与人工智能领域的领导型企业牵头成立，推进各项工作，产业链上下游相关企业自愿加入的专业服务机构。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;2017.07 组织召开大数据与人工智能的全国高峰论坛（2000门票，对联盟成员免费）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;www.baifendian.com&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-公共服务大数据专委会&#34;&gt;联盟&amp;lt;公共服务大数据专委会&amp;gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,12 @@
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.18.1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
 <link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
-<title>Bluemix中可替代BaaS的服务及介绍 - 刘雨飏@ANAS联盟</title>
+<title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比 - 刘雨飏@ANAS联盟</title>
 
 <link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
 <script src="https://cio.anasit.com//js/highlight.pack.js"></script>
@@ -84,11 +84,14 @@ window.onload=function(){
 <article class="single" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="meta">
 
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-07-25">July 25, 2016</time></span>
 
-    <span class="key">published in</span>
+
+    <span class="key">in</span>
     <span class="val">
 
-        <a href="https://cio.anasit.com/categories/cookbook/backend">cookbook/backend</a>
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
 
     </span>
 
@@ -97,33 +100,176 @@ window.onload=function(){
     <span class="key">tags:</span>
     <span class="val">
 
+        <a href="https://cio.anasit.com/tags/backend">backend</a>
+
+        <a href="https://cio.anasit.com/tags/bluemix">bluemix</a>
+
         <a href="https://cio.anasit.com/tags/baas">baas</a>
 
     </span>
 
   </div>
-  <h1 class="headline" itemprop="headline">Bluemix中可替代BaaS的服务及介绍</h1>
+  <h1 class="headline" itemprop="headline">Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</h1>
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="对比parse-com">对比Parse.com</h1>
+<h1 id="前言">前言</h1>
+
+<h1 id="iot">IOT</h1>
+
+<p>总评：强势的核心功能</p>
+
+<h1 id="waston">Waston</h1>
+
+<p>总评：强势的核心功能</p>
+
+<h1 id="mobile">Mobile</h1>
+
+<p>总评：弱势但不乏亮点</p>
+
+<p>Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，暂时无法广泛应用于生产环境。</p>
+
+<p>部分消息推送、用户分析、统计服务，可尝试性接入产品进行试用，以便于对接Bluemix大数据服务项目。</p>
+
+<h2 id="消息推送服务-push-notifications">消息推送服务：Push Notifications</h2>
+
+<p><strong>结论</strong>
+- 推荐系数：☆☆☆☆
+- 价格实惠、客户端SDK完善
+- 略优于市面上混杂的推送服务</p>
+
+<p><strong>费用参考</strong></p>
+
+<ul>
+<li>每月前一百万条数字消息（推送通知）免费</li>
+<li>US$ 1.05 USD/百万条数字消息</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">PN</th>
+<th align="left">极光</th>
+<th align="left">Parse</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">开源</td>
+<td align="left">否</td>
+<td align="left">否</td>
+<td align="left">是</td>
+</tr>
+
+<tr>
+<td align="left">推送方式</td>
+<td align="left">SDK、APNs、GCM、Chrome、Firefox</td>
+<td align="left">SDK、APNs、GCM</td>
+<td align="left">APNs、GCM</td>
+</tr>
+
+<tr>
+<td align="left">广播推送</td>
+<td align="left">是</td>
+<td align="left">是</td>
+<td align="left">是</td>
+</tr>
+
+<tr>
+<td align="left">标签分组</td>
+<td align="left">是</td>
+<td align="left">是</td>
+<td align="left">需开发</td>
+</tr>
+
+<tr>
+<td align="left">并发</td>
+<td align="left">未测试</td>
+<td align="left">未测试</td>
+<td align="left">自主扩容</td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="数据curd服务-mobile-application-content-manager">数据CURD服务：Mobile Application Content Manager</h2>
 
-<p><a href="http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png">Cate</a>
-<a href="http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png">Content</a></p>
+<p><strong>结论</strong>
+- 推荐系数：☆
+- 功能贫瘠，无法替代firebase、parse.com等专业MBaaS服务
+- 缺少权限控制，需要自主编写逻辑
+- 数据库无法独立部署，后期拓展限制较大</p>
+
+<p><strong>功能</strong></p>
 
 <ul>
-<li>功能对比，功能完善度不如parse</li>
-<li>价格对比，性价比不如parse</li>
+<li><a href="http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png">Cate</a>
+
+<ul>
+<li>类似Mongodb的Collections，用于存放数据对象的集合</li>
+</ul></li>
+<li><a href="http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png">Content</a>
+
+<ul>
+<li>数据对象设计，可自定义数据对象成员属性及字段</li>
+</ul></li>
 </ul>
 
+<p><strong>MACM收费参考</strong></p>
+
 <p>| -     | 功能 | 价格 |
-| :&mdash;&mdash;&mdash;&mdash;- | :&mdash;&mdash;&mdash;&mdash;- | :- |
+| :&mdash;- | :&mdash;- | :- |
 | 免费套餐  | 无 | 无 |
 | 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
 | - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
 | - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |</p>
+
+<p><strong>对比ParsePlatform</strong></p>
+
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">MACM</th>
+<th align="left">Parse</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">开源</td>
+<td align="left">否</td>
+<td align="left">是</td>
+</tr>
+
+<tr>
+<td align="left">可选数据库</td>
+<td align="left">否</td>
+<td align="left">mongodb/postgresql</td>
+</tr>
+
+<tr>
+<td align="left">功能</td>
+<td align="left">简单的对象存储，无详尽的权限机制</td>
+<td align="left">对象存储、角色权限等</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="前端ui-app-快速构建工具-kinetise">前端UI（APP）快速构建工具：Kinetise</h2>
+
+<p><strong>结论</strong>
+- 推荐系数：☆
+- 成熟度，无法替代Ionic Creator及APICloud等前端快速构建平台
+- 可作为初学练习，快速成型Demo的构建
+- 可导出项目源码，后续优化可自行编程</p>
+
+<h2 id="twilio-mobile-analytics-mobile-client-access-mobile-quality-assurance">Twilio/Mobile Analytics/Mobile Client Access/Mobile Quality Assurance</h2>
+
+<ul>
+<li>待测试</li>
+</ul>
 
   </section>
 </article>
@@ -150,7 +296,7 @@ window.onload=function(){
 
 <footer>
   <div class="container">
-    <span class="copyright">&copy; 2016 刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
   </div>
 </footer>
 

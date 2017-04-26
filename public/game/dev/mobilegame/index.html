@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
-<meta name="keywords" content="html5,game|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="mobile,game|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
 <meta name="author" content="刘雨飏, the Founder of ANAS">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.18.1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
 <link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
-<title>HTML5游戏客户端开发引擎 - 刘雨飏@ANAS联盟</title>
+<title>手机游戏客户端开发引擎调研 - 刘雨飏@ANAS联盟</title>
 
 <link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
 <script src="https://cio.anasit.com//js/highlight.pack.js"></script>
@@ -85,13 +85,13 @@ window.onload=function(){
   <div class="meta">
 
     <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-05-01">May 01, 2016</time></span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-04">May 04, 2016</time></span>
 
 
     <span class="key">in</span>
     <span class="val">
 
-        <a href="https://cio.anasit.com/categories/cookbook/fontend">cookbook/fontend</a>
+        <a href="https://cio.anasit.com/categories/game">game</a>
 
     </span>
 
@@ -100,104 +100,133 @@ window.onload=function(){
     <span class="key">tags:</span>
     <span class="val">
 
-        <a href="https://cio.anasit.com/tags/html5">html5</a>
+        <a href="https://cio.anasit.com/tags/frontend">frontend</a>
 
-        <a href="https://cio.anasit.com/tags/game">game</a>
+        <a href="https://cio.anasit.com/tags/mobile">mobile</a>
 
     </span>
 
   </div>
-  <h1 class="headline" itemprop="headline">HTML5游戏客户端开发引擎</h1>
+  <h1 class="headline" itemprop="headline">手机游戏客户端开发引擎调研</h1>
   <section class="body" itemprop="articleBody">
     
 
-<h1 id="html5游戏客户端开发引擎调研">HTML5游戏客户端开发引擎调研</h1>
+<h1 id="手机游戏客户端开发引擎调研">手机游戏客户端开发引擎调研</h1>
 
-<h1 id="cocos2d-js-与cocos-2dx差距太大了-不建议使用">cocos2d-js（与cocos-2dx差距太大了，不建议使用）</h1>
+<h1 id="总览">总览</h1>
+
+<p>| 对比类目 | Cocos2d-x | unity 3d | 结论 |
+| :&mdash;&mdash;- | :&mdash;&mdash;- | :&mdash;&mdash;- |
+| 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d |
+| 学习难度 | 对C++工程师较友好 | 完整便捷的开发套件 | unity 3d |
+| 社区支持 | 国内论坛活跃 | 需要到英文论坛交流 | &ndash; |
+| 发展趋势 | 开源的2D手游开发框架 | 覆盖面广、GUI/网络需要学第三方控件 | &ndash; |
+| 授权费用 | 开源MIT，免费 | 部分开源，费用低可忽略 | &ndash; |
+| 开发成本 | 费前期开发成本，省后期debug和优化成本 | 省前期成本，费后期debug和优化成本 | 3D游戏研发投入是2D游戏的3~4倍 |</p>
+
+<p>总结一下：
+1. 如果你编程基础一般，想快速做出一款游戏而不纠结于技术，选unity
+2. 开发app或者其他软件已经有一定经验，希望转到手游领域做一款商业化产品，同时个人或者团队的资金实力一般，选cocos2d
+3. 现在手机游戏市场前10位有7位都是cocos2d-x开发，开源、跨平台、MIT许可等等，当然适合2d游戏，3d游戏还是用unity；
+4. 想学习业界主流的游戏开发流程，不想局限于某个游戏平台或者2D还是3D，选unity</p>
+
+<h1 id="分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎">分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）</h1>
+
+<p>cocos2d-x是个壮汉，但是肌肉极为不对称</p>
 
 <h2 id="优点">优点</h2>
 
 <ul>
-<li>Babel ES6</li>
-<li>native improvement</li>
-<li>开发环境
-
-<ul>
-<li>Windows</li>
-<li>Mac</li>
-</ul></li>
+<li>产品生态成熟，手机市场占有率大于u3d</li>
+<li>AppStore中国畅销榜前五，都是cocos2s-x引擎</li>
 </ul>
 
 <h2 id="缺点">缺点</h2>
 
 <ul>
-<li>团队内部问题，内部不和谐，产品规划方向差</li>
-<li>跨平台问题
-
-<ul>
-<li>HTML5/JSB表现不一致，只能放弃HTML5,专注JSB</li>
-</ul></li>
-<li>性能问题，性能远低于Egret</li>
-<li>大型游戏，强烈不建议Cocos2d-js
-
-<ul>
-<li>IDE有BUG，断点崩溃，代码提示差，内存太高</li>
-<li>架构太差</li>
-<li>CCUI设计非常糟</li>
-<li>引擎BUG问题多</li>
-<li>工作流问题，IDE不友好，导出配置大</li>
-<li>工作效率问题，ccui、list差</li>
-<li>引擎升级会有大量BUG，版本兼容性差</li>
-</ul></li>
-<li>2.x质量一般，3.x开始改善</li>
-<li>IDE，cocos studio十分难用，拖了引擎后腿</li>
+<li>所谓的跨平台仅仅是IOS/Android等移动端</li>
+<li>所谓丰富的功能，其实大多不能用，非常多BUG</li>
+<li>开发效率不如unity 3d</li>
 </ul>
 
-<h1 id="phaser-js">Phaser.js</h1>
+<h2 id="开发相关">开发相关</h2>
 
-<p><a href="http://www.phaser.io">http://www.phaser.io</a></p>
+<p>主流工具</p>
 
-<h1 id="egret-html5-es6最佳选择">Egret（HTML5+ES6最佳选择）</h1>
+<p>Window平台下 C++语言用 Visual Studio ，官方有UI编辑器CocoStudio，苹果系统不太熟</p>
 
-<p><a href="http://www.egret.com">http://www.egret.com</a></p>
+<p>&mdash;&mdash;&mdash;&mdash;-其他独立的工具&mdash;&mdash;&mdash;-</p>
 
-<p>Egret现在是小孩，眉目清秀</p>
+<p>位图字体工具Bitmap Font Tools
+BMFont (Windows)
+Fonteditor
+Glyph Designer
+Hiero
+LabelAtlasCreator</p>
 
-<h2 id="代表游戏">代表游戏</h2>
+<p>粒子编辑工具Particle Editing Tools
+ParticleCreator
+Particle Designer</p>
 
-<ul>
-<li>神经猫</li>
-</ul>
+<p>物理编辑工具Physics Editing Tools
+Mekanimo
+PhysicsBench
+PhysicsEditor
+VertexHelper</p>
+
+<p>场景编辑工具Scene Editing Tools
+CocosBuilder
+Cocoshop
+LevelHelper</p>
+
+<p>纹理地图集工具Texture Atlas Tools
+DarkFunction Editor
+SpriteHelper
+TexturePacker
+Zwoptex</p>
+
+<p>瓦片地图编辑工具Tilemap Editing Tools
+iTileMaps
+Tiled Map Editor</p>
+
+<p>声音特效编辑工具Audio Effect Editing Tools
+cfxr</p>
+
+<p>背景音乐编辑工具Background Music Editing Tools
+GarageBand (MAC 系统自带)</p>
+
+<p>BOX2D多边形定义工具VertexHelper
+VertexHelper</p>
+
+<p>GIF动画帧导出工具Ulead GIF Animator
+UleadGifAnimator</p>
+
+<p>如果开发者熟悉javascript ，lua编程语言，推荐cocos2d-x editor；我在网上查资料无意间找到的，不得不承认高手在民间，我现在在使用，确实强大，可惜人气还是少了点，希望工具开发者更新更多例子和教程。下面是工具创造者写的简介，我就直接贴在下面了，尽量看原文吧，我很懒，不想一张一张贴图片，麻烦。</p>
+
+<p>原文csdn地址：<a href="http://blog.csdn.net/touchsnow/article/details/18446119">cocos2d-x editor</a></p>
+
+<h1 id="分解-unity-3d">分解：unity 3d</h1>
 
 <h2 id="优点-1">优点</h2>
 
 <ul>
-<li>生态链比较完善</li>
-<li>ES6/TypeScript/JavaScript</li>
-<li>GUI界面编辑器，Egret Wing</li>
-<li>跨平台，AIR</li>
-<li>跨平台安装包打包工具
+<li>真正实现跨平台，PC端的Mac/Windows/Linux，移动端的IOS/IPad/Android</li>
+</ul>
+
+<h2 id="性能">性能</h2>
 
 <ul>
-<li>Egret Android Support</li>
-<li>Egret iOS Support</li>
-</ul></li>
+<li>2D游戏，Unity同屏400个单位没问题</li>
+<li>参考神仙道同屏object数量</li>
+</ul>
 
-<li><p>开发环境</p>
+<h1 id="代表作品分析">代表作品分析</h1>
+
+<h2 id="炉石传说-unity-3d">炉石传说 unity 3d</h2>
 
 <ul>
-<li>Windows</li>
-
-<li><p>Mac</p>
-
-<h2 id="缺点-1">缺点</h2></li>
-</ul></li>
-
-<li><p>刷新率卡顿问题严重影响游戏体验</p></li>
-
-<li><p>喜欢闭门造车，通用的轮子都是自己重写</p></li>
-
-<li><p>全面依赖于html5，但是已经与多款浏览器集成了runtime，可以opengl渲染代替canvas渲染</p></li>
+<li>使用Unity3D开发2d化游戏已成趋势</li>
+<li>炉石传说真正实现跨平台，Mac/Windows/IOS/IPad/Android</li>
 </ul>
 
   </section>

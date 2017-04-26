@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cookbook-rsses on 刘雨飏@ANAS联盟</title>
+    <title>Cookbooks on 刘雨飏@ANAS联盟</title>
     <link>https://cio.anasit.com/cookbook/index.xml</link>
-    <description>Recent content in Cookbook-rsses on 刘雨飏@ANAS联盟</description>
+    <description>Recent content in Cookbooks on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
-    <lastBuildDate>Fri, 21 Oct 2016 15:05:51 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cio.anasit.com/cookbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bluemix应用快速构建实践体验</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix-case/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix-case/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;mobile-waston-个人性格分析应用&#34;&gt;Mobile+Waston 个人性格分析应用&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile-iot-餐厅快速点餐应用&#34;&gt;Mobile+IOT 餐厅快速点餐应用&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
@@ -224,6 +244,284 @@ zsh
 &lt;li&gt;原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>parse服务学习指引</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-learn/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统环境
+
+&lt;ul&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;服务端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理端
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;iot&#34;&gt;IOT&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;waston&#34;&gt;Waston&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile&#34;&gt;Mobile&lt;/h1&gt;
+
+&lt;p&gt;总评：弱势但不乏亮点&lt;/p&gt;
+
+&lt;p&gt;Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，暂时无法广泛应用于生产环境。&lt;/p&gt;
+
+&lt;p&gt;部分消息推送、用户分析、统计服务，可尝试性接入产品进行试用，以便于对接Bluemix大数据服务项目。&lt;/p&gt;
+
+&lt;h2 id=&#34;消息推送服务-push-notifications&#34;&gt;消息推送服务：Push Notifications&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆☆☆☆
+- 价格实惠、客户端SDK完善
+- 略优于市面上混杂的推送服务&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;费用参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月前一百万条数字消息（推送通知）免费&lt;/li&gt;
+&lt;li&gt;US$ 1.05 USD/百万条数字消息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PN&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;极光&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;推送方式&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM、Chrome、Firefox&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;APNs、GCM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;广播推送&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;标签分组&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;需开发&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;并发&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;自主扩容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 功能贫瘠，无法替代firebase、parse.com等专业MBaaS服务
+- 缺少权限控制，需要自主编写逻辑
+- 数据库无法独立部署，后期拓展限制较大&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;类似Mongodb的Collections，用于存放数据对象的集合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据对象设计，可自定义数据对象成员属性及字段&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MACM收费参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;| -     | 功能 | 价格 |
+| :&amp;mdash;- | :&amp;mdash;- | :- |
+| 免费套餐  | 无 | 无 |
+| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
+| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
+| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对比ParsePlatform&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;MACM&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;可选数据库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mongodb/postgresql&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;功能&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;简单的对象存储，无详尽的权限机制&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;对象存储、角色权限等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;前端ui-app-快速构建工具-kinetise&#34;&gt;前端UI（APP）快速构建工具：Kinetise&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 成熟度，无法替代Ionic Creator及APICloud等前端快速构建平台
+- 可作为初学练习，快速成型Demo的构建
+- 可导出项目源码，后续优化可自行编程&lt;/p&gt;
+
+&lt;h2 id=&#34;twilio-mobile-analytics-mobile-client-access-mobile-quality-assurance&#34;&gt;Twilio/Mobile Analytics/Mobile Client Access/Mobile Quality Assurance&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;待测试&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在Bluemix上搭建parse-server服务</title>
+      <link>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/bluemix/2016/02/01/migrating-from-parse-to-bluemix/&#34;&gt;Migrating from Parse to Bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
+cf push Your-App-Name-On-Bluemix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建Cloud Foundry应用
+
+&lt;ul&gt;
+&lt;li&gt;选择Web Application&lt;/li&gt;
+&lt;li&gt;但不选择任何移动服务（Mobile Client Access等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;选择SDK for Node.js
+
+&lt;ul&gt;
+&lt;li&gt;APP Name 起名 parse-on-bluemix&lt;/li&gt;
+&lt;li&gt;点击完成/FINISH&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创建MongoDB实例（或直接使用已有数据库）
+
+&lt;ul&gt;
+&lt;li&gt;在parse-on-bluemix中选择，ADD A SERVICE OR API&lt;/li&gt;
+&lt;li&gt;寻找分类 Data and Analytics&lt;/li&gt;
+&lt;li&gt;选择新建 MongoDB by Compose&lt;/li&gt;
+&lt;li&gt;按需配置&lt;/li&gt;
+&lt;li&gt;本文不详细介绍数据库配置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;配置parse-server环境变量
+
+&lt;ul&gt;
+&lt;li&gt;进入CloudFoundry选择已有应用&lt;/li&gt;
+&lt;li&gt;Environment  Varieties&lt;/li&gt;
+&lt;li&gt;选择USER-DEFINED，具体参数参照Parse使用文档&lt;/li&gt;
+&lt;li&gt;APP_ID xxxxxxx&lt;/li&gt;
+&lt;li&gt;MASTER_KEY xxxxxxx&lt;/li&gt;
+&lt;li&gt;PARSE_MOUNT /parse-server&lt;/li&gt;
+&lt;li&gt;REST_KEY xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -664,316 +962,6 @@ zsh
       
       <guid>https://cio.anasit.com/cookbook/cms/google-ads/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
-      <link>https://cio.anasit.com/cookbook/cms/homesite/</link>
-      <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/cms/homesite/</guid>
-      <description>
-
-&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
-
-&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
-
-&lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
-
-&lt;p&gt;本文，将深度探讨，并尝试一次低耦合的CMS系统建设方案。在每个需求环节，选取最佳的技术实现方案，各模块通过RESTful API进行整合及协同。&lt;/p&gt;
-
-&lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;技术总览&#34;&gt;技术总览&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;hugo&lt;/li&gt;
-&lt;li&gt;hugo-themes
-
-&lt;ul&gt;
-&lt;li&gt;galactica&lt;/li&gt;
-&lt;li&gt;演示：&lt;a href=&#34;http://astritbublaku.com/demos/galactica/&#34;&gt;http://astritbublaku.com/demos/galactica/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;markdown&lt;/li&gt;
-&lt;li&gt;yaml&lt;/li&gt;
-&lt;li&gt;RESTful APIs&lt;/li&gt;
-&lt;li&gt;github pages&lt;/li&gt;
-&lt;li&gt;rss&lt;/li&gt;
-&lt;li&gt;google ads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;系统架构&#34;&gt;系统架构&lt;/h1&gt;
-
-&lt;h2 id=&#34;静态页面生成模块&#34;&gt;静态页面生成模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Themes 主题机制&lt;/li&gt;
-&lt;li&gt;Templates 模板机制&lt;/li&gt;
-&lt;li&gt;Taxonomies 分类机制&lt;/li&gt;
-&lt;li&gt;Contents 内容格式化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;信息采集聚合模块-aggregator&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RSS 采集&lt;/li&gt;
-&lt;li&gt;Twiter 采集&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;内容筛选解析格式化模块&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;用户审查发布模块&#34;&gt;用户审查发布模块&lt;/h2&gt;
-
-&lt;h2 id=&#34;ugc用户自主写文模块&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
-&lt;li&gt;选择二：支持api获取文章内容的，在线云笔记&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>适合开发者的第三方RSS采集服务选型</title>
-      <link>https://cio.anasit.com/cookbook/cms/rss/</link>
-      <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/cms/rss/</guid>
-      <description>
-
-&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
-
-&lt;p&gt;greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。&lt;/p&gt;
-
-&lt;p&gt;作为个人用户，所有碰到的基础需求，都可以满足，未考虑付费服务。&lt;/p&gt;
-
-&lt;p&gt;但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。&lt;/p&gt;
-
-&lt;h2 id=&#34;参考文章&#34;&gt;参考文章&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sspai.com/27576&#34;&gt;观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader&lt;/a&gt;
-&lt;a href=&#34;http://www.zhihu.com/question/21278318&#34;&gt;RSS 阅读器 InoReader 的使用体验如何？&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;如何迁移自己的rss订阅&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;登录feedly，点击用户，选择export OPML文件&lt;/li&gt;
-&lt;li&gt;将导出的OPML文件导入你想要使用的rss订阅服务&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;私有云-rss-聚合器&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;filipedeschamps/rss-feed-emitter
-
-&lt;ul&gt;
-&lt;li&gt;nodejs+es6&lt;/li&gt;
-&lt;li&gt;star 621&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;dai-shi/rss-pipes
-
-&lt;ul&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
-&lt;li&gt;star 70&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;freshrss.org
-
-&lt;ul&gt;
-&lt;li&gt;php+mysql&lt;/li&gt;
-&lt;li&gt;star 382&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;freshrss&#34;&gt;freshrss&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;php-pdo&lt;/li&gt;
-&lt;li&gt;xml/curl&lt;/li&gt;
-&lt;li&gt;mysql&lt;/li&gt;
-&lt;li&gt;pelican（静态页面生成部分）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;公有云-rss-订阅服务&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;feedly&lt;/li&gt;
-&lt;li&gt;inoreader&lt;/li&gt;
-&lt;li&gt;feedbin&lt;/li&gt;
-&lt;li&gt;feedwrangler&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;inoreader&#34;&gt;inoreader&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;p&gt;Inoreader对于RSS源的抓取不如Feedly。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;订阅的科大BBS的RSS源，全部乱码出错，而在Feedly并未出现这种问题。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;简介-1&#34;&gt;简介&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.inoreader.com/&#34;&gt;http://www.inoreader.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;开发者平台 &lt;a href=&#34;http://www.inoreader.com/developers/&#34;&gt;http://www.inoreader.com/developers/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;资费参考 &lt;a href=&#34;http://www.inoreader.com/upgrade/feature/from_preferences&#34;&gt;http://www.inoreader.com/upgrade/feature/from_preferences&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free套餐：
-- Number of subscriptions   Unlimited
-- Search in subscriptions
-- RSS Feeds for favorites, channels, folders and tags&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML Clips for favorites, channels, folders and tags  Default&lt;/li&gt;
-&lt;li&gt;Unread counter cap (actual unread articles are not limited)   1000&lt;/li&gt;
-&lt;li&gt;Number of active searches     1&lt;/li&gt;
-&lt;li&gt;Number of rules   1&lt;/li&gt;
-&lt;li&gt;Number of filtered feeds  1&lt;/li&gt;
-&lt;li&gt;Number of Highlighters    5&lt;/li&gt;
-&lt;li&gt;Number of boosted feeds   10&lt;/li&gt;
-&lt;li&gt;Number of Google+ feeds   0&lt;/li&gt;
-&lt;li&gt;Number of Twitter feeds   1&lt;/li&gt;
-&lt;li&gt;Number of Facebook page feeds     1&lt;/li&gt;
-&lt;li&gt;Number of VKontakte feeds     1&lt;/li&gt;
-&lt;li&gt;Audio Player  Inline&lt;/li&gt;
-&lt;li&gt;Address book - Gmail integrated   Limited to 10 entries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;feedly&#34;&gt;feedly&lt;/h1&gt;
-
-&lt;p&gt;feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api&lt;/p&gt;
-
-&lt;p&gt;开发者平台 &lt;a href=&#34;http://developer.feedly.com/&#34;&gt;http://developer.feedly.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;资费参考 &lt;a href=&#34;https://feedly.com/i/pro/showcase.zapier&#34;&gt;https://feedly.com/i/pro/showcase.zapier&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free套餐:
-- Up to 100 sources
-- Mobile and desktop
-- Organize source into easy-to-read collections
-- Share to Twitter, Pinterest and Facebook&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
-      <description>
-
-&lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
-
-&lt;h2 id=&#34;回顾angularjs-1&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
-
-&lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
-
-&lt;p&gt;Angularjs 1 中可选的数据处理方法有以下三种：
-- $http 框架自带，处理原始HTTP请求
-- $resource 框架自带，对$http进行初步封装
-- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
-
-&lt;h2 id=&#34;调研angularjs-2&#34;&gt;调研AngularJS 2&lt;/h2&gt;
-
-&lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;angular2/http&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用参考：&lt;a href=&#34;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&#34;&gt;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  import {Http} from &#39;angular2/http&#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;marmelab/restful.js 第三方组件，纯ES6&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 535 on &lt;a href=&#34;https://github.com/marmelab/restful.js&#34;&gt;https://github.com/marmelab/restful.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于ES6开发，Think Restangular without Angular.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # 方式一：npm安装
-  npm install restful.js
-  # 方式二：webpack安装
-  import restful from &#39;restful.js&#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Paldom/angular2-rest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 94 on &lt;a href=&#34;https://github.com/Paldom/angular2-rest&#34;&gt;https://github.com/Paldom/angular2-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;darekf77/ng2-rest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;angular2-http开发详解&#34;&gt;angular2/http开发详解&lt;/h1&gt;
-
-&lt;h2 id=&#34;参考教程&#34;&gt;参考教程&lt;/h2&gt;
-
-&lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;官方手册&#34;&gt;官方手册&lt;/h2&gt;
-
-&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;使用体验&#34;&gt;使用体验&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
-&lt;li&gt;（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件&lt;/li&gt;
-&lt;li&gt;（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;那么以上三种情景，第三种情景使用频率较高：由于后端&lt;strong&gt;不是规范的REST&lt;/strong&gt;，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。&lt;/p&gt;
-
-&lt;p&gt;因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>https://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
-      <description>
-
-&lt;h1 id=&#34;es6&#34;&gt;ES6&lt;/h1&gt;
-
-&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&#34;&gt;http://www.hubwiz.com/class/567a414e660c92d638a68bf3&lt;/a&gt;
-详细参考文档：&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;angular2&#34;&gt;Angular2&lt;/h1&gt;
-
-&lt;p&gt;入门学习教程：&lt;a href=&#34;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&#34;&gt;http://www.hubwiz.com/course/567a414e660c92d638a68bf3/&lt;/a&gt;
-英文入门教程：&lt;a href=&#34;http://learnangular2.com/&#34;&gt;http://learnangular2.com/&lt;/a&gt;
-详细参考文档：&lt;a href=&#34;https://angular.io/docs/js/latest/api&#34;&gt;https://angular.io/docs/js/latest/api&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;ionic2&#34;&gt;ionic2&lt;/h1&gt;
-</description>
     </item>
     
   </channel>

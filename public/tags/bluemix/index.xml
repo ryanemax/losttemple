@@ -1,13 +1,201 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>刘雨飏@ANAS联盟</title>
+    <title>Bluemix on 刘雨飏@ANAS联盟</title>
     <link>https://cio.anasit.com/tags/bluemix/index.xml</link>
-    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <description>Recent content in Bluemix on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <atom:link href="https://cio.anasit.com/tags/bluemix/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bluemix应用快速构建实践体验</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix-case/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix-case/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;mobile-waston-个人性格分析应用&#34;&gt;Mobile+Waston 个人性格分析应用&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile-iot-餐厅快速点餐应用&#34;&gt;Mobile+IOT 餐厅快速点餐应用&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;h1 id=&#34;iot&#34;&gt;IOT&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;waston&#34;&gt;Waston&lt;/h1&gt;
+
+&lt;p&gt;总评：强势的核心功能&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile&#34;&gt;Mobile&lt;/h1&gt;
+
+&lt;p&gt;总评：弱势但不乏亮点&lt;/p&gt;
+
+&lt;p&gt;Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，暂时无法广泛应用于生产环境。&lt;/p&gt;
+
+&lt;p&gt;部分消息推送、用户分析、统计服务，可尝试性接入产品进行试用，以便于对接Bluemix大数据服务项目。&lt;/p&gt;
+
+&lt;h2 id=&#34;消息推送服务-push-notifications&#34;&gt;消息推送服务：Push Notifications&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆☆☆☆
+- 价格实惠、客户端SDK完善
+- 略优于市面上混杂的推送服务&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;费用参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月前一百万条数字消息（推送通知）免费&lt;/li&gt;
+&lt;li&gt;US$ 1.05 USD/百万条数字消息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PN&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;极光&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;推送方式&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM、Chrome、Firefox&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SDK、APNs、GCM&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;APNs、GCM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;广播推送&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;标签分组&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;需开发&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;并发&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;未测试&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;自主扩容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 功能贫瘠，无法替代firebase、parse.com等专业MBaaS服务
+- 缺少权限控制，需要自主编写逻辑
+- 数据库无法独立部署，后期拓展限制较大&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;类似Mongodb的Collections，用于存放数据对象的集合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据对象设计，可自定义数据对象成员属性及字段&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MACM收费参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;| -     | 功能 | 价格 |
+| :&amp;mdash;- | :&amp;mdash;- | :- |
+| 免费套餐  | 无 | 无 |
+| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
+| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
+| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对比ParsePlatform&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;项目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;MACM&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Parse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;开源&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;是&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;可选数据库&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;否&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mongodb/postgresql&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;功能&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;简单的对象存储，无详尽的权限机制&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;对象存储、角色权限等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;前端ui-app-快速构建工具-kinetise&#34;&gt;前端UI（APP）快速构建工具：Kinetise&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;
+- 推荐系数：☆
+- 成熟度，无法替代Ionic Creator及APICloud等前端快速构建平台
+- 可作为初学练习，快速成型Demo的构建
+- 可导出项目源码，后续优化可自行编程&lt;/p&gt;
+
+&lt;h2 id=&#34;twilio-mobile-analytics-mobile-client-access-mobile-quality-assurance&#34;&gt;Twilio/Mobile Analytics/Mobile Client Access/Mobile Quality Assurance&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;待测试&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>

@@ -1,138 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>刘雨飏@ANAS联盟</title>
+    <title>Game on 刘雨飏@ANAS联盟</title>
     <link>https://cio.anasit.com/tags/game/index.xml</link>
-    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <description>Recent content in Game on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <atom:link href="https://cio.anasit.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>手机游戏客户端开发引擎调研</title>
-      <link>https://cio.anasit.com/game/mobilegame/</link>
-      <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
+      <title>首款手机游戏的各项选型</title>
+      <link>https://cio.anasit.com/game/dev/techtree/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/mobilegame/</guid>
+      <guid>https://cio.anasit.com/game/dev/techtree/</guid>
       <description>
 
-&lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
+&lt;h1 id=&#34;首款手机游戏的各项选型&#34;&gt;首款手机游戏的各项选型&lt;/h1&gt;
 
-&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
-
-&lt;p&gt;| 对比类目 | Cocos2d-x | unity 3d | 结论 |
-| :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- |
-| 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d |
-| 学习难度 | 对C++工程师较友好 | 完整便捷的开发套件 | unity 3d |
-| 社区支持 | 国内论坛活跃 | 需要到英文论坛交流 | &amp;ndash; |
-| 发展趋势 | 开源的2D手游开发框架 | 覆盖面广、GUI/网络需要学第三方控件 | &amp;ndash; |
-| 授权费用 | 开源MIT，免费 | 部分开源，费用低可忽略 | &amp;ndash; |
-| 开发成本 | 费前期开发成本，省后期debug和优化成本 | 省前期成本，费后期debug和优化成本 | 3D游戏研发投入是2D游戏的3~4倍 |&lt;/p&gt;
-
-&lt;p&gt;总结一下：
-1. 如果你编程基础一般，想快速做出一款游戏而不纠结于技术，选unity
-2. 开发app或者其他软件已经有一定经验，希望转到手游领域做一款商业化产品，同时个人或者团队的资金实力一般，选cocos2d
-3. 现在手机游戏市场前10位有7位都是cocos2d-x开发，开源、跨平台、MIT许可等等，当然适合2d游戏，3d游戏还是用unity；
-4. 想学习业界主流的游戏开发流程，不想局限于某个游戏平台或者2D还是3D，选unity&lt;/p&gt;
-
-&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
-
-&lt;p&gt;cocos2d-x是个壮汉，但是肌肉极为不对称&lt;/p&gt;
-
-&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
+&lt;h1 id=&#34;画面-风格-素材&#34;&gt;画面/风格/素材&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;产品生态成熟，手机市场占有率大于u3d&lt;/li&gt;
-&lt;li&gt;AppStore中国畅销榜前五，都是cocos2s-x引擎&lt;/li&gt;
+&lt;li&gt;风格：手绘/像素风&lt;/li&gt;
+&lt;li&gt;画面：2D基准 部分3D特效调优&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.dailymonster.ink/&#34;&gt;坚持每日一个手绘怪物&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;游戏类型&#34;&gt;游戏类型&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;所谓的跨平台仅仅是IOS/Android等移动端&lt;/li&gt;
-&lt;li&gt;所谓丰富的功能，其实大多不能用，非常多BUG&lt;/li&gt;
-&lt;li&gt;开发效率不如unity 3d&lt;/li&gt;
+&lt;li&gt;暗黑、地牢、Rougelike&lt;/li&gt;
+&lt;li&gt;规则：类DND&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;开发相关&#34;&gt;开发相关&lt;/h2&gt;
-
-&lt;p&gt;主流工具&lt;/p&gt;
-
-&lt;p&gt;Window平台下 C++语言用 Visual Studio ，官方有UI编辑器CocoStudio，苹果系统不太熟&lt;/p&gt;
-
-&lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-其他独立的工具&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/p&gt;
-
-&lt;p&gt;位图字体工具Bitmap Font Tools
-BMFont (Windows)
-Fonteditor
-Glyph Designer
-Hiero
-LabelAtlasCreator&lt;/p&gt;
-
-&lt;p&gt;粒子编辑工具Particle Editing Tools
-ParticleCreator
-Particle Designer&lt;/p&gt;
-
-&lt;p&gt;物理编辑工具Physics Editing Tools
-Mekanimo
-PhysicsBench
-PhysicsEditor
-VertexHelper&lt;/p&gt;
-
-&lt;p&gt;场景编辑工具Scene Editing Tools
-CocosBuilder
-Cocoshop
-LevelHelper&lt;/p&gt;
-
-&lt;p&gt;纹理地图集工具Texture Atlas Tools
-DarkFunction Editor
-SpriteHelper
-TexturePacker
-Zwoptex&lt;/p&gt;
-
-&lt;p&gt;瓦片地图编辑工具Tilemap Editing Tools
-iTileMaps
-Tiled Map Editor&lt;/p&gt;
-
-&lt;p&gt;声音特效编辑工具Audio Effect Editing Tools
-cfxr&lt;/p&gt;
-
-&lt;p&gt;背景音乐编辑工具Background Music Editing Tools
-GarageBand (MAC 系统自带)&lt;/p&gt;
-
-&lt;p&gt;BOX2D多边形定义工具VertexHelper
-VertexHelper&lt;/p&gt;
-
-&lt;p&gt;GIF动画帧导出工具Ulead GIF Animator
-UleadGifAnimator&lt;/p&gt;
-
-&lt;p&gt;如果开发者熟悉javascript ，lua编程语言，推荐cocos2d-x editor；我在网上查资料无意间找到的，不得不承认高手在民间，我现在在使用，确实强大，可惜人气还是少了点，希望工具开发者更新更多例子和教程。下面是工具创造者写的简介，我就直接贴在下面了，尽量看原文吧，我很懒，不想一张一张贴图片，麻烦。&lt;/p&gt;
-
-&lt;p&gt;原文csdn地址：&lt;a href=&#34;http://blog.csdn.net/touchsnow/article/details/18446119&#34;&gt;cocos2d-x editor&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;分解-unity-3d&#34;&gt;分解：unity 3d&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
+&lt;h1 id=&#34;开发技术&#34;&gt;开发技术&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;真正实现跨平台，PC端的Mac/Windows/Linux，移动端的IOS/IPad/Android&lt;/li&gt;
+&lt;li&gt;Unity 3D&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;性能&#34;&gt;性能&lt;/h2&gt;
+&lt;h1 id=&#34;参考游戏&#34;&gt;参考游戏&lt;/h1&gt;
+
+&lt;h2 id=&#34;高自由度手游&#34;&gt;高自由度手游&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;2D游戏，Unity同屏400个单位没问题&lt;/li&gt;
-&lt;li&gt;参考神仙道同屏object数量&lt;/li&gt;
+&lt;li&gt;不可思议的迷宫/地下城物语&lt;/li&gt;
+&lt;li&gt;江湖X&lt;/li&gt;
+&lt;li&gt;符文重生&lt;/li&gt;
+&lt;li&gt;贪婪洞窟&lt;/li&gt;
+&lt;li&gt;Heroes Tactics/无敌英雄 之 梦幻神魔大冒险
+
+&lt;ul&gt;
+&lt;li&gt;公司 Lilith Mobile&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Magic Rush: Heroes
+
+&lt;ul&gt;
+&lt;li&gt;公司 Elex&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;代表作品分析&#34;&gt;代表作品分析&lt;/h1&gt;
-
-&lt;h2 id=&#34;炉石传说-unity-3d&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
+&lt;h2 id=&#34;开放源码&#34;&gt;开放源码&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;使用Unity3D开发2d化游戏已成趋势&lt;/li&gt;
-&lt;li&gt;炉石传说真正实现跨平台，Mac/Windows/IOS/IPad/Android&lt;/li&gt;
+&lt;li&gt;我叫MT2&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -230,105 +163,6 @@ UleadGifAnimator&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;2.x质量一般，3.x开始改善&lt;/li&gt;
 &lt;li&gt;IDE，cocos studio十分难用，拖了引擎后腿&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTML5游戏客户端开发引擎</title>
-      <link>https://cio.anasit.com/game/dev/mobilegame/</link>
-      <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
-      
-      <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
-      <description>
-
-&lt;h1 id=&#34;html5游戏客户端开发引擎调研&#34;&gt;HTML5游戏客户端开发引擎调研&lt;/h1&gt;
-
-&lt;h1 id=&#34;cocos2d-js-与cocos-2dx差距太大了-不建议使用&#34;&gt;cocos2d-js（与cocos-2dx差距太大了，不建议使用）&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Babel ES6&lt;/li&gt;
-&lt;li&gt;native improvement&lt;/li&gt;
-&lt;li&gt;开发环境
-
-&lt;ul&gt;
-&lt;li&gt;Windows&lt;/li&gt;
-&lt;li&gt;Mac&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;团队内部问题，内部不和谐，产品规划方向差&lt;/li&gt;
-&lt;li&gt;跨平台问题
-
-&lt;ul&gt;
-&lt;li&gt;HTML5/JSB表现不一致，只能放弃HTML5,专注JSB&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;性能问题，性能远低于Egret&lt;/li&gt;
-&lt;li&gt;大型游戏，强烈不建议Cocos2d-js
-
-&lt;ul&gt;
-&lt;li&gt;IDE有BUG，断点崩溃，代码提示差，内存太高&lt;/li&gt;
-&lt;li&gt;架构太差&lt;/li&gt;
-&lt;li&gt;CCUI设计非常糟&lt;/li&gt;
-&lt;li&gt;引擎BUG问题多&lt;/li&gt;
-&lt;li&gt;工作流问题，IDE不友好，导出配置大&lt;/li&gt;
-&lt;li&gt;工作效率问题，ccui、list差&lt;/li&gt;
-&lt;li&gt;引擎升级会有大量BUG，版本兼容性差&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;2.x质量一般，3.x开始改善&lt;/li&gt;
-&lt;li&gt;IDE，cocos studio十分难用，拖了引擎后腿&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;phaser-js&#34;&gt;Phaser.js&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.phaser.io&#34;&gt;http://www.phaser.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;egret-html5-es6最佳选择&#34;&gt;Egret（HTML5+ES6最佳选择）&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.egret.com&#34;&gt;http://www.egret.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Egret现在是小孩，眉目清秀&lt;/p&gt;
-
-&lt;h2 id=&#34;代表游戏&#34;&gt;代表游戏&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;神经猫&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;生态链比较完善&lt;/li&gt;
-&lt;li&gt;ES6/TypeScript/JavaScript&lt;/li&gt;
-&lt;li&gt;GUI界面编辑器，Egret Wing&lt;/li&gt;
-&lt;li&gt;跨平台，AIR&lt;/li&gt;
-&lt;li&gt;跨平台安装包打包工具
-
-&lt;ul&gt;
-&lt;li&gt;Egret Android Support&lt;/li&gt;
-&lt;li&gt;Egret iOS Support&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;开发环境&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Windows&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mac&lt;/p&gt;
-
-&lt;h2 id=&#34;缺点-1&#34;&gt;缺点&lt;/h2&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;刷新率卡顿问题严重影响游戏体验&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;喜欢闭门造车，通用的轮子都是自己重写&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;全面依赖于html5，但是已经与多款浏览器集成了runtime，可以opengl渲染代替canvas渲染&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

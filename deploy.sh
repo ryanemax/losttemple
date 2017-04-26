@@ -26,4 +26,4 @@ if [ $# -eq 1 ]
 	  git subtree push --prefix=public https://github.com/ryanemax/ryanemax.github.io.git gh-pages
 	  # Push source and build repos to Coding.net.
 	  # git push coding master
-	  git subtree push --prefix=public https://git.coding.net/ryn/coding-pages.git gh-pages
+	  git subtree push --prefix=public https://git.coding.net/ryn/blog.git gh-pages

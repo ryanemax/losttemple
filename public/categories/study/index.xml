@@ -1,13 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>刘雨飏@ANAS联盟</title>
+    <title>Study on 刘雨飏@ANAS联盟</title>
     <link>https://cio.anasit.com/categories/study/index.xml</link>
-    <description>Recent content on 刘雨飏@ANAS联盟</description>
+    <description>Recent content in Study on 刘雨飏@ANAS联盟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
     <atom:link href="https://cio.anasit.com/categories/study/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Markdown制作书籍出版实践笔记</title>
+      <link>https://cio.anasit.com/study/markdown2book/</link>
+      <pubDate>Fri, 24 Feb 2017 14:07:07 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/markdown2book/</guid>
+      <description>
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;前几篇markdown系列文章中，已经尝试使用pandoc快速制作PPT、PDF、论文等中小篇幅的排版文件，&lt;a href=&#34;http://pandoc.org/demos.html。&#34;&gt;http://pandoc.org/demos.html。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;理论上对于书籍排版，也可以基于latex模版进行，但在采取此方案之前，需要调研是否有其他更加适合的方案。&lt;/p&gt;
+
+&lt;p&gt;参考文章：&lt;a href=&#34;http://www.ituring.com.cn/article/828&#34;&gt;用Markdown来写自由书籍-开源技术的方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;markdown书籍排版案例分析&#34;&gt;Markdown书籍排版案例分析&lt;/h1&gt;
+
+&lt;h2 id=&#34;跟我学企业敏捷开发&#34;&gt;《跟我学企业敏捷开发》&lt;/h2&gt;
+
+&lt;p&gt;Software Development Camp &lt;a href=&#34;https://github.com/larrycai/sdcamp&#34;&gt;https://github.com/larrycai/sdcamp&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 本书采用自定义latex模版的形式，进行书籍排版&lt;/li&gt;
+&lt;li&gt;排版 整本书籍的排版与pandoc生成论文的效果相近&lt;/li&gt;
+&lt;li&gt;结论 可作为开源经验分享，但作为出版书目需要深度的定制&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ecmascript-6-入门&#34;&gt;《ECMAScript 6 入门》&lt;/h2&gt;
+
+&lt;p&gt;在线书籍 &lt;a href=&#34;http://es6.ruanyifeng.com/&#34;&gt;http://es6.ruanyifeng.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;源码 &lt;a href=&#34;http://github.com/ruanyf/es6tutorial/&#34;&gt;http://github.com/ruanyf/es6tutorial/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 未知？（希望大家可以分享一下）&lt;/li&gt;
+&lt;li&gt;排版 优美，完整，电子版同样便于观察&lt;/li&gt;
+&lt;li&gt;结论 此方案效果较好，便于电子版分享与出版&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hugo-material-docs&#34;&gt;《Hugo &amp;amp; material-docs》&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 静态HTML生成器——gohugo.io，主题material-docs&lt;/li&gt;
+&lt;li&gt;排版 排版优美，多种设备响应式显示&lt;/li&gt;
+&lt;li&gt;结论 适用于电子版技术手册分享，但出版成书的效果未知&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gitbook&#34;&gt;《GitBook》&lt;/h2&gt;
+
+&lt;p&gt;成品示例：&lt;a href=&#34;https://toolchain.gitbook.com/examples.html&#34;&gt;https://toolchain.gitbook.com/examples.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术 Github + Gitbook服务&lt;/li&gt;
+&lt;li&gt;排版 排版优美，跨设备响应式显示&lt;/li&gt;
+&lt;li&gt;结论 多种插件选择，可直接转化为ebook/pdf等格式，便于出版&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;gitbook实践体验-待完成&#34;&gt;GitBook实践体验（待完成）&lt;/h1&gt;
+
+&lt;h1 id=&#34;书籍出版流程与注意事项-待完成&#34;&gt;书籍出版流程与注意事项（待完成）&lt;/h1&gt;
+
+&lt;p&gt;出版社印刷书籍所需格式？pdf？latex？&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Markdown制作ppt最佳实践</title>
@@ -473,6 +541,272 @@ Rooter: A Methodology for the Typical Unification of Access Points and Redundanc
     </item>
     
     <item>
+      <title>国税地税申报流程整理</title>
+      <link>https://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Tue, 15 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
+      <description>
+
+&lt;h1 id=&#34;江西地税-企业个人所得税&#34;&gt;江西地税（企业个人所得税）&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;进入税友网 &lt;a href=&#34;http://www.4007112366.com/&#34;&gt;http://www.4007112366.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载 个税基础安装包（金税三期标准版）
+地址：&lt;a href=&#34;http://jx.4007112366.com/?m=content&amp;amp;c=index&amp;amp;a=download&amp;amp;cat_id=26&amp;amp;menu_id=24&#34;&gt;http://jx.4007112366.com/?m=content&amp;amp;c=index&amp;amp;a=download&amp;amp;cat_id=26&amp;amp;menu_id=24&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;江西国税&#34;&gt;江西国税&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>去中心化贸易及货币的&#39;反祖现象&#39;探讨</title>
+      <link>https://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</link>
+      <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
+      <description>
+
+&lt;h1 id=&#34;去中心化贸易及货币的-反祖现象-探讨&#34;&gt;去中心化贸易及货币的&amp;rsquo;反祖现象&amp;rsquo;探讨&amp;rdquo;&lt;/h1&gt;
+
+&lt;h1 id=&#34;0-info&#34;&gt;0.Info&lt;/h1&gt;
+
+&lt;h2 id=&#34;key-words&#34;&gt;Key Words&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decntralization Trading&lt;/li&gt;
+&lt;li&gt;Digital Curency/BitCoin&lt;/li&gt;
+&lt;li&gt;OpenBazaar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;构思这篇关于去中心化贸易论文的时候我满怀激动，因为我经历了OpenBazaar的成长，经历了BitCoin的成长，而今日2015.10.18，距离OpenBazaar正式发布已经近在咫尺。&lt;/p&gt;
+
+&lt;p&gt;希望在这篇论文之后的五年，我可以亲眼见证去中心化贸易的茁壮成长。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>金融方向个人职业规划</title>
+      <link>https://cio.anasit.com/study/finance/README/</link>
+      <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/finance/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;金融方向个人职业规划&#34;&gt;金融方向个人职业规划&lt;/h1&gt;
+
+&lt;p&gt;主攻领域：金融衍生品、期货、外汇、大宗商品交易&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;外汇是各国货币比、贵金属、原油、天然气、CFD合约，国内正在起步发展，没有任何从业资格证书，只要了解就可以参与。
+
+&lt;ul&gt;
+&lt;li&gt;国内有贵金属分析师&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;期货从业资格证&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>易的研究与学习</title>
+      <link>https://cio.anasit.com/study/metaphysics/learnichang/</link>
+      <pubDate>Mon, 19 Oct 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/metaphysics/learnichang/</guid>
+      <description>
+
+&lt;h2 id=&#34;学习方法&#34;&gt;学习方法&lt;/h2&gt;
+
+&lt;p&gt;六经注我，我注六经。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;通读、背诵原文&lt;/li&gt;
+&lt;li&gt;比较分析众家注释&lt;/li&gt;
+&lt;li&gt;判断归纳自己的注释&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;学习书目&#34;&gt;学习书目&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;易经
+
+&lt;ul&gt;
+&lt;li&gt;连山易 失传&lt;/li&gt;
+&lt;li&gt;归藏易 存本&lt;/li&gt;
+&lt;li&gt;周易 完整&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;黄帝内经 医理&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;黄帝内经素问名家精注 电子版&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;基本将名家注释与原文摘录到了一起&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;滴天髓 八字
+[五术网](&amp;ldquo;&lt;a href=&#34;http://www.ncc.com.tw/fate/paleo/bg/bg_01.htm&amp;quot;&#34;&gt;http://www.ncc.com.tw/fate/paleo/bg/bg_01.htm&amp;quot;&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;道德经 老子&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>探究归纳精神力相关的知识体系</title>
+      <link>https://cio.anasit.com/study/metaphysics/mindpower/</link>
+      <pubDate>Sun, 18 Oct 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/metaphysics/mindpower/</guid>
+      <description>
+
+&lt;h1 id=&#34;探究归纳精神力相关的知识体系&#34;&gt;探究归纳精神力相关的知识体系&lt;/h1&gt;
+
+&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;解决10000小时理论实践过程中，注意力与意志力的培养问题&lt;/li&gt;
+&lt;li&gt;对自身与自然的不断感悟与探索，引导大家更加高效得控制身心，管理自身效能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;注意&#34;&gt;注意！&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;愿力/意志力、精神力/意识区别
+
+&lt;ul&gt;
+&lt;li&gt;愿力，佛教语，誓愿的力量。泛指意愿之力。&lt;/li&gt;
+&lt;li&gt;愿力，willpower，解释为I Will, I Won&amp;rsquo;t, I Want.&lt;/li&gt;
+&lt;li&gt;意志力，人类的一种精神，大多来自于愿力，也可以靠纯精神力转换。&lt;/li&gt;
+&lt;li&gt;精神力，mindpower，对自然及概念思维感知的能力，简称“精力”。&lt;/li&gt;
+&lt;li&gt;精神力，又称意识，consciousness，即意念，为生物体脑组织所释放的一种不可见的力量。世界上很多科学都在以精神力为研究主题。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;修真，即感悟自然，修身养性&lt;/li&gt;
+&lt;li&gt;建立对精神力完整正确的知识体系前，切忌冥想！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;易经-道家的相关体系&#34;&gt;易经/道家的相关体系&lt;/h1&gt;
+
+&lt;p&gt;易经一直是神秘学中最客观的对道的描述与讲解，只叙述道，不控制思维。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统性 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;实用性 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;主观性 0/5&lt;/li&gt;
+&lt;li&gt;客观性 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;佛学-禅宗-瑜伽&#34;&gt;佛学/禅宗/瑜伽&lt;/h1&gt;
+
+&lt;h1 id=&#34;精神力修炼法-第17次修订&#34;&gt;《精神力修炼法 第17次修订》&lt;/h1&gt;
+
+&lt;p&gt;总体评价是一门较为低级的修炼法门，仅仅是加入了主观发散体验的描述，可读性较好，才受到了普通网民的喜爱与认可。&lt;/p&gt;
+
+&lt;p&gt;作者仅仅几年的浅薄认识，是无法成为值得拜读的著作的，所以不推荐将其作为入门书籍，当成小说涉猎即可。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统性 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;实用度 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;主观性 &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;客观性 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;源于一位ID为“死神的守护神”的中国网民，以自己多年对精神力的感受和经验总结成册。&lt;/p&gt;
+
+&lt;p&gt;主观的概念太多，缺少客观性，导致缺乏对精神力知识体系的建设。&lt;/p&gt;
+
+&lt;p&gt;作者意识到之前文档缺点之后，开始在第17次修订中，删除了主观的发散思维，注重客观叙述，让读者更加重视自身的感悟，而非一味去刻板寻找书中的文字描述。&lt;/p&gt;
+
+&lt;h1 id=&#34;自己的总结&#34;&gt;自己的总结&lt;/h1&gt;
+
+&lt;p&gt;感悟自然的不同阶段或称修炼精神力
+- 修身
+- 修心
+- 修性
+- 悟情
+- 悟理
+- 悟道&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FullStackOfNewGeneration/链接现实与信息系统的全栈开发技术</title>
+      <link>https://cio.anasit.com/study/it/FullStackOfNewGeneration/</link>
+      <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/it/FullStackOfNewGeneration/</guid>
+      <description>
+
+&lt;h1 id=&#34;0-short-intro&#34;&gt;0.Short Intro.&lt;/h1&gt;
+
+&lt;p&gt;our team using the similar stack with lean.&lt;/p&gt;
+
+&lt;h2 id=&#34;front-end&#34;&gt;Front-End:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Desktop: Electron&lt;/li&gt;
+&lt;li&gt;Mobile: Ionic + Cordova Plugin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+
+&lt;p&gt;Material-Design for Angularjs&amp;rsquo;s Desktop apps.
+Ionic-Material for Angularjs&amp;rsquo;s Mobile apps.&lt;/p&gt;
+
+&lt;h2 id=&#34;back-end&#34;&gt;Back-End&lt;/h2&gt;
+
+&lt;p&gt;Laravel for normal HTTP REST API.
+Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System.&lt;/p&gt;
+
+&lt;p&gt;RAML for generating SDK files both of front/back-end.
+Admiring that RAML1.0 is comming.&lt;/p&gt;
+
+&lt;h2 id=&#34;database&#34;&gt;Database&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Postgresql(for gis) we like it very much.&lt;/li&gt;
+&lt;li&gt;MongoDB(for user &amp;amp; sns)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A developping project for old-age caring, in chinese is, 智康宝.
+&lt;a href=&#34;http://www.zkkj168.com/&#34;&gt;http://www.zkkj168.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;embeded-software&#34;&gt;Embeded Software&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stm32&lt;/li&gt;
+&lt;li&gt;Arm A Series&lt;/li&gt;
+&lt;li&gt;Arm M Series&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;1-the-hope-for-lean&#34;&gt;1.The Hope for lean&lt;/h1&gt;
+
+&lt;h2 id=&#34;feature-one-a-good-layout-builder-for-angularjs-material-design-with-drag-drop&#34;&gt;Feature One:  a good Layout Builder for Angularjs &amp;amp; Material-Design(with drag &amp;amp; drop)&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s good for faster UI building.
+Maybe this hope is for a serial of Develop Tools.
+Only for a framework, a best yeoman-generator is enough.&lt;/p&gt;
+
+&lt;h2 id=&#34;feature-two-support-for-raml-document-extend-is-important-for-a-complete-project&#34;&gt;Feature Two:  support for RAML(Document Extend is important for a complete project)&lt;/h2&gt;
+
+&lt;p&gt;You know, the Angulajs&amp;rsquo;s Team is supporting RAML too.
+It&amp;rsquo;s good for the Restful API &amp;amp; Better consistency of json data.
+raml2html is good.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install raml2html --save
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;feature-three-considering-the-update-of-angularjs-2&#34;&gt;Feature Three: Considering the update of Angularjs 2&lt;/h2&gt;
+
+&lt;p&gt;we pursuing the next generation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>写作需要的技巧、工具等，写在正式写论文之前</title>
       <link>https://cio.anasit.com/study/WritingSkill/</link>
       <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
@@ -511,6 +845,77 @@ pandoc test1.md -f markdown -t html -s -o test1.html
 #1.Create a PDF(need texlive)
 pandoc test1.md -s -o test1.pdf
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>心理学学习计划</title>
+      <link>https://cio.anasit.com/study/psychology/learn/</link>
+      <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/psychology/learn/</guid>
+      <description>
+
+&lt;h1 id=&#34;心理学学习计划&#34;&gt;《心理学学习计划》&lt;/h1&gt;
+
+&lt;h1 id=&#34;基础书籍学习&#34;&gt;基础书籍学习&lt;/h1&gt;
+
+&lt;h1 id=&#34;易学与心理学&#34;&gt;易学与心理学&lt;/h1&gt;
+
+&lt;h2 id=&#34;人物&#34;&gt;人物&lt;/h2&gt;
+
+&lt;p&gt;真实姓名：姜祖桐
+百度百科： &lt;a href=&#34;http://baike.baidu.com/link?url=-iI6YTYHU256bKvWXQ56FPyDIA2L-Pb966fWQDD8vIaNouL50PayRtErtTkgyTo1ZrSA3-YVB6ORLsLjWK5Jn_&#34;&gt;http://baike.baidu.com/link?url=-iI6YTYHU256bKvWXQ56FPyDIA2L-Pb966fWQDD8vIaNouL50PayRtErtTkgyTo1ZrSA3-YVB6ORLsLjWK5Jn_&lt;/a&gt;
+童仆的博客：&lt;a href=&#34;http://blog.sina.com.cn/u/1271386791&#34;&gt;http://blog.sina.com.cn/u/1271386791&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;简介：&lt;/p&gt;
+
+&lt;p&gt;姜祖桐，研究员、教授级高工。1943年出生于江苏南通，1968年毕业于山东大学物理系。长期从事企业管理工作，先后荣获辽宁省劳动模范称号和首届全国“五一”劳动勋章。曾任鞍山市电子陶瓷公司总经理、鞍山市副市长、辽宁省驻港窗翻公司总裁、辽宁能源投资集团公司副董事长等职。现兼任国际易学联合会顾问、东方国际易学研究院董事；大连理工大学教授中国物理学会电介质物理委员会委员等职。积长期的工作经验和业余的科学研究出版了《H管理理论》、《H自组织理论》、《周易与人格》等专著。新作《易学心理学》是《周易与人格》的续编，著者结合管理实践，用易学公理创建具有中国特色的心理学理论；对中国传统科学现代化作了开创性探索。&lt;/p&gt;
+
+&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
+
+&lt;p&gt;《周易心理学》(1) 东方智慧的缩影——《易经》 童仆 &lt;a href=&#34;http://blog.sina.com.cn/s/blog_4bc7d2a7010008me.html&#34;&gt;http://blog.sina.com.cn/s/blog_4bc7d2a7010008me.html&lt;/a&gt;
+《周易心理学》(4) 易学人性学 童仆&lt;/p&gt;
+
+&lt;h2 id=&#34;代表书籍&#34;&gt;代表书籍&lt;/h2&gt;
+
+&lt;p&gt;《易经》与现代心理学的神奇吻合，促使笔者完成了《H管理理论》、《H组组织理论》、《周易与人格》和《易学心理学》四部专著，开发了具有较高信度和效度的CTP复合三维人格测评系统，该系统目前正在实践中谨慎应用。&lt;/p&gt;
+
+&lt;p&gt;H管理理论（1999）&lt;/p&gt;
+
+&lt;p&gt;周易与人格（2004） ==》 易学心理学（2005 已发售）==》易学人格学（2014 修订）&lt;/p&gt;
+
+&lt;p&gt;H自组织理论：物质、反物质与真空（2001）==》 &lt;a href=&#34;http://search.sina.com.cn/?c=blog&amp;amp;q=%D2%D7%D1%A7%D3%EE%D6%E6%D1%A7&amp;amp;by=tag&#34;&gt;易学宇宙学（2016 待发售）&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;心理咨询师二级证书&#34;&gt;心理咨询师二级证书&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>心理学实用理论整理</title>
+      <link>https://cio.anasit.com/study/psychology/value/</link>
+      <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/psychology/value/</guid>
+      <description>
+
+&lt;h1 id=&#34;巴甫诺夫-动力定型&#34;&gt;巴甫诺夫——动力定型&lt;/h1&gt;
+
+&lt;h2 id=&#34;生理机制&#34;&gt;生理机制&lt;/h2&gt;
+
+&lt;p&gt;在日常生活中，如果一个人比较稳定地从事某一活动，客观刺激的系统经常按照一定前后和强弱作用于有机体。由于大脑皮层有系统性活动的机能，能够把这些刺激有规律地协调成为一个条件反射链索系统。动力定型的特点是当它已经形成后，一旦有关刺激物作用于有机体，条件反射的链索系统就自动地出现。所以动力定型又称自动化了的条件反射系统。&lt;/p&gt;
+
+&lt;h2 id=&#34;意义&#34;&gt;意义&lt;/h2&gt;
+
+&lt;p&gt;巴甫洛夫的动力定型的概念，为心理学研究习惯和熟练技巧的养成提供了生理学的说明。动力定型形成后可以大大节省我们的脑力和体力上的消耗，减轻我们的负担而提高功效。人们在生活中养成的习惯、技能以及生活方式等等，在生理机制上都是动力定型的建立。&lt;/p&gt;
+
+&lt;h2 id=&#34;应用&#34;&gt;应用&lt;/h2&gt;
+
+&lt;p&gt;篮球的投篮，就像是炮弹的发射。首先发射架要保持相对的稳定，才可能打的准。也就是要求有稳定的动力定型。简单划分的话，就是下盘功夫和上肢的动力定型。脚功是整个动力定型的基础，具体训练方法就不说了。&lt;/p&gt;
+
+&lt;p&gt;乒乓球也一样要求动作的稳定。具体就是挥拍出手的稳定，击球的稳定。&lt;/p&gt;
+
+&lt;p&gt;动力定型训练中，要讲究少而精的原则。对于初级选手来说，你不要学习乔丹每天投中1000个球，也不要模仿科比每天所谓的投中1500个球。对于初级动力定型训练来说，每天1000个的数量，将会起到摧毁动力定型的作用，这就像拳击练习抗打击能力一样，对于一个没有训练基础的新手，使用拳王同样的训练强度，这个新手是无法承受的。&lt;/p&gt;
 </description>
     </item>
     
