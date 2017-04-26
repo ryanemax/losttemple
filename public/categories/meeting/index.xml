@@ -1,0 +1,2548 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meeting on 刘雨飏@ANAS联盟</title>
+    <link>https://cio.anasit.com/categories/meeting/index.xml</link>
+    <description>Recent content in Meeting on 刘雨飏@ANAS联盟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2007-2016 Ryn&#39;s Blog</copyright>
+    <atom:link href="https://cio.anasit.com/categories/meeting/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2017中国大数据应用创新峰会暨数据中国城市行活动会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-4-26bdinchina/</link>
+      <pubDate>Wed, 26 Apr 2017 20:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-4-26bdinchina/</guid>
+      <description>
+
+&lt;h1 id=&#34;2017中国大数据应用创新峰会暨数据中国城市行活动会议记录&#34;&gt;2017中国大数据应用创新峰会暨数据中国城市行活动会议记录&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国大数据产业生态联盟&lt;/li&gt;
+&lt;li&gt;Big Data Industry Ecological Alliance of China&lt;/li&gt;
+&lt;li&gt;2017.04.26 青岛&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主旨报告-2017年大数据发展趋势&#34;&gt;主旨报告——2017年大数据发展趋势&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;北京大学教授 工业和信息化部原副部长 杨学山&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-历史发展&#34;&gt;一、历史发展&lt;/h2&gt;
+
+&lt;h3 id=&#34;信息流引领未来&#34;&gt;信息流引领未来&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;信息流引领新动能，实现新发展&lt;/li&gt;
+&lt;li&gt;非结构信息 ==&amp;gt; 分析、提取 ==&amp;gt; 价值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-应用创新&#34;&gt;二、应用创新&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;今天已有/已产生的数据（价值密度低）&lt;/li&gt;
+&lt;li&gt;企业、政府，如何通过信息流加快发展&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;人做的事情 ==&amp;gt; 数据链 ==&amp;gt; 大数据&lt;/li&gt;
+&lt;li&gt;昔要通古，从目的出发，重定义系统/重定义数据链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-技术创新&#34;&gt;三、技术创新&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;传统方式（hadoop）：将音视频、非结构文本 ==&amp;gt; 有价值数据&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;新的系统、工具支持
+
+&lt;ul&gt;
+&lt;li&gt;数据链构建（完整）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;建模和仿真
+
+&lt;ul&gt;
+&lt;li&gt;新模型&lt;/li&gt;
+&lt;li&gt;新数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;四-模式创新&#34;&gt;四、模式创新&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;解决制度矛盾
+
+&lt;ul&gt;
+&lt;li&gt;如：智慧城市的推进，需要跨部门、跨层级合作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解决可持续发展问题
+
+&lt;ul&gt;
+&lt;li&gt;可持续发展的商业模式，可以为大数据产业建立起完善的激励机制&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;主旨报告-数据引领未来-创新成就梦想&#34;&gt;主旨报告——数据引领未来，创新成就梦想&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;青岛市南区政府 高健&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-市南区大数据发展优势明显&#34;&gt;一、市南区大数据发展优势明显&lt;/h2&gt;
+
+&lt;h3 id=&#34;历史之城&#34;&gt;历史之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“三湾三城”历史悠久、文化底蕴深厚&lt;/li&gt;
+&lt;li&gt;265历史优秀建筑&lt;/li&gt;
+&lt;li&gt;72处339栋文保单位&lt;/li&gt;
+&lt;li&gt;41 名人故居&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;旅游之城&#34;&gt;旅游之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15家A级&lt;/li&gt;
+&lt;li&gt;4家AAAA级&lt;/li&gt;
+&lt;li&gt;拥有亚洲六个最美海湾之一&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;时尚之城&#34;&gt;时尚之城&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;年平均空气优良天数 230&lt;/li&gt;
+&lt;li&gt;城区绿化 35.4%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;学术创新&#34;&gt;学术创新&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;外聘院士 18&lt;/li&gt;
+&lt;li&gt;两院院士 17&lt;/li&gt;
+&lt;li&gt;国家“千人计划”专家 12&lt;/li&gt;
+&lt;li&gt;大数据类创新服务项目丰富
+
+&lt;ul&gt;
+&lt;li&gt;教育、治安、文化、旅游&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-市南区基于大数据的产业基础丰富&#34;&gt;二、市南区基于大数据的产业基础丰富&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;金融企业&lt;/li&gt;
+&lt;li&gt;大型企业&lt;/li&gt;
+&lt;li&gt;创意企业&lt;/li&gt;
+&lt;li&gt;政策扶持 一次性落实各类扶持资金1.8亿元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-市南区大数据基础发展原则及路径&#34;&gt;三、市南区大数据基础发展原则及路径&lt;/h2&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要坚持五个方面的原则&#34;&gt;促进大数据发展，要坚持五个方面的原则&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要坚持创新驱动的原则&lt;/li&gt;
+&lt;li&gt;要坚持统筹规划的原则&lt;/li&gt;
+&lt;li&gt;要坚持开放共享的原则&lt;/li&gt;
+&lt;li&gt;要坚持应用示范的原则&lt;/li&gt;
+&lt;li&gt;要坚持确保安全的原则&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;发展路线&#34;&gt;发展路线&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017 全区统一“政务云”&lt;/li&gt;
+&lt;li&gt;2018 实现政务大数据、云计算分中心&lt;/li&gt;
+&lt;li&gt;2019 xxx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要做好五个方面任务&#34;&gt;促进大数据发展，要做好五个方面任务&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要着力推进城区资源数据化&lt;/li&gt;
+&lt;li&gt;要着力推进公共数据共享化&lt;/li&gt;
+&lt;li&gt;要着力推进政府治理智慧化&lt;/li&gt;
+&lt;li&gt;要着力推进民生服务便捷化&lt;/li&gt;
+&lt;li&gt;要着力推进数据产业创新化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;促进大数据发展-要构建五个方面的支撑保障&#34;&gt;促进大数据发展，要构建五个方面的支撑保障&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要加强组织保障&lt;/li&gt;
+&lt;li&gt;要强化财力支撑&lt;/li&gt;
+&lt;li&gt;要搭建发展平台&lt;/li&gt;
+&lt;li&gt;要着力聚集人才&lt;/li&gt;
+&lt;li&gt;要促进协同发展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主题报告-大数据产品与解决方案测评结果发布&#34;&gt;主题报告——大数据产品与解决方案测评结果发布&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品与方案质量保障工作组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-工作背景&#34;&gt;一、工作背景&lt;/h2&gt;
+
+&lt;p&gt;落实《国务院关于印发促进大数据发展行动纲要的通知》(国发[2015]50号)&lt;/p&gt;
+
+&lt;h2 id=&#34;二-流程回顾&#34;&gt;二、流程回顾&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品&lt;/li&gt;
+&lt;li&gt;大数据解决方案
+
+&lt;ul&gt;
+&lt;li&gt;金融行业&lt;/li&gt;
+&lt;li&gt;能源行业&lt;/li&gt;
+&lt;li&gt;电子商务行业&lt;/li&gt;
+&lt;li&gt;教育行业&lt;/li&gt;
+&lt;li&gt;工业领域&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;产品和方案征集、技术评测、专家评审、证书颁发&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品评测指标体系
+
+&lt;ul&gt;
+&lt;li&gt;功能、安全、兼容、可靠、可扩展、知识产权&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解决方案评测指标体系
+
+&lt;ul&gt;
+&lt;li&gt;应用需求分析、系统架构分析、核心功能验证、应用规模&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;三-主要奖项&#34;&gt;三、主要奖项&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;8 大数据产品认证证书&lt;/li&gt;
+&lt;li&gt;5 大数据解决方案认证证书&lt;/li&gt;
+&lt;li&gt;6 大数据应用案例认证证书&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;四-本次评测工作总结&#34;&gt;四、本次评测工作总结&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品和方案多样化&lt;/li&gt;
+&lt;li&gt;部分企业具备整套解决方案&lt;/li&gt;
+&lt;li&gt;大数据案例逐步落地&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;五-目前大数据产品存在的问题&#34;&gt;五、目前大数据产品存在的问题&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术创新和支撑能力仍需加强&lt;/li&gt;
+&lt;li&gt;大数据安全急需关注&lt;/li&gt;
+&lt;li&gt;行业应用规模不够大（暂无PB级应用）&lt;/li&gt;
+&lt;li&gt;部分大数据方案拳法创新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;六-后期工作&#34;&gt;六、后期工作&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2017-4 正式启动第二期大数据产品和解决方案征集测评&lt;/li&gt;
+&lt;li&gt;开展大数据产品和解决方案的性能专题测评&lt;/li&gt;
+&lt;li&gt;探索大数据数据全生命周期的数据安全审查服务&lt;/li&gt;
+&lt;li&gt;面向重点行业（政务、医疗、环保、交通、工业、能源等领域）的大数据平台建设提供咨询、测评服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;cosmoplat-全球引领自主创新的工业互联网云平台&#34;&gt;COSMOPlat——全球引领自主创新的工业互联网云平台&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;海尔集团家电产业集团大数据&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;为什么-应对实战的挑战&#34;&gt;为什么：应对实战的挑战&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户需求被释放
+
+&lt;ul&gt;
+&lt;li&gt;个性化、细节化&lt;/li&gt;
+&lt;li&gt;高端化、高品质&lt;/li&gt;
+&lt;li&gt;参与感、体验感&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;行业难题
+
+&lt;ul&gt;
+&lt;li&gt;压货促销，库存大&lt;/li&gt;
+&lt;li&gt;产品同质化严重，缺乏创新&lt;/li&gt;
+&lt;li&gt;效率低、利润下降&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;转型挑战
+
+&lt;ul&gt;
+&lt;li&gt;工业1.0、2.0、3.0并存&lt;/li&gt;
+&lt;li&gt;产业结构不合理&lt;/li&gt;
+&lt;li&gt;生产性服务业发展滞后&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;实现转型的战略愿景&#34;&gt;实现转型的战略愿景&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;战略愿景
+
+&lt;ul&gt;
+&lt;li&gt;物联网时代的智慧生活行业引领者&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;战略路径
+
+&lt;ul&gt;
+&lt;li&gt;顾客、用户、社群、电器、网器、生态&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;智慧家庭、互联工厂&lt;/p&gt;
+
+&lt;p&gt;单一硬件产品 -&amp;gt; 智慧生活解决方案&lt;/p&gt;
+
+&lt;p&gt;大规模制造 -&amp;gt; 大规模定制&lt;/p&gt;
+
+&lt;p&gt;社区生态大数据平台&lt;/p&gt;
+
+&lt;h2 id=&#34;满足用户生活场景定制的最佳体验&#34;&gt;满足用户生活场景定制的最佳体验&lt;/h2&gt;
+
+&lt;p&gt;全流程并联、零距离互联互通、开放式的创新体系&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业&lt;/li&gt;
+&lt;li&gt;资源&lt;/li&gt;
+&lt;li&gt;工业新生态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;颠覆性创新的平台架构&#34;&gt;颠覆性创新的平台架构&lt;/h2&gt;
+
+&lt;p&gt;三大差异化能力、用户全流程参与大规模定制体验迭代、零距离互联互通、开放新生态&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模式层&lt;/li&gt;
+&lt;li&gt;应用层&lt;/li&gt;
+&lt;li&gt;平台层&lt;/li&gt;
+&lt;li&gt;资源层&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;开放的云平台&lt;/li&gt;
+&lt;li&gt;分布式架构&lt;/li&gt;
+&lt;li&gt;模块化微服务&lt;/li&gt;
+&lt;li&gt;智能化物联&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;8大互联工厂样板&#34;&gt;8大互联工厂样板&lt;/h2&gt;
+
+&lt;p&gt;互联工厂：用户深度参与大规模定制模式&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户交互&lt;/li&gt;
+&lt;li&gt;众创定制&lt;/li&gt;
+&lt;li&gt;定制订单&lt;/li&gt;
+&lt;li&gt;生产可视&lt;/li&gt;
+&lt;li&gt;交付可视&lt;/li&gt;
+&lt;li&gt;使用体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;沈阳冰箱、佛山滚筒、郑州空调、青岛模具、青岛热水器、FPA电机、胶州空调、黄岛空调&lt;/p&gt;
+
+&lt;h2 id=&#34;迭代&#34;&gt;迭代&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对内成果复制到全球108个工厂&lt;/li&gt;
+&lt;li&gt;对外跨行业、跨区域服务与推广，构建智能制造生态服务新产业&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;大数据应用1-零部件模块化&#34;&gt;大数据应用1：零部件模块化&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模块化对3种定制模式的支撑
+
+&lt;ul&gt;
+&lt;li&gt;快速满足用户多样性个性化需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;模块化采购的4类价格模型
+
+&lt;ul&gt;
+&lt;li&gt;有效降低全球资源采购成本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;大数据应用2-生产流程可视化&#34;&gt;大数据应用2：生产流程可视化&lt;/h2&gt;
+
+&lt;h2 id=&#34;大数据应用4-服务交互智能化&#34;&gt;大数据应用4：服务交互智能化&lt;/h2&gt;
+
+&lt;h2 id=&#34;获得国家-行业广泛的认可&#34;&gt;获得国家、行业广泛的认可&lt;/h2&gt;
+
+&lt;h1 id=&#34;主题报告-融合数据-强化应用-创新服务&#34;&gt;主题报告——融合数据、强化应用、创新服务&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;久其软件 钱晖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;一-大数据战略&#34;&gt;一、大数据战略&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;久其战略——业内领先的、聚焦B2B2C的大数据综合服务提供商&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;二-大数据认知&#34;&gt;二、大数据认知&lt;/h2&gt;
+
+&lt;p&gt;应用环境：宏观环境、经济社会环境&lt;/p&gt;
+
+&lt;p&gt;应用要素：技术、数据、应用场景&lt;/p&gt;
+
+&lt;p&gt;应用场景：
+- 政务大数据（国发[2017]27号文）
+    - 大力推行“互联网+政务服务”
+    - 尽职/合规
+    - 公平/作为
+    - 智能/服务
+- 优化服务
+    - 大数据
+        - 识别服务需求
+        - 优化服务界面
+        - 进行服务预警
+    - 服务创新
+        - 个性化服务
+        - 适应性服务
+        - 主动协同服务&lt;/p&gt;
+
+&lt;h2 id=&#34;三-大数据实践&#34;&gt;三、大数据实践&lt;/h2&gt;
+
+&lt;p&gt;大数据应用领域
+- 民生大数据
+- 交通大数据
+- 传播大数据
+- 财经大数据
+- 司法大数据
+- 产业大数据&lt;/p&gt;
+
+&lt;p&gt;久其大数据应用行业与案例&lt;/p&gt;
+
+&lt;p&gt;大数据为国家教育现代化服务&lt;/p&gt;
+
+&lt;p&gt;大数据助力国家精准扶贫——2020年实现全面脱贫
+- 单致贫因素分析
+- 多致贫因素分析
+- 扶贫资金模拟
+- PDMI用户行为分析与推荐系统
+- 用户画像&lt;/p&gt;
+
+&lt;p&gt;大数据为产业发展服务&lt;/p&gt;
+
+&lt;h2 id=&#34;愿景&#34;&gt;愿景&lt;/h2&gt;
+
+&lt;p&gt;让信息的制造者成为受益者&lt;/p&gt;
+
+&lt;h1 id=&#34;主题报告-神州泰岳与大数据&#34;&gt;主题报告——神州泰岳与大数据&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;神州泰岳 董事副总裁 杨凯程&lt;/p&gt;
+
+&lt;h2 id=&#34;两大核心挑战&#34;&gt;两大核心挑战&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;技术创新&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;感知智能（视觉识别、语音识别）&lt;/li&gt;
+&lt;li&gt;认知智能（自然语言语义识别）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;场景创新&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以深度学习为代表的机器学习成为了AI算法的基础
+- 大数据带来的样本易获取
+- GPU带来的算力大提升&lt;/p&gt;
+
+&lt;p&gt;感知智能的巨大成就和众创时代的来临
+- 看得到、听得到、说得清
+- 机器学习的算法是普惠的
+- GPU带来的算力是普惠的
+- 学习样本已经更加易于获得&lt;/p&gt;
+
+&lt;p&gt;认知智能的角度来看深度学习效果不如预期、路还漫长
+- 数据的“善良性”，要求语料质量优质
+- 互联网上最多最容易获得样本数据
+- 或者样本数据易于获得易于积累的领域&lt;/p&gt;
+
+&lt;p&gt;尤其是在行业领域深度学习还将面临三个挑战
+- 缺乏足够丰富的样本数据
+    - 算法训练、测试、解决困难
+- 中文歧义性的挑战
+    - 相同的含义不一样的表达
+    - 相同的表达不一样的含义
+- 应答结果的专业性要求&lt;/p&gt;
+
+&lt;h2 id=&#34;神州泰岳nlp-基于概念计算的智慧语义认知技术&#34;&gt;神州泰岳NLP：基于概念计算的智慧语义认知技术&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;符号化语义表示的DNA语义词库&lt;/li&gt;
+&lt;li&gt;语义=语言本体+领域范畴+意义表示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;面向业务建模解决从技术专注转移到业务专注
+- 规范的业务表示
+- 复杂的自然语言表示&lt;/p&gt;
+
+&lt;h2 id=&#34;dinfo-oec是神州泰岳对于人工智能认知的重要贡献&#34;&gt;DINFO-OEC是神州泰岳对于人工智能认知的重要贡献&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业界首款面向业务建模的DINFO-OEC平台&lt;/li&gt;
+&lt;li&gt;机器学习依赖的两个主要条件不再成为必须&lt;/li&gt;
+&lt;li&gt;神州泰岳人工智能&lt;strong&gt;认知+&lt;/strong&gt;的三大战略概念&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;云服务-场景创新&#34;&gt;云服务——场景创新&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;智脑公安案情分析系统
+
+&lt;ul&gt;
+&lt;li&gt;以入室盗窃案情记录为例&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;专家论坛-大数据驱动下的应用创新&#34;&gt;专家论坛——大数据驱动下的应用创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主持人：郭嘉凯
+
+&lt;ul&gt;
+&lt;li&gt;中国大数据产业生态联盟副秘书长&lt;/li&gt;
+&lt;li&gt;《软件和集成电路》杂志社总编辑&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：张理敬
+
+&lt;ul&gt;
+&lt;li&gt;青岛市大数据发展促进局副局长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：黄曜令
+
+&lt;ul&gt;
+&lt;li&gt;北京润乾软件技术有限公司总经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：陈维强
+
+&lt;ul&gt;
+&lt;li&gt;海信集团有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;嘉宾：徐斌
+
+&lt;ul&gt;
+&lt;li&gt;雪松集团CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;中国大数据产业生态联盟2017-第二届-理事成员大会摘要&#34;&gt;中国大数据产业生态联盟2017（第二届）理事成员大会摘要&lt;/h1&gt;
+
+&lt;h2 id=&#34;联盟2016工作总结&#34;&gt;联盟2016工作总结&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;面向各地方政府政务大数据的培训课程&lt;/li&gt;
+&lt;li&gt;发布《2016中国大数据产业生态地图》白皮书&lt;/li&gt;
+&lt;li&gt;揭晓“中国大数据企业50强”&lt;/li&gt;
+&lt;li&gt;每月一次“BOSS团”沙龙活动
+
+&lt;ul&gt;
+&lt;li&gt;B2B资源对接&lt;/li&gt;
+&lt;li&gt;理事成员以上单位可主动承办&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;“大数据发展五星城市”测评（年初、年底各一次）
+
+&lt;ul&gt;
+&lt;li&gt;截止目前，青岛、贵阳、南京、沈阳&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;产品与解决方案测评工作（面向联盟内部成员免费）&lt;/li&gt;
+&lt;li&gt;专著出版《数据新势力》&lt;/li&gt;
+&lt;li&gt;协助成员进行针对性资源、业务对接
+
+&lt;ul&gt;
+&lt;li&gt;B&amp;amp;B、B&amp;amp;G、B&amp;amp;C&lt;/li&gt;
+&lt;li&gt;B&amp;amp;C部分由CIO专委会与企业用户进行对接落地&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟2017整体规划&#34;&gt;联盟2017整体规划&lt;/h2&gt;
+
+&lt;h2 id=&#34;联盟-大数据人才培养工作组-2017整体规划&#34;&gt;联盟&amp;lt;大数据人才培养工作组&amp;gt;2017整体规划&lt;/h2&gt;
+
+&lt;h2 id=&#34;联盟-大数据发展水平评价工作组-工作报告&#34;&gt;联盟&amp;lt;大数据发展水平评价工作组&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主要进行区域发展水平测评与发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016总结&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据发展水平评价指标体系研究制定&lt;/li&gt;
+&lt;li&gt;大数据发展水平评价机制制定&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大数据发展水平评价结果发布&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大数据发展水平评价指标体系&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布专题研究报告&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布每年白皮书&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;维护网站专栏&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017工作&#34;&gt;2017工作&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;确定首批专家委员会&lt;/li&gt;
+&lt;li&gt;大数据发展水平评价专栏正式上线&lt;/li&gt;
+&lt;li&gt;发展区域大数据发展书评自评价功能（地方政府，可进行问卷自评，具有内部参考性）
+
+&lt;ul&gt;
+&lt;li&gt;自评后，可申请专家评价&lt;/li&gt;
+&lt;li&gt;联盟成员，可主动自己所在区域发起评价&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;发展区域大数据发展水平评价体系修订升级工作
+
+&lt;ul&gt;
+&lt;li&gt;8月，征集建议&lt;/li&gt;
+&lt;li&gt;9月，组织专家单位，进行修改&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;开展2017年下半年区域大数据发展评价工作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-大数据产品与方案质量保障工作组-工作报告&#34;&gt;联盟&amp;lt;大数据产品与方案质量保障工作组&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;周润松&lt;/li&gt;
+&lt;li&gt;主要进行产品与解决方案测评与发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016总结-1&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品和解决方案发放平台&lt;/li&gt;
+&lt;li&gt;测评认证结果发布平台&lt;/li&gt;
+&lt;li&gt;政府关键数据支撑平台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017计划&#34;&gt;2017计划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展大数据产业优秀产品以及解决方案征集工作
+
+&lt;ul&gt;
+&lt;li&gt;大数据产品&lt;/li&gt;
+&lt;li&gt;大数据解决方案&lt;/li&gt;
+&lt;li&gt;大数据应用案例&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;发展大数据产品的专题测评工作&lt;/li&gt;
+&lt;li&gt;为面向重点行业的大数据平台建设提供咨询、测评服务&lt;/li&gt;
+&lt;li&gt;打造大数据生态中心，建立优秀的大数据产品和解决方案应用体验中心
+
+&lt;ul&gt;
+&lt;li&gt;产品体验&lt;/li&gt;
+&lt;li&gt;方案体验&lt;/li&gt;
+&lt;li&gt;需求对接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;打造中国大数据产品及解决方案测评与认定结果发布平台
+
+&lt;ul&gt;
+&lt;li&gt;更全的产品分类与测评收录&lt;/li&gt;
+&lt;li&gt;更全的行业应用案例测评收率&lt;/li&gt;
+&lt;li&gt;更全更专业的测评结果&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-大数据工业大数据专委会-工作报告&#34;&gt;联盟&amp;lt;大数据工业大数据专委会&amp;gt;工作报告&lt;/h2&gt;
+
+&lt;h3 id=&#34;2016总结-2&#34;&gt;2016总结&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国制造2025战略
+
+&lt;ul&gt;
+&lt;li&gt;重复现有工业体系&lt;/li&gt;
+&lt;li&gt;规模庞大、层次多样的需求&lt;/li&gt;
+&lt;li&gt;全球性价值&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;中国政府重视工业大数据发展&lt;/li&gt;
+&lt;li&gt;建立大数据人才培养机制&lt;/li&gt;
+&lt;li&gt;筹建工业大数据应用展示中心&lt;/li&gt;
+&lt;li&gt;组织召开、出席大数据相关会议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017计划-1&#34;&gt;2017计划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;推荐专委会组织建设&lt;/li&gt;
+&lt;li&gt;开展大数据人才培养&lt;/li&gt;
+&lt;li&gt;注重大数据技术研究：技术、产品、应用&lt;/li&gt;
+&lt;li&gt;展示工业大数据优秀成果
+
+&lt;ul&gt;
+&lt;li&gt;建立全国级、省市级的工业大数据应用展示中心
+
+&lt;ul&gt;
+&lt;li&gt;杭州、河南在今年7月份建成&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;探索工业大数据新型商业服务模式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;推动工业大数据产业标准&lt;/li&gt;
+&lt;li&gt;开展工业大数据产业和实践研究&lt;/li&gt;
+&lt;li&gt;组织召开、参加行业活动&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-财经大数据专委会&#34;&gt;联盟&amp;lt;财经大数据专委会&amp;gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;搭建交流平台
+
+&lt;ul&gt;
+&lt;li&gt;汇聚智慧、分享经验&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;构建生态体系
+
+&lt;ul&gt;
+&lt;li&gt;打通链条、建设生态&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;推动资源开放
+
+&lt;ul&gt;
+&lt;li&gt;融合数据、共享资源&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;落实数据服务
+
+&lt;ul&gt;
+&lt;li&gt;平台运作、服务无限&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-产业互联网服务专委会-工作计划&#34;&gt;联盟&amp;lt;产业互联网服务专委会&amp;gt;工作计划&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;www.ciisc.org 4008-200-747&lt;/li&gt;
+&lt;li&gt;服务宗旨：聚合千家资源、服务万家企业
+
+&lt;ul&gt;
+&lt;li&gt;当地政府合作、挖掘中小企业需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配合联盟的数据中国行&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;落地青岛&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为当地政府搭建“技术云”产业服务大数据云平台&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为当地中小企业与全国专业机构和专家学者产学研对接创造联盟的服务平台&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-cio专委会工作报告&#34;&gt;联盟&lt;CIO专委会工作报告&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;徐斌&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016工作汇报&#34;&gt;2016工作汇报&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业用户大数据，将企业用户的需求引入整个大数据体系&lt;/li&gt;
+&lt;li&gt;2016-12-22成立&lt;/li&gt;
+&lt;li&gt;目前已经有70位发布聘书委员&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017工作计划&#34;&gt;2017工作计划&lt;/h3&gt;
+
+&lt;h4 id=&#34;愿景-1&#34;&gt;愿景&lt;/h4&gt;
+
+&lt;p&gt;成为国内领先的“前瞻性挖掘企业发展需求，务实性应用大数据解决方案，形成大数据应用方案提供方和大数据价值获得方的有机互动，共同发展”的专业委员会&lt;/p&gt;
+
+&lt;p&gt;打造企业单位、行业组织、大数据方案提供商、和专家智库等多方互动的桥梁&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业&lt;/li&gt;
+&lt;li&gt;行业&lt;/li&gt;
+&lt;li&gt;供应商&lt;/li&gt;
+&lt;li&gt;专家智库&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;宗旨&#34;&gt;宗旨&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;交流：搭建CIO交流平台&lt;/li&gt;
+&lt;li&gt;共享：推动企业大数据资源开放共享与应用&lt;/li&gt;
+&lt;li&gt;生态：构建企业大数据服务生态链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;目标-需求指导供给-供给推动需求-大数据价值实现&#34;&gt;目标：需求指导供给 + 供给推动需求 = 大数据价值实现&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;贯彻国家顶层设计思想，建设合作共赢的企业大数据生态&lt;/li&gt;
+&lt;li&gt;一方面通过企业需求的收集，分析和汇总来指导大数据方案提供商能够更好地设计和建设具有实际企业应用价值的解决方案&lt;/li&gt;
+&lt;li&gt;另一方案为企业CIO们带来更多元，更丰富的大数据应用解决方案，来加快企业应用合适的方案来快速提升价值，实现企业核心竞争力的不断提升&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;主要工作-供需连接-合作共赢&#34;&gt;主要工作：供需连接+合作共赢&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展企业大数据应用现状研究，发掘大数据在企业中产生价值的场景&lt;/li&gt;
+&lt;li&gt;推动企业CIO们对大数据的进一步认识，了解大数据产业发展的最佳实践&lt;/li&gt;
+&lt;li&gt;利用CIO的聚集效应，发现潜在的共同需求，实现以需求驱动设计和生产的模式&lt;/li&gt;
+&lt;li&gt;推动企业的信息化和工业化深度融合发展，发现经济转型和创业创新机遇&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;行动计划&#34;&gt;行动计划&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每月CIO数据讲堂&lt;/li&gt;
+&lt;li&gt;定期CIO线下沙龙&lt;/li&gt;
+&lt;li&gt;10月举办大型交流论坛&lt;/li&gt;
+&lt;li&gt;线上CIO主题交流群&lt;/li&gt;
+&lt;li&gt;企业最佳实践考察&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-数据智能专委会&#34;&gt;联盟&amp;lt;数据智能专委会&amp;gt;&lt;/h2&gt;
+
+&lt;p&gt;根据目前大数据与人工智能融合的产业趋势和技术驱动产业突破创新的战略决策，在中国大数据产业生态联盟下，由大数据与人工智能领域的领导型企业牵头成立，推进各项工作，产业链上下游相关企业自愿加入的专业服务机构。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;2017.07 组织召开大数据与人工智能的全国高峰论坛（2000门票，对联盟成员免费）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;www.baifendian.com&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;联盟-公共服务大数据专委会&#34;&gt;联盟&amp;lt;公共服务大数据专委会&amp;gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
+      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
+      <description>
+
+&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会议主题
+
+&lt;ul&gt;
+&lt;li&gt;因专属更自如——IBM Bluemix 云端体验之旅&lt;/li&gt;
+&lt;li&gt;IBM Bluemix Dedicated&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;主办单位
+
+&lt;ul&gt;
+&lt;li&gt;世纪互联集团有限公司&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;bluemix中国研究院demo演示&#34;&gt;Bluemix中国研究院Demo演示&lt;/h1&gt;
+
+&lt;h2 id=&#34;定制化图片分类器服务&#34;&gt;定制化图片分类器服务&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;我的任务
+
+&lt;ul&gt;
+&lt;li&gt;新建任务-选择数据集-准确优先/精度优先&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;我的数据集
+
+&lt;ul&gt;
+&lt;li&gt;从示例数据集拷贝，用于尝试训练&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;我的训练模型&lt;/li&gt;
+&lt;li&gt;我的API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;训练定制图片识别服务&lt;/li&gt;
+&lt;li&gt;CloudFoundry新建一个Demo&lt;/li&gt;
+&lt;li&gt;调用对应API构建应用&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;移动消息连接服务-快速连接微信与应用&#34;&gt;移动消息连接服务：快速连接微信与应用&lt;/h2&gt;
+
+&lt;p&gt;连接Bluemix应用于微信&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;随着移动即时消息通讯工具普及，企业越来越重视利用其服务号建立交互式消息应用实现与客户的交互，提供客户服务，甚至完成销售过程。&lt;/li&gt;
+&lt;li&gt;Bluemix China上的移动消息连接服务提供了一种连接微信的能力&lt;/li&gt;
+&lt;li&gt;打开移动消息应用的认知能力大门，连接Bluemix图片识别，中文问答，中文语音识别、中文舆情分析等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;中网微信购票服务&#34;&gt;中网微信购票服务&lt;/h3&gt;
+
+&lt;p&gt;5天，服务4800人购票，观众线上购票线下取票&lt;/p&gt;
+
+&lt;p&gt;中网微信公众订阅号=&amp;gt;移动消息连接服务=&amp;gt;客户服务助手=&amp;gt;CloudFoundry&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</title>
+      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
+      <description>
+
+&lt;h1 id=&#34;零-前言&#34;&gt;零、前言&lt;/h1&gt;
+
+&lt;p&gt;本文针对二三线城市&lt;strong&gt;中小型企业信息化&lt;/strong&gt;现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。&lt;/p&gt;
+
+&lt;p&gt;主体分为四大章节
+- 企业信息化的市场前景
+- 消灭信息不对等！
+- 中小企业如何顺利进行信息化转型？
+- 安纳斯在江西区域发展策略&lt;/p&gt;
+
+&lt;p&gt;以及2个具体的实施案例
+- 案例1：江西某旅游集团信息化转型
+- 案例2：湖南某市九县三区民政养老信息化转型&lt;/p&gt;
+
+&lt;h1 id=&#34;一-企业信息化的市场前景&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
+
+&lt;h2 id=&#34;企业信息化技术的发展&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2000-2008
+
+&lt;ul&gt;
+&lt;li&gt;自建机房&lt;/li&gt;
+&lt;li&gt;IDC托管&lt;/li&gt;
+&lt;li&gt;门户网站、OA、ERP&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2009 各大公司陆续发布公有IaaS服务&lt;/li&gt;
+&lt;li&gt;2012 云计算时代的&lt;strong&gt;PaaS&lt;/strong&gt;元年
+
+&lt;ul&gt;
+&lt;li&gt;Hadoop、MapReduce被IBM、亚马逊、谷歌、和微软等财力雄厚的PaaS提供商封装成预制服务&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2015
+
+&lt;ul&gt;
+&lt;li&gt;全面融入IT领域的&lt;strong&gt;容器技术&lt;/strong&gt;元年&lt;/li&gt;
+&lt;li&gt;Windows Server 2016将为Docker类容器技术提供支持&lt;/li&gt;
+&lt;li&gt;OpenStack、CloudFoundry等Linux巨头，也在重新对其产品线中的某些核心组件进行调整&lt;/li&gt;
+&lt;li&gt;2015年中国企业级SaaS市场规模将达到199.3亿元，这是一个正经历着裂变式高速增长的市场&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2016 变革从此爆发
+
+&lt;ul&gt;
+&lt;li&gt;预计2016年中国企业级SaaS市场规模将超过300亿元人民币&lt;/li&gt;
+&lt;li&gt;混合云 IBM Bluemix 中国区将正式发布&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://d1fto35gcfffzn.cloudfront.net/images/products/pivotal-cloud-foundry/cloud-native-diagram-azure.png&#34; alt=&#34;CloudFondry&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;待整理-国内混合云市场前景&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
+
+&lt;h2 id=&#34;待整理-江西混合云市场前景&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
+
+&lt;h2 id=&#34;中小企业信息化的需求&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;互联网技术革新速度不断加速，二三线城市还未跟上步伐&lt;/li&gt;
+&lt;li&gt;企业信息系统，该选择私有云还是公有云？
+
+&lt;ul&gt;
+&lt;li&gt;如果公有云，该选择IBM、AWS还是国内服务商？&lt;/li&gt;
+&lt;li&gt;如果私有云，该选择私有云IDC托管还是自建机房？&lt;/li&gt;
+&lt;li&gt;企业云资源虚拟化，该选择OpenStack还是Docker？
+
+&lt;ul&gt;
+&lt;li&gt;OpenStack该选择自建服务器集群，还是统一托管至IDC？&lt;/li&gt;
+&lt;li&gt;Docker管理的PaaS级方案，该选择CloudFoundry、Kubernetes、Deis还是Flynn？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些头疼无比的选择，正反映了中小型企业信息化的现状：信息不对等，导致了中小型企业难接触飞速发展的企业信息化技术。&lt;/p&gt;
+
+&lt;h1 id=&#34;二-消灭信息不对等&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
+
+&lt;h2 id=&#34;消灭常见认知误区&#34;&gt;消灭常见认知误区&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;十年前，建设一个门户就是企业信息化&lt;/li&gt;
+&lt;li&gt;现在，做一个公众号，发布一款APP就是企业信息化&lt;/li&gt;
+&lt;li&gt;只要有WEB，拼凑几个智能硬件，就是互联网+项目&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;消灭成本预估误区&#34;&gt;消灭成本预估误区&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;公司策划的项目很好，只差一个程序员
+
+&lt;ul&gt;
+&lt;li&gt;对系统&lt;strong&gt;需求不明确&lt;/strong&gt;，导致资金预算与预期成果严重不符&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;请一个软件外包团队，几个月就能做完项目
+
+&lt;ul&gt;
+&lt;li&gt;对系统上线&lt;strong&gt;运维成本不了解&lt;/strong&gt;，导致项目难以持续迭代&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
+
+&lt;h3 id=&#34;关键工具&#34;&gt;关键工具&lt;/h3&gt;
+
+&lt;h4 id=&#34;ibm-api-connect&#34;&gt;IBM API Connect&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安全地打通现有的信息数据&lt;/li&gt;
+&lt;li&gt;可视化API构建集成&lt;/li&gt;
+&lt;li&gt;Swagger2.0规范标准&lt;/li&gt;
+&lt;li&gt;API使用统计分析&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/design.png&#34; alt=&#34;apiconnect0&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/source.png&#34; alt=&#34;apiconnect1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/analytics.png&#34; alt=&#34;apiconnect2&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;项目背景&#34;&gt;项目背景&lt;/h3&gt;
+
+&lt;p&gt;2015.4月，该旅游集团互联网+旅游产品与2015年1月开始已上线一个季度，由一家小型非技术型公司来外包完成产品开发。平台前期设计开发过于仓促，上线运营缺少维护支持以及全方位测试。导致了其正式上线运营后劲不足，影响到集团线下战略发展。&lt;/p&gt;
+
+&lt;h3 id=&#34;危机分析&#34;&gt;危机分析&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/原运营情况.png&#34; alt=&#34;原运营情况&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;拥有200家子公司，但集团内部信息化系统杂乱
+
+&lt;ul&gt;
+&lt;li&gt;新员工入职需要先学习五种系统，日志汇报系统、财务审批系统、旅游产品系统、客户管理系统、微信商城系统&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;各子系统的交接环节，完全使用&lt;strong&gt;人工手动&lt;/strong&gt;统计与交接&lt;/li&gt;
+&lt;li&gt;线上产品经测试后漏洞较多，导致关键业务需要重构&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;提供支持&#34;&gt;提供支持&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/平台2.0系统.png&#34; alt=&#34;优化后系统&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;重构微平台关键业务——旅游产品商城，对接财务报表系统&lt;/li&gt;
+&lt;li&gt;对接集团内部信息系统，部分打通API，部分子系统直接重构&lt;/li&gt;
+&lt;li&gt;优化线上产品自动化部署及自动化运维策略&lt;/li&gt;
+&lt;li&gt;设计平台全套RESTful APIs，提供信息化数据微服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;成果&#34;&gt;成果&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;大幅度减少集团原有的人力资源浪费（信息化及自动化）&lt;/li&gt;
+&lt;li&gt;利于项目维护及后续扩展开发（基于RESTful重构后的线上产品数据接口）&lt;/li&gt;
+&lt;li&gt;为该集团提供技术岗位招聘需求，及产品迭代运维方案&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务方：小型作坊过多，中小型软件外包服务公司不规范
+
+&lt;ul&gt;
+&lt;li&gt;人才难以寻求，二三线城市互联网技术人才紧缺。&lt;/li&gt;
+&lt;li&gt;成本难以压缩，小型公司外包业务利润率，仅有30%。&lt;/li&gt;
+&lt;li&gt;领头人非技术出身，技术策略偏重重复生产，而非技术革新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;企业方：采购SaaS服务接口开放度不高，或企业内无人进行信息整合
+
+&lt;ul&gt;
+&lt;li&gt;SaaS服务兴起，但多为通用模板，定制化较少&lt;/li&gt;
+&lt;li&gt;缺少合适的技术人才，进行信息整合优化&lt;/li&gt;
+&lt;li&gt;中小企业（非互联网领域）信息技术投入多为负支出，所带来成果难以见效&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
+
+&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
+
+&lt;p&gt;有人评论说：&amp;rdquo;针对目前国内情况，DevOps还是很遥远。也许只有行业顶尖的公司，或者新成立的公司会有这样的尝试。大多数的企业还未开始进行敏捷的推进，传统的重重阻碍会使敏捷的推进进程遥遥无期。&amp;rdquo; DevOps真的离我们有那么远吗？DevOps应该从哪里开始呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/cloudfoundrycert.jpg&#34; alt=&#34;cfcert&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.wenwenyun.com/uploads/allimg/140924/12222031D-0.png&#34; alt=&#34;agile&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;持续部署和交付&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;利用专为缩减时间和降低管理运营成本而设计的平台，缩短软件交付周期。
+- DevOps&lt;/p&gt;
+
+&lt;p&gt;营造一个充满信赖、文化强大的结构性平台去服务企业连接需求和实施，事半功倍。&lt;/p&gt;
+
+&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;原型测试阶段
+
+&lt;ul&gt;
+&lt;li&gt;公有云——IBM Bluemix Public&lt;/li&gt;
+&lt;li&gt;适用于：小型规模应用，或测试期产品&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;公测迭代阶段
+
+&lt;ul&gt;
+&lt;li&gt;私有托管——IBM Bluemix Dedicated&lt;/li&gt;
+&lt;li&gt;适用于：用户规模较大，注重数据独立性与可靠性，需要硬件独立的私有环境&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;大规模发布阶段
+
+&lt;ul&gt;
+&lt;li&gt;私有部署——IBM Bluemix Local&lt;/li&gt;
+&lt;li&gt;适用于：公司有专业运维部门，对IaaS或PaaS层有一定的定制需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
+
+&lt;h3 id=&#34;关键工具-1&#34;&gt;关键工具&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker+Parse
+
+&lt;ul&gt;
+&lt;li&gt;IBM Bluemix替代方案&lt;/li&gt;
+&lt;li&gt;Mobile Application Content Manager&lt;/li&gt;
+&lt;li&gt;Push Notifications&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API Connect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;项目背景-1&#34;&gt;项目背景&lt;/h3&gt;
+
+&lt;h3 id=&#34;危机分析-1&#34;&gt;危机分析&lt;/h3&gt;
+
+&lt;h3 id=&#34;提供支持-1&#34;&gt;提供支持&lt;/h3&gt;
+
+&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
+
+&lt;h3 id=&#34;服务方与企业方&#34;&gt;服务方与企业方&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;小作坊惨遭淘汰，或在压力中转型成为与云接轨的合格服务商&lt;/li&gt;
+&lt;li&gt;具有一定规模的传统软件服务商，将面临尴尬的局面，喜忧参半
+
+&lt;ul&gt;
+&lt;li&gt;威胁&lt;/li&gt;
+&lt;li&gt;较为“老龄化”的技术团队&lt;/li&gt;
+&lt;li&gt;难以迭代的技术债务&lt;/li&gt;
+&lt;li&gt;新技术创业公司的冲击&lt;/li&gt;
+&lt;li&gt;机遇&lt;/li&gt;
+&lt;li&gt;老客户的更新迭代需求&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;互联网技术岗位需求增加，技术交流氛围提升，人才普遍水平上升&lt;/li&gt;
+&lt;li&gt;信息化将成为传统公司必经之路
+
+&lt;ul&gt;
+&lt;li&gt;较早探索转型的企业，初期会面临诸多实验性成本投入&lt;/li&gt;
+&lt;li&gt;可成功信息化转型的企业，其企业发展必然会受到增幅&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;企业真正需要的是信息化的全方位服务，而不仅仅是软件开发外包&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;大型信息科技公司&#34;&gt;大型信息科技公司&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;制定规则
+
+&lt;ul&gt;
+&lt;li&gt;成为推动与云接轨的&lt;strong&gt;软件服务标准流程及制度&lt;/strong&gt;产生与发展的&lt;strong&gt;关键力量&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;拥抱开发者
+
+&lt;ul&gt;
+&lt;li&gt;自身更加注重IaaS及PaaS服务的建设，将鼓励开发者自成生态圈，在其标准及服务上进行SaaS的开发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;整合数据（DT时代）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
+
+&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
+
+&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
+
+&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CIO分论坛：新技术及IT信息服务会议记录</title>
+      <link>https://cio.anasit.com/meeting/2016-6-17apcio-it/</link>
+      <pubDate>Fri, 17 Jun 2016 16:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-6-17apcio-it/</guid>
+      <description>
+
+&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;孙海&lt;/li&gt;
+&lt;li&gt;北京世纪互联宽带数据中心有限公司 销售经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
+
+&lt;p&gt;2016.6.17国内首测&lt;/p&gt;
+
+&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
+
+&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Akamai 柴海炬&lt;/li&gt;
+&lt;li&gt;阿卡迈（北京）信息技术有限公司 华东区战略客户部总监&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;akamai公司简介&#34;&gt;Akamai公司简介&lt;/h2&gt;
+
+&lt;p&gt;Akamai是CDN的发明者
+- 1998发明CDN技术架构并诞生于麻省理工学院，
+- 1999年NASDAQ上市。总部位于美国波士顿。&lt;/p&gt;
+
+&lt;p&gt;Akamai是全球最大的CDN服务商
+- 2015年占有全球CDN市场约66%的份额
+- 全球客户超过6,000家，分发互联网15-30%的流量
+- 全球5000名雇员&lt;/p&gt;
+
+&lt;h3 id=&#34;akamai平台在全球覆盖&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
+
+&lt;p&gt;遍布全球的因特网层叠网络
+- 20万台服务器
+- 覆盖136个国家
+- 覆盖1030个城市
+- 覆盖1300个ISP运营商网络&lt;/p&gt;
+
+&lt;p&gt;国家列表（部分）
+- 亚太地区
+- 大洋洲
+- 非洲
+- 中美洲
+- 中东
+- 西欧
+- 东欧
+- 南美&lt;/p&gt;
+
+&lt;h2 id=&#34;走出去-网络挑战&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;如何快速走向市场&lt;/li&gt;
+&lt;li&gt;如何按需使用互联网加速服务，花费有效&lt;/li&gt;
+&lt;li&gt;如何快速纯动态，关键内部应用&lt;/li&gt;
+&lt;li&gt;如何保证核心应用一点即开，100%可用&lt;/li&gt;
+&lt;li&gt;如何在基础设施架构部署上投资最有效&lt;/li&gt;
+&lt;li&gt;如何保证全球各个角落尤其是边远国家的访问高效性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
+
+&lt;p&gt;全球各个地区不同国家的用户平均互联网连接速度（带宽）&lt;/p&gt;
+
+&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
+
+&lt;p&gt;某网站首页延时
+- USA 5s
+- Canada 6s
+- Spain 15s
+- China 25s&lt;/p&gt;
+
+&lt;h3 id=&#34;跨国企业应用面临的互联网问题&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
+
+&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Akamai边缘服务器最接近源服务器&lt;/li&gt;
+&lt;li&gt;边缘服务器靠近终端用户&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;akamai解决方案家族&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AQUA 网站解决方案
+
+&lt;ul&gt;
+&lt;li&gt;网站加速&lt;/li&gt;
+&lt;li&gt;移动设备加速&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;TERRA 企业解决方案
+
+&lt;ul&gt;
+&lt;li&gt;应用性能&lt;/li&gt;
+&lt;li&gt;云性能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;KONA 安全解决方案
+
+&lt;ul&gt;
+&lt;li&gt;网站安全&lt;/li&gt;
+&lt;li&gt;数据中心安全&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SOLA 媒体解决方案
+
+&lt;ul&gt;
+&lt;li&gt;视频广播&lt;/li&gt;
+&lt;li&gt;案例：全球世界杯、体育赛事、春晚、爱奇艺等&lt;/li&gt;
+&lt;li&gt;软件分发&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;企业关键应用业务海外加速需求分析&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业务需求：利用技术和资源优势逐渐走向世界
+
+&lt;ul&gt;
+&lt;li&gt;走向世界，抢夺蓝海市场；&lt;/li&gt;
+&lt;li&gt;获取成熟市场的技术，产品和管理经验&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;IT系统需求：提升互联网的生产力
+
+&lt;ul&gt;
+&lt;li&gt;分支机构和合作伙伴的通讯，OA/Mail/SSL VPN&lt;/li&gt;
+&lt;li&gt;门户网站以及信息发布产品的推介需求&lt;/li&gt;
+&lt;li&gt;其他：例如CRM，ERP，财务报表，人力资源等&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;最终用户访问需求：实施，实地，高效访问&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;路由优化SureRoute
+
+&lt;ul&gt;
+&lt;li&gt;通过阿卡迈服务器来提供路由包，速度会快于“互联网”&lt;/li&gt;
+&lt;li&gt;可以在超过75%的连接内，找到比BGP更短的路径&lt;/li&gt;
+&lt;li&gt;当对等交汇点（Peering Point）拥塞或网络宕机时发挥最大效能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;持久稳定的连接
+
+&lt;ul&gt;
+&lt;li&gt;借助共享连接，避免为新建连接而进行的一次或多次Round Trip&lt;/li&gt;
+&lt;li&gt;建立拥有更大拥塞窗口的连接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;TCP优化
+
+&lt;ul&gt;
+&lt;li&gt;针对初始的和不间断拥塞窗口进行优化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;akamai的品质保障&#34;&gt;Akamai的品质保障&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Akamai所有产品均可提供100%的系统可用性SLA&lt;/li&gt;
+&lt;li&gt;针对web应用加速产品，提供全球对比原网站访问时间缩短不低于20%以上&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;全球客户经典案例&#34;&gt;全球客户经典案例&lt;/h2&gt;
+
+&lt;p&gt;全球前100个著名品牌，大家都信赖Akamai&lt;/p&gt;
+
+&lt;h3 id=&#34;企业&#34;&gt;企业&lt;/h3&gt;
+
+&lt;p&gt;全球排名前10位的银行中的7家
+- BMW
+- PHILIPS
+- MERCK
+- HORIBA&lt;/p&gt;
+
+&lt;h3 id=&#34;商业&#34;&gt;商业&lt;/h3&gt;
+
+&lt;p&gt;排名前100位零售商中的90家&lt;/p&gt;
+
+&lt;h3 id=&#34;高科技&#34;&gt;高科技&lt;/h3&gt;
+
+&lt;p&gt;排名前12为安全软件公司中的10家&lt;/p&gt;
+
+&lt;h3 id=&#34;媒体及娱乐&#34;&gt;媒体及娱乐&lt;/h3&gt;
+
+&lt;p&gt;排名前30位的所有媒体公司
+- BBC
+- Disney
+- Hulu
+- Sky
+- NBA
+- Fox
+- ESPN
+- ClearChannel
+- Yahho
+- francetelevisions&lt;/p&gt;
+
+&lt;h2 id=&#34;中国客户经典案例&#34;&gt;中国客户经典案例&lt;/h2&gt;
+
+&lt;p&gt;跨国国企用户、跨国民企用户等&lt;/p&gt;
+
+&lt;h3 id=&#34;中国交通建设集团案例分享&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
+
+&lt;p&gt;目标
+- 保证海外员工的近30中核心应用的可用性，全球均可实时打开
+- 保证上述所有应用在全球访问的效果保障，尤其是欠发达国家的访问速度
+- 实现集团下属十多个二级公司的全业务访问和流量和费用拆分。&lt;/p&gt;
+
+&lt;p&gt;使用Akamai后对业务产生的影响
+- 门户全球打开速度3秒之内
+- 核心业务系统性能提升100%以上，全球可用性达100%
+- 海外工程现场的员工可通畅访问各个业务系统&lt;/p&gt;
+
+&lt;p&gt;中交集团海外分支机构使用CDN情况，近100个国家分发&lt;/p&gt;
+
+&lt;p&gt;中交各单位关键业务使用CDN情况，各部门门户、ERP、业务系统等等&lt;/p&gt;
+
+&lt;h3 id=&#34;联想-lenovo-案例分享&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
+
+&lt;p&gt;目标
+- 提高全球知名度和品牌价值
+- 提升售后支持网站效率以及客户感受
+- 提升与全球分支机构/代理商沟通速度&lt;/p&gt;
+
+&lt;p&gt;使用Akamai后对业务产生的影响
+- CRM等内部核心业务系统性能提升100%以上，全球可用性达100%
+- 海量驱动下载全部部署在Akamai存储上，节省IDC硬件和带宽
+- 提升电商网站性能达200%，大大提升客户在线销售转化率&lt;/p&gt;
+
+&lt;h3 id=&#34;成功案例分享-cctv-cntv&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
+
+&lt;p&gt;挑战
+- 全球可靠的视频流传送
+- 避免自建基础设施，尽可能节约成本&lt;/p&gt;
+
+&lt;p&gt;解决方案
+- Akamai动态站点加速
+- Akamai媒体分发服务（VOD/Live/PMD）&lt;/p&gt;
+
+&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
+
+&lt;p&gt;挑战
+- 全球可靠的视频点播服务
+- 避免海外自建基础设施，节约成本&lt;/p&gt;
+
+&lt;p&gt;解决方案
+- Akaimai媒体分发服务（PMD）
+- Akamai专业服务支持&lt;/p&gt;
+
+&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
+
+&lt;p&gt;目标
+- 全球门户高性能访问
+- 应对突发大流量访问
+- 提升转化率&lt;/p&gt;
+
+&lt;p&gt;使用Akamai后对业务产生的影响
+- 每年增加在线销售额3，500，000美金
+- 在线订票率提升到了70%
+- 高性能网站提升了品牌价值以及SEO排名
+- Keynote工具测试数据显示，IHG是酒店业界最快的站点
+- 应对峰值流量而不在需要增加IDC投入&lt;/p&gt;
+
+&lt;h3 id=&#34;为什么选择阿卡迈&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;专业服务及支持&lt;/li&gt;
+&lt;li&gt;Luna Control Center&lt;/li&gt;
+&lt;li&gt;阿卡迈解决方案&lt;/li&gt;
+&lt;li&gt;阿卡迈智能平台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;企业混合云思维及战略&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;袁以拓&lt;/li&gt;
+&lt;li&gt;IBM全球信息科技服务部大中华区&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cio是怎样分配时间和资源&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;支持创新
+
+&lt;ul&gt;
+&lt;li&gt;在企业内建立关系，帮助业务领导者从技术中实现创新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理成本
+
+&lt;ul&gt;
+&lt;li&gt;优化整个IT生态系统中云的使用，合理地进行应用和工作负载迁移&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;运营企业IT环境&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;如何实现&#34;&gt;如何实现？&lt;/h2&gt;
+
+&lt;p&gt;新思维下的企业IT越来越成为以“企业IT即服务”的方式来运营和管理IT&lt;/p&gt;
+
+&lt;p&gt;IT基础架构因此更：混合、模块化、具弹性及扩展性&lt;/p&gt;
+
+&lt;p&gt;IT组织也越来越成为一个管理者，关注成本和服务交付本身，而不是传统的IT建设和运维&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;服务&lt;/li&gt;
+&lt;li&gt;财务&lt;/li&gt;
+&lt;li&gt;组织&lt;/li&gt;
+&lt;li&gt;技术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;混合云环境是IT基础架构的最佳实现，而企业IT即服务可以帮助企业充分利用混合云环境，创造最大的价值&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;专注创新&lt;/li&gt;
+&lt;li&gt;提高服务&lt;/li&gt;
+&lt;li&gt;优化成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;私有云、内部基础架构、公有云，混合云环境可以帮助企业在最适合的地点以最佳的成本运行每个工作负载&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更迅捷更灵活&lt;/li&gt;
+&lt;li&gt;更加以价值为导向&lt;/li&gt;
+&lt;li&gt;具备更高的安全防护和可恢复性&lt;/li&gt;
+&lt;li&gt;等等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当然，向IT as a Service 演进不是一蹴而就的，而是一个演进过程。&lt;/p&gt;
+
+&lt;p&gt;支持服务=&amp;gt;自动化=&amp;gt;云化=&amp;gt;IT as a Service&lt;/p&gt;
+
+&lt;p&gt;助您在混合云中可快速开展运营、提供IT及服务的五种主要方式&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;应用迁移与现代化
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要云平台的敏捷和功能优势&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;应用创新
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要最快的实现创新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;可视性和治理
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要控制不断扩展的IT流程&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;集成与优化
+
+&lt;ul&gt;
+&lt;li&gt;CIO需要集成生态系统&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;IT即服务
+
+&lt;ul&gt;
+&lt;li&gt;如何帮助开发人员和业务领导者灵活配置业务，从而为客户实现最大价值&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;挑战&#34;&gt;挑战&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;缺少管理混合云的工具&lt;/li&gt;
+&lt;li&gt;不同云平台需要管理的控制台过多&lt;/li&gt;
+&lt;li&gt;缺少管理多个云平台所需的资源&lt;/li&gt;
+&lt;li&gt;管理不同云平台的运营成本过高&lt;/li&gt;
+&lt;li&gt;满足业务需求的能力不足&lt;/li&gt;
+&lt;li&gt;缺乏灵活性和敏捷性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;企业需要以端到端的方式交付设计、构建并管理混合IT环境所需的功能
+- 单一管理平台
+  - 简化IT架构的管理、监控和报告
+  - 管理、监控、报告
+  - 内部部署（传统IT、私有云）、外部平台（公有云、私有云）
+  - 云：服务器、数据库、群件、中间件、存储、网络
+- 模块化灵活性
+  - 工程服务、架构设计、设计和部署、部署、API集成、咨询服务
+  - 云管理、监控、管理、报告
+  - 服务管理、事故、问题、变更、报告
+- 统筹安排
+  - 使用广泛的模块库，敏捷地部署、提供并管理IT环境
+- 高级自动化和认知学习&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;64%的意外事件可得到自动解决、90%解决时间缩短90%&lt;/li&gt;
+&lt;li&gt;自动部署&lt;/li&gt;
+&lt;li&gt;自动检测&lt;/li&gt;
+&lt;li&gt;自动解决&lt;/li&gt;
+&lt;li&gt;动态自动化&lt;/li&gt;
+&lt;li&gt;认知学习&lt;/li&gt;
+&lt;li&gt;一致的质量和服务保证&lt;/li&gt;
+&lt;li&gt;遍布全球的人才和技术支持
+
+&lt;ul&gt;
+&lt;li&gt;借助合作伙伴，您可以充分利用遍布全球的专业技能与知识&lt;/li&gt;
+&lt;li&gt;填补企业内部的人才空缺&lt;/li&gt;
+&lt;li&gt;扩展内部知识与能力&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
+
+&lt;p&gt;目的
+- 根据工作负载特性，设计并构建一个单一平台
+- 技术更新、应用技术标准化工作负载迁移
+- 混合IT管理&lt;/p&gt;
+
+&lt;p&gt;效果
+- 达到更灵活的IT资源分配
+- 从“资本支出+运营支出”的IT费用模式转变为“全运营支出”财务模式
+- 总体拥有成本（TCO）节约幅度将可达双位数
+- 确保敏捷性和灵活性，为业务增长提供支持
+- SLA承诺&lt;/p&gt;
+
+&lt;h2 id=&#34;案例分享-华东大型零售业&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
+
+&lt;p&gt;统一管理服务
+- 平台架构
+- 自助服务
+- 服务目录/请求
+- 生命周期
+- 流程管理
+- 监控/报表
+- 容量/性能
+- 计量/计算
+- 安全/管控
+- 事件/变更
+- 系统集成
+- 策略管理&lt;/p&gt;
+
+&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;修改优化&lt;/li&gt;
+&lt;li&gt;交付使用&lt;/li&gt;
+&lt;li&gt;系统部署&lt;/li&gt;
+&lt;li&gt;采购&lt;/li&gt;
+&lt;li&gt;等等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;itoa-生产运维大数据分析&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;韩思会&lt;/li&gt;
+&lt;li&gt;交通银行数据中心 技术经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;银行业it运维面临的挑战&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
+
+&lt;p&gt;传统运维工具云云跟不上应用快速发展的要求。
+- 海量数据
+- 种类繁多
+- 处理被动&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据与云
+
+&lt;ul&gt;
+&lt;li&gt;密不可分&lt;/li&gt;
+&lt;li&gt;大数据挖掘需要云计算作为平台&lt;/li&gt;
+&lt;li&gt;基于云计算的Hadoop平台框架为大数据分布式并行处理提供了很好的解决方案&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;it运维现状分析与实际需求&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
+
+&lt;h3 id=&#34;现状分析&#34;&gt;现状分析&lt;/h3&gt;
+
+&lt;p&gt;分支机构众多的大型企业（银行）或垂直层级较多的政府单位，为了更好的用户体验，运维工作十分艰巨&lt;/p&gt;
+
+&lt;h3 id=&#34;银行运维中心运维现状&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监控 采用设定标准阙值的方式&lt;/li&gt;
+&lt;li&gt;告警 各二级运维部门使用监控工具相对独立性&lt;/li&gt;
+&lt;li&gt;日志 海量各类日志数据&lt;/li&gt;
+&lt;li&gt;业务 应用层交易日志未有效分析利用。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;it运维大数据&#34;&gt;IT运维大数据&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IT运维大数据，国外叫做IT Operations Analytics，简称ITOA&lt;/li&gt;
+&lt;li&gt;Forrester定义，从管理和监控技术所采集的海量原始数据，通过数学算法及其他技术。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;技术交流与同业调研&#34;&gt;技术交流与同业调研&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分布式日志手机分析平台，中国工商银行&lt;/li&gt;
+&lt;li&gt;RS6000智能运维平台，招商信行&lt;/li&gt;
+&lt;li&gt;日志实时分析系统，广发银行&lt;/li&gt;
+&lt;li&gt;阿拉丁平台，中国民生银行&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;银行运维大数据应用方向&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监控历史数据趋势分析
+
+&lt;ul&gt;
+&lt;li&gt;针对历史监控数据机器学习、容量预测、性能瓶颈等方面分析&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;监控告警智能分析
+
+&lt;ul&gt;
+&lt;li&gt;动态阙值设定，为告警关联提供数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;日志智能检索分析
+
+&lt;ul&gt;
+&lt;li&gt;海量日志检索、生产问题辅助定位、日志异常告警、复杂安全规则审计&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;面向业务的日志分析
+
+&lt;ul&gt;
+&lt;li&gt;提高系统响应率、准确率等&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;需求梳理与可行性分析&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;明确运维大数据分析范围、功能及实施阶段&lt;/li&gt;
+&lt;li&gt;梳理可纳入其范围的运维服务场景&lt;/li&gt;
+&lt;li&gt;讨论大数据运维服务场景可行性和有效性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;整体规划&#34;&gt;整体规划&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;建立平台
+
+&lt;ul&gt;
+&lt;li&gt;内外调研学习交流&lt;/li&gt;
+&lt;li&gt;构建数据基础&lt;/li&gt;
+&lt;li&gt;环境搭建&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;试点应用
+
+&lt;ul&gt;
+&lt;li&gt;选择合适业务系统试点&lt;/li&gt;
+&lt;li&gt;探索尝试整合更多运维数据&lt;/li&gt;
+&lt;li&gt;持续深化数据分析能力&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;全面推广
+
+&lt;ul&gt;
+&lt;li&gt;推广运维大数据应用&lt;/li&gt;
+&lt;li&gt;构建数据中心运维画像&lt;/li&gt;
+&lt;li&gt;尝试与业务大数据整合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;预期研究成果&#34;&gt;预期研究成果&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;预测故障&lt;/li&gt;
+&lt;li&gt;发现异常&lt;/li&gt;
+&lt;li&gt;查找问题&lt;/li&gt;
+&lt;li&gt;分析性能&lt;/li&gt;
+&lt;li&gt;优化策略&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>亚太CIO（上海）领袖峰会会议记录</title>
+      <link>https://cio.anasit.com/meeting/2016-6-17apcio/</link>
+      <pubDate>Fri, 17 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-6-17apcio/</guid>
+      <description>
+
+&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会议主题
+
+&lt;ul&gt;
+&lt;li&gt;大数据时代&amp;ndash;数字化转型与创新高峰论坛&lt;/li&gt;
+&lt;li&gt;2016亚太CIO实践与分享&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;主办单位
+
+&lt;ul&gt;
+&lt;li&gt;上海市计算机用户协会&lt;/li&gt;
+&lt;li&gt;上海市通信学会&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;承办单位
+
+&lt;ul&gt;
+&lt;li&gt;浩韵国际会展&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;协办单位
+
+&lt;ul&gt;
+&lt;li&gt;首席数据官联盟&lt;/li&gt;
+&lt;li&gt;工业4.0俱乐部&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;技术支持
+
+&lt;ul&gt;
+&lt;li&gt;香港大学SPACE中国商学院&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;大型装备数字设计与智能制造&#34;&gt;大型装备数字设计与智能制造&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;谭建荣&lt;/li&gt;
+&lt;li&gt;中国工程院院士&lt;/li&gt;
+&lt;li&gt;联系方式
+
+&lt;ul&gt;
+&lt;li&gt;tjr@card.zju.edu.cn&lt;/li&gt;
+&lt;li&gt;0571-xxxxxxx&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;四大技术-会聚引领21世纪&#34;&gt;四大技术 会聚引领21世纪&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;生命科学技术&lt;/li&gt;
+&lt;li&gt;纳米技术&lt;/li&gt;
+&lt;li&gt;信息技术&lt;/li&gt;
+&lt;li&gt;认知科学技术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;四大技术估计过高，期望过大。&lt;/p&gt;
+
+&lt;p&gt;信息科技与大数据的发展超出人们的预期。&lt;/p&gt;
+
+&lt;h2 id=&#34;大型装备的重要性&#34;&gt;大型装备的重要性&lt;/h2&gt;
+
+&lt;p&gt;大型复杂装备的设计与制造水平是衡量国家科技实力和综合国力的一个重要标志。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大型数控机床装备&lt;/li&gt;
+&lt;li&gt;大型空气分离装备&lt;/li&gt;
+&lt;li&gt;大型盾构挖掘装备&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;振兴制造业的三大战略计划&#34;&gt;振兴制造业的三大战略计划&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;美国“先进制造业国家战略计划”&lt;/li&gt;
+&lt;li&gt;德国“工业4.0”三大主题&lt;/li&gt;
+&lt;li&gt;“中国制造2025”三大核心
+
+&lt;ul&gt;
+&lt;li&gt;数字化制造&lt;/li&gt;
+&lt;li&gt;网络化制造&lt;/li&gt;
+&lt;li&gt;智能化制造&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最终都导向智能制造&lt;/p&gt;
+
+&lt;h2 id=&#34;机电液系统的发展趋势与前沿&#34;&gt;机电液系统的发展趋势与前沿&lt;/h2&gt;
+
+&lt;p&gt;在新的工业革命到来之际，我们需要认真思考：机电液系统基础研究如何应对新的技术变革，需要解决那些基础科学问题？&lt;/p&gt;
+
+&lt;p&gt;机电液体系
+- 大数据场
+- 智能化生产
+- 移动网络
+  - 三维打印
+  - 智能机器人&lt;/p&gt;
+
+&lt;p&gt;机电液体系 =带来变化=&amp;gt;
+- 数字化
+- 智能化
+- 拟人化
+- 绿色化&lt;/p&gt;
+
+&lt;h2 id=&#34;智能-人工智能-制造的发展趋势&#34;&gt;智能（人工智能）制造的发展趋势&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大数据场&lt;/li&gt;
+&lt;li&gt;人工智能&lt;/li&gt;
+&lt;li&gt;移动网络&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;什么是智能制造&#34;&gt;什么是智能制造？&lt;/h2&gt;
+
+&lt;h3 id=&#34;什么是数字制造&#34;&gt;什么是数字制造？&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;数字制造：数字技术与制造技术的融合&lt;/li&gt;
+&lt;li&gt;数字制造：用数字技术解决制造的问题&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;什么是智能制造-1&#34;&gt;什么是智能制造？&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;智能制造：智能技术与制造技术的融合&lt;/li&gt;
+&lt;li&gt;智能制造：用智能技术解决制造的问题&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;太多企业、专家、领导没有理解透彻什么是智能制造，导致新瓶酿旧酒，以数字制造重新打包形成智能制造。&lt;/p&gt;
+
+&lt;p&gt;智能制造关键案例
+- 美国波司登大狗
+  - 远程控制
+  - 负重爬坡
+  - 行进速度
+  - 平衡能力
+- AlphaGo&lt;/p&gt;
+
+&lt;p&gt;阿尔法围棋，是一款围棋人工智能程序，由Google旗下团队开发。&lt;/p&gt;
+
+&lt;p&gt;2015年3月对战世界围棋冠军、职业九段选手李世石，并以4：1的总比分获胜。
+  - 深度学习
+  - 两个大脑
+    - 落子选择器 Move Picker
+    - 棋局评估器 Position Evaluator&lt;/p&gt;
+
+&lt;h3 id=&#34;人工智能的3个阶段&#34;&gt;人工智能的3个阶段&lt;/h3&gt;
+
+&lt;h3 id=&#34;智能制造的三大核心&#34;&gt;智能制造的三大核心&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;知识库/知识工程&lt;/li&gt;
+&lt;li&gt;动态传感&lt;/li&gt;
+&lt;li&gt;自主学习/自主决策&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;智能制造十大关键技术&#34;&gt;智能制造十大关键技术&lt;/h3&gt;
+
+&lt;h1 id=&#34;国企信息化转型与创新&#34;&gt;国企信息化转型与创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;李小山&lt;/li&gt;
+&lt;li&gt;上海市国资委信息处处长&lt;/li&gt;
+&lt;li&gt;联系方式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;关于国有企业&#34;&gt;关于国有企业&lt;/h2&gt;
+
+&lt;h3 id=&#34;什么是国有企业&#34;&gt;什么是国有企业&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;属于全民所有&lt;/li&gt;
+&lt;li&gt;是推进国家现代化、保障人民共同利益的重要力量&lt;/li&gt;
+&lt;li&gt;是我们党和国家事业发展的重要物资基础和政治基础&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;上海国有企业概况&#34;&gt;上海国有企业概况&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DGP半壁江山&lt;/li&gt;
+&lt;li&gt;大多处于关乎国计民生的重要行业&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;市属国资&#34;&gt;市属国资&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y2016Q1，yividuxq&lt;/li&gt;
+&lt;li&gt;营收同比增长5.5%&lt;/li&gt;
+&lt;li&gt;全国占比新高（全国资产1/7 全国收入2/7 创造利润1/3）&lt;/li&gt;
+&lt;li&gt;统一监管，产融结合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;政策&#34;&gt;政策&lt;/h2&gt;
+
+&lt;h3 id=&#34;国家层面国有企业改革顶层设计&#34;&gt;国家层面国有企业改革顶层设计&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1+N&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;上海市国资国企改革&#34;&gt;上海市国资国企改革&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2013年底&lt;/li&gt;
+&lt;li&gt;1+N&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;组织&#34;&gt;组织&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;信息中心（情报中心）&lt;/li&gt;
+&lt;li&gt;计算机室（机房）&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;信息技术部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;信息管理部（装备部）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;管理信息部（科技信息部）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;流程信息部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;创新与流程管理部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;创新中心&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;实践&#34;&gt;实践&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“智慧”路灯&lt;/li&gt;
+&lt;li&gt;“智慧”交通&lt;/li&gt;
+&lt;li&gt;“智慧”供水&lt;/li&gt;
+&lt;li&gt;“智慧”教育&lt;/li&gt;
+&lt;li&gt;“智慧”燃气&lt;/li&gt;
+&lt;li&gt;“智慧”长途&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;未来-以及未来就绪的戴尔&#34;&gt;未来，以及未来就绪的戴尔&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;吕良&lt;/li&gt;
+&lt;li&gt;戴尔（中国）有限公司&lt;/li&gt;
+&lt;li&gt;企业级解决方案高级经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;我们所熟知的世界正在发生剧烈变化&#34;&gt;我们所熟知的世界正在发生剧烈变化&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;圣彼得广场 2005&lt;/li&gt;
+&lt;li&gt;圣彼得广场 2013&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;每一次新的的计算周期与上一个周期相比-装机容量都会提高10倍左右&#34;&gt;每一次新的的计算周期与上一个周期相比，装机容量都会提高10倍左右&lt;/h2&gt;
+
+&lt;h2 id=&#34;世界改变的步伐正在加快&#34;&gt;世界改变的步伐正在加快&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更多需求
+8秒 人的注意力持续时间比金鱼还少一秒&lt;/li&gt;
+&lt;li&gt;随时随地工作
+80-90% 的员工至少在业余时间进行远程工作&lt;/li&gt;
+&lt;li&gt;被数据包围
+90% 历史上的数据在过去两年中产生&lt;/li&gt;
+&lt;li&gt;无处不在的风险
+1，000，000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;颠覆性技术&#34;&gt;颠覆性技术&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;移动互联&lt;/li&gt;
+&lt;li&gt;人工智能&lt;/li&gt;
+&lt;li&gt;物联网&lt;/li&gt;
+&lt;li&gt;云计算
+&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;今天现状&#34;&gt;今天现状&lt;/h2&gt;
+
+&lt;p&gt;在未来10年中，现有的财务500强公司将会消失&lt;/p&gt;
+
+&lt;p&gt;财富500强的平均生命
+- 1920诞生 需要67年发展
+- 2016诞生 需要15年发展&lt;/p&gt;
+
+&lt;h2 id=&#34;今天的机会&#34;&gt;今天的机会&lt;/h2&gt;
+
+&lt;p&gt;拥抱数字变革&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;108%营业额或者订单&lt;/li&gt;
+&lt;li&gt;56%从新产品和服务增加&lt;/li&gt;
+&lt;li&gt;56%客户满意度增长&lt;/li&gt;
+&lt;li&gt;83%员工活动量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;新的商业模式带来的巨大颠覆&#34;&gt;新的商业模式带来的巨大颠覆&lt;/h2&gt;
+
+&lt;h2 id=&#34;危机-危险和机会&#34;&gt;危机-危险和机会&lt;/h2&gt;
+
+&lt;h2 id=&#34;您处于传统it和新兴it的十字路口&#34;&gt;您处于传统IT和新兴IT的十字路口&lt;/h2&gt;
+
+&lt;p&gt;未来
+- 公有云
+- 混合云
+- 私有云&lt;/p&gt;
+
+&lt;h2 id=&#34;使强大的技术更易获得&#34;&gt;使强大的技术更易获得&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;性能 上升&lt;/li&gt;
+&lt;li&gt;成本 下降&lt;/li&gt;
+&lt;li&gt;复杂度 下降&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;交付超长期的价值&lt;/p&gt;
+
+&lt;p&gt;使强大的技术更容易使用&lt;/p&gt;
+
+&lt;p&gt;推动效率提升&lt;/p&gt;
+
+&lt;h2 id=&#34;戴尔任意云&#34;&gt;戴尔任意云&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;云计算基础设施&lt;/li&gt;
+&lt;li&gt;私有云解决方案&lt;/li&gt;
+&lt;li&gt;未来就绪企业云联盟&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;技术即业务-数字化企业变革&#34;&gt;技术即业务-数字化企业变革&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;张松&lt;/li&gt;
+&lt;li&gt;ThoughtWorks中国区总经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;变革历程&#34;&gt;变革历程&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;业务自动化 1980
+
+&lt;ul&gt;
+&lt;li&gt;BUSINESS AUTOMATION&lt;/li&gt;
+&lt;li&gt;生产力&lt;/li&gt;
+&lt;li&gt;效率&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;行业互联网化 1995
+
+&lt;ul&gt;
+&lt;li&gt;WEB ENABLED BUSINESS&lt;/li&gt;
+&lt;li&gt;生产力&lt;/li&gt;
+&lt;li&gt;通过延伸实现增长&lt;/li&gt;
+&lt;li&gt;互联网为一种销售渠道&lt;/li&gt;
+&lt;li&gt;网络驱动的客户粘性&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;技术即业务本身 2010-2016
+
+&lt;ul&gt;
+&lt;li&gt;TECHNOLOGY IS BUSINESS&lt;/li&gt;
+&lt;li&gt;以创新为引擎的增长&lt;/li&gt;
+&lt;li&gt;业务模型&lt;/li&gt;
+&lt;li&gt;产品/服务创新&lt;/li&gt;
+&lt;li&gt;数字化作为客户粘性的首要渠道&lt;/li&gt;
+&lt;li&gt;来自数据的洞察&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;为什么是现在发生&#34;&gt;为什么是现在发生&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技术进步&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;基础设施进步带来移动、云和信息技术繁荣发展。
+- 融合与重构&lt;/p&gt;
+
+&lt;p&gt;移动、云、数据、物联网、社交平台、新架构和语言正在连接起来，并开始带来更加剧烈的数字化革命。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;消费行为的改变&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正在发生&lt;/li&gt;
+&lt;li&gt;娱乐&lt;/li&gt;
+&lt;li&gt;零售&lt;/li&gt;
+&lt;li&gt;媒体&lt;/li&gt;
+&lt;li&gt;旅行&lt;/li&gt;
+&lt;li&gt;潜在的发生&lt;/li&gt;
+&lt;li&gt;汽车&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;垄断遭遇新对手的挑战&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;法规政策的变化&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;如今ceo的优先任务&#34;&gt;如今CEO的优先任务&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;创新驱动增长&lt;/li&gt;
+&lt;li&gt;人口结构发生变化&lt;/li&gt;
+&lt;li&gt;技术被提上议程&lt;/li&gt;
+&lt;li&gt;未来技术投资&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例-海航生态科技-科技重塑生态价值&#34;&gt;案例：海航生态科技 - 科技重塑生态价值&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;H1 精益企业架构生态型文化&lt;/li&gt;
+&lt;li&gt;H2 科技核心组织平台业务&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;H3 科技驱动的差异化服务&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;高适应力，持续创新的高绩效组织&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;探索新商业模式&lt;/li&gt;
+&lt;li&gt;拓展已验证商业模式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;生态型文化&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;持续改善&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;动态投资组合管理&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;精益企业运营&lt;/li&gt;
+&lt;li&gt;精益企业IT架构&lt;/li&gt;
+&lt;li&gt;极致的目的和方向&lt;/li&gt;
+&lt;li&gt;去中心化组织结构&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;引领变革的企业&#34;&gt;引领变革的企业&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;认识技术的战略角色&lt;/li&gt;
+&lt;li&gt;将技术提上重要议程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;企业级创新-三通道模式&#34;&gt;企业级创新-三通道模式&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;模式创新&lt;/li&gt;
+&lt;li&gt;体验创新&lt;/li&gt;
+&lt;li&gt;流程创新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;案例-上海华瑞银行-极密-项目&#34;&gt;案例：上海华瑞银行“极密”项目&lt;/h3&gt;
+
+&lt;p&gt;“极度安全，极度隐秘”&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;首批五家民营银行之一&lt;/li&gt;
+&lt;li&gt;银行保险箱从实物到虚拟的形态&lt;/li&gt;
+&lt;li&gt;第一款由银行推出的掌上保险箱产品&lt;/li&gt;
+&lt;li&gt;互联网手段获客和提升用户体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例-感知-触点分析打造全新服务及产品体验&#34;&gt;案例：感知-触点分析打造全新服务及产品体验&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;场景分析&lt;/li&gt;
+&lt;li&gt;用户历程图&lt;/li&gt;
+&lt;li&gt;触点优化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例-业务自动化-morrison-移动科技提升门店效率&#34;&gt;案例：业务自动化，Morrison 移动科技提升门店效率&lt;/h2&gt;
+
+&lt;p&gt;挑战
+- 商家上篇的库存要点
+- 及时、主动补货
+- 快捷，随时的订货流程&lt;/p&gt;
+
+&lt;h1 id=&#34;数据驱动创新&#34;&gt;数据驱动创新&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;任京旸&lt;/li&gt;
+&lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;不同视角下的数字世界&#34;&gt;不同视角下的数字世界&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;连接泛在化
+
+&lt;ul&gt;
+&lt;li&gt;互联网+&lt;/li&gt;
+&lt;li&gt;移动互联网&lt;/li&gt;
+&lt;li&gt;物联网&lt;/li&gt;
+&lt;li&gt;车联网&lt;/li&gt;
+&lt;li&gt;船联网&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;创新生态化
+
+&lt;ul&gt;
+&lt;li&gt;跨界融合创新&lt;/li&gt;
+&lt;li&gt;产业协同创新&lt;/li&gt;
+&lt;li&gt;技术集成创新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;应用智能化&lt;/li&gt;
+&lt;li&gt;数据产业化
+
+&lt;ul&gt;
+&lt;li&gt;工业大数据&lt;/li&gt;
+&lt;li&gt;政府大数据&lt;/li&gt;
+&lt;li&gt;科学大数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;计算多元化
+
+&lt;ul&gt;
+&lt;li&gt;云计算&lt;/li&gt;
+&lt;li&gt;高性能计算&lt;/li&gt;
+&lt;li&gt;流计算&lt;/li&gt;
+&lt;li&gt;量子计算&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光的发展历程&#34;&gt;曙光的发展历程&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1993 高性能计算 曙光一号诞生&lt;/li&gt;
+&lt;li&gt;1997 服务器 曙光品牌服务器问世&lt;/li&gt;
+&lt;li&gt;2001 存储 曙光品牌存储发布&lt;/li&gt;
+&lt;li&gt;2009 云计算 首个城市云计算中心开通&lt;/li&gt;
+&lt;li&gt;2013 大数据 曙光大数据一体机发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光hpc与中国工业共成长&#34;&gt;曙光HPC与中国工业共成长&lt;/h2&gt;
+
+&lt;p&gt;作为中国第一、亚洲最大、全球第三的高性能计算厂商，曙光高性能计算系统在中国工业领域有着广泛和深入的应用，在CAE模拟仿真方面拥有国内最多的成功案例！&lt;/p&gt;
+
+&lt;p&gt;机械、材料、电子、飞机&lt;/p&gt;
+
+&lt;p&gt;汽车、轮船、航空航天、电力&lt;/p&gt;
+
+&lt;h2 id=&#34;从it时代到数据时代曙光开启新征程&#34;&gt;从IT时代到数据时代曙光开启新征程&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;sugon短片分享&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;20+城市云中心&lt;/li&gt;
+&lt;li&gt;1000+政务及智慧应用&lt;/li&gt;
+&lt;li&gt;30+行业云建设&lt;/li&gt;
+&lt;li&gt;30+PB数据交换共享&lt;/li&gt;
+&lt;li&gt;2项云计算国标&lt;/li&gt;
+&lt;li&gt;100+大数据技术专利&lt;/li&gt;
+&lt;li&gt;4个生态联盟&lt;/li&gt;
+&lt;li&gt;20+创业企业&lt;/li&gt;
+&lt;li&gt;300+合作伙伴&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光数据中国加速计划&#34;&gt;曙光数据中国加速计划&lt;/h2&gt;
+
+&lt;p&gt;期望寻求更多的合作&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;目标
+
+&lt;ul&gt;
+&lt;li&gt;加速网络布局&lt;/li&gt;
+&lt;li&gt;加速数据汇聚&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;抓手
+
+&lt;ul&gt;
+&lt;li&gt;创新城市云连锁模式&lt;/li&gt;
+&lt;li&gt;部署4个行业大数据&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;曙光从五个方面协助客户应对制造业转型升级&#34;&gt;曙光从五个方面协助客户应对制造业转型升级&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数字仿真&lt;/li&gt;
+&lt;li&gt;IT云化&lt;/li&gt;
+&lt;li&gt;数据融合&lt;/li&gt;
+&lt;li&gt;生态协同&lt;/li&gt;
+&lt;li&gt;应用拓展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;打通中科院创新链与创业链&#34;&gt;打通中科院创新链与创业链&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中科院先进计算技术创新与产业化联盟（曙光牵头）
+
+&lt;ul&gt;
+&lt;li&gt;智能制造项目协同创新&lt;/li&gt;
+&lt;li&gt;中科院技术资源转化对接&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;嘉宾对话环节&#34;&gt;嘉宾对话环节&lt;/h1&gt;
+
+&lt;h2 id=&#34;嘉宾介绍&#34;&gt;嘉宾介绍&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主持人 李静
+
+&lt;ul&gt;
+&lt;li&gt;上海电气集团CIO&lt;/li&gt;
+&lt;li&gt;上海计算机用户协会理事长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;王健
+
+&lt;ul&gt;
+&lt;li&gt;上海通用汽车有限公司CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;吕良
+
+&lt;ul&gt;
+&lt;li&gt;戴尔（中国）有限公司企业级解决方案高级经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;高俊
+
+&lt;ul&gt;
+&lt;li&gt;迅达电梯亚太区CIO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;任京旸
+
+&lt;ul&gt;
+&lt;li&gt;曙光信息产业股份有限公司副总裁&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;张启亮
+
+&lt;ul&gt;
+&lt;li&gt;徐工集团信息部部长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;张松
+
+&lt;ul&gt;
+&lt;li&gt;ThoughtWorks大中华区总经理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;黄立
+
+&lt;ul&gt;
+&lt;li&gt;葛兰素史克中国区IT总监&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;讨论问题-不完整&#34;&gt;讨论问题（不完整）&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;信息时代对CIO的要求越来越高，期望寻求关于新技术，例如区块链如何融入企业或产品的解决方案&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CIO应该做的&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企业信息战略&lt;/li&gt;
+&lt;li&gt;市场洞察能力&lt;/li&gt;
+&lt;li&gt;市场建交能力&lt;/li&gt;
+&lt;li&gt;及时的执行力&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;行业领先企业CIO关注点出现变化&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CIO角色定位开始转化成企业家，而不是部门主管&lt;/li&gt;
+&lt;li&gt;新业务出现都是以技术驱动&lt;/li&gt;
+&lt;li&gt;开展新公司的主营业务，如何进行信息化整合&lt;/li&gt;
+&lt;li&gt;CIO变革措施&lt;/li&gt;
+&lt;li&gt;IBM全球CIO，提倡理念组织变化，IT不该作为一个部门，应该作为业务基础，整合所有兼并相关公司的信息系统，简化、统一、贯通。&lt;/li&gt;
+&lt;li&gt;企业内部整合，辐射到跨企业跨领域边界信息资源整合&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>江风益教授行政楼讲座不完整摘要</title>
+      <link>https://cio.anasit.com/meeting/2016-3-2%E6%B1%9F%E9%A3%8E%E7%9B%8A%E6%95%99%E6%8E%88%E8%A1%8C%E6%94%BF%E6%A5%BC%E8%AE%B2%E5%BA%A7%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%91%98%E8%A6%81/</link>
+      <pubDate>Wed, 02 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-3-2%E6%B1%9F%E9%A3%8E%E7%9B%8A%E6%95%99%E6%8E%88%E8%A1%8C%E6%94%BF%E6%A5%BC%E8%AE%B2%E5%BA%A7%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%91%98%E8%A6%81/</guid>
+      <description>
+
+&lt;h1 id=&#34;一-国家科技领域奖项简介&#34;&gt;一.国家科技领域奖项简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;自然科学奖&#34;&gt;自然科学奖&lt;/h2&gt;
+
+&lt;h2 id=&#34;技术发明奖&#34;&gt;技术发明奖&lt;/h2&gt;
+
+&lt;p&gt;一等 二等 三等
+一年平均0、1、2个&lt;/p&gt;
+
+&lt;h2 id=&#34;科技进步奖&#34;&gt;科技进步奖&lt;/h2&gt;
+
+&lt;p&gt;一等 二等
+国际合作奖
+团队奖&lt;/p&gt;
+
+&lt;h1 id=&#34;评奖制度&#34;&gt;评奖制度&lt;/h1&gt;
+
+&lt;p&gt;评委2/3 通过 一等奖
+&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; 通过 二等奖&lt;/p&gt;
+
+&lt;h1 id=&#34;二-科技创新与创业十大难关&#34;&gt;二.科技创新与创业十大难关&lt;/h1&gt;
+
+&lt;p&gt;1.研发资金申请
+2.研发队伍建立
+3.硬件软件建设
+4.勤奋与机遇
+5.产业化资金筹集
+6.产业人才聚集
+7.产线建设
+8.产品合格率/成本/质量控制
+9.市场推广与资金回笼
+10.产品更新迭代&lt;/p&gt;
+
+&lt;h1 id=&#34;三-科技创新与井冈山精神&#34;&gt;三.科技创新与井冈山精神&lt;/h1&gt;
+
+&lt;p&gt;鉴定信念
+艰苦奋斗
+实事求是
+敢闯新路
+依靠群众
+勇于胜利&lt;/p&gt;
+
+&lt;h1 id=&#34;四-老师和学生关系&#34;&gt;四.老师和学生关系&lt;/h1&gt;
+
+&lt;p&gt;老师教学生
+学生教老师
+学生教学生&lt;/p&gt;
+
+&lt;p&gt;如何看待鱼与鱼的关系？避免灌输&lt;/p&gt;
+
+&lt;p&gt;能文能武，又“红”又“专”的接班人
+文 理论知识
+武 动手能力
+专 文+武
+红 学会为人(能不能吃苦吃亏)&lt;/p&gt;
+
+&lt;p&gt;能不能吃苦吃亏
+吃的了苦和亏的人
+可以信赖
+可以重用
+到处均会开绿灯
+容易出成绩&lt;/p&gt;
+
+&lt;h1 id=&#34;五-询问阶段&#34;&gt;五.询问阶段&lt;/h1&gt;
+
+&lt;h2 id=&#34;千亿级别-南昌光谷项目-对创业学生的机遇&#34;&gt;千亿级别,南昌光谷项目,对创业学生的机遇&lt;/h2&gt;
+
+&lt;p&gt;建议进行LED下游市场，大众创业万众创新
+需要多数人投入其中&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>残疾人服务平台——孤独症项目</title>
+      <link>https://cio.anasit.com/meeting/2015-7-20%E9%83%AD%E6%95%99%E6%8E%88%E6%AE%8B%E7%96%BE%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0-%E5%AD%A4%E7%8B%AC%E7%97%87%E9%A1%B9%E7%9B%AE%E4%BC%9A%E8%B0%88/</link>
+      <pubDate>Mon, 20 Jul 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2015-7-20%E9%83%AD%E6%95%99%E6%8E%88%E6%AE%8B%E7%96%BE%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0-%E5%AD%A4%E7%8B%AC%E7%97%87%E9%A1%B9%E7%9B%AE%E4%BC%9A%E8%B0%88/</guid>
+      <description>
+
+&lt;h1 id=&#34;残疾人服务平台-孤独症项目&#34;&gt;残疾人服务平台-孤独症项目&lt;/h1&gt;
+
+&lt;p&gt;与会人员：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;郭教授 中国精协 孤独症研究专家&lt;/li&gt;
+&lt;li&gt;孙总 项目接洽&lt;/li&gt;
+&lt;li&gt;常先生&lt;/li&gt;
+&lt;li&gt;刘雨飏&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;时间地点
+- 时间 2015-7-20
+- 地点 中关村 3W咖啡厅&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

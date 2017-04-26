@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Odoo9系统设置栏目常见问题 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-02-27">February 27, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/faq">faq</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/odoo">odoo</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">Odoo9系统设置栏目常见问题</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="无法保存照片-无法发送邮件">无法保存照片/无法发送邮件</h1>
+
+<p><a href="https://www.odoo.com/forum/help-1/question/cant-upload-images-905">https://www.odoo.com/forum/help-1/question/cant-upload-images-905</a>
+无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在</p>
+
+<h2 id="原因分析">原因分析</h2>
+
+<pre><code>413 Request Entity Too Large
+nginx/1.6.2
+</code></pre>
+
+<p>nginx 大文件配置问题</p>
+
+<h2 id="解决方案">解决方案</h2>
+
+<p>在上传时nginx返回了413错误，查看log文件，显示的错误信息是:”413 Request Entity Too Large”, 需要做以下设 置：</p>
+
+<p>打开nginx主配置文件nginx.conf，找到http{}段，增加 client_max_body_size的相关设置, 这个值默认是1m，可以增加到3m以增加提高文件大小限制；</p>
+
+<pre><code># 在http，server或者location段修改下面的配置：
+# set client body size to 8M #
+client_max_body_size 8M;
+# 其他可选项 #
+client_max_body_size    3m;
+client_body_buffer_size  128k;
+proxy_connect_timeout    600;
+proxy_read_timeout      600;
+proxy_send_timeout      6000;
+proxy_buffer_size        16k;
+proxy_buffers            4 64k;
+proxy_busy_buffers_size 64k;
+proxy_temp_file_write_size 64k;
+</code></pre>
+
+<p>如果运行的是php，那么还要检查php.ini，这个大小client_max_body_size要和php.ini中的如下值的最大值一致或者稍大，这样就不会因为提交数据大小不一致出现的错误。</p>
+
+<pre><code>post_max_size = 6M
+upload_max_filesize = 2M
+</code></pre>
+
+<h1 id="python的pip有的包过旧">Python的pip有的包过旧</h1>
+
+<h2 id="原因分析-1">原因分析</h2>
+
+<p>pip包过老需要升级，以下包：
+- Pillow</p>
+
+<h2 id="解决方案-1">解决方案</h2>
+
+<p>一行命令升级所有pip安装的Python包</p>
+
+<pre><code>pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U
+</code></pre>
+
+<p>建议在执行前先执行：</p>
+
+<pre><code>pip install -U distribute
+</code></pre>
+
+<p>2015年10月21日补充：
+由于使用了mysql-connector-python的包，在安装时要使用 &ndash;allow-external mysql-connector-python 参数，所以在升级时，也应该加上该参数，命令行为：</p>
+
+<pre><code>pip install -U distribute &amp;&amp; pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U --allow-external mysql-connector-python
+</code></pre>
+
+<h2 id="解决方案-2">解决方案</h2>
+
+<h1 id="odoo-警告-邮件投递失败">Odoo 警告 - 邮件投递失败</h1>
+
+<pre><code class="language-python">Mail delivery failed via SMTP server 'smtp.mxhichina.com'.
+SMTPSenderRefused: 440
+mail from account doesn't conform with authentication (Auth Account:info@anasit.com|Mail Account:postmaster-odoo@anasit.com)
+postmaster-odoo@anasit.com
+</code></pre>
+
+<p>为何出现postmaster-odoo@anasit.com邮箱地址？</p>
+
+<h2 id="解决方案-3">解决方案</h2>
+
+<p>1 .增加邮箱账号“postmaster-odoo@anasit.com”</p>
+
+<p>2.在addons\base\ir\ir_mail_server.py第381行，改“postmaster-odoo”为已存在的邮件账号，如“sales”、“info”</p>
+
+<p>以上方法二选一即可.</p>
+
+<h1 id="设置默认值-十分实用">设置默认值——十分实用</h1>
+
+<p>设置——关于——Acivate the developer mode.</p>
+
+<p>打开字段所在页面</p>
+
+<p>右上调试栏目——Set Defaults</p>
+
+<p>选择默认值项目</p>
+
+<p>选择默认值范围：All Users</p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

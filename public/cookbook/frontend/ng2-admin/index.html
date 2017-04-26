@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="angular|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>Angular2后台管理前端框架选型(草稿) - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2016-05-11">May 11, 2016</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/angular">angular</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">Angular2后台管理前端框架选型(草稿)</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="angular2后台管理前端框架选型">Angular2后台管理前端框架选型</h1>
+
+<p>截至目前：2016-05-11，ng2发布了继Beta之后的RC候选版本，已经趋于成熟。公司决定配合ionic2，选择一套同样使用ng2构建的PC后台管理的前端模板。主要用于：</p>
+
+<ol>
+<li>WEB管理后台建设；</li>
+<li>PC桌面应用构建。</li>
+</ol>
+
+<h1 id="可选后台前端框架搜集">可选后台前端框架搜集</h1>
+
+<ul>
+<li><p>ionic2（选用）</p>
+
+<ul>
+<li>针对移动端，需要自主开发PC版组件或定制CSS主题</li>
+<li>当前最为完善</li>
+</ul></li>
+
+<li><p>angular/material2（官方）</p></li>
+</ul>
+
+<p><a href="https://material.angular.io/">https://material.angular.io/</a></p>
+
+<p><a href="https://github.com/angular/material2">https://github.com/angular/material2</a></p>
+
+<p>已支持控件列表如下：
+  - md-button (buttons and anchors)
+  - md-card
+  - md-toolbar
+  - md-sidenav
+  - md-checkbox
+  - md-progress-circle and md-spinner</p>
+
+<ul>
+<li>PrimeNG（开源+付费）
+
+<ul>
+<li>封装十分紧凑，直接引入组件即可使用</li>
+<li>仅支持typescript</li>
+<li>多主题颜色切换</li>
+<li>有专业版本出售</li>
+</ul></li>
+</ul>
+
+<p>UI Components for AngularJS 2</p>
+
+<p><a href="http://www.primefaces.org/primeng/">http://www.primefaces.org/primeng/</a></p>
+
+<p><a href="https://github.com/primefaces/primeng">https://github.com/primefaces/primeng</a></p>
+
+<ul>
+<li>ng2-bootstrap（不完善）
+
+<ul>
+<li>测试版，不完善</li>
+</ul></li>
+</ul>
+
+<p><a href="http://valor-software.com/ng2-bootstrap">http://valor-software.com/ng2-bootstrap</a></p>
+
+<p><a href="http://mlaval.github.io/angular2-bootstrap/">http://mlaval.github.io/angular2-bootstrap/</a></p>
+
+<h1 id="可选后台前端主题搜集">可选后台前端主题搜集</h1>
+
+<ul>
+<li>Ani Angular 2 Theme</li>
+</ul>
+
+<p>Angular 2 Bootstrap 4 Ani Dashboard Theme</p>
+
+<p>star 15 on <a href="https://github.com/start-angular/ani-angular-2">https://github.com/start-angular/ani-angular-2</a></p>
+
+<p>演示地址：<a href="http://ani-theme-angular2.strapui.com/">http://ani-theme-angular2.strapui.com/</a></p>
+
+<p>参考文档：<a href="http://www.strapui.com/docs/ani-angular2-theme/v1.0/">http://www.strapui.com/docs/ani-angular2-theme/v1.0/</a></p>
+
+<ul>
+<li>Bootstrap 4</li>
+
+<li><p>Angularjs 2</p></li>
+
+<li><p>SB Admin Bootstrap 4 Angular 2（较为简陋）</p></li>
+</ul>
+
+<p>Angular-2 Admin Dashboard Theme</p>
+
+<p>star 103 on <a href="https://github.com/start-angular/SB-Admin-BS4-Angular-2">https://github.com/start-angular/SB-Admin-BS4-Angular-2</a></p>
+
+<p>演示地址：<a href="http://rawgit.com/start-angular/SB-Admin-BS4-Angular-2/master/dist/prod/index.html">http://rawgit.com/start-angular/SB-Admin-BS4-Angular-2/master/dist/prod/index.html</a></p>
+
+<p>参考文档：</p>
+
+<ul>
+<li>Bootstrap 4</li>
+
+<li><p>Angularjs 2</p></li>
+
+<li><p>rdash-angular2（测试阶段）</p></li>
+</ul>
+
+<p>star 83 on <a href="https://github.com/ziyasal/rdash-angular2">https://github.com/ziyasal/rdash-angular2</a></p>
+
+<h1 id="ani-angular-2-剖析">Ani Angular 2 剖析</h1>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2016  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

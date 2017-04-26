@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-10-21">October 21, 2015</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/openwrt">openwrt</a>
+
+        <a href="https://cio.anasit.com/tags/openvpn">openvpn</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="openwrt-openvpn穿透及公司虚拟私有网关搭建">《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》</h1>
+
+<h1 id="总结">总结</h1>
+
+<h2 id="更多实用的案例参考">更多实用的案例参考</h2>
+
+<p><a href="http://www.linuxfly.org/post/86/">http://www.linuxfly.org/post/86/</a>
+- 客户端权限组及定制配置
+- 服务端客户端内网互通 <a href="http://blog.ltns.info/linux/connect_two_home_networks_using_openvpn_and_openwrt/">http://blog.ltns.info/linux/connect_two_home_networks_using_openvpn_and_openwrt/</a>
+- 内部DHCP及DNS服务
+- 服务端代理客户端证书，客户端只需帐号密码
+- 代理
+- 安全性</p>
+
+<p><a href="http://www.linuxfly.org/post/84/">http://www.linuxfly.org/post/84/</a>
+- Linux做服务端</p>
+
+<p><a href="http://www.linuxfly.org/post/85/">http://www.linuxfly.org/post/85/</a>
+- Windows做客户端</p>
+
+<p><a href="http://blog.jqian.net/post/openwrt-openvpn.html">http://blog.jqian.net/post/openwrt-openvpn.html</a>
+- OpenWRT 做客户端</p>
+
+<h2 id="faq1-无法登陆提示tls错误">FAQ1.无法登陆提示TLS错误</h2>
+
+<p>客户端、服务端认证cert文件时间不对称，重新生成即可</p>
+
+<h2 id="faq2-只能访问vpn-server-不能访问server外的设备">FAQ2.只能访问VPN Server，不能访问Server外的设备</h2>
+
+<p>通过nat解决
+虽然有的资料说通过正确设置路由表并打开ip_forward就可以了，但在我的server上，虽然的确是有net:10.7.0.0/24,gw:10.8.1.2这个路由的（默认就有的），却仍然不能正常工作（除非是我的理解有误，需要的是另外一条路由设置），所以最后还是通过nat解决的（毕竟vpn的ip不属于本地子网，单纯的ip转发应该是没有用的）。</p>
+
+<h2 id="faq3-可以vpn到server-但server和client互相ping不通">FAQ3.可以VPN到Server，但Server和Client互相ping不通。</h2>
+
+<h3 id="openwrt特殊情况">OpenWRT特殊情况</h3>
+
+<pre><code class="language-openwrt">## FAQ1:端口转发无效
+# 1.添加网络-防火墙-通信规则-打开对应路由端口
+# 2.防火墙-端口转发-添加转发规则
+# 3.配置成功之后仍然无效：开启openwrt系统路由功能
+echo &quot;1&quot; &gt; /proc/sys/net/ipv4/ip_forward
+#为了让这个设置重启也好用，我们编辑 /etc/sysctl.conf:
+vim /etc/sysctl.conf
+#编辑这行:
+#net.ipv4.ip_forward=1
+#把&quot;#&quot;删了:
+net.ipv4.ip_forward=1
+# 重启network、firewall，然后重启路由器
+/etc/init.d/network restart
+/etc/init.d/firewall restart
+# 4.转发成功，但只可外网访问，内网被拒绝
+
+## FAQ2:登录vpn后ping不通
+# 1.(错误，应该新建一个tun接口，无配置协议，物理并入tun0)OpenWrt看看网络接口，lan口的物理设置，其中应该有个“tap0”，有没有打勾，并入lan
+# 2./etc/config/network增加内容
+config interface 'tun'
+        option ifname 'tun0'
+        option proto 'none'
+# 3./etc/config/firewall增加内容
+config zone
+        option name 'tun'
+        option input 'ACCEPT'
+        option output 'ACCEPT'
+        option forward 'REJECT'
+
+config forwarding
+        option src 'lan'
+        option dest 'tun'
+        option mtu_fix '0'
+
+config forwarding
+        option src 'tun'
+        option dest 'lan'
+        option mtu_fix '0'
+# （确认不必要）4./etc/firewall.user增加内容
+iptables -I INPUT -i tun0 -j ACCEPT
+iptables -I OUTPUT -o tun0 -j ACCEPT
+iptables -I FORWARD -i tun0 -j ACCEPT
+iptables -I FORWARD -o tun0 -j ACCEPT
+
+## FAQ3:(FAQ2中出错了，纯净的环境是不存在这个问题的)openwrt可以ping通10.7.0.1，内网其他设备无法ping通，转发端口无法访问
+0.关闭防火墙的“启用SYN-flood防御”
+# 1.网络-防火墙-转发规则-添加转发到tun的规则
+添加tun 192.168.99.1 22，远程SSH可用
+添加tun 192.168.99.181 8001，WEB8001仍然出错
+# 2.(未验证)真是原因是内网机器上没有返回给vpn的包导致一直不通，在内网被连接的机器上添加如下路由
+route add -net 10.7.0.0/24 gw 192.168.99.1 #linux
+route add 10.7.0.0 mask 255.255.0.0 192.168.99.1 #win
+</code></pre>
+
+<h3 id="详细方案">详细方案</h3>
+
+<p><a href="http://blog.csdn.net/zubin006/article/details/4544684">http://blog.csdn.net/zubin006/article/details/4544684</a>
+<strong>问题排查</strong>
+1.客户端版本（系统、软件）问题排查：无
+2.客户端conf配置排查：无
+3.服务端conf配置排查：无
+4.C/A问题：无
+5.route路由问题，没有通向vpn内网的转发路由：<strong>是</strong>
+<strong>解决探索</strong>
+正常与出错的环境，都拨上VPN，route print一看，社区的机是没有10.7.0.0/24（也就是OpenVPN的子网IP）的路由的。
+用ipconfig可以看到，获得的IP是 10.7.0.6，网关是10.7.0.5，于是手动执行：</p>
+
+<pre><code class="language-bash">## Linux或OpenWrt
+route add -net 10.0.0.0 netmask 255.0.0.0 gw 10.7.0.5
+失败：route: SIOCADDRT: File exists，路由已存在
+解决：server.conf少了句 push &quot;route 10.7.0.0 255.255.0.0&quot;
+## Windows cmd/powershell 管理员模式
+route add 10.0.0.0 mask 255.0.0.0 10.7.0.5
+</code></pre>
+
+<p>再ping 10.7.0.1，已经通了。服务器与社区设备，互相可以ping通，看起来一切都正常了。 　　</p>
+
+<p>不过到底为什么会出现这样的问题呢？后来仔细看了一下log，看到这３条： Tue Apr 18 19:07:45 2006 route ADD 10.7.0.0 MASK 255.255.0.0 10.7.0.5 Tue Apr 18 19:07:45 2006 ROUTE: route addition failed using CreateIpForwardEntry: 参数不正确。 [if_index=65541] Tue Apr 18 19:07:45 2006 Route addition via IPAPI failed</p>
+
+<p>显然，OpenVPN是有尝试添加这条路由的，但由于某种原因失败了。</p>
+
+<p>在默认设置下，似乎OpenVPN会自动判断添加路由的时机(可能是 TEST ROUTES: 0/0 succeeded len=1 ret=0 a=0 u/d=down&hellip;那几条)，然后再添加路由。</p>
+
+<p>这种机制在公司的机可以正常工作，但在社区的机却失败了，在OpenVPN认为已经可以添加路由的时候，实际上系统还没做好准备（我后来写了个批处理，先ipconfig/all然后route print然后再route add，在配置文件中使用route-up这个directive来执行它，然后在log中查看结果。可以看到，即使路由表里已经有10.7.0.x的路由，接下来的route add还是加不进去）。</p>
+
+<p>还好，OpenVPN提供了一个route-delay，用这个directive可以强行指定添加路由前的延时。经过实验，在我这里需要设置成route-delay 10（10秒）才可以添加路由。等待时状态窗口会停在&rdquo;FlushIpNetTable&rdquo;的状态，这时也可以自己cmd尝试手工添加路由，同样也会受到系统的拒绝。10秒过后，OpenVPN会添加路由，察看log也可以看到已经不会出错了。</p>
+
+<p>但问题没有解决。用route print，还是没看到那条路由，而如果在配置文件中加多一条route 10.7.0.0 255.255.0.0，可以在log中看到OpenVPN连续执行了两次route add，第一次成功，第二次显示路由已存在。</p>
+
+<p>然后连接完成后，route print还是看不到。真是比较奇怪。
+<strong>最终方案</strong>
+在server.conf/server.ovpn添加</p>
+
+<pre><code class="language-conf"># 方法一：管理员模式启动
+# 方法二：新增route-method exe
+## Fix Windows Can't Ping
+route-method exe
+# 方法三：服务端写ipp固定ip 10.7.0.8，客户端添加永久路由（固定地址+1：10.7.0.9）
+route add 10.0.0.0 mask 255.0.0.0 10.7.0.9
+</code></pre>
+
+<p>遗憾的是，这里必须把10.7.0.5这个VPN Gateway的IP写进去，而在某些情况下，可能没办法是先确定这个IP。</p>
+
+<p>（补充：后来再读了一下manpage，发现有这个directive： &ndash;route-method m Which method m to use for adding routes on Windows? adaptive (default) &ndash; Try IP helper API first. If that fails, fall back to the route.exe shell command. ipapi &ndash; Use IP helper API. exe &ndash; Call the route.exe shell command. 也就是说，可以不用route-up那句，改成route-method exe，效果是一样的，而且更具通用性） 　　总的来说，对于Openvpn，排除防火墙的因素，问题往往很有可能出在路由上，其次就是nat。配置Openvpn必须要对这两个东西保持清醒才行。</p>
+
+<h2 id="faq4-ssh免密码-密钥登录">FAQ4.SSH免密码，密钥登录</h2>
+
+<pre><code class="language-bash">/etc/dropbear/authorized_keys
+</code></pre>
+
+<h1 id="一-openvpn介绍">一、OpenVPN介绍</h1>
+
+<h2 id="openvpn">OpenVPN</h2>
+
+<p>VPN即虚拟子网，用于跨越互联网构建虚拟的局域网，普遍用于公司网络管理、跨域设备管理等场景。
+Windows自带的pptp更加简易，而跨平台的openvpn更加通用、安全。</p>
+
+<h2 id="openwrt-luci">openwrt/luci</h2>
+
+<p>openwrt用于智能路由器的嵌入式操作系统，用opkg进行包管理，精简功能完善，带有管理的web端。
+luci则深度优化了web管理端，实现了Linux软件的web管理工作。
+提供多样的模板luci-theme、应用luci-app及定制的规范。</p>
+
+<ul>
+<li>FreeRouter_V2(自带OpenVPN)
+一个适用于OpenWRT的全平台翻墙路由方案
+<a href="http://www.lifetyper.com">http://www.lifetyper.com</a>
+<a href="https://github.com/lifetyper/FreeRouter_V2">https://github.com/lifetyper/FreeRouter_V2</a></li>
+<li>PandoraBox
+PandoraBox 是基于OpenWrt 14.09二次开发的路由器系统.</li>
+</ul>
+
+<h2 id="openwrt下的openvpn">Openwrt下的OpenVPN</h2>
+
+<p><strong>openvpn server</strong>
+参考：<a href="http://www.zhihu.com/question/21751217">http://www.zhihu.com/question/21751217</a>
+openwrt 下有2个openvpn server：一个是openvpn-openssl，另一个是openvpn-polarssl，配置方法是通用的。</p>
+
+<p><strong>openvpn client</strong>
+参考：
+<a href="http://wiki.openwrt.org/doc/howto/vpn.client.openvpn.tun">http://wiki.openwrt.org/doc/howto/vpn.client.openvpn.tun</a>
+<a href="http://blog.jqian.net/post/openwrt-openvpn.html">http://blog.jqian.net/post/openwrt-openvpn.html</a></p>
+
+<p>软件：
+- openwrt 开源的路由器固件
+- openvpn VPN客户端
+- obfsproxy 流量混淆工具
+- pdnsd 域名解析服务</p>
+
+<pre><code class="language-bash">opkg update
+opkg install openvpn openvpn-easy-rsa
+</code></pre>
+
+<h1 id="二-openvpn-server-client配置实践">二、OpenVPN Server+Client配置实践</h1>
+
+<p>参考：
+<a href="http://www.williamlong.info/archives/3814.html">http://www.williamlong.info/archives/3814.html</a>
+<a href="http://www.cnblogs.com/sunzhouyi/archive/2010/08/11/1797088.html">http://www.cnblogs.com/sunzhouyi/archive/2010/08/11/1797088.html</a></p>
+
+<h2 id="0-环境版本">0.环境版本</h2>
+
+<p>服务端
+- Ubuntu 14.10
+- openvpn 2.3.2
+- dnsmasq DNS服务器</p>
+
+<p>客户端1
+- 硬件版本：newifi mini y1
+- 固件版本：newifi/openwrt-ramips-mt7620-Lenovo-y1-squashfs-sysupgrade.bin
+链接：<a href="http://pan.baidu.com/s/1jG308fG">http://pan.baidu.com/s/1jG308fG</a> 密码：kncx
+- Openvpn 2.3.6</p>
+
+<p>客户端2
+- 系统：Windows 10
+- Openvpn 2.3.6</p>
+
+<h2 id="1-认证机构配置">1.认证机构配置</h2>
+
+<pre><code class="language-vpn"># vars
+set HOME=E:\OpenVPN\easy-rsa
+
+set KEY_COUNTRY=CN
+set KEY_PROVINCE=HN
+set KEY_CITY=SHAOYANG
+set KEY_ORG=ZKKJ
+set KEY_EMAIL=info@zkkj168.com
+set KEY_CN=ZKKJ
+set KEY_NAME=ZKKJ
+set KEY_OU=ZKKJ
+set PKCS11_MODULE_PATH=ZKKJ
+set PKCS11_PIN=1234
+
+# ./build-ca
+Common Name (eg, your name or your server's hostname) []:ZKKJ-CA
+
+# build-key-server server
+Common Name : server
+Password : 空
+
+# build-key clientzk
+Common Name : clinetzk/clineths/clientzx/clientnc
+Password : 空
+</code></pre>
+
+<h2 id="服务端配置-server-ovpn-server-conf">服务端配置 server.ovpn/server.conf</h2>
+
+<p>server.conf(zkkj)</p>
+
+<pre><code class="language-vpn">port 1194
+proto udp
+dev tun
+ca ca.crt
+cert server.crt
+key server.key
+dh dh1024.pem
+server 10.8.0.0 255.255.0.0
+push &quot;redirect-gateway def1&quot;
+;push &quot;dhcp-option DNS 8.8.8.8&quot;
+;push &quot;dhcp-option DNS 8.8.4.4&quot;
+ifconfig-pool-persist ipp.txt
+duplicate-cn
+keepalive 10 120
+client-to-client
+comp-lzo
+comp-noadapt
+fragment 1300
+mssfix 1300
+sndbuf 204800
+rcvbuf 204800
+user nobody
+group nogroup
+persist-key
+persist-tun
+status openvpn-status.log
+verb 3
+</code></pre>
+
+<pre><code class="language-vpn">server 10.7.0.0 255.255.0.0
+
+#如果可以让VPN Client之间相互访问直接通过openvpn程序转发，
+#不用发送到tun或者tap设备后重新转发，优化Client to Client的访问效率
+client-to-client
+
+#如果Client使用的CA的Common Name有重复了，或者说客户都使用相同的CA
+
+duplicate-cn
+
+#下面表示每10秒通过VPN的Control通道ping对方，如果连续120秒无法ping通，
+#认为连接丢失，并重新启动VPN，重新连接
+#（对于mode server模式下的openvpn不会重新连接）。
+keepalive 10 120
+</code></pre>
+
+<p>启动服务端
+openvpn &ndash;config server.conf</p>
+
+<h2 id="dns配置">DNS配置</h2>
+
+<p>为OpenVPN客户端搭建DNS</p>
+
+<p>这就是为什么我们要安装dnsmasq的原因，打开它的配置文件。</p>
+
+<pre><code>root@delta:/etc/openvpn# nano /etc/dnsmasq.conf
+</code></pre>
+
+<p>定位到这行:</p>
+
+<pre><code>#listen-address=
+</code></pre>
+
+<p>把它换成下面这样:</p>
+
+<pre><code>listen-address=127.0.0.1,10.8.0.1
+</code></pre>
+
+<p>然后定位到这行:</p>
+
+<pre><code>#bind-interfaces
+</code></pre>
+
+<p>把&rdquo;#&ldquo;删了:</p>
+
+<pre><code>bind-interfaces
+</code></pre>
+
+<p>为了让dnsmasq应用这些更改，我们重启它:</p>
+
+<pre><code>root@delta:/etc/openvpn# service dnsmasq restart
+</code></pre>
+
+<h2 id="开启linux路由功能">开启Linux路由功能</h2>
+
+<p>我们希望在一些机器或虚拟机上运行的OpneVPN有路由的功能，这意味着要开启IP转发。</p>
+
+<pre><code class="language-bash">#为了打开它，我们用root账户键入
+echo &quot;1&quot; &gt; /proc/sys/net/ipv4/ip_forward
+#为了让这个设置重启也好用，我们编辑 /etc/sysctl.conf:
+vim /etc/sysctl.conf
+
+#编辑这行:
+#net.ipv4.ip_forward=1
+#把&quot;#&quot;删了:
+net.ipv4.ip_forward=1
+</code></pre>
+
+<p>还需要激活一些iptables相关的规则（待测试是否必要）:</p>
+
+<pre><code class="language-iptables"># eth1为服务器外网网卡名称，10.7.0.0是vpn网段
+iptables -A FORWARD -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -s 10.7.0.0/24 -j ACCEPT
+iptables -A FORWARD -j REJECT
+iptables -t nat -A POSTROUTING -s 10.7.0.0/24 -o eth1 -j MASQUERADE
+</code></pre>
+
+<p>服务器端防火墙设置加入了以下规则（待测试是否必要）：</p>
+
+<pre><code class="language-iptables">iptables -I INPUT 1 -p udp --dport 443 -j ACCEPT
+iptables -I INPUT 1 -p tcp --dport 443 -j ACCEPT
+iptables -I INPUT   -i tap0 -j ACCEPT
+iptables -I FORWARD -i tap0 -j ACCEPT
+iptables -I INPUT   -i br-lan -j ACCEPT
+iptables -I FORWARD -i br-lan -j ACCEPT
+</code></pre>
+
+<h2 id="openwrt客户端配置">OpenWrt客户端配置</h2>
+
+<pre><code class="language-bash">复制openvpn-zkkj.conf到/etc/openvpn/my-vpn.conf
+复制ca.crt client.cert client.key到/etc/openvpn
+</code></pre>
+
+<p>openvpn-zkkj.conf(zkkj)</p>
+
+<pre><code class="language-vpn">client
+dev tun
+comp-lzo
+comp-noadapt
+fragment 1300
+sndbuf 204800
+rcvbuf 204800
+verb 3
+
+ca /etc/openvpn/ca.ca
+cert /etc/openvpn/client.cert
+key /etc/openvpn/client.key
+
+
+comp-lzo yes
+;remote 110.52.103.89
+remote vpn.zkkj168.com
+;route-gateway 192.168.99.1
+;redirect-gateway
+</code></pre>
+
+<p>开机启动</p>
+
+<pre><code class="language-bash">## 常规方式，系统——启动项——openvpn启动
+cp /tmp/etc/openvpn-zkkj.conf /etc/openvpn/my-vpn.conf
+登录luci后台，服务——openvpn——custom_config启动打勾
+
+## 制定方式，系统——启动项——自定文本
+## start openvpn
+/usr/sbin/openvpn --cd /etc/openvpn --config my-vpn.conf --daemon
+## end
+</code></pre>
+
+<p>OpenWRT Ping不通问题</p>
+
+<pre><code class="language-iptables">iptables -I FORWARD -o br-lan -j ACCEPT # 允许 br-lan 端口流量被转发
+iptables -I FORWARD -o tun0 -j ACCEPT # 允许 tun0 端口流量被转发
+iptables -t nat -I POSTROUTING -o tun0 -j MASQUERADE #tun0 出口的流量 SNAT 出去
+
+iptables -I FORWARD -o br-lan -j ACCEPT
+iptables -I FORWARD -o tun0 -j ACCEPT
+iptables -t nat -A POSTROUTING -s 192.168.99.0/24 -j MASQUERADE
+</code></pre>
+
+<h2 id="openwrt端口映射">OpenWRT端口映射</h2>
+
+<p>1.服务UPNP开启
+2.网络——防火墙</p>
+
+<pre><code class="language-iptables">ipc1
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5540
+
+IP 192.168.99.50, port 1554 位于 lan
+
+
+
+ipc1web
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5580
+
+IP 192.168.99.50, port 80 位于 lan
+
+
+
+ipc1ser
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5800
+
+IP 192.168.99.50, port 8000 位于 lan
+
+
+
+ipc2rtsp
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5541
+
+IP 192.168.99.51, port 1554 位于 lan
+
+
+
+ipc2web
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5581
+
+IP 192.168.99.51, port 80 位于 lan
+
+
+
+ipc2ser
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5801
+
+IP 192.168.99.51, port 8000 位于 lan
+
+
+
+ipc3
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5542
+
+IP 192.168.99.52, port 1554 位于 lan
+
+
+
+ipc3web
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5582
+
+IP 192.168.99.52, port 80 位于 lan
+
+
+
+ipc3ser
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5802
+
+IP 192.168.99.52, port 8000 位于 lan
+
+
+
+ipc4rtsp
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5543
+
+IP 192.168.99.53, port 1554 位于 lan
+
+
+
+ipc4web
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5583
+
+IP 192.168.99.53, port 80 位于 lan
+
+
+
+ipc4ser
+
+IPv4-TCP, UDP
+来自 所有主机 位于 wan
+通过 所有路由地址 at port 5803
+
+IP 192.168.99.53, port 8000 位于 lan
+</code></pre>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2015  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

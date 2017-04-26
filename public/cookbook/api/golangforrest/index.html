@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="keywords" content="|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane">
+<meta name="author" content="刘雨飏, the Founder of ANAS">
+<meta name="generator" content="Hugo 0.18.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cio.anasit.com/css/style.css" type="text/css">
+<link rel="alternate" href="https://cio.anasit.com/index.xml" type="application/rss+xml" title="刘雨飏@ANAS联盟">
+<title>golang的restful框架选择 - 刘雨飏@ANAS联盟</title>
+
+<link rel="stylesheet" href="https://cio.anasit.com//css/code/monokai.css">
+<script src="https://cio.anasit.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" charset="utf-8">
+var getElementsByClass = function(searchClass,node,tag) {
+	var classElements = new Array();
+	if ( node == null )
+		node = document;
+	if ( tag == null )
+		tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var elsLen = els.length;
+	var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+	for (i = 0, j = 0; i < elsLen; i++) {
+		if ( pattern.test(els[i].className) ) {
+			classElements[j] = els[i];
+			j++;
+		}
+	}
+	return classElements;
+}
+window.onload=function(){
+	var obj1=document.getElementById("blink1");	
+	var obj2=document.getElementById("blink2");	
+	var timer=null;
+		var i1=0;
+		var i2=0;
+		clearInterval(timer);
+
+		timer=setInterval(function(){
+			obj1.innerHTML=i1++%2?"&nbsp;":"_";
+			obj2.innerHTML=i2++%2?"&nbsp;":"_";
+			false&&clearInterval(timer);
+		},700);
+};
+</script>
+
+</head>
+<body>
+
+	<div class="container" style="margin-right:28px;margin-top:4px;float:right;text-align:right;">
+		
+		<a href="https://github.com/ryanemax"><img src="https://cio.anasit.com//images/github2-dreamstale35.png"></a>
+		
+		
+		
+		<a href="https://twitter.com/ryanemax"><img src="https://cio.anasit.com//images/twitter-dreamstale71.png"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/ryanemax"><img src="https://cio.anasit.com//images/linkedin-dreamstale45.png"></a>
+		
+		<a href="https://cio.anasit.com//index.xml"><img src="https://cio.anasit.com//images/feed-dreamstale27.png"></a>
+	</div>
+<header>
+  <div class="container">
+    <a class="path" href="https://cio.anasit.com/">[刘雨飏@ANAS联盟]</a>
+		<span class="caret"># <span id="blink1">_</span></span>
+  </div>
+
+</header>
+
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2015-09-04">September 04, 2015</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/categories/cookbook">cookbook</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://cio.anasit.com/tags/api">api</a>
+
+        <a href="https://cio.anasit.com/tags/restful">restful</a>
+
+        <a href="https://cio.anasit.com/tags/golang">golang</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">golang的restful框架选择</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h1 id="0-必备功能">0.必备功能</h1>
+
+<p>坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能</p>
+
+<ul>
+<li>RAML支持</li>
+<li>CORS支持</li>
+<li>JSON支持</li>
+<li>良好的Router机制</li>
+<li>简单的Controller、Service分离</li>
+
+<li><p>ORM支持（最好带migrate）</p>
+
+<h1 id="0-1-中间件大搜集">0.1 中间件大搜集</h1>
+
+<h2 id="restgate">RestGate</h2>
+
+<p>支持框架：Negroni,Martini,Gin
+为REST API提供endpoints的安全验证机制</p></li>
+</ul>
+
+<h1 id="1-0-gin">1.0 gin</h1>
+
+<p>w 279 s 4087 f 395
+<a href="https://gin-gonic.github.io/gin">https://gin-gonic.github.io/gin</a>
+<a href="https://github.com/gin-gonic/gin">https://github.com/gin-gonic/gin</a></p>
+
+<p><strong>REST最佳实践</strong>
+<a href="https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181">https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181</a></p>
+
+<ul>
+<li>评分 <sup>9</sup>&frasl;<sub>10</sub></li>
+<li>api编写简洁</li>
+
+<li><p>x20-x45 fastest than Martini</p>
+
+<h1 id="1-1-go-json-rest">1.1 go-json-rest</h1>
+
+<p>w 98 s 1816 fork 176</p></li>
+</ul>
+
+<p><a href="https://github.com/ant0ine/go-json-rest">https://github.com/ant0ine/go-json-rest</a></p>
+
+<ul>
+<li>评分 <sup>7</sup>&frasl;<sub>10</sub></li>
+<li>Fast &amp; scalable URL routing</li>
+<li>Test package to help writing tests</li>
+<li>routing engine 支持正则</li>
+<li>检测统计by Memcached</li>
+
+<li><p>GORM 支持 migrate</p></li>
+
+<li><p>Middlewares like</p></li>
+
+<li><p>Logging</p></li>
+
+<li><p>Gzip</p></li>
+
+<li><p>CORS</p></li>
+
+<li><p>Auth</p></li>
+
+<li><p>Status</p></li>
+
+<li><p>AccessLogApache</p></li>
+
+<li><p>AccessLogJson</p></li>
+
+<li><p>AuthBasic</p></li>
+
+<li><p>ContentTypeChecker</p></li>
+
+<li><p>If</p></li>
+
+<li><p>JsonIndent</p></li>
+
+<li><p>Jsonp</p></li>
+
+<li><p>PoweredBy</p></li>
+
+<li><p>Recorder</p></li>
+
+<li><p>Timer</p></li>
+
+<li><p>Statsd</p></li>
+
+<li><p>JWT</p></li>
+
+<li><p>AuthToken</p></li>
+
+<li><p>SecureRedirect</p></li>
+</ul>
+
+<p>go get github.com/ant0ine/go-json-rest/rest</p>
+
+<h1 id="1-2-echo">1.2 Echo</h1>
+
+<p>w 140 s 2326 f 143
+<a href="https://github.com/labstack/echo">https://github.com/labstack/echo</a>
+faster than gin,martini,Negroni</p>
+
+<h1 id="1-3-go-relax">1.3 go-relax</h1>
+
+<p>w 8 s 105 f 2</p>
+
+<p><a href="https://github.com/codehack/go-relax">https://github.com/codehack/go-relax</a></p>
+
+<ul>
+<li>评分 <sup>5</sup>&frasl;<sub>10</sub></li>
+<li>遵循ROA原则</li>
+<li>HATEOAS支持</li>
+<li>default json, also XML</li>
+
+<li><p>routing engine 支持正则</p></li>
+
+<li><p>支持的中间件</p></li>
+
+<li><p>Content</p></li>
+
+<li><p>CORS</p></li>
+
+<li><p>GZip</p></li>
+
+<li><p>Logging</p></li>
+
+<li><p>Method override</p></li>
+
+<li><p>Security</p></li>
+
+<li><p>Limits</p>
+
+<h1 id="1-4-go-rest">1.4 go-rest</h1>
+
+<p><a href="https://github.com/ungerik/go-rest">https://github.com/ungerik/go-rest</a></p></li>
+
+<li><p>评分 <sup>3</sup>&frasl;<sub>10</sub></p></li>
+
+<li><p>Small only three functions: HandleGET, HandlePOST, RunServer</p></li>
+
+<li><p>Evil anti-pattern</p></li>
+</ul>
+
+<h1 id="zz-自主开发">ZZ.自主开发</h1>
+
+<p><a href="https://www.nicolasmerouze.com/build-web-framework-golang/">https://www.nicolasmerouze.com/build-web-framework-golang/</a></p>
+
+  </section>
+</article>
+
+	
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'ryn';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2015  刘雨飏@ANAS联盟 - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+
