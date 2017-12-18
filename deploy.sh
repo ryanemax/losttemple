@@ -8,27 +8,14 @@ rsync -aztP --exclude-from "ignore.list" --delete ../note/ content
 # Build the project.
 hugo -D
 
-# Add changes to git.
+# Push Master
 git add -A
+git commit -m "update"
+git push origin master
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-	  then msg="$1"
-	  fi
-	  git commit -m "$msg"
-
-	  # Push source and build repos.
-	  git push origin master
-
-    #### 分支部署参考：http://www.cnblogs.com/ajianbeyourself/p/5415131.html ####
-		# git remote add -f blog https://github.com/ryanemax/ryanemax.github.io.git
-		# git subtree add --prefix=public blog gh-pages --squash
-		# git subtree pull --prefix=public blog gh-pages
-	  git subtree push --prefix=public blog gh-pages
-	  # Push source and build repos to Coding.net.
-	  # git push coding master
-		# git remote add -f blog-coding https://git.coding.net/ryn/blog.git
-		# git subtree add --prefix=public blog-coding gh-pages --squash
-		# git subtree pull --prefix=public blog-coding gh-pages
-	  git subtree push --prefix=public blog-coding gh-pages
+# publish-ghpages.md
+git checkout master # you can avoid this line if you are in master...
+git subtree split --prefix public -b gh-pages # create a local gh-pages branch containing the splitted output folder
+git push -f origin gh-pages:gh-pages # force the push of the gh-pages branch to the remote gh-pages branch at origin
+git push -f blog-coding gh-pages:master # force the push of the gh-pages branch to the remote gh-pages branch at origin
+git branch -D gh-pages # delete the local gh-pages because you will need it: ref
