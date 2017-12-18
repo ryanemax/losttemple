@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Creator on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/creator/index.xml</link>
-    <description>Recent content in Creator on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Creator on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/creator/</link>
+    <description>Recent content in Creator on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/creator/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2016 00:05:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/creator/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>ionicCreator实际体验与评测</title>
@@ -15,51 +18,7 @@
       <pubDate>Tue, 03 May 2016 00:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/frontend/ionic-creator/</guid>
-      <description>
-
-&lt;h1 id=&#34;ioniccreator实际体验与评测&#34;&gt;ionicCreator实际体验与评测&lt;/h1&gt;
-
-&lt;h2 id=&#34;免费版&#34;&gt;免费版&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;目前只支持ionic 1.0&lt;/li&gt;
-&lt;li&gt;页面修改Routing URL，导出项目templates中page名未变化，依然是page1-n&lt;/li&gt;
-&lt;li&gt;components 组件少，且不可定制&lt;/li&gt;
-&lt;li&gt;全程需要翻墙&lt;/li&gt;
-&lt;li&gt;不实用，不如参考css文档，直接使用html写所需的页面&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;使用creator构建的一个测试项目：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://creator.ionic.io/share/a5d70d07f53f&#34;&gt;https://creator.ionic.io/share/a5d70d07f53f&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## 代理从creator创建项目到本地
-http_proxy=http://127.0.0.1:8118 ionic start coinnova creator:a5d70d07f53f
-
-## 登录ionic
-cd coinnova
-ionic login
-
-## 修改后提交项目
-ionic push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;pro版&#34;&gt;Pro版&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;必须认证信用卡后，才可免费体验一个月&lt;/li&gt;
-&lt;li&gt;creator使用功能无明显提升&lt;/li&gt;
-&lt;li&gt;允许1个私有项目&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;team版&#34;&gt;Team版&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;必须认证信用卡后，才可免费体验一个月&lt;/li&gt;
-&lt;li&gt;creator使用功能无明显提升&lt;/li&gt;
-&lt;li&gt;允许2个私有项目&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>ionicCreator实际体验与评测 免费版 目前只支持ionic 1.0 页面修改Routing URL，导出项目templates中page名未变化</description>
     </item>
     
   </channel>

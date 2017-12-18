@@ -1,209 +1,762 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/index.xml</link>
-    <description>Recent content on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Tags on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/</link>
+    <description>Recent content in Tags on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Sep 2015 01:29:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>论文生成工具</title>
-      <link>https://cio.anasit.com/study/tools/</link>
+      <title>Agile</title>
+      <link>https://cio.anasit.com/tags/agile/</link>
+      <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amap</title>
+      <link>https://cio.anasit.com/tags/amap/</link>
+      <pubDate>Wed, 30 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/amap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anasit</title>
+      <link>https://cio.anasit.com/tags/anasit/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/anasit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>https://cio.anasit.com/tags/angular/</link>
+      <pubDate>Mon, 18 Dec 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apcio</title>
+      <link>https://cio.anasit.com/tags/apcio/</link>
+      <pubDate>Fri, 17 Jun 2016 16:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/apcio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>https://cio.anasit.com/tags/api/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>https://cio.anasit.com/tags/app/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atom</title>
+      <link>https://cio.anasit.com/tags/atom/</link>
+      <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/atom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autism</title>
+      <link>https://cio.anasit.com/tags/autism/</link>
+      <pubDate>Mon, 20 Jul 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/autism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Baas</title>
+      <link>https://cio.anasit.com/tags/baas/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/baas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>https://cio.anasit.com/tags/backend/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bdinchina</title>
+      <link>https://cio.anasit.com/tags/bdinchina/</link>
+      <pubDate>Thu, 03 Aug 2017 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/bdinchina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bluemix</title>
+      <link>https://cio.anasit.com/tags/bluemix/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/bluemix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>https://cio.anasit.com/tags/book/</link>
+      <pubDate>Fri, 24 Feb 2017 14:07:07 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Career</title>
+      <link>https://cio.anasit.com/tags/career/</link>
+      <pubDate>Tue, 14 Feb 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Change</title>
+      <link>https://cio.anasit.com/tags/change/</link>
+      <pubDate>Mon, 19 Oct 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cms</title>
+      <link>https://cio.anasit.com/tags/cms/</link>
+      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/cms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cors</title>
+      <link>https://cio.anasit.com/tags/cors/</link>
+      <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/cors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creator</title>
+      <link>https://cio.anasit.com/tags/creator/</link>
+      <pubDate>Tue, 03 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/creator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curency</title>
+      <link>https://cio.anasit.com/tags/curency/</link>
+      <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/curency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://cio.anasit.com/tags/database/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://cio.anasit.com/tags/devops/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/study/tools/</guid>
-      <description>
-
-&lt;h1 id=&#34;scigen论文生成器&#34;&gt;SCIGen论文生成器&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pdos.csail.mit.edu/scigen/&#34;&gt;http://pdos.csail.mit.edu/scigen/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;下面就是一篇自动生成的名作：
-&lt;a href=&#34;http://pdos.csail.mit.edu/scigen/rooter.pdf&#34;&gt;http://pdos.csail.mit.edu/scigen/rooter.pdf&lt;/a&gt;&lt;br /&gt;
-Rooter: A Methodology for the Typical Unification of Access Points and Redundancy&lt;/p&gt;
-</description>
+      <guid>https://cio.anasit.com/tags/devops/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>极致效率的键位变更</title>
-      <link>https://cio.anasit.com/cookbook/tool/keyboard/</link>
-      <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
+      <title>Es6</title>
+      <link>https://cio.anasit.com/tags/es6/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/tool/keyboard/</guid>
-      <description>
-
-&lt;p&gt;极致效率的键位变更&lt;/p&gt;
-
-&lt;h1 id=&#34;coding常用键位变更&#34;&gt;Coding常用键位变更&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ctrl =&amp;gt; Caps Lock&lt;/li&gt;
-&lt;li&gt;Caps Lock =&amp;gt; Ctrl&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;linux下键位变更&#34;&gt;Linux下键位变更&lt;/h1&gt;
-
-&lt;h1 id=&#34;windows键盘全局替换&#34;&gt;Windows键盘全局替换&lt;/h1&gt;
-
-&lt;p&gt;可以利用第三方工具，或者直接在注册表中修改键位映射关系&lt;/p&gt;
-
-&lt;p&gt;注册表位置：[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout] 如果没有此键，就新建一个&lt;/p&gt;
-
-&lt;p&gt;新建一个二进制值的Key，名叫：Scancode Map&lt;/p&gt;
-
-&lt;p&gt;输入如下的值：&lt;/p&gt;
-
-&lt;p&gt;00,00,00,00&lt;/p&gt;
-
-&lt;p&gt;00,00,00,00&lt;/p&gt;
-
-&lt;p&gt;03,00,00,00&lt;/p&gt;
-
-&lt;p&gt;3A,00,1D,00&lt;/p&gt;
-
-&lt;p&gt;1D,00,3A,00&lt;/p&gt;
-
-&lt;p&gt;00,00,00,00&lt;/p&gt;
-
-&lt;p&gt;前两行和最后一行，都是固定的，全部为0。第三行，表示你修改了几个键，其实我们只是改了两个键，不过最后那一行也要算进去，所以是3。&lt;/p&gt;
-
-&lt;p&gt;重点是在第四行和第五行。3A00，代表Caps Lock， 1D00，代表Ctrl。这一行，意思即为，将Caps Lock映射为Ctrl&lt;/p&gt;
-
-&lt;p&gt;第五行，就不用说了，意思刚好相反。&lt;/p&gt;
-
-&lt;p&gt;修改完毕后，重新登录Windows即可生效！&lt;/p&gt;
-
-&lt;p&gt;下面附上各个键位值的参考：&lt;/p&gt;
-
-&lt;p&gt;Escape 01 00&lt;/p&gt;
-
-&lt;p&gt;Tab 0F 00&lt;/p&gt;
-
-&lt;p&gt;Caps Lock 3A 00&lt;/p&gt;
-
-&lt;p&gt;Left Alt 38 00&lt;/p&gt;
-
-&lt;p&gt;Left Ctrl 1D 00&lt;/p&gt;
-
-&lt;p&gt;Left Shift 2A 00&lt;/p&gt;
-
-&lt;p&gt;Left Windows 5B E0&lt;/p&gt;
-
-&lt;p&gt;Right Alt 38 E0&lt;/p&gt;
-
-&lt;p&gt;Right Ctr l1D E0&lt;/p&gt;
-
-&lt;p&gt;Right Shift 36 00&lt;/p&gt;
-
-&lt;p&gt;Right Windows 5C E0&lt;/p&gt;
-
-&lt;p&gt;Backspace 0E 00&lt;/p&gt;
-
-&lt;p&gt;Delete 53 E0&lt;/p&gt;
-
-&lt;p&gt;Enter 1C 00&lt;/p&gt;
-
-&lt;p&gt;Space 39 00&lt;/p&gt;
-
-&lt;p&gt;Insert 52 E0&lt;/p&gt;
-
-&lt;p&gt;HOME 47 E0&lt;/p&gt;
-
-&lt;p&gt;End 4F E0&lt;/p&gt;
-
-&lt;p&gt;Num Lock 45 00&lt;/p&gt;
-
-&lt;p&gt;Page Down 51 E0&lt;/p&gt;
-
-&lt;p&gt;Page Up 49 E0&lt;/p&gt;
-
-&lt;p&gt;Scroll Lock 46 00&lt;/p&gt;
-</description>
+      <guid>https://cio.anasit.com/tags/es6/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>初次了解DataGrip</title>
-      <link>https://cio.anasit.com/cookbook/database/Datagrip/</link>
-      <pubDate>Thu, 27 Aug 2015 15:05:51 +0800</pubDate>
+      <title>Eve</title>
+      <link>https://cio.anasit.com/tags/eve/</link>
+      <pubDate>Mon, 15 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/database/Datagrip/</guid>
-      <description>
-
-&lt;h1 id=&#34;初次了解datagrip&#34;&gt;《初次了解DataGrip》&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text&#34;&gt;http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;特性整理&#34;&gt;特性整理&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jetbrains.com/datagrip/features/&#34;&gt;http://www.jetbrains.com/datagrip/features/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;数据库基础操作&#34;&gt;数据库基础操作&lt;/h2&gt;
-
-&lt;p&gt;支持数据库引擎：MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Sybase, DB2, SQLite, HyperSQL, Apache Derby and H2.&lt;/p&gt;
-
-&lt;p&gt;同Navicat/MysqlWorkbench/PhpMysqlAdmin/Sql企业管理器等工具类似，拥有对数据库及其表列进行编辑管理的基础操作。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;数据库对象
-&lt;img src=&#34;http://www.jetbrains.com/datagrip/features/img/index/00_01_dbobjects.png&#34; alt=&#34;obj&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;导航检索
-&lt;img src=&#34;http://www.jetbrains.com/datagrip/features/img/index/00_03_navigation.png&#34; alt=&#34;nav&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;表编辑器
-&lt;img src=&#34;http://www.jetbrains.com/datagrip/features/img/index/00_02_table_editor.png&#34; alt=&#34;edt&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;分析查询比较结果&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;代码编写实用特性&#34;&gt;代码编写实用特性&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SQL编写时提供代码补全&lt;/li&gt;
-&lt;li&gt;DDL自动生成：工具操作数据库对象时，自动生成对应的SQL脚本&lt;/li&gt;
-&lt;li&gt;DML自动生成：查询/插入数据时，提供表/DML代码同时编辑
-&lt;img src=&#34;http://www.jetbrains.com/datagrip/features/img/code_generation/08_08_edit_as_table.png&#34; alt=&#34;DML&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;查找重命名变量的源型&lt;/li&gt;
-&lt;li&gt;代码分析与快速修正&lt;/li&gt;
-&lt;li&gt;多行编辑/文本批量处理&lt;/li&gt;
-&lt;li&gt;自定义的界面风格&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;其他多样的特性&#34;&gt;其他多样的特性&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CSV编辑器&lt;/li&gt;
-&lt;li&gt;数据库图表编辑器&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://cio.anasit.com/tags/eve/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>实用的geek工具类站点</title>
-      <link>https://cio.anasit.com/cookbook/tool/usefulwebsite/</link>
-      <pubDate>Fri, 14 Aug 2015 10:12:51 +0800</pubDate>
+      <title>Finance</title>
+      <link>https://cio.anasit.com/tags/finance/</link>
+      <pubDate>Tue, 15 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/tool/usefulwebsite/</guid>
-      <description>
-
-&lt;h1 id=&#34;比较选优&#34;&gt;比较选优&lt;/h1&gt;
-
-&lt;p&gt;alternativeto.net
-makeuseof.com&lt;/p&gt;
-
-&lt;h1 id=&#34;agile敏捷协作&#34;&gt;Agile敏捷协作&lt;/h1&gt;
-
-&lt;p&gt;taiga.io 一站式敏捷协作平台，开源免费&lt;/p&gt;
-
-&lt;h1 id=&#34;世界大战-尽在掌控-盘点全球网络攻击实时追踪系统&#34;&gt;“世界大战”尽在掌控：盘点全球网络攻击实时追踪系统&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.freebuf.com/news/special/56910.html&#34;&gt;http://www.freebuf.com/news/special/56910.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;seo分析工具&#34;&gt;SEO分析工具&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://semalt.com&#34;&gt;http://semalt.com&lt;/a&gt;
-&lt;a href=&#34;http://semalt.com/project/2801734&#34;&gt;http://semalt.com/project/2801734&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://cio.anasit.com/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firebase</title>
+      <link>https://cio.anasit.com/tags/firebase/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>https://cio.anasit.com/tags/frontend/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fullstack</title>
+      <link>https://cio.anasit.com/tags/fullstack/</link>
+      <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/fullstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://cio.anasit.com/tags/game/</link>
+      <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generate</title>
+      <link>https://cio.anasit.com/tags/generate/</link>
+      <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/generate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gfw</title>
+      <link>https://cio.anasit.com/tags/gfw/</link>
+      <pubDate>Thu, 31 Mar 2016 01:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/gfw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://cio.anasit.com/tags/git/</link>
+      <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://cio.anasit.com/tags/go/</link>
+      <pubDate>Mon, 18 Dec 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://cio.anasit.com/tags/golang/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hikvision</title>
+      <link>https://cio.anasit.com/tags/hikvision/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/hikvision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html5</title>
+      <link>https://cio.anasit.com/tags/html5/</link>
+      <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://cio.anasit.com/tags/hugo/</link>
+      <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iaas</title>
+      <link>https://cio.anasit.com/tags/iaas/</link>
+      <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/iaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ibm</title>
+      <link>https://cio.anasit.com/tags/ibm/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icon</title>
+      <link>https://cio.anasit.com/tags/icon/</link>
+      <pubDate>Sat, 07 May 2016 10:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/icon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ionic</title>
+      <link>https://cio.anasit.com/tags/ionic/</link>
+      <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/ionic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ionic2</title>
+      <link>https://cio.anasit.com/tags/ionic2/</link>
+      <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/ionic2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It</title>
+      <link>https://cio.anasit.com/tags/it/</link>
+      <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://cio.anasit.com/tags/java/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jax Rs</title>
+      <link>https://cio.anasit.com/tags/jax-rs/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/jax-rs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jersy</title>
+      <link>https://cio.anasit.com/tags/jersy/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/jersy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>https://cio.anasit.com/tags/laravel/</link>
+      <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latex</title>
+      <link>https://cio.anasit.com/tags/latex/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://cio.anasit.com/tags/linux/</link>
+      <pubDate>Fri, 13 May 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapplestory</title>
+      <link>https://cio.anasit.com/tags/mapplestory/</link>
+      <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/mapplestory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://cio.anasit.com/tags/markdown/</link>
+      <pubDate>Fri, 24 Feb 2017 14:07:07 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Message</title>
+      <link>https://cio.anasit.com/tags/message/</link>
+      <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/message/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metaphysics</title>
+      <link>https://cio.anasit.com/tags/metaphysics/</link>
+      <pubDate>Mon, 19 Oct 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/metaphysics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mindmap</title>
+      <link>https://cio.anasit.com/tags/mindmap/</link>
+      <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/mindmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://cio.anasit.com/tags/mobile/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://cio.anasit.com/tags/mongodb/</link>
+      <pubDate>Mon, 18 Dec 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ncu</title>
+      <link>https://cio.anasit.com/tags/ncu/</link>
+      <pubDate>Wed, 02 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/ncu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://cio.anasit.com/tags/nginx/</link>
+      <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Npm</title>
+      <link>https://cio.anasit.com/tags/npm/</link>
+      <pubDate>Tue, 29 Mar 2016 10:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odoo</title>
+      <link>https://cio.anasit.com/tags/odoo/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/odoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openvpn</title>
+      <link>https://cio.anasit.com/tags/openvpn/</link>
+      <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/openvpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openwrt</title>
+      <link>https://cio.anasit.com/tags/openwrt/</link>
+      <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orm</title>
+      <link>https://cio.anasit.com/tags/orm/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/orm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paas</title>
+      <link>https://cio.anasit.com/tags/paas/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/paas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper</title>
+      <link>https://cio.anasit.com/tags/paper/</link>
+      <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pdf</title>
+      <link>https://cio.anasit.com/tags/pdf/</link>
+      <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>https://cio.anasit.com/tags/php/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php5 Fpm</title>
+      <link>https://cio.anasit.com/tags/php5-fpm/</link>
+      <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/php5-fpm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pkm</title>
+      <link>https://cio.anasit.com/tags/pkm/</link>
+      <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/pkm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ppt</title>
+      <link>https://cio.anasit.com/tags/ppt/</link>
+      <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/ppt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Nova</title>
+      <link>https://cio.anasit.com/tags/project-nova/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/project-nova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>https://cio.anasit.com/tags/psychology/</link>
+      <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raml</title>
+      <link>https://cio.anasit.com/tags/raml/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/raml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restful</title>
+      <link>https://cio.anasit.com/tags/restful/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/restful/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rss</title>
+      <link>https://cio.anasit.com/tags/rss/</link>
+      <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rxjs</title>
+      <link>https://cio.anasit.com/tags/rxjs/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/rxjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seo</title>
+      <link>https://cio.anasit.com/tags/seo/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skill</title>
+      <link>https://cio.anasit.com/tags/skill/</link>
+      <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/skill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tax</title>
+      <link>https://cio.anasit.com/tags/tax/</link>
+      <pubDate>Tue, 15 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/tax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://cio.anasit.com/tags/vim/</link>
+      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vrar</title>
+      <link>https://cio.anasit.com/tags/vrar/</link>
+      <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/vrar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wget</title>
+      <link>https://cio.anasit.com/tags/wget/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/wget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win10</title>
+      <link>https://cio.anasit.com/tags/win10/</link>
+      <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/tags/win10/</guid>
+      <description></description>
     </item>
     
   </channel>

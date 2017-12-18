@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Manifestos on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/manifesto/index.xml</link>
-    <description>Recent content in Manifestos on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Manifestos on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/manifesto/</link>
+    <description>Recent content in Manifestos on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 31 Mar 2016 01:05:51 +0800</lastBuildDate>
-    <atom:link href="https://cio.anasit.com/manifesto/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://cio.anasit.com/manifesto/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>掃除文盲，人人有責</title>
@@ -16,8 +18,7 @@
       <pubDate>Thu, 31 Mar 2016 01:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/manifesto/fuckgfw/</guid>
-      <description>&lt;p&gt;懷念以前文盲的定義還是「不會識字」的年代，吾將終身致力於掃除文盲的行動中來。&lt;/p&gt;
-</description>
+      <description>懷念以前文盲的定義還是「不會識字」的年代，吾將終身致力於掃除文盲的行動中來。</description>
     </item>
     
   </channel>

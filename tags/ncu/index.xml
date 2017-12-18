@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ncu on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/ncu/index.xml</link>
-    <description>Recent content in Ncu on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Ncu on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/ncu/</link>
+    <description>Recent content in Ncu on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/ncu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Mar 2016 15:05:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/ncu/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>江风益教授行政楼讲座不完整摘要</title>
@@ -15,78 +18,7 @@
       <pubDate>Wed, 02 Mar 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/meeting/2016-3-2%E6%B1%9F%E9%A3%8E%E7%9B%8A%E6%95%99%E6%8E%88%E8%A1%8C%E6%94%BF%E6%A5%BC%E8%AE%B2%E5%BA%A7%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%91%98%E8%A6%81/</guid>
-      <description>
-
-&lt;h1 id=&#34;一-国家科技领域奖项简介&#34;&gt;一.国家科技领域奖项简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;自然科学奖&#34;&gt;自然科学奖&lt;/h2&gt;
-
-&lt;h2 id=&#34;技术发明奖&#34;&gt;技术发明奖&lt;/h2&gt;
-
-&lt;p&gt;一等 二等 三等
-一年平均0、1、2个&lt;/p&gt;
-
-&lt;h2 id=&#34;科技进步奖&#34;&gt;科技进步奖&lt;/h2&gt;
-
-&lt;p&gt;一等 二等
-国际合作奖
-团队奖&lt;/p&gt;
-
-&lt;h1 id=&#34;评奖制度&#34;&gt;评奖制度&lt;/h1&gt;
-
-&lt;p&gt;评委2/3 通过 一等奖
-&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; 通过 二等奖&lt;/p&gt;
-
-&lt;h1 id=&#34;二-科技创新与创业十大难关&#34;&gt;二.科技创新与创业十大难关&lt;/h1&gt;
-
-&lt;p&gt;1.研发资金申请
-2.研发队伍建立
-3.硬件软件建设
-4.勤奋与机遇
-5.产业化资金筹集
-6.产业人才聚集
-7.产线建设
-8.产品合格率/成本/质量控制
-9.市场推广与资金回笼
-10.产品更新迭代&lt;/p&gt;
-
-&lt;h1 id=&#34;三-科技创新与井冈山精神&#34;&gt;三.科技创新与井冈山精神&lt;/h1&gt;
-
-&lt;p&gt;鉴定信念
-艰苦奋斗
-实事求是
-敢闯新路
-依靠群众
-勇于胜利&lt;/p&gt;
-
-&lt;h1 id=&#34;四-老师和学生关系&#34;&gt;四.老师和学生关系&lt;/h1&gt;
-
-&lt;p&gt;老师教学生
-学生教老师
-学生教学生&lt;/p&gt;
-
-&lt;p&gt;如何看待鱼与鱼的关系？避免灌输&lt;/p&gt;
-
-&lt;p&gt;能文能武，又“红”又“专”的接班人
-文 理论知识
-武 动手能力
-专 文+武
-红 学会为人(能不能吃苦吃亏)&lt;/p&gt;
-
-&lt;p&gt;能不能吃苦吃亏
-吃的了苦和亏的人
-可以信赖
-可以重用
-到处均会开绿灯
-容易出成绩&lt;/p&gt;
-
-&lt;h1 id=&#34;五-询问阶段&#34;&gt;五.询问阶段&lt;/h1&gt;
-
-&lt;h2 id=&#34;千亿级别-南昌光谷项目-对创业学生的机遇&#34;&gt;千亿级别,南昌光谷项目,对创业学生的机遇&lt;/h2&gt;
-
-&lt;p&gt;建议进行LED下游市场，大众创业万众创新
-需要多数人投入其中&lt;/p&gt;
-</description>
+      <description>一.国家科技领域奖项简介 自然科学奖 技术发明奖 一等 二等 三等 一年平均0、1、2个 科技进步奖 一等 二等 国际合作奖 团队奖 评奖制度 评委2/3 通过 一等奖 1&amp;frasl;2</description>
     </item>
     
   </channel>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paas on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/paas/index.xml</link>
-    <description>Recent content in Paas on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Paas on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/paas/</link>
+    <description>Recent content in Paas on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>parse服务学习指引</title>
@@ -15,46 +18,7 @@
       <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
-      <description>
-
-&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;系统环境
-
-&lt;ul&gt;
-&lt;li&gt;npm&lt;/li&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;服务端
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;mongodb&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;管理端
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
-</description>
+      <description>准备环境 系统环境 npm nodejs 服务端 parse-server mongodb 管理端 parse-dashboard 学习参考 客户端文档 https://parseplatform.github.io REST文档 https://parseplatform.github.io/docs/rest/guide/ JS文档 https://parseplatform.github.io/docs/js/guide/ PHP文档 https://parseplatform.github.io/docs/php/guide/ 服务端文档 https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide Server</description>
     </item>
     
     <item>
@@ -63,130 +27,7 @@
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/paas/</guid>
-      <description>
-
-&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
-
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;OpenStack
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://getcloudify.org/2015/12/26/openstack-docker-kubernetes-hybrid-cloud-nfv-orchestration-mano-etsi-cloudify.html&#34;&gt;6 OpenStack &amp;amp; Docker Predictions for 2016&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2016-01/126953.htm&#34;&gt;2016年六大OpenStack &amp;amp; Docker发展趋势预测&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2013-08/88186.htm&#34;&gt;OpenStack云计算快速入门教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5596&#34;&gt;Pt. 3 – OpenStack与大厂硬件及新兴开源技术的结合&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5600&#34;&gt;OpenStack+NFV 推动电信行业技术变革&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Mesos&lt;/li&gt;
-&lt;li&gt;Docker
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.lupaworld.com/article-241959-1.html&#34;&gt;Docker已扎根新一代PaaS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cloud.51cto.com/art/201411/458342.htm&#34;&gt;如果决定使用Docker，是否有必要同时使用OpenStack？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/533.html&#34;&gt;深入浅出Docker（一）：Docker核心技术预览&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/534.html&#34;&gt;深入浅出Docker（二）：Docker命令行探秘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/535.html&#34;&gt;深入浅出Docker（三）：Docker开源之路&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/536.html&#34;&gt;深入浅出Docker（四）：Docker的集成测试部署之道&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1026/1532.html&#34;&gt;深入浅出Docker（五）：基于Fig搭建开发环境&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0926/552.html&#34;&gt;Docker源码分析（一）：Docker架构&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1011/619.html&#34;&gt;Docker源码分析(二)：Docker Client创建与命令执行&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1108/2365.html&#34;&gt;Docker源码分析(三)：Docker Daemon启动&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1126/3406.html&#34;&gt;Docker源码分析(四)：Docker Daemon之NewDaemon实现&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1211/3623.html&#34;&gt;Docker源码分析（五）：Docker Server的创建&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/docker-source-code-analysis-part6&#34;&gt;Docker源码分析（六）：Docker Daemon网络&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;开源的私有云方案，OpenStack独大，与之竞争的产品不多。&lt;/p&gt;
-
-&lt;p&gt;Mesos可以在操作系统层面与OpenStack相互结合&lt;/p&gt;
-
-&lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
-
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;多租户和租户隔离 （multi-tenancy and tenancy isolation）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5290855.html&#34;&gt;混合云（Hybrid cloud）支持&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;主流硬件支持、云快速交付 和 SLA 保证&lt;/li&gt;
-&lt;li&gt;大规模扩展性支持&lt;/li&gt;
-&lt;li&gt;私有云外围环境支持（包括支持CDN 、商业SDN控制器、防火墙和VPN/专线等）&lt;/li&gt;
-&lt;li&gt;良好的可使用性（用户和运维 Dashboard 等）&lt;/li&gt;
-&lt;li&gt;向上扩展性（PaaS 和 SaaS 等支撑）&lt;/li&gt;
-&lt;li&gt;企业数据中心IT环境支持（包括裸金属/Bare metal、F5 、GPU、跨云网络连通、租户计费、备份等支持）&lt;/li&gt;
-&lt;li&gt;行业解决方案&lt;/li&gt;
-&lt;li&gt;独立的服务，包括培训、运维等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CloudFoundry
-
-&lt;ul&gt;
-&lt;li&gt;Bluemix采用&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-09-28/2825811&#34;&gt;OpenShift负责人谈PaaS、Docker、Kubernetes及与CloudFoundry的竞争&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/yudar/p/4391535.html&#34;&gt;OpenStack与CloudFoundry简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.oschina.net/translate/openstack-and-cloud-foundry&#34;&gt;OpenStack 和 Cloud Foundry&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Kubernetes（Google开源的Docker容器集群管理系统）
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dockone.io/article/639&#34;&gt;OpenStack, Kubernetes, Mesos 谁主沉浮？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/1970-01-01/2825241&#34;&gt;Google Kubernetes牵手OpenStack 混合云与容器化&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Flynn（基于Docker的PaaS平台）
-
-&lt;ul&gt;
-&lt;li&gt;参考文章：&lt;a href=&#34;http://blog.csdn.net/zhangjun2915/article/details/41266133&#34;&gt;Flynn初探：基于Docker的PaaS平台&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;对比Kubernetes&lt;/li&gt;
-&lt;li&gt;在应用的抽象上，Flynn与Kubernetes有本质的区别：Flynn的应用管 理单元是App，只对应一个Docker镜像，但可以由这个镜像来启动多个进程，并且每个进程可以单独扩缩容；而Kubernetes的应用管理单元是 Pod，可对应多个不同的Docker镜像，并且Pod内的各个容器保证会运行在相同的机器上，整个Pod作为扩缩容的基本单位。&lt;/li&gt;
-&lt;li&gt;另外一个根本的区别是Kubernetes不提供镜像构建与版本管理的功能。因此，Kubernetes只能看成是面向容器而不是面向应用的系统。当然，我们可以在Kubernetes之上扩充这些功能。&lt;/li&gt;
-&lt;li&gt;对比Deis&lt;/li&gt;
-&lt;li&gt;第一，Deis、Flynn是都是采用Go语言开发；&lt;/li&gt;
-&lt;li&gt;第二，Deis完全依赖于CoreOS，而Flynn因为所有组件都可运行在容器里，没有OS的依赖；&lt;/li&gt;
-&lt;li&gt;第三，Deis在构建阶段，除了buildpack方式构建外，还支持Dockerfile与镜像直接上传两种方式，相对Flynn更为灵活。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;轻量级：Flynn、Deis二选一
-
-&lt;ul&gt;
-&lt;li&gt;团队熟悉GO则Flynn、熟悉Python则Deis&lt;/li&gt;
-&lt;li&gt;都属于轻量级Docker方案，适合服务器较少的情景&lt;/li&gt;
-&lt;li&gt;更加适合灵活的定制，同时也意味着生产环境需要考虑运维成本&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;重量级：CloudFoundry
-
-&lt;ul&gt;
-&lt;li&gt;配置较为复杂，初期学习成本相对高&lt;/li&gt;
-&lt;li&gt;较为成熟的重量级PaaS方案，生产环境运维成本低&lt;/li&gt;
-&lt;li&gt;适合服务器集群或更多服务器中使用&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
-
-&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
-
-&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
-&lt;li&gt;网络接入 电信百兆独享&lt;/li&gt;
-&lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
-</description>
+      <description>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp;amp; Docker Predictions for 2016 2016年六大OpenStack &amp;amp; Docker发展趋势预测</description>
     </item>
     
     <item>
@@ -195,46 +36,7 @@
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
-      <description>
-
-&lt;h1 id=&#34;静态演示&#34;&gt;静态演示&lt;/h1&gt;
-
-&lt;h2 id=&#34;github-pages&#34;&gt;Github Pages&lt;/h2&gt;
-
-&lt;p&gt;用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;费用 完全免费&lt;/li&gt;
-&lt;li&gt;个人主页 新建项目xxx/xxx.github.io即可&lt;/li&gt;
-&lt;li&gt;项目主页 项目内 新建分支 gh-pages即可&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.ccom&#34;&gt;https://github.ccom&lt;/a&gt;
-&lt;a href=&#34;https://git.oschina.com&#34;&gt;https://git.oschina.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;服务演示&#34;&gt;服务演示&lt;/h1&gt;
-
-&lt;h2 id=&#34;mopaas&#34;&gt;MoPaaS&lt;/h2&gt;
-
-&lt;p&gt;较新，基于Cloud Foundry封装后的公有云PaaS平台&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;费用 初级应用免费&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;两个项目 以下免费&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;支持项目&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mysql&lt;/li&gt;
-&lt;li&gt;postgresql&lt;/li&gt;
-&lt;li&gt;mongodb&lt;/li&gt;
-&lt;li&gt;redis&lt;/li&gt;
-&lt;li&gt;memcached&lt;/li&gt;
-&lt;li&gt;nfs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.g</description>
     </item>
     
   </channel>
