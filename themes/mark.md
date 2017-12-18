@@ -1,5 +1,9 @@
 # diy by me
-base16-ryn
+- hueman-ryn
+- base16-ryn
+
+# for blog
+- future-imperfect
 
 # for note
 - material-design
