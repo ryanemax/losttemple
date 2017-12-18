@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/index.xml</link>
-    <description>Recent content on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/</link>
+    <description>Recent content on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 14 Feb 2017 12:00:00 +0800</lastBuildDate>
-    <atom:link href="https://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2017 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>未来全栈-技术篇-我的2018技术栈</title>
+      <link>https://cio.anasit.com/dreamstack/2018stack/</link>
+      <pubDate>Mon, 18 Dec 2017 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/dreamstack/2018stack/</guid>
+      <description>原文题目《未来全栈-技术篇-我的2018技术栈》 『我的宝贝们，感谢和你们一起走过的这些年』 夏虫不可以语冰。没有陪同go和angular(ts</description>
+    </item>
+    
+    <item>
+      <title>2017中国大数据产业生态大会——次日下午会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-08-03bdinchina-after/</link>
+      <pubDate>Thu, 03 Aug 2017 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-08-03bdinchina-after/</guid>
+      <description>CPS、云计算、边缘计算在工业智能中的应用探索 北京天泽智云科技有限公司 刘宗长 NSF产学合作智能维护系统研究中心 NSF 产学研中心 工业会员 通过数据分</description>
+    </item>
+    
+    <item>
+      <title>2017中国大数据产业生态大会——大数据投资会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-08-02bdinchina-finance/</link>
+      <pubDate>Wed, 02 Aug 2017 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-08-02bdinchina-finance/</guid>
+      <description>2017中国大数据投资论坛 《智能时代大数据投资热点》 窦勇 达晨创业投资有限公司大数据业务负责人 数据2.0时代的特点和机遇 场景化应用 大数据已经不</description>
+    </item>
+    
+    <item>
+      <title>2017中国大数据产业生态大会——主论坛会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-08-02bdinchina/</link>
+      <pubDate>Wed, 02 Aug 2017 09:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-08-02bdinchina/</guid>
+      <description>2017中国大数据产业生态大会暨中国大数据产业生态联盟周年庆 会议信息 智领先机、数见未来 主办单位 中国电子信息产业发展研究院 承办单位 中国大数据产</description>
+    </item>
+    
+    <item>
+      <title>2017中国大数据应用创新峰会暨数据中国城市行活动会议记录</title>
+      <link>https://cio.anasit.com/meeting/2017-4-26bdinchina/</link>
+      <pubDate>Wed, 26 Apr 2017 20:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2017-4-26bdinchina/</guid>
+      <description>2017中国大数据应用创新峰会暨数据中国城市行活动会议记录 中国大数据产业生态联盟 Big Data Industry Ecological Alliance of China 2017.04.26 青岛 主旨报告——2017年大数据发展趋势 北京</description>
+    </item>
+    
+    <item>
+      <title>Markdown制作书籍出版实践笔记</title>
+      <link>https://cio.anasit.com/study/markdown2book/</link>
+      <pubDate>Fri, 24 Feb 2017 14:07:07 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/markdown2book/</guid>
+      <description>前言 前几篇markdown系列文章中，已经尝试使用pandoc快速制作PPT、PDF、论文等中小篇幅的排版文件，http://pandoc.</description>
+    </item>
+    
+    <item>
+      <title>Bluemix应用快速构建实践体验</title>
+      <link>https://cio.anasit.com/cookbook/backend/bluemix-case/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/bluemix-case/</guid>
+      <description>前言 Mobile+Waston 个人性格分析应用 总评：强势的核心功能 Mobile+IOT 餐厅快速点餐应用 总评：强势的核心功能</description>
+    </item>
     
     <item>
       <title>关于我</title>
@@ -16,63 +81,7 @@
       <pubDate>Tue, 14 Feb 2017 12:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/about/</guid>
-      <description>
-
-&lt;p class=&#34;message&#34;&gt;
-大家好，我叫 刘雨飏，是一名信息科技浪潮之中的创业者。
-&lt;/p&gt;
-
-&lt;h3 id=&#34;我的经历&#34;&gt;我的经历&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2007-2010 xxx&lt;/li&gt;
-&lt;li&gt;2007-2011 xxx&lt;/li&gt;
-&lt;li&gt;2011-2015 xxx&lt;/li&gt;
-&lt;li&gt;2016.11.09 - 至今「Anas IT Inc.」CIO&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;我的技能&#34;&gt;我的技能&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;编程语言：ES6/typescript, Golang, Shell。&lt;/li&gt;
-&lt;li&gt;网站开发：Angular2/Ionic2，RESTful APIs，通常使用 Debian Linux。&lt;/li&gt;
-&lt;li&gt;熟悉 跨平台应用 开发。&lt;/li&gt;
-&lt;li&gt;持续交付、持续部署、DevOps。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;生活中的我&#34;&gt;生活中的我&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Breaking Dance&lt;/li&gt;
-&lt;li&gt;EVE Online&lt;/li&gt;
-&lt;li&gt;美剧&lt;/li&gt;
-&lt;li&gt;心理学&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;系列文章&#34;&gt;系列文章&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#&#34;&gt;xxx系列&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#&#34;&gt;xxx&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;一些链接&#34;&gt;一些链接&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;我的独立博客：&lt;a href=&#34;http://cio.anasit.com&#34;&gt;cio.anasit.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;LinkedIn ：&lt;a href=&#34;https://www.linkedin.com/in/ryanemax&#34;&gt;linkedin.com/in/ryanemax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Facebook：&lt;a href=&#34;https://www.facebook.com/ryanemax&#34;&gt;facebook.com/ryanemax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ryanemax&#34;&gt;github.com/ryanemax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Email：ryanemax@gmail.com(cio@anasit.com)&lt;/li&gt;
-&lt;li&gt;微信号：ryanemax&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;声明&#34;&gt;声明&lt;/h3&gt;
-
-&lt;p&gt;本博客所有文章皆为原创。转载请注明原文链接，并最好与本人联系。谢谢！&lt;/p&gt;
-
-&lt;p&gt;© 2007-2017 刘雨飏@ANAS联盟 - &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>大家好，我叫 刘雨飏，是一名信息科技浪潮之中的创业者。 我的经历 2007-2010 xxx 2007-2011 xxx 2011-2015 xxx 2015.11.09 - 至今「Anas IT Inc.」CIO 我的技能 编程语言：ES6/typ</description>
     </item>
     
     <item>
@@ -81,59 +90,7 @@
       <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/dev/techtree/</guid>
-      <description>
-
-&lt;h1 id=&#34;首款手机游戏的各项选型&#34;&gt;首款手机游戏的各项选型&lt;/h1&gt;
-
-&lt;h1 id=&#34;画面-风格-素材&#34;&gt;画面/风格/素材&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;风格：手绘/像素风&lt;/li&gt;
-&lt;li&gt;画面：2D基准 部分3D特效调优&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dailymonster.ink/&#34;&gt;坚持每日一个手绘怪物&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;游戏类型&#34;&gt;游戏类型&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;暗黑、地牢、Rougelike&lt;/li&gt;
-&lt;li&gt;规则：类DND&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;开发技术&#34;&gt;开发技术&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Unity 3D&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;参考游戏&#34;&gt;参考游戏&lt;/h1&gt;
-
-&lt;h2 id=&#34;高自由度手游&#34;&gt;高自由度手游&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;不可思议的迷宫/地下城物语&lt;/li&gt;
-&lt;li&gt;江湖X&lt;/li&gt;
-&lt;li&gt;符文重生&lt;/li&gt;
-&lt;li&gt;贪婪洞窟&lt;/li&gt;
-&lt;li&gt;Heroes Tactics/无敌英雄 之 梦幻神魔大冒险
-
-&lt;ul&gt;
-&lt;li&gt;公司 Lilith Mobile&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Magic Rush: Heroes
-
-&lt;ul&gt;
-&lt;li&gt;公司 Elex&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;开放源码&#34;&gt;开放源码&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;我叫MT2&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>首款手机游戏的各项选型 画面/风格/素材 风格：手绘/像素风 画面：2D基准 部分3D特效调优 坚持每日一个手绘怪物 游戏类型 暗黑、地牢、Rougeli</description>
     </item>
     
     <item>
@@ -142,28 +99,7 @@
       <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/career/howtoprofile/</guid>
-      <description>
-
-&lt;h1 id=&#34;简历档案&#34;&gt;简历档案&lt;/h1&gt;
-
-&lt;h2 id=&#34;档案书写平台&#34;&gt;档案书写平台&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;领英 简历书写
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/21308578&#34;&gt;如何有效利用 LinkedIn&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;脉脉 职场社交&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;简历生成&#34;&gt;简历生成&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;官方英文简历，导出PDF &lt;a href=&#34;https://www.linkedin.com/help/linkedin/answer/4281/printing-a-profile-and-recommendations?lang=en&#34;&gt;Printing a Profile and Recommendations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;领英API生成H5简历应用开发&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>简历档案 档案书写平台 领英 简历书写 如何有效利用 LinkedIn 脉脉 职场社交 简历生成 官方英文简历，导出PDF Printing a Profile and Recommendations 领英API生成H5简历应用开发</description>
     </item>
     
     <item>
@@ -172,54 +108,7 @@
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/vrar/arplayer/</guid>
-      <description>
-
-&lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
-
-&lt;p&gt;参考：&lt;a href=&#34;https://www.zhihu.com/question/28779933&#34;&gt;https://www.zhihu.com/question/28779933&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;场景
-
-&lt;ul&gt;
-&lt;li&gt;H5 意味着在手机而非 PC 上实现&lt;/li&gt;
-&lt;li&gt;AR 意味着需要获取实时的视频流&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;目前 Web 中实现 AR 都需要开启摄像头（手机具有先天优势），而获取实时视频流的标准就只有 WebRTC。看看支持度：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/323922423e94c7831ffd37b8a10efe70_b.png&#34; alt=&#34;WebRTC&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;简单来说，只有 Android 5 以上才支持，同时还得是原生的 Chrome，而不是各种第三方浏览器。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;条件
-
-&lt;ul&gt;
-&lt;li&gt;Android 5以上&lt;/li&gt;
-&lt;li&gt;原生Chrome浏览器&lt;/li&gt;
-&lt;li&gt;2016.9.20 update&lt;/li&gt;
-&lt;li&gt;手机QQ 微信&lt;/li&gt;
-&lt;li&gt;接入 QQ 浏览器 X5 内核的 Webview&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;假如上面的条件已经满足，接下来有几个库可以实现：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jeromeetienne/threex.webar&#34;&gt;https://github.com/jeromeetienne/threex.webar&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;star 107&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/awe-media/awe.js&#34;&gt;https://github.com/awe-media/awe.js&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;star 486&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933 场景 H5 意味着在手机而非 PC 上实现 AR 意味着</description>
     </item>
     
     <item>
@@ -228,45 +117,7 @@
       <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/tool/bashonwindows/</guid>
-      <description>
-
-&lt;h1 id=&#34;无法启动ssh服务-由于win自带服务冲突&#34;&gt;无法启动SSH服务，由于Win自带服务冲突&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/734&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/734&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;System =&amp;gt; Services =&amp;gt; disable:
-&amp;quot;SSH server proxy&amp;quot;
-&amp;quot;SSH server broker&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;启动ssh后拒绝访问-refuse或connection-closed&#34;&gt;启动ssh后拒绝访问，refuse或connection closed&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/300&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/300&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Actually changing &lt;strong&gt;UsePrivilegeSeparation&lt;/strong&gt; to &lt;strong&gt;no&lt;/strong&gt; in &lt;strong&gt;/etc/ssh/sshd_config&lt;/strong&gt; fixed this issue, and I can fully connect to ssh server&lt;/p&gt;
-
-&lt;h1 id=&#34;关闭bash后-ssh无法继续使用-如何设置ssh自动启动&#34;&gt;关闭bash后，ssh无法继续使用，如何设置ssh自动启动&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/612&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/612&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;进入bash自动启动ssh&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# vim .bash_aliaes
-cd /mnt/d/Users/Ryane
-service ssh start
-zsh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;ln-s-命令出错-快捷方式进入后目录重叠&#34;&gt;ln -s 命令出错，快捷方式进入后目录重叠&lt;/h1&gt;
-
-&lt;p&gt;BashOnWindows symbolic link can&amp;rsquo;t work.&lt;/p&gt;
-
-&lt;h1 id=&#34;npm-fs-watch问题-error&#34;&gt;npm fs-watch问题 Error&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/216&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/216&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Microsoft/BashOnWindows/issues/396&#34;&gt;https://github.com/Microsoft/BashOnWindows/issues/396&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734 System =&amp;gt; Services =&amp;gt; disable: &amp;quot;SSH server proxy&amp;quot; &amp;quot;SSH server broker&amp;quot; 启动ssh后拒绝访问，refuse或connection closed https://github.com/Microsoft/BashOnWindows/issues/300 Actually changing UsePrivilegeSeparation to no in /etc/ssh/sshd_config</description>
     </item>
     
     <item>
@@ -275,29 +126,7 @@ zsh
       <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/frontend/ng2-universal/</guid>
-      <description>
-
-&lt;h1 id=&#34;ng2-universal基础&#34;&gt;ng2-universal基础&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/angular/universal&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1q6g9UlmEZDXgrkY88AJZ6MUrUxcnwhBGS0EXbVlYicY/edit&#34;&gt;Design Doc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.angular-university.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/&#34;&gt;Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://builtvisible.com/universal-angular-2-server-side-rendering-seo-crawl-friendliness/&#34;&gt;Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Modules Universal&lt;/p&gt;
-
-&lt;p&gt;Manage your application lifecycle and serialize changes while on the server to be sent to the client.&lt;/p&gt;
-
-&lt;h1 id=&#34;ionic2整合universal&#34;&gt;ionic2整合universal&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&#34;&gt;https://forum.ionicframework.com/t/support-for-angular-universal/49103/2&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;与Ionic2中dom.js冲突&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>ng2-universal基础 Github Design Doc Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2 Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness Modules Universal Manage your application lifecycle and serialize changes while on the server to be sent to the client. ionic2整</description>
     </item>
     
     <item>
@@ -306,81 +135,7 @@ zsh
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/frontend/ng2-wechat/</guid>
-      <description>
-
-&lt;h1 id=&#34;参考文章&#34;&gt;参考文章&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://forum.ionicframework.com/t/ionic2-app-cant-run-in-wechats-browser-of-android/47321&#34;&gt;Ionic2-app can’t run in wechat’s browser of android&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/41020291&#34;&gt;angular2应用在安卓版微信内无法正常运行?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ionic2框架&#34;&gt;ionic2框架&lt;/h1&gt;
-
-&lt;h2 id=&#34;测试规范参考&#34;&gt;测试规范参考&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;示例程序：ionic-conference-app【待替换】&lt;/li&gt;
-&lt;li&gt;浏览器环境
-
-&lt;ul&gt;
-&lt;li&gt;iOS&lt;/li&gt;
-&lt;li&gt;正常 默认浏览器&lt;/li&gt;
-&lt;li&gt;正常 微信浏览器&lt;/li&gt;
-&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
-&lt;li&gt;【待测】火狐&lt;/li&gt;
-&lt;li&gt;【待测】谷歌&lt;/li&gt;
-&lt;li&gt;Android&lt;/li&gt;
-&lt;li&gt;正常 默认浏览器&lt;/li&gt;
-&lt;li&gt;正常 微信浏览器&lt;/li&gt;
-&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
-&lt;li&gt;【待测】火狐&lt;/li&gt;
-&lt;li&gt;【待测】谷歌&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;最新版本测试&#34;&gt;最新版本测试&lt;/h2&gt;
-
-&lt;h3 id=&#34;测试-ionic-beta35&#34;&gt;测试 ionic@beta35&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;iOS
-
-&lt;ul&gt;
-&lt;li&gt;正常 默认浏览器&lt;/li&gt;
-&lt;li&gt;正常 微信浏览器&lt;/li&gt;
-&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
-&lt;li&gt;【待测】火狐&lt;/li&gt;
-&lt;li&gt;【待测】谷歌&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Android
-
-&lt;ul&gt;
-&lt;li&gt;正常 默认浏览器&lt;/li&gt;
-&lt;li&gt;正常 微信浏览器&lt;/li&gt;
-&lt;li&gt;正常 QQ浏览器&lt;/li&gt;
-&lt;li&gt;【待测】火狐&lt;/li&gt;
-&lt;li&gt;【待测】谷歌&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;测试-angular2-beta14&#34;&gt;测试 angular2@beta14&lt;/h3&gt;
-
-&lt;p&gt;最新webpack-quick-starter,angular2版本beta14可以在微信打开。
-但是当使用http调用ajax请求时,会报一个找不到open方法的错。
-可以使用QQ浏览器上的微信调试插件看到报错日志&lt;/p&gt;
-
-&lt;h3 id=&#34;旧版测试&#34;&gt;旧版测试&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Android
-
-&lt;ul&gt;
-&lt;li&gt;异常 微信浏览器&lt;/li&gt;
-&lt;li&gt;原因分析：安卓版微信浏览器，不支持ES6，需要import库babel-polyfill&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>参考文章 Ionic2-app can’t run in wechat’s browser of android angular2应用在安卓版微信内无法正常运行? ionic2框架 测试规范参考 示例程序：ioni</description>
     </item>
     
     <item>
@@ -389,75 +144,16 @@ zsh
       <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/parse-learn/</guid>
-      <description>
-
-&lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;系统环境
-
-&lt;ul&gt;
-&lt;li&gt;npm&lt;/li&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;服务端
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-server&#34;&gt;parse-server&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;mongodb&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;管理端
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ParsePlatform/parse-dashboard&#34;&gt;parse-dashboard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;学习参考&#34;&gt;学习参考&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;客户端文档 &lt;a href=&#34;https://parseplatform.github.io&#34;&gt;https://parseplatform.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;REST文档 &lt;a href=&#34;https://parseplatform.github.io/docs/rest/guide/&#34;&gt;https://parseplatform.github.io/docs/rest/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JS文档 &lt;a href=&#34;https://parseplatform.github.io/docs/js/guide/&#34;&gt;https://parseplatform.github.io/docs/js/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PHP文档 &lt;a href=&#34;https://parseplatform.github.io/docs/php/guide/&#34;&gt;https://parseplatform.github.io/docs/php/guide/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;服务端文档 &lt;a href=&#34;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&#34;&gt;https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;server&#34;&gt;Server&lt;/h1&gt;
-</description>
+      <description>准备环境 系统环境 npm nodejs 服务端 parse-server mongodb 管理端 parse-dashboard 学习参考 客户端文档 https://parseplatform.github.io REST文档 https://parseplatform.github.io/docs/rest/guide/ JS文档 https://parseplatform.github.io/docs/js/guide/ PHP文档 https://parseplatform.github.io/docs/php/guide/ 服务端文档 https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide Server</description>
     </item>
     
     <item>
-      <title>Bluemix中可替代BaaS的服务及介绍</title>
+      <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
       <link>https://cio.anasit.com/cookbook/backend/bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/bluemix/</guid>
-      <description>
-
-&lt;h1 id=&#34;对比parse-com&#34;&gt;对比Parse.com&lt;/h1&gt;
-
-&lt;h2 id=&#34;数据curd服务-mobile-application-content-manager&#34;&gt;数据CURD服务：Mobile Application Content Manager&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/ContentItem.png&#34;&gt;Cate&lt;/a&gt;
-&lt;a href=&#34;http://macm-servicebrokerapp.mybluemix.net/screenshots/Template.png&#34;&gt;Content&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;功能对比，功能完善度不如parse&lt;/li&gt;
-&lt;li&gt;价格对比，性价比不如parse&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;| -     | 功能 | 价格 |
-| :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :- |
-| 免费套餐  | 无 | 无 |
-| 基本套餐  | 一百万次 API 调用 | US$ 500.00 USD/百万 API 调用 |
-| - | 一千条内容项 | US$ 500.00 USD/千条内容项 |
-| - | 十个授权用户 | US$ 50.00 USD/十个授权用户 |&lt;/p&gt;
-</description>
+      <description>前言 IOT 总评：强势的核心功能 Waston 总评：强势的核心功能 Mobile 总评：弱势但不乏亮点 Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，</description>
     </item>
     
     <item>
@@ -466,60 +162,7 @@ zsh
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/parse-server-on-bluemix/</guid>
-      <description>
-
-&lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix/&#34;&gt;Parse on IBM Bluemix&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.ibm.com/bluemix/2016/02/01/migrating-from-parse-to-bluemix/&#34;&gt;Migrating from Parse to Bluemix&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/35466853/parse-server-migration-to-ibm-bluemix&#34;&gt;Parse server migration to IBM bluemix&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;自动配置步骤&#34;&gt;自动配置步骤&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git
-cf push Your-App-Name-On-Bluemix
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;手动配置步骤&#34;&gt;手动配置步骤&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;注册Bluemix账号 &lt;a href=&#34;http://bluemix.net&#34;&gt;http://bluemix.net&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;创建Cloud Foundry应用
-
-&lt;ul&gt;
-&lt;li&gt;选择Web Application&lt;/li&gt;
-&lt;li&gt;但不选择任何移动服务（Mobile Client Access等）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;选择SDK for Node.js
-
-&lt;ul&gt;
-&lt;li&gt;APP Name 起名 parse-on-bluemix&lt;/li&gt;
-&lt;li&gt;点击完成/FINISH&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;创建MongoDB实例（或直接使用已有数据库）
-
-&lt;ul&gt;
-&lt;li&gt;在parse-on-bluemix中选择，ADD A SERVICE OR API&lt;/li&gt;
-&lt;li&gt;寻找分类 Data and Analytics&lt;/li&gt;
-&lt;li&gt;选择新建 MongoDB by Compose&lt;/li&gt;
-&lt;li&gt;按需配置&lt;/li&gt;
-&lt;li&gt;本文不详细介绍数据库配置&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;配置parse-server环境变量
-
-&lt;ul&gt;
-&lt;li&gt;进入CloudFoundry选择已有应用&lt;/li&gt;
-&lt;li&gt;Environment  Varieties&lt;/li&gt;
-&lt;li&gt;选择USER-DEFINED，具体参数参照Parse使用文档&lt;/li&gt;
-&lt;li&gt;APP_ID xxxxxxx&lt;/li&gt;
-&lt;li&gt;MASTER_KEY xxxxxxx&lt;/li&gt;
-&lt;li&gt;PARSE_MOUNT /parse-server&lt;/li&gt;
-&lt;li&gt;REST_KEY xxxxxxx&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>参考资料 Parse on IBM Bluemix Migrating from Parse to Bluemix Parse server migration to IBM bluemix 自动配置步骤 git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git cf push Your-App-Name-On-Bluemix 手动配置步骤 注册Bluemix账号 http://bluemix.net 创建Cloud Foundry应用 选择Web</description>
     </item>
     
     <item>
@@ -528,65 +171,7 @@ cf push Your-App-Name-On-Bluemix
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
-      <description>
-
-&lt;h1 id=&#34;会议简介&#34;&gt;会议简介&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;会议主题
-
-&lt;ul&gt;
-&lt;li&gt;因专属更自如——IBM Bluemix 云端体验之旅&lt;/li&gt;
-&lt;li&gt;IBM Bluemix Dedicated&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;主办单位
-
-&lt;ul&gt;
-&lt;li&gt;世纪互联集团有限公司&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;bluemix中国研究院demo演示&#34;&gt;Bluemix中国研究院Demo演示&lt;/h1&gt;
-
-&lt;h2 id=&#34;定制化图片分类器服务&#34;&gt;定制化图片分类器服务&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;我的任务
-
-&lt;ul&gt;
-&lt;li&gt;新建任务-选择数据集-准确优先/精度优先&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;我的数据集
-
-&lt;ul&gt;
-&lt;li&gt;从示例数据集拷贝，用于尝试训练&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;我的训练模型&lt;/li&gt;
-&lt;li&gt;我的API&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;训练定制图片识别服务&lt;/li&gt;
-&lt;li&gt;CloudFoundry新建一个Demo&lt;/li&gt;
-&lt;li&gt;调用对应API构建应用&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;移动消息连接服务-快速连接微信与应用&#34;&gt;移动消息连接服务：快速连接微信与应用&lt;/h2&gt;
-
-&lt;p&gt;连接Bluemix应用于微信&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;随着移动即时消息通讯工具普及，企业越来越重视利用其服务号建立交互式消息应用实现与客户的交互，提供客户服务，甚至完成销售过程。&lt;/li&gt;
-&lt;li&gt;Bluemix China上的移动消息连接服务提供了一种连接微信的能力&lt;/li&gt;
-&lt;li&gt;打开移动消息应用的认知能力大门，连接Bluemix图片识别，中文问答，中文语音识别、中文舆情分析等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;中网微信购票服务&#34;&gt;中网微信购票服务&lt;/h3&gt;
-
-&lt;p&gt;5天，服务4800人购票，观众线上购票线下取票&lt;/p&gt;
-
-&lt;p&gt;中网微信公众订阅号=&amp;gt;移动消息连接服务=&amp;gt;客户服务助手=&amp;gt;CloudFoundry&lt;/p&gt;
-</description>
+      <description>会议简介 会议主题 因专属更自如——IBM Bluemix 云端体验之旅 IBM Bluemix Dedicated 主办单位 世纪互联集团有限公司 Bluemix中国研究院Demo演示 定制化图片分类器服</description>
     </item>
     
     <item>
@@ -595,297 +180,7 @@ cf push Your-App-Name-On-Bluemix
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
-      <description>
-
-&lt;h1 id=&#34;零-前言&#34;&gt;零、前言&lt;/h1&gt;
-
-&lt;p&gt;本文针对二三线城市&lt;strong&gt;中小型企业信息化&lt;/strong&gt;现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。&lt;/p&gt;
-
-&lt;p&gt;主体分为四大章节
-- 企业信息化的市场前景
-- 消灭信息不对等！
-- 中小企业如何顺利进行信息化转型？
-- 安纳斯在江西区域发展策略&lt;/p&gt;
-
-&lt;p&gt;以及2个具体的实施案例
-- 案例1：江西某旅游集团信息化转型
-- 案例2：湖南某市九县三区民政养老信息化转型&lt;/p&gt;
-
-&lt;h1 id=&#34;一-企业信息化的市场前景&#34;&gt;一、企业信息化的市场前景&lt;/h1&gt;
-
-&lt;h2 id=&#34;企业信息化技术的发展&#34;&gt;企业信息化技术的发展&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2000-2008
-
-&lt;ul&gt;
-&lt;li&gt;自建机房&lt;/li&gt;
-&lt;li&gt;IDC托管&lt;/li&gt;
-&lt;li&gt;门户网站、OA、ERP&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;2009 各大公司陆续发布公有IaaS服务&lt;/li&gt;
-&lt;li&gt;2012 云计算时代的&lt;strong&gt;PaaS&lt;/strong&gt;元年
-
-&lt;ul&gt;
-&lt;li&gt;Hadoop、MapReduce被IBM、亚马逊、谷歌、和微软等财力雄厚的PaaS提供商封装成预制服务&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;2015
-
-&lt;ul&gt;
-&lt;li&gt;全面融入IT领域的&lt;strong&gt;容器技术&lt;/strong&gt;元年&lt;/li&gt;
-&lt;li&gt;Windows Server 2016将为Docker类容器技术提供支持&lt;/li&gt;
-&lt;li&gt;OpenStack、CloudFoundry等Linux巨头，也在重新对其产品线中的某些核心组件进行调整&lt;/li&gt;
-&lt;li&gt;2015年中国企业级SaaS市场规模将达到199.3亿元，这是一个正经历着裂变式高速增长的市场&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;2016 变革从此爆发
-
-&lt;ul&gt;
-&lt;li&gt;预计2016年中国企业级SaaS市场规模将超过300亿元人民币&lt;/li&gt;
-&lt;li&gt;混合云 IBM Bluemix 中国区将正式发布&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://d1fto35gcfffzn.cloudfront.net/images/products/pivotal-cloud-foundry/cloud-native-diagram-azure.png&#34; alt=&#34;CloudFondry&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;待整理-国内混合云市场前景&#34;&gt;（待整理）国内混合云市场前景&lt;/h2&gt;
-
-&lt;h2 id=&#34;待整理-江西混合云市场前景&#34;&gt;（待整理）江西混合云市场前景&lt;/h2&gt;
-
-&lt;h2 id=&#34;中小企业信息化的需求&#34;&gt;中小企业信息化的需求&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;互联网技术革新速度不断加速，二三线城市还未跟上步伐&lt;/li&gt;
-&lt;li&gt;企业信息系统，该选择私有云还是公有云？
-
-&lt;ul&gt;
-&lt;li&gt;如果公有云，该选择IBM、AWS还是国内服务商？&lt;/li&gt;
-&lt;li&gt;如果私有云，该选择私有云IDC托管还是自建机房？&lt;/li&gt;
-&lt;li&gt;企业云资源虚拟化，该选择OpenStack还是Docker？
-
-&lt;ul&gt;
-&lt;li&gt;OpenStack该选择自建服务器集群，还是统一托管至IDC？&lt;/li&gt;
-&lt;li&gt;Docker管理的PaaS级方案，该选择CloudFoundry、Kubernetes、Deis还是Flynn？&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这些头疼无比的选择，正反映了中小型企业信息化的现状：信息不对等，导致了中小型企业难接触飞速发展的企业信息化技术。&lt;/p&gt;
-
-&lt;h1 id=&#34;二-消灭信息不对等&#34;&gt;二、消灭信息不对等！&lt;/h1&gt;
-
-&lt;h2 id=&#34;消灭常见认知误区&#34;&gt;消灭常见认知误区&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;十年前，建设一个门户就是企业信息化&lt;/li&gt;
-&lt;li&gt;现在，做一个公众号，发布一款APP就是企业信息化&lt;/li&gt;
-&lt;li&gt;只要有WEB，拼凑几个智能硬件，就是互联网+项目&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;消灭成本预估误区&#34;&gt;消灭成本预估误区&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;公司策划的项目很好，只差一个程序员
-
-&lt;ul&gt;
-&lt;li&gt;对系统&lt;strong&gt;需求不明确&lt;/strong&gt;，导致资金预算与预期成果严重不符&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;请一个软件外包团队，几个月就能做完项目
-
-&lt;ul&gt;
-&lt;li&gt;对系统上线&lt;strong&gt;运维成本不了解&lt;/strong&gt;，导致项目难以持续迭代&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;案例1-江西某旅游集团信息化转型&#34;&gt;案例1：江西某旅游集团信息化转型&lt;/h2&gt;
-
-&lt;h3 id=&#34;关键工具&#34;&gt;关键工具&lt;/h3&gt;
-
-&lt;h4 id=&#34;ibm-api-connect&#34;&gt;IBM API Connect&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;安全地打通现有的信息数据&lt;/li&gt;
-&lt;li&gt;可视化API构建集成&lt;/li&gt;
-&lt;li&gt;Swagger2.0规范标准&lt;/li&gt;
-&lt;li&gt;API使用统计分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/design.png&#34; alt=&#34;apiconnect0&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/source.png&#34; alt=&#34;apiconnect1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://servicebroker.service.us.apiconnect.ibmcloud.com/images/catalog/analytics.png&#34; alt=&#34;apiconnect2&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;项目背景&#34;&gt;项目背景&lt;/h3&gt;
-
-&lt;p&gt;2015.4月，该旅游集团互联网+旅游产品与2015年1月开始已上线一个季度，由一家小型非技术型公司来外包完成产品开发。平台前期设计开发过于仓促，上线运营缺少维护支持以及全方位测试。导致了其正式上线运营后劲不足，影响到集团线下战略发展。&lt;/p&gt;
-
-&lt;h3 id=&#34;危机分析&#34;&gt;危机分析&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/原运营情况.png&#34; alt=&#34;原运营情况&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;拥有200家子公司，但集团内部信息化系统杂乱
-
-&lt;ul&gt;
-&lt;li&gt;新员工入职需要先学习五种系统，日志汇报系统、财务审批系统、旅游产品系统、客户管理系统、微信商城系统&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;各子系统的交接环节，完全使用&lt;strong&gt;人工手动&lt;/strong&gt;统计与交接&lt;/li&gt;
-&lt;li&gt;线上产品经测试后漏洞较多，导致关键业务需要重构&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;提供支持&#34;&gt;提供支持&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/平台2.0系统.png&#34; alt=&#34;优化后系统&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;重构微平台关键业务——旅游产品商城，对接财务报表系统&lt;/li&gt;
-&lt;li&gt;对接集团内部信息系统，部分打通API，部分子系统直接重构&lt;/li&gt;
-&lt;li&gt;优化线上产品自动化部署及自动化运维策略&lt;/li&gt;
-&lt;li&gt;设计平台全套RESTful APIs，提供信息化数据微服务&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;成果&#34;&gt;成果&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;大幅度减少集团原有的人力资源浪费（信息化及自动化）&lt;/li&gt;
-&lt;li&gt;利于项目维护及后续扩展开发（基于RESTful重构后的线上产品数据接口）&lt;/li&gt;
-&lt;li&gt;为该集团提供技术岗位招聘需求，及产品迭代运维方案&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;二三线城市软件危机-主要原因归纳&#34;&gt;二三线城市软件危机，主要原因归纳&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;服务方：小型作坊过多，中小型软件外包服务公司不规范
-
-&lt;ul&gt;
-&lt;li&gt;人才难以寻求，二三线城市互联网技术人才紧缺。&lt;/li&gt;
-&lt;li&gt;成本难以压缩，小型公司外包业务利润率，仅有30%。&lt;/li&gt;
-&lt;li&gt;领头人非技术出身，技术策略偏重重复生产，而非技术革新&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;企业方：采购SaaS服务接口开放度不高，或企业内无人进行信息整合
-
-&lt;ul&gt;
-&lt;li&gt;SaaS服务兴起，但多为通用模板，定制化较少&lt;/li&gt;
-&lt;li&gt;缺少合适的技术人才，进行信息整合优化&lt;/li&gt;
-&lt;li&gt;中小企业（非互联网领域）信息技术投入多为负支出，所带来成果难以见效&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;三-中小企业如何顺利进行信息化转型&#34;&gt;三、中小企业如何顺利进行信息化转型？&lt;/h1&gt;
-
-&lt;h2 id=&#34;1-混合云对中小企业快速实现信息化转型的影响&#34;&gt;1.混合云对中小企业快速实现信息化转型的影响&lt;/h2&gt;
-
-&lt;h3 id=&#34;采用敏捷实践-改变中小型企业构建软件的传统方式&#34;&gt;采用敏捷实践——改变中小型企业构建软件的传统方式&lt;/h3&gt;
-
-&lt;p&gt;有人评论说：&amp;rdquo;针对目前国内情况，DevOps还是很遥远。也许只有行业顶尖的公司，或者新成立的公司会有这样的尝试。大多数的企业还未开始进行敏捷的推进，传统的重重阻碍会使敏捷的推进进程遥遥无期。&amp;rdquo; DevOps真的离我们有那么远吗？DevOps应该从哪里开始呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://img.anasit.com/uploads/2016/07/cloudfoundrycert.jpg&#34; alt=&#34;cfcert&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.wenwenyun.com/uploads/allimg/140924/12222031D-0.png&#34; alt=&#34;agile&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;持续部署和交付&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;利用专为缩减时间和降低管理运营成本而设计的平台，缩短软件交付周期。
-- DevOps&lt;/p&gt;
-
-&lt;p&gt;营造一个充满信赖、文化强大的结构性平台去服务企业连接需求和实施，事半功倍。&lt;/p&gt;
-
-&lt;h3 id=&#34;云上的devops-选用合适的混合云集成方案&#34;&gt;云上的DevOps——选用合适的混合云集成方案&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;原型测试阶段
-
-&lt;ul&gt;
-&lt;li&gt;公有云——IBM Bluemix Public&lt;/li&gt;
-&lt;li&gt;适用于：小型规模应用，或测试期产品&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;公测迭代阶段
-
-&lt;ul&gt;
-&lt;li&gt;私有托管——IBM Bluemix Dedicated&lt;/li&gt;
-&lt;li&gt;适用于：用户规模较大，注重数据独立性与可靠性，需要硬件独立的私有环境&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;大规模发布阶段
-
-&lt;ul&gt;
-&lt;li&gt;私有部署——IBM Bluemix Local&lt;/li&gt;
-&lt;li&gt;适用于：公司有专业运维部门，对IaaS或PaaS层有一定的定制需求&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;案例2-待整理-湖南某市九县三区民政养老信息化转型&#34;&gt;案例2（待整理）：湖南某市九县三区民政养老信息化转型&lt;/h2&gt;
-
-&lt;h3 id=&#34;关键工具-1&#34;&gt;关键工具&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker+Parse
-
-&lt;ul&gt;
-&lt;li&gt;IBM Bluemix替代方案&lt;/li&gt;
-&lt;li&gt;Mobile Application Content Manager&lt;/li&gt;
-&lt;li&gt;Push Notifications&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;API Connect&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;项目背景-1&#34;&gt;项目背景&lt;/h3&gt;
-
-&lt;h3 id=&#34;危机分析-1&#34;&gt;危机分析&lt;/h3&gt;
-
-&lt;h3 id=&#34;提供支持-1&#34;&gt;提供支持&lt;/h3&gt;
-
-&lt;h2 id=&#34;3-二三线城市软件服务将重新洗牌&#34;&gt;3.二三线城市软件服务将重新洗牌&lt;/h2&gt;
-
-&lt;h3 id=&#34;服务方与企业方&#34;&gt;服务方与企业方&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;小作坊惨遭淘汰，或在压力中转型成为与云接轨的合格服务商&lt;/li&gt;
-&lt;li&gt;具有一定规模的传统软件服务商，将面临尴尬的局面，喜忧参半
-
-&lt;ul&gt;
-&lt;li&gt;威胁&lt;/li&gt;
-&lt;li&gt;较为“老龄化”的技术团队&lt;/li&gt;
-&lt;li&gt;难以迭代的技术债务&lt;/li&gt;
-&lt;li&gt;新技术创业公司的冲击&lt;/li&gt;
-&lt;li&gt;机遇&lt;/li&gt;
-&lt;li&gt;老客户的更新迭代需求&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;互联网技术岗位需求增加，技术交流氛围提升，人才普遍水平上升&lt;/li&gt;
-&lt;li&gt;信息化将成为传统公司必经之路
-
-&lt;ul&gt;
-&lt;li&gt;较早探索转型的企业，初期会面临诸多实验性成本投入&lt;/li&gt;
-&lt;li&gt;可成功信息化转型的企业，其企业发展必然会受到增幅&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;企业真正需要的是信息化的全方位服务，而不仅仅是软件开发外包&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;大型信息科技公司&#34;&gt;大型信息科技公司&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;制定规则
-
-&lt;ul&gt;
-&lt;li&gt;成为推动与云接轨的&lt;strong&gt;软件服务标准流程及制度&lt;/strong&gt;产生与发展的&lt;strong&gt;关键力量&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;拥抱开发者
-
-&lt;ul&gt;
-&lt;li&gt;自身更加注重IaaS及PaaS服务的建设，将鼓励开发者自成生态圈，在其标准及服务上进行SaaS的开发&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;整合数据（DT时代）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;四-待整理-安纳斯在江西区域发展策略&#34;&gt;四、（待整理）安纳斯在江西区域发展策略&lt;/h1&gt;
-
-&lt;h2 id=&#34;期待bluemix落地中国-以便更好地服务国内用户&#34;&gt;期待Bluemix落地中国，以便更好地服务国内用户&lt;/h2&gt;
-
-&lt;h2 id=&#34;期待garage空降江西-以便推动云devops人才的培养&#34;&gt;期待Garage空降江西，以便推动云DevOps人才的培养&lt;/h2&gt;
-
-&lt;h2 id=&#34;期待江西的中小型企业-快速脱离传统软件危机的深渊&#34;&gt;期待江西的中小型企业，快速脱离传统软件危机的深渊&lt;/h2&gt;
-</description>
+      <description>零、前言 本文针对二三线城市中小型企业信息化现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。 主体分为四大章节 - 企业信息化的市场前</description>
     </item>
     
     <item>
@@ -894,130 +189,7 @@ cf push Your-App-Name-On-Bluemix
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/paas/</guid>
-      <description>
-
-&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
-
-&lt;h2 id=&#34;iaas现状-裸机docker-openstack服务&#34;&gt;IaaS现状（裸机Docker+OpenStack服务）&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;OpenStack
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://getcloudify.org/2015/12/26/openstack-docker-kubernetes-hybrid-cloud-nfv-orchestration-mano-etsi-cloudify.html&#34;&gt;6 OpenStack &amp;amp; Docker Predictions for 2016&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2016-01/126953.htm&#34;&gt;2016年六大OpenStack &amp;amp; Docker发展趋势预测&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.linuxidc.com/Linux/2013-08/88186.htm&#34;&gt;OpenStack云计算快速入门教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5596&#34;&gt;Pt. 3 – OpenStack与大厂硬件及新兴开源技术的结合&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.openstack.cn/?p=5600&#34;&gt;OpenStack+NFV 推动电信行业技术变革&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Mesos&lt;/li&gt;
-&lt;li&gt;Docker
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.lupaworld.com/article-241959-1.html&#34;&gt;Docker已扎根新一代PaaS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cloud.51cto.com/art/201411/458342.htm&#34;&gt;如果决定使用Docker，是否有必要同时使用OpenStack？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/533.html&#34;&gt;深入浅出Docker（一）：Docker核心技术预览&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/534.html&#34;&gt;深入浅出Docker（二）：Docker命令行探秘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/535.html&#34;&gt;深入浅出Docker（三）：Docker开源之路&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0924/536.html&#34;&gt;深入浅出Docker（四）：Docker的集成测试部署之道&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1026/1532.html&#34;&gt;深入浅出Docker（五）：基于Fig搭建开发环境&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/0926/552.html&#34;&gt;Docker源码分析（一）：Docker架构&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1011/619.html&#34;&gt;Docker源码分析(二)：Docker Client创建与命令执行&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1108/2365.html&#34;&gt;Docker源码分析(三)：Docker Daemon启动&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1126/3406.html&#34;&gt;Docker源码分析(四)：Docker Daemon之NewDaemon实现&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wenwenyun.com/a/tip/2014/1211/3623.html&#34;&gt;Docker源码分析（五）：Docker Server的创建&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/docker-source-code-analysis-part6&#34;&gt;Docker源码分析（六）：Docker Daemon网络&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;开源的私有云方案，OpenStack独大，与之竞争的产品不多。&lt;/p&gt;
-
-&lt;p&gt;Mesos可以在操作系统层面与OpenStack相互结合&lt;/p&gt;
-
-&lt;p&gt;Docker可以在资源虚拟化层面与OpenStack相互辅助&lt;/p&gt;
-
-&lt;h2 id=&#34;iaas企业私有云需求深度挖掘&#34;&gt;IaaS企业私有云需求深度挖掘&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5181992.html&#34;&gt;自动扩展（Auto-scaling）支持&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;多租户和租户隔离 （multi-tenancy and tenancy isolation）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5290855.html&#34;&gt;混合云（Hybrid cloud）支持&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;主流硬件支持、云快速交付 和 SLA 保证&lt;/li&gt;
-&lt;li&gt;大规模扩展性支持&lt;/li&gt;
-&lt;li&gt;私有云外围环境支持（包括支持CDN 、商业SDN控制器、防火墙和VPN/专线等）&lt;/li&gt;
-&lt;li&gt;良好的可使用性（用户和运维 Dashboard 等）&lt;/li&gt;
-&lt;li&gt;向上扩展性（PaaS 和 SaaS 等支撑）&lt;/li&gt;
-&lt;li&gt;企业数据中心IT环境支持（包括裸金属/Bare metal、F5 、GPU、跨云网络连通、租户计费、备份等支持）&lt;/li&gt;
-&lt;li&gt;行业解决方案&lt;/li&gt;
-&lt;li&gt;独立的服务，包括培训、运维等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/sammyliu/p/5179414.html&#34;&gt;OpenStack企业私有云新需求（1）：Nova 虚机支持 GPU&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;paas现状&#34;&gt;PaaS现状&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CloudFoundry
-
-&lt;ul&gt;
-&lt;li&gt;Bluemix采用&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-09-28/2825811&#34;&gt;OpenShift负责人谈PaaS、Docker、Kubernetes及与CloudFoundry的竞争&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/yudar/p/4391535.html&#34;&gt;OpenStack与CloudFoundry简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.oschina.net/translate/openstack-and-cloud-foundry&#34;&gt;OpenStack 和 Cloud Foundry&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Kubernetes（Google开源的Docker容器集群管理系统）
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dockone.io/article/639&#34;&gt;OpenStack, Kubernetes, Mesos 谁主沉浮？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.csdn.net/article/1970-01-01/2825241&#34;&gt;Google Kubernetes牵手OpenStack 混合云与容器化&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Flynn（基于Docker的PaaS平台）
-
-&lt;ul&gt;
-&lt;li&gt;参考文章：&lt;a href=&#34;http://blog.csdn.net/zhangjun2915/article/details/41266133&#34;&gt;Flynn初探：基于Docker的PaaS平台&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;对比Kubernetes&lt;/li&gt;
-&lt;li&gt;在应用的抽象上，Flynn与Kubernetes有本质的区别：Flynn的应用管 理单元是App，只对应一个Docker镜像，但可以由这个镜像来启动多个进程，并且每个进程可以单独扩缩容；而Kubernetes的应用管理单元是 Pod，可对应多个不同的Docker镜像，并且Pod内的各个容器保证会运行在相同的机器上，整个Pod作为扩缩容的基本单位。&lt;/li&gt;
-&lt;li&gt;另外一个根本的区别是Kubernetes不提供镜像构建与版本管理的功能。因此，Kubernetes只能看成是面向容器而不是面向应用的系统。当然，我们可以在Kubernetes之上扩充这些功能。&lt;/li&gt;
-&lt;li&gt;对比Deis&lt;/li&gt;
-&lt;li&gt;第一，Deis、Flynn是都是采用Go语言开发；&lt;/li&gt;
-&lt;li&gt;第二，Deis完全依赖于CoreOS，而Flynn因为所有组件都可运行在容器里，没有OS的依赖；&lt;/li&gt;
-&lt;li&gt;第三，Deis在构建阶段，除了buildpack方式构建外，还支持Dockerfile与镜像直接上传两种方式，相对Flynn更为灵活。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;paas选型及适用范围&#34;&gt;PaaS选型及适用范围&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;轻量级：Flynn、Deis二选一
-
-&lt;ul&gt;
-&lt;li&gt;团队熟悉GO则Flynn、熟悉Python则Deis&lt;/li&gt;
-&lt;li&gt;都属于轻量级Docker方案，适合服务器较少的情景&lt;/li&gt;
-&lt;li&gt;更加适合灵活的定制，同时也意味着生产环境需要考虑运维成本&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;重量级：CloudFoundry
-
-&lt;ul&gt;
-&lt;li&gt;配置较为复杂，初期学习成本相对高&lt;/li&gt;
-&lt;li&gt;较为成熟的重量级PaaS方案，生产环境运维成本低&lt;/li&gt;
-&lt;li&gt;适合服务器集群或更多服务器中使用&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;docker部署&#34;&gt;Docker部署&lt;/h1&gt;
-
-&lt;h1 id=&#34;openstack部署&#34;&gt;OpenStack部署&lt;/h1&gt;
-
-&lt;h2 id=&#34;公司环境参数&#34;&gt;公司环境参数&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;服务器 Dell PowerEdge T110 II&lt;/li&gt;
-&lt;li&gt;网络接入 电信百兆独享&lt;/li&gt;
-&lt;li&gt;操作系统 &lt;a href=&#34;http://www.zdnet.com/article/openstacks-top-operating-system-ubuntu-linux/&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;cloud-foundry部署&#34;&gt;Cloud Foundry部署&lt;/h1&gt;
-</description>
+      <description>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp;amp; Docker Predictions for 2016 2016年六大OpenStack &amp;amp; Docker发展趋势预测</description>
     </item>
     
     <item>
@@ -1026,47 +198,7 @@ cf push Your-App-Name-On-Bluemix
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/backend/iaas-DomainToMultiVPS/</guid>
-      <description>
-
-&lt;h1 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;可通过域名转发过滤&lt;/li&gt;
-&lt;li&gt;可代理服务类型不限&lt;/li&gt;
-&lt;li&gt;针对HTTP、HTTPS等特定服务提供更强支持&lt;/li&gt;
-&lt;li&gt;nginx-rtmp-module插件可代理视频流媒体服务&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;传统方式&#34;&gt;传统方式&lt;/h1&gt;
-
-&lt;h2 id=&#34;多网卡绑定固定ip&#34;&gt;多网卡绑定固定IP&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成本高
-
-&lt;ul&gt;
-&lt;li&gt;网卡成本&lt;/li&gt;
-&lt;li&gt;组网维护成本&lt;/li&gt;
-&lt;li&gt;固定IP成本&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;端口映射&#34;&gt;端口映射&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成本低&lt;/li&gt;
-&lt;li&gt;配置较为繁琐&lt;/li&gt;
-&lt;li&gt;端口数有限&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;dmz&#34;&gt;DMZ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成本低&lt;/li&gt;
-&lt;li&gt;配置便捷&lt;/li&gt;
-&lt;li&gt;安全性较低&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Nginx 反向代理 可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频</description>
     </item>
     
     <item>
@@ -1075,572 +207,1014 @@ cf push Your-App-Name-On-Bluemix
       <pubDate>Fri, 17 Jun 2016 16:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/meeting/2016-6-17apcio-it/</guid>
-      <description>
-
-&lt;h1 id=&#34;创新-专业-靠谱-企业级it领跑加速器&#34;&gt;创新、专业、靠谱 企业级IT领跑加速器&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;孙海&lt;/li&gt;
-&lt;li&gt;北京世纪互联宽带数据中心有限公司 销售经理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;世纪互联paas云服务-ibm-bluemix&#34;&gt;世纪互联PaaS云服务-IBM Bluemix&lt;/h2&gt;
-
-&lt;p&gt;2016.6.17国内首测&lt;/p&gt;
-
-&lt;h2 id=&#34;世纪互联saas云服务-ibm-cloudant&#34;&gt;世纪互联SaaS云服务-IBM Cloudant&lt;/h2&gt;
-
-&lt;h1 id=&#34;国际化企业在线应用网络加速解决方案&#34;&gt;国际化企业在线应用网络加速解决方案&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Akamai 柴海炬&lt;/li&gt;
-&lt;li&gt;阿卡迈（北京）信息技术有限公司 华东区战略客户部总监&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;akamai公司简介&#34;&gt;Akamai公司简介&lt;/h2&gt;
-
-&lt;p&gt;Akamai是CDN的发明者
-- 1998发明CDN技术架构并诞生于麻省理工学院，
-- 1999年NASDAQ上市。总部位于美国波士顿。&lt;/p&gt;
-
-&lt;p&gt;Akamai是全球最大的CDN服务商
-- 2015年占有全球CDN市场约66%的份额
-- 全球客户超过6,000家，分发互联网15-30%的流量
-- 全球5000名雇员&lt;/p&gt;
-
-&lt;h3 id=&#34;akamai平台在全球覆盖&#34;&gt;Akamai平台在全球覆盖&lt;/h3&gt;
-
-&lt;p&gt;遍布全球的因特网层叠网络
-- 20万台服务器
-- 覆盖136个国家
-- 覆盖1030个城市
-- 覆盖1300个ISP运营商网络&lt;/p&gt;
-
-&lt;p&gt;国家列表（部分）
-- 亚太地区
-- 大洋洲
-- 非洲
-- 中美洲
-- 中东
-- 西欧
-- 东欧
-- 南美&lt;/p&gt;
-
-&lt;h2 id=&#34;走出去-网络挑战&#34;&gt;“走出去”网络挑战&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;如何快速走向市场&lt;/li&gt;
-&lt;li&gt;如何按需使用互联网加速服务，花费有效&lt;/li&gt;
-&lt;li&gt;如何快速纯动态，关键内部应用&lt;/li&gt;
-&lt;li&gt;如何保证核心应用一点即开，100%可用&lt;/li&gt;
-&lt;li&gt;如何在基础设施架构部署上投资最有效&lt;/li&gt;
-&lt;li&gt;如何保证全球各个角落尤其是边远国家的访问高效性&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;重点业务区域国家的网络基础设施的挑战&#34;&gt;重点业务区域国家的网络基础设施的挑战&lt;/h3&gt;
-
-&lt;p&gt;全球各个地区不同国家的用户平均互联网连接速度（带宽）&lt;/p&gt;
-
-&lt;h3 id=&#34;某企业网站全球区域的用户感受的不均衡性&#34;&gt;某企业网站全球区域的用户感受的不均衡性&lt;/h3&gt;
-
-&lt;p&gt;某网站首页延时
-- USA 5s
-- Canada 6s
-- Spain 15s
-- China 25s&lt;/p&gt;
-
-&lt;h3 id=&#34;跨国企业应用面临的互联网问题&#34;&gt;跨国企业应用面临的互联网问题&lt;/h3&gt;
-
-&lt;h3 id=&#34;akamai可以轻松应对互联网复杂性的挑战&#34;&gt;Akamai可以轻松应对互联网复杂性的挑战&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Akamai边缘服务器最接近源服务器&lt;/li&gt;
-&lt;li&gt;边缘服务器靠近终端用户&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;akamai解决方案家族&#34;&gt;Akamai解决方案家族&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;AQUA 网站解决方案
-
-&lt;ul&gt;
-&lt;li&gt;网站加速&lt;/li&gt;
-&lt;li&gt;移动设备加速&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;TERRA 企业解决方案
-
-&lt;ul&gt;
-&lt;li&gt;应用性能&lt;/li&gt;
-&lt;li&gt;云性能&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;KONA 安全解决方案
-
-&lt;ul&gt;
-&lt;li&gt;网站安全&lt;/li&gt;
-&lt;li&gt;数据中心安全&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;SOLA 媒体解决方案
-
-&lt;ul&gt;
-&lt;li&gt;视频广播&lt;/li&gt;
-&lt;li&gt;案例：全球世界杯、体育赛事、春晚、爱奇艺等&lt;/li&gt;
-&lt;li&gt;软件分发&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;企业关键应用业务海外加速需求分析&#34;&gt;企业关键应用业务海外加速需求分析&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;业务需求：利用技术和资源优势逐渐走向世界
-
-&lt;ul&gt;
-&lt;li&gt;走向世界，抢夺蓝海市场；&lt;/li&gt;
-&lt;li&gt;获取成熟市场的技术，产品和管理经验&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;IT系统需求：提升互联网的生产力
-
-&lt;ul&gt;
-&lt;li&gt;分支机构和合作伙伴的通讯，OA/Mail/SSL VPN&lt;/li&gt;
-&lt;li&gt;门户网站以及信息发布产品的推介需求&lt;/li&gt;
-&lt;li&gt;其他：例如CRM，ERP，财务报表，人力资源等&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;最终用户访问需求：实施，实地，高效访问&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;akamai纯动态内容加速-内容回源优化&#34;&gt;Akamai纯动态内容加速&amp;ndash;内容回源优化&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;路由优化SureRoute
-
-&lt;ul&gt;
-&lt;li&gt;通过阿卡迈服务器来提供路由包，速度会快于“互联网”&lt;/li&gt;
-&lt;li&gt;可以在超过75%的连接内，找到比BGP更短的路径&lt;/li&gt;
-&lt;li&gt;当对等交汇点（Peering Point）拥塞或网络宕机时发挥最大效能&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;持久稳定的连接
-
-&lt;ul&gt;
-&lt;li&gt;借助共享连接，避免为新建连接而进行的一次或多次Round Trip&lt;/li&gt;
-&lt;li&gt;建立拥有更大拥塞窗口的连接&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;TCP优化
-
-&lt;ul&gt;
-&lt;li&gt;针对初始的和不间断拥塞窗口进行优化&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;akamai的品质保障&#34;&gt;Akamai的品质保障&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Akamai所有产品均可提供100%的系统可用性SLA&lt;/li&gt;
-&lt;li&gt;针对web应用加速产品，提供全球对比原网站访问时间缩短不低于20%以上&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;全球客户经典案例&#34;&gt;全球客户经典案例&lt;/h2&gt;
-
-&lt;p&gt;全球前100个著名品牌，大家都信赖Akamai&lt;/p&gt;
-
-&lt;h3 id=&#34;企业&#34;&gt;企业&lt;/h3&gt;
-
-&lt;p&gt;全球排名前10位的银行中的7家
-- BMW
-- PHILIPS
-- MERCK
-- HORIBA&lt;/p&gt;
-
-&lt;h3 id=&#34;商业&#34;&gt;商业&lt;/h3&gt;
-
-&lt;p&gt;排名前100位零售商中的90家&lt;/p&gt;
-
-&lt;h3 id=&#34;高科技&#34;&gt;高科技&lt;/h3&gt;
-
-&lt;p&gt;排名前12为安全软件公司中的10家&lt;/p&gt;
-
-&lt;h3 id=&#34;媒体及娱乐&#34;&gt;媒体及娱乐&lt;/h3&gt;
-
-&lt;p&gt;排名前30位的所有媒体公司
-- BBC
-- Disney
-- Hulu
-- Sky
-- NBA
-- Fox
-- ESPN
-- ClearChannel
-- Yahho
-- francetelevisions&lt;/p&gt;
-
-&lt;h2 id=&#34;中国客户经典案例&#34;&gt;中国客户经典案例&lt;/h2&gt;
-
-&lt;p&gt;跨国国企用户、跨国民企用户等&lt;/p&gt;
-
-&lt;h3 id=&#34;中国交通建设集团案例分享&#34;&gt;中国交通建设集团案例分享&lt;/h3&gt;
-
-&lt;p&gt;目标
-- 保证海外员工的近30中核心应用的可用性，全球均可实时打开
-- 保证上述所有应用在全球访问的效果保障，尤其是欠发达国家的访问速度
-- 实现集团下属十多个二级公司的全业务访问和流量和费用拆分。&lt;/p&gt;
-
-&lt;p&gt;使用Akamai后对业务产生的影响
-- 门户全球打开速度3秒之内
-- 核心业务系统性能提升100%以上，全球可用性达100%
-- 海外工程现场的员工可通畅访问各个业务系统&lt;/p&gt;
-
-&lt;p&gt;中交集团海外分支机构使用CDN情况，近100个国家分发&lt;/p&gt;
-
-&lt;p&gt;中交各单位关键业务使用CDN情况，各部门门户、ERP、业务系统等等&lt;/p&gt;
-
-&lt;h3 id=&#34;联想-lenovo-案例分享&#34;&gt;联想（Lenovo）案例分享&lt;/h3&gt;
-
-&lt;p&gt;目标
-- 提高全球知名度和品牌价值
-- 提升售后支持网站效率以及客户感受
-- 提升与全球分支机构/代理商沟通速度&lt;/p&gt;
-
-&lt;p&gt;使用Akamai后对业务产生的影响
-- CRM等内部核心业务系统性能提升100%以上，全球可用性达100%
-- 海量驱动下载全部部署在Akamai存储上，节省IDC硬件和带宽
-- 提升电商网站性能达200%，大大提升客户在线销售转化率&lt;/p&gt;
-
-&lt;h3 id=&#34;成功案例分享-cctv-cntv&#34;&gt;成功案例分享-CCTV/CNTV&lt;/h3&gt;
-
-&lt;p&gt;挑战
-- 全球可靠的视频流传送
-- 避免自建基础设施，尽可能节约成本&lt;/p&gt;
-
-&lt;p&gt;解决方案
-- Akamai动态站点加速
-- Akamai媒体分发服务（VOD/Live/PMD）&lt;/p&gt;
-
-&lt;h3 id=&#34;成功案例分享-国内前三大视频网站案例分享&#34;&gt;成功案例分享-国内前三大视频网站案例分享&lt;/h3&gt;
-
-&lt;p&gt;挑战
-- 全球可靠的视频点播服务
-- 避免海外自建基础设施，节约成本&lt;/p&gt;
-
-&lt;p&gt;解决方案
-- Akaimai媒体分发服务（PMD）
-- Akamai专业服务支持&lt;/p&gt;
-
-&lt;h3 id=&#34;成功案例分享-ihg洲际酒店集团&#34;&gt;成功案例分享-IHG洲际酒店集团&lt;/h3&gt;
-
-&lt;p&gt;目标
-- 全球门户高性能访问
-- 应对突发大流量访问
-- 提升转化率&lt;/p&gt;
-
-&lt;p&gt;使用Akamai后对业务产生的影响
-- 每年增加在线销售额3，500，000美金
-- 在线订票率提升到了70%
-- 高性能网站提升了品牌价值以及SEO排名
-- Keynote工具测试数据显示，IHG是酒店业界最快的站点
-- 应对峰值流量而不在需要增加IDC投入&lt;/p&gt;
-
-&lt;h3 id=&#34;为什么选择阿卡迈&#34;&gt;为什么选择阿卡迈&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;专业服务及支持&lt;/li&gt;
-&lt;li&gt;Luna Control Center&lt;/li&gt;
-&lt;li&gt;阿卡迈解决方案&lt;/li&gt;
-&lt;li&gt;阿卡迈智能平台&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;企业混合云思维及战略&#34;&gt;企业混合云思维及战略&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;袁以拓&lt;/li&gt;
-&lt;li&gt;IBM全球信息科技服务部大中华区&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;cio是怎样分配时间和资源&#34;&gt;CIO是怎样分配时间和资源&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;支持创新
-
-&lt;ul&gt;
-&lt;li&gt;在企业内建立关系，帮助业务领导者从技术中实现创新&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;管理成本
-
-&lt;ul&gt;
-&lt;li&gt;优化整个IT生态系统中云的使用，合理地进行应用和工作负载迁移&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;运营企业IT环境&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;如何实现&#34;&gt;如何实现？&lt;/h2&gt;
-
-&lt;p&gt;新思维下的企业IT越来越成为以“企业IT即服务”的方式来运营和管理IT&lt;/p&gt;
-
-&lt;p&gt;IT基础架构因此更：混合、模块化、具弹性及扩展性&lt;/p&gt;
-
-&lt;p&gt;IT组织也越来越成为一个管理者，关注成本和服务交付本身，而不是传统的IT建设和运维&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;服务&lt;/li&gt;
-&lt;li&gt;财务&lt;/li&gt;
-&lt;li&gt;组织&lt;/li&gt;
-&lt;li&gt;技术&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;混合云环境是IT基础架构的最佳实现，而企业IT即服务可以帮助企业充分利用混合云环境，创造最大的价值&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;专注创新&lt;/li&gt;
-&lt;li&gt;提高服务&lt;/li&gt;
-&lt;li&gt;优化成本&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;私有云、内部基础架构、公有云，混合云环境可以帮助企业在最适合的地点以最佳的成本运行每个工作负载&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;更迅捷更灵活&lt;/li&gt;
-&lt;li&gt;更加以价值为导向&lt;/li&gt;
-&lt;li&gt;具备更高的安全防护和可恢复性&lt;/li&gt;
-&lt;li&gt;等等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;当然，向IT as a Service 演进不是一蹴而就的，而是一个演进过程。&lt;/p&gt;
-
-&lt;p&gt;支持服务=&amp;gt;自动化=&amp;gt;云化=&amp;gt;IT as a Service&lt;/p&gt;
-
-&lt;p&gt;助您在混合云中可快速开展运营、提供IT及服务的五种主要方式&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;应用迁移与现代化
-
-&lt;ul&gt;
-&lt;li&gt;CIO需要云平台的敏捷和功能优势&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;应用创新
-
-&lt;ul&gt;
-&lt;li&gt;CIO需要最快的实现创新&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;可视性和治理
-
-&lt;ul&gt;
-&lt;li&gt;CIO需要控制不断扩展的IT流程&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;集成与优化
-
-&lt;ul&gt;
-&lt;li&gt;CIO需要集成生态系统&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;IT即服务
-
-&lt;ul&gt;
-&lt;li&gt;如何帮助开发人员和业务领导者灵活配置业务，从而为客户实现最大价值&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;挑战&#34;&gt;挑战&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;缺少管理混合云的工具&lt;/li&gt;
-&lt;li&gt;不同云平台需要管理的控制台过多&lt;/li&gt;
-&lt;li&gt;缺少管理多个云平台所需的资源&lt;/li&gt;
-&lt;li&gt;管理不同云平台的运营成本过高&lt;/li&gt;
-&lt;li&gt;满足业务需求的能力不足&lt;/li&gt;
-&lt;li&gt;缺乏灵活性和敏捷性&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;企业需要以端到端的方式交付设计、构建并管理混合IT环境所需的功能
-- 单一管理平台
-  - 简化IT架构的管理、监控和报告
-  - 管理、监控、报告
-  - 内部部署（传统IT、私有云）、外部平台（公有云、私有云）
-  - 云：服务器、数据库、群件、中间件、存储、网络
-- 模块化灵活性
-  - 工程服务、架构设计、设计和部署、部署、API集成、咨询服务
-  - 云管理、监控、管理、报告
-  - 服务管理、事故、问题、变更、报告
-- 统筹安排
-  - 使用广泛的模块库，敏捷地部署、提供并管理IT环境
-- 高级自动化和认知学习&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;64%的意外事件可得到自动解决、90%解决时间缩短90%&lt;/li&gt;
-&lt;li&gt;自动部署&lt;/li&gt;
-&lt;li&gt;自动检测&lt;/li&gt;
-&lt;li&gt;自动解决&lt;/li&gt;
-&lt;li&gt;动态自动化&lt;/li&gt;
-&lt;li&gt;认知学习&lt;/li&gt;
-&lt;li&gt;一致的质量和服务保证&lt;/li&gt;
-&lt;li&gt;遍布全球的人才和技术支持
-
-&lt;ul&gt;
-&lt;li&gt;借助合作伙伴，您可以充分利用遍布全球的专业技能与知识&lt;/li&gt;
-&lt;li&gt;填补企业内部的人才空缺&lt;/li&gt;
-&lt;li&gt;扩展内部知识与能力&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;案例分享-航空服务公司从静态基础架构转变为新一代混合it基础架构&#34;&gt;案例分享，航空服务公司从静态基础架构转变为新一代混合IT基础架构&lt;/h2&gt;
-
-&lt;p&gt;目的
-- 根据工作负载特性，设计并构建一个单一平台
-- 技术更新、应用技术标准化工作负载迁移
-- 混合IT管理&lt;/p&gt;
-
-&lt;p&gt;效果
-- 达到更灵活的IT资源分配
-- 从“资本支出+运营支出”的IT费用模式转变为“全运营支出”财务模式
-- 总体拥有成本（TCO）节约幅度将可达双位数
-- 确保敏捷性和灵活性，为业务增长提供支持
-- SLA承诺&lt;/p&gt;
-
-&lt;h2 id=&#34;案例分享-华东大型零售业&#34;&gt;案例分享，华东大型零售业&lt;/h2&gt;
-
-&lt;p&gt;统一管理服务
-- 平台架构
-- 自助服务
-- 服务目录/请求
-- 生命周期
-- 流程管理
-- 监控/报表
-- 容量/性能
-- 计量/计算
-- 安全/管控
-- 事件/变更
-- 系统集成
-- 策略管理&lt;/p&gt;
-
-&lt;h2 id=&#34;轻资产运营的云平台-全面升级it相应业务需求的速度和能力&#34;&gt;轻资产运营的云平台-全面升级IT相应业务需求的速度和能力&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;修改优化&lt;/li&gt;
-&lt;li&gt;交付使用&lt;/li&gt;
-&lt;li&gt;系统部署&lt;/li&gt;
-&lt;li&gt;采购&lt;/li&gt;
-&lt;li&gt;等等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;itoa-生产运维大数据分析&#34;&gt;ITOA-生产运维大数据分析&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;韩思会&lt;/li&gt;
-&lt;li&gt;交通银行数据中心 技术经理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;银行业it运维面临的挑战&#34;&gt;银行业IT运维面临的挑战&lt;/h2&gt;
-
-&lt;p&gt;传统运维工具云云跟不上应用快速发展的要求。
-- 海量数据
-- 种类繁多
-- 处理被动&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;大数据与云
-
-&lt;ul&gt;
-&lt;li&gt;密不可分&lt;/li&gt;
-&lt;li&gt;大数据挖掘需要云计算作为平台&lt;/li&gt;
-&lt;li&gt;基于云计算的Hadoop平台框架为大数据分布式并行处理提供了很好的解决方案&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;it运维现状分析与实际需求&#34;&gt;IT运维现状分析与实际需求&lt;/h2&gt;
-
-&lt;h3 id=&#34;现状分析&#34;&gt;现状分析&lt;/h3&gt;
-
-&lt;p&gt;分支机构众多的大型企业（银行）或垂直层级较多的政府单位，为了更好的用户体验，运维工作十分艰巨&lt;/p&gt;
-
-&lt;h3 id=&#34;银行运维中心运维现状&#34;&gt;银行运维中心运维现状&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;监控 采用设定标准阙值的方式&lt;/li&gt;
-&lt;li&gt;告警 各二级运维部门使用监控工具相对独立性&lt;/li&gt;
-&lt;li&gt;日志 海量各类日志数据&lt;/li&gt;
-&lt;li&gt;业务 应用层交易日志未有效分析利用。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;it运维大数据&#34;&gt;IT运维大数据&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;IT运维大数据，国外叫做IT Operations Analytics，简称ITOA&lt;/li&gt;
-&lt;li&gt;Forrester定义，从管理和监控技术所采集的海量原始数据，通过数学算法及其他技术。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;技术交流与同业调研&#34;&gt;技术交流与同业调研&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;分布式日志手机分析平台，中国工商银行&lt;/li&gt;
-&lt;li&gt;RS6000智能运维平台，招商信行&lt;/li&gt;
-&lt;li&gt;日志实时分析系统，广发银行&lt;/li&gt;
-&lt;li&gt;阿拉丁平台，中国民生银行&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;银行运维大数据应用方向&#34;&gt;银行运维大数据应用方向&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;监控历史数据趋势分析
-
-&lt;ul&gt;
-&lt;li&gt;针对历史监控数据机器学习、容量预测、性能瓶颈等方面分析&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;监控告警智能分析
-
-&lt;ul&gt;
-&lt;li&gt;动态阙值设定，为告警关联提供数据&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;日志智能检索分析
-
-&lt;ul&gt;
-&lt;li&gt;海量日志检索、生产问题辅助定位、日志异常告警、复杂安全规则审计&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;面向业务的日志分析
-
-&lt;ul&gt;
-&lt;li&gt;提高系统响应率、准确率等&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;需求梳理与可行性分析&#34;&gt;需求梳理与可行性分析&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;明确运维大数据分析范围、功能及实施阶段&lt;/li&gt;
-&lt;li&gt;梳理可纳入其范围的运维服务场景&lt;/li&gt;
-&lt;li&gt;讨论大数据运维服务场景可行性和有效性&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;整体规划&#34;&gt;整体规划&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;建立平台
-
-&lt;ul&gt;
-&lt;li&gt;内外调研学习交流&lt;/li&gt;
-&lt;li&gt;构建数据基础&lt;/li&gt;
-&lt;li&gt;环境搭建&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;试点应用
-
-&lt;ul&gt;
-&lt;li&gt;选择合适业务系统试点&lt;/li&gt;
-&lt;li&gt;探索尝试整合更多运维数据&lt;/li&gt;
-&lt;li&gt;持续深化数据分析能力&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;全面推广
-
-&lt;ul&gt;
-&lt;li&gt;推广运维大数据应用&lt;/li&gt;
-&lt;li&gt;构建数据中心运维画像&lt;/li&gt;
-&lt;li&gt;尝试与业务大数据整合&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;预期研究成果&#34;&gt;预期研究成果&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;预测故障&lt;/li&gt;
-&lt;li&gt;发现异常&lt;/li&gt;
-&lt;li&gt;查找问题&lt;/li&gt;
-&lt;li&gt;分析性能&lt;/li&gt;
-&lt;li&gt;优化策略&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>创新、专业、靠谱 企业级IT领跑加速器 孙海 北京世纪互联宽带数据中心有限公司 销售经理 世纪互联PaaS云服务-IBM Bluemix 2016.6.17国内首测 世</description>
+    </item>
+    
+    <item>
+      <title>亚太CIO（上海）领袖峰会会议记录</title>
+      <link>https://cio.anasit.com/meeting/2016-6-17apcio/</link>
+      <pubDate>Fri, 17 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-6-17apcio/</guid>
+      <description>会议简介 会议主题 大数据时代&amp;ndash;数字化转型与创新高峰论坛 2016亚太CIO实践与分享 主办单位 上海市计算机用户协会 上海市通信学会 承办单</description>
+    </item>
+    
+    <item>
+      <title>用于公开项目演示的paas服务选型</title>
+      <link>https://cio.anasit.com/cookbook/backend/paas-deploy/</link>
+      <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/paas-deploy/</guid>
+      <description>静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.g</description>
+    </item>
+    
+    <item>
+      <title>用于angular2项目开发的vim环境配置及插件</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-vim/</link>
+      <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-vim/</guid>
+      <description>可用于ng2开发的IDE评比 intellij idea ce 2016.1.1 语法编辑 差 html/css emmet支持，默认补全&amp;lt;&amp;gt; es6 完全不支持ES6，安装es6插件无效 ng2 完全不支持a</description>
+    </item>
+    
+    <item>
+      <title>API领域创业公司及其发展动态浅析</title>
+      <link>https://cio.anasit.com/cookbook/api/apitrends/</link>
+      <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/apitrends/</guid>
+      <description>简介 API 生态图解 位置 项目/公司 MBaaS服务 实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix APIs仓库 apis.guru 构建工具链 mulesoft restlet apigee 底层规则 raml swagger 使用RAML与APIkit以实现A</description>
+    </item>
+    
+    <item>
+      <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
+      <link>https://cio.anasit.com/cookbook/pkm/card/</link>
+      <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/pkm/card/</guid>
+      <description>资料搜集 三款名片管理APP大比拼 推荐一款好用的电子名片app？ 7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em 实际体验 Zappoint 淘汰 邮箱登陆 拍照识别 中文较差 只有正面 同步通讯录</description>
+    </item>
+    
+    <item>
+      <title>dreamfactory常见问题汇总</title>
+      <link>https://cio.anasit.com/faq/dreamfactory/</link>
+      <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/dreamfactory/</guid>
+      <description>Composer Install 依赖问题 报错缺少ext-mongodb依赖 root@iZ283foxixfZ:/var/www/df2# composer install --no-dev Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted Loading composer repositories with package information Installing dependencies from lock file Your requirements could not be resolved to an installable set of packages. Problem 1 -</description>
+    </item>
+    
+    <item>
+      <title>H5页面如何接入google ads实现广告收入？</title>
+      <link>https://cio.anasit.com/cookbook/cms/google-ads/</link>
+      <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/cms/google-ads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
+      <link>https://cio.anasit.com/cookbook/cms/homesite/</link>
+      <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/cms/homesite/</guid>
+      <description>互联网3.0时代，什么才是搭建项目官网的正确姿势？ 简介 项目背景 国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对</description>
+    </item>
+    
+    <item>
+      <title>适合开发者的第三方RSS采集服务选型</title>
+      <link>https://cio.anasit.com/cookbook/cms/rss/</link>
+      <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/cms/rss/</guid>
+      <description>简介 项目背景 greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。 作</description>
+    </item>
+    
+    <item>
+      <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-restful/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
+      <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
+    </item>
+    
+    <item>
+      <title>ng2与es6初学者到底从哪里开始学起</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-es6-learn/</guid>
+      <description>ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：htt</description>
+    </item>
+    
+    <item>
+      <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-cms/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-cms/</guid>
+      <description>ng2-SEO优化简介 ng2应用实现seo优化的方式有多种 - universial 后端渲染 - php 后端模拟渲染 Blackstar CMS - ng2 技术选型 - angular-seed - typescript - HTML via HTTP - HTML via the Blackstar CMS JavaScript Client - .NET (ASP.NET</description>
+    </item>
+    
+    <item>
+      <title>ng2基于firebase的第三方库对接详解（草稿）</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
+      <description>Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/</description>
+    </item>
+    
+    <item>
+      <title>rxjs的简要入门，以及ng2与es6中的rxjs</title>
+      <link>https://cio.anasit.com/cookbook/api/rxjs/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/rxjs/</guid>
+      <description>简介 学习RxJS： 导入</description>
+    </item>
+    
+    <item>
+      <title>来领略惊艳的ionic2安纳斯整理版awesome-ionic2</title>
+      <link>https://cio.anasit.com/cookbook/frontend/awesome-ionic2/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/awesome-ionic2/</guid>
+      <description>为什么要Ionic2，一个PPT告诉你 Building apps with Ionic 2 awesome-ionic2-anasit 截取时间：2016-05-17 来领略惊艳的ionic2安纳斯整理版awesome-ioni</description>
+    </item>
+    
+    <item>
+      <title>ionic2原生native控件归类整理及简要介绍（进行中）</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic2-native/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic2-native/</guid>
+      <description>截至2016-05-13看到了Action Sheet 组件 总览 NATIVE（原生组件）：官方文档，调用原生功能时候参考</description>
+    </item>
+    
+    <item>
+      <title>systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案</title>
+      <link>https://cio.anasit.com/faq/archfaq/</link>
+      <pubDate>Fri, 13 May 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/archfaq/</guid>
+      <description>systemd-journal进程占用100%CPU，硬盘磁盘无法读取 原因 journalctl 查看获得信息 ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790) 解决办法 https://bbs.archlinux.org/viewtopic.php?id=211365 ##blacklisted sp5100_tco in /etc/modprobe.d/blacklist.conf. cd /etc/modprobe.d vim blacklist.conf ##</description>
+    </item>
+    
+    <item>
+      <title>ANASIT-ionic2开发规范汇总（进行中）</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic2-spec/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic2-spec/</guid>
+      <description>命名规范 页面（Page） 参考：ionic命令行Generate体验总结 开发规范 通过命令行创建初始化页面 ## 通常使用命令创建新的页面初始文件（P</description>
+    </item>
+    
+    <item>
+      <title>ionic2控件及APIs归类整理及简要介绍v0.8</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic2-componentAPIs/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic2-componentAPIs/</guid>
+      <description>截至2016-05-13已经阅读完，完成0.8.0整理 总览 COMPONENTS（样式组件）：官方文档，构建及设计原型时候参考 API（功能接口</description>
+    </item>
+    
+    <item>
+      <title>Angular2后台管理前端框架选型(草稿)</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ng2-admin/</link>
+      <pubDate>Wed, 11 May 2016 18:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ng2-admin/</guid>
+      <description>Angular2后台管理前端框架选型 截至目前：2016-05-11，ng2发布了继Beta之后的RC候选版本，已经趋于成熟。公司决定配合io</description>
+    </item>
+    
+    <item>
+      <title>ionic命令行Generate体验总结</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic2-generate/</link>
+      <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic2-generate/</guid>
+      <description>ionic命令行Generate体验总结 工具简述 Description Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier. To create a page you can use the following command: # ionic g page &amp;lt;PageName&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>ionic2常见问题汇总之界面布局篇</title>
+      <link>https://cio.anasit.com/faq/ionic2html/</link>
+      <pubDate>Sat, 07 May 2016 10:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/ionic2html/</guid>
+      <description>当icon图标没有outline模式时，点击后会变成空白 原因分析 因为ionic2自带的font-icon库中，改图标没有默认的outline</description>
+    </item>
+    
+    <item>
+      <title>手机游戏客户端开发引擎调研</title>
+      <link>https://cio.anasit.com/game/dev/mobilegame/</link>
+      <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
+      <description>手机游戏客户端开发引擎调研 总览 | 对比类目 | Cocos2d-x | unity 3d | 结论 | | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | | 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d | | 学习难度 | 对C</description>
+    </item>
+    
+    <item>
+      <title>ionicCreator实际体验与评测</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic-creator/</link>
+      <pubDate>Tue, 03 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic-creator/</guid>
+      <description>ionicCreator实际体验与评测 免费版 目前只支持ionic 1.0 页面修改Routing URL，导出项目templates中page名未变化</description>
+    </item>
+    
+    <item>
+      <title>HTML5游戏客户端开发引擎</title>
+      <link>https://cio.anasit.com/game/dev/h5game/</link>
+      <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/dev/h5game/</guid>
+      <description>HTML5游戏客户端开发引擎调研 Phaser.js http://www.phaser.io Egret（HTML5+ES6最佳选择） http://www.egret.com Egret现在是小孩，眉目清秀 代表游戏 神经猫 优点 生态链比较完善</description>
+    </item>
+    
+    <item>
+      <title>导论——信息时代的精英是如何造就的？</title>
+      <link>https://cio.anasit.com/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</guid>
+      <description>一、信息时代的生存环境 接受现实——我们是普通人 精英化思维？完美主义？理想主义？ 你是否曾经想要改变现状？下定决心卸载游戏，拿起书、打开教学视频</description>
+    </item>
+    
+    <item>
+      <title>个人知识管理解决方案</title>
+      <link>https://cio.anasit.com/README/</link>
+      <pubDate>Fri, 01 Apr 2016 00:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/README/</guid>
+      <description>个人知识管理（规划中） 简介及技术点 距离上次对自己的知识管理系统的规范已经过去一年半了，使用过程中发掘出许多可以优化的地方，也学到了很多管理知</description>
+    </item>
+    
+    <item>
+      <title>Markdown制作ppt最佳实践</title>
+      <link>https://cio.anasit.com/study/markdown2ppt/</link>
+      <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/markdown2ppt/</guid>
+      <description>Markdown制作PPT最佳实践 http://pandoc.org/demos.html 一、reveal.js + pandoc（推荐） HTML便于CSS样式修改 多种Theme主题，灵活，简洁 可整</description>
+    </item>
+    
+    <item>
+      <title>markdown写中国国内论文最佳实践</title>
+      <link>https://cio.anasit.com/study/markdown2paper/</link>
+      <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/markdown2paper/</guid>
+      <description>前置学习引导 如何用markdown生成带目录、页眉、页脚的pdf？ 常用模板数值 字体/字号 # 安装字体命令 # 复制新字体到/usr/share/f</description>
+    </item>
+    
+    <item>
+      <title>如何用markdown生成带目录、页眉、页脚的pdf？ </title>
+      <link>https://cio.anasit.com/study/markdown2pdf/</link>
+      <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/markdown2pdf/</guid>
+      <description>如何用markdown生成带目录、页眉、页脚的pdf？ http://pandoc.org/demos.html TODO List [OK] 实现基础的md转pdf的shell脚本 将md转pdf封装成云服务，为整个安纳斯</description>
+    </item>
+    
+    <item>
+      <title>掃除文盲，人人有責</title>
+      <link>https://cio.anasit.com/manifesto/fuckgfw/</link>
+      <pubDate>Thu, 31 Mar 2016 01:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/manifesto/fuckgfw/</guid>
+      <description>懷念以前文盲的定義還是「不會識字」的年代，吾將終身致力於掃除文盲的行動中來。</description>
+    </item>
+    
+    <item>
+      <title>ionic2及ng2谷歌/高德地图控件分析实例</title>
+      <link>https://cio.anasit.com/cookbook/frontend/ionic2-googlemap-amap/</link>
+      <pubDate>Wed, 30 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/frontend/ionic2-googlemap-amap/</guid>
+      <description>《ionic2及ng2谷歌/高德地图控件分析实例》 创建示例项目 项目地址：https://github.com/driftyco/ionic-</description>
+    </item>
+    
+    <item>
+      <title>ionic2常见问题汇总之安装篇</title>
+      <link>https://cio.anasit.com/faq/ionic2install/</link>
+      <pubDate>Tue, 29 Mar 2016 10:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/ionic2install/</guid>
+      <description>《ionic2常见问题汇总之安装篇》 如何安装ionic？ ## 系统包管理器，安装npm apt-get install npm nodejs ## 修正nodejs快捷方式 ln -s /usr/bin/nodejs /usr/bin/node ## 更换国内软件源</description>
+    </item>
+    
+    <item>
+      <title>Every one should learn how to Fuck The GFW</title>
+      <link>https://cio.anasit.com/cookbook/tool/fuckGFW/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/fuckGFW/</guid>
+      <description>Windows程序socks代理（用于游戏） shadowsocks-gui SocksCap64 3.0 http://www.sockscap64.com/ Linux代理 apt-get install shadowsocks apt-get install privoxy sh export http_proxy=http://127.0.0.1:8118 export https_proxy=http://127.0.0.1:8118</description>
+    </item>
+    
+    <item>
+      <title>Latex工具插件</title>
+      <link>https://cio.anasit.com/study/latex/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/latex/</guid>
+      <description>Atom Latex插件 latex latex-friend Vim Latex插件</description>
+    </item>
+    
+    <item>
+      <title>Linux最佳文件压缩方式</title>
+      <link>https://cio.anasit.com/cookbook/devops/linux-tar/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/linux-tar/</guid>
+      <description>Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压</description>
+    </item>
+    
+    <item>
+      <title>论文生成工具</title>
+      <link>https://cio.anasit.com/study/tools/</link>
+      <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/tools/</guid>
+      <description>SCIGen论文生成器 http://pdos.csail.mit.edu/scigen/ 下面就是一篇自动生成的名作： http://pdos.csail.mit.edu/scigen/rooter.pdf Rooter: A Methodology for the Typical Unification of Access Points and Redundancy</description>
+    </item>
+    
+    <item>
+      <title>Atom实践探索</title>
+      <link>https://cio.anasit.com/cookbook/tool/atom/</link>
+      <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/atom/</guid>
+      <description>官方手册：http://flight-manual.atom.io/ 搜集尝试阶段 开发者的15个实用的 Atom Packages http://www.cnblogs.com/Darren_code/p/atom.html Setting 取消保存时自动格式化Markdo</description>
+    </item>
+    
+    <item>
+      <title>国税地税申报流程整理</title>
+      <link>https://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Tue, 15 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
+      <description>江西地税（企业个人所得税） 进入税友网 http://www.4007112366.com/ 下载 个税基础安装包（金税三期标准版） 地址：http://jx.4007112366.com/?m=co</description>
+    </item>
+    
+    <item>
+      <title>LNMP内存或CPU过高优化问题</title>
+      <link>https://cio.anasit.com/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Sat, 12 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/lnmp/502.LNMP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <description>《LNMP内存或CPU过高的优化问题》 场景一：正康服务器php服务无法访问，Nginx报502/403错误 原因分析 top指令查看系统各进程使</description>
+    </item>
+    
+    <item>
+      <title>江风益教授行政楼讲座不完整摘要</title>
+      <link>https://cio.anasit.com/meeting/2016-3-2%E6%B1%9F%E9%A3%8E%E7%9B%8A%E6%95%99%E6%8E%88%E8%A1%8C%E6%94%BF%E6%A5%BC%E8%AE%B2%E5%BA%A7%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%91%98%E8%A6%81/</link>
+      <pubDate>Wed, 02 Mar 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-3-2%E6%B1%9F%E9%A3%8E%E7%9B%8A%E6%95%99%E6%8E%88%E8%A1%8C%E6%94%BF%E6%A5%BC%E8%AE%B2%E5%BA%A7%E4%B8%8D%E5%AE%8C%E6%95%B4%E6%91%98%E8%A6%81/</guid>
+      <description>一.国家科技领域奖项简介 自然科学奖 技术发明奖 一等 二等 三等 一年平均0、1、2个 科技进步奖 一等 二等 国际合作奖 团队奖 评奖制度 评委2/3 通过 一等奖 1&amp;frasl;2</description>
+    </item>
+    
+    <item>
+      <title>VR时代来临了，带上兵器吧</title>
+      <link>https://cio.anasit.com/cookbook/vrar/VRdev/</link>
+      <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/vrar/VRdev/</guid>
+      <description>《VR时代来临了，带上兵器吧》 1.VR入门行业方向选择 1.行业付费应用，360全景预览 2.建筑及3D美工设计领域 2.客户端引擎选择 1.手机V</description>
+    </item>
+    
+    <item>
+      <title>Odoo9会计模块常见问题</title>
+      <link>https://cio.anasit.com/faq/odoo/faq-accounting/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/faq-accounting/</guid>
+      <description>货币选项中无CNY 原因分析 货币——CNY——未设置为有效 解决方案 http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66 任务——会计——货币中将CNY设为有效 开启会计科目后，导致销售人员无法添加</description>
+    </item>
+    
+    <item>
+      <title>Odoo9入门学习手册</title>
+      <link>https://cio.anasit.com/faq/odoo/learn/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/learn/</guid>
+      <description>使用手册 https://www.odoo.com/documentation/user/9.0/ 资料站点 http://www.oejia.net/ http://shine-it.net</description>
+    </item>
+    
+    <item>
+      <title>Odoo9多域名如何解析多数据库</title>
+      <link>https://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+      <description>Odoo9多域名解析多数据库规则 配置文件 ## Debian /etc/odoo/openerp-server.conf dbfilter = ^%d$ # 即取 OE WEB访问时取地址栏上 域名的第末子域. # 即 http://db001.openerp.com 访问时, 会自动设置为 dbfilter = db001 源码 部分情</description>
+    </item>
+    
+    <item>
+      <title>Odoo9有哪些优秀第三方模块</title>
+      <link>https://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
+      <description>Payment支付 odoo 8.0 https://github.com/odoo-cn/payment alipay 支付宝 [done] tenpay 财付通 [done] chinabank 银联 weixin 微信支付 [done] allPay 台湾欧付宝 [done] 声明 未经许可，不得用于商业用途！！ 微信 odoo 8.0 https://github.com/JoneXiong/oejia_wx</description>
+    </item>
+    
+    <item>
+      <title>Odoo9系统设置栏目常见问题</title>
+      <link>https://cio.anasit.com/faq/odoo/faq-system/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/faq-system/</guid>
+      <description>无法保存照片/无法发送邮件 https://www.odoo.com/forum/help-1/question/cant-upload-images-905 无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在 原因分析 413 Request Entity Too Large nginx/1.6.2 nginx 大文件配置问</description>
+    </item>
+    
+    <item>
+      <title>Odoo9销售模块常见问题</title>
+      <link>https://cio.anasit.com/faq/odoo/faq-sales/</link>
+      <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/odoo/faq-sales/</guid>
+      <description>系列产品可设置不同标价，但无法设置不同成本 原因分析 解决方案</description>
+    </item>
+    
+    <item>
+      <title>极致效率的键位变更</title>
+      <link>https://cio.anasit.com/cookbook/tool/keyboard/</link>
+      <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/keyboard/</guid>
+      <description>极致效率的键位变更 Coding常用键位变更 Ctrl =&amp;gt; Caps Lock Caps Lock =&amp;gt; Ctrl Linux下键位变更 Windows键盘全局替换 可以利用第三方工具，或者直接在注册表</description>
+    </item>
+    
+    <item>
+      <title>第一个军团 Pandemic Horde Inc.</title>
+      <link>https://cio.anasit.com/game/play/evecorp/</link>
+      <pubDate>Mon, 15 Feb 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/play/evecorp/</guid>
+      <description>第一个军团 Pandemic Horde Inc. TimeLine 2016/2/11 join the corp &amp;ldquo;Pandemic Horde Inc.&amp;rdquo; register &amp;ldquo;www.pandemic-legion.pl&amp;rdquo; ryanemax@gmail.com IU* ##</description>
+    </item>
+    
+    <item>
+      <title>Eve Europe Server Planning</title>
+      <link>https://cio.anasit.com/game/play/eveofplan/</link>
+      <pubDate>Wed, 27 Jan 2016 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/play/eveofplan/</guid>
+      <description>Eve Europe Server Planning Get Ready Keybord Mapping 视频: EVE：新特效星图+键盘操控时代（Rhea 1.0） Trading Web Site/API EVE-Central The EVE-Online Market Aggregator and Toolkit https://eve-central.com eve-markets.net(powered by the EVE-Central API) http://www.eve-markets.net/index.php evedata http://www.evedata.org/ http://eve-marketdata.com/ Reality Target English Speaking/Reading Skill Global Trade &amp;amp; Marketing Skill Global Fuck GFW Account</description>
+    </item>
+    
+    <item>
+      <title>去中心化贸易及货币的&#39;反祖现象&#39;探讨</title>
+      <link>https://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</link>
+      <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
+      <description>去中心化贸易及货币的&amp;rsquo;反祖现象&amp;rsquo;探讨&amp;rdquo; 0.Info Key Words Decntralization Trading Digital Curency/BitCoin OpenBazaar 前言 构思这篇关于去中心化贸易论文的时候我满怀激动，</description>
+    </item>
+    
+    <item>
+      <title>金融方向个人职业规划</title>
+      <link>https://cio.anasit.com/study/finance/README/</link>
+      <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/finance/README/</guid>
+      <description>金融方向个人职业规划 主攻领域：金融衍生品、期货、外汇、大宗商品交易 外汇是各国货币比、贵金属、原油、天然气、CFD合约，国内正在起步发展，没有</description>
+    </item>
+    
+    <item>
+      <title>常见开源消息系统/中间件技术评选</title>
+      <link>https://cio.anasit.com/cookbook/backend/messagesystem/</link>
+      <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/messagesystem/</guid>
+      <description>《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq RabbitMQ golang client https://github.com/streadway/amqp https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go 适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准 gonsq https://github.com/nsqio/nsq</description>
+    </item>
+    
+    <item>
+      <title>Docker入门实践</title>
+      <link>https://cio.anasit.com/cookbook/devops/dockerstart/</link>
+      <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/dockerstart/</guid>
+      <description>Installation # Windows cinst docker -y # Linux pacman -Sy docker apt-get install docker -y Initicial docker pull debian FAQ: An error occurred trying to connect: Post &amp;hellip;.. 问题描述： $ docker pull debian Using default tag: latest An error occurred trying to connect: Post http://localhost:2375/v1.21/images/create?fromImage=debian%3Alatest: dial tcp 127.0.0.1:2375: ConnectEx tcp: No connection could be made because the target machine actively refused it. 问题原因</description>
+    </item>
+    
+    <item>
+      <title>MongoDB数据模型/结构设计中重要的经验法则</title>
+      <link>https://cio.anasit.com/cookbook/database/mongoOneToN/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/database/mongoOneToN/</guid>
+      <description>MongoDB数据模型/结构设计中重要的经验法则 One-to-N：MongoDB数据结构设计中6条重要的经验法则，part 1 双向关联、反范式</description>
+    </item>
+    
+    <item>
+      <title>RAML-Parser各大语言解析器评选</title>
+      <link>https://cio.anasit.com/cookbook/api/raml-paser/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/raml-paser/</guid>
+      <description>《RAML-Parser各大语言解析器评选》 前言、好的解析器是API自动化工具链必备之环 PS:可以直接到底部看结论。 In the Beginning, I Want to figure out which raml-Parsers is the</description>
+    </item>
+    
+    <item>
+      <title>RESTful API规范解决方案评选</title>
+      <link>https://cio.anasit.com/cookbook/api/restapi/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/restapi/</guid>
+      <description>1.描述语言选择 Swagger.io 首选 Apigee发布了API Studio——用来创建、测试和共享API的免费在线工具。 http://apistudio.io/ API Studio基于知名的Swagg</description>
+    </item>
+    
+    <item>
+      <title>raml 1.0 与 raml 0.8区别之处</title>
+      <link>https://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/ramldiff0.8-1.0/</guid>
+      <description>《raml 1.0 与 raml 0.8区别之处》 type与schema 1.0中新增的type概念类似于Objects对象或Model模型，与0.8中sche</description>
+    </item>
+    
+    <item>
+      <title>萤石云开发实践</title>
+      <link>https://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
+      <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
+      <description>《萤石云开发实践》 常用资料 SDK下载：https://open.ys7.com/sdk.html 常见问题 FAQ1:是否可以在web/手机页面</description>
+    </item>
+    
+    <item>
+      <title>Arch Linux软件选型整理</title>
+      <link>https://cio.anasit.com/cookbook/devops/archlinux/</link>
+      <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/archlinux/</guid>
+      <description>#发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切</description>
+    </item>
+    
+    <item>
+      <title>IVMS7000服务端信息搜集</title>
+      <link>https://cio.anasit.com/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
+      <description>基础环境 系统 Windows Server 2008 R2 光盘一：系统驱动 光盘二：安装程序 数据库 数据库Mysql 5.7 库名 cms 用户 admin 密码 12345 软件平台 1.iVMS-7000 http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi 2.iVMS-8200 备份服务器管理后台 3.iVMS-5000 集中监控管理</description>
+    </item>
+    
+    <item>
+      <title>Win10搭建Linux开发环境，msys2&#43;pacman大法</title>
+      <link>https://cio.anasit.com/cookbook/devops/win10-msys2/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/win10-msys2/</guid>
+      <description>Win10搭建Linux开发环境，msys2+pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&amp;rsquo;s Pacman FAQ:基于mintty，输入～字符出错。 F</description>
+    </item>
+    
+    <item>
+      <title>wget整站模板抓取案例及wget参数详解</title>
+      <link>https://cio.anasit.com/cookbook/devops/wgetsite/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/wgetsite/</guid>
+      <description>《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite 一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com 方式</description>
+    </item>
+    
+    <item>
+      <title>最佳Windows10工作环境推荐</title>
+      <link>https://cio.anasit.com/cookbook/devops/win10/</link>
+      <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/win10/</guid>
+      <description>最佳Windows10工作环境推荐 一、基础环境 包管理OneGet+Chocolatey Windows10了，来一个趁手的包管理器吧 快捷方式/</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建</title>
+      <link>https://cio.anasit.com/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
+      <description>《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》 总结 更多实用的案例参考 http://www.linuxfly.org/post/86/ - 客户端权限组及定制配置 - 服务端客户端内网互通 http://blog.ltns.info/linux/connect_two_home_networks_using_openvpn_and_openwrt/ - 内部D</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt硬件选择及系统基础环境配置经验总结</title>
+      <link>https://cio.anasit.com/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</guid>
+      <description>一、基础环境选择及搭建 1.支持硬件设备列表： http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type 最佳： 联想 newifi mini 1200M AC 智能无线路由器 双频千兆穿墙 newifi mini纯净版OpenWRT兼容内核固件，集成r</description>
+    </item>
+    
+    <item>
+      <title>易的研究与学习</title>
+      <link>https://cio.anasit.com/study/metaphysics/learnichang/</link>
+      <pubDate>Mon, 19 Oct 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/metaphysics/learnichang/</guid>
+      <description>学习方法 六经注我，我注六经。 通读、背诵原文 比较分析众家注释 判断归纳自己的注释 学习书目 易经 连山易 失传 归藏易 存本 周易 完整 黄帝内经 医理 黄帝内经素问</description>
+    </item>
+    
+    <item>
+      <title>探究归纳精神力相关的知识体系</title>
+      <link>https://cio.anasit.com/study/metaphysics/mindpower/</link>
+      <pubDate>Sun, 18 Oct 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/metaphysics/mindpower/</guid>
+      <description>探究归纳精神力相关的知识体系 目的 解决10000小时理论实践过程中，注意力与意志力的培养问题 对自身与自然的不断感悟与探索，引导大家更加高效得控</description>
+    </item>
+    
+    <item>
+      <title>FullStackOfNewGeneration/链接现实与信息系统的全栈开发技术</title>
+      <link>https://cio.anasit.com/study/it/FullStackOfNewGeneration/</link>
+      <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/it/FullStackOfNewGeneration/</guid>
+      <description>0.Short Intro. our team using the similar stack with lean. Front-End: Desktop: Electron Mobile: Ionic + Cordova Plugin Design Material-Design for Angularjs&amp;rsquo;s Desktop apps. Ionic-Material for Angularjs&amp;rsquo;s Mobile apps. Back-End Laravel for normal HTTP REST API. Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System. RAML for generating SDK files both of front/back-end. Admiring that RAML1.0 is comming. Database Postgresql(for gis) we like it very much. MongoDB(for user</description>
+    </item>
+    
+    <item>
+      <title>写作需要的技巧、工具等，写在正式写论文之前</title>
+      <link>https://cio.anasit.com/study/WritingSkill/</link>
+      <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/WritingSkill/</guid>
+      <description>参考： [1] 用Markdown来写自由书籍-开源技术的方案 [2] Markdown+Pandoc：A light-weight solution for academia writing 0.写作置标语言选择 0.1 已选择 markdown sagemath 1.写作</description>
+    </item>
+    
+    <item>
+      <title>vim实用技巧实践</title>
+      <link>https://cio.anasit.com/cookbook/tool/vimbest/</link>
+      <pubDate>Sat, 17 Oct 2015 04:41:31 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vimbest/</guid>
+      <description>实用技巧 删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？ 清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下back</description>
+    </item>
+    
+    <item>
+      <title>GoLang几种读文件方式的比较</title>
+      <link>https://cio.anasit.com/cookbook/backend/golangReadFile/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/golangReadFile/</guid>
+      <description>GoLang几种读文件方式的比较 GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和i</description>
+    </item>
+    
+    <item>
+      <title>Golang database/sql &amp; GORM</title>
+      <link>https://cio.anasit.com/cookbook/backend/golangsqlorm/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/golangsqlorm/</guid>
+      <description>0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写 实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location 官方实例 type User struct {</description>
+    </item>
+    
+    <item>
+      <title>Golang代码组织最佳方案</title>
+      <link>https://cio.anasit.com/cookbook/backend/golangincase/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/golangincase/</guid>
+      <description>《Golang代码组织最佳方案》 案例一：不建议的偷懒结构 $gopath/src/github.com/ryanemax/device/pkg_phone/phone.go $gopath/src/github.com/ryanemax/device/main.go import &amp;quot;./pkg_phone&amp;quot; 案例二：Docker中也不建议的偷懒结构 gonet2示例：github.co</description>
+    </item>
+    
+    <item>
+      <title>MBaaS产品调研及私有云解决方案草稿</title>
+      <link>https://cio.anasit.com/cookbook/backend/baas/</link>
+      <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/backend/baas/</guid>
+      <description>热门baas简介 应用开发不可不知的五大BaaS后端云服务 baas公有云 firebase google收购的专业baas服务，完美整合angular2，在华无</description>
+    </item>
+    
+    <item>
+      <title>vim-go最佳实践</title>
+      <link>https://cio.anasit.com/cookbook/tool/vim-go/</link>
+      <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vim-go/</guid>
+      <description>0.使用方法 gd 进入函数原始定义文件查看 Ctrl + N Ctrl + P 1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量 export</description>
+    </item>
+    
+    <item>
+      <title>CMS built with Laravel</title>
+      <link>https://cio.anasit.com/cookbook/cms/cmswithlaravel/</link>
+      <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/cms/cmswithlaravel/</guid>
+      <description>October CMS https://octobercms.com/ https://github.com/octobercms/october watch 323 star 3388 fork 753 The Best &amp;amp; Beatutiful 167 Plugins 32 Themes Doptor https://github.com/Doptor/Doptor watch 22 star 79 fork 52 企业信息发布，CMS&amp;amp;EMS Theme少需要定制 Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo; from: http://maxoffsky.com/code-blog/list-cmss-built-laravel/ Yesterday Ryan Tablada organized a</description>
+    </item>
+    
+    <item>
+      <title>Nginx-php-fastcgi-no-input-files</title>
+      <link>https://cio.anasit.com/faq/lnmp/nginx-php-nofiles/</link>
+      <pubDate>Wed, 23 Sep 2015 10:49:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/lnmp/nginx-php-nofiles/</guid>
+      <description>Solution http://www.blog.163.com/cobyeah@126/blog/static/140137653201142945054441/ 问题原因 导致“No input file specified. ”这个问题的原因，是因为nginx的配置不正确，从而导致CGI获取参数错误。 简单来说，是因为$document_</description>
+    </item>
+    
+    <item>
+      <title>ultisnips&#39;s md实用经验</title>
+      <link>https://cio.anasit.com/cookbook/tool/vim-ultisnips/</link>
+      <pubDate>Fri, 18 Sep 2015 04:27:55 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/vim-ultisnips/</guid>
+      <description>添加文档类型识别 ~/.vim/ftdetect/mkd.md autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown 添加自定义代码段 markdown_ryn.snippets cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets</description>
+    </item>
+    
+    <item>
+      <title>跨域跨域跨域golang与angularjs的默契</title>
+      <link>https://cio.anasit.com/cookbook/api/goangularfaq/</link>
+      <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/goangularfaq/</guid>
+      <description>go-json-rest (golang) 启动CORS中间件，指定origin跨域，origin这里填写对应域名即可 直接跨所有域名，return origin == req.Header.Get(</description>
+    </item>
+    
+    <item>
+      <title>golang的restful框架选择</title>
+      <link>https://cio.anasit.com/cookbook/api/golangforrest/</link>
+      <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/golangforrest/</guid>
+      <description>0.必备功能 坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能 RAML支持 CORS支持 JSON支持 良好的Route</description>
+    </item>
+    
+    <item>
+      <title>协同工作中的思维导图/UML选择</title>
+      <link>https://cio.anasit.com/cookbook/agile/comapping/</link>
+      <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/agile/comapping/</guid>
+      <description>1.UML creately.com 付费 实时协同 集成 跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz gliffy 付费 体验较好 集成 JIRA Confluence Google Apps 格式导出 PNG JPG SVG Gliffy 2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet MindManager -</description>
+    </item>
+    
+    <item>
+      <title>协同编辑工具选型</title>
+      <link>https://cio.anasit.com/cookbook/agile/corpedit/</link>
+      <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/agile/corpedit/</guid>
+      <description>协同编辑工具选型 Leanote 云协作 https://pro.leanote.com tower.im文档 项目-文档-创建markdown文档 markdown 协同 石墨文档 https://shimo.im/ 协同文本 协同表格</description>
+    </item>
+    
+    <item>
+      <title>协同中的IM聊天室选择(jitsi/apperin/talkyio)</title>
+      <link>https://cio.anasit.com/cookbook/agile/imsystem/</link>
+      <pubDate>Wed, 02 Sep 2015 17:31:17 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/agile/imsystem/</guid>
+      <description>slack jitsi.org 开源，可独立部署 An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator) https://jitsi.org/Main/Features ✔ 100% open source ✔ Encrypted by default ✔ HD audio with Opus ✔ No account needed ✔ Presentations and desktop sharing ✔ Integrated chat ✔ Invite by pretty URLs https://MySite.com/OurConf appear.in 在线视频聊天室 Start talking in seconds It has never</description>
+    </item>
+    
+    <item>
+      <title>初次了解DataGrip</title>
+      <link>https://cio.anasit.com/cookbook/database/Datagrip/</link>
+      <pubDate>Thu, 27 Aug 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/database/Datagrip/</guid>
+      <description>《初次了解DataGrip》 http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text 特性整理 http://www.jetbrains.com/datagrip/features/ 数据库基础操作 支持数据库引擎：MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Sybase, DB2, SQLite, HyperSQL, Apache Derby and H2. 同Navicat/MysqlWo</description>
+    </item>
+    
+    <item>
+      <title>raml相关的generator</title>
+      <link>https://cio.anasit.com/cookbook/api/raml-generator/</link>
+      <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/raml-generator/</guid>
+      <description>raml-client-generator https://github.com/mulesoft/raml-client-generator supported languages - javascript raml-for-jax-rs https://github.com/mulesoft/raml-for-jax-rs Java for JAX-RS raml2code https://github.com/gextech/raml2code raml2code-groovy-pojo raml2code-jaxrs-interfaces raml2code-js-client raml2code-retrofit raml about golang http://forum.raml.org/t/go-based-raml-parser/592/2 - https://godoc.org/gopkg.in/raml.v0 - https://github.com/go-raml/raml/tree/v0 raml for php phpsx.org https://github.com/k42b3/psx Logic层，分离service Table自动创建sql表的CRUD Multi-Response Generation(Controoler,Json,XML,Atom,Soap,Jsonx) Dependency managment(PSX comes with</description>
+    </item>
+    
+    <item>
+      <title>Restlet，当java遇见RESTfulAPIs</title>
+      <link>https://cio.anasit.com/cookbook/api/restlet-java/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/restlet-java/</guid>
+      <description>那么java最潮流的RESTful API开发框架及模式是什么 jersey jax-rs maven jetty swagger 2.x 最佳规范jax-rs zt 比较各JAX-RS实现：CXF,Jersey,</description>
+    </item>
+    
+    <item>
+      <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
+      <link>https://cio.anasit.com/cookbook/api/mulesoft/</link>
+      <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/mulesoft/</guid>
+      <description>0. MuleSoft与RAML MuleSoft专注企业Saas集成，获5000亿美元估值 开源3个RAML的API设计、测试、自动化工具 联合An</description>
+    </item>
+    
+    <item>
+      <title>mapplestory&#39;s Tech Collection</title>
+      <link>https://cio.anasit.com/game/dev/mapplestory/</link>
+      <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/dev/mapplestory/</guid>
+      <description>冒险岛模拟器技术调研及收藏 0.resource list All Release Messages: https://forum.ragezone.com/f690/ All PS Wiki: http://privateserver.wikia.com/ Server Tech Froum: http://dev.chiasoft.net/ 1.Server 1.0 OdinMS Dev by Java for v0.55 - more stable http://sourceforge.net/projects/odinms/ https://code.google.com/p/odindoclet/ https://code.google.com/p/dev-odinms/ https://code.google.com/p/projectodin/ 1.1 TitanMS 1.2 Vana (A TitanMS Fork) dev by c++ http://privateserver.wikia.com/wiki/Vana https://github.com/VanaDev/Vana https://github.com/retep998/Vana https://github.com/VanaDev/Vana/wiki 1.3 TinyMapleServer Dev by golang 适用于不启动服务端</description>
+    </item>
+    
+    <item>
+      <title>Debian常见问题汇总</title>
+      <link>https://cio.anasit.com/faq/debianfaq/</link>
+      <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/debianfaq/</guid>
+      <description>apt-get更新问题：Failed to Fetch : http:// 解决方案： cd /var/lib/apt/lists/partial rm * sshd允许Root登录 cd /etc/ssh vim sshd_config PermitRootLogin yes service ssh restart 中国国内源更换 https://lug.ustc.edu.cn/repogen/ # testing 源 deb http://mirrors.ustc.edu.cn/debian testing main contrib non-free deb-src</description>
+    </item>
+    
+    <item>
+      <title>Windows 10 开机缓慢</title>
+      <link>https://cio.anasit.com/faq/win10/</link>
+      <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/win10/</guid>
+      <description>Windows 10 开机缓慢 http://jingyan.baidu.com/article/ca41422fc2c2471eae99ed31.html http://jingyan.baidu.com/article/fedf073755a55635ad897768.html</description>
+    </item>
+    
+    <item>
+      <title>steam for archlinux FAQ</title>
+      <link>https://cio.anasit.com/faq/steam/</link>
+      <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/steam/</guid>
+      <description>#FAQ:Run as root user ##Soluution:
+vim /etc/bin/steam /Cannot  #FAQ:libGL error: failed to load driver: r600
+##Solution: http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html</description>
+    </item>
+    
+    <item>
+      <title>yo,npm,grunt,bower</title>
+      <link>https://cio.anasit.com/faq/yonpmgruntbower/</link>
+      <pubDate>Mon, 17 Aug 2015 02:19:36 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/faq/yonpmgruntbower/</guid>
+      <description>#Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo; https://github.com/keystonejs/keystone/issues/1566
+When I try to run: yo meanjs, I got the error: Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo; You don&amp;rsquo;t have access to this file.
+It seems that &amp;lsquo;/root/.config/configstore/insight-yo.yml&amp;rsquo; does not exist at all
+##Solution：
+I find the solution here: https://github.com/yeoman/yeoman.io/issues/282
+run the command below fix my problem:
+mkdir -p /root/.config/configstore chmod g+rwx /root /root/.config /root/.config/configstore chmod g+rwx ~/.npm -R chmod g+rwx &amp;lt;workspace&amp;gt; -R  </description>
+    </item>
+    
+    <item>
+      <title>当团队线上办公需要dms文档管理系统</title>
+      <link>https://cio.anasit.com/cookbook/agile/dms/</link>
+      <pubDate>Sun, 16 Aug 2015 07:14:29 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/agile/dms/</guid>
+      <description>0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind</description>
+    </item>
+    
+    <item>
+      <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
+      <link>https://cio.anasit.com/cookbook/api/newforraml/</link>
+      <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/api/newforraml/</guid>
+      <description>0.0 前言 自己的团队是以Agile敏捷管理方式构建的，为了前后端的分离，使各端工程师更加专注得进行自己所负责的模块与功能。 好用的东西整理在前面：</description>
+    </item>
+    
+    <item>
+      <title>实用的geek工具类站点</title>
+      <link>https://cio.anasit.com/cookbook/tool/usefulwebsite/</link>
+      <pubDate>Fri, 14 Aug 2015 10:12:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/usefulwebsite/</guid>
+      <description>比较选优 alternativeto.net makeuseof.com Agile敏捷协作 taiga.io 一站式敏捷协作平台，开源免费 “世界大战”尽在掌控：盘点全球网络攻击实时追踪系统 http://www.freebuf.com/news/special/56910.html SEO分析工具 http://semalt.com http://semalt.com/project/2801734</description>
+    </item>
+    
+    <item>
+      <title>敏捷团队协作taiga.io，开源实用</title>
+      <link>https://cio.anasit.com/cookbook/agile/taiga/</link>
+      <pubDate>Fri, 14 Aug 2015 10:07:26 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/agile/taiga/</guid>
+      <description>TAIGA.IO使用记录 完全手册：http://taigaio.github.io/taiga-doc/dist/ 0.当敏捷团队碰到Agil</description>
+    </item>
+    
+    <item>
+      <title>基于Git的分布式自由博客&#43;搭建</title>
+      <link>https://cio.anasit.com/cookbook/pkm/blogforgit/</link>
+      <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/pkm/blogforgit/</guid>
+      <description>0.准备工作 基础开通 https://pages.github.com/ Blog选型 参考:https://www.staticgen.com/ hugo 基于Golang，速度极快的静态页面生成博客，</description>
+    </item>
+    
+    <item>
+      <title>残疾人服务平台——孤独症项目</title>
+      <link>https://cio.anasit.com/meeting/2015-7-20%E9%83%AD%E6%95%99%E6%8E%88%E6%AE%8B%E7%96%BE%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0-%E5%AD%A4%E7%8B%AC%E7%97%87%E9%A1%B9%E7%9B%AE%E4%BC%9A%E8%B0%88/</link>
+      <pubDate>Mon, 20 Jul 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2015-7-20%E9%83%AD%E6%95%99%E6%8E%88%E6%AE%8B%E7%96%BE%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0-%E5%AD%A4%E7%8B%AC%E7%97%87%E9%A1%B9%E7%9B%AE%E4%BC%9A%E8%B0%88/</guid>
+      <description>残疾人服务平台-孤独症项目 与会人员： 郭教授 中国精协 孤独症研究专家 孙总 项目接洽 常先生 刘雨飏 时间地点 - 时间 2015-7-20 - 地点 中关村 3W咖啡厅</description>
+    </item>
+    
+    <item>
+      <title>sshd链接保持长期存活</title>
+      <link>https://cio.anasit.com/cookbook/devops/sshkeepalive/</link>
+      <pubDate>Sat, 27 Jun 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/devops/sshkeepalive/</guid>
+      <description>1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后</description>
+    </item>
+    
+    <item>
+      <title>putty常用配置</title>
+      <link>https://cio.anasit.com/cookbook/tool/putty/</link>
+      <pubDate>Wed, 27 May 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/cookbook/tool/putty/</guid>
+      <description>Session设置 1.PuttyGen设置密钥，将openssh转为.ppk文件 2.Load后先编辑Appearance更改界面，再进入SS</description>
+    </item>
+    
+    <item>
+      <title>心理学学习计划</title>
+      <link>https://cio.anasit.com/study/psychology/learn/</link>
+      <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/psychology/learn/</guid>
+      <description>《心理学学习计划》 基础书籍学习 易学与心理学 人物 真实姓名：姜祖桐 百度百科： http://baike.baidu.com/link?url=-iI6YTYHU256bKvWXQ56FPyDIA2L-Pb966fWQDD8vIaNouL50PayRtErtTkgyTo1ZrSA3-YVB6ORLsLjWK5Jn_ 童仆的博客：http://blog.sina.com.cn/u/1</description>
+    </item>
+    
+    <item>
+      <title>心理学实用理论整理</title>
+      <link>https://cio.anasit.com/study/psychology/value/</link>
+      <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/psychology/value/</guid>
+      <description>巴甫诺夫——动力定型 生理机制 在日常生活中，如果一个人比较稳定地从事某一活动，客观刺激的系统经常按照一定前后和强弱作用于有机体。由于大脑皮层有</description>
+    </item>
+    
+    <item>
+      <title>战争从未改变</title>
+      <link>https://cio.anasit.com/study/it/warneverchange/</link>
+      <pubDate>Fri, 09 Jan 2015 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/study/it/warneverchange/</guid>
+      <description>序言：战争从未改变 War，War Never changes 关键字：战争 信息时代 War. War Never changes. 战争从来就没有变过 the romans waged war to gather slaves and wealth. spain built an empire from its lust for gold and territory. hitler shaped a battered germany into an economic superpower.</description>
+    </item>
+    
+    <item>
+      <title>Project Nova 知识体系</title>
+      <link>https://cio.anasit.com/game/projectnova/jobclass/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/projectnova/jobclass/</guid>
+      <description>知识体系 游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系： 战斗系 器械系 建筑系 贸易</description>
+    </item>
+    
+    <item>
+      <title>Project Nova 背景概述</title>
+      <link>https://cio.anasit.com/game/projectnova/history/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/projectnova/history/</guid>
+      <description>背景概述 21世纪，神秘能量降临地球，散布在我们身边的每个角落。没人知道它们来自哪里，没人懂得如何使用它们，它的存在只被少数人知道。大自然某些</description>
+    </item>
+    
+    <item>
+      <title>Project Nova 能量体系</title>
+      <link>https://cio.anasit.com/game/projectnova/powerexp/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/projectnova/powerexp/</guid>
+      <description>能量体系 能量微粒 散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。 能量晶体 规则的多边形小能量块，积累到一定数量后，可以组</description>
+    </item>
+    
+    <item>
+      <title>Project Nova 道具体系</title>
+      <link>https://cio.anasit.com/game/projectnova/itemclass/</link>
+      <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
+      
+      <guid>https://cio.anasit.com/game/projectnova/itemclass/</guid>
+      <description>道具体系 类别 攻击类 由能量晶体构造出的攻击性武器，可以将能量以放射形式发出，对其他能量构造体产生干扰及伤害。 干扰类 破坏类 防御类 由能量晶体构造出</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cio.anasit.com/meeting/2016-10-23finance-nanchang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-10-23finance-nanchang/</guid>
+      <description>金汇财经携手漫富金融巡讲——南昌站 通胀与通缩并存的时代，如何投资最赚钱  主办：金汇财经 协办：MDF 独家合作社交平台：脉脉 主讲嘉宾：田洪良  www.tianhongliang.com 微信：hjtz1963 QQ：595260321 手机：13084150935   各投资品种比较  银行存款、国债  万元，年亏损300元，人民币通胀率5-6%  股票、期货  2017后小幅上升  P2P（推荐）  年收益 15% 存在欺骗、非法集资等风险 年收益 10-13% 可信 =&amp;gt; 认准平台 =&amp;gt; 赶超通涨的收益率  贵金属、原油  国内 =&amp;gt; 无规范 =&amp;gt; 无公信力 强烈不推荐 国外 =&amp;gt; 认准平台 =&amp;gt; 新西兰、英国的监管标准完善  外汇（推荐）  中国 1994年，灰色地带，无限制无监管 2005年，国外公司大量涌入 2008、2009之后 更多人接触到 2016年未完全开发/行业起步较晚、处于发展阶段 国内金融的最后一块蛋糕  分析师 100万/年收入 交易员 300-500万/年收入 IB代理 业务员 200-300万/年收入    外汇走势分析（2016-10）  人民币美元  美元预期走强（大选后加息） 实际冲高回落 高位震荡  英镑美元(GBPUSD)  大幅下跌，跌破最低点 推荐：逢高做空  澳元美元(AUDUSD)  推荐：0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cio.anasit.com/meeting/2016-10-25-2016-10-26IT-EXPO/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cio.anasit.com/meeting/2016-10-25-2016-10-26IT-EXPO/</guid>
+      <description>2016中国制造业与互联网融合发展创新论坛——从“制造”迈向“智造”  IT EXPO Jinan,P.R.China 主办单位  高新区机关党委 高新区齐鲁软件园发展中心 高新区智能装备产业发展中心 中国（济南）国际信息技术博览会组委会  协办单位  山东新丞华展览有限公司   第一部分：开篇演讲  李培根 院士  结语  智能制造与“互联网+”  数据是基础 设备与产品是基本对象 人是目的  从数据、设备（产品）、人哪里寻找机会（基本要素） 融合可以产生商业奇迹  第二部分：Oracle云应用助力企业数字化转型  王洪斌 Oracle  中国快速成长企业所面临的挑战  运营风险  如何有效控制快速发展过程中的财务及运营风险？  客户交付  如何快速响应客户需求，保证产品按时交付？  成本压力 快速应变 持续创新 全球化发展  企业期望通过信息系统提升核心竞争力  基础运营管理能力  支持订单，计划，生产，采购，财务高效的运营管理  信息决策能力 协同创新能力  提高企业内部跨部门的协作  支持变化发展的能力  传统ERP部署方式无法适应快速变化的外部环境 对IT基础设施不断增加的需求 - 传统ERP、供应链系统系统特征 - 架构复杂 - 易用性差 - 实施复杂 - 传统ERP、供应链系统建设运维方式 - 成本高昂 - 运维复杂 - 升级缓慢</description>
     </item>
     
   </channel>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rxjs on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/rxjs/index.xml</link>
-    <description>Recent content in Rxjs on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Rxjs on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/rxjs/</link>
+    <description>Recent content in Rxjs on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/rxjs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/rxjs/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>rxjs的简要入门，以及ng2与es6中的rxjs</title>
@@ -15,12 +18,7 @@
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/api/rxjs/</guid>
-      <description>
-
-&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.moye.me/2016/05/31/learning_rxjs_part_one_preliminary/&#34;&gt;学习RxJS： 导入&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>简介 学习RxJS： 导入</description>
     </item>
     
   </channel>

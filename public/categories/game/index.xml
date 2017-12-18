@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/categories/game/index.xml</link>
-    <description>Recent content in Game on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Game on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/categories/game/</link>
+    <description>Recent content in Game on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2016 00:05:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>手机游戏客户端开发引擎调研</title>
@@ -15,126 +18,7 @@
       <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
-      <description>
-
-&lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
-
-&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
-
-&lt;p&gt;| 对比类目 | Cocos2d-x | unity 3d | 结论 |
-| :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- |
-| 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d |
-| 学习难度 | 对C++工程师较友好 | 完整便捷的开发套件 | unity 3d |
-| 社区支持 | 国内论坛活跃 | 需要到英文论坛交流 | &amp;ndash; |
-| 发展趋势 | 开源的2D手游开发框架 | 覆盖面广、GUI/网络需要学第三方控件 | &amp;ndash; |
-| 授权费用 | 开源MIT，免费 | 部分开源，费用低可忽略 | &amp;ndash; |
-| 开发成本 | 费前期开发成本，省后期debug和优化成本 | 省前期成本，费后期debug和优化成本 | 3D游戏研发投入是2D游戏的3~4倍 |&lt;/p&gt;
-
-&lt;p&gt;总结一下：
-1. 如果你编程基础一般，想快速做出一款游戏而不纠结于技术，选unity
-2. 开发app或者其他软件已经有一定经验，希望转到手游领域做一款商业化产品，同时个人或者团队的资金实力一般，选cocos2d
-3. 现在手机游戏市场前10位有7位都是cocos2d-x开发，开源、跨平台、MIT许可等等，当然适合2d游戏，3d游戏还是用unity；
-4. 想学习业界主流的游戏开发流程，不想局限于某个游戏平台或者2D还是3D，选unity&lt;/p&gt;
-
-&lt;h1 id=&#34;分解-cocos2d-x-c-版本-lua脚本-非html5领域更受欢迎&#34;&gt;分解：cocos2d-x（c++版本+lua脚本，非HTML5领域更受欢迎）&lt;/h1&gt;
-
-&lt;p&gt;cocos2d-x是个壮汉，但是肌肉极为不对称&lt;/p&gt;
-
-&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;产品生态成熟，手机市场占有率大于u3d&lt;/li&gt;
-&lt;li&gt;AppStore中国畅销榜前五，都是cocos2s-x引擎&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;所谓的跨平台仅仅是IOS/Android等移动端&lt;/li&gt;
-&lt;li&gt;所谓丰富的功能，其实大多不能用，非常多BUG&lt;/li&gt;
-&lt;li&gt;开发效率不如unity 3d&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;开发相关&#34;&gt;开发相关&lt;/h2&gt;
-
-&lt;p&gt;主流工具&lt;/p&gt;
-
-&lt;p&gt;Window平台下 C++语言用 Visual Studio ，官方有UI编辑器CocoStudio，苹果系统不太熟&lt;/p&gt;
-
-&lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-其他独立的工具&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/p&gt;
-
-&lt;p&gt;位图字体工具Bitmap Font Tools
-BMFont (Windows)
-Fonteditor
-Glyph Designer
-Hiero
-LabelAtlasCreator&lt;/p&gt;
-
-&lt;p&gt;粒子编辑工具Particle Editing Tools
-ParticleCreator
-Particle Designer&lt;/p&gt;
-
-&lt;p&gt;物理编辑工具Physics Editing Tools
-Mekanimo
-PhysicsBench
-PhysicsEditor
-VertexHelper&lt;/p&gt;
-
-&lt;p&gt;场景编辑工具Scene Editing Tools
-CocosBuilder
-Cocoshop
-LevelHelper&lt;/p&gt;
-
-&lt;p&gt;纹理地图集工具Texture Atlas Tools
-DarkFunction Editor
-SpriteHelper
-TexturePacker
-Zwoptex&lt;/p&gt;
-
-&lt;p&gt;瓦片地图编辑工具Tilemap Editing Tools
-iTileMaps
-Tiled Map Editor&lt;/p&gt;
-
-&lt;p&gt;声音特效编辑工具Audio Effect Editing Tools
-cfxr&lt;/p&gt;
-
-&lt;p&gt;背景音乐编辑工具Background Music Editing Tools
-GarageBand (MAC 系统自带)&lt;/p&gt;
-
-&lt;p&gt;BOX2D多边形定义工具VertexHelper
-VertexHelper&lt;/p&gt;
-
-&lt;p&gt;GIF动画帧导出工具Ulead GIF Animator
-UleadGifAnimator&lt;/p&gt;
-
-&lt;p&gt;如果开发者熟悉javascript ，lua编程语言，推荐cocos2d-x editor；我在网上查资料无意间找到的，不得不承认高手在民间，我现在在使用，确实强大，可惜人气还是少了点，希望工具开发者更新更多例子和教程。下面是工具创造者写的简介，我就直接贴在下面了，尽量看原文吧，我很懒，不想一张一张贴图片，麻烦。&lt;/p&gt;
-
-&lt;p&gt;原文csdn地址：&lt;a href=&#34;http://blog.csdn.net/touchsnow/article/details/18446119&#34;&gt;cocos2d-x editor&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;分解-unity-3d&#34;&gt;分解：unity 3d&lt;/h1&gt;
-
-&lt;h2 id=&#34;优点-1&#34;&gt;优点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;真正实现跨平台，PC端的Mac/Windows/Linux，移动端的IOS/IPad/Android&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;性能&#34;&gt;性能&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2D游戏，Unity同屏400个单位没问题&lt;/li&gt;
-&lt;li&gt;参考神仙道同屏object数量&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;代表作品分析&#34;&gt;代表作品分析&lt;/h1&gt;
-
-&lt;h2 id=&#34;炉石传说-unity-3d&#34;&gt;炉石传说 unity 3d&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;使用Unity3D开发2d化游戏已成趋势&lt;/li&gt;
-&lt;li&gt;炉石传说真正实现跨平台，Mac/Windows/IOS/IPad/Android&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>手机游戏客户端开发引擎调研 总览 | 对比类目 | Cocos2d-x | unity 3d | 结论 | | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | | 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d | | 学习难度 | 对C</description>
     </item>
     
     <item>
@@ -143,19 +27,7 @@ UleadGifAnimator&lt;/p&gt;
       <pubDate>Mon, 15 Feb 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/play/evecorp/</guid>
-      <description>
-
-&lt;h1 id=&#34;第一个军团-pandemic-horde-inc&#34;&gt;第一个军团 Pandemic Horde Inc.&lt;/h1&gt;
-
-&lt;h2 id=&#34;timeline&#34;&gt;TimeLine&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2016/2/11 join the corp &amp;ldquo;Pandemic Horde Inc.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;register &amp;ldquo;www.pandemic-legion.pl&amp;rdquo; ryanemax@gmail.com IU*&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;##&lt;/p&gt;
-</description>
+      <description>第一个军团 Pandemic Horde Inc. TimeLine 2016/2/11 join the corp &amp;ldquo;Pandemic Horde Inc.&amp;rdquo; register &amp;ldquo;www.pandemic-legion.pl&amp;rdquo; ryanemax@gmail.com IU* ##</description>
     </item>
     
     <item>
@@ -164,170 +36,7 @@ UleadGifAnimator&lt;/p&gt;
       <pubDate>Wed, 27 Jan 2016 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/play/eveofplan/</guid>
-      <description>
-
-&lt;h1 id=&#34;eve-europe-server-planning&#34;&gt;Eve Europe Server Planning&lt;/h1&gt;
-
-&lt;h1 id=&#34;get-ready&#34;&gt;Get Ready&lt;/h1&gt;
-
-&lt;h2 id=&#34;keybord-mapping&#34;&gt;Keybord Mapping&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://v.youku.com/v_show/id_XODQ2MTM5MzIw.html&#34;&gt;视频: EVE：新特效星图+键盘操控时代（Rhea 1.0）&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;trading-web-site-api&#34;&gt;Trading Web Site/API&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;EVE-Central&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The EVE-Online Market Aggregator and Toolkit
-&lt;a href=&#34;https://eve-central.com&#34;&gt;https://eve-central.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;eve-markets.net(powered by the EVE-Central API)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.eve-markets.net/index.php&#34;&gt;http://www.eve-markets.net/index.php&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;evedata&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.evedata.org/&#34;&gt;http://www.evedata.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://eve-marketdata.com/&#34;&gt;http://eve-marketdata.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;reality-target&#34;&gt;Reality Target&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;English Speaking/Reading Skill&lt;/li&gt;
-&lt;li&gt;Global Trade &amp;amp; Marketing Skill&lt;/li&gt;
-&lt;li&gt;Global Fuck GFW&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;account-info&#34;&gt;Account Info&lt;/h1&gt;
-
-&lt;p&gt;ryanemax@gmail.com
-ryanemax
-IU***evol&lt;/p&gt;
-
-&lt;p&gt;主要在线时间：23:00-3:00&lt;/p&gt;
-
-&lt;h2 id=&#34;邀请人资料&#34;&gt;邀请人资料&lt;/h2&gt;
-
-&lt;p&gt;QQ：1068901
-百度贴吧：发霉的提拉米苏
-充值福利：月卡1.2b 充值后反900m&lt;/p&gt;
-
-&lt;p&gt;EVE历史：
-- 2006年国服角色：花脸木偶 G族战斗号，2011年已出售
-- 2011年角色改名为：菲拉格索斯（服役于小馒头军团）&lt;/p&gt;
-
-&lt;h1 id=&#34;first-character&#34;&gt;First Character&lt;/h1&gt;
-
-&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Name: Rita Ryn&lt;/li&gt;
-&lt;li&gt;Sex: Female&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;property&#34;&gt;Property&lt;/h2&gt;
-
-&lt;p&gt;结论：不要极限洗点，对于单号的新人，推荐的起步属性点为&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;智力 (Int) : 24&lt;/li&gt;
-&lt;li&gt;感知 (Pre) : 24&lt;/li&gt;
-&lt;li&gt;魅力 (Cha) : 17&lt;/li&gt;
-&lt;li&gt;毅力 (Wil) : 17&lt;/li&gt;
-&lt;li&gt;记忆 (Mem) : 17&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;races&#34;&gt;Races&lt;/h2&gt;
-
-&lt;p&gt;Gallente/Gallente&lt;/p&gt;
-
-&lt;h3 id=&#34;faction-pve&#34;&gt;Faction/PVE&lt;/h3&gt;
-
-&lt;h3 id=&#34;姐妹会&#34;&gt;姐妹会&lt;/h3&gt;
-
-&lt;h4 id=&#34;简介&#34;&gt;简介&lt;/h4&gt;
-
-&lt;p&gt;帝国辖域以外的空间是土匪和海盗们的乐土，也是位于浩瀚星空的另一端的，那些投身于救助事业者的家园。EVE姐妹会就是其中最著名的组织，而且她不仅仅提供援助救济。协会建立在信仰和科学的基础上，这对奇异的组合吸引着帝国各处的人们参与其中。&lt;/p&gt;
-
-&lt;p&gt;姐妹会的最高领导人哈娜•杜拉多祭司。&lt;/p&gt;
-
-&lt;p&gt;她称彻底探知EVE之门的奥秘是“真神的旨意”，为了世间万物，她们会把工作进行到底。但迄今为止姐妹会的研究工作并没有太大进展，而上百万与姐妹会有共同愿望的人们正热切地期待着日后他们的研究会有新突破。&lt;/p&gt;
-
-&lt;h4 id=&#34;刷声望的技巧&#34;&gt;刷声望的技巧&lt;/h4&gt;
-
-&lt;p&gt;艾拉肯 有一个空间站里面有姐妹会的2个1级任务代理人，没错的
-，就刷这个最快了，2级3级任务根本不考虑。直接刷1级任务到够4级任务的声望。&lt;/p&gt;
-
-&lt;p&gt;姐妹会和G/M关系很大 会加这两个势力的声望。故事线是加的，加四族声望，但一般任务可能会接到降低某四族声望的任务，拒绝就行了&lt;/p&gt;
-
-&lt;h3 id=&#34;pvp&#34;&gt;PVP&lt;/h3&gt;
-
-&lt;h4 id=&#34;小队战-t1-t2&#34;&gt;小队战/T1/T2&lt;/h4&gt;
-
-&lt;p&gt;护卫舰配置 Tristan&lt;/p&gt;
-
-&lt;p&gt;驱逐舰配置 Aglos&lt;/p&gt;
-
-&lt;h4 id=&#34;参考资料&#34;&gt;参考资料&lt;/h4&gt;
-
-&lt;p&gt;甲抗，转向速度中等，先天速度中等，武器是混合炮（动热伤害），部分船擅长无人机，混合炮的近炮种疾速炮超近的射程和超暴力的伤害，充分体验了盖伦特不是你死就是我亡的气质。磁轨炮和无人机的伤害都在近年得到加强，潜力很大。&lt;/p&gt;
-
-&lt;p&gt;电子战：Arazu/Lachesis&lt;/p&gt;
-
-&lt;p&gt;适合新人的： Vexor,Brutix（盾阔），钢板小米或者盾扩小米，多米&lt;/p&gt;
-
-&lt;p&gt;电子战（感应阻抑）路线：Maulus -&amp;gt; Celestis -&amp;gt; 最终目标：Arazu、Lachesis、Keres&lt;/p&gt;
-
-&lt;p&gt;无人机+磁轨炮路线： Tristan/Algos -&amp;gt; Vexor -&amp;gt; 小米-Myrmidon -&amp;gt; 最终目标：Ishkur、Dominix、Ishtar&lt;/p&gt;
-
-&lt;p&gt;炮术(Blaster or Railgun）路线：用炮护卫 -&amp;gt; Thorax -&amp;gt; Brutix -&amp;gt; 最终目标：Enyo、Talos、Deimos、Megathron、Daredevil&lt;/p&gt;
-
-&lt;p&gt;G族的pvp在早期很多船依赖无人机，但这种东西缺陷明显，无法对抗高速目标，常错失良机；在低安会被星门炮打掉，逃跑时来不及回收无人机。
-Vexor,小米-myrm,多米-dominix就是通常所说的无人机船，一般偏重防御、毁电。
-后期的发展目标是Ishtar，不过你需要有相当的操作水平才能玩好它。
-Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此很拉仇恨，建议不要带点，保证高速的同时注重防御。&lt;/p&gt;
-
-&lt;p&gt;等到你能开Arazu或者Lachesis，你就出头了。这两个船是小队抓人的神器，有着特别加长的反跳距离，而且能扫描抓人，血量也不赖，特别是Lachesis，应该可以认为是&lt;strong&gt;最硬的侦察舰&lt;/strong&gt;。不过注意Lachesis你最好有重导技能，这样才能发挥多余的１００＋dps。&lt;/p&gt;
-
-&lt;p&gt;G族的PVP战列为甲抗，但是局限严重，除多米外一般不太适合小队战
-其余PVP船只大多为盾抗，速度不弱，火力凶猛。&lt;/p&gt;
-
-&lt;p&gt;小航母 Ｇ族：甲抗，有战斗机攻击力加成，可以使用旗舰遥修甲，遥修盾
-点评：战斗机攻击力加成在会战鸡肋，不要指望，刷怪的话这个航母在航母中是最好的（不过航母刷怪的通常都会在某天被人轮Ｘ）；小队战很不错的货，什么都能修，虽然不能传电，但是小队战一般也没有人需要电。&lt;/p&gt;
-
-&lt;p&gt;大航母
-Ｇ族，甲抗：无人机攻击力加成，最强的对旗舰DPS，现在会战这个船常占所有旗舰的一半以上…可见其威力…&lt;/p&gt;
-
-&lt;h2 id=&#34;pve-任务-刷怪&#34;&gt;PVE/任务/刷怪&lt;/h2&gt;
-
-&lt;p&gt;盖伦特
-甲抗，甲抗优势同A族。
-主要武器为磁轨炮，部分船使用无人机作为主要武器。&lt;/p&gt;
-
-&lt;p&gt;磁轨优势：炮船的一般优势，远距离能杀小怪，造成伤害及时之类；射程中上，伤害中下，失准伤害高于激光；pg消耗低，技能要求不如A族苛刻
-缺点：转速较低，对于近距离的高速船容易打偏；耗电，虽然不如激光，但是总归是耗电；伤害固定：动热混合伤害，对于古斯塔，天蛇怪伤害高，天使怪伤害一般，萨沙，血袭伤害弱。&lt;/p&gt;
-
-&lt;p&gt;无人机优势：无人机刷怪，在最近一次更新后，变得不再鸡肋。无人机技能成型快、伤害灵活，但热能的garde才能发挥最大伤害，虽然射程受限。无人机不怕怪的电子战，例如ECM和炮扰等，同时无人机可以自动攻击目标，在确定怪不会打无人的情况下会比较轻松。
-无人机的转速也非常强悍。&lt;/p&gt;
-
-&lt;p&gt;缺点：射程近，无人机速度奇慢，怪会攻击无人机等缺陷。&lt;/p&gt;
-
-&lt;h1 id=&#34;ship-skill-queue&#34;&gt;Ship &amp;amp; Skill Queue&lt;/h1&gt;
-
-&lt;p&gt;主要：无人机+磁轨炮
-小队战PVP战舰：tristan algos&lt;/p&gt;
-
-&lt;p&gt;次要：电子战&lt;/p&gt;
-
-&lt;p&gt;最次：小航母&lt;/p&gt;
-</description>
+      <description>Eve Europe Server Planning Get Ready Keybord Mapping 视频: EVE：新特效星图+键盘操控时代（Rhea 1.0） Trading Web Site/API EVE-Central The EVE-Online Market Aggregator and Toolkit https://eve-central.com eve-markets.net(powered by the EVE-Central API) http://www.eve-markets.net/index.php evedata http://www.evedata.org/ http://eve-marketdata.com/ Reality Target English Speaking/Reading Skill Global Trade &amp;amp; Marketing Skill Global Fuck GFW Account</description>
     </item>
     
     <item>
@@ -336,123 +45,7 @@ Brutix是个不错的船，DPS极端强劲，几乎达到战列水平，因此�
       <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/dev/mapplestory/</guid>
-      <description>
-
-&lt;h1 id=&#34;冒险岛模拟器技术调研及收藏&#34;&gt;冒险岛模拟器技术调研及收藏&lt;/h1&gt;
-
-&lt;h1 id=&#34;0-resource-list&#34;&gt;0.resource list&lt;/h1&gt;
-
-&lt;p&gt;All Release Messages:
-&lt;a href=&#34;https://forum.ragezone.com/f690/&#34;&gt;https://forum.ragezone.com/f690/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;All PS Wiki:
-&lt;a href=&#34;http://privateserver.wikia.com/&#34;&gt;http://privateserver.wikia.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Server Tech Froum:
-&lt;a href=&#34;http://dev.chiasoft.net/&#34;&gt;http://dev.chiasoft.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;1-server&#34;&gt;1.Server&lt;/h1&gt;
-
-&lt;h2 id=&#34;1-0-odinms&#34;&gt;1.0 OdinMS&lt;/h2&gt;
-
-&lt;p&gt;Dev by Java for v0.55
-- more stable&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sourceforge.net/projects/odinms/&#34;&gt;http://sourceforge.net/projects/odinms/&lt;/a&gt;
-&lt;a href=&#34;https://code.google.com/p/odindoclet/&#34;&gt;https://code.google.com/p/odindoclet/&lt;/a&gt;
-&lt;a href=&#34;https://code.google.com/p/dev-odinms/&#34;&gt;https://code.google.com/p/dev-odinms/&lt;/a&gt;
-&lt;a href=&#34;https://code.google.com/p/projectodin/&#34;&gt;https://code.google.com/p/projectodin/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;1-1-titanms&#34;&gt;1.1 TitanMS&lt;/h2&gt;
-
-&lt;h2 id=&#34;1-2-vana-a-titanms-fork&#34;&gt;1.2 Vana (A TitanMS Fork)&lt;/h2&gt;
-
-&lt;p&gt;dev by c++&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://privateserver.wikia.com/wiki/Vana&#34;&gt;http://privateserver.wikia.com/wiki/Vana&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/VanaDev/Vana&#34;&gt;https://github.com/VanaDev/Vana&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/retep998/Vana&#34;&gt;https://github.com/retep998/Vana&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/VanaDev/Vana/wiki&#34;&gt;https://github.com/VanaDev/Vana/wiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;1-3-tinymapleserver&#34;&gt;1.3 TinyMapleServer&lt;/h2&gt;
-
-&lt;p&gt;Dev by golang&lt;/p&gt;
-
-&lt;p&gt;适用于不启动服务端，做快捷的客户端开发测试&lt;/p&gt;
-
-&lt;p&gt;a tiny maple server so you don&amp;rsquo;t need to boot up a sluggish server to test a maple client.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.mediafire.com/download/6hsxxssbwqxp674/TinyMapleServer+2.zip&#34;&gt;http://www.mediafire.com/download/6hsxxssbwqxp674/TinyMapleServer+2.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;1-4-maplescala&#34;&gt;1.4 MapleScala&lt;/h2&gt;
-
-&lt;p&gt;Dev by Scala&lt;/p&gt;
-
-&lt;p&gt;MapleScala is a MapleStory emulator written in Scala langauge.
-Packages in use&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MySQL&lt;/li&gt;
-&lt;li&gt;Scalikejdbc&lt;/li&gt;
-&lt;li&gt;Akka IO&lt;/li&gt;
-&lt;li&gt;pbkdf2-scala&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Developers&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Yaminike&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;1-5-kagami&#34;&gt;1.5 kagami&lt;/h2&gt;
-
-&lt;p&gt;Dev by Golang&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Francesco149/kagami&#34;&gt;https://github.com/Francesco149/kagami&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;2-client&#34;&gt;2.Client&lt;/h1&gt;
-
-&lt;h2 id=&#34;imapple&#34;&gt;iMapple&lt;/h2&gt;
-
-&lt;p&gt;The 3rd Maplestory Custom Client EVER MADE. Made by David and Seth ;)
-&lt;a href=&#34;https://code.google.com/p/imaple&#34;&gt;https://code.google.com/p/imaple&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;nolifestory&#34;&gt;NoLifeStory&lt;/h2&gt;
-
-&lt;p&gt;dev by c++&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://forum.ragezone.com/f690/nolifestory-935511/&#34;&gt;https://forum.ragezone.com/f690/nolifestory-935511/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;source: &lt;a href=&#34;https://github.com/NoLifeDev/NoLifeStory&#34;&gt;https://github.com/NoLifeDev/NoLifeStory&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;binary: &lt;a href=&#34;https://dl.dropboxusercontent.com/NoLifeStory.7z&#34;&gt;https://dl.dropboxusercontent.com/NoLifeStory.7z&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Leak:
-- not support 64bit only for x86
-- not support big file&lt;/p&gt;
-
-&lt;h1 id=&#34;3-etc&#34;&gt;3.Etc.&lt;/h1&gt;
-
-&lt;h2 id=&#34;3-0-nxformat&#34;&gt;3.0 NxFormat&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nxformat.github.io/&#34;&gt;http://nxformat.github.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;客户端资源包及相关工具&lt;/p&gt;
-
-&lt;h2 id=&#34;3-1-mapleshark-2-0-2-5&#34;&gt;3.1 MapleShark 2.0.2.5&lt;/h2&gt;
-
-&lt;p&gt;MS客户端封包截取分析器&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/diamondo25/MapleShark&#34;&gt;https://github.com/diamondo25/MapleShark&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;3-2-cms-integrated&#34;&gt;3.2 CMS integrated&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://code.google.com/p/leaf-cms/&#34;&gt;https://code.google.com/p/leaf-cms/&lt;/a&gt;
-Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going to have integrated support for TitanMS, OdinMS and Vana but currently it is going to be developed to be tested with OdinMS.&lt;/p&gt;
-</description>
+      <description>冒险岛模拟器技术调研及收藏 0.resource list All Release Messages: https://forum.ragezone.com/f690/ All PS Wiki: http://privateserver.wikia.com/ Server Tech Froum: http://dev.chiasoft.net/ 1.Server 1.0 OdinMS Dev by Java for v0.55 - more stable http://sourceforge.net/projects/odinms/ https://code.google.com/p/odindoclet/ https://code.google.com/p/dev-odinms/ https://code.google.com/p/projectodin/ 1.1 TitanMS 1.2 Vana (A TitanMS Fork) dev by c++ http://privateserver.wikia.com/wiki/Vana https://github.com/VanaDev/Vana https://github.com/retep998/Vana https://github.com/VanaDev/Vana/wiki 1.3 TinyMapleServer Dev by golang 适用于不启动服务端</description>
     </item>
     
     <item>
@@ -461,24 +54,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/projectnova/jobclass/</guid>
-      <description>
-
-&lt;h1 id=&#34;知识体系&#34;&gt;知识体系&lt;/h1&gt;
-
-&lt;p&gt;游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;战斗系&lt;/li&gt;
-&lt;li&gt;器械系&lt;/li&gt;
-&lt;li&gt;建筑系&lt;/li&gt;
-&lt;li&gt;贸易系&lt;/li&gt;
-&lt;li&gt;探索系&lt;/li&gt;
-&lt;li&gt;政治系&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;知识体系的学习，是以时间来修炼，同时只可以进行3项知识的学习。
-逐渐强大起来的能量团体与组织，贡献出了以探索到的知识，形成能量学院，新人成为能量者后，会自动进入学习，并选择自己喜好的初始方向，自由选5种基础知识。&lt;/p&gt;
-</description>
+      <description>知识体系 游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系： 战斗系 器械系 建筑系 贸易</description>
     </item>
     
     <item>
@@ -487,24 +63,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/projectnova/history/</guid>
-      <description>
-
-&lt;h1 id=&#34;背景概述&#34;&gt;背景概述&lt;/h1&gt;
-
-&lt;p&gt;21世纪，神秘能量降临地球，散布在我们身边的每个角落。没人知道它们来自哪里，没人懂得如何使用它们，它的存在只被少数人知道。大自然某些现象对这些能量具有吸引力，而能量逐渐集中的区域，会产生出让人倾慕的力量，仿佛只要拥有了它们，我们就可以发现万物的本源。&lt;/p&gt;
-
-&lt;p&gt;然而21世纪少数感知到能量的人，其实并不是第一批研究这些神秘力量的人，而神秘能量开始降临地球，也并不是第一次。它们每一次出现都会造就一段历史，在全球各地曾经感知到神秘能量的人，给它们起了不同的名字。&lt;/p&gt;
-
-&lt;p&gt;中华大地的道家，将其称为&lt;strong&gt;真元力&lt;/strong&gt;。放空自身，在无我的状态下，能量会自然向人体的上中下丹田聚集，引导其贯通全身经脉，可以修身养性，突破自身，最终感知万物的本源，即为&lt;strong&gt;道&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;《道德经》：有物混成、先天地生。寂兮寥兮、独立不改、周行而不殆、可以为天下母。吾不知其名、字之曰道。&lt;/p&gt;
-
-&lt;p&gt;源自印度的修行者，称之为&lt;strong&gt;查克拉&lt;/strong&gt;，印度哲学认为查克拉存在于身体中，同时掌管身心运作。在身体方面与各器官功能有关；在心理方面则对情感及精神方面都有影响。他们都重视因果轮回，发现神秘能量喜欢萦绕在念力凝练的人身边，通过一定的修行方式及瑜伽，可以。他们主张消除业障，超脱轮回，最终感知万物的本源，及&lt;strong&gt;如来&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;《金刚经》：佛告须菩提：「凡所有相，皆是虚妄。若见诸相非相，即见如來。」「如来者，无所从來，亦无所去，故名如来。」&lt;/p&gt;
-
-&lt;p&gt;西方的神秘学，将其称为&lt;strong&gt;mana，即法力&lt;/strong&gt;，精神力足够强大的人，通过精神力感知外接游离的魔法元素，并加以控制，达到一定的效果。较为理性的学者围绕能量，经过不断实验拓展出自成一体的炼金术、药剂学、占星术、法术等等。&lt;/p&gt;
-</description>
+      <description>背景概述 21世纪，神秘能量降临地球，散布在我们身边的每个角落。没人知道它们来自哪里，没人懂得如何使用它们，它的存在只被少数人知道。大自然某些</description>
     </item>
     
     <item>
@@ -513,22 +72,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/projectnova/powerexp/</guid>
-      <description>
-
-&lt;h1 id=&#34;能量体系&#34;&gt;能量体系&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;能量微粒&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;能量晶体&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;规则的多边形小能量块，积累到一定数量后，可以组合出多种道具。&lt;/p&gt;
-</description>
+      <description>能量体系 能量微粒 散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。 能量晶体 规则的多边形小能量块，积累到一定数量后，可以组</description>
     </item>
     
     <item>
@@ -537,69 +81,7 @@ Leaf, LeafCMS or Maple Leaf is a CMS for MapleStory private servers. It is going
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/game/projectnova/itemclass/</guid>
-      <description>
-
-&lt;h1 id=&#34;道具体系&#34;&gt;道具体系&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;类别&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;攻击类&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;由能量晶体构造出的攻击性武器，可以将能量以放射形式发出，对其他能量构造体产生干扰及伤害。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;干扰类&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;破坏类&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;防御类&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;由能量晶体构造出的防御性武器，可以将攻击性能量阻挡或者吸收，抵御攻击或者干扰。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;吸收类&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;阻挡类&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;器械类&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;侦查收集类&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;战斗防御类&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;特殊类&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;有较多能量晶体构造凝聚而成的自动化器械，可执行多种特殊任务，协同工作。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;建筑类&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;由大量能量晶体构造凝聚而成的特殊建筑，作为基地或者掩体，可以容纳或者部署各种类型道具。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;级别&lt;/p&gt;
-
-&lt;p&gt;道具的级别评判，与其强大程度无关，只是表示它在何种级别下可以发挥最大的作用。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;5m半径&lt;/li&gt;
-&lt;li&gt;30m半径&lt;/li&gt;
-&lt;li&gt;100m半径&lt;/li&gt;
-&lt;li&gt;300m半径&lt;/li&gt;
-&lt;li&gt;500m半径&lt;/li&gt;
-&lt;li&gt;1000m半径&lt;/li&gt;
-&lt;li&gt;等等&lt;/li&gt;
-&lt;li&gt;城级&lt;/li&gt;
-&lt;li&gt;洲级&lt;/li&gt;
-&lt;li&gt;世界级&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>道具体系 类别 攻击类 由能量晶体构造出的攻击性武器，可以将能量以放射形式发出，对其他能量构造体产生干扰及伤害。 干扰类 破坏类 防御类 由能量晶体构造出</description>
     </item>
     
   </channel>

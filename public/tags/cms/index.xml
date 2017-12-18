@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cms on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/cms/index.xml</link>
-    <description>Recent content in Cms on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Cms on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/cms/</link>
+    <description>Recent content in Cms on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 May 2016 20:22:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>H5页面如何接入google ads实现广告收入？</title>
@@ -24,71 +27,7 @@
       <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/cms/homesite/</guid>
-      <description>
-
-&lt;h1 id=&#34;互联网3-0时代-什么才是搭建项目官网的正确姿势&#34;&gt;互联网3.0时代，什么才是搭建项目官网的正确姿势？&lt;/h1&gt;
-
-&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
-
-&lt;p&gt;国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对真正效率的追求。&lt;/p&gt;
-
-&lt;p&gt;本文，将深度探讨，并尝试一次低耦合的CMS系统建设方案。在每个需求环节，选取最佳的技术实现方案，各模块通过RESTful API进行整合及协同。&lt;/p&gt;
-
-&lt;p&gt;示例项目 &lt;a href=&#34;http://vr.anasit.com&#34;&gt;http://vr.anasit.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;技术总览&#34;&gt;技术总览&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;hugo&lt;/li&gt;
-&lt;li&gt;hugo-themes
-
-&lt;ul&gt;
-&lt;li&gt;galactica&lt;/li&gt;
-&lt;li&gt;演示：&lt;a href=&#34;http://astritbublaku.com/demos/galactica/&#34;&gt;http://astritbublaku.com/demos/galactica/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;markdown&lt;/li&gt;
-&lt;li&gt;yaml&lt;/li&gt;
-&lt;li&gt;RESTful APIs&lt;/li&gt;
-&lt;li&gt;github pages&lt;/li&gt;
-&lt;li&gt;rss&lt;/li&gt;
-&lt;li&gt;google ads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;系统架构&#34;&gt;系统架构&lt;/h1&gt;
-
-&lt;h2 id=&#34;静态页面生成模块&#34;&gt;静态页面生成模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Themes 主题机制&lt;/li&gt;
-&lt;li&gt;Templates 模板机制&lt;/li&gt;
-&lt;li&gt;Taxonomies 分类机制&lt;/li&gt;
-&lt;li&gt;Contents 内容格式化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;信息采集聚合模块-aggregator&#34;&gt;信息采集聚合模块 aggregator&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RSS 采集&lt;/li&gt;
-&lt;li&gt;Twiter 采集&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;内容筛选解析格式化模块&#34;&gt;内容筛选解析格式化模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pocket 筛选解析，先存再读的模式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;用户审查发布模块&#34;&gt;用户审查发布模块&lt;/h2&gt;
-
-&lt;h2 id=&#34;ugc用户自主写文模块&#34;&gt;UGC用户自主写文模块&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;选择一：支持git的markdown编辑器&lt;/li&gt;
-&lt;li&gt;选择二：支持api获取文章内容的，在线云笔记&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>互联网3.0时代，什么才是搭建项目官网的正确姿势？ 简介 项目背景 国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对</description>
     </item>
     
     <item>
@@ -97,128 +36,7 @@
       <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/cms/rss/</guid>
-      <description>
-
-&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
-
-&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
-
-&lt;p&gt;greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。&lt;/p&gt;
-
-&lt;p&gt;作为个人用户，所有碰到的基础需求，都可以满足，未考虑付费服务。&lt;/p&gt;
-
-&lt;p&gt;但当要将rss整合进系统，实现更加深度的功能时，feedly是否是最适合的选择。&lt;/p&gt;
-
-&lt;h2 id=&#34;参考文章&#34;&gt;参考文章&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sspai.com/27576&#34;&gt;观点：不可替代的 RSS，比 Feedly 更好用的 Inoreader&lt;/a&gt;
-&lt;a href=&#34;http://www.zhihu.com/question/21278318&#34;&gt;RSS 阅读器 InoReader 的使用体验如何？&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;如何迁移自己的rss订阅&#34;&gt;如何迁移自己的rss订阅？&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;登录feedly，点击用户，选择export OPML文件&lt;/li&gt;
-&lt;li&gt;将导出的OPML文件导入你想要使用的rss订阅服务&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;私有云-rss-聚合器&#34;&gt;私有云 RSS 聚合器&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;filipedeschamps/rss-feed-emitter
-
-&lt;ul&gt;
-&lt;li&gt;nodejs+es6&lt;/li&gt;
-&lt;li&gt;star 621&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;dai-shi/rss-pipes
-
-&lt;ul&gt;
-&lt;li&gt;nodejs&lt;/li&gt;
-&lt;li&gt;star 70&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;freshrss.org
-
-&lt;ul&gt;
-&lt;li&gt;php+mysql&lt;/li&gt;
-&lt;li&gt;star 382&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;freshrss&#34;&gt;freshrss&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;php-pdo&lt;/li&gt;
-&lt;li&gt;xml/curl&lt;/li&gt;
-&lt;li&gt;mysql&lt;/li&gt;
-&lt;li&gt;pelican（静态页面生成部分）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;公有云-rss-订阅服务&#34;&gt;公有云 RSS 订阅服务&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;feedly&lt;/li&gt;
-&lt;li&gt;inoreader&lt;/li&gt;
-&lt;li&gt;feedbin&lt;/li&gt;
-&lt;li&gt;feedwrangler&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;inoreader&#34;&gt;inoreader&lt;/h2&gt;
-
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-
-&lt;p&gt;Inoreader对于RSS源的抓取不如Feedly。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;订阅的科大BBS的RSS源，全部乱码出错，而在Feedly并未出现这种问题。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;总共订阅了166个源，其中有30个提示有问题，而这些在feedly上依然可以正常抓取。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;简介-1&#34;&gt;简介&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.inoreader.com/&#34;&gt;http://www.inoreader.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;开发者平台 &lt;a href=&#34;http://www.inoreader.com/developers/&#34;&gt;http://www.inoreader.com/developers/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=MPuG9dEnl-M&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;资费参考 &lt;a href=&#34;http://www.inoreader.com/upgrade/feature/from_preferences&#34;&gt;http://www.inoreader.com/upgrade/feature/from_preferences&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free套餐：
-- Number of subscriptions   Unlimited
-- Search in subscriptions
-- RSS Feeds for favorites, channels, folders and tags&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML Clips for favorites, channels, folders and tags  Default&lt;/li&gt;
-&lt;li&gt;Unread counter cap (actual unread articles are not limited)   1000&lt;/li&gt;
-&lt;li&gt;Number of active searches     1&lt;/li&gt;
-&lt;li&gt;Number of rules   1&lt;/li&gt;
-&lt;li&gt;Number of filtered feeds  1&lt;/li&gt;
-&lt;li&gt;Number of Highlighters    5&lt;/li&gt;
-&lt;li&gt;Number of boosted feeds   10&lt;/li&gt;
-&lt;li&gt;Number of Google+ feeds   0&lt;/li&gt;
-&lt;li&gt;Number of Twitter feeds   1&lt;/li&gt;
-&lt;li&gt;Number of Facebook page feeds     1&lt;/li&gt;
-&lt;li&gt;Number of VKontakte feeds     1&lt;/li&gt;
-&lt;li&gt;Audio Player  Inline&lt;/li&gt;
-&lt;li&gt;Address book - Gmail integrated   Limited to 10 entries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;feedly&#34;&gt;feedly&lt;/h1&gt;
-
-&lt;p&gt;feedly的免费版用户，是否可使用API来读取数据？可以的，Team套餐中Powerful Api，只是对api增强，普通用户同样可以使用api&lt;/p&gt;
-
-&lt;p&gt;开发者平台 &lt;a href=&#34;http://developer.feedly.com/&#34;&gt;http://developer.feedly.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;资费参考 &lt;a href=&#34;https://feedly.com/i/pro/showcase.zapier&#34;&gt;https://feedly.com/i/pro/showcase.zapier&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free套餐:
-- Up to 100 sources
-- Mobile and desktop
-- Organize source into easy-to-read collections
-- Share to Twitter, Pinterest and Facebook&lt;/p&gt;
-</description>
+      <description>简介 项目背景 greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。 作</description>
     </item>
     
     <item>
@@ -227,50 +45,7 @@
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/frontend/ng2-cms/</guid>
-      <description>
-
-&lt;h1 id=&#34;ng2-seo优化简介&#34;&gt;ng2-SEO优化简介&lt;/h1&gt;
-
-&lt;p&gt;ng2应用实现seo优化的方式有多种
-- universial 后端渲染
-- php 后端模拟渲染&lt;/p&gt;
-
-&lt;h1 id=&#34;blackstar-cms-ng2&#34;&gt;Blackstar CMS - ng2&lt;/h1&gt;
-
-&lt;p&gt;技术选型
-- angular-seed
-- typescript
-- HTML via HTTP
-- HTML via the Blackstar CMS JavaScript Client
-- .NET (ASP.NET MVC)&lt;/p&gt;
-
-&lt;p&gt;特色功能
-- 基本没有&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blackstarcms.net/&#34;&gt;http://blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;示例 &lt;a href=&#34;http://demo.blackstarcms.net/&#34;&gt;http://demo.blackstarcms.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;star 1 on &lt;a href=&#34;https://github.com/Blackstar-CMS/samples&#34;&gt;https://github.com/Blackstar-CMS/samples&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;respond-5-2-ng1&#34;&gt;Respond 5.2 - ng1&lt;/h1&gt;
-
-&lt;p&gt;技术选型
-- Bootstrap 3
-- Polymer 1.0
-- Angular 1.4
-- php&lt;/p&gt;
-
-&lt;p&gt;特色功能
-- SEO优化
-- Themes切换&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.respondcms.com&#34;&gt;http://www.respondcms.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;star 714 on &lt;a href=&#34;https://github.com/madoublet/respond&#34;&gt;https://github.com/madoublet/respond&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;8 themes on &lt;a href=&#34;http://www.respondcms.com/page/themes&#34;&gt;http://www.respondcms.com/page/themes&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>ng2-SEO优化简介 ng2应用实现seo优化的方式有多种 - universial 后端渲染 - php 后端模拟渲染 Blackstar CMS - ng2 技术选型 - angular-seed - typescript - HTML via HTTP - HTML via the Blackstar CMS JavaScript Client - .NET (ASP.NET</description>
     </item>
     
     <item>
@@ -279,69 +54,7 @@
       <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/cms/cmswithlaravel/</guid>
-      <description>
-
-&lt;h1 id=&#34;october-cms&#34;&gt;October CMS&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://octobercms.com/&#34;&gt;https://octobercms.com/&lt;/a&gt;
-&lt;a href=&#34;https://github.com/octobercms/october&#34;&gt;https://github.com/octobercms/october&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;watch 323 star 3388 fork 753&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The Best &amp;amp; Beatutiful&lt;/li&gt;
-&lt;li&gt;167 Plugins&lt;/li&gt;
-&lt;li&gt;32 Themes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;doptor&#34;&gt;Doptor&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Doptor/Doptor&#34;&gt;https://github.com/Doptor/Doptor&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;watch 22 star 79 fork 52&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;企业信息发布，CMS&amp;amp;EMS&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Theme少需要定制&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;refer-to-a-list-of-cmss-built-with-laravel&#34;&gt;Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo;&lt;/h1&gt;
-
-&lt;p&gt;from: &lt;a href=&#34;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&#34;&gt;http://maxoffsky.com/code-blog/list-cmss-built-laravel/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Yesterday Ryan Tablada organized a Google Hangout in which Matt Staffer, me (Maks Surguy), Jake Chapman, and Alex Dover were discussing CMSs built with Laravel and the future of such systems.&lt;/p&gt;
-
-&lt;p&gt;You can watch our discussion here and also read the conversation on Google+ (link on the bottom of this post):&lt;/p&gt;
-
-&lt;p&gt;Before the discussion, I had compiled a list of CMSs that already exist or are being built with Laravel and you can see that list below:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Laravel Bootstrap https://github.com/davzie/laravel-bootstrap
-TypiCMS https://github.com/sdebacker/TypiCMS
-Bootstrap starter site https://github.com/andrewelkins/Laravel-4-Bootstrap-Starter-Site
-Pongo CMS v1 (uses Laravel 3) http://pongocms.com – do not use as v2 is being developed
-Wardrobe CMS (blogging) https://github.com/wardrobecms/wardrobe
-CodeSleeve https://github.com/CodeSleeve/platform
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;In development at the moment&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;PongoCMS v2 http://pongocms.com
-October CMS http://octobercms.com/
-Larapress https://github.com/larapress-cms/larapress
-Coanda https://github.com/CoandaCMS/coanda-core
-PyroCMS v3 https://www.pyrocms.com/
-Platform (Release Candidate) https://cartalyst.com/manual/platform
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Watch our discussion on video&lt;/p&gt;
-
-&lt;p&gt;You can watch the discussion and read the comments here: &lt;a href=&#34;https://plus.google.com/events/caepul2187kfpr84gkluar2mirc&#34;&gt;https://plus.google.com/events/caepul2187kfpr84gkluar2mirc&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;What do you think about CMSs and particularly about the future of CMS? Let me know in the comments or on Twitter.&lt;/p&gt;
-</description>
+      <description>October CMS https://octobercms.com/ https://github.com/octobercms/october watch 323 star 3388 fork 753 The Best &amp;amp; Beatutiful 167 Plugins 32 Themes Doptor https://github.com/Doptor/Doptor watch 22 star 79 fork 52 企业信息发布，CMS&amp;amp;EMS Theme少需要定制 Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo; from: http://maxoffsky.com/code-blog/list-cmss-built-laravel/ Yesterday Ryan Tablada organized a</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-title : "Ryn's Blog | Ryane Liu(刘雨飏)"
+title : "未来全栈 | Ryane Liu(刘雨飏)"
 languageCode : "zh-CN"
 baseurl : "https://cio.anasit.com/"
 copyright : "Copyright (c) 2007-2017, Ryn's Blog; all rights reserved."
@@ -39,7 +39,6 @@ params:
   GitHubUser: "ryanemax"
   facebook: "ryanemax"
   github : "ryanemax" # optional
-  #facebook : "Your facebook Name" # optional
   #gplus : "ryanemax" # optional
   linkedin : "ryanemax" # optional
   #headerCover : "images/headerCover.png" # optional

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Restful on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/restful/index.xml</link>
-    <description>Recent content in Restful on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Restful on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/restful/</link>
+    <description>Recent content in Restful on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/restful/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/restful/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
@@ -15,82 +18,7 @@
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/frontend/ng2-restful/</guid>
-      <description>
-
-&lt;h1 id=&#34;基础选型&#34;&gt;基础选型&lt;/h1&gt;
-
-&lt;h2 id=&#34;回顾angularjs-1&#34;&gt;回顾AngularJS 1&lt;/h2&gt;
-
-&lt;p&gt;结论：ng1采用较为成熟的RESTangular第三方组件。&lt;/p&gt;
-
-&lt;p&gt;Angularjs 1 中可选的数据处理方法有以下三种：
-- $http 框架自带，处理原始HTTP请求
-- $resource 框架自带，对$http进行初步封装
-- $restangular 第三方组件，对RESTful深度封装，同时提供自定义方法。&lt;/p&gt;
-
-&lt;h2 id=&#34;调研angularjs-2&#34;&gt;调研AngularJS 2&lt;/h2&gt;
-
-&lt;p&gt;结论：ng2目前处于RC阶段，相关库不成熟，选择最可靠的angular2/http&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;angular/http&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用参考：&lt;a href=&#34;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&#34;&gt;http://coenraets.org/blog/2016/02/angular2-ionic2-rest-services/&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  import {Http} from &#39;angular2/http&#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;marmelab/restful.js 第三方组件，纯ES6&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 535 on &lt;a href=&#34;https://github.com/marmelab/restful.js&#34;&gt;https://github.com/marmelab/restful.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于ES6开发，Think Restangular without Angular.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # 方式一：npm安装
-  npm install restful.js
-  # 方式二：webpack安装
-  import restful from &#39;restful.js&#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Paldom/angular2-rest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 94 on &lt;a href=&#34;https://github.com/Paldom/angular2-rest&#34;&gt;https://github.com/Paldom/angular2-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;darekf77/ng2-rest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;star 2 on &lt;a href=&#34;https://github.com/darekf77/ng2-rest&#34;&gt;https://github.com/darekf77/ng2-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;angular2-http开发详解&#34;&gt;angular2/http开发详解&lt;/h1&gt;
-
-&lt;h2 id=&#34;参考教程&#34;&gt;参考教程&lt;/h2&gt;
-
-&lt;p&gt;最佳实践 &lt;a href=&#34;https://github.com/driftyco/ionic-conference-app&#34;&gt;https://github.com/driftyco/ionic-conference-app&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;官方手册&#34;&gt;官方手册&lt;/h2&gt;
-
-&lt;p&gt;官方手册：&lt;a href=&#34;https://angular.io/docs/js/latest/api/http/&#34;&gt;https://angular.io/docs/js/latest/api/http/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;使用体验&#34;&gt;使用体验&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;（简便）用户登录后，会封装好Auth及相关参数到headers，这个步骤还没有重构的需求&lt;/li&gt;
-&lt;li&gt;（简便）subscribe处理请求部分，写了通用的reject方式，例如Auth过期，自动调用登出事件&lt;/li&gt;
-&lt;li&gt;（繁琐）当同一个Promise中需要访问多次不同url的get请求时，仅仅是url参数的变动，其他部分都需要复制，导致冗余&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;那么以上三种情景，第三种情景使用频率较高：由于后端&lt;strong&gt;不是规范的REST&lt;/strong&gt;，同一个资源的不同细节，都需要分别发get获取，例如project资源的成员、目标、任务，需要分别从project/member,project/goal,project/task获取。&lt;/p&gt;
-
-&lt;p&gt;因此，也不能直接使用前文提到的第三方库restful.js来开发，所以需要自主对ng2的http模块进行封装。&lt;/p&gt;
-</description>
+      <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
     </item>
     
     <item>
@@ -99,20 +27,7 @@
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/frontend/ng2-firebase/</guid>
-      <description>
-
-&lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
-
-&lt;h1 id=&#34;angularfire2&#34;&gt;AngularFire2&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://angularfire2.com/api/&#34;&gt;https://angularfire2.com/api/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/angular/angularfire2&#34;&gt;https://github.com/angular/angularfire2&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;所有ng2应用示例&#34;&gt;所有ng2应用示例&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://builtwithangular2.com/&#34;&gt;http://builtwithangular2.com/&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/</description>
     </item>
     
     <item>
@@ -121,37 +36,7 @@
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/api/restapi/</guid>
-      <description>
-
-&lt;h1 id=&#34;1-描述语言选择&#34;&gt;1.描述语言选择&lt;/h1&gt;
-
-&lt;h2 id=&#34;swagger-io-首选&#34;&gt;Swagger.io 首选&lt;/h2&gt;
-
-&lt;p&gt;Apigee发布了API Studio——用来创建、测试和共享API的免费在线工具。
-&lt;a href=&#34;http://apistudio.io/&#34;&gt;http://apistudio.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;API Studio基于知名的Swagger Editor——使用YAML格式设计API的工具。
-&lt;a href=&#34;https://github.com/swagger-api/swagger-editor&#34;&gt;https://github.com/swagger-api/swagger-editor&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;raml1-0-参考&#34;&gt;RAML1.0 参考&lt;/h2&gt;
-
-&lt;h1 id=&#34;2-开发框架选择&#34;&gt;2.开发框架选择&lt;/h1&gt;
-
-&lt;h2 id=&#34;php-laravel-方向&#34;&gt;PHP（Laravel 方向）&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://packalyst.com/packages/package/latrell/swagger&#34;&gt;http://packalyst.com/packages/package/latrell/swagger&lt;/a&gt;
-Swagger for Laravel 5
-This package combines swagger-php and swagger-ui into one Laravel-friendly package.
-该包整合了swagger-php与swagger-ui，与Laravel5.x兼容，实现了API的自动测试及文档的自动化流程&lt;/p&gt;
-
-&lt;h2 id=&#34;golang-goa框架&#34;&gt;Golang（GOA框架）&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://goa.design/&#34;&gt;http://goa.design/&lt;/a&gt;
-&lt;a href=&#34;https://github.com/raphael/goa&#34;&gt;https://github.com/raphael/goa&lt;/a&gt;
-基于Go语言的HTTP微服务框架，名为 “goa” 。这一框架允许开发者通过 领域特定语言 （DSL）定义服务的API，并且通过自动代码生成功能创建“样板”式的服务端和客户端代码以及文档。&lt;/p&gt;
-
-&lt;h2 id=&#34;golang-beego框架&#34;&gt;Golang（beego框架）&lt;/h2&gt;
-</description>
+      <description>1.描述语言选择 Swagger.io 首选 Apigee发布了API Studio——用来创建、测试和共享API的免费在线工具。 http://apistudio.io/ API Studio基于知名的Swagg</description>
     </item>
     
     <item>
@@ -160,154 +45,7 @@ This package combines swagger-php and swagger-ui into one Laravel-friendly packa
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/api/golangforrest/</guid>
-      <description>
-
-&lt;h1 id=&#34;0-必备功能&#34;&gt;0.必备功能&lt;/h1&gt;
-
-&lt;p&gt;坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RAML支持&lt;/li&gt;
-&lt;li&gt;CORS支持&lt;/li&gt;
-&lt;li&gt;JSON支持&lt;/li&gt;
-&lt;li&gt;良好的Router机制&lt;/li&gt;
-&lt;li&gt;简单的Controller、Service分离&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ORM支持（最好带migrate）&lt;/p&gt;
-
-&lt;h1 id=&#34;0-1-中间件大搜集&#34;&gt;0.1 中间件大搜集&lt;/h1&gt;
-
-&lt;h2 id=&#34;restgate&#34;&gt;RestGate&lt;/h2&gt;
-
-&lt;p&gt;支持框架：Negroni,Martini,Gin
-为REST API提供endpoints的安全验证机制&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;1-0-gin&#34;&gt;1.0 gin&lt;/h1&gt;
-
-&lt;p&gt;w 279 s 4087 f 395
-&lt;a href=&#34;https://gin-gonic.github.io/gin&#34;&gt;https://gin-gonic.github.io/gin&lt;/a&gt;
-&lt;a href=&#34;https://github.com/gin-gonic/gin&#34;&gt;https://github.com/gin-gonic/gin&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;REST最佳实践&lt;/strong&gt;
-&lt;a href=&#34;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&#34;&gt;https://medium.com/@etiennerouzeaud/how-to-create-a-basic-restful-api-in-go-c8e032ba3181&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;评分 &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;api编写简洁&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x20-x45 fastest than Martini&lt;/p&gt;
-
-&lt;h1 id=&#34;1-1-go-json-rest&#34;&gt;1.1 go-json-rest&lt;/h1&gt;
-
-&lt;p&gt;w 98 s 1816 fork 176&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ant0ine/go-json-rest&#34;&gt;https://github.com/ant0ine/go-json-rest&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;评分 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;Fast &amp;amp; scalable URL routing&lt;/li&gt;
-&lt;li&gt;Test package to help writing tests&lt;/li&gt;
-&lt;li&gt;routing engine 支持正则&lt;/li&gt;
-&lt;li&gt;检测统计by Memcached&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;GORM 支持 migrate&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Middlewares like&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Gzip&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Auth&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Status&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;AccessLogApache&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;AccessLogJson&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;AuthBasic&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ContentTypeChecker&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;JsonIndent&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Jsonp&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;PoweredBy&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Recorder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Timer&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Statsd&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;JWT&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;AuthToken&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;SecureRedirect&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;go get github.com/ant0ine/go-json-rest/rest&lt;/p&gt;
-
-&lt;h1 id=&#34;1-2-echo&#34;&gt;1.2 Echo&lt;/h1&gt;
-
-&lt;p&gt;w 140 s 2326 f 143
-&lt;a href=&#34;https://github.com/labstack/echo&#34;&gt;https://github.com/labstack/echo&lt;/a&gt;
-faster than gin,martini,Negroni&lt;/p&gt;
-
-&lt;h1 id=&#34;1-3-go-relax&#34;&gt;1.3 go-relax&lt;/h1&gt;
-
-&lt;p&gt;w 8 s 105 f 2&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/codehack/go-relax&#34;&gt;https://github.com/codehack/go-relax&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;评分 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/li&gt;
-&lt;li&gt;遵循ROA原则&lt;/li&gt;
-&lt;li&gt;HATEOAS支持&lt;/li&gt;
-&lt;li&gt;default json, also XML&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;routing engine 支持正则&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;支持的中间件&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CORS&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;GZip&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Logging&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Method override&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Security&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Limits&lt;/p&gt;
-
-&lt;h1 id=&#34;1-4-go-rest&#34;&gt;1.4 go-rest&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ungerik/go-rest&#34;&gt;https://github.com/ungerik/go-rest&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;评分 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Small only three functions: HandleGET, HandlePOST, RunServer&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Evil anti-pattern&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;zz-自主开发&#34;&gt;ZZ.自主开发&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.nicolasmerouze.com/build-web-framework-golang/&#34;&gt;https://www.nicolasmerouze.com/build-web-framework-golang/&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>0.必备功能 坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能 RAML支持 CORS支持 JSON支持 良好的Route</description>
     </item>
     
     <item>
@@ -316,82 +54,7 @@ faster than gin,martini,Negroni&lt;/p&gt;
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
       <guid>https://cio.anasit.com/cookbook/api/restlet-java/</guid>
-      <description>
-
-&lt;h1 id=&#34;那么java最潮流的restful-api开发框架及模式是什么&#34;&gt;那么java最潮流的RESTful API开发框架及模式是什么&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;jersey&lt;/li&gt;
-&lt;li&gt;jax-rs&lt;/li&gt;
-&lt;li&gt;maven&lt;/li&gt;
-&lt;li&gt;jetty&lt;/li&gt;
-&lt;li&gt;swagger 2.x&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;最佳规范jax-rs&#34;&gt;最佳规范jax-rs&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/felixjia/p/3608718.html&#34;&gt;zt 比较各JAX-RS实现：CXF,Jersey,RESTEasy,Restlet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/yjmyzz/p/javaee-jax-rs-tutorial.html&#34;&gt;java 利用JAX-RS快速开发RESTful 服务&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Restlet生成后端代码采用swagger-jersey-jaxrs组合&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;restlet套件-基于raml-swagger及jax-rs&#34;&gt;Restlet套件(基于RAML、Swagger及jax-rs)&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://restlet.com/projects/restlet-framework/&#34;&gt;https://restlet.com/projects/restlet-framework/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;构建后台项目基本步骤&#34;&gt;构建后台项目基本步骤&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;API Studio开发API&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;导出服务端项目&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;启动项目&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  # for swagger-jersy-jaxrs
-  ## 运行调试
-  mvn clean package jetty:deploy-war
-  ## 部署war包
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;查看并测试api&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;  http://localhost:80/api/swagger.json
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;当前后端代码生成器的功能&#34;&gt;当前后端代码生成器的功能&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Path 请求路由生成&lt;/li&gt;
-&lt;li&gt;Type/Representations 数据结构生成&lt;/li&gt;
-&lt;li&gt;Factory/impl 工厂模式文件结构生成&lt;/li&gt;
-&lt;li&gt;未完成：统一Json响应接口，需自主开发&lt;/li&gt;
-&lt;li&gt;未完成：数据库迁移，需自主开发&lt;/li&gt;
-&lt;li&gt;未完成：数据层处理逻辑，需自主开发&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;为restlet-jax-rs版提供数据层集成&#34;&gt;为restlet jax-rs版提供数据层集成&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;思路一：采用直接通过maven引入原始JPA包&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ibm.com/developerworks/cn/web/wa-datawebapp/&#34;&gt;使用 JAX-RS、JPA 和 Dojo 创建丰富的以数据为中心的 web 应用程序&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;思路二：在jersy框架中寻找解决方案&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://jersey.java.net/&#34;&gt;官方网站&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.codingpedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/&#34;&gt;Tutorial – REST API design and implementation in Java with Jersey and Spring&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://waylau.com/jersey-mysql5-hibernate4/&#34;&gt;用Jersey构建RESTful服务5&amp;ndash;Jersey+MySQL5.6+Hibernate4.3&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>那么java最潮流的RESTful API开发框架及模式是什么 jersey jax-rs maven jetty swagger 2.x 最佳规范jax-rs zt 比较各JAX-RS实现：CXF,Jersey,</description>
     </item>
     
   </channel>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Skill on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/skill/index.xml</link>
-    <description>Recent content in Skill on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Skill on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/skill/</link>
+    <description>Recent content in Skill on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/skill/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2015 05:03:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/skill/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>写作需要的技巧、工具等，写在正式写论文之前</title>
@@ -15,40 +18,7 @@
       <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
       
       <guid>https://cio.anasit.com/study/WritingSkill/</guid>
-      <description>
-
-&lt;p&gt;参考：&lt;/p&gt;
-
-&lt;p&gt;[1] &lt;a href=&#34;http://www.ituring.com.cn/article/828&#34;&gt;用Markdown来写自由书籍-开源技术的方案&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&#34;http://www.douban.com/note/245109923&#34;&gt;Markdown+Pandoc：A light-weight solution for academia writing&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;0-写作置标语言选择&#34;&gt;0.写作置标语言选择&lt;/h1&gt;
-
-&lt;h2 id=&#34;0-1-已选择&#34;&gt;0.1 已选择&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;markdown&lt;/li&gt;
-&lt;li&gt;sagemath&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;1-写作实用工具&#34;&gt;1.写作实用工具&lt;/h1&gt;
-
-&lt;h2 id=&#34;1-1-格式转化利器-pacdoc&#34;&gt;1.1 格式转化利器-pacdoc&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pacman -S pandoc
-pacman -S texlive-core
-pandoc --version
-
-#0.Converting a file
-#To convert it to HTML, use this command:
-pandoc test1.md -f markdown -t html -s -o test1.html
-#1.Create a PDF(need texlive)
-pandoc test1.md -s -o test1.pdf
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>参考： [1] 用Markdown来写自由书籍-开源技术的方案 [2] Markdown+Pandoc：A light-weight solution for academia writing 0.写作置标语言选择 0.1 已选择 markdown sagemath 1.写作</description>
     </item>
     
   </channel>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ppt on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/ppt/index.xml</link>
-    <description>Recent content in Ppt on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
+    <title>Ppt on 未来全栈 | Ryane Liu(刘雨飏)</title>
+    <link>https://cio.anasit.com/tags/ppt/</link>
+    <description>Recent content in Ppt on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/ppt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Mar 2016 20:05:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://cio.anasit.com/tags/ppt/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Markdown制作ppt最佳实践</title>
@@ -15,87 +18,7 @@
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
       <guid>https://cio.anasit.com/study/markdown2ppt/</guid>
-      <description>
-
-&lt;h1 id=&#34;markdown制作ppt最佳实践&#34;&gt;Markdown制作PPT最佳实践&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pandoc.org/demos.html&#34;&gt;http://pandoc.org/demos.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;一-reveal-js-pandoc-推荐&#34;&gt;一、reveal.js + pandoc（推荐）&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML便于CSS样式修改&lt;/li&gt;
-&lt;li&gt;多种Theme主题，灵活，简洁&lt;/li&gt;
-&lt;li&gt;可整合多种第三方js如highlight.js等&lt;/li&gt;
-&lt;li&gt;可导出pdf文档&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;HTML slide shows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pandoc -s --mathjax -i -t revealjs SLIDES -o example16d.html
-
-pandoc -s --mathml -i -t dzslides SLIDES -o example16a.html
-
-pandoc -s --webtex -i -t slidy SLIDES -o example16b.html
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;如何为html添加缺失的reveal-js&#34;&gt;如何为html添加缺失的reveal.js&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;## https://github.com/anasinc/getsite
-## 获取revealjs目录，复制到ppt同级目录中即可
-./getsite.sh http://pandoc.org/demo/example16d.html
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;二-revel-js模板定制&#34;&gt;二、Revel.js模板定制&lt;/h1&gt;
-
-&lt;p&gt;参考项目：&lt;a href=&#34;https://github.com/yanping/reveal.js-with-pandoc&#34;&gt;https://github.com/yanping/reveal.js-with-pandoc&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;三-pandoc-beamer-slide-show&#34;&gt;三、pandoc + Beamer slide show&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pandoc -t beamer --latex-engine=xelatex README.md -o readppt.pdf -V mainfont=&amp;quot;文泉驿微米黑&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;其他方式&#34;&gt;其他方式&lt;/h1&gt;
-
-&lt;h2 id=&#34;nodeppt&#34;&gt;nodeppt&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ksky521/nodeppt/&#34;&gt;https://github.com/ksky521/nodeppt/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ju.outofmemory.cn/entry/89175&#34;&gt;推荐nodeppt：使用markdown语法来写网页ppt&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;landslide&#34;&gt;landslide&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/adamzap/landslide&#34;&gt;https://github.com/adamzap/landslide&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Generate HTML5 slideshows from markdown, ReST, or textile&lt;/p&gt;
-
-&lt;h1 id=&#34;md转ppt的shell脚本实现&#34;&gt;md转ppt的shell脚本实现&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
-if [ $# -eq 0 ]       ##判断参数是否存在
-then
-        echo &amp;quot;请输入正确格式，如：./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;&amp;quot;
-        echo &amp;quot;例如：./genpdf.sh README.md readme&amp;quot;
-        exit                     ##不存在退出
-fi
-if [ x$1 = x ]       ##判断参数1是否存在
-then
-        echo &amp;quot;请输入正确格式，如：./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;&amp;quot;
-        echo &amp;quot;例如：./genpdf.sh README.md readme&amp;quot;
-        exit                     ##不存在退出
-fi
-if [ x$2 = x ]       ##判断参数2是否存在
-then
-        echo &amp;quot;请输入正确格式，如：./genpdf.sh &amp;lt;srcfile&amp;gt; &amp;lt;buildname&amp;gt;&amp;quot;
-        echo &amp;quot;例如：./genpdf.sh README.md readme&amp;quot;
-        exit                     ##不存在退出
-fi
-srcfile=$1
-buildname=$2
-
-pandoc -s --mathjax -i -t revealjs ${srcfile} -o build/ppt/${buildname}.html
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Markdown制作PPT最佳实践 http://pandoc.org/demos.html 一、reveal.js + pandoc（推荐） HTML便于CSS样式修改 多种Theme主题，灵活，简洁 可整</description>
     </item>
     
   </channel>
