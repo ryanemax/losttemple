@@ -1,6 +1,6 @@
 # hueman-ryn
 
-Demo: [http://cio.anasit.com/](http://cio.anasit.com/)
+Demo: [http://futurestack.cn/](http://futurestack.cn/)
 
 ## Step1 Install Hugo
 

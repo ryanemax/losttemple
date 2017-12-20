@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openvpn on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/openvpn/</link>
+    <link>https://futurestack.cn/tags/openvpn/</link>
     <description>Recent content in Openvpn on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Wed, 21 Oct 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建</title>
-      <link>https://cio.anasit.com/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
+      <link>https://futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
       <description>《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》 总结 更多实用的案例参考 http://www.linuxfly.org/post/86/ - 客户端权限组及定制配置 - 服务端客户端内网互通 http://blog.ltns.info/linux/connect_two_home_networks_using_openvpn_and_openwrt/ - 内部D</description>
     </item>
     

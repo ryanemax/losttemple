@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Career on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/categories/career/</link>
+    <link>https://futurestack.cn/categories/career/</link>
     <description>Recent content in Career on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 14 Feb 2017 12:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/categories/career/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/categories/career/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于我</title>
-      <link>https://cio.anasit.com/about/</link>
+      <link>https://futurestack.cn/about/</link>
       <pubDate>Tue, 14 Feb 2017 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/about/</guid>
+      <guid>https://futurestack.cn/about/</guid>
       <description>大家好，我叫 刘雨飏|未来全栈，是一名信息科技浪潮之中的创业者。 我的价值观 学无止境，苦海行舟。 我们都是全栈，不论是工程或是生活，因为我们追寻本</description>
     </item>
     
     <item>
       <title>如何高效整理自己的个人简历？</title>
-      <link>https://cio.anasit.com/career/howtoprofile/</link>
+      <link>https://futurestack.cn/career/howtoprofile/</link>
       <pubDate>Mon, 07 Nov 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/career/howtoprofile/</guid>
+      <guid>https://futurestack.cn/career/howtoprofile/</guid>
       <description>简历档案 档案书写平台 领英 简历书写 如何有效利用 LinkedIn 脉脉 职场社交 简历生成 官方英文简历，导出PDF Printing a Profile and Recommendations 领英API生成H5简历应用开发</description>
     </item>
     
