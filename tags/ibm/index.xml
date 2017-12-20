@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ibm on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/ibm/</link>
+    <link>https://futurestack.cn/tags/ibm/</link>
     <description>Recent content in Ibm on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 21 Jul 2016 12:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>因专属更自如——IBM Bluemix 云端体验之旅会议记录</title>
-      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</link>
+      <link>https://futurestack.cn/meeting/2016-7-21ibmbluemix/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix/</guid>
+      <guid>https://futurestack.cn/meeting/2016-7-21ibmbluemix/</guid>
       <description>会议简介 会议主题 因专属更自如——IBM Bluemix 云端体验之旅 IBM Bluemix Dedicated 主办单位 世纪互联集团有限公司 Bluemix中国研究院Demo演示 定制化图片分类器服</description>
     </item>
     
     <item>
       <title>（已取消）拥抱变化——中小型企业信息化转型将会面临的新变革</title>
-      <link>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</link>
+      <link>https://futurestack.cn/meeting/2016-7-21ibmbluemix-anasit/</link>
       <pubDate>Thu, 21 Jul 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/meeting/2016-7-21ibmbluemix-anasit/</guid>
+      <guid>https://futurestack.cn/meeting/2016-7-21ibmbluemix-anasit/</guid>
       <description>零、前言 本文针对二三线城市中小型企业信息化现状，遇到的问题，将面临的变革进行分析，并提供可供参考的措施。 主体分为四大章节 - 企业信息化的市场前</description>
     </item>
     

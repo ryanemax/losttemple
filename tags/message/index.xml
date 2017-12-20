@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Message on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/message/</link>
+    <link>https://futurestack.cn/tags/message/</link>
     <description>Recent content in Message on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sun, 29 Nov 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/tags/message/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/tags/message/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>常见开源消息系统/中间件技术评选</title>
-      <link>https://cio.anasit.com/cookbook/backend/messagesystem/</link>
+      <link>https://futurestack.cn/cookbook/backend/messagesystem/</link>
       <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/backend/messagesystem/</guid>
+      <guid>https://futurestack.cn/cookbook/backend/messagesystem/</guid>
       <description>《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq RabbitMQ golang client https://github.com/streadway/amqp https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go 适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准 gonsq https://github.com/nsqio/nsq</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/paper/</link>
+    <link>https://futurestack.cn/tags/paper/</link>
     <description>Recent content in Paper on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 31 Mar 2016 20:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/tags/paper/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>markdown写中国国内论文最佳实践</title>
-      <link>https://cio.anasit.com/study/markdown2paper/</link>
+      <link>https://futurestack.cn/study/markdown2paper/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/study/markdown2paper/</guid>
+      <guid>https://futurestack.cn/study/markdown2paper/</guid>
       <description>前置学习引导 如何用markdown生成带目录、页眉、页脚的pdf？ 常用模板数值 字体/字号 # 安装字体命令 # 复制新字体到/usr/share/f</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dreamstacks on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/dreamstack/</link>
+    <link>https://futurestack.cn/dreamstack/</link>
     <description>Recent content in Dreamstacks on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Mon, 18 Dec 2017 12:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/dreamstack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/dreamstack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>未来全栈-技术篇-我的2018技术栈</title>
-      <link>https://cio.anasit.com/dreamstack/2018stack/</link>
+      <link>https://futurestack.cn/dreamstack/2018stack/</link>
       <pubDate>Mon, 18 Dec 2017 12:00:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/dreamstack/2018stack/</guid>
+      <guid>https://futurestack.cn/dreamstack/2018stack/</guid>
       <description>原文题目《未来全栈-技术篇-我的2018技术栈》 『我的宝贝们，感谢和你们一起走过的这些年』 夏虫不可以语冰。没有陪同go和angular(ts</description>
     </item>
     

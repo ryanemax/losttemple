@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/game/</link>
+    <link>https://futurestack.cn/game/</link>
     <description>Recent content in Games on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 22 Dec 2016 00:12:00 +0800</lastBuildDate>
     
-	<atom:link href="https://cio.anasit.com/game/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://futurestack.cn/game/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>首款手机游戏的各项选型</title>
-      <link>https://cio.anasit.com/game/dev/techtree/</link>
+      <link>https://futurestack.cn/game/dev/techtree/</link>
       <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/dev/techtree/</guid>
+      <guid>https://futurestack.cn/game/dev/techtree/</guid>
       <description>首款手机游戏的各项选型 画面/风格/素材 风格：手绘/像素风 画面：2D基准 部分3D特效调优 坚持每日一个手绘怪物 游戏类型 暗黑、地牢、Rougeli</description>
     </item>
     
     <item>
       <title>手机游戏客户端开发引擎调研</title>
-      <link>https://cio.anasit.com/game/dev/mobilegame/</link>
+      <link>https://futurestack.cn/game/dev/mobilegame/</link>
       <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/dev/mobilegame/</guid>
+      <guid>https://futurestack.cn/game/dev/mobilegame/</guid>
       <description>手机游戏客户端开发引擎调研 总览 | 对比类目 | Cocos2d-x | unity 3d | 结论 | | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | | 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d | | 学习难度 | 对C</description>
     </item>
     
     <item>
       <title>HTML5游戏客户端开发引擎</title>
-      <link>https://cio.anasit.com/game/dev/h5game/</link>
+      <link>https://futurestack.cn/game/dev/h5game/</link>
       <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/dev/h5game/</guid>
+      <guid>https://futurestack.cn/game/dev/h5game/</guid>
       <description>HTML5游戏客户端开发引擎调研 Phaser.js http://www.phaser.io Egret（HTML5+ES6最佳选择） http://www.egret.com Egret现在是小孩，眉目清秀 代表游戏 神经猫 优点 生态链比较完善</description>
     </item>
     
     <item>
       <title>第一个军团 Pandemic Horde Inc.</title>
-      <link>https://cio.anasit.com/game/play/evecorp/</link>
+      <link>https://futurestack.cn/game/play/evecorp/</link>
       <pubDate>Mon, 15 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/play/evecorp/</guid>
+      <guid>https://futurestack.cn/game/play/evecorp/</guid>
       <description>第一个军团 Pandemic Horde Inc. TimeLine 2016/2/11 join the corp &amp;ldquo;Pandemic Horde Inc.&amp;rdquo; register &amp;ldquo;www.pandemic-legion.pl&amp;rdquo; ryanemax@gmail.com IU* ##</description>
     </item>
     
     <item>
       <title>Eve Europe Server Planning</title>
-      <link>https://cio.anasit.com/game/play/eveofplan/</link>
+      <link>https://futurestack.cn/game/play/eveofplan/</link>
       <pubDate>Wed, 27 Jan 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/play/eveofplan/</guid>
+      <guid>https://futurestack.cn/game/play/eveofplan/</guid>
       <description>Eve Europe Server Planning Get Ready Keybord Mapping 视频: EVE：新特效星图+键盘操控时代（Rhea 1.0） Trading Web Site/API EVE-Central The EVE-Online Market Aggregator and Toolkit https://eve-central.com eve-markets.net(powered by the EVE-Central API) http://www.eve-markets.net/index.php evedata http://www.evedata.org/ http://eve-marketdata.com/ Reality Target English Speaking/Reading Skill Global Trade &amp;amp; Marketing Skill Global Fuck GFW Account</description>
     </item>
     
     <item>
       <title>mapplestory&#39;s Tech Collection</title>
-      <link>https://cio.anasit.com/game/dev/mapplestory/</link>
+      <link>https://futurestack.cn/game/dev/mapplestory/</link>
       <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/dev/mapplestory/</guid>
+      <guid>https://futurestack.cn/game/dev/mapplestory/</guid>
       <description>冒险岛模拟器技术调研及收藏 0.resource list All Release Messages: https://forum.ragezone.com/f690/ All PS Wiki: http://privateserver.wikia.com/ Server Tech Froum: http://dev.chiasoft.net/ 1.Server 1.0 OdinMS Dev by Java for v0.55 - more stable http://sourceforge.net/projects/odinms/ https://code.google.com/p/odindoclet/ https://code.google.com/p/dev-odinms/ https://code.google.com/p/projectodin/ 1.1 TitanMS 1.2 Vana (A TitanMS Fork) dev by c++ http://privateserver.wikia.com/wiki/Vana https://github.com/VanaDev/Vana https://github.com/retep998/Vana https://github.com/VanaDev/Vana/wiki 1.3 TinyMapleServer Dev by golang 适用于不启动服务端</description>
     </item>
     
     <item>
       <title>Project Nova 知识体系</title>
-      <link>https://cio.anasit.com/game/projectnova/jobclass/</link>
+      <link>https://futurestack.cn/game/projectnova/jobclass/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/projectnova/jobclass/</guid>
+      <guid>https://futurestack.cn/game/projectnova/jobclass/</guid>
       <description>知识体系 游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系： 战斗系 器械系 建筑系 贸易</description>
     </item>
     
     <item>
       <title>Project Nova 背景概述</title>
-      <link>https://cio.anasit.com/game/projectnova/history/</link>
+      <link>https://futurestack.cn/game/projectnova/history/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/projectnova/history/</guid>
+      <guid>https://futurestack.cn/game/projectnova/history/</guid>
       <description>背景概述 21世纪，神秘能量降临地球，散布在我们身边的每个角落。没人知道它们来自哪里，没人懂得如何使用它们，它的存在只被少数人知道。大自然某些</description>
     </item>
     
     <item>
       <title>Project Nova 能量体系</title>
-      <link>https://cio.anasit.com/game/projectnova/powerexp/</link>
+      <link>https://futurestack.cn/game/projectnova/powerexp/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/projectnova/powerexp/</guid>
+      <guid>https://futurestack.cn/game/projectnova/powerexp/</guid>
       <description>能量体系 能量微粒 散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。 能量晶体 规则的多边形小能量块，积累到一定数量后，可以组</description>
     </item>
     
     <item>
       <title>Project Nova 道具体系</title>
-      <link>https://cio.anasit.com/game/projectnova/itemclass/</link>
+      <link>https://futurestack.cn/game/projectnova/itemclass/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/game/projectnova/itemclass/</guid>
+      <guid>https://futurestack.cn/game/projectnova/itemclass/</guid>
       <description>道具体系 类别 攻击类 由能量晶体构造出的攻击性武器，可以将能量以放射形式发出，对其他能量构造体产生干扰及伤害。 干扰类 破坏类 防御类 由能量晶体构造出</description>
     </item>
     

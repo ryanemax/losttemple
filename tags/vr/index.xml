@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vr on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://cio.anasit.com/tags/vr/index.xml</link>
+    <link>https://futurestack.cn/tags/vr/index.xml</link>
     <description>Recent content in Vr on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://cio.anasit.com/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://futurestack.cn/tags/vr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
-      <link>https://cio.anasit.com/cookbook/vrar/arplayer/</link>
+      <link>https://futurestack.cn/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/vrar/arplayer/</guid>
+      <guid>https://futurestack.cn/cookbook/vrar/arplayer/</guid>
       <description>
 
 &lt;h1 id=&#34;html5-ar播放方案探索&#34;&gt;Html5 AR播放方案探索&lt;/h1&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>VR时代来临了，带上兵器吧</title>
-      <link>https://cio.anasit.com/cookbook/vrar/VRdev/</link>
+      <link>https://futurestack.cn/cookbook/vrar/VRdev/</link>
       <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://cio.anasit.com/cookbook/vrar/VRdev/</guid>
+      <guid>https://futurestack.cn/cookbook/vrar/VRdev/</guid>
       <description>
 
 &lt;h1 id=&#34;vr时代来临了-带上兵器吧&#34;&gt;《VR时代来临了，带上兵器吧》&lt;/h1&gt;
