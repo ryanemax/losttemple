@@ -2589,7 +2589,7 @@ jQuery(document).ready(function($) {
           var target = event.currentTarget || event.target;
           var $form = w.jQuery(target);
           var orgVal = $form.find('.search').val();
-          $form.find('.search').val('site:cio.anasit.com/ ' + orgVal);
+          $form.find('.search').val('site:futurestack.cn/ ' + orgVal);
           done = true;
           $form.submit();
         }

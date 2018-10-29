@@ -26,15 +26,15 @@ Taxonomies:
   category : "categories"
   tag : "tags"
 params:
-  author : "刘雨飏, the Founder of ANAS"
+  author : "刘雨飏|未来全栈™, the Founder of ANAS"
   #codestyle : "monokai"
-  description : "Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯联盟创始人,全栈工程师,CIO,Ryane" # optional
-  CopyrightHTML: "Copyright &#xA9 未来全栈; 2007-2017. All Rights Reserved."
+  description : "Arch, Nova, Association, Science, The ship of information era.-Anas IT Inc.|刘雨飏,安纳斯创始人,全栈工程师,Angular,产品SLC法则,CIO,Ryane" # optional
+  CopyrightHTML: "Copyright &#xA9 未来全栈™; 2007-2018. All Rights Reserved."
   SidebarRecentLimit: 5
   DateForm : "2006年01月02日"
   Tagline: "学无止境、苦海行舟"
-  Description: "不懂编程的咨询师不是一名好管理。"
-  keywords : "刘雨飏,安纳斯创始人,未来全栈,Angular,CIO,Ryane"
+  Description: "懂大数据的咨询师偶尔创创业。"
+  keywords : "刘雨飏,安纳斯创始人,未来全栈™,Angular,产品SLC法则,CIO,Ryane"
   twitter : "ryanemax" # optional
   GitHubUser: "ryanemax"
   facebook: "ryanemax"
