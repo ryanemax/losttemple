@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>It on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/it/</link>
+    <link>https://www.futurestack.cn/tags/it/</link>
     <description>Recent content in It on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sun, 18 Oct 2015 09:46:37 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/it/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/it/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FullStackOfNewGeneration/链接现实与信息系统的全栈开发技术</title>
-      <link>https://futurestack.cn/study/it/FullStackOfNewGeneration/</link>
+      <link>https://www.futurestack.cn/study/it/FullStackOfNewGeneration/</link>
       <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
       
-      <guid>https://futurestack.cn/study/it/FullStackOfNewGeneration/</guid>
+      <guid>https://www.futurestack.cn/study/it/FullStackOfNewGeneration/</guid>
       <description>0.Short Intro. our team using the similar stack with lean. Front-End: Desktop: Electron Mobile: Ionic + Cordova Plugin Design Material-Design for Angularjs&amp;rsquo;s Desktop apps. Ionic-Material for Angularjs&amp;rsquo;s Mobile apps. Back-End Laravel for normal HTTP REST API. Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System. RAML for generating SDK files both of front/back-end. Admiring that RAML1.0 is comming. Database Postgresql(for gis) we like it very much. MongoDB(for user</description>
     </item>
     
     <item>
       <title>战争从未改变</title>
-      <link>https://futurestack.cn/study/it/warneverchange/</link>
+      <link>https://www.futurestack.cn/study/it/warneverchange/</link>
       <pubDate>Fri, 09 Jan 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/study/it/warneverchange/</guid>
+      <guid>https://www.futurestack.cn/study/it/warneverchange/</guid>
       <description>序言：战争从未改变 War，War Never changes 关键字：战争 信息时代 War. War Never changes. 战争从来就没有变过 the romans waged war to gather slaves and wealth. spain built an empire from its lust for gold and territory. hitler shaped a battered germany into an economic superpower.</description>
     </item>
     

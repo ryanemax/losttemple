@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paas on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/paas/</link>
+    <link>https://www.futurestack.cn/tags/paas/</link>
     <description>Recent content in Paas on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 28 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/paas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/paas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>parse服务学习指引</title>
-      <link>https://futurestack.cn/cookbook/backend/parse-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-learn/</link>
       <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/parse-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-learn/</guid>
       <description>准备环境 系统环境 npm nodejs 服务端 parse-server mongodb 管理端 parse-dashboard 学习参考 客户端文档 https://parseplatform.github.io REST文档 https://parseplatform.github.io/docs/rest/guide/ JS文档 https://parseplatform.github.io/docs/js/guide/ PHP文档 https://parseplatform.github.io/docs/php/guide/ 服务端文档 https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide Server</description>
     </item>
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>https://futurestack.cn/cookbook/backend/paas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/paas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas/</guid>
       <description>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp;amp; Docker Predictions for 2016 2016年六大OpenStack &amp;amp; Docker发展趋势预测</description>
     </item>
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>https://futurestack.cn/cookbook/backend/paas-deploy/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/paas-deploy/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas-deploy/</guid>
       <description>静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.g</description>
     </item>
     

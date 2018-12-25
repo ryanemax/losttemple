@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/agile/</link>
+    <link>https://www.futurestack.cn/tags/agile/</link>
     <description>Recent content in Agile on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 03 Sep 2015 01:29:00 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>协同工作中的思维导图/UML选择</title>
-      <link>https://futurestack.cn/cookbook/agile/comapping/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/comapping/</link>
       <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/comapping/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/comapping/</guid>
       <description>1.UML creately.com 付费 实时协同 集成 跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz gliffy 付费 体验较好 集成 JIRA Confluence Google Apps 格式导出 PNG JPG SVG Gliffy 2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet MindManager -</description>
     </item>
     
     <item>
       <title>协同编辑工具选型</title>
-      <link>https://futurestack.cn/cookbook/agile/corpedit/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/corpedit/</link>
       <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/corpedit/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/corpedit/</guid>
       <description>协同编辑工具选型 Leanote 云协作 https://pro.leanote.com tower.im文档 项目-文档-创建markdown文档 markdown 协同 石墨文档 https://shimo.im/ 协同文本 协同表格</description>
     </item>
     
     <item>
       <title>协同中的IM聊天室选择(jitsi/apperin/talkyio)</title>
-      <link>https://futurestack.cn/cookbook/agile/imsystem/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/imsystem/</link>
       <pubDate>Wed, 02 Sep 2015 17:31:17 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/imsystem/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/imsystem/</guid>
       <description>slack jitsi.org 开源，可独立部署 An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator) https://jitsi.org/Main/Features ✔ 100% open source ✔ Encrypted by default ✔ HD audio with Opus ✔ No account needed ✔ Presentations and desktop sharing ✔ Integrated chat ✔ Invite by pretty URLs https://MySite.com/OurConf appear.in 在线视频聊天室 Start talking in seconds It has never</description>
     </item>
     
     <item>
       <title>当团队线上办公需要dms文档管理系统</title>
-      <link>https://futurestack.cn/cookbook/agile/dms/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/dms/</link>
       <pubDate>Sun, 16 Aug 2015 07:14:29 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/dms/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/dms/</guid>
       <description>0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind</description>
     </item>
     
     <item>
       <title>敏捷团队协作taiga.io，开源实用</title>
-      <link>https://futurestack.cn/cookbook/agile/taiga/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/taiga/</link>
       <pubDate>Fri, 14 Aug 2015 10:07:26 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/taiga/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/taiga/</guid>
       <description>TAIGA.IO使用记录 完全手册：http://taigaio.github.io/taiga-doc/dist/ 0.当敏捷团队碰到Agil</description>
     </item>
     

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/game/</link>
+    <link>https://www.futurestack.cn/tags/game/</link>
     <description>Recent content in Game on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 22 Dec 2016 00:12:00 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/game/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/game/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>首款手机游戏的各项选型</title>
-      <link>https://futurestack.cn/game/dev/techtree/</link>
+      <link>https://www.futurestack.cn/game/dev/techtree/</link>
       <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/dev/techtree/</guid>
+      <guid>https://www.futurestack.cn/game/dev/techtree/</guid>
       <description>首款手机游戏的各项选型 画面/风格/素材 风格：手绘/像素风 画面：2D基准 部分3D特效调优 坚持每日一个手绘怪物 游戏类型 暗黑、地牢、Rougeli</description>
     </item>
     
     <item>
       <title>HTML5游戏客户端开发引擎</title>
-      <link>https://futurestack.cn/game/dev/h5game/</link>
+      <link>https://www.futurestack.cn/game/dev/h5game/</link>
       <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/dev/h5game/</guid>
+      <guid>https://www.futurestack.cn/game/dev/h5game/</guid>
       <description>HTML5游戏客户端开发引擎调研 Phaser.js http://www.phaser.io Egret（HTML5+ES6最佳选择） http://www.egret.com Egret现在是小孩，眉目清秀 代表游戏 神经猫 优点 生态链比较完善</description>
     </item>
     

@@ -2,175 +2,175 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frontend on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/frontend/</link>
+    <link>https://www.futurestack.cn/tags/frontend/</link>
     <description>Recent content in Frontend on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 22 Dec 2016 00:12:00 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>首款手机游戏的各项选型</title>
-      <link>https://futurestack.cn/game/dev/techtree/</link>
+      <link>https://www.futurestack.cn/game/dev/techtree/</link>
       <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/dev/techtree/</guid>
+      <guid>https://www.futurestack.cn/game/dev/techtree/</guid>
       <description>首款手机游戏的各项选型 画面/风格/素材 风格：手绘/像素风 画面：2D基准 部分3D特效调优 坚持每日一个手绘怪物 游戏类型 暗黑、地牢、Rougeli</description>
     </item>
     
     <item>
       <title>ng2服务端渲染及SEO方案——universal</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-universal/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-universal/</link>
       <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-universal/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-universal/</guid>
       <description>ng2-universal基础 Github Design Doc Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2 Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness Modules Universal Manage your application lifecycle and serialize changes while on the server to be sent to the client. ionic2整</description>
     </item>
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-wechat/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-wechat/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-wechat/</guid>
       <description>参考文章 Ionic2-app can’t run in wechat’s browser of android angular2应用在安卓版微信内无法正常运行? ionic2框架 测试规范参考 示例程序：ioni</description>
     </item>
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-vim/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-vim/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</guid>
       <description>可用于ng2开发的IDE评比 intellij idea ce 2016.1.1 语法编辑 差 html/css emmet支持，默认补全&amp;lt;&amp;gt; es6 完全不支持ES6，安装es6插件无效 ng2 完全不支持a</description>
     </item>
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-restful/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
       <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
     </item>
     
     <item>
       <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
       <description>ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：htt</description>
     </item>
     
     <item>
       <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-cms/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-cms/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-cms/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-cms/</guid>
       <description>ng2-SEO优化简介 ng2应用实现seo优化的方式有多种 - universial 后端渲染 - php 后端模拟渲染 Blackstar CMS - ng2 技术选型 - angular-seed - typescript - HTML via HTTP - HTML via the Blackstar CMS JavaScript Client - .NET (ASP.NET</description>
     </item>
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-firebase/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
       <description>Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/</description>
     </item>
     
     <item>
       <title>来领略惊艳的ionic2安纳斯整理版awesome-ionic2</title>
-      <link>https://futurestack.cn/cookbook/frontend/awesome-ionic2/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/awesome-ionic2/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/awesome-ionic2/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/awesome-ionic2/</guid>
       <description>为什么要Ionic2，一个PPT告诉你 Building apps with Ionic 2 awesome-ionic2-anasit 截取时间：2016-05-17 来领略惊艳的ionic2安纳斯整理版awesome-ioni</description>
     </item>
     
     <item>
       <title>ionic2原生native控件归类整理及简要介绍（进行中）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-native/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-native/</link>
       <pubDate>Sat, 14 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-native/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-native/</guid>
       <description>截至2016-05-13看到了Action Sheet 组件 总览 NATIVE（原生组件）：官方文档，调用原生功能时候参考</description>
     </item>
     
     <item>
       <title>ANASIT-ionic2开发规范汇总（进行中）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-spec/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-spec/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-spec/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-spec/</guid>
       <description>命名规范 页面（Page） 参考：ionic命令行Generate体验总结 开发规范 通过命令行创建初始化页面 ## 通常使用命令创建新的页面初始文件（P</description>
     </item>
     
     <item>
       <title>ionic2控件及APIs归类整理及简要介绍v0.8</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</link>
       <pubDate>Thu, 12 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</guid>
       <description>截至2016-05-13已经阅读完，完成0.8.0整理 总览 COMPONENTS（样式组件）：官方文档，构建及设计原型时候参考 API（功能接口</description>
     </item>
     
     <item>
       <title>ionic命令行Generate体验总结</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-generate/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-generate/</link>
       <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-generate/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-generate/</guid>
       <description>ionic命令行Generate体验总结 工具简述 Description Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier. To create a page you can use the following command: # ionic g page &amp;lt;PageName&amp;gt;</description>
     </item>
     
     <item>
       <title>手机游戏客户端开发引擎调研</title>
-      <link>https://futurestack.cn/game/dev/mobilegame/</link>
+      <link>https://www.futurestack.cn/game/dev/mobilegame/</link>
       <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/dev/mobilegame/</guid>
+      <guid>https://www.futurestack.cn/game/dev/mobilegame/</guid>
       <description>手机游戏客户端开发引擎调研 总览 | 对比类目 | Cocos2d-x | unity 3d | 结论 | | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;- | | 适用范围 | 手机端、2D | 全平台、2D/3D | unity 3d | | 学习难度 | 对C</description>
     </item>
     
     <item>
       <title>ionicCreator实际体验与评测</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic-creator/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic-creator/</link>
       <pubDate>Tue, 03 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic-creator/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic-creator/</guid>
       <description>ionicCreator实际体验与评测 免费版 目前只支持ionic 1.0 页面修改Routing URL，导出项目templates中page名未变化</description>
     </item>
     
     <item>
       <title>HTML5游戏客户端开发引擎</title>
-      <link>https://futurestack.cn/game/dev/h5game/</link>
+      <link>https://www.futurestack.cn/game/dev/h5game/</link>
       <pubDate>Sun, 01 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/dev/h5game/</guid>
+      <guid>https://www.futurestack.cn/game/dev/h5game/</guid>
       <description>HTML5游戏客户端开发引擎调研 Phaser.js http://www.phaser.io Egret（HTML5+ES6最佳选择） http://www.egret.com Egret现在是小孩，眉目清秀 代表游戏 神经猫 优点 生态链比较完善</description>
     </item>
     
     <item>
       <title>ionic2及ng2谷歌/高德地图控件分析实例</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</link>
       <pubDate>Wed, 30 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</guid>
       <description>《ionic2及ng2谷歌/高德地图控件分析实例》 创建示例项目 项目地址：https://github.com/driftyco/ionic-</description>
     </item>
     
     <item>
       <title>yo,npm,grunt,bower</title>
-      <link>https://futurestack.cn/faq/yonpmgruntbower/</link>
+      <link>https://www.futurestack.cn/faq/yonpmgruntbower/</link>
       <pubDate>Mon, 17 Aug 2015 02:19:36 +0800</pubDate>
       
-      <guid>https://futurestack.cn/faq/yonpmgruntbower/</guid>
+      <guid>https://www.futurestack.cn/faq/yonpmgruntbower/</guid>
       <description>#Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo; https://github.com/keystonejs/keystone/issues/1566
 When I try to run: yo meanjs, I got the error: Error: EACCES, permission denied &amp;lsquo;/root/.config/configstore/insight-yo.json&amp;rsquo; You don&amp;rsquo;t have access to this file.
 It seems that &amp;lsquo;/root/.config/configstore/insight-yo.yml&amp;rsquo; does not exist at all

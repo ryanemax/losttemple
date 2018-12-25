@@ -2,679 +2,679 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbooks on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/cookbook/</link>
+    <link>https://www.futurestack.cn/cookbook/</link>
     <description>Recent content in Cookbooks on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 21 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/cookbook/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/cookbook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bluemix应用快速构建实践体验</title>
-      <link>https://futurestack.cn/cookbook/backend/bluemix-case/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/bluemix-case/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/bluemix-case/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/bluemix-case/</guid>
       <description>前言 Mobile+Waston 个人性格分析应用 总评：强势的核心功能 Mobile+IOT 餐厅快速点餐应用 总评：强势的核心功能</description>
     </item>
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
-      <link>https://futurestack.cn/cookbook/vrar/arplayer/</link>
+      <link>https://www.futurestack.cn/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/vrar/arplayer/</guid>
+      <guid>https://www.futurestack.cn/cookbook/vrar/arplayer/</guid>
       <description>Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933 场景 H5 意味着在手机而非 PC 上实现 AR 意味着</description>
     </item>
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
-      <link>https://futurestack.cn/cookbook/tool/bashonwindows/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/bashonwindows/</link>
       <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/bashonwindows/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/bashonwindows/</guid>
       <description>无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734 System =&amp;gt; Services =&amp;gt; disable: &amp;quot;SSH server proxy&amp;quot; &amp;quot;SSH server broker&amp;quot; 启动ssh后拒绝访问，refuse或connection closed https://github.com/Microsoft/BashOnWindows/issues/300 Actually changing UsePrivilegeSeparation to no in /etc/ssh/sshd_config</description>
     </item>
     
     <item>
       <title>ng2服务端渲染及SEO方案——universal</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-universal/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-universal/</link>
       <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-universal/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-universal/</guid>
       <description>ng2-universal基础 Github Design Doc Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2 Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness Modules Universal Manage your application lifecycle and serialize changes while on the server to be sent to the client. ionic2整</description>
     </item>
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-wechat/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-wechat/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-wechat/</guid>
       <description>参考文章 Ionic2-app can’t run in wechat’s browser of android angular2应用在安卓版微信内无法正常运行? ionic2框架 测试规范参考 示例程序：ioni</description>
     </item>
     
     <item>
       <title>parse服务学习指引</title>
-      <link>https://futurestack.cn/cookbook/backend/parse-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-learn/</link>
       <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/parse-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-learn/</guid>
       <description>准备环境 系统环境 npm nodejs 服务端 parse-server mongodb 管理端 parse-dashboard 学习参考 客户端文档 https://parseplatform.github.io REST文档 https://parseplatform.github.io/docs/rest/guide/ JS文档 https://parseplatform.github.io/docs/js/guide/ PHP文档 https://parseplatform.github.io/docs/php/guide/ 服务端文档 https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide Server</description>
     </item>
     
     <item>
       <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
-      <link>https://futurestack.cn/cookbook/backend/bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/bluemix/</guid>
       <description>前言 IOT 总评：强势的核心功能 Waston 总评：强势的核心功能 Mobile 总评：弱势但不乏亮点 Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，</description>
     </item>
     
     <item>
       <title>如何在Bluemix上搭建parse-server服务</title>
-      <link>https://futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>参考资料 Parse on IBM Bluemix Migrating from Parse to Bluemix Parse server migration to IBM bluemix 自动配置步骤 git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git cf push Your-App-Name-On-Bluemix 手动配置步骤 注册Bluemix账号 http://bluemix.net 创建Cloud Foundry应用 选择Web</description>
     </item>
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>https://futurestack.cn/cookbook/backend/paas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/paas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas/</guid>
       <description>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp;amp; Docker Predictions for 2016 2016年六大OpenStack &amp;amp; Docker发展趋势预测</description>
     </item>
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>https://futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>Nginx 反向代理 可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频</description>
     </item>
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>https://futurestack.cn/cookbook/backend/paas-deploy/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/paas-deploy/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas-deploy/</guid>
       <description>静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.g</description>
     </item>
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-vim/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-vim/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</guid>
       <description>可用于ng2开发的IDE评比 intellij idea ce 2016.1.1 语法编辑 差 html/css emmet支持，默认补全&amp;lt;&amp;gt; es6 完全不支持ES6，安装es6插件无效 ng2 完全不支持a</description>
     </item>
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>https://futurestack.cn/cookbook/api/apitrends/</link>
+      <link>https://www.futurestack.cn/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/apitrends/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/apitrends/</guid>
       <description>简介 API 生态图解 位置 项目/公司 MBaaS服务 实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix APIs仓库 apis.guru 构建工具链 mulesoft restlet apigee 底层规则 raml swagger 使用RAML与APIkit以实现A</description>
     </item>
     
     <item>
       <title>终于受不了铺天盖地的名片了，需要整顿一下</title>
-      <link>https://futurestack.cn/cookbook/pkm/card/</link>
+      <link>https://www.futurestack.cn/cookbook/pkm/card/</link>
       <pubDate>Fri, 03 Jun 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/pkm/card/</guid>
+      <guid>https://www.futurestack.cn/cookbook/pkm/card/</guid>
       <description>资料搜集 三款名片管理APP大比拼 推荐一款好用的电子名片app？ 7 business card apps for smartphones: Scan &amp;lsquo;em and store &amp;lsquo;em 实际体验 Zappoint 淘汰 邮箱登陆 拍照识别 中文较差 只有正面 同步通讯录</description>
     </item>
     
     <item>
       <title>H5页面如何接入google ads实现广告收入？</title>
-      <link>https://futurestack.cn/cookbook/cms/google-ads/</link>
+      <link>https://www.futurestack.cn/cookbook/cms/google-ads/</link>
       <pubDate>Mon, 23 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/cms/google-ads/</guid>
+      <guid>https://www.futurestack.cn/cookbook/cms/google-ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>互联网3.0时代，什么才是搭建项目官网的正确姿势？</title>
-      <link>https://futurestack.cn/cookbook/cms/homesite/</link>
+      <link>https://www.futurestack.cn/cookbook/cms/homesite/</link>
       <pubDate>Sun, 22 May 2016 20:22:22 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/cms/homesite/</guid>
+      <guid>https://www.futurestack.cn/cookbook/cms/homesite/</guid>
       <description>互联网3.0时代，什么才是搭建项目官网的正确姿势？ 简介 项目背景 国产的CMS系统已经是古董了，国际的主流CMS意识也并不超前，又难以满足极客对</description>
     </item>
     
     <item>
       <title>适合开发者的第三方RSS采集服务选型</title>
-      <link>https://futurestack.cn/cookbook/cms/rss/</link>
+      <link>https://www.futurestack.cn/cookbook/cms/rss/</link>
       <pubDate>Sun, 22 May 2016 20:13:22 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/cms/rss/</guid>
+      <guid>https://www.futurestack.cn/cookbook/cms/rss/</guid>
       <description>简介 项目背景 greader+feedly的重度用户，从2014年使用rss开始，为自己节省了大量的信息获取时间提高了对信息捕捉学习的效率。 作</description>
     </item>
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-restful/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
       <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
     </item>
     
     <item>
       <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
       <description>ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：htt</description>
     </item>
     
     <item>
       <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-cms/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-cms/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-cms/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-cms/</guid>
       <description>ng2-SEO优化简介 ng2应用实现seo优化的方式有多种 - universial 后端渲染 - php 后端模拟渲染 Blackstar CMS - ng2 技术选型 - angular-seed - typescript - HTML via HTTP - HTML via the Blackstar CMS JavaScript Client - .NET (ASP.NET</description>
     </item>
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-firebase/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
       <description>Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/</description>
     </item>
     
     <item>
       <title>rxjs的简要入门，以及ng2与es6中的rxjs</title>
-      <link>https://futurestack.cn/cookbook/api/rxjs/</link>
+      <link>https://www.futurestack.cn/cookbook/api/rxjs/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/rxjs/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/rxjs/</guid>
       <description>简介 学习RxJS： 导入</description>
     </item>
     
     <item>
       <title>来领略惊艳的ionic2安纳斯整理版awesome-ionic2</title>
-      <link>https://futurestack.cn/cookbook/frontend/awesome-ionic2/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/awesome-ionic2/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/awesome-ionic2/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/awesome-ionic2/</guid>
       <description>为什么要Ionic2，一个PPT告诉你 Building apps with Ionic 2 awesome-ionic2-anasit 截取时间：2016-05-17 来领略惊艳的ionic2安纳斯整理版awesome-ioni</description>
     </item>
     
     <item>
       <title>ionic2原生native控件归类整理及简要介绍（进行中）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-native/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-native/</link>
       <pubDate>Sat, 14 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-native/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-native/</guid>
       <description>截至2016-05-13看到了Action Sheet 组件 总览 NATIVE（原生组件）：官方文档，调用原生功能时候参考</description>
     </item>
     
     <item>
       <title>ANASIT-ionic2开发规范汇总（进行中）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-spec/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-spec/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-spec/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-spec/</guid>
       <description>命名规范 页面（Page） 参考：ionic命令行Generate体验总结 开发规范 通过命令行创建初始化页面 ## 通常使用命令创建新的页面初始文件（P</description>
     </item>
     
     <item>
       <title>ionic2控件及APIs归类整理及简要介绍v0.8</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</link>
       <pubDate>Thu, 12 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</guid>
       <description>截至2016-05-13已经阅读完，完成0.8.0整理 总览 COMPONENTS（样式组件）：官方文档，构建及设计原型时候参考 API（功能接口</description>
     </item>
     
     <item>
       <title>Angular2后台管理前端框架选型(草稿)</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-admin/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-admin/</link>
       <pubDate>Wed, 11 May 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-admin/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-admin/</guid>
       <description>Angular2后台管理前端框架选型 截至目前：2016-05-11，ng2发布了继Beta之后的RC候选版本，已经趋于成熟。公司决定配合io</description>
     </item>
     
     <item>
       <title>ionic命令行Generate体验总结</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-generate/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-generate/</link>
       <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-generate/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-generate/</guid>
       <description>ionic命令行Generate体验总结 工具简述 Description Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier. To create a page you can use the following command: # ionic g page &amp;lt;PageName&amp;gt;</description>
     </item>
     
     <item>
       <title>ionicCreator实际体验与评测</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic-creator/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic-creator/</link>
       <pubDate>Tue, 03 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic-creator/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic-creator/</guid>
       <description>ionicCreator实际体验与评测 免费版 目前只支持ionic 1.0 页面修改Routing URL，导出项目templates中page名未变化</description>
     </item>
     
     <item>
       <title>导论——信息时代的精英是如何造就的？</title>
-      <link>https://futurestack.cn/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</link>
+      <link>https://www.futurestack.cn/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</guid>
+      <guid>https://www.futurestack.cn/cookbook/pkm/%E5%AF%BC%E8%AE%BA%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%B2%BE%E8%8B%B1%E6%98%AF%E5%A6%82%E4%BD%95%E9%80%A0%E5%B0%B1%E7%9A%84/</guid>
       <description>一、信息时代的生存环境 接受现实——我们是普通人 精英化思维？完美主义？理想主义？ 你是否曾经想要改变现状？下定决心卸载游戏，拿起书、打开教学视频</description>
     </item>
     
     <item>
       <title>ionic2及ng2谷歌/高德地图控件分析实例</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</link>
       <pubDate>Wed, 30 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-googlemap-amap/</guid>
       <description>《ionic2及ng2谷歌/高德地图控件分析实例》 创建示例项目 项目地址：https://github.com/driftyco/ionic-</description>
     </item>
     
     <item>
       <title>Every one should learn how to Fuck The GFW</title>
-      <link>https://futurestack.cn/cookbook/tool/fuckGFW/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/fuckGFW/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/fuckGFW/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/fuckGFW/</guid>
       <description>Windows程序socks代理（用于游戏） shadowsocks-gui SocksCap64 3.0 http://www.sockscap64.com/ Linux代理 apt-get install shadowsocks apt-get install privoxy sh export http_proxy=http://127.0.0.1:8118 export https_proxy=http://127.0.0.1:8118</description>
     </item>
     
     <item>
       <title>Linux最佳文件压缩方式</title>
-      <link>https://futurestack.cn/cookbook/devops/linux-tar/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/linux-tar/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/linux-tar/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/linux-tar/</guid>
       <description>Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压</description>
     </item>
     
     <item>
       <title>Atom实践探索</title>
-      <link>https://futurestack.cn/cookbook/tool/atom/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/atom/</link>
       <pubDate>Fri, 25 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/atom/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/atom/</guid>
       <description>官方手册：http://flight-manual.atom.io/ 搜集尝试阶段 开发者的15个实用的 Atom Packages http://www.cnblogs.com/Darren_code/p/atom.html Setting 取消保存时自动格式化Markdo</description>
     </item>
     
     <item>
       <title>VR时代来临了，带上兵器吧</title>
-      <link>https://futurestack.cn/cookbook/vrar/VRdev/</link>
+      <link>https://www.futurestack.cn/cookbook/vrar/VRdev/</link>
       <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/vrar/VRdev/</guid>
+      <guid>https://www.futurestack.cn/cookbook/vrar/VRdev/</guid>
       <description>《VR时代来临了，带上兵器吧》 1.VR入门行业方向选择 1.行业付费应用，360全景预览 2.建筑及3D美工设计领域 2.客户端引擎选择 1.手机V</description>
     </item>
     
     <item>
       <title>极致效率的键位变更</title>
-      <link>https://futurestack.cn/cookbook/tool/keyboard/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/keyboard/</link>
       <pubDate>Wed, 17 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/keyboard/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/keyboard/</guid>
       <description>极致效率的键位变更 Coding常用键位变更 Ctrl =&amp;gt; Caps Lock Caps Lock =&amp;gt; Ctrl Linux下键位变更 Windows键盘全局替换 可以利用第三方工具，或者直接在注册表</description>
     </item>
     
     <item>
       <title>常见开源消息系统/中间件技术评选</title>
-      <link>https://futurestack.cn/cookbook/backend/messagesystem/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/messagesystem/</link>
       <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/messagesystem/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/messagesystem/</guid>
       <description>《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq RabbitMQ golang client https://github.com/streadway/amqp https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go 适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准 gonsq https://github.com/nsqio/nsq</description>
     </item>
     
     <item>
       <title>Docker入门实践</title>
-      <link>https://futurestack.cn/cookbook/devops/dockerstart/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/dockerstart/</link>
       <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/dockerstart/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/dockerstart/</guid>
       <description>Installation # Windows cinst docker -y # Linux pacman -Sy docker apt-get install docker -y Initicial docker pull debian FAQ: An error occurred trying to connect: Post &amp;hellip;.. 问题描述： $ docker pull debian Using default tag: latest An error occurred trying to connect: Post http://localhost:2375/v1.21/images/create?fromImage=debian%3Alatest: dial tcp 127.0.0.1:2375: ConnectEx tcp: No connection could be made because the target machine actively refused it. 问题原因</description>
     </item>
     
     <item>
       <title>MongoDB数据模型/结构设计中重要的经验法则</title>
-      <link>https://futurestack.cn/cookbook/database/mongoOneToN/</link>
+      <link>https://www.futurestack.cn/cookbook/database/mongoOneToN/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/database/mongoOneToN/</guid>
+      <guid>https://www.futurestack.cn/cookbook/database/mongoOneToN/</guid>
       <description>MongoDB数据模型/结构设计中重要的经验法则 One-to-N：MongoDB数据结构设计中6条重要的经验法则，part 1 双向关联、反范式</description>
     </item>
     
     <item>
       <title>RAML-Parser各大语言解析器评选</title>
-      <link>https://futurestack.cn/cookbook/api/raml-paser/</link>
+      <link>https://www.futurestack.cn/cookbook/api/raml-paser/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/raml-paser/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/raml-paser/</guid>
       <description>《RAML-Parser各大语言解析器评选》 前言、好的解析器是API自动化工具链必备之环 PS:可以直接到底部看结论。 In the Beginning, I Want to figure out which raml-Parsers is the</description>
     </item>
     
     <item>
       <title>RESTful API规范解决方案评选</title>
-      <link>https://futurestack.cn/cookbook/api/restapi/</link>
+      <link>https://www.futurestack.cn/cookbook/api/restapi/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/restapi/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/restapi/</guid>
       <description>1.描述语言选择 Swagger.io 首选 Apigee发布了API Studio——用来创建、测试和共享API的免费在线工具。 http://apistudio.io/ API Studio基于知名的Swagg</description>
     </item>
     
     <item>
       <title>raml 1.0 与 raml 0.8区别之处</title>
-      <link>https://futurestack.cn/cookbook/api/ramldiff0.8-1.0/</link>
+      <link>https://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/ramldiff0.8-1.0/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</guid>
       <description>《raml 1.0 与 raml 0.8区别之处》 type与schema 1.0中新增的type概念类似于Objects对象或Model模型，与0.8中sche</description>
     </item>
     
     <item>
       <title>萤石云开发实践</title>
-      <link>https://futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
+      <link>https://www.futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
+      <guid>https://www.futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
       <description>《萤石云开发实践》 常用资料 SDK下载：https://open.ys7.com/sdk.html 常见问题 FAQ1:是否可以在web/手机页面</description>
     </item>
     
     <item>
       <title>Arch Linux软件选型整理</title>
-      <link>https://futurestack.cn/cookbook/devops/archlinux/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/archlinux/</link>
       <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/archlinux/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/archlinux/</guid>
       <description>#发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切</description>
     </item>
     
     <item>
       <title>IVMS7000服务端信息搜集</title>
-      <link>https://futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
+      <link>https://www.futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
+      <guid>https://www.futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
       <description>基础环境 系统 Windows Server 2008 R2 光盘一：系统驱动 光盘二：安装程序 数据库 数据库Mysql 5.7 库名 cms 用户 admin 密码 12345 软件平台 1.iVMS-7000 http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi 2.iVMS-8200 备份服务器管理后台 3.iVMS-5000 集中监控管理</description>
     </item>
     
     <item>
       <title>Win10搭建Linux开发环境，msys2&#43;pacman大法</title>
-      <link>https://futurestack.cn/cookbook/devops/win10-msys2/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/win10-msys2/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/win10-msys2/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/win10-msys2/</guid>
       <description>Win10搭建Linux开发环境，msys2+pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&amp;rsquo;s Pacman FAQ:基于mintty，输入～字符出错。 F</description>
     </item>
     
     <item>
       <title>wget整站模板抓取案例及wget参数详解</title>
-      <link>https://futurestack.cn/cookbook/devops/wgetsite/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/wgetsite/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/wgetsite/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/wgetsite/</guid>
       <description>《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite 一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com 方式</description>
     </item>
     
     <item>
       <title>最佳Windows10工作环境推荐</title>
-      <link>https://futurestack.cn/cookbook/devops/win10/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/win10/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/win10/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/win10/</guid>
       <description>最佳Windows10工作环境推荐 一、基础环境 包管理OneGet+Chocolatey Windows10了，来一个趁手的包管理器吧 快捷方式/</description>
     </item>
     
     <item>
       <title>OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建</title>
-      <link>https://futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
+      <link>https://www.futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://www.futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
       <description>《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》 总结 更多实用的案例参考 http://www.linuxfly.org/post/86/ - 客户端权限组及定制配置 - 服务端客户端内网互通 http://blog.ltns.info/linux/connect_two_home_networks_using_openvpn_and_openwrt/ - 内部D</description>
     </item>
     
     <item>
       <title>OpenWrt硬件选择及系统基础环境配置经验总结</title>
-      <link>https://futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</link>
       <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</guid>
       <description>一、基础环境选择及搭建 1.支持硬件设备列表： http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type 最佳： 联想 newifi mini 1200M AC 智能无线路由器 双频千兆穿墙 newifi mini纯净版OpenWRT兼容内核固件，集成r</description>
     </item>
     
     <item>
       <title>vim实用技巧实践</title>
-      <link>https://futurestack.cn/cookbook/tool/vimbest/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/vimbest/</link>
       <pubDate>Sat, 17 Oct 2015 04:41:31 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/vimbest/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/vimbest/</guid>
       <description>实用技巧 删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？ 清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下back</description>
     </item>
     
     <item>
       <title>GoLang几种读文件方式的比较</title>
-      <link>https://futurestack.cn/cookbook/backend/golangReadFile/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangReadFile/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangReadFile/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangReadFile/</guid>
       <description>GoLang几种读文件方式的比较 GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和i</description>
     </item>
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>https://futurestack.cn/cookbook/backend/golangsqlorm/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
       <description>0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写 实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location 官方实例 type User struct {</description>
     </item>
     
     <item>
       <title>Golang代码组织最佳方案</title>
-      <link>https://futurestack.cn/cookbook/backend/golangincase/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangincase/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangincase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangincase/</guid>
       <description>《Golang代码组织最佳方案》 案例一：不建议的偷懒结构 $gopath/src/github.com/ryanemax/device/pkg_phone/phone.go $gopath/src/github.com/ryanemax/device/main.go import &amp;quot;./pkg_phone&amp;quot; 案例二：Docker中也不建议的偷懒结构 gonet2示例：github.co</description>
     </item>
     
     <item>
       <title>MBaaS产品调研及私有云解决方案草稿</title>
-      <link>https://futurestack.cn/cookbook/backend/baas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/baas/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/baas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/baas/</guid>
       <description>热门baas简介 应用开发不可不知的五大BaaS后端云服务 baas公有云 firebase google收购的专业baas服务，完美整合angular2，在华无</description>
     </item>
     
     <item>
       <title>vim-go最佳实践</title>
-      <link>https://futurestack.cn/cookbook/tool/vim-go/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/vim-go/</link>
       <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/vim-go/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/vim-go/</guid>
       <description>0.使用方法 gd 进入函数原始定义文件查看 Ctrl + N Ctrl + P 1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量 export</description>
     </item>
     
     <item>
       <title>CMS built with Laravel</title>
-      <link>https://futurestack.cn/cookbook/cms/cmswithlaravel/</link>
+      <link>https://www.futurestack.cn/cookbook/cms/cmswithlaravel/</link>
       <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/cms/cmswithlaravel/</guid>
+      <guid>https://www.futurestack.cn/cookbook/cms/cmswithlaravel/</guid>
       <description>October CMS https://octobercms.com/ https://github.com/octobercms/october watch 323 star 3388 fork 753 The Best &amp;amp; Beatutiful 167 Plugins 32 Themes Doptor https://github.com/Doptor/Doptor watch 22 star 79 fork 52 企业信息发布，CMS&amp;amp;EMS Theme少需要定制 Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo; from: http://maxoffsky.com/code-blog/list-cmss-built-laravel/ Yesterday Ryan Tablada organized a</description>
     </item>
     
     <item>
       <title>ultisnips&#39;s md实用经验</title>
-      <link>https://futurestack.cn/cookbook/tool/vim-ultisnips/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/vim-ultisnips/</link>
       <pubDate>Fri, 18 Sep 2015 04:27:55 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/vim-ultisnips/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/vim-ultisnips/</guid>
       <description>添加文档类型识别 ~/.vim/ftdetect/mkd.md autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown 添加自定义代码段 markdown_ryn.snippets cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets</description>
     </item>
     
     <item>
       <title>跨域跨域跨域golang与angularjs的默契</title>
-      <link>https://futurestack.cn/cookbook/api/goangularfaq/</link>
+      <link>https://www.futurestack.cn/cookbook/api/goangularfaq/</link>
       <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/goangularfaq/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/goangularfaq/</guid>
       <description>go-json-rest (golang) 启动CORS中间件，指定origin跨域，origin这里填写对应域名即可 直接跨所有域名，return origin == req.Header.Get(</description>
     </item>
     
     <item>
       <title>golang的restful框架选择</title>
-      <link>https://futurestack.cn/cookbook/api/golangforrest/</link>
+      <link>https://www.futurestack.cn/cookbook/api/golangforrest/</link>
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/golangforrest/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/golangforrest/</guid>
       <description>0.必备功能 坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能 RAML支持 CORS支持 JSON支持 良好的Route</description>
     </item>
     
     <item>
       <title>协同工作中的思维导图/UML选择</title>
-      <link>https://futurestack.cn/cookbook/agile/comapping/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/comapping/</link>
       <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/comapping/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/comapping/</guid>
       <description>1.UML creately.com 付费 实时协同 集成 跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz gliffy 付费 体验较好 集成 JIRA Confluence Google Apps 格式导出 PNG JPG SVG Gliffy 2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet MindManager -</description>
     </item>
     
     <item>
       <title>协同编辑工具选型</title>
-      <link>https://futurestack.cn/cookbook/agile/corpedit/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/corpedit/</link>
       <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/corpedit/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/corpedit/</guid>
       <description>协同编辑工具选型 Leanote 云协作 https://pro.leanote.com tower.im文档 项目-文档-创建markdown文档 markdown 协同 石墨文档 https://shimo.im/ 协同文本 协同表格</description>
     </item>
     
     <item>
       <title>协同中的IM聊天室选择(jitsi/apperin/talkyio)</title>
-      <link>https://futurestack.cn/cookbook/agile/imsystem/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/imsystem/</link>
       <pubDate>Wed, 02 Sep 2015 17:31:17 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/imsystem/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/imsystem/</guid>
       <description>slack jitsi.org 开源，可独立部署 An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator) https://jitsi.org/Main/Features ✔ 100% open source ✔ Encrypted by default ✔ HD audio with Opus ✔ No account needed ✔ Presentations and desktop sharing ✔ Integrated chat ✔ Invite by pretty URLs https://MySite.com/OurConf appear.in 在线视频聊天室 Start talking in seconds It has never</description>
     </item>
     
     <item>
       <title>初次了解DataGrip</title>
-      <link>https://futurestack.cn/cookbook/database/Datagrip/</link>
+      <link>https://www.futurestack.cn/cookbook/database/Datagrip/</link>
       <pubDate>Thu, 27 Aug 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/database/Datagrip/</guid>
+      <guid>https://www.futurestack.cn/cookbook/database/Datagrip/</guid>
       <description>《初次了解DataGrip》 http://www.infoq.com/cn/news/2015/12/datagrip-released?utm_campaign=rightbar_v2&amp;amp;utm_source=infoq&amp;amp;utm_medium=news_link&amp;amp;utm_content=link_text 特性整理 http://www.jetbrains.com/datagrip/features/ 数据库基础操作 支持数据库引擎：MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Sybase, DB2, SQLite, HyperSQL, Apache Derby and H2. 同Navicat/MysqlWo</description>
     </item>
     
     <item>
       <title>raml相关的generator</title>
-      <link>https://futurestack.cn/cookbook/api/raml-generator/</link>
+      <link>https://www.futurestack.cn/cookbook/api/raml-generator/</link>
       <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/raml-generator/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/raml-generator/</guid>
       <description>raml-client-generator https://github.com/mulesoft/raml-client-generator supported languages - javascript raml-for-jax-rs https://github.com/mulesoft/raml-for-jax-rs Java for JAX-RS raml2code https://github.com/gextech/raml2code raml2code-groovy-pojo raml2code-jaxrs-interfaces raml2code-js-client raml2code-retrofit raml about golang http://forum.raml.org/t/go-based-raml-parser/592/2 - https://godoc.org/gopkg.in/raml.v0 - https://github.com/go-raml/raml/tree/v0 raml for php phpsx.org https://github.com/k42b3/psx Logic层，分离service Table自动创建sql表的CRUD Multi-Response Generation(Controoler,Json,XML,Atom,Soap,Jsonx) Dependency managment(PSX comes with</description>
     </item>
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>https://futurestack.cn/cookbook/api/restlet-java/</link>
+      <link>https://www.futurestack.cn/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/restlet-java/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/restlet-java/</guid>
       <description>那么java最潮流的RESTful API开发框架及模式是什么 jersey jax-rs maven jetty swagger 2.x 最佳规范jax-rs zt 比较各JAX-RS实现：CXF,Jersey,</description>
     </item>
     
     <item>
       <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
-      <link>https://futurestack.cn/cookbook/api/mulesoft/</link>
+      <link>https://www.futurestack.cn/cookbook/api/mulesoft/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/mulesoft/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/mulesoft/</guid>
       <description>0. MuleSoft与RAML MuleSoft专注企业Saas集成，获5000亿美元估值 开源3个RAML的API设计、测试、自动化工具 联合An</description>
     </item>
     
     <item>
       <title>当团队线上办公需要dms文档管理系统</title>
-      <link>https://futurestack.cn/cookbook/agile/dms/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/dms/</link>
       <pubDate>Sun, 16 Aug 2015 07:14:29 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/dms/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/dms/</guid>
       <description>0.ffice软件选择 0.0 选择LibreOffice 支持开源，以及Web亲和力，选择LibreOffice系列 跨平台，团队Linux、Wind</description>
     </item>
     
     <item>
       <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
-      <link>https://futurestack.cn/cookbook/api/newforraml/</link>
+      <link>https://www.futurestack.cn/cookbook/api/newforraml/</link>
       <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/newforraml/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/newforraml/</guid>
       <description>0.0 前言 自己的团队是以Agile敏捷管理方式构建的，为了前后端的分离，使各端工程师更加专注得进行自己所负责的模块与功能。 好用的东西整理在前面：</description>
     </item>
     
     <item>
       <title>实用的geek工具类站点</title>
-      <link>https://futurestack.cn/cookbook/tool/usefulwebsite/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/usefulwebsite/</link>
       <pubDate>Fri, 14 Aug 2015 10:12:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/usefulwebsite/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/usefulwebsite/</guid>
       <description>比较选优 alternativeto.net makeuseof.com Agile敏捷协作 taiga.io 一站式敏捷协作平台，开源免费 “世界大战”尽在掌控：盘点全球网络攻击实时追踪系统 http://www.freebuf.com/news/special/56910.html SEO分析工具 http://semalt.com http://semalt.com/project/2801734</description>
     </item>
     
     <item>
       <title>敏捷团队协作taiga.io，开源实用</title>
-      <link>https://futurestack.cn/cookbook/agile/taiga/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/taiga/</link>
       <pubDate>Fri, 14 Aug 2015 10:07:26 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/taiga/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/taiga/</guid>
       <description>TAIGA.IO使用记录 完全手册：http://taigaio.github.io/taiga-doc/dist/ 0.当敏捷团队碰到Agil</description>
     </item>
     
     <item>
       <title>基于Git的分布式自由博客&#43;搭建</title>
-      <link>https://futurestack.cn/cookbook/pkm/blogforgit/</link>
+      <link>https://www.futurestack.cn/cookbook/pkm/blogforgit/</link>
       <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/pkm/blogforgit/</guid>
+      <guid>https://www.futurestack.cn/cookbook/pkm/blogforgit/</guid>
       <description>0.准备工作 基础开通 https://pages.github.com/ Blog选型 参考:https://www.staticgen.com/ hugo 基于Golang，速度极快的静态页面生成博客，</description>
     </item>
     
     <item>
       <title>sshd链接保持长期存活</title>
-      <link>https://futurestack.cn/cookbook/devops/sshkeepalive/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/sshkeepalive/</link>
       <pubDate>Sat, 27 Jun 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/devops/sshkeepalive/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/sshkeepalive/</guid>
       <description>1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后</description>
     </item>
     
     <item>
       <title>putty常用配置</title>
-      <link>https://futurestack.cn/cookbook/tool/putty/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/putty/</link>
       <pubDate>Wed, 27 May 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/putty/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/putty/</guid>
       <description>Session设置 1.PuttyGen设置密钥，将openssh转为.ppk文件 2.Load后先编辑Appearance更改界面，再进入SS</description>
     </item>
     
