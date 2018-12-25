@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jersy on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/jersy/</link>
+    <link>https://www.futurestack.cn/tags/jersy/</link>
     <description>Recent content in Jersy on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Wed, 26 Aug 2015 17:37:32 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/jersy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/jersy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>https://futurestack.cn/cookbook/api/restlet-java/</link>
+      <link>https://www.futurestack.cn/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/restlet-java/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/restlet-java/</guid>
       <description>那么java最潮流的RESTful API开发框架及模式是什么 jersey jax-rs maven jetty swagger 2.x 最佳规范jax-rs zt 比较各JAX-RS实现：CXF,Jersey,</description>
     </item>
     

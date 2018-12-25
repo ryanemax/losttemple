@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookbook/Backend on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/categories/cookbook/backend/index.xml</link>
+    <link>https://www.futurestack.cn/categories/cookbook/backend/index.xml</link>
     <description>Recent content in Cookbook/Backend on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://futurestack.cn/categories/cookbook/backend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.futurestack.cn/categories/cookbook/backend/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>https://futurestack.cn/cookbook/backend/paas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/paas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas/</guid>
       <description>
 
 &lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;
@@ -143,10 +143,10 @@
     
     <item>
       <title>GoLang几种读文件方式的比较</title>
-      <link>https://futurestack.cn/cookbook/backend/golangReadFile/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangReadFile/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangReadFile/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangReadFile/</guid>
       <description>
 
 &lt;h1 id=&#34;golang几种读文件方式的比较&#34;&gt;GoLang几种读文件方式的比较&lt;/h1&gt;
@@ -267,10 +267,10 @@
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>https://futurestack.cn/cookbook/backend/golangsqlorm/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
       <description>
 
 &lt;h1 id=&#34;0-models写法技巧及migration标准&#34;&gt;0.Models写法技巧及Migration标准&lt;/h1&gt;
@@ -423,10 +423,10 @@ func Locsearch(info string) {
     
     <item>
       <title>Golang代码组织最佳方案</title>
-      <link>https://futurestack.cn/cookbook/backend/golangincase/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangincase/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangincase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangincase/</guid>
       <description>
 
 &lt;h1 id=&#34;golang代码组织最佳方案&#34;&gt;《Golang代码组织最佳方案》&lt;/h1&gt;
@@ -562,10 +562,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>MBaaS产品调研及私有云解决方案草稿</title>
-      <link>https://futurestack.cn/cookbook/backend/baas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/baas/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/baas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/baas/</guid>
       <description>
 
 &lt;h1 id=&#34;热门baas简介&#34;&gt;热门baas简介&lt;/h1&gt;
@@ -797,10 +797,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>Bluemix中可替代BaaS的服务及介绍</title>
-      <link>https://futurestack.cn/cookbook/backend/bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/bluemix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/bluemix/</guid>
       <description>
 
 &lt;h1 id=&#34;对比parse-com&#34;&gt;对比Parse.com&lt;/h1&gt;
@@ -826,10 +826,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>parse服务学习指引</title>
-      <link>https://futurestack.cn/cookbook/backend/parse-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/parse-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-learn/</guid>
       <description>
 
 &lt;h1 id=&#34;准备环境&#34;&gt;准备环境&lt;/h1&gt;
@@ -874,10 +874,10 @@ func ParseTime(gpstime []byte) time.Time {
     
     <item>
       <title>如何在Bluemix上搭建parse-server服务</title>
-      <link>https://futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>
 
 &lt;h1 id=&#34;参考资料&#34;&gt;参考资料&lt;/h1&gt;

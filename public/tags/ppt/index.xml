@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ppt on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/ppt/</link>
+    <link>https://www.futurestack.cn/tags/ppt/</link>
     <description>Recent content in Ppt on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 31 Mar 2016 20:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/ppt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/ppt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown制作ppt最佳实践</title>
-      <link>https://futurestack.cn/study/markdown2ppt/</link>
+      <link>https://www.futurestack.cn/study/markdown2ppt/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/study/markdown2ppt/</guid>
+      <guid>https://www.futurestack.cn/study/markdown2ppt/</guid>
       <description>Markdown制作PPT最佳实践 http://pandoc.org/demos.html 一、reveal.js + pandoc（推荐） HTML便于CSS样式修改 多种Theme主题，灵活，简洁 可整</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Generate on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/generate/</link>
+    <link>https://www.futurestack.cn/tags/generate/</link>
     <description>Recent content in Generate on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sat, 07 May 2016 13:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/generate/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/generate/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ionic命令行Generate体验总结</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-generate/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-generate/</link>
       <pubDate>Sat, 07 May 2016 13:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-generate/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-generate/</guid>
       <description>ionic命令行Generate体验总结 工具简述 Description Ionic now provides a generator function to create pages and services for your app. This makes going from a basic app to a full featured app with navigation much easier. To create a page you can use the following command: # ionic g page &amp;lt;PageName&amp;gt;</description>
     </item>
     

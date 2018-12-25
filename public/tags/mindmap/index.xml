@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mindmap on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/mindmap/</link>
+    <link>https://www.futurestack.cn/tags/mindmap/</link>
     <description>Recent content in Mindmap on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 03 Sep 2015 01:29:00 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/mindmap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/mindmap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>协同工作中的思维导图/UML选择</title>
-      <link>https://futurestack.cn/cookbook/agile/comapping/</link>
+      <link>https://www.futurestack.cn/cookbook/agile/comapping/</link>
       <pubDate>Thu, 03 Sep 2015 01:29:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/agile/comapping/</guid>
+      <guid>https://www.futurestack.cn/cookbook/agile/comapping/</guid>
       <description>1.UML creately.com 付费 实时协同 集成 跨平台 独立部署 JIRA Confluence Google Apps chrome FogBugz gliffy 付费 体验较好 集成 JIRA Confluence Google Apps 格式导出 PNG JPG SVG Gliffy 2.思维导图 Xmind支持导入格式 - FreeMind - Microsoft Word - Mindjet MindManager -</description>
     </item>
     

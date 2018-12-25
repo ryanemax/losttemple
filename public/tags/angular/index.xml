@@ -2,148 +2,148 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/angular/</link>
+    <link>https://www.futurestack.cn/tags/angular/</link>
     <description>Recent content in Angular on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Mon, 18 Dec 2017 12:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>未来全栈-技术篇-我的2018技术栈</title>
-      <link>https://futurestack.cn/dreamstack/2018stack/</link>
+      <link>https://www.futurestack.cn/dreamstack/2018stack/</link>
       <pubDate>Mon, 18 Dec 2017 12:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/dreamstack/2018stack/</guid>
+      <guid>https://www.futurestack.cn/dreamstack/2018stack/</guid>
       <description>原文题目《未来全栈-技术篇-我的2018技术栈》 『我的宝贝们，感谢和你们一起走过的这些年』 夏虫不可以语冰。没有陪同go和angular(ts</description>
     </item>
     
     <item>
       <title>ng2服务端渲染及SEO方案——universal</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-universal/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-universal/</link>
       <pubDate>Thu, 25 Aug 2016 12:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-universal/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-universal/</guid>
       <description>ng2-universal基础 Github Design Doc Angular Universal In Practice - How to build SEO Friendly Single Page Apps with Angular 2 Universal Angular 2 Server Side Rendering for SEO &amp;amp; Crawl-Friendliness Modules Universal Manage your application lifecycle and serialize changes while on the server to be sent to the client. ionic2整</description>
     </item>
     
     <item>
       <title>ng2开发手机Wap及微信应用可行性分析</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-wechat/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-wechat/</link>
       <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-wechat/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-wechat/</guid>
       <description>参考文章 Ionic2-app can’t run in wechat’s browser of android angular2应用在安卓版微信内无法正常运行? ionic2框架 测试规范参考 示例程序：ioni</description>
     </item>
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-vim/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-vim/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</guid>
       <description>可用于ng2开发的IDE评比 intellij idea ce 2016.1.1 语法编辑 差 html/css emmet支持，默认补全&amp;lt;&amp;gt; es6 完全不支持ES6，安装es6插件无效 ng2 完全不支持a</description>
     </item>
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-restful/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
       <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
     </item>
     
     <item>
       <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
       <description>ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：htt</description>
     </item>
     
     <item>
       <title>ng2基于SEO优化的CMS内容管理系统（草稿）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-cms/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-cms/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-cms/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-cms/</guid>
       <description>ng2-SEO优化简介 ng2应用实现seo优化的方式有多种 - universial 后端渲染 - php 后端模拟渲染 Blackstar CMS - ng2 技术选型 - angular-seed - typescript - HTML via HTTP - HTML via the Blackstar CMS JavaScript Client - .NET (ASP.NET</description>
     </item>
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-firebase/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
       <description>Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/</description>
     </item>
     
     <item>
       <title>rxjs的简要入门，以及ng2与es6中的rxjs</title>
-      <link>https://futurestack.cn/cookbook/api/rxjs/</link>
+      <link>https://www.futurestack.cn/cookbook/api/rxjs/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/rxjs/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/rxjs/</guid>
       <description>简介 学习RxJS： 导入</description>
     </item>
     
     <item>
       <title>来领略惊艳的ionic2安纳斯整理版awesome-ionic2</title>
-      <link>https://futurestack.cn/cookbook/frontend/awesome-ionic2/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/awesome-ionic2/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/awesome-ionic2/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/awesome-ionic2/</guid>
       <description>为什么要Ionic2，一个PPT告诉你 Building apps with Ionic 2 awesome-ionic2-anasit 截取时间：2016-05-17 来领略惊艳的ionic2安纳斯整理版awesome-ioni</description>
     </item>
     
     <item>
       <title>ionic2原生native控件归类整理及简要介绍（进行中）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-native/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-native/</link>
       <pubDate>Sat, 14 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-native/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-native/</guid>
       <description>截至2016-05-13看到了Action Sheet 组件 总览 NATIVE（原生组件）：官方文档，调用原生功能时候参考</description>
     </item>
     
     <item>
       <title>ANASIT-ionic2开发规范汇总（进行中）</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-spec/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-spec/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-spec/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-spec/</guid>
       <description>命名规范 页面（Page） 参考：ionic命令行Generate体验总结 开发规范 通过命令行创建初始化页面 ## 通常使用命令创建新的页面初始文件（P</description>
     </item>
     
     <item>
       <title>ionic2控件及APIs归类整理及简要介绍v0.8</title>
-      <link>https://futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</link>
       <pubDate>Thu, 12 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ionic2-componentAPIs/</guid>
       <description>截至2016-05-13已经阅读完，完成0.8.0整理 总览 COMPONENTS（样式组件）：官方文档，构建及设计原型时候参考 API（功能接口</description>
     </item>
     
     <item>
       <title>Angular2后台管理前端框架选型(草稿)</title>
-      <link>https://futurestack.cn/cookbook/frontend/ng2-admin/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-admin/</link>
       <pubDate>Wed, 11 May 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/frontend/ng2-admin/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-admin/</guid>
       <description>Angular2后台管理前端框架选型 截至目前：2016-05-11，ng2发布了继Beta之后的RC候选版本，已经趋于成熟。公司决定配合io</description>
     </item>
     
     <item>
       <title>跨域跨域跨域golang与angularjs的默契</title>
-      <link>https://futurestack.cn/cookbook/api/goangularfaq/</link>
+      <link>https://www.futurestack.cn/cookbook/api/goangularfaq/</link>
       <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/goangularfaq/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/goangularfaq/</guid>
       <description>go-json-rest (golang) 启动CORS中间件，指定origin跨域，origin这里填写对应域名即可 直接跨所有域名，return origin == req.Header.Get(</description>
     </item>
     

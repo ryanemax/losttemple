@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iaas on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/iaas/</link>
+    <link>https://www.futurestack.cn/tags/iaas/</link>
     <description>Recent content in Iaas on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sat, 02 Jul 2016 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/iaas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/iaas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>https://futurestack.cn/cookbook/backend/paas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/paas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas/</guid>
       <description>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp;amp; Docker Predictions for 2016 2016年六大OpenStack &amp;amp; Docker发展趋势预测</description>
     </item>
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>https://futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>Nginx 反向代理 可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频</description>
     </item>
     

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game/Dev on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/categories/game/dev/index.xml</link>
+    <link>https://www.futurestack.cn/categories/game/dev/index.xml</link>
     <description>Recent content in Game/Dev on Ryn&#39;s Blog | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
-    <atom:link href="https://futurestack.cn/categories/game/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.futurestack.cn/categories/game/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>手机游戏客户端开发引擎调研</title>
-      <link>https://futurestack.cn/game/mobilegame/</link>
+      <link>https://www.futurestack.cn/game/mobilegame/</link>
       <pubDate>Wed, 04 May 2016 00:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/mobilegame/</guid>
+      <guid>https://www.futurestack.cn/game/mobilegame/</guid>
       <description>
 
 &lt;h1 id=&#34;手机游戏客户端开发引擎调研&#34;&gt;手机游戏客户端开发引擎调研&lt;/h1&gt;
@@ -139,10 +139,10 @@ UleadGifAnimator&lt;/p&gt;
     
     <item>
       <title>mapplestory&#39;s Tech Collection</title>
-      <link>https://futurestack.cn/game/dev/mapplestory/</link>
+      <link>https://www.futurestack.cn/game/dev/mapplestory/</link>
       <pubDate>Sat, 22 Aug 2015 09:11:45 +0800</pubDate>
       
-      <guid>https://futurestack.cn/game/dev/mapplestory/</guid>
+      <guid>https://www.futurestack.cn/game/dev/mapplestory/</guid>
       <description>
 
 &lt;h1 id=&#34;冒险岛模拟器技术调研及收藏&#34;&gt;冒险岛模拟器技术调研及收藏&lt;/h1&gt;

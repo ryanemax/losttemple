@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/golang/</link>
+    <link>https://www.futurestack.cn/tags/golang/</link>
     <description>Recent content in Golang on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 08 Oct 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GoLang几种读文件方式的比较</title>
-      <link>https://futurestack.cn/cookbook/backend/golangReadFile/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangReadFile/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangReadFile/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangReadFile/</guid>
       <description>GoLang几种读文件方式的比较 GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和i</description>
     </item>
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>https://futurestack.cn/cookbook/backend/golangsqlorm/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
       <description>0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写 实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location 官方实例 type User struct {</description>
     </item>
     
     <item>
       <title>Golang代码组织最佳方案</title>
-      <link>https://futurestack.cn/cookbook/backend/golangincase/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangincase/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/backend/golangincase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangincase/</guid>
       <description>《Golang代码组织最佳方案》 案例一：不建议的偷懒结构 $gopath/src/github.com/ryanemax/device/pkg_phone/phone.go $gopath/src/github.com/ryanemax/device/main.go import &amp;quot;./pkg_phone&amp;quot; 案例二：Docker中也不建议的偷懒结构 gonet2示例：github.co</description>
     </item>
     
     <item>
       <title>vim-go最佳实践</title>
-      <link>https://futurestack.cn/cookbook/tool/vim-go/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/vim-go/</link>
       <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/tool/vim-go/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/vim-go/</guid>
       <description>0.使用方法 gd 进入函数原始定义文件查看 Ctrl + N Ctrl + P 1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量 export</description>
     </item>
     
     <item>
       <title>跨域跨域跨域golang与angularjs的默契</title>
-      <link>https://futurestack.cn/cookbook/api/goangularfaq/</link>
+      <link>https://www.futurestack.cn/cookbook/api/goangularfaq/</link>
       <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/goangularfaq/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/goangularfaq/</guid>
       <description>go-json-rest (golang) 启动CORS中间件，指定origin跨域，origin这里填写对应域名即可 直接跨所有域名，return origin == req.Header.Get(</description>
     </item>
     
     <item>
       <title>golang的restful框架选择</title>
-      <link>https://futurestack.cn/cookbook/api/golangforrest/</link>
+      <link>https://www.futurestack.cn/cookbook/api/golangforrest/</link>
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/golangforrest/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/golangforrest/</guid>
       <description>0.必备功能 坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能 RAML支持 CORS支持 JSON支持 良好的Route</description>
     </item>
     
     <item>
       <title>基于Git的分布式自由博客&#43;搭建</title>
-      <link>https://futurestack.cn/cookbook/pkm/blogforgit/</link>
+      <link>https://www.futurestack.cn/cookbook/pkm/blogforgit/</link>
       <pubDate>Thu, 13 Aug 2015 17:51:58 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/pkm/blogforgit/</guid>
+      <guid>https://www.futurestack.cn/cookbook/pkm/blogforgit/</guid>
       <description>0.准备工作 基础开通 https://pages.github.com/ Blog选型 参考:https://www.staticgen.com/ hugo 基于Golang，速度极快的静态页面生成博客，</description>
     </item>
     

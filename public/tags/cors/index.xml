@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cors on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://futurestack.cn/tags/cors/</link>
+    <link>https://www.futurestack.cn/tags/cors/</link>
     <description>Recent content in Cors on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sat, 05 Sep 2015 13:13:44 +0800</lastBuildDate>
     
-	<atom:link href="https://futurestack.cn/tags/cors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/cors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>跨域跨域跨域golang与angularjs的默契</title>
-      <link>https://futurestack.cn/cookbook/api/goangularfaq/</link>
+      <link>https://www.futurestack.cn/cookbook/api/goangularfaq/</link>
       <pubDate>Sat, 05 Sep 2015 13:13:44 +0800</pubDate>
       
-      <guid>https://futurestack.cn/cookbook/api/goangularfaq/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/goangularfaq/</guid>
       <description>go-json-rest (golang) 启动CORS中间件，指定origin跨域，origin这里填写对应域名即可 直接跨所有域名，return origin == req.Header.Get(</description>
     </item>
     
