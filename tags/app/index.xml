@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>App on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/app/</link>
+    <link>http://www.futurestack.cn/tags/app/</link>
     <description>Recent content in App on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 22 Dec 2016 00:12:00 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/app/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/app/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>首款手机游戏的各项选型</title>
-      <link>https://www.futurestack.cn/game/dev/techtree/</link>
+      <link>http://www.futurestack.cn/game/dev/techtree/</link>
       <pubDate>Thu, 22 Dec 2016 00:12:00 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/game/dev/techtree/</guid>
+      <guid>http://www.futurestack.cn/game/dev/techtree/</guid>
       <description>首款手机游戏的各项选型 画面/风格/素材 风格：手绘/像素风 画面：2D基准 部分3D特效调优 坚持每日一个手绘怪物 游戏类型 暗黑、地牢、Rougeli</description>
     </item>
     

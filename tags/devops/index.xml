@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/devops/</link>
+    <link>http://www.futurestack.cn/tags/devops/</link>
     <description>Recent content in Devops on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sun, 27 Mar 2016 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux最佳文件压缩方式</title>
-      <link>https://www.futurestack.cn/cookbook/devops/linux-tar/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/linux-tar/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/linux-tar/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/linux-tar/</guid>
       <description>Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压</description>
     </item>
     
     <item>
       <title>Docker入门实践</title>
-      <link>https://www.futurestack.cn/cookbook/devops/dockerstart/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/dockerstart/</link>
       <pubDate>Fri, 27 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/dockerstart/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/dockerstart/</guid>
       <description>Installation # Windows cinst docker -y # Linux pacman -Sy docker apt-get install docker -y Initicial docker pull debian FAQ: An error occurred trying to connect: Post &amp;hellip;.. 问题描述： $ docker pull debian Using default tag: latest An error occurred trying to connect: Post http://localhost:2375/v1.21/images/create?fromImage=debian%3Alatest: dial tcp 127.0.0.1:2375: ConnectEx tcp: No connection could be made because the target machine actively refused it. 问题原因</description>
     </item>
     
     <item>
       <title>Arch Linux软件选型整理</title>
-      <link>https://www.futurestack.cn/cookbook/devops/archlinux/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/archlinux/</link>
       <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/archlinux/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/archlinux/</guid>
       <description>#发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切</description>
     </item>
     
     <item>
       <title>Win10搭建Linux开发环境，msys2&#43;pacman大法</title>
-      <link>https://www.futurestack.cn/cookbook/devops/win10-msys2/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/win10-msys2/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/win10-msys2/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/win10-msys2/</guid>
       <description>Win10搭建Linux开发环境，msys2+pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&amp;rsquo;s Pacman FAQ:基于mintty，输入～字符出错。 F</description>
     </item>
     
     <item>
       <title>wget整站模板抓取案例及wget参数详解</title>
-      <link>https://www.futurestack.cn/cookbook/devops/wgetsite/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/wgetsite/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/wgetsite/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/wgetsite/</guid>
       <description>《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite 一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com 方式</description>
     </item>
     
     <item>
       <title>最佳Windows10工作环境推荐</title>
-      <link>https://www.futurestack.cn/cookbook/devops/win10/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/win10/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/win10/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/win10/</guid>
       <description>最佳Windows10工作环境推荐 一、基础环境 包管理OneGet+Chocolatey Windows10了，来一个趁手的包管理器吧 快捷方式/</description>
     </item>
     
     <item>
       <title>sshd链接保持长期存活</title>
-      <link>https://www.futurestack.cn/cookbook/devops/sshkeepalive/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/sshkeepalive/</link>
       <pubDate>Sat, 27 Jun 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/sshkeepalive/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/sshkeepalive/</guid>
       <description>1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后</description>
     </item>
     

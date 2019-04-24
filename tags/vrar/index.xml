@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vrar on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/vrar/</link>
+    <link>http://www.futurestack.cn/tags/vrar/</link>
     <description>Recent content in Vrar on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Fri, 21 Oct 2016 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/vrar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/vrar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AR时代来临了，带上兵器吧</title>
-      <link>https://www.futurestack.cn/cookbook/vrar/arplayer/</link>
+      <link>http://www.futurestack.cn/cookbook/vrar/arplayer/</link>
       <pubDate>Fri, 21 Oct 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/vrar/arplayer/</guid>
+      <guid>http://www.futurestack.cn/cookbook/vrar/arplayer/</guid>
       <description>Html5 AR播放方案探索 参考：https://www.zhihu.com/question/28779933 场景 H5 意味着在手机而非 PC 上实现 AR 意味着</description>
     </item>
     
     <item>
       <title>VR时代来临了，带上兵器吧</title>
-      <link>https://www.futurestack.cn/cookbook/vrar/VRdev/</link>
+      <link>http://www.futurestack.cn/cookbook/vrar/VRdev/</link>
       <pubDate>Sun, 28 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/vrar/VRdev/</guid>
+      <guid>http://www.futurestack.cn/cookbook/vrar/VRdev/</guid>
       <description>《VR时代来临了，带上兵器吧》 1.VR入门行业方向选择 1.行业付费应用，360全景预览 2.建筑及3D美工设计领域 2.客户端引擎选择 1.手机V</description>
     </item>
     

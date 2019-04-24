@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laravel on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/laravel/</link>
+    <link>http://www.futurestack.cn/tags/laravel/</link>
     <description>Recent content in Laravel on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 01 Oct 2015 02:13:22 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CMS built with Laravel</title>
-      <link>https://www.futurestack.cn/cookbook/cms/cmswithlaravel/</link>
+      <link>http://www.futurestack.cn/cookbook/cms/cmswithlaravel/</link>
       <pubDate>Thu, 01 Oct 2015 02:13:22 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/cms/cmswithlaravel/</guid>
+      <guid>http://www.futurestack.cn/cookbook/cms/cmswithlaravel/</guid>
       <description>October CMS https://octobercms.com/ https://github.com/octobercms/october watch 323 star 3388 fork 753 The Best &amp;amp; Beatutiful 167 Plugins 32 Themes Doptor https://github.com/Doptor/Doptor watch 22 star 79 fork 52 企业信息发布，CMS&amp;amp;EMS Theme少需要定制 Refer to &amp;ldquo;A list of CMSs built with Laravel&amp;rdquo; from: http://maxoffsky.com/code-blog/list-cmss-built-laravel/ Yesterday Ryan Tablada organized a</description>
     </item>
     
