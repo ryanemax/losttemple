@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/linux/</link>
+    <link>http://www.futurestack.cn/tags/linux/</link>
     <description>Recent content in Linux on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Fri, 13 May 2016 21:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>systemd-journal进程占用100%CPU，硬盘磁盘无法读取，解决方案</title>
-      <link>https://www.futurestack.cn/faq/archfaq/</link>
+      <link>http://www.futurestack.cn/faq/archfaq/</link>
       <pubDate>Fri, 13 May 2016 21:00:00 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/faq/archfaq/</guid>
+      <guid>http://www.futurestack.cn/faq/archfaq/</guid>
       <description>systemd-journal进程占用100%CPU，硬盘磁盘无法读取 原因 journalctl 查看获得信息 ACPI Error: No handler or method for GPE 0B, disabling event (20160108/evgpe-790) 解决办法 https://bbs.archlinux.org/viewtopic.php?id=211365 ##blacklisted sp5100_tco in /etc/modprobe.d/blacklist.conf. cd /etc/modprobe.d vim blacklist.conf ##</description>
     </item>
     
     <item>
       <title>Linux最佳文件压缩方式</title>
-      <link>https://www.futurestack.cn/cookbook/devops/linux-tar/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/linux-tar/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/linux-tar/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/linux-tar/</guid>
       <description>Linux最佳压缩方式 常用压缩方式 #压缩 tar -czvf ***.tar.gz tar -cjvf ***.tar.bz2 #解压缩 tar -xzvf ***.tar.gz tar -xjvf ***.tar.bz2 高压缩率方式 gnu tar的1.26版本开始支持lzma和xz压缩，具体压</description>
     </item>
     
     <item>
       <title>Arch Linux软件选型整理</title>
-      <link>https://www.futurestack.cn/cookbook/devops/archlinux/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/archlinux/</link>
       <pubDate>Wed, 04 Nov 2015 07:02:15 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/archlinux/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/archlinux/</guid>
       <description>#发行版本 Arch Linux 0.系统安装 0.dd dd if=/dev/zero of=/dev/sda bs=512 count=1 parted -s /dev/sda mklabel msdos fdisk m o #清空GPT/MBR分区格式 dd if=arch.iso of=/dev/sda #此处of为设备,而不是设备分区 #无法引导需要尝试切</description>
     </item>
     
     <item>
       <title>Debian常见问题汇总</title>
-      <link>https://www.futurestack.cn/faq/debianfaq/</link>
+      <link>http://www.futurestack.cn/faq/debianfaq/</link>
       <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/faq/debianfaq/</guid>
+      <guid>http://www.futurestack.cn/faq/debianfaq/</guid>
       <description>apt-get更新问题：Failed to Fetch : http:// 解决方案： cd /var/lib/apt/lists/partial rm * sshd允许Root登录 cd /etc/ssh vim sshd_config PermitRootLogin yes service ssh restart 中国国内源更换 https://lug.ustc.edu.cn/repogen/ # testing 源 deb http://mirrors.ustc.edu.cn/debian testing main contrib non-free deb-src</description>
     </item>
     
     <item>
       <title>steam for archlinux FAQ</title>
-      <link>https://www.futurestack.cn/faq/steam/</link>
+      <link>http://www.futurestack.cn/faq/steam/</link>
       <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/faq/steam/</guid>
+      <guid>http://www.futurestack.cn/faq/steam/</guid>
       <description>#FAQ:Run as root user ##Soluution:
 vim /etc/bin/steam /Cannot  #FAQ:libGL error: failed to load driver: r600
 ##Solution: http://blog.sina.com.cn/s/blog_538bb1f80101aj9u.html</description>
@@ -61,10 +61,10 @@ vim /etc/bin/steam /Cannot  #FAQ:libGL error: failed to load driver: r600
     
     <item>
       <title>sshd链接保持长期存活</title>
-      <link>https://www.futurestack.cn/cookbook/devops/sshkeepalive/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/sshkeepalive/</link>
       <pubDate>Sat, 27 Jun 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/sshkeepalive/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/sshkeepalive/</guid>
       <description>1.修改server端的etc/ssh/sshd_config 复制代码 代码如下: ClientAliveInterval 60 #server每隔60秒发送一次请求给client，然后</description>
     </item>
     

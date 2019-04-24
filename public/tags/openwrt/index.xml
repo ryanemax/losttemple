@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openwrt on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/openwrt/</link>
+    <link>http://www.futurestack.cn/tags/openwrt/</link>
     <description>Recent content in Openwrt on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Wed, 21 Oct 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OpenWrt&#43;OpenVPN穿透及公司虚拟私有网关搭建</title>
-      <link>https://www.futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
+      <link>http://www.futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
+      <guid>http://www.futurestack.cn/cookbook/network/OpenWrt&#43;OpenVPN%E7%A9%BF%E9%80%8F%E5%8F%8A%E5%85%AC%E5%8F%B8%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E7%BD%91%E5%85%B3%E6%90%AD%E5%BB%BA/</guid>
       <description>《OpenWrt+OpenVPN穿透及公司虚拟私有网关搭建》 总结 更多实用的案例参考 http://www.linuxfly.org/post/86/ - 客户端权限组及定制配置 - 服务端客户端内网互通 http://blog.ltns.info/linux/connect_two_home_networks_using_openvpn_and_openwrt/ - 内部D</description>
     </item>
     
     <item>
       <title>OpenWrt硬件选择及系统基础环境配置经验总结</title>
-      <link>https://www.futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</link>
+      <link>http://www.futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</link>
       <pubDate>Wed, 21 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://www.futurestack.cn/cookbook/network/OpenWrt%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9%E5%8F%8A%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</guid>
       <description>一、基础环境选择及搭建 1.支持硬件设备列表： http://wiki.openwrt.org/toh/start#supported.hardware.-.router.type 最佳： 联想 newifi mini 1200M AC 智能无线路由器 双频千兆穿墙 newifi mini纯净版OpenWRT兼容内核固件，集成r</description>
     </item>
     

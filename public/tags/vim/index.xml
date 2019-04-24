@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/vim/</link>
+    <link>http://www.futurestack.cn/tags/vim/</link>
     <description>Recent content in Vim on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 07 Jun 2016 18:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用于angular2项目开发的vim环境配置及插件</title>
-      <link>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</link>
+      <link>http://www.futurestack.cn/cookbook/frontend/ng2-vim/</link>
       <pubDate>Tue, 07 Jun 2016 18:00:00 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-vim/</guid>
+      <guid>http://www.futurestack.cn/cookbook/frontend/ng2-vim/</guid>
       <description>可用于ng2开发的IDE评比 intellij idea ce 2016.1.1 语法编辑 差 html/css emmet支持，默认补全&amp;lt;&amp;gt; es6 完全不支持ES6，安装es6插件无效 ng2 完全不支持a</description>
     </item>
     
     <item>
       <title>vim实用技巧实践</title>
-      <link>https://www.futurestack.cn/cookbook/tool/vimbest/</link>
+      <link>http://www.futurestack.cn/cookbook/tool/vimbest/</link>
       <pubDate>Sat, 17 Oct 2015 04:41:31 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/tool/vimbest/</guid>
+      <guid>http://www.futurestack.cn/cookbook/tool/vimbest/</guid>
       <description>实用技巧 删除一行 dd 不就行了。。为什么要鼠标选中一行之后按下backspace？ 清除一行内容S 不就行了，为什么还要鼠标选中一行然后按下back</description>
     </item>
     
     <item>
       <title>vim-go最佳实践</title>
-      <link>https://www.futurestack.cn/cookbook/tool/vim-go/</link>
+      <link>http://www.futurestack.cn/cookbook/tool/vim-go/</link>
       <pubDate>Wed, 07 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/tool/vim-go/</guid>
+      <guid>http://www.futurestack.cn/cookbook/tool/vim-go/</guid>
       <description>0.使用方法 gd 进入函数原始定义文件查看 Ctrl + N Ctrl + P 1.常见FAQ YCM,第三方包没办法自动补全问题 1.环境变量没有设置完整 设置正确环境变量 export</description>
     </item>
     
     <item>
       <title>ultisnips&#39;s md实用经验</title>
-      <link>https://www.futurestack.cn/cookbook/tool/vim-ultisnips/</link>
+      <link>http://www.futurestack.cn/cookbook/tool/vim-ultisnips/</link>
       <pubDate>Fri, 18 Sep 2015 04:27:55 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/tool/vim-ultisnips/</guid>
+      <guid>http://www.futurestack.cn/cookbook/tool/vim-ultisnips/</guid>
       <description>添加文档类型识别 ~/.vim/ftdetect/mkd.md autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown 添加自定义代码段 markdown_ryn.snippets cd ~/.vim/bundle/vim-snippets/UltiSnips/markdown_ryn.snippets</description>
     </item>
     

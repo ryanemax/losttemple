@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wget on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/wget/</link>
+    <link>http://www.futurestack.cn/tags/wget/</link>
     <description>Recent content in Wget on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 27 Oct 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/wget/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/wget/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>wget整站模板抓取案例及wget参数详解</title>
-      <link>https://www.futurestack.cn/cookbook/devops/wgetsite/</link>
+      <link>http://www.futurestack.cn/cookbook/devops/wgetsite/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/cookbook/devops/wgetsite/</guid>
+      <guid>http://www.futurestack.cn/cookbook/devops/wgetsite/</guid>
       <description>《wget整站模板抓取案例及wget参数详解》 总结、项目Github地址 https://github.com/anasinc/getsite 一、实战整站抓取案例 1.站点抓取 方式一：命令行 wget -r -p -np -k -e robots=off http://www.han-mei.com 方式</description>
     </item>
     

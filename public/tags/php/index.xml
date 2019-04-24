@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>https://www.futurestack.cn/tags/php/</link>
+    <link>http://www.futurestack.cn/tags/php/</link>
     <description>Recent content in Php on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Mon, 30 May 2016 13:43:03 +0800</lastBuildDate>
     
-	<atom:link href="https://www.futurestack.cn/tags/php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.futurestack.cn/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dreamfactory常见问题汇总</title>
-      <link>https://www.futurestack.cn/faq/dreamfactory/</link>
+      <link>http://www.futurestack.cn/faq/dreamfactory/</link>
       <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
       
-      <guid>https://www.futurestack.cn/faq/dreamfactory/</guid>
+      <guid>http://www.futurestack.cn/faq/dreamfactory/</guid>
       <description>Composer Install 依赖问题 报错缺少ext-mongodb依赖 root@iZ283foxixfZ:/var/www/df2# composer install --no-dev Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted Loading composer repositories with package information Installing dependencies from lock file Your requirements could not be resolved to an installable set of packages. Problem 1 -</description>
     </item>
     
