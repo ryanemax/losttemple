@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Baas on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/baas/</link>
+    <link>https://www.futurestack.cn/tags/baas/</link>
     <description>Recent content in Baas on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Mon, 25 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/baas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/baas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
-      <link>http://www.futurestack.cn/cookbook/backend/bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/bluemix/</guid>
       <description>前言 IOT 总评：强势的核心功能 Waston 总评：强势的核心功能 Mobile 总评：弱势但不乏亮点 Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，</description>
     </item>
     
     <item>
       <title>如何在Bluemix上搭建parse-server服务</title>
-      <link>http://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>参考资料 Parse on IBM Bluemix Migrating from Parse to Bluemix Parse server migration to IBM bluemix 自动配置步骤 git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git cf push Your-App-Name-On-Bluemix 手动配置步骤 注册Bluemix账号 http://bluemix.net 创建Cloud Foundry应用 选择Web</description>
     </item>
     
     <item>
       <title>dreamfactory常见问题汇总</title>
-      <link>http://www.futurestack.cn/faq/dreamfactory/</link>
+      <link>https://www.futurestack.cn/faq/dreamfactory/</link>
       <pubDate>Mon, 30 May 2016 13:43:03 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/dreamfactory/</guid>
+      <guid>https://www.futurestack.cn/faq/dreamfactory/</guid>
       <description>Composer Install 依赖问题 报错缺少ext-mongodb依赖 root@iZ283foxixfZ:/var/www/df2# composer install --no-dev Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted Loading composer repositories with package information Installing dependencies from lock file Your requirements could not be resolved to an installable set of packages. Problem 1 -</description>
     </item>
     
     <item>
       <title>MBaaS产品调研及私有云解决方案草稿</title>
-      <link>http://www.futurestack.cn/cookbook/backend/baas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/baas/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/baas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/baas/</guid>
       <description>热门baas简介 应用开发不可不知的五大BaaS后端云服务 baas公有云 firebase google收购的专业baas服务，完美整合angular2，在华无</description>
     </item>
     

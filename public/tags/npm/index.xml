@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Npm on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/npm/</link>
+    <link>https://www.futurestack.cn/tags/npm/</link>
     <description>Recent content in Npm on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 29 Mar 2016 10:43:03 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ionic2常见问题汇总之安装篇</title>
-      <link>http://www.futurestack.cn/faq/ionic2install/</link>
+      <link>https://www.futurestack.cn/faq/ionic2install/</link>
       <pubDate>Tue, 29 Mar 2016 10:43:03 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/ionic2install/</guid>
+      <guid>https://www.futurestack.cn/faq/ionic2install/</guid>
       <description>《ionic2常见问题汇总之安装篇》 如何安装ionic？ ## 系统包管理器，安装npm apt-get install npm nodejs ## 修正nodejs快捷方式 ln -s /usr/bin/nodejs /usr/bin/node ## 更换国内软件源</description>
     </item>
     

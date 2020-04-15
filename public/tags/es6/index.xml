@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Es6 on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/es6/</link>
+    <link>https://www.futurestack.cn/tags/es6/</link>
     <description>Recent content in Es6 on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ng2与es6初学者到底从哪里开始学起</title>
-      <link>http://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-es6-learn/</guid>
       <description>ES6 入门学习教程：http://www.hubwiz.com/class/567a414e660c92d638a68bf3 详细参考文档：htt</description>
     </item>
     

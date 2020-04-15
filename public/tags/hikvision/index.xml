@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hikvision on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/hikvision/</link>
+    <link>https://www.futurestack.cn/tags/hikvision/</link>
     <description>Recent content in Hikvision on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sun, 08 Nov 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/hikvision/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/hikvision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>萤石云开发实践</title>
-      <link>http://www.futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
+      <link>https://www.futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
+      <guid>https://www.futurestack.cn/cookbook/thirdpart/%E8%90%A4%E7%9F%B3%E4%BA%91/</guid>
       <description>《萤石云开发实践》 常用资料 SDK下载：https://open.ys7.com/sdk.html 常见问题 FAQ1:是否可以在web/手机页面</description>
     </item>
     
     <item>
       <title>IVMS7000服务端信息搜集</title>
-      <link>http://www.futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
+      <link>https://www.futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
+      <guid>https://www.futurestack.cn/cookbook/thirdpart/IVMS7000%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
       <description>基础环境 系统 Windows Server 2008 R2 光盘一：系统驱动 光盘二：安装程序 数据库 数据库Mysql 5.7 库名 cms 用户 admin 密码 12345 软件平台 1.iVMS-7000 http://wenku.baidu.com/link?url=VDUL4H-avLxvguzw1Y82KHhYDDZi6WrCxJlncYZbAQnWW3tvPEmIe87iG4zw1j_MzRSeQpu3jTsedI3KkTX10iQ-XumZvXuO7YZ6Wd1SiMi 2.iVMS-8200 备份服务器管理后台 3.iVMS-5000 集中监控管理</description>
     </item>
     

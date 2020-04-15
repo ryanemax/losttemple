@@ -2,112 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backend on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/backend/</link>
+    <link>https://www.futurestack.cn/tags/backend/</link>
     <description>Recent content in Backend on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 28 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>parse服务学习指引</title>
-      <link>http://www.futurestack.cn/cookbook/backend/parse-learn/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-learn/</link>
       <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/parse-learn/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-learn/</guid>
       <description>准备环境 系统环境 npm nodejs 服务端 parse-server mongodb 管理端 parse-dashboard 学习参考 客户端文档 https://parseplatform.github.io REST文档 https://parseplatform.github.io/docs/rest/guide/ JS文档 https://parseplatform.github.io/docs/js/guide/ PHP文档 https://parseplatform.github.io/docs/php/guide/ 服务端文档 https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide Server</description>
     </item>
     
     <item>
       <title>Bluemix中IOT/Waston/Mobile三大服务功能选择性测试及对比</title>
-      <link>http://www.futurestack.cn/cookbook/backend/bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/bluemix/</guid>
       <description>前言 IOT 总评：强势的核心功能 Waston 总评：强势的核心功能 Mobile 总评：弱势但不乏亮点 Bluemix作为优秀API整合平台，在移动端应用构建方面，略显弱势，</description>
     </item>
     
     <item>
       <title>如何在Bluemix上搭建parse-server服务</title>
-      <link>http://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/parse-server-on-bluemix/</guid>
       <description>参考资料 Parse on IBM Bluemix Migrating from Parse to Bluemix Parse server migration to IBM bluemix 自动配置步骤 git clone https://github.com/ibm-cds-labs/parse-on-bluemix.git cf push Your-App-Name-On-Bluemix 手动配置步骤 注册Bluemix账号 http://bluemix.net 创建Cloud Foundry应用 选择Web</description>
     </item>
     
     <item>
       <title>Openstack/CloudFoundry-IaaS/PaaS选型方案方案草稿</title>
-      <link>http://www.futurestack.cn/cookbook/backend/paas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas/</link>
       <pubDate>Sat, 02 Jul 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/paas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas/</guid>
       <description>写在最前面 IaaS现状（裸机Docker+OpenStack服务） OpenStack 6 OpenStack &amp;amp; Docker Predictions for 2016 2016年六大OpenStack &amp;amp; Docker发展趋势预测</description>
     </item>
     
     <item>
       <title>如何使外部客户通过不同域名，访问私有云内不同虚拟服务？</title>
-      <link>http://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</link>
       <pubDate>Sat, 02 Jul 2016 12:00:30 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/iaas-DomainToMultiVPS/</guid>
       <description>Nginx 反向代理 可通过域名转发过滤 可代理服务类型不限 针对HTTP、HTTPS等特定服务提供更强支持 nginx-rtmp-module插件可代理视频</description>
     </item>
     
     <item>
       <title>用于公开项目演示的paas服务选型</title>
-      <link>http://www.futurestack.cn/cookbook/backend/paas-deploy/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/paas-deploy/</link>
       <pubDate>Wed, 08 Jun 2016 05:54:30 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/paas-deploy/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/paas-deploy/</guid>
       <description>静态演示 Github Pages 用于纯静态应用的线上演示，支持html css javascript各版本，二进制媒体资源 费用 完全免费 个人主页 新建项目xxx/xxx.g</description>
     </item>
     
     <item>
       <title>常见开源消息系统/中间件技术评选</title>
-      <link>http://www.futurestack.cn/cookbook/backend/messagesystem/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/messagesystem/</link>
       <pubDate>Sun, 29 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/messagesystem/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/messagesystem/</guid>
       <description>《常见开源消息系统/中间件技术评选》 Golang项目中MQ系统的选择 http://stackshare.io/stackups/rabbitmq-vs-nsq RabbitMQ golang client https://github.com/streadway/amqp https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/go 适用场景：高安全性、支付业务、稳定可靠、AMQP工业标准 gonsq https://github.com/nsqio/nsq</description>
     </item>
     
     <item>
       <title>GoLang几种读文件方式的比较</title>
-      <link>http://www.futurestack.cn/cookbook/backend/golangReadFile/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangReadFile/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/golangReadFile/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangReadFile/</guid>
       <description>GoLang几种读文件方式的比较 GoLang提供了很多读文件的方式，一般来说常用的有三种。使用Read加上buffer，使用bufio库和i</description>
     </item>
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>http://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
       <description>0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写 实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location 官方实例 type User struct {</description>
     </item>
     
     <item>
       <title>Golang代码组织最佳方案</title>
-      <link>http://www.futurestack.cn/cookbook/backend/golangincase/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangincase/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/golangincase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangincase/</guid>
       <description>《Golang代码组织最佳方案》 案例一：不建议的偷懒结构 $gopath/src/github.com/ryanemax/device/pkg_phone/phone.go $gopath/src/github.com/ryanemax/device/main.go import &amp;quot;./pkg_phone&amp;quot; 案例二：Docker中也不建议的偷懒结构 gonet2示例：github.co</description>
     </item>
     
     <item>
       <title>MBaaS产品调研及私有云解决方案草稿</title>
-      <link>http://www.futurestack.cn/cookbook/backend/baas/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/baas/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/baas/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/baas/</guid>
       <description>热门baas简介 应用开发不可不知的五大BaaS后端云服务 baas公有云 firebase google收购的专业baas服务，完美整合angular2，在华无</description>
     </item>
     

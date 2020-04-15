@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Win10 on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/win10/</link>
+    <link>https://www.futurestack.cn/tags/win10/</link>
     <description>Recent content in Win10 on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sat, 27 Aug 2016 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/win10/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/win10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BashOnWindows常见问题汇总</title>
-      <link>http://www.futurestack.cn/cookbook/tool/bashonwindows/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/bashonwindows/</link>
       <pubDate>Sat, 27 Aug 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/tool/bashonwindows/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/bashonwindows/</guid>
       <description>无法启动SSH服务，由于Win自带服务冲突 https://github.com/Microsoft/BashOnWindows/issues/734 System =&amp;gt; Services =&amp;gt; disable: &amp;quot;SSH server proxy&amp;quot; &amp;quot;SSH server broker&amp;quot; 启动ssh后拒绝访问，refuse或connection closed https://github.com/Microsoft/BashOnWindows/issues/300 Actually changing UsePrivilegeSeparation to no in /etc/ssh/sshd_config</description>
     </item>
     
     <item>
       <title>Win10搭建Linux开发环境，msys2&#43;pacman大法</title>
-      <link>http://www.futurestack.cn/cookbook/devops/win10-msys2/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/win10-msys2/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/devops/win10-msys2/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/win10-msys2/</guid>
       <description>Win10搭建Linux开发环境，msys2+pacman大法 一、基础简介 http://msys2.github.io/ A Cygwin-derived software distro for Windows using Arch Linux&amp;rsquo;s Pacman FAQ:基于mintty，输入～字符出错。 F</description>
     </item>
     
     <item>
       <title>最佳Windows10工作环境推荐</title>
-      <link>http://www.futurestack.cn/cookbook/devops/win10/</link>
+      <link>https://www.futurestack.cn/cookbook/devops/win10/</link>
       <pubDate>Tue, 27 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/devops/win10/</guid>
+      <guid>https://www.futurestack.cn/cookbook/devops/win10/</guid>
       <description>最佳Windows10工作环境推荐 一、基础环境 包管理OneGet+Chocolatey Windows10了，来一个趁手的包管理器吧 快捷方式/</description>
     </item>
     
     <item>
       <title>Windows 10 开机缓慢</title>
-      <link>http://www.futurestack.cn/faq/win10/</link>
+      <link>https://www.futurestack.cn/faq/win10/</link>
       <pubDate>Mon, 17 Aug 2015 13:43:03 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/win10/</guid>
+      <guid>https://www.futurestack.cn/faq/win10/</guid>
       <description>Windows 10 开机缓慢 http://jingyan.baidu.com/article/ca41422fc2c2471eae99ed31.html http://jingyan.baidu.com/article/fedf073755a55635ad897768.html</description>
     </item>
     
     <item>
       <title>putty常用配置</title>
-      <link>http://www.futurestack.cn/cookbook/tool/putty/</link>
+      <link>https://www.futurestack.cn/cookbook/tool/putty/</link>
       <pubDate>Wed, 27 May 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/tool/putty/</guid>
+      <guid>https://www.futurestack.cn/cookbook/tool/putty/</guid>
       <description>Session设置 1.PuttyGen设置密钥，将openssh转为.ppk文件 2.Load后先编辑Appearance更改界面，再进入SS</description>
     </item>
     

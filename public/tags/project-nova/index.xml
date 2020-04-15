@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project Nova on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/project-nova/</link>
+    <link>https://www.futurestack.cn/tags/project-nova/</link>
     <description>Recent content in Project Nova on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sat, 15 Feb 2014 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/project-nova/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/project-nova/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project Nova 知识体系</title>
-      <link>http://www.futurestack.cn/game/projectnova/jobclass/</link>
+      <link>https://www.futurestack.cn/game/projectnova/jobclass/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/game/projectnova/jobclass/</guid>
+      <guid>https://www.futurestack.cn/game/projectnova/jobclass/</guid>
       <description>知识体系 游戏中无职业划分，整个游戏模式是高自由度探索类型，玩家可以朝任何一个可能存在的方向发展。大概有如下的知识体系： 战斗系 器械系 建筑系 贸易</description>
     </item>
     
     <item>
       <title>Project Nova 背景概述</title>
-      <link>http://www.futurestack.cn/game/projectnova/history/</link>
+      <link>https://www.futurestack.cn/game/projectnova/history/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/game/projectnova/history/</guid>
+      <guid>https://www.futurestack.cn/game/projectnova/history/</guid>
       <description>背景概述 21世纪，神秘能量降临地球，散布在我们身边的每个角落。没人知道它们来自哪里，没人懂得如何使用它们，它的存在只被少数人知道。大自然某些</description>
     </item>
     
     <item>
       <title>Project Nova 能量体系</title>
-      <link>http://www.futurestack.cn/game/projectnova/powerexp/</link>
+      <link>https://www.futurestack.cn/game/projectnova/powerexp/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/game/projectnova/powerexp/</guid>
+      <guid>https://www.futurestack.cn/game/projectnova/powerexp/</guid>
       <description>能量体系 能量微粒 散布范围最广的能量形式，会被特殊信号吸引，并且汇集，从而组成能量晶体。 能量晶体 规则的多边形小能量块，积累到一定数量后，可以组</description>
     </item>
     
     <item>
       <title>Project Nova 道具体系</title>
-      <link>http://www.futurestack.cn/game/projectnova/itemclass/</link>
+      <link>https://www.futurestack.cn/game/projectnova/itemclass/</link>
       <pubDate>Sat, 15 Feb 2014 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/game/projectnova/itemclass/</guid>
+      <guid>https://www.futurestack.cn/game/projectnova/itemclass/</guid>
       <description>道具体系 类别 攻击类 由能量晶体构造出的攻击性武器，可以将能量以放射形式发出，对其他能量构造体产生干扰及伤害。 干扰类 破坏类 防御类 由能量晶体构造出</description>
     </item>
     

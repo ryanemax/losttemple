@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raml on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/raml/</link>
+    <link>https://www.futurestack.cn/tags/raml/</link>
     <description>Recent content in Raml on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sun, 08 Nov 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/raml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/raml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RAML-Parser各大语言解析器评选</title>
-      <link>http://www.futurestack.cn/cookbook/api/raml-paser/</link>
+      <link>https://www.futurestack.cn/cookbook/api/raml-paser/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/raml-paser/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/raml-paser/</guid>
       <description>《RAML-Parser各大语言解析器评选》 前言、好的解析器是API自动化工具链必备之环 PS:可以直接到底部看结论。 In the Beginning, I Want to figure out which raml-Parsers is the</description>
     </item>
     
     <item>
       <title>raml 1.0 与 raml 0.8区别之处</title>
-      <link>http://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</link>
+      <link>https://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</guid>
       <description>《raml 1.0 与 raml 0.8区别之处》 type与schema 1.0中新增的type概念类似于Objects对象或Model模型，与0.8中sche</description>
     </item>
     
     <item>
       <title>raml相关的generator</title>
-      <link>http://www.futurestack.cn/cookbook/api/raml-generator/</link>
+      <link>https://www.futurestack.cn/cookbook/api/raml-generator/</link>
       <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/raml-generator/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/raml-generator/</guid>
       <description>raml-client-generator https://github.com/mulesoft/raml-client-generator supported languages - javascript raml-for-jax-rs https://github.com/mulesoft/raml-for-jax-rs Java for JAX-RS raml2code https://github.com/gextech/raml2code raml2code-groovy-pojo raml2code-jaxrs-interfaces raml2code-js-client raml2code-retrofit raml about golang http://forum.raml.org/t/go-based-raml-parser/592/2 - https://godoc.org/gopkg.in/raml.v0 - https://github.com/go-raml/raml/tree/v0 raml for php phpsx.org https://github.com/k42b3/psx Logic层，分离service Table自动创建sql表的CRUD Multi-Response Generation(Controoler,Json,XML,Atom,Soap,Jsonx) Dependency managment(PSX comes with</description>
     </item>
     
     <item>
       <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
-      <link>http://www.futurestack.cn/cookbook/api/mulesoft/</link>
+      <link>https://www.futurestack.cn/cookbook/api/mulesoft/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/mulesoft/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/mulesoft/</guid>
       <description>0. MuleSoft与RAML MuleSoft专注企业Saas集成，获5000亿美元估值 开源3个RAML的API设计、测试、自动化工具 联合An</description>
     </item>
     
     <item>
       <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
-      <link>http://www.futurestack.cn/cookbook/api/newforraml/</link>
+      <link>https://www.futurestack.cn/cookbook/api/newforraml/</link>
       <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/newforraml/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/newforraml/</guid>
       <description>0.0 前言 自己的团队是以Agile敏捷管理方式构建的，为了前后端的分离，使各端工程师更加专注得进行自己所负责的模块与功能。 好用的东西整理在前面：</description>
     </item>
     

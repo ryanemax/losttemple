@@ -1,6 +1,6 @@
 # hueman-ryn
 
-Demo: [http://www.futurestack.cn/](http://www.futurestack.cn/)
+Demo: [https://www.futurestack.cn/](https://www.futurestack.cn/)
 
 ## Step1 Install Hugo
 

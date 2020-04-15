@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Odoo on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/odoo/</link>
+    <link>https://www.futurestack.cn/tags/odoo/</link>
     <description>Recent content in Odoo on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sat, 27 Feb 2016 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Odoo9会计模块常见问题</title>
-      <link>http://www.futurestack.cn/faq/odoo/faq-accounting/</link>
+      <link>https://www.futurestack.cn/faq/odoo/faq-accounting/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/odoo/faq-accounting/</guid>
+      <guid>https://www.futurestack.cn/faq/odoo/faq-accounting/</guid>
       <description>货币选项中无CNY 原因分析 货币——CNY——未设置为有效 解决方案 http://anasit.com/web#page=0&amp;amp;limit=80&amp;amp;view_type=list&amp;amp;model=res.currency&amp;amp;action=66 任务——会计——货币中将CNY设为有效 开启会计科目后，导致销售人员无法添加</description>
     </item>
     
     <item>
       <title>Odoo9入门学习手册</title>
-      <link>http://www.futurestack.cn/faq/odoo/learn/</link>
+      <link>https://www.futurestack.cn/faq/odoo/learn/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/odoo/learn/</guid>
+      <guid>https://www.futurestack.cn/faq/odoo/learn/</guid>
       <description>使用手册 https://www.odoo.com/documentation/user/9.0/ 资料站点 http://www.oejia.net/ http://shine-it.net</description>
     </item>
     
     <item>
       <title>Odoo9多域名如何解析多数据库</title>
-      <link>http://www.futurestack.cn/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+      <link>https://www.futurestack.cn/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+      <guid>https://www.futurestack.cn/faq/odoo/%E5%A4%9A%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
       <description>Odoo9多域名解析多数据库规则 配置文件 ## Debian /etc/odoo/openerp-server.conf dbfilter = ^%d$ # 即取 OE WEB访问时取地址栏上 域名的第末子域. # 即 http://db001.openerp.com 访问时, 会自动设置为 dbfilter = db001 源码 部分情</description>
     </item>
     
     <item>
       <title>Odoo9有哪些优秀第三方模块</title>
-      <link>http://www.futurestack.cn/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
+      <link>https://www.futurestack.cn/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://www.futurestack.cn/faq/odoo/%E4%BC%98%E7%A7%80%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A8%A1%E5%9D%97/</guid>
       <description>Payment支付 odoo 8.0 https://github.com/odoo-cn/payment alipay 支付宝 [done] tenpay 财付通 [done] chinabank 银联 weixin 微信支付 [done] allPay 台湾欧付宝 [done] 声明 未经许可，不得用于商业用途！！ 微信 odoo 8.0 https://github.com/JoneXiong/oejia_wx</description>
     </item>
     
     <item>
       <title>Odoo9系统设置栏目常见问题</title>
-      <link>http://www.futurestack.cn/faq/odoo/faq-system/</link>
+      <link>https://www.futurestack.cn/faq/odoo/faq-system/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/odoo/faq-system/</guid>
+      <guid>https://www.futurestack.cn/faq/odoo/faq-system/</guid>
       <description>无法保存照片/无法发送邮件 https://www.odoo.com/forum/help-1/question/cant-upload-images-905 无法保存照片/无法发送邮件，之前配置一切正常，日志无报错内容，无法排查问题所在 原因分析 413 Request Entity Too Large nginx/1.6.2 nginx 大文件配置问</description>
     </item>
     
     <item>
       <title>Odoo9销售模块常见问题</title>
-      <link>http://www.futurestack.cn/faq/odoo/faq-sales/</link>
+      <link>https://www.futurestack.cn/faq/odoo/faq-sales/</link>
       <pubDate>Sat, 27 Feb 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/faq/odoo/faq-sales/</guid>
+      <guid>https://www.futurestack.cn/faq/odoo/faq-sales/</guid>
       <description>系列产品可设置不同标价，但无法设置不同成本 原因分析 解决方案</description>
     </item>
     

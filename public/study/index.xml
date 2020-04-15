@@ -2,157 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Studies on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/study/</link>
+    <link>https://www.futurestack.cn/study/</link>
     <description>Recent content in Studies on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Fri, 24 Feb 2017 14:07:07 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/study/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/study/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown制作书籍出版实践笔记</title>
-      <link>http://www.futurestack.cn/study/markdown2book/</link>
+      <link>https://www.futurestack.cn/study/markdown2book/</link>
       <pubDate>Fri, 24 Feb 2017 14:07:07 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/markdown2book/</guid>
+      <guid>https://www.futurestack.cn/study/markdown2book/</guid>
       <description>前言 前几篇markdown系列文章中，已经尝试使用pandoc快速制作PPT、PDF、论文等中小篇幅的排版文件，http://pandoc.</description>
     </item>
     
     <item>
       <title>Markdown制作ppt最佳实践</title>
-      <link>http://www.futurestack.cn/study/markdown2ppt/</link>
+      <link>https://www.futurestack.cn/study/markdown2ppt/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/markdown2ppt/</guid>
+      <guid>https://www.futurestack.cn/study/markdown2ppt/</guid>
       <description>Markdown制作PPT最佳实践 http://pandoc.org/demos.html 一、reveal.js + pandoc（推荐） HTML便于CSS样式修改 多种Theme主题，灵活，简洁 可整</description>
     </item>
     
     <item>
       <title>markdown写中国国内论文最佳实践</title>
-      <link>http://www.futurestack.cn/study/markdown2paper/</link>
+      <link>https://www.futurestack.cn/study/markdown2paper/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/markdown2paper/</guid>
+      <guid>https://www.futurestack.cn/study/markdown2paper/</guid>
       <description>前置学习引导 如何用markdown生成带目录、页眉、页脚的pdf？ 常用模板数值 字体/字号 # 安装字体命令 # 复制新字体到/usr/share/f</description>
     </item>
     
     <item>
       <title>如何用markdown生成带目录、页眉、页脚的pdf？ </title>
-      <link>http://www.futurestack.cn/study/markdown2pdf/</link>
+      <link>https://www.futurestack.cn/study/markdown2pdf/</link>
       <pubDate>Thu, 31 Mar 2016 20:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/markdown2pdf/</guid>
+      <guid>https://www.futurestack.cn/study/markdown2pdf/</guid>
       <description>如何用markdown生成带目录、页眉、页脚的pdf？ http://pandoc.org/demos.html TODO List [OK] 实现基础的md转pdf的shell脚本 将md转pdf封装成云服务，为整个安纳斯</description>
     </item>
     
     <item>
       <title>Latex工具插件</title>
-      <link>http://www.futurestack.cn/study/latex/</link>
+      <link>https://www.futurestack.cn/study/latex/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/latex/</guid>
+      <guid>https://www.futurestack.cn/study/latex/</guid>
       <description>Atom Latex插件 latex latex-friend Vim Latex插件</description>
     </item>
     
     <item>
       <title>论文生成工具</title>
-      <link>http://www.futurestack.cn/study/tools/</link>
+      <link>https://www.futurestack.cn/study/tools/</link>
       <pubDate>Sun, 27 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/tools/</guid>
+      <guid>https://www.futurestack.cn/study/tools/</guid>
       <description>SCIGen论文生成器 http://pdos.csail.mit.edu/scigen/ 下面就是一篇自动生成的名作： http://pdos.csail.mit.edu/scigen/rooter.pdf Rooter: A Methodology for the Typical Unification of Access Points and Redundancy</description>
     </item>
     
     <item>
       <title>国税地税申报流程整理</title>
-      <link>http://www.futurestack.cn/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</link>
+      <link>https://www.futurestack.cn/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Tue, 15 Mar 2016 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
+      <guid>https://www.futurestack.cn/study/finance/%E5%9B%BD%E7%A8%8E%E5%9C%B0%E7%A8%8E%E7%94%B3%E6%8A%A5%E6%B5%81%E7%A8%8B/</guid>
       <description>江西地税（企业个人所得税） 进入税友网 http://www.4007112366.com/ 下载 个税基础安装包（金税三期标准版） 地址：http://jx.4007112366.com/?m=co</description>
     </item>
     
     <item>
       <title>去中心化贸易及货币的&#39;反祖现象&#39;探讨</title>
-      <link>http://www.futurestack.cn/study/finance/DecentralizationTradingAndDigitalCurency/</link>
+      <link>https://www.futurestack.cn/study/finance/DecentralizationTradingAndDigitalCurency/</link>
       <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
+      <guid>https://www.futurestack.cn/study/finance/DecentralizationTradingAndDigitalCurency/</guid>
       <description>去中心化贸易及货币的&amp;rsquo;反祖现象&amp;rsquo;探讨&amp;rdquo; 0.Info Key Words Decntralization Trading Digital Curency/BitCoin OpenBazaar 前言 构思这篇关于去中心化贸易论文的时候我满怀激动，</description>
     </item>
     
     <item>
       <title>金融方向个人职业规划</title>
-      <link>http://www.futurestack.cn/study/finance/README/</link>
+      <link>https://www.futurestack.cn/study/finance/README/</link>
       <pubDate>Fri, 04 Dec 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/finance/README/</guid>
+      <guid>https://www.futurestack.cn/study/finance/README/</guid>
       <description>金融方向个人职业规划 主攻领域：金融衍生品、期货、外汇、大宗商品交易 外汇是各国货币比、贵金属、原油、天然气、CFD合约，国内正在起步发展，没有</description>
     </item>
     
     <item>
       <title>易的研究与学习</title>
-      <link>http://www.futurestack.cn/study/metaphysics/learnichang/</link>
+      <link>https://www.futurestack.cn/study/metaphysics/learnichang/</link>
       <pubDate>Mon, 19 Oct 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/metaphysics/learnichang/</guid>
+      <guid>https://www.futurestack.cn/study/metaphysics/learnichang/</guid>
       <description>学习方法 六经注我，我注六经。 通读、背诵原文 比较分析众家注释 判断归纳自己的注释 学习书目 易经 连山易 失传 归藏易 存本 周易 完整 黄帝内经 医理 黄帝内经素问</description>
     </item>
     
     <item>
       <title>探究归纳精神力相关的知识体系</title>
-      <link>http://www.futurestack.cn/study/metaphysics/mindpower/</link>
+      <link>https://www.futurestack.cn/study/metaphysics/mindpower/</link>
       <pubDate>Sun, 18 Oct 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/metaphysics/mindpower/</guid>
+      <guid>https://www.futurestack.cn/study/metaphysics/mindpower/</guid>
       <description>探究归纳精神力相关的知识体系 目的 解决10000小时理论实践过程中，注意力与意志力的培养问题 对自身与自然的不断感悟与探索，引导大家更加高效得控</description>
     </item>
     
     <item>
       <title>FullStackOfNewGeneration/链接现实与信息系统的全栈开发技术</title>
-      <link>http://www.futurestack.cn/study/it/FullStackOfNewGeneration/</link>
+      <link>https://www.futurestack.cn/study/it/FullStackOfNewGeneration/</link>
       <pubDate>Sun, 18 Oct 2015 09:46:37 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/it/FullStackOfNewGeneration/</guid>
+      <guid>https://www.futurestack.cn/study/it/FullStackOfNewGeneration/</guid>
       <description>0.Short Intro. our team using the similar stack with lean. Front-End: Desktop: Electron Mobile: Ionic + Cordova Plugin Design Material-Design for Angularjs&amp;rsquo;s Desktop apps. Ionic-Material for Angularjs&amp;rsquo;s Mobile apps. Back-End Laravel for normal HTTP REST API. Golang for Internet of Thing&amp;rsquo;s Socket API &amp;amp; our Gis System. RAML for generating SDK files both of front/back-end. Admiring that RAML1.0 is comming. Database Postgresql(for gis) we like it very much. MongoDB(for user</description>
     </item>
     
     <item>
       <title>写作需要的技巧、工具等，写在正式写论文之前</title>
-      <link>http://www.futurestack.cn/study/WritingSkill/</link>
+      <link>https://www.futurestack.cn/study/WritingSkill/</link>
       <pubDate>Sun, 18 Oct 2015 05:03:54 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/WritingSkill/</guid>
+      <guid>https://www.futurestack.cn/study/WritingSkill/</guid>
       <description>参考： [1] 用Markdown来写自由书籍-开源技术的方案 [2] Markdown+Pandoc：A light-weight solution for academia writing 0.写作置标语言选择 0.1 已选择 markdown sagemath 1.写作</description>
     </item>
     
     <item>
       <title>心理学学习计划</title>
-      <link>http://www.futurestack.cn/study/psychology/learn/</link>
+      <link>https://www.futurestack.cn/study/psychology/learn/</link>
       <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/psychology/learn/</guid>
+      <guid>https://www.futurestack.cn/study/psychology/learn/</guid>
       <description>《心理学学习计划》 基础书籍学习 易学与心理学 人物 真实姓名：姜祖桐 百度百科： http://baike.baidu.com/link?url=-iI6YTYHU256bKvWXQ56FPyDIA2L-Pb966fWQDD8vIaNouL50PayRtErtTkgyTo1ZrSA3-YVB6ORLsLjWK5Jn_ 童仆的博客：http://blog.sina.com.cn/u/1</description>
     </item>
     
     <item>
       <title>心理学实用理论整理</title>
-      <link>http://www.futurestack.cn/study/psychology/value/</link>
+      <link>https://www.futurestack.cn/study/psychology/value/</link>
       <pubDate>Wed, 04 Mar 2015 11:39:42 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/psychology/value/</guid>
+      <guid>https://www.futurestack.cn/study/psychology/value/</guid>
       <description>巴甫诺夫——动力定型 生理机制 在日常生活中，如果一个人比较稳定地从事某一活动，客观刺激的系统经常按照一定前后和强弱作用于有机体。由于大脑皮层有</description>
     </item>
     
     <item>
       <title>战争从未改变</title>
-      <link>http://www.futurestack.cn/study/it/warneverchange/</link>
+      <link>https://www.futurestack.cn/study/it/warneverchange/</link>
       <pubDate>Fri, 09 Jan 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/study/it/warneverchange/</guid>
+      <guid>https://www.futurestack.cn/study/it/warneverchange/</guid>
       <description>序言：战争从未改变 War，War Never changes 关键字：战争 信息时代 War. War Never changes. 战争从来就没有变过 the romans waged war to gather slaves and wealth. spain built an empire from its lust for gold and territory. hitler shaped a battered germany into an economic superpower.</description>
     </item>
     

@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/api/</link>
+    <link>https://www.futurestack.cn/tags/api/</link>
     <description>Recent content in Api on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Sun, 05 Jun 2016 03:53:23 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>API领域创业公司及其发展动态浅析</title>
-      <link>http://www.futurestack.cn/cookbook/api/apitrends/</link>
+      <link>https://www.futurestack.cn/cookbook/api/apitrends/</link>
       <pubDate>Sun, 05 Jun 2016 03:53:23 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/apitrends/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/apitrends/</guid>
       <description>简介 API 生态图解 位置 项目/公司 MBaaS服务 实时 firebase wilddog apicloud / 非实时 dreamfactory bluemix APIs仓库 apis.guru 构建工具链 mulesoft restlet apigee 底层规则 raml swagger 使用RAML与APIkit以实现A</description>
     </item>
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>http://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
       <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
     </item>
     
     <item>
       <title>RAML-Parser各大语言解析器评选</title>
-      <link>http://www.futurestack.cn/cookbook/api/raml-paser/</link>
+      <link>https://www.futurestack.cn/cookbook/api/raml-paser/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/raml-paser/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/raml-paser/</guid>
       <description>《RAML-Parser各大语言解析器评选》 前言、好的解析器是API自动化工具链必备之环 PS:可以直接到底部看结论。 In the Beginning, I Want to figure out which raml-Parsers is the</description>
     </item>
     
     <item>
       <title>raml 1.0 与 raml 0.8区别之处</title>
-      <link>http://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</link>
+      <link>https://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/ramldiff0.8-1.0/</guid>
       <description>《raml 1.0 与 raml 0.8区别之处》 type与schema 1.0中新增的type概念类似于Objects对象或Model模型，与0.8中sche</description>
     </item>
     
     <item>
       <title>golang的restful框架选择</title>
-      <link>http://www.futurestack.cn/cookbook/api/golangforrest/</link>
+      <link>https://www.futurestack.cn/cookbook/api/golangforrest/</link>
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/golangforrest/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/golangforrest/</guid>
       <description>0.必备功能 坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能 RAML支持 CORS支持 JSON支持 良好的Route</description>
     </item>
     
     <item>
       <title>raml相关的generator</title>
-      <link>http://www.futurestack.cn/cookbook/api/raml-generator/</link>
+      <link>https://www.futurestack.cn/cookbook/api/raml-generator/</link>
       <pubDate>Wed, 26 Aug 2015 20:40:06 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/raml-generator/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/raml-generator/</guid>
       <description>raml-client-generator https://github.com/mulesoft/raml-client-generator supported languages - javascript raml-for-jax-rs https://github.com/mulesoft/raml-for-jax-rs Java for JAX-RS raml2code https://github.com/gextech/raml2code raml2code-groovy-pojo raml2code-jaxrs-interfaces raml2code-js-client raml2code-retrofit raml about golang http://forum.raml.org/t/go-based-raml-parser/592/2 - https://godoc.org/gopkg.in/raml.v0 - https://github.com/go-raml/raml/tree/v0 raml for php phpsx.org https://github.com/k42b3/psx Logic层，分离service Table自动创建sql表的CRUD Multi-Response Generation(Controoler,Json,XML,Atom,Soap,Jsonx) Dependency managment(PSX comes with</description>
     </item>
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>http://www.futurestack.cn/cookbook/api/restlet-java/</link>
+      <link>https://www.futurestack.cn/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/restlet-java/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/restlet-java/</guid>
       <description>那么java最潮流的RESTful API开发框架及模式是什么 jersey jax-rs maven jetty swagger 2.x 最佳规范jax-rs zt 比较各JAX-RS实现：CXF,Jersey,</description>
     </item>
     
     <item>
       <title>这一天团队遇见了MuleSoft，打造RAML的协作平台</title>
-      <link>http://www.futurestack.cn/cookbook/api/mulesoft/</link>
+      <link>https://www.futurestack.cn/cookbook/api/mulesoft/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/mulesoft/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/mulesoft/</guid>
       <description>0. MuleSoft与RAML MuleSoft专注企业Saas集成，获5000亿美元估值 开源3个RAML的API设计、测试、自动化工具 联合An</description>
     </item>
     
     <item>
       <title>当敏捷团队碰撞RESTful，RAML心得体会</title>
-      <link>http://www.futurestack.cn/cookbook/api/newforraml/</link>
+      <link>https://www.futurestack.cn/cookbook/api/newforraml/</link>
       <pubDate>Fri, 14 Aug 2015 12:49:24 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/newforraml/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/newforraml/</guid>
       <description>0.0 前言 自己的团队是以Agile敏捷管理方式构建的，为了前后端的分离，使各端工程师更加专注得进行自己所负责的模块与功能。 好用的东西整理在前面：</description>
     </item>
     

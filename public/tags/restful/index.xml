@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Restful on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/restful/</link>
+    <link>https://www.futurestack.cn/tags/restful/</link>
     <description>Recent content in Restful on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Tue, 17 May 2016 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/restful/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/restful/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ionic2与ng2基于RESTful的HTTP数据处理技术选型</title>
-      <link>http://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-restful/</guid>
       <description>基础选型 回顾AngularJS 1 结论：ng1采用较为成熟的RESTangular第三方组件。 Angularjs 1 中可选的数据处理方法有以下三种： - $http 框架自带</description>
     </item>
     
     <item>
       <title>ng2基于firebase的第三方库对接详解（草稿）</title>
-      <link>http://www.futurestack.cn/cookbook/frontend/ng2-firebase/</link>
+      <link>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
+      <guid>https://www.futurestack.cn/cookbook/frontend/ng2-firebase/</guid>
       <description>Firebase AngularFire2 https://angularfire2.com/api/ https://github.com/angular/angularfire2 所有ng2应用示例 http://builtwithangular2.com/</description>
     </item>
     
     <item>
       <title>RESTful API规范解决方案评选</title>
-      <link>http://www.futurestack.cn/cookbook/api/restapi/</link>
+      <link>https://www.futurestack.cn/cookbook/api/restapi/</link>
       <pubDate>Sun, 08 Nov 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/restapi/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/restapi/</guid>
       <description>1.描述语言选择 Swagger.io 首选 Apigee发布了API Studio——用来创建、测试和共享API的免费在线工具。 http://apistudio.io/ API Studio基于知名的Swagg</description>
     </item>
     
     <item>
       <title>golang的restful框架选择</title>
-      <link>http://www.futurestack.cn/cookbook/api/golangforrest/</link>
+      <link>https://www.futurestack.cn/cookbook/api/golangforrest/</link>
       <pubDate>Fri, 04 Sep 2015 15:27:48 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/golangforrest/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/golangforrest/</guid>
       <description>0.必备功能 坑多了，自然想多要一些糖，这样一个理想的RESTful框架，至少需要以下功能 RAML支持 CORS支持 JSON支持 良好的Route</description>
     </item>
     
     <item>
       <title>Restlet，当java遇见RESTfulAPIs</title>
-      <link>http://www.futurestack.cn/cookbook/api/restlet-java/</link>
+      <link>https://www.futurestack.cn/cookbook/api/restlet-java/</link>
       <pubDate>Wed, 26 Aug 2015 17:37:32 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/api/restlet-java/</guid>
+      <guid>https://www.futurestack.cn/cookbook/api/restlet-java/</guid>
       <description>那么java最潮流的RESTful API开发框架及模式是什么 jersey jax-rs maven jetty swagger 2.x 最佳规范jax-rs zt 比较各JAX-RS实现：CXF,Jersey,</description>
     </item>
     

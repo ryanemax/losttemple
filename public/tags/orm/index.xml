@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orm on 未来全栈 | Ryane Liu(刘雨飏)</title>
-    <link>http://www.futurestack.cn/tags/orm/</link>
+    <link>https://www.futurestack.cn/tags/orm/</link>
     <description>Recent content in Orm on 未来全栈 | Ryane Liu(刘雨飏)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright (c) 2007-2017, Ryn&#39;s Blog; all rights reserved.</copyright>
     <lastBuildDate>Thu, 08 Oct 2015 15:05:51 +0800</lastBuildDate>
     
-	<atom:link href="http://www.futurestack.cn/tags/orm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.futurestack.cn/tags/orm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Golang database/sql &amp; GORM</title>
-      <link>http://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
+      <link>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</link>
       <pubDate>Thu, 08 Oct 2015 15:05:51 +0800</pubDate>
       
-      <guid>http://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
+      <guid>https://www.futurestack.cn/cookbook/backend/golangsqlorm/</guid>
       <description>0.Models写法技巧及Migration标准 法则 基本满足大驼峰命名法则 首字母大写 &amp;ldquo;_&amp;rdquo; 忽略后大写 实例 device_id 对应 DeviceID create_time 对应 CreateTime location 对应 Location 官方实例 type User struct {</description>
     </item>
     
